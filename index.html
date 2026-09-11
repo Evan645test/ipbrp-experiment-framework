@@ -143,12 +143,103 @@
       padding-bottom: 70px;
     }
 
+    .content-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 350px;
+      gap: 18px;
+      align-items: start;
+    }
+
     .diagram-card {
       overflow: hidden;
       border: 1px solid rgba(148, 163, 184, 0.52);
       border-radius: var(--radius);
       background: rgba(255, 255, 255, 0.94);
       box-shadow: var(--shadow);
+    }
+
+    .stats-panel {
+      position: sticky;
+      top: 78px;
+      max-height: calc(100vh - 96px);
+      overflow: auto;
+      padding: 18px;
+      border: 1px solid rgba(49, 95, 145, 0.34);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.95);
+      box-shadow: var(--shadow);
+      scrollbar-width: thin;
+    }
+
+    .stats-panel h2 {
+      margin: 0;
+      color: var(--accent);
+      font-size: 22px;
+      line-height: 1.3;
+    }
+
+    .stats-intro {
+      margin: 7px 0 14px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .stats-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .stat-item {
+      padding: 13px;
+      border: 1px solid #d9e1ea;
+      border-left: 4px solid var(--stat-color, var(--accent));
+      border-radius: 11px;
+      background: #f9fbfd;
+    }
+
+    .stat-name {
+      display: flex;
+      gap: 7px;
+      align-items: baseline;
+      margin: 0;
+      font-size: 15px;
+      line-height: 1.35;
+    }
+
+    .stat-name span {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 650;
+    }
+
+    .stat-meaning,
+    .stat-reason,
+    .stat-caution {
+      margin: 6px 0 0;
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .stat-meaning { color: var(--text); }
+    .stat-reason { color: #475569; }
+    .stat-caution { color: #98513f; }
+
+    .stat-label {
+      margin-right: 4px;
+      font-size: 11px;
+      font-weight: 850;
+      letter-spacing: 0.04em;
+    }
+
+    .stats-key {
+      margin-top: 12px;
+      padding: 12px 13px;
+      border-radius: 11px;
+      background: var(--accent-soft);
+      color: #294f77;
+      font-size: 13px;
+      line-height: 1.6;
     }
 
     .status {
@@ -453,6 +544,22 @@
       .detail-content { padding: 24px 19px max(28px, env(safe-area-inset-bottom)); }
     }
 
+    @media (max-width: 1120px) {
+      .content-grid { grid-template-columns: 1fr; }
+
+      .stats-panel {
+        position: static;
+        max-height: none;
+      }
+
+      .stats-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 680px) {
+      .stats-list { grid-template-columns: 1fr; }
+      .stats-panel { padding: 16px 12px; }
+    }
+
     @media (max-width: 420px) {
       .zoom-label { display: none; }
       .hero p { font-size: 14px; }
@@ -465,10 +572,19 @@
       .hero { padding: 0 0 8px; }
       .hero h1 { font-size: 20pt; }
       .page { width: 100%; padding: 0; }
+      .content-grid { display: block; }
       .diagram-card { border: 0; box-shadow: none; }
       .diagram-viewport { display: block; max-height: none; min-height: 0; overflow: visible; }
       .diagram-canvas, .diagram-canvas.free-size { width: 100% !important; min-width: 0; padding: 0; }
       .diagram-canvas svg { width: 100% !important; max-height: 175mm; }
+      .stats-panel {
+        position: static;
+        max-height: none;
+        margin-top: 8mm;
+        break-before: page;
+        box-shadow: none;
+      }
+      .stats-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     }
   </style>
 </head>
@@ -492,18 +608,88 @@
   </header>
 
   <main class="page">
-    <section class="diagram-card" aria-label="Mermaid實驗架構圖">
-      <div id="status" class="status" role="status" aria-live="polite">
-        <span class="spinner" aria-hidden="true"></span>
-        正在載入Mermaid並繪製架構圖⋯⋯
-      </div>
-      <div id="diagramViewport" class="diagram-viewport" tabindex="0">
-        <div id="diagramCanvas" class="diagram-canvas"></div>
-      </div>
-      <div class="hint">點擊任一格可查看說明。手機可在圖內滑動；按「符合寬度」可回到完整圖。</div>
-    </section>
+    <div class="content-grid">
+      <section class="diagram-card" aria-label="Mermaid實驗架構圖">
+        <div id="status" class="status" role="status" aria-live="polite">
+          <span class="spinner" aria-hidden="true"></span>
+          正在載入Mermaid並繪製架構圖⋯⋯
+        </div>
+        <div id="diagramViewport" class="diagram-viewport" tabindex="0">
+          <div id="diagramCanvas" class="diagram-canvas"></div>
+        </div>
+        <div class="hint">點擊任一格可查看說明。手機可在圖內滑動；按「符合寬度」可回到完整圖。</div>
+      </section>
 
-    <details>
+      <aside class="stats-panel" aria-labelledby="statsTitle">
+        <h2 id="statsTitle">統計方法怎麼看？</h2>
+        <p class="stats-intro">這一欄說明每個方法在檢查什麼、為什麼本研究需要它，以及閱讀結果時要注意的地方。</p>
+
+        <div class="stats-list">
+          <article class="stat-item" style="--stat-color:#957215">
+            <h3 class="stat-name">G*Power<span>事前檢定力分析</span></h3>
+            <p class="stat-meaning"><span class="stat-label">意義</span>介入前先估算至少需要多少參與者。</p>
+            <p class="stat-reason"><span class="stat-label">為何使用</span>避免樣本太少，導致真實效果存在卻檢驗不出來。作者設定中等效果量、α＝.05及檢定力.90，估計至少需要36人；實際納入95人。</p>
+          </article>
+
+          <article class="stat-item" style="--stat-color:#315f91">
+            <h3 class="stat-name">Shapiro-Wilk<span>常態性檢定</span></h3>
+            <p class="stat-meaning"><span class="stat-label">意義</span>檢查資料是否明顯偏離常態分布。</p>
+            <p class="stat-reason"><span class="stat-label">為何使用</span>t檢定與線性模型都需要合理的分布假設。</p>
+            <p class="stat-caution"><span class="stat-label">注意</span>p＞.05只代表沒有發現明顯偏離，不能證明資料完全符合常態。</p>
+          </article>
+
+          <article class="stat-item" style="--stat-color:#315f91">
+            <h3 class="stat-name">獨立樣本t檢定<span>前測組間比較</span></h3>
+            <p class="stat-meaning"><span class="stat-label">意義</span>比較I-PBRP與C-PBRP兩組在T0前測的平均數。</p>
+            <p class="stat-reason"><span class="stat-label">為何使用</span>先確認兩組在課程開始前是否已有明顯能力差異。</p>
+            <p class="stat-caution"><span class="stat-label">注意</span>前測不顯著不等於兩組被證明完全相等。</p>
+          </article>
+
+          <article class="stat-item" style="--stat-color:#315f91">
+            <h3 class="stat-name">Simple time effect<span>組內時間效果</span></h3>
+            <p class="stat-meaning"><span class="stat-label">意義</span>分別檢查每一組從T0、T1到T2是否隨時間改變。</p>
+            <p class="stat-reason"><span class="stat-label">為何使用</span>回答「這一組孩子經過12週後，自己有沒有進步」。</p>
+            <p class="stat-caution"><span class="stat-label">注意</span>兩組各自顯著進步，不能直接證明其中一組比較好。</p>
+          </article>
+
+          <article class="stat-item" style="--stat-color:#315f91">
+            <h3 class="stat-name">線性混合效應模型<span>LMM</span></h3>
+            <p class="stat-meaning"><span class="stat-label">意義</span>同時估計時間、組別、Group × Time及參與者個別差異。</p>
+            <p class="stat-reason"><span class="stat-label">為何使用</span>同一名幼兒被測量三次，三筆分數彼此相關；隨機截距可以處理這種重複測量結構。</p>
+            <p class="stat-caution"><span class="stat-label">重點</span>判斷I-PBRP是否較好，要看Group × Time，而不是只看各組自己的p值。</p>
+          </article>
+
+          <article class="stat-item" style="--stat-color:#4f46e5">
+            <h3 class="stat-name">β、95% CI與p值<span>效果估計</span></h3>
+            <p class="stat-meaning"><span class="stat-label">意義</span>β表示差異方向與大小；CI表示估計的不確定範圍；p值表示資料對「沒有差異」的反證程度。</p>
+            <p class="stat-caution"><span class="stat-label">注意</span>p＜.05不代表效果一定很大，也不等於具有實際教育價值。</p>
+          </article>
+
+          <article class="stat-item" style="--stat-color:#4f46e5">
+            <h3 class="stat-name">R²與ICC<span>模型解釋力</span></h3>
+            <p class="stat-meaning"><span class="stat-label">意義</span>R² Marginal是固定效果的解釋比例；R² Conditional再加上參與者隨機效果。ICC表示有多少變異來自兒童之間的穩定差異。</p>
+            <p class="stat-reason"><span class="stat-label">為何使用</span>幫助判斷教學因素與個別差異各自解釋多少資料變異。</p>
+          </article>
+
+          <article class="stat-item" style="--stat-color:#7956a8">
+            <h3 class="stat-name">Cohen's Kappa<span>編碼者一致性</span></h3>
+            <p class="stat-meaning"><span class="stat-label">意義</span>扣除偶然一致後，評估兩位研究者對影片行為分類的一致程度。</p>
+            <p class="stat-reason"><span class="stat-label">本研究</span>Kappa＝0.83，表示行為編碼具有良好一致性。</p>
+          </article>
+
+          <article class="stat-item" style="--stat-color:#7956a8">
+            <h3 class="stat-name">漸進序列分析<span>GSEQ</span></h3>
+            <p class="stat-meaning"><span class="stat-label">意義</span>檢查某項行為後，另一項行為是否特別容易接著出現，並比較前、中、後期的變化。</p>
+            <p class="stat-reason"><span class="stat-label">為何使用</span>行為次數只能說明「做了多少次」；序列分析才能呈現孩子的解題路徑。</p>
+            <p class="stat-caution"><span class="stat-label">注意</span>Z＞1.96代表轉換達顯著，但不等於這個行為造成下一個行為。</p>
+          </article>
+        </div>
+
+        <div class="stats-key"><strong>本研究最重要的判準：</strong>第12週的Group × Time交互作用，因為它直接比較兩組的進步幅度。</div>
+      </aside>
+    </div>
+
+    <details class="source-details">
       <summary>查看原始Mermaid語法</summary>
       <div class="source-tools">
         <button id="copyButton" type="button">複製原始碼</button>
