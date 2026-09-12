@@ -72,6 +72,8 @@
       flex-shrink: 0;
       gap: 7px;
       align-items: center;
+      overflow-x: auto;
+      scrollbar-width: thin;
     }
 
     .controls button {
@@ -141,6 +143,79 @@
       width: min(100% - 24px, var(--max-width));
       margin: 0 auto;
       padding-bottom: 70px;
+    }
+
+    .glossary-section {
+      margin-bottom: 18px;
+      padding: clamp(17px, 3vw, 24px);
+      border: 1px solid rgba(49, 95, 145, 0.34);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.94);
+      box-shadow: var(--shadow);
+      scroll-margin-top: 78px;
+    }
+
+    .glossary-heading {
+      display: flex;
+      gap: 12px;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 13px;
+    }
+
+    .glossary-heading h2 {
+      margin: 0;
+      color: var(--accent);
+      font-size: clamp(20px, 3vw, 26px);
+    }
+
+    .glossary-heading p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .glossary-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+    }
+
+    .glossary-term {
+      display: inline-flex;
+      min-height: 40px;
+      gap: 7px;
+      align-items: center;
+      padding: 8px 12px;
+      border: 1px solid #b9c9da;
+      border-radius: 999px;
+      background: #f8fbff;
+      color: #294f77;
+      font-weight: 850;
+      cursor: pointer;
+      transition: border-color 150ms ease, background 150ms ease, color 150ms ease, transform 150ms ease;
+    }
+
+    .glossary-term::after {
+      content: "?";
+      display: inline-grid;
+      width: 20px;
+      height: 20px;
+      place-items: center;
+      border-radius: 50%;
+      background: #dceafa;
+      font-size: 12px;
+      line-height: 1;
+    }
+
+    .glossary-term:hover,
+    .glossary-term:focus-visible {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+      color: var(--accent);
+      outline: none;
+      transform: translateY(-1px);
     }
 
     .content-grid {
@@ -558,6 +633,7 @@
     @media (max-width: 680px) {
       .stats-list { grid-template-columns: 1fr; }
       .stats-panel { padding: 16px 12px; }
+      .glossary-heading { align-items: flex-start; flex-direction: column; }
     }
 
     @media (max-width: 420px) {
@@ -572,6 +648,9 @@
       .hero { padding: 0 0 8px; }
       .hero h1 { font-size: 20pt; }
       .page { width: 100%; padding: 0; }
+      .glossary-section { box-shadow: none; break-inside: avoid; }
+      .glossary-term { min-height: 0; padding: 5px 9px; }
+      .glossary-term::after { display: none; }
       .content-grid { display: block; }
       .diagram-card { border: 0; box-shadow: none; }
       .diagram-viewport { display: block; max-height: none; min-height: 0; overflow: visible; }
@@ -593,6 +672,7 @@
     <div class="brand">I-PBRP 實驗架構｜Mermaid渲染</div>
     <div class="controls">
       <button id="fitButton" type="button" title="符合視窗寬度">符合<span class="wide-label">寬度</span></button>
+      <button id="glossaryJump" type="button" title="查看特殊縮寫與研究名詞">名詞解釋</button>
       <button id="zoomOut" type="button" title="縮小" aria-label="縮小">−</button>
       <span id="zoomLabel" class="zoom-label">符合</span>
       <button id="zoomIn" type="button" title="放大" aria-label="放大">＋</button>
@@ -608,6 +688,31 @@
   </header>
 
   <main class="page">
+    <section id="glossarySection" class="glossary-section" aria-labelledby="glossaryTitle">
+      <div class="glossary-heading">
+        <h2 id="glossaryTitle">特殊縮寫與研究名詞</h2>
+        <p>點擊縮寫，查看完整名稱、白話解釋與論文頁碼。</p>
+      </div>
+      <div class="glossary-list" aria-label="可點擊的特殊縮寫">
+        <button class="glossary-term" type="button" data-glossary-term="I-PBRP" aria-haspopup="dialog">I-PBRP</button>
+        <button class="glossary-term" type="button" data-glossary-term="C-PBRP" aria-haspopup="dialog">C-PBRP</button>
+        <button class="glossary-term" type="button" data-glossary-term="IPBL" aria-haspopup="dialog">IPBL</button>
+        <button class="glossary-term" type="button" data-glossary-term="PBL" aria-haspopup="dialog">PBL</button>
+        <button class="glossary-term" type="button" data-glossary-term="CT" aria-haspopup="dialog">CT</button>
+        <button class="glossary-term" type="button" data-glossary-term="EF" aria-haspopup="dialog">EF</button>
+        <button class="glossary-term" type="button" data-glossary-term="ZPD" aria-haspopup="dialog">ZPD</button>
+        <button class="glossary-term" type="button" data-glossary-term="RQ" aria-haspopup="dialog">RQ</button>
+        <button class="glossary-term" type="button" data-glossary-term="T0-T2" aria-haspopup="dialog">T0／T1／T2</button>
+        <button class="glossary-term" type="button" data-glossary-term="LMM" aria-haspopup="dialog">LMM</button>
+        <button class="glossary-term" type="button" data-glossary-term="GSEQ" aria-haspopup="dialog">GSEQ</button>
+        <button class="glossary-term" type="button" data-glossary-term="beta" aria-haspopup="dialog">β</button>
+        <button class="glossary-term" type="button" data-glossary-term="CI" aria-haspopup="dialog">95% CI</button>
+        <button class="glossary-term" type="button" data-glossary-term="R2" aria-haspopup="dialog">R²</button>
+        <button class="glossary-term" type="button" data-glossary-term="ICC" aria-haspopup="dialog">ICC</button>
+        <button class="glossary-term" type="button" data-glossary-term="KR-20" aria-haspopup="dialog">KR-20</button>
+      </div>
+    </section>
+
     <div class="content-grid">
       <section class="diagram-card" aria-label="Mermaid實驗架構圖">
         <div id="status" class="status" role="status" aria-live="polite">
@@ -802,9 +907,127 @@ flowchart TD
     const detailSummary = document.getElementById("detailSummary");
     const detailExplanation = document.getElementById("detailExplanation");
     const detailPage = document.getElementById("detailPage");
+    const glossaryJump = document.getElementById("glossaryJump");
+    const glossarySection = document.getElementById("glossarySection");
+    const glossaryButtons = [...document.querySelectorAll("[data-glossary-term]")];
     let naturalWidth = 1200;
     let zoom = null;
     let lastFocusedNode = null;
+
+    const glossaryTerms = {
+      "I-PBRP": {
+        title: "增量式專題導向機器人程式設計",
+        summary: "Incremental Project-Based Robot Programming",
+        explanation: "本研究的實驗組教學法。每個新子專題都會重新運用先前知識，再加入少量新知識，並維持前後連貫的森林任務情境。",
+        page: "論文依據：PDF第2、5～8頁",
+        color: "#D97706"
+      },
+      "C-PBRP": {
+        title: "傳統專題導向機器人程式設計",
+        summary: "Conventional Project-Based Robot Programming",
+        explanation: "本研究的對照組教學法。各子專題主要教授當次的新知識，較少系統性整合先前內容，任務情境也相對獨立。",
+        page: "論文依據：PDF第2、6～9頁",
+        color: "#16865B"
+      },
+      IPBL: {
+        title: "增量式專題導向學習",
+        summary: "Incremental Project-Based Learning",
+        explanation: "PBL的調整版本。完整專題被拆成相互連結、難度漸增的子專題；後續任務同時包含舊知識和新知識。",
+        page: "論文依據：PDF第2、4～5頁",
+        color: "#D97706"
+      },
+      PBL: {
+        title: "專題導向學習",
+        summary: "Project-Based Learning",
+        explanation: "以學生為中心的教學方式。學生在有意義的專題中，透過溝通、設計、探究、製作、展示和修正來學習。",
+        page: "論文依據：PDF第4頁",
+        color: "#315F91"
+      },
+      CT: {
+        title: "運算思維",
+        summary: "Computational Thinking",
+        explanation: "運用電腦科學原則解決問題的一組思考能力。本研究涵蓋演算法、表徵、模組化、控制結構與除錯等面向。",
+        page: "論文依據：PDF第2～3、6頁",
+        color: "#315F91"
+      },
+      EF: {
+        title: "執行功能",
+        summary: "Executive Function",
+        explanation: "為了完成目標而調節想法與行為的高階認知能力。本研究測量抑制控制、工作記憶及認知彈性。",
+        page: "論文依據：PDF第2～3、10頁",
+        color: "#315F91"
+      },
+      ZPD: {
+        title: "近側發展區",
+        summary: "Zone of Proximal Development",
+        explanation: "孩子目前能獨立完成的程度，與在教師或同儕適當協助下可以達到的潛在程度之間的區域。I-PBRP以逐步增加難度來維持適當挑戰。",
+        page: "論文依據：PDF第2、5頁",
+        color: "#7956A8"
+      },
+      RQ: {
+        title: "研究問題",
+        summary: "Research Question",
+        explanation: "研究希望以資料回答的明確問題。本研究的RQ1、RQ2、RQ3分別比較兩組的運算思維、執行功能與學習行為模式。",
+        page: "論文依據：PDF第2頁",
+        color: "#7956A8"
+      },
+      "T0-T2": {
+        title: "三個測量時間點",
+        summary: "Time 0 / Time 1 / Time 2",
+        explanation: "T0是課程前測，T1是第6週中測，T2是第12週後測。三個時間點用來呈現兩組能力變化的軌跡。",
+        page: "論文依據：PDF第9～10頁，圖10",
+        color: "#315F91"
+      },
+      LMM: {
+        title: "線性混合效應模型",
+        summary: "Linear Mixed-Effects Model",
+        explanation: "適合分析重複測量資料的統計模型。本研究用參與者隨機截距處理個別差異，再以Group × Time比較兩組的進步幅度。",
+        page: "論文依據：PDF第11～15頁，表3、5、7、9",
+        color: "#315F91"
+      },
+      GSEQ: {
+        title: "行為序列分析軟體",
+        summary: "Generalized Sequential Querier",
+        explanation: "用來分析行為發生順序與轉換關係的工具。本研究以它計算調整後殘差，Z大於1.96的行為轉換視為顯著序列。",
+        page: "論文依據：PDF第11、14～16頁",
+        color: "#7956A8"
+      },
+      beta: {
+        title: "迴歸係數",
+        summary: "Beta coefficient（β）",
+        explanation: "表示模型估計的差異方向與大小。本研究的Group × Time係數用來表示I-PBRP相對於C-PBRP多出的進步幅度。",
+        page: "論文依據：PDF第12～15頁，表3、5、7、9",
+        color: "#4F46E5"
+      },
+      CI: {
+        title: "信賴區間",
+        summary: "Confidence Interval",
+        explanation: "呈現效果估計的不確定範圍。本頁報告95%信賴區間；區間越窄，代表估計通常越精確。",
+        page: "論文依據：PDF第12～15頁，表3、5、7、9",
+        color: "#4F46E5"
+      },
+      R2: {
+        title: "模型解釋力",
+        summary: "Coefficient of Determination（R²）",
+        explanation: "表示模型能解釋多少結果變異。Marginal R²只計固定效果；Conditional R²還包含參與者隨機效果。",
+        page: "論文依據：PDF第11～15頁",
+        color: "#4F46E5"
+      },
+      ICC: {
+        title: "組內相關係數",
+        summary: "Intraclass Correlation Coefficient",
+        explanation: "本研究用來表示總變異中，有多少來自幼兒之間相對穩定的個別差異。數值越高，代表同一名幼兒的重複測量越相似。",
+        page: "論文依據：PDF第12～15頁，表3、5、7、9",
+        color: "#4F46E5"
+      },
+      "KR-20": {
+        title: "二分題目內部一致性信度",
+        summary: "Kuder–Richardson Formula 20",
+        explanation: "適用於答對／答錯等二分計分題目的信度指標。TechCheck-K在本研究中的KR-20為0.87，表示內部一致性良好。",
+        page: "論文依據：PDF第10頁",
+        color: "#957215"
+      }
+    };
 
     const nodeDetails = {
       A: {
@@ -1012,12 +1235,11 @@ flowchart TD
       return fallback ? fallback[1] : null;
     }
 
-    function openNodeDetail(key, triggerElement) {
-      const detail = nodeDetails[key];
+    function openDetail(code, detail, triggerElement) {
       if (!detail) return;
 
       lastFocusedNode = triggerElement || document.activeElement;
-      detailCode.textContent = key;
+      detailCode.textContent = code;
       detailTitle.textContent = detail.title;
       detailSummary.textContent = detail.summary;
       detailExplanation.textContent = detail.explanation;
@@ -1026,6 +1248,15 @@ flowchart TD
       detailOverlay.hidden = false;
       document.body.style.overflow = "hidden";
       detailClose.focus({ preventScroll: true });
+    }
+
+    function openNodeDetail(key, triggerElement) {
+      openDetail(key, nodeDetails[key], triggerElement);
+    }
+
+    function openGlossaryDetail(term, triggerElement) {
+      const visibleLabel = triggerElement?.textContent.trim() || term;
+      openDetail(visibleLabel, glossaryTerms[term], triggerElement);
     }
 
     function closeNodeDetail() {
@@ -1065,12 +1296,33 @@ flowchart TD
       });
     }
 
+    glossaryJump.addEventListener("click", () => {
+      glossarySection.scrollIntoView({ behavior: "smooth", block: "start" });
+      window.setTimeout(() => glossaryButtons[0]?.focus({ preventScroll: true }), 350);
+    });
+
+    glossaryButtons.forEach((button) => {
+      const term = button.dataset.glossaryTerm;
+      const detail = glossaryTerms[term];
+      if (!detail) {
+        button.disabled = true;
+        return;
+      }
+
+      button.setAttribute("aria-label", `${button.textContent}：${detail.title}，點擊查看解釋`);
+      button.addEventListener("click", () => openGlossaryDetail(term, button));
+    });
+
     detailClose.addEventListener("click", closeNodeDetail);
     detailOverlay.addEventListener("click", (event) => {
       if (event.target === detailOverlay) closeNodeDetail();
     });
     document.addEventListener("keydown", (event) => {
       if (event.key === "Escape" && !detailOverlay.hidden) closeNodeDetail();
+      if (event.key === "Tab" && !detailOverlay.hidden) {
+        event.preventDefault();
+        detailClose.focus({ preventScroll: true });
+      }
     });
 
     sourceDisplay.textContent = source;
