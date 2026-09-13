@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="color-scheme" content="light">
-  <meta name="description" content="使用Mermaid引擎渲染的I-PBRP實驗架構圖">
+  <meta name="description" content="I-PBRP互動式實驗架構圖、研究名詞解釋與四題論文討論">
   <title>I-PBRP 實驗架構圖｜Mermaid渲染版</title>
   <style>
     :root {
@@ -216,6 +216,227 @@
       color: var(--accent);
       outline: none;
       transform: translateY(-1px);
+    }
+
+    .discussion-section {
+      margin-bottom: 18px;
+      padding: clamp(17px, 3vw, 24px);
+      border: 1px solid rgba(121, 86, 168, 0.34);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.94);
+      box-shadow: var(--shadow);
+      scroll-margin-top: 78px;
+    }
+
+    .discussion-heading {
+      display: flex;
+      gap: 14px;
+      align-items: flex-end;
+      justify-content: space-between;
+      margin-bottom: 14px;
+    }
+
+    .discussion-heading h2 {
+      margin: 0;
+      color: #65468d;
+      font-size: clamp(22px, 3vw, 28px);
+    }
+
+    .discussion-heading p {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .discussion-actions {
+      display: flex;
+      flex-shrink: 0;
+      gap: 7px;
+    }
+
+    .discussion-actions button {
+      min-height: 38px;
+      padding: 7px 11px;
+      border: 1px solid #cbbce0;
+      border-radius: 9px;
+      background: #fff;
+      color: #65468d;
+      font-weight: 750;
+      cursor: pointer;
+    }
+
+    .discussion-actions button:hover,
+    .discussion-actions button:focus-visible {
+      border-color: #7956a8;
+      background: #f5f0fb;
+      outline: none;
+    }
+
+    .discussion-list {
+      display: grid;
+      gap: 11px;
+    }
+
+    .discussion-card {
+      margin: 0;
+      overflow: hidden;
+      border: 1px solid #ddd4e9;
+      border-radius: 13px;
+      background: #fcfaff;
+    }
+
+    .discussion-card[open] {
+      border-color: #a98dc8;
+      background: #fff;
+    }
+
+    .discussion-card > summary {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      padding: 14px 16px;
+      color: #44305f;
+      font-size: 16px;
+      font-weight: 850;
+      line-height: 1.45;
+      list-style: none;
+      cursor: pointer;
+    }
+
+    .discussion-card > summary::-webkit-details-marker { display: none; }
+
+    .discussion-card > summary::after {
+      content: "+";
+      flex: 0 0 auto;
+      margin-left: auto;
+      color: #7956a8;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1;
+    }
+
+    .discussion-card[open] > summary::after { content: "−"; }
+
+    .discussion-card > summary:hover,
+    .discussion-card > summary:focus-visible {
+      background: #f5f0fb;
+      outline: none;
+    }
+
+    .discussion-number {
+      display: inline-grid;
+      width: 31px;
+      height: 31px;
+      flex: 0 0 31px;
+      place-items: center;
+      border-radius: 9px;
+      background: #7956a8;
+      color: #fff;
+      font-size: 14px;
+    }
+
+    .discussion-body {
+      padding: 3px clamp(16px, 3vw, 28px) 22px;
+      border-top: 1px solid #eee8f5;
+      color: #364152;
+      font-size: 15px;
+      line-height: 1.78;
+    }
+
+    .discussion-body h3 {
+      margin: 20px 0 7px;
+      color: #44305f;
+      font-size: 17px;
+      line-height: 1.45;
+    }
+
+    .discussion-body p { margin: 9px 0; }
+    .discussion-body ul,
+    .discussion-body ol { margin: 8px 0; padding-left: 1.4em; }
+    .discussion-body li + li { margin-top: 7px; }
+
+    .discussion-question {
+      margin: 16px 0 11px !important;
+      padding: 12px 14px;
+      border-left: 4px solid #7956a8;
+      border-radius: 0 9px 9px 0;
+      background: #f5f0fb;
+      color: #44305f;
+      font-weight: 750;
+      line-height: 1.65;
+    }
+
+    .discussion-columns {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 11px;
+    }
+
+    .discussion-box {
+      padding: 13px 14px;
+      border: 1px solid #e2dbea;
+      border-radius: 10px;
+      background: #fbf9fd;
+    }
+
+    .discussion-box h3 { margin-top: 0; }
+
+    .discussion-chain {
+      margin: 12px 0;
+      padding: 13px 15px;
+      border-radius: 10px;
+      background: #fff7e8;
+      color: #754d0c;
+      font-weight: 850;
+      text-align: center;
+    }
+
+    .discussion-table-wrap {
+      margin: 12px 0;
+      overflow-x: auto;
+      border: 1px solid #d9dfe8;
+      border-radius: 10px;
+    }
+
+    .discussion-table {
+      width: 100%;
+      min-width: 720px;
+      border-collapse: collapse;
+      background: #fff;
+      font-size: 14px;
+      line-height: 1.55;
+    }
+
+    .discussion-table th,
+    .discussion-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid #e4e8ee;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .discussion-table th {
+      background: #eef4fa;
+      color: #294f77;
+      font-weight: 850;
+    }
+
+    .discussion-table tr:last-child td { border-bottom: 0; }
+
+    .discussion-note {
+      margin-top: 14px !important;
+      padding: 12px 14px;
+      border: 1px solid #edc8c1;
+      border-radius: 10px;
+      background: #fff5f2;
+      color: #84483e;
+    }
+
+    .discussion-source {
+      color: var(--muted);
+      font-size: 12px;
     }
 
     .content-grid {
@@ -634,6 +855,12 @@
       .stats-list { grid-template-columns: 1fr; }
       .stats-panel { padding: 16px 12px; }
       .glossary-heading { align-items: flex-start; flex-direction: column; }
+      .discussion-heading { align-items: flex-start; flex-direction: column; }
+      .discussion-actions { width: 100%; }
+      .discussion-actions button { flex: 1; }
+      .discussion-columns { grid-template-columns: 1fr; }
+      .discussion-card > summary { align-items: flex-start; padding: 13px; }
+      .discussion-body { font-size: 14px; }
     }
 
     @media (max-width: 420px) {
@@ -644,13 +871,18 @@
     @media print {
       @page { size: A4 landscape; margin: 8mm; }
       body { background: #fff; }
-      .topbar, .hero p, .hint, details, .offline-note, .detail-overlay { display: none !important; }
+      .topbar, .hero p, .hint, .source-details, .offline-note, .detail-overlay { display: none !important; }
       .hero { padding: 0 0 8px; }
       .hero h1 { font-size: 20pt; }
       .page { width: 100%; padding: 0; }
       .glossary-section { box-shadow: none; break-inside: avoid; }
       .glossary-term { min-height: 0; padding: 5px 9px; }
       .glossary-term::after { display: none; }
+      .discussion-section { box-shadow: none; }
+      .discussion-actions { display: none; }
+      .discussion-card { break-inside: avoid; }
+      .discussion-card > summary::after { display: none; }
+      .discussion-card > .discussion-body { display: block !important; }
       .content-grid { display: block; }
       .diagram-card { border: 0; box-shadow: none; }
       .diagram-viewport { display: block; max-height: none; min-height: 0; overflow: visible; }
@@ -673,6 +905,7 @@
     <div class="controls">
       <button id="fitButton" type="button" title="符合視窗寬度">符合<span class="wide-label">寬度</span></button>
       <button id="glossaryJump" type="button" title="查看特殊縮寫與研究名詞">名詞解釋</button>
+      <button id="discussionJump" type="button" title="查看四題論文討論">論文討論</button>
       <button id="zoomOut" type="button" title="縮小" aria-label="縮小">−</button>
       <span id="zoomLabel" class="zoom-label">符合</span>
       <button id="zoomIn" type="button" title="放大" aria-label="放大">＋</button>
@@ -684,7 +917,7 @@
   <header class="hero">
     <span class="eyebrow">MERMAID RENDERED HTML</span>
     <h1>I-PBRP 實驗架構圖</h1>
-    <p>這份HTML直接使用你提供的Mermaid語法渲染。圖形會輸出成SVG，因此放大後文字與線條仍然清楚。</p>
+    <p>整合互動式實驗流程、研究名詞解釋與四題論文討論；關鍵內容均標示PDF頁碼。</p>
   </header>
 
   <main class="page">
@@ -710,6 +943,220 @@
         <button class="glossary-term" type="button" data-glossary-term="R2" aria-haspopup="dialog">R²</button>
         <button class="glossary-term" type="button" data-glossary-term="ICC" aria-haspopup="dialog">ICC</button>
         <button class="glossary-term" type="button" data-glossary-term="KR-20" aria-haspopup="dialog">KR-20</button>
+      </div>
+    </section>
+
+    <section id="discussionSection" class="discussion-section" aria-labelledby="discussionTitle">
+      <div class="discussion-heading">
+        <div>
+          <h2 id="discussionTitle">論文討論</h2>
+          <p>依研究脈絡、方法與結果分成四題；每項關鍵敘述均附PDF頁碼。</p>
+        </div>
+        <div class="discussion-actions" aria-label="論文討論展開控制">
+          <button id="expandDiscussions" type="button">展開全部</button>
+          <button id="collapseDiscussions" type="button">收合全部</button>
+        </div>
+      </div>
+
+      <div class="discussion-list">
+        <details class="discussion-card" open>
+          <summary><span class="discussion-number">1</span><span>研究目的、重要性與過去研究成果</span></summary>
+          <div class="discussion-body">
+            <p class="discussion-question">這篇論文的主要目的（主題）是什麼？這類研究為什麼重要？過去學者曾經做過哪些嘗試？</p>
+
+            <h3>主要目的</h3>
+            <p>這篇研究真正要處理的，不只是「教育機器人能不能幫助幼兒」，而是<strong>機器人程式設計課程中的知識與任務應如何安排，才能更符合幼兒的認知發展</strong>。作者因此提出增量式專題導向機器人程式設計（I-PBRP），並與傳統專題導向機器人程式設計（C-PBRP）比較，觀察兩種安排對5～6歲幼兒的運算思維（CT）、執行功能（EF）及學習行為模式有何影響。</p>
+            <p class="discussion-source">論文依據：PDF第1～2頁。</p>
+
+            <h3>為什麼重要</h3>
+            <div class="discussion-columns">
+              <div class="discussion-box">
+                <h3>運算思維與未來學習</h3>
+                <p>CT已成為K–12 STEM教育的重要能力，與STEM學習、一般認知發展及未來職涯路徑有關。幼兒期開始培養，可讓演算法、分解、表徵與除錯等思考提早扎根。</p>
+              </div>
+              <div class="discussion-box">
+                <h3>執行功能與自我調節</h3>
+                <p>EF包含抑制控制、工作記憶與認知彈性，和學業表現、社會關係及健康發展有關；它與CT共享規劃、監控和問題解決等認知歷程。</p>
+              </div>
+            </div>
+            <p>實體教育機器人能把抽象指令轉成看得見的動作，提供遊戲化、動手操作和即時回饋，對仍依賴具體經驗的幼兒特別合適。</p>
+            <p class="discussion-source">論文依據：PDF第2～4頁。</p>
+
+            <h3>過去學者的嘗試與成果</h3>
+            <ol>
+              <li><strong>程式設計：</strong>讓兒童練習演算法、表徵、控制結構與除錯；過去研究顯示能促進幼兒CT。</li>
+              <li><strong>實體教育機器人：</strong>KIBO、Dodobot與Matatalab等工具提供具體操作；已有研究報告CT，以及抑制控制、工作記憶或認知彈性的改善。</li>
+              <li><strong>PBL融入程式與機器人課程：</strong>讓學習者在真實問題中合作、設計、實作、展示及修正，是機器人程式教學中常見且適合幼兒的方式。</li>
+              <li><strong>IPBL用於較年長學生：</strong>Vega等人與Huang讓後續子專題持續整合先前知識，研究顯示可改善程式表現、動機、學習效率與滿意度。</li>
+              <li><strong>學習行為分析：</strong>部分研究開始觀察行為次數或使用序列分析，嘗試解釋學習者在程式任務中如何規劃、執行與除錯。</li>
+            </ol>
+            <p class="discussion-source">論文依據：PDF第3～5頁。</p>
+          </div>
+        </details>
+
+        <details class="discussion-card">
+          <summary><span class="discussion-number">2</span><span>研究缺口、I-PBRP策略與教育理論</span></summary>
+          <div class="discussion-body">
+            <p class="discussion-question">過去研究還有什麼不足？本研究提出什麼策略？策略內容與背後的教育理論是什麼？</p>
+
+            <h3>過去研究的不足</h3>
+            <ul>
+              <li>傳統PBL的子專題常各自教授不同新知識，前後連結有限；幼兒做下一個任務時，不一定會被要求重新使用先前知識。</li>
+              <li>這種安排可能不符合能力由簡單到複雜、以基礎支撐高階能力的發展歷程，也可能超過幼兒有限的工作記憶容量。</li>
+              <li>IPBL過去多用於較年長學生的文字式程式設計，應用於5～6歲幼兒機器人課程的證據不足。</li>
+              <li>過去研究偏重測驗結果，較少分析學習歷程；單純計算行為次數，也無法呈現行為的先後順序和轉換路徑。</li>
+            </ul>
+            <p class="discussion-source">論文依據：PDF第2、4～5頁。</p>
+
+            <h3>I-PBRP的核心策略</h3>
+            <div class="discussion-chain">C-PBRP：A → B → C　｜　I-PBRP：A → A＋B → A＋B＋C</div>
+            <p>I-PBRP並非只是把教材切成小單元，而是讓每一個新子專題都加入少量新知識，同時系統性複習並運用舊知識。研究以「森林趣遊」貫穿12週，知識依序加入前進、後退、左右轉、參數、路障、迴圈、音樂與舞蹈，最後綜合應用全部知識完成森林任務。</p>
+
+            <div class="discussion-columns">
+              <div class="discussion-box">
+                <h3>三項設計原則</h3>
+                <ol>
+                  <li>完整專題拆成彼此相關、難度逐步提高的子專題。</li>
+                  <li>每次同時整合舊知識與當次新知識。</li>
+                  <li>各子專題維持相似、連貫且貼近生活的情境。</li>
+                </ol>
+              </div>
+              <div class="discussion-box">
+                <h3>每個子專題的六階段</h3>
+                <ol>
+                  <li>導入任務情境與問題。</li>
+                  <li>複習舊知識並教授新知識。</li>
+                  <li>同儕討論與方案設計。</li>
+                  <li>程式實作、測試與除錯。</li>
+                  <li>成果展示、評量與反思。</li>
+                  <li>修改作品與延伸任務。</li>
+                </ol>
+              </div>
+            </div>
+            <p class="discussion-source">論文依據：PDF第5～8頁，圖4～6。</p>
+
+            <h3>背後的教育與認知理論</h3>
+            <ul>
+              <li><strong>建構論／建造論：</strong>幼兒透過實際建構程式、操作機器人及製作作品形成知識；機器人把抽象指令轉成可觀察的結果。</li>
+              <li><strong>Piaget認知發展觀點：</strong>能力由簡單發展到複雜，高階能力應建立在基礎能力上。</li>
+              <li><strong>Vygotsky近側發展區（ZPD）：</strong>任務應稍高於孩子目前能力，但仍能在教師或同儕支持下完成。</li>
+              <li><strong>工作記憶與認知負荷：</strong>幼兒一次能處理的資訊有限；反覆提取舊知識並連結新資訊，有助於記憶與處理。</li>
+              <li><strong>執行功能訓練：</strong>EF需要反覆練習與逐步提高挑戰；規劃、記住指令、抑制衝動及切換策略正好對應三項EF。</li>
+            </ul>
+            <p class="discussion-source">論文依據：PDF第3～6、17頁。</p>
+          </div>
+        </details>
+
+        <details class="discussion-card">
+          <summary><span class="discussion-number">3</span><span>研究問題、實驗設計、分組與測量</span></summary>
+          <div class="discussion-body">
+            <p class="discussion-question">作者提出哪些研究問題？為了回答問題，設計了什麼實驗？研究對象及學科為何？如何分組、測量與進行？</p>
+
+            <h3>三個研究問題</h3>
+            <ol>
+              <li><strong>RQ1：</strong>I-PBRP與C-PBRP組幼兒的運算思維有何差異？</li>
+              <li><strong>RQ2：</strong>兩組幼兒的執行功能有何差異？</li>
+              <li><strong>RQ3：</strong>兩組幼兒的學習行為模式有何差異？</li>
+            </ol>
+            <p class="discussion-source">論文依據：PDF第2頁。</p>
+
+            <h3>實驗設計與研究對象</h3>
+            <div class="discussion-table-wrap">
+              <table class="discussion-table">
+                <thead>
+                  <tr><th>項目</th><th>研究安排</th><th>判讀重點</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>研究設計</td><td>12週、前測—中測—後測的準實驗；作者稱採混合方法</td><td>CT與EF是量化測驗，學習行為來自課堂影片編碼與序列分析</td></tr>
+                  <tr><td>研究對象</td><td>中國東部一所幼兒園，95名5～6歲幼兒</td><td>皆無相關程式訓練經驗，且未被通報有認知困難</td></tr>
+                  <tr><td>學習內容</td><td>幼兒機器人程式設計，使用Matatalab</td><td>同時培養CT及抑制控制、工作記憶、認知彈性</td></tr>
+                  <tr><td>I-PBRP組</td><td>48人；平均5.68歲；男女各24人</td><td>舊知識＋新知識，子專題情境前後連貫</td></tr>
+                  <tr><td>C-PBRP組</td><td>47人；平均5.65歲；男24人、女23人</td><td>各子專題主要教授新知識，情境相對獨立</td></tr>
+                  <tr><td>小組活動</td><td>每2～3名幼兒共用一套機器人套件</td><td>兩組使用相同設備、教師、時間、知識及最終成果要求</td></tr>
+                  <tr><td>介入劑量</td><td>12週，每週60分鐘</td><td>第6週進行中測，第12週結束後立即後測</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p>兩組介入前的年齡、性別、CT與EF沒有顯著差異。摘要寫「隨機分派」，但方法章稱為準實驗，只交代便利取樣，沒有說明如何產生隨機序列或執行分派。因此，較嚴謹的說法是：<strong>作者宣稱有隨機分組，但分派程序報告不足</strong>。</p>
+            <p class="discussion-source">論文依據：PDF第1、8～9、11頁。</p>
+
+            <h3>測量工具</h3>
+            <div class="discussion-columns">
+              <div class="discussion-box">
+                <h3>能力測驗</h3>
+                <ul>
+                  <li><strong>CT：</strong>15題TechCheck-K，滿分15分；本研究KR-20＝0.87。</li>
+                  <li><strong>抑制控制：</strong>Early Years Toolbox的Go／No-Go作業。</li>
+                  <li><strong>工作記憶：</strong>Mr. Ant作業。</li>
+                  <li><strong>認知彈性：</strong>Card Sorting作業。</li>
+                </ul>
+              </div>
+              <div class="discussion-box">
+                <h3>學習行為</h3>
+                <p>影片編碼包含聽講、教師互動、同儕討論、建立演算法、放置積木、執行、求助、兩種除錯、延伸、分享及離題行為；兩位編碼者的Kappa為0.83。</p>
+              </div>
+            </div>
+            <p class="discussion-source">論文依據：PDF第9～11頁，表1。</p>
+
+            <h3>實驗與分析流程</h3>
+            <ol>
+              <li><strong>T0：</strong>介入前進行約30分鐘CT與EF前測。</li>
+              <li><strong>第1～6週：</strong>每週60分鐘的I-PBRP或C-PBRP課程，課堂全程錄影。</li>
+              <li><strong>T1：</strong>第6週進行約30分鐘CT與EF中測。</li>
+              <li><strong>第7～12週：</strong>繼續原組別課程。</li>
+              <li><strong>T2：</strong>第12週結束後立即進行CT與EF後測。</li>
+              <li><strong>分析：</strong>以線性混合效應模型比較兩組的變化幅度；另選第2、6、10個子專題代表前、中、後期，進行漸進序列分析。</li>
+            </ol>
+            <p class="discussion-source">論文依據：PDF第9～11頁，圖10。</p>
+          </div>
+        </details>
+
+        <details class="discussion-card">
+          <summary><span class="discussion-number">4</span><span>實驗結果、作者解釋與合理判讀</span></summary>
+          <div class="discussion-body">
+            <p class="discussion-question">實驗結果為何？依據結果，作者提出了哪些解釋或推論？</p>
+
+            <h3>能力測驗結果</h3>
+            <p>兩組經過12週後都顯著進步，但真正回答教學法比較問題的是<strong>Group × Time（組別×時間）交互作用</strong>。第6週時四項能力的組間變化差異都未達顯著；第12週時，I-PBRP組的進步幅度才全部顯著大於C-PBRP組。</p>
+            <div class="discussion-table-wrap">
+              <table class="discussion-table">
+                <thead>
+                  <tr><th>能力</th><th>I-PBRP：T0→T2</th><th>C-PBRP：T0→T2</th><th>第12週組別×時間結果</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>運算思維CT</td><td>8.77→12.17</td><td>8.79→10.91</td><td>β＝1.27；95% CI [0.34, 2.19]；p＝.008</td></tr>
+                  <tr><td>抑制控制</td><td>0.71→0.81</td><td>0.72→0.78</td><td>β＝0.03；95% CI [0.01, 0.05]；p＝.005</td></tr>
+                  <tr><td>工作記憶</td><td>2.17→2.83</td><td>2.19→2.54</td><td>β＝0.31；95% CI [0.11, 0.52]；p＝.003</td></tr>
+                  <tr><td>認知彈性</td><td>5.58→7.40</td><td>5.57→6.74</td><td>β＝0.64；95% CI [0.06, 1.22]；p＝.032</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="discussion-source">論文依據：PDF第11～15頁，表2～9。</p>
+
+            <h3>學習行為結果</h3>
+            <ul>
+              <li>前期兩組行為模式相近；中、後期才逐漸分化。</li>
+              <li>I-PBRP組較常形成「同儕討論→建立演算法→放置積木→執行程式」的連貫解題路徑，也較常分享及延伸任務。</li>
+              <li>C-PBRP組較常出現「執行→求助→再執行」或「除錯→求助→再除錯」的循環。</li>
+              <li>後期離題行為比例為I-PBRP組5%、C-PBRP組13%；求助行為為1%與7%。</li>
+            </ul>
+            <p class="discussion-source">論文依據：PDF第14～17頁，表10、圖15。</p>
+
+            <h3>作者的解釋</h3>
+            <ul>
+              <li><strong>前6週差異不明顯：</strong>早期知識和任務較簡單，兩種教學法都足以支持基本活動。</li>
+              <li><strong>CT：</strong>後期任務變複雜時，反覆連結新舊知識有助於儲存、提取及整合程式概念。</li>
+              <li><strong>抑制控制：</strong>新規則建立在舊規則上，提供累積性的專注與抑制衝動練習。</li>
+              <li><strong>工作記憶：</strong>幼兒持續保留、更新與操作舊指令及新指令。</li>
+              <li><strong>認知彈性：</strong>幼兒需要在既有規則和新解法之間切換，並依機器人回饋調整策略。</li>
+              <li><strong>行為歷程：</strong>較連貫的規劃、執行、分享與延伸路徑，被作者視為有效知識建構及CT、EF發展的支持證據。</li>
+            </ul>
+            <p class="discussion-source">論文依據：PDF第15～17頁。</p>
+
+            <p class="discussion-note"><strong>合理判讀：</strong>「認知負荷降低」「新舊知識連結」及「ZPD中的適當挑戰」是作者依理論提出的機制推論，研究並未直接測量這些中介變項。此外，行為分析只抽取三堂課，且沒有不接受機器人課程的基準組，因此結果支持I-PBRP優於本研究中的C-PBRP安排，但不宜延伸成所有情境下的普遍因果結論。</p>
+            <p class="discussion-note"><strong>文字勘誤提醒：</strong>PDF第12頁正文把工作記憶第6週寫成p＜.05，但同一句判定不顯著，表7的數值也是p＝.518；應以表7及「未達顯著」的結論為準。</p>
+          </div>
+        </details>
       </div>
     </section>
 
@@ -910,6 +1357,11 @@ flowchart TD
     const glossaryJump = document.getElementById("glossaryJump");
     const glossarySection = document.getElementById("glossarySection");
     const glossaryButtons = [...document.querySelectorAll("[data-glossary-term]")];
+    const discussionJump = document.getElementById("discussionJump");
+    const discussionSection = document.getElementById("discussionSection");
+    const discussionCards = [...document.querySelectorAll(".discussion-card")];
+    const expandDiscussions = document.getElementById("expandDiscussions");
+    const collapseDiscussions = document.getElementById("collapseDiscussions");
     let naturalWidth = 1200;
     let zoom = null;
     let lastFocusedNode = null;
@@ -1299,6 +1751,19 @@ flowchart TD
     glossaryJump.addEventListener("click", () => {
       glossarySection.scrollIntoView({ behavior: "smooth", block: "start" });
       window.setTimeout(() => glossaryButtons[0]?.focus({ preventScroll: true }), 350);
+    });
+
+    discussionJump.addEventListener("click", () => {
+      discussionSection.scrollIntoView({ behavior: "smooth", block: "start" });
+      window.setTimeout(() => discussionCards[0]?.querySelector("summary")?.focus({ preventScroll: true }), 350);
+    });
+
+    expandDiscussions.addEventListener("click", () => {
+      discussionCards.forEach((card) => { card.open = true; });
+    });
+
+    collapseDiscussions.addEventListener("click", () => {
+      discussionCards.forEach((card) => { card.open = false; });
     });
 
     glossaryButtons.forEach((button) => {
