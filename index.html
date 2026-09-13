@@ -76,7 +76,8 @@
       scrollbar-width: thin;
     }
 
-    .controls button {
+    .controls button,
+    .controls a {
       display: inline-flex;
       min-width: 40px;
       min-height: 39px;
@@ -88,10 +89,14 @@
       background: rgba(255, 255, 255, 0.96);
       color: var(--ink);
       cursor: pointer;
+      font-weight: 650;
+      text-decoration: none;
     }
 
     .controls button:hover,
-    .controls button:focus-visible {
+    .controls button:focus-visible,
+    .controls a:hover,
+    .controls a:focus-visible {
       border-color: var(--accent);
       color: var(--accent);
       outline: none;
@@ -541,8 +546,10 @@
     .status {
       display: flex;
       min-height: 220px;
+      gap: 10px;
       align-items: center;
       justify-content: center;
+      flex-wrap: wrap;
       padding: 24px;
       color: var(--muted);
       text-align: center;
@@ -551,6 +558,28 @@
     .status.error {
       color: var(--danger);
       background: var(--danger-soft);
+    }
+
+    .status-action,
+    .status-fallback {
+      min-height: 40px;
+      padding: 8px 12px;
+      border: 1px solid #b7c5d6;
+      border-radius: 10px;
+      background: #fff;
+      color: var(--accent);
+      font-weight: 800;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .status-action:hover,
+    .status-action:focus-visible,
+    .status-fallback:hover,
+    .status-fallback:focus-visible {
+      border-color: var(--accent);
+      outline: 3px solid rgba(49, 95, 145, 0.18);
+      outline-offset: 2px;
     }
 
     .spinner {
@@ -814,7 +843,7 @@
 
       .brand { width: 100%; }
       .controls { width: 100%; }
-      .controls button { flex: 1; padding-inline: 6px; }
+      .controls button, .controls a { flex: 1; padding-inline: 6px; white-space: nowrap; }
       .controls .wide-label { display: none; }
 
       .hero { padding-top: 27px; }
@@ -904,6 +933,7 @@
     <div class="brand">I-PBRP 實驗架構｜Mermaid渲染</div>
     <div class="controls">
       <button id="fitButton" type="button" title="符合視窗寬度">符合<span class="wide-label">寬度</span></button>
+      <a href="./easy-read.html" title="開啟漸進式專題導向機器人程式設計易讀解說">易讀解說</a>
       <button id="glossaryJump" type="button" title="查看特殊縮寫與研究名詞">名詞解釋</button>
       <button id="discussionJump" type="button" title="查看四題論文討論">論文討論</button>
       <button id="zoomOut" type="button" title="縮小" aria-label="縮小">−</button>
@@ -1163,8 +1193,10 @@
     <div class="content-grid">
       <section class="diagram-card" aria-label="Mermaid實驗架構圖">
         <div id="status" class="status" role="status" aria-live="polite">
-          <span class="spinner" aria-hidden="true"></span>
-          正在載入Mermaid並繪製架構圖⋯⋯
+          <span id="statusSpinner" class="spinner" aria-hidden="true"></span>
+          <span id="statusMessage">正在載入架構圖⋯⋯</span>
+          <button id="retryMermaid" class="status-action" type="button" hidden>重新載入圖表</button>
+          <a class="status-fallback" href="./experiment-map-html.html">開啟不需 Mermaid 的版本</a>
         </div>
         <div id="diagramViewport" class="diagram-viewport" tabindex="0">
           <div id="diagramCanvas" class="diagram-canvas"></div>
@@ -1337,10 +1369,16 @@ flowchart TD
   </script>
 
   <script type="module">
-    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@12/dist/mermaid.esm.min.mjs";
-
+    const MERMAID_MODULE_URLS = [
+      "https://cdn.jsdelivr.net/npm/mermaid@11.17.2/dist/mermaid.esm.min.mjs",
+      "https://unpkg.com/mermaid@11.17.2/dist/mermaid.esm.min.mjs"
+    ];
+    const MERMAID_LOAD_TIMEOUT_MS = 8000;
     const source = document.getElementById("diagramSource").textContent.trim();
     const status = document.getElementById("status");
+    const statusSpinner = document.getElementById("statusSpinner");
+    const statusMessage = document.getElementById("statusMessage");
+    const retryMermaid = document.getElementById("retryMermaid");
     const viewport = document.getElementById("diagramViewport");
     const canvas = document.getElementById("diagramCanvas");
     const zoomLabel = document.getElementById("zoomLabel");
@@ -1365,6 +1403,8 @@ flowchart TD
     let naturalWidth = 1200;
     let zoom = null;
     let lastFocusedNode = null;
+    let mermaidModule = null;
+    let renderAttempt = 0;
 
     const glossaryTerms = {
       "I-PBRP": {
@@ -1792,33 +1832,71 @@ flowchart TD
 
     sourceDisplay.textContent = source;
 
-    mermaid.initialize({
-      startOnLoad: false,
-      securityLevel: "strict",
-      theme: "base",
-      htmlLabels: true,
-      fontFamily: "-apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans TC, PingFang TC, sans-serif",
-      themeVariables: {
-        primaryColor: "#ffffff",
-        primaryTextColor: "#172033",
-        primaryBorderColor: "#315f91",
-        lineColor: "#8190a5",
-        secondaryColor: "#eaf2fa",
-        tertiaryColor: "#f5f7fb",
-        clusterBkg: "#f8fafc",
-        clusterBorder: "#94a3b8",
-        edgeLabelBackground: "#ffffff",
-        fontSize: "16px"
-      },
-      flowchart: {
-        useMaxWidth: false,
-        htmlLabels: true,
-        curve: "basis",
-        nodeSpacing: 34,
-        rankSpacing: 54,
-        padding: 14
+    function withTimeout(promise, timeoutMs, label) {
+      return Promise.race([
+        promise,
+        new Promise((_, reject) => {
+          window.setTimeout(() => reject(new Error(`${label}逾時`)), timeoutMs);
+        })
+      ]);
+    }
+
+    async function loadMermaidModule() {
+      if (mermaidModule) return mermaidModule;
+
+      const attempts = MERMAID_MODULE_URLS.map(async (moduleUrl) => {
+        try {
+          return await withTimeout(
+            import(moduleUrl),
+            MERMAID_LOAD_TIMEOUT_MS,
+            "Mermaid模組載入"
+          );
+        } catch (error) {
+          throw new Error(`${moduleUrl}: ${error instanceof Error ? error.message : String(error)}`);
+        }
+      });
+
+      try {
+        const loaded = await Promise.any(attempts);
+        mermaidModule = loaded.default ?? loaded;
+        return mermaidModule;
+      } catch (error) {
+        const failures = error instanceof AggregateError
+          ? error.errors.map((failure) => failure instanceof Error ? failure.message : String(failure))
+          : [error instanceof Error ? error.message : String(error)];
+        throw new Error(`所有Mermaid來源均載入失敗。${failures.join("；")}`);
       }
-    });
+    }
+
+    function initializeMermaid(mermaid) {
+      mermaid.initialize({
+        startOnLoad: false,
+        securityLevel: "strict",
+        theme: "base",
+        htmlLabels: true,
+        fontFamily: "-apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans TC, PingFang TC, sans-serif",
+        themeVariables: {
+          primaryColor: "#ffffff",
+          primaryTextColor: "#172033",
+          primaryBorderColor: "#315f91",
+          lineColor: "#8190a5",
+          secondaryColor: "#eaf2fa",
+          tertiaryColor: "#f5f7fb",
+          clusterBkg: "#f8fafc",
+          clusterBorder: "#94a3b8",
+          edgeLabelBackground: "#ffffff",
+          fontSize: "16px"
+        },
+        flowchart: {
+          useMaxWidth: false,
+          htmlLabels: true,
+          curve: "basis",
+          nodeSpacing: 34,
+          rankSpacing: 54,
+          padding: 14
+        }
+      });
+    }
 
     function setFit() {
       zoom = null;
@@ -1870,8 +1948,25 @@ flowchart TD
     });
 
     async function renderDiagram() {
+      const attempt = ++renderAttempt;
+      status.hidden = false;
+      status.classList.remove("error");
+      statusSpinner.hidden = false;
+      statusMessage.textContent = "正在載入架構圖⋯⋯";
+      retryMermaid.hidden = true;
+      viewport.classList.remove("ready");
+      canvas.replaceChildren();
+
       try {
-        const { svg, bindFunctions } = await mermaid.render("ipbrpExperimentDiagram", source);
+        const mermaid = await loadMermaidModule();
+        if (attempt !== renderAttempt) return;
+        initializeMermaid(mermaid);
+        const { svg, bindFunctions } = await withTimeout(
+          mermaid.render(`ipbrpExperimentDiagram-${attempt}`, source),
+          MERMAID_LOAD_TIMEOUT_MS,
+          "架構圖繪製"
+        );
+        if (attempt !== renderAttempt) return;
         canvas.innerHTML = svg;
         if (typeof bindFunctions === "function") bindFunctions(canvas);
 
@@ -1889,12 +1984,17 @@ flowchart TD
         viewport.classList.add("ready");
         setFit();
       } catch (error) {
+        if (attempt !== renderAttempt) return;
         status.classList.add("error");
-        status.innerHTML = "無法載入或渲染Mermaid。請確認網路連線後重新整理；離線時可改用原生HTML版本。";
+        statusSpinner.hidden = true;
+        statusMessage.textContent = "圖表暫時無法載入。可重新嘗試，或直接使用不需 Mermaid 的版本。";
+        retryMermaid.hidden = false;
+        mermaidModule = null;
         console.error(error);
       }
     }
 
+    retryMermaid.addEventListener("click", renderDiagram);
     renderDiagram();
   </script>
 </body>
