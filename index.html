@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="color-scheme" content="light">
-  <meta name="description" content="I-PBRP互動式實驗架構圖、研究名詞解釋與四題論文討論">
-  <title>I-PBRP 實驗架構圖｜Mermaid渲染版</title>
+  <meta name="description" content="I-PBRP互動式實驗架構圖、完整易讀解說、研究名詞解釋與四題論文討論">
+  <title>I-PBRP 論文互動導讀｜實驗架構圖與易讀解說</title>
   <style>
     :root {
       --page: #f4f6fa;
@@ -222,6 +222,156 @@
       outline: none;
       transform: translateY(-1px);
     }
+
+    .easy-read-section {
+      margin-top: 18px;
+      padding: clamp(18px, 3vw, 30px);
+      border: 1px solid rgba(49, 95, 145, 0.34);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.96);
+      box-shadow: var(--shadow);
+      scroll-margin-top: 78px;
+    }
+
+    .easy-read-header {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 22px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid #dbe3ec;
+    }
+
+    .easy-read-heading h2 {
+      margin: 0;
+      color: var(--accent);
+      font-family: "Noto Serif TC", "Songti TC", serif;
+      font-size: clamp(24px, 4vw, 36px);
+      line-height: 1.35;
+    }
+
+    .easy-read-heading p {
+      margin: 7px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .easy-reader-controls {
+      display: flex;
+      flex-shrink: 0;
+      gap: 7px;
+      align-items: center;
+      padding: 8px;
+      border: 1px solid #cbd5e1;
+      border-radius: 12px;
+      background: #f8fafc;
+    }
+
+    .easy-reader-controls button {
+      min-width: 40px;
+      min-height: 38px;
+      padding: 6px 10px;
+      border: 1px solid #b9c6d5;
+      border-radius: 9px;
+      background: #fff;
+      color: var(--accent);
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .easy-reader-controls button:hover,
+    .easy-reader-controls button:focus-visible,
+    .easy-reader-controls input:focus-visible {
+      border-color: var(--accent);
+      outline: 3px solid rgba(49, 95, 145, 0.16);
+      outline-offset: 2px;
+    }
+
+    .easy-reader-controls input {
+      width: min(18vw, 180px);
+      min-width: 100px;
+      accent-color: var(--accent);
+    }
+
+    .easy-reader-controls output {
+      min-width: 46px;
+      color: var(--muted);
+      font-size: 13px;
+      font-variant-numeric: tabular-nums;
+      text-align: center;
+    }
+
+    .easy-read-content {
+      --easy-reader-size: 18px;
+      width: min(100%, 980px);
+      margin: 0 auto;
+      color: #202124;
+      font-size: var(--easy-reader-size);
+      line-height: 1.9;
+    }
+
+    .easy-read-content h2,
+    .easy-read-content h3 {
+      color: #153d5a;
+      line-height: 1.4;
+      scroll-margin-top: 80px;
+    }
+
+    .easy-read-content h2 {
+      margin: 2.1em 0 0.65em;
+      padding-bottom: 0.3em;
+      border-bottom: 2px solid #d9e4ec;
+      font-size: 1.55em;
+    }
+
+    .easy-read-content h3 {
+      margin: 1.65em 0 0.55em;
+      font-size: 1.25em;
+    }
+
+    .easy-read-content p { margin: 0.9em 0; }
+    .easy-read-content li { margin: 0.38em 0; padding-left: 0.18em; }
+    .easy-read-content ul,
+    .easy-read-content ol { padding-left: 1.6em; }
+    .easy-read-content strong { color: #123d5c; }
+
+    .easy-read-content blockquote {
+      margin: 1.2em 0;
+      padding: 0.75em 1em;
+      border-left: 0.32em solid #4f87ad;
+      background: #eaf2f8;
+      color: #54585f;
+    }
+
+    .easy-read-content blockquote p { margin: 0; }
+    .easy-read-content .table-wrap { max-width: 100%; margin: 1.3em 0; overflow-x: auto; }
+    .easy-read-content table { width: 100%; min-width: 700px; border-collapse: collapse; font-size: 0.88em; line-height: 1.65; }
+    .easy-read-content th,
+    .easy-read-content td { padding: 0.65em 0.75em; border: 1px solid #c9c5bb; vertical-align: top; text-align: left; }
+    .easy-read-content th { background: #e8f0f5; color: #123d5c; }
+    .easy-read-content tbody tr:nth-child(even) { background: #faf8f3; }
+
+    .easy-read-content .table-of-contents {
+      margin: 1.6em 0 2.4em;
+      padding: 1.1em 1.25em;
+      border: 1px solid #b9cbd8;
+      border-radius: 0.7em;
+      background: #f1f6f9;
+    }
+
+    .easy-read-content .table-of-contents__title {
+      margin: 0 0 0.75em;
+      padding: 0 0 0.35em;
+      border-bottom: 2px solid #c9dce8;
+      font-size: 1.3em;
+    }
+
+    .easy-read-content .table-of-contents ol { margin: 0; padding-left: 1.4em; }
+    .easy-read-content .table-of-contents ol ol { margin-top: 0.25em; padding-left: 1.25em; }
+    .easy-read-content .table-of-contents li { margin: 0.2em 0; }
+    .easy-read-content .table-of-contents a { color: #174f78; font-weight: 650; text-underline-offset: 0.12em; }
 
     .discussion-section {
       margin-bottom: 18px;
@@ -890,6 +1040,11 @@
       .discussion-columns { grid-template-columns: 1fr; }
       .discussion-card > summary { align-items: flex-start; padding: 13px; }
       .discussion-body { font-size: 14px; }
+      .easy-read-section { padding: 16px 12px; }
+      .easy-read-header { flex-direction: column; }
+      .easy-reader-controls { width: 100%; overflow-x: auto; }
+      .easy-reader-controls input { flex: 1; width: auto; }
+      .easy-read-content { --easy-reader-size: 17px; }
     }
 
     @media (max-width: 420px) {
@@ -933,7 +1088,8 @@
     <div class="brand">I-PBRP 實驗架構｜Mermaid渲染</div>
     <div class="controls">
       <button id="fitButton" type="button" title="符合視窗寬度">符合<span class="wide-label">寬度</span></button>
-      <a href="./easy-read.html" title="開啟漸進式專題導向機器人程式設計易讀解說">易讀解說</a>
+      <a href="#diagramViewport" title="前往互動實驗架構圖">架構圖</a>
+      <a href="#easyReadSection" title="前往漸進式專題導向機器人程式設計易讀解說">易讀解說</a>
       <button id="glossaryJump" type="button" title="查看特殊縮寫與研究名詞">名詞解釋</button>
       <button id="discussionJump" type="button" title="查看四題論文討論">論文討論</button>
       <button id="zoomOut" type="button" title="縮小" aria-label="縮小">−</button>
@@ -947,7 +1103,7 @@
   <header class="hero">
     <span class="eyebrow">MERMAID RENDERED HTML</span>
     <h1>I-PBRP 實驗架構圖</h1>
-    <p>整合互動式實驗流程、研究名詞解釋與四題論文討論；關鍵內容均標示PDF頁碼。</p>
+    <p>單頁整合互動式實驗流程、完整易讀解說、研究名詞解釋與四題論文討論；關鍵內容均標示PDF頁碼。</p>
   </header>
 
   <main class="page">
@@ -1273,6 +1429,165 @@
       </aside>
     </div>
 
+    <section id="easyReadSection" class="easy-read-section" aria-labelledby="easyReadTitle">
+      <header class="easy-read-header">
+        <div class="easy-read-heading">
+          <h2 id="easyReadTitle">漸進式專題導向機器人程式設計：易讀解說</h2>
+          <p>完整解說已整合在本頁；可使用右側控制調整這一區的文字大小。</p>
+        </div>
+        <div class="easy-reader-controls" aria-label="易讀解說字體大小">
+          <button id="easyFontDecrease" type="button" aria-label="縮小易讀解說文字">A−</button>
+          <input id="easyFontControl" type="range" min="16" max="28" step="1" value="18" aria-label="調整易讀解說字體大小">
+          <button id="easyFontIncrease" type="button" aria-label="放大易讀解說文字">A＋</button>
+          <output id="easyFontOutput" for="easyFontControl" aria-live="polite">18px</output>
+          <button id="easyFontReset" type="button">預設</button>
+        </div>
+      </header>
+      <article id="easyReadContent" class="easy-read-content">
+<blockquote><p>原文：Yuchen Chen 等人，〈Incremental project-based robot programming: Effects on young children’s computational thinking, executive function, and learning behavioral patterns〉，《Computers &amp; Education》，241（2026），105471。DOI：10.1016/j.compedu.2025.105471。</p></blockquote><nav class="table-of-contents" aria-labelledby="easyReadTocTitle">
+      <h2 id="easyReadTocTitle" class="table-of-contents__title">目次</h2>
+      <ol id="easyReadTocList">
+        <li>正在建立易讀解說目次⋯⋯</li>
+      </ol>
+    </nav>
+    <h2>先說結論</h2>
+    <p>這篇研究想回答的核心問題是：<strong>教幼兒操作機器人時，如果每一堂課都承接前面學過的內容，再逐步增加一點新挑戰，是否比每堂課各自教授新內容更有效？</strong></p>
+    <p>研究結果支持這個想法。兩種教學方式都能讓5至6歲幼兒進步，但經過12週後，「漸進式專題導向機器人程式設計」組在運算思維、抑制控制、工作記憶與認知彈性上的進步幅度都較大。課堂影片也顯示，漸進式學習組到了中後期，較常出現「討論—規劃—放置程式積木—執行—分享—延伸」的順暢歷程；另一組則較常反覆求助、除錯，後期偏離任務的行為也較多。（PDF 第 11至17 頁）</p>
+    <p>不過，這不能被解讀成「任何漸進式機器人課程都一定有效」。研究只涵蓋中國東部一所幼兒園的95名兒童，時間為12週，也沒有設置完全不接觸機器人程式設計的對照組。因此，較準確的說法是：<strong>在這項研究的條件下，內容會累積、情境連貫的機器人專題課程，比內容較獨立的傳統專題安排呈現更好的結果。</strong></p>
+    <h2>研究為什麼要比較這兩種教法？</h2>
+    <p>幼兒進行機器人程式設計時，不只是記住「向前」「右轉」等指令。他們還必須先理解問題、規劃路線、安排指令順序、觀察機器人是否照預期移動，並在失敗時找出錯誤。這些活動會用到兩類重要能力：</p>
+    <ul>
+    <li><strong>運算思維（CT）</strong>：把問題拆開、安排步驟、使用符號表達指令，以及找出並修正錯誤。</li>
+    <li><strong>執行功能（EF）</strong>：控制衝動、暫時記住並操作資訊，以及在規則或策略改變時切換做法。</li>
+    </ul>
+    <p>教育現場常用「專題式學習」教授機器人程式設計。問題是，傳統專題課程可能把一個大專題拆成多個相對獨立的小任務，每次又加入一批不同的新知。對工作記憶尚在發展的幼兒來說，新內容若和前面所學缺少連結，容易造成負擔，也不利於把知識逐步組織成完整系統。（PDF 第 2至5 頁）</p>
+    <p>作者因此提出一種漸進式安排：後面的任務不把前面所學丟掉，而是要求兒童持續重用舊指令，再加入少量新指令。這個設計呼應兩項發展觀點：</p>
+    <ol>
+    <li>較複雜的能力通常建立在基礎能力之上，不是一次形成。</li>
+    <li>任務如果比兒童目前能力稍難、但在適當協助下仍可完成，就比較可能落在「近側發展區」內，形成有效挑戰。</li>
+    </ol>
+    <h2>兩種教學法到底差在哪裡？</h2>
+    <p>兩組使用相同的Matatalab實體機器人、上課時間相同，也都進行12個子專題。主要差別不是器材，而是<strong>知識如何排列，以及各次任務是否共享同一個脈絡</strong>。（PDF 第 5至9 頁）</p>
+    <div class="table-wrap"><table><thead><tr><th>比較面向</th><th>漸進式 I-PBRP</th><th>傳統式 C-PBRP</th></tr></thead><tbody>
+    <tr><td>舊知識的處理</td><td>每次先複習並使用先前學過的內容</td><td>當次活動主要聚焦新的內容</td></tr>
+    <tr><td>新知識的加入</td><td>在既有能力上逐步增加</td><td>各子專題分別引入不同新知</td></tr>
+    <tr><td>任務情境</td><td>12個子專題都放在連貫的「森林趣味之旅」情境中</td><td>各子專題的情境相對獨立</td></tr>
+    <tr><td>最後成果</td><td>綜合全部所學，設計程式讓機器人穿越森林</td><td>同樣完成整合全部知識的最終任務</td></tr>
+    <tr><td>學習負擔的設計</td><td>讓難度與知識量逐步增加</td><td>新舊內容之間的系統性連結較少</td></tr>
+    </tbody></table></div>
+    <p>例如，當幼兒要學「左轉」時，I-PBRP組不會只介紹新的左轉積木。教師會先帶兒童複習已學過的前進、後退與右轉，再比較左轉和右轉的差別，最後要求他們把新舊指令一起用在路線任務中。換句話說，新知不是獨立的一塊，而是接到原有的知識網絡上。（PDF 第 7至8 頁）</p>
+    <p>每個I-PBRP子專題都依循六個階段：</p>
+    <ol>
+    <li><strong>導入任務情境</strong>：用與生活經驗相關的故事或問題引起興趣。</li>
+    <li><strong>建立知識與技能</strong>：先複習舊知，再加入當次的新知。</li>
+    <li><strong>同儕討論與設計方案</strong>：小組討論路線、步驟與分工。</li>
+    <li><strong>進行機器人任務探究</strong>：實際排列積木、執行程式並除錯。</li>
+    <li><strong>發表與評量</strong>：說明作品、解法、遇到的問題與修正方式。</li>
+    <li><strong>修訂與延伸</strong>：改善原有程式，再嘗試其他路線或更進一步的任務。</li>
+    </ol>
+    <p>完成一個子專題後，下一個子專題會保留上述流程，但知識和任務難度會繼續增加。（PDF 第 7至8 頁）</p>
+    <h2>研究怎麼進行？</h2>
+    <p>研究招募中國東部一所幼兒園的95名5至6歲兒童，皆無相關訓練經驗，也沒有認知困難的通報：</p>
+    <ul>
+    <li>I-PBRP組48人，平均年齡5.68歲。</li>
+    <li>C-PBRP組47人，平均年齡5.65歲。</li>
+    <li>兩組的年齡與性別沒有顯著差異。</li>
+    </ul>
+    <p>研究先以G*Power估計所需樣本數；在作者設定的中等效果量、顯著水準0.05與檢定力0.90下，最低建議樣本數為36人，實際樣本數為95人。（PDF 第 8至9 頁）</p>
+    <p>研究流程如下：</p>
+    <div class="table-wrap"><table><thead><tr><th>時間</th><th>進行內容</th></tr></thead><tbody>
+    <tr><td>介入前（T0）</td><td>30分鐘運算思維與執行功能前測</td></tr>
+    <tr><td>第1至6週</td><td>每週60分鐘機器人程式設計課程</td></tr>
+    <tr><td>第6週後（T1）</td><td>30分鐘中測</td></tr>
+    <tr><td>第7至12週</td><td>繼續每週60分鐘課程</td></tr>
+    <tr><td>第12週後（T2）</td><td>立即進行30分鐘後測</td></tr>
+    <tr><td>全部課程期間</td><td>錄影兒童的學習行為</td></tr>
+    </tbody></table></div>
+    <p>為減少教學條件不同造成的干擾，兩組由同一位教師授課、總時數相同，所有課程都有錄影供研究者檢查；測驗則由受訓研究助理在安靜空間中，以一對一方式進行。（PDF 第 9 頁）</p>
+    <h2>研究測量了什麼？</h2>
+    <h3>1. 運算思維</h3>
+    <p>研究使用15題的TechCheck-K測驗，滿分15分，涵蓋軟體／硬體、演算法、表徵、模組化、控制結構與除錯。本研究的KR-20信度為0.87，代表各題作為整體測驗時具有良好的一致性。（PDF 第 10 頁）</p>
+    <h3>2. 執行功能</h3>
+    <p>研究使用適合3至6歲兒童的Early Years Toolbox：</p>
+    <ul>
+    <li><strong>Go/No-Go任務</strong>測量抑制控制：看到常出現的刺激要反應，看到少數特定刺激則要忍住不反應。</li>
+    <li><strong>Mr. Ant任務</strong>測量視覺空間工作記憶：記住螞蟻身上貼紙的位置。</li>
+    <li><strong>Card Sorting任務</strong>測量認知彈性：先依一種規則分類，再切換到另一種規則。</li>
+    </ul>
+    <p>原工具研究報告的Cronbach’s α大於0.80，並具有聚合效度。（PDF 第 10、19 頁）</p>
+    <h3>3. 課堂學習行為</h3>
+    <p>研究者把影片中的行為編成12類，包括聆聽教師、與教師互動、同儕討論、建立演算法、放置積木、執行程式、尋求協助、演算法除錯、積木除錯、延伸任務、分享，以及偏離任務的行為。兩位研究者的編碼一致性Kappa值為0.83，屬良好水準。（PDF 第 10至11 頁，表1）</p>
+    <p>研究不只計算各種行為出現幾次，還分析一個行為之後較常接著出現什麼行為。這種「序列分析」可以看出學習流程是否順暢，例如兒童是否能從討論自然進入規劃與執行，或是不斷在執行、失敗與求助之間循環。（PDF 第 11 頁）</p>
+    <h2>統計分析在做什麼？</h2>
+    <p>作者先確認兩組前測沒有顯著差異，再從兩個角度分析：</p>
+    <ul>
+    <li><strong>組內變化</strong>：分別判斷每一組從前測到後測是否進步。</li>
+    <li><strong>組間變化</strong>：以線性混合效果模型檢查兩組隨時間改變的幅度是否不同，並把每名兒童原本的差異納入模型。</li>
+    </ul>
+    <p>因此，「兩組都顯著進步」和「I-PBRP比C-PBRP進步更多」是兩個不同問題。前者是在每組內比較不同時間點；後者才是比較兩種教學法的變化差異。閱讀結果時不能把兩者混為一談。（PDF 第 11 頁）</p>
+    <h2>主要結果</h2>
+    <h3>先看最重要的整體趨勢</h3>
+    <p>兩組在12週後都進步，表示傳統專題式機器人課程並不是沒有效果。不過，I-PBRP組的上升幅度較大，而且四項能力的組間差異都是到第12週才達到統計顯著；第6週時尚未出現顯著差異。這代表漸進設計的優勢可能需要時間累積，而不是幾堂課後立即顯現。（PDF 第 11至16 頁）</p>
+    <div class="table-wrap"><table><thead><tr><th>測量項目</th><th>I-PBRP：T0→T2</th><th>C-PBRP：T0→T2</th><th>12週後的組間變化差異</th></tr></thead><tbody>
+    <tr><td>運算思維（滿分15）</td><td>8.77→12.17，增加3.40</td><td>8.79→10.91，增加2.12</td><td>β = 1.27，p = 0.008</td></tr>
+    <tr><td>抑制控制（0至1）</td><td>0.71→0.81，增加0.10</td><td>0.72→0.78，增加0.06</td><td>β = 0.03，p = 0.005</td></tr>
+    <tr><td>工作記憶</td><td>2.17→2.83，增加0.66</td><td>2.19→2.54，增加0.35</td><td>β = 0.31，p = 0.003</td></tr>
+    <tr><td>認知彈性</td><td>5.58→7.40，增加1.82</td><td>5.57→6.74，增加1.17</td><td>β = 0.64，p = 0.032</td></tr>
+    </tbody></table></div>
+    <p>表中的β不是單純把兩組後測平均數相減，而是線性混合效果模型估計的「兩組從前測到後測的變化差異」。因此，它比直接比較T2分數更能對應研究問題。（PDF 第 11至15 頁，表2至表9）</p>
+    <h3>運算思維</h3>
+    <p>I-PBRP組從8.77分提高到12.17分，C-PBRP組從8.79分提高到10.91分。第6週兩組的變化差異不顯著（p = 0.231），第12週則達顯著（β = 1.27，p = 0.008）。作者認為，初期任務簡單，兩種教法都能應付；後期知識變多、任務變複雜時，能不斷連結舊知與新知的I-PBRP才逐漸顯出優勢。（PDF 第 11至12、14至15 頁）</p>
+    <h3>執行功能</h3>
+    <p>抑制控制、工作記憶與認知彈性也呈現相似模式：第6週沒有顯著組間差異，第12週I-PBRP組的進步較大。作者提出的解釋是：</p>
+    <ul>
+    <li>持續在舊規則上加入新規則，讓幼兒反覆練習維持目標與抑制不適當反應。</li>
+    <li>每次都要記住舊指令並加入新指令，提供較持續的工作記憶練習。</li>
+    <li>任務難度增加時，兒童需要在不同規則與策略之間切換，因而練習認知彈性。</li>
+    </ul>
+    <p>這些是作者根據理論與結果提出的可能機制，不是研究直接量到的腦內歷程，因此應理解為合理解釋，而不是已被單獨驗證的因果機制。（PDF 第 11至17 頁）</p>
+    <h3>一處需要特別注意的統計文字</h3>
+    <p>工作記憶的正文寫道，第6週兩組「沒有顯著差異」，但同一句卻印成p &lt; 0.05；表7列出的實際數值是p = 0.518，與「沒有顯著差異」一致。這應是原文的不等號誤植。解讀時應以表7的p = 0.518為準。（PDF 第 12至13 頁，表7）</p>
+    <h2>從課堂行為看出了什麼？</h2>
+    <p>研究共記錄2,872筆行為，並選取前期第2個、中期第6個、後期第10個子專題做序列分析。（PDF 第 11、14 頁）</p>
+    <h3>前期</h3>
+    <p>兩組行為很相似，都會在聽教師說明、與教師互動、同儕討論、安排積木、執行與除錯之間移動。這與量化結果一致：課程初期任務較簡單，兩種設計尚未拉開明顯差距。（PDF 第 14 頁）</p>
+    <h3>中期</h3>
+    <p>I-PBRP組開始出現較完整的流程：<strong>同儕討論→建立演算法→放置積木→執行程式</strong>，完成後也較常分享並延伸任務。C-PBRP組的流程較不連貫，較常在建立程式後回頭討論，或出現<strong>執行→求助→再執行</strong>的循環。（PDF 第 14 頁）</p>
+    <h3>後期</h3>
+    <p>差異變得更明顯。I-PBRP組仍呈現由討論、規劃到執行的清楚路徑，也較常分享及延伸。C-PBRP組則較常反覆求助與除錯，而且偏離任務行為占13%，高於I-PBRP組的5%；C-PBRP組尋求協助占7%，I-PBRP組為1%。（PDF 第 14至16 頁，表10、圖15）</p>
+    <p>這些行為資料讓研究者不只知道「誰的測驗分數較高」，也能看到差異可能在課堂中如何形成。不過，序列分析只能呈現行為之間的連接規律，不能單靠它證明某個行為必然造成後面的能力提升。</p>
+    <h2>這篇研究對教學的實際啟示</h2>
+    <p>真正值得帶回教室的重點不是「買一套機器人」，而是<strong>如何安排學習順序</strong>：</p>
+    <ol>
+    <li>先規劃最後希望兒童完成的整體任務，再把它拆成彼此相關的子專題。</li>
+    <li>每次上課先讓兒童實際使用舊知識，而不只是口頭問「還記得嗎」。</li>
+    <li>每個子專題只增加適量的新規則或新指令，並立刻和舊內容結合。</li>
+    <li>讓各次任務共享一致情境，使幼兒把注意力放在解題與知識累積，而不是每次重新理解故事背景。</li>
+    <li>保留討論、實作、除錯、發表與延伸的完整循環，不能把課程縮成教師示範後照做。</li>
+    <li>觀察求助、反覆除錯與偏離任務的頻率；這些行為可能是在提醒教師，任務與先備能力的落差過大。</li>
+    </ol>
+    <p>換言之，I-PBRP不是單純把內容切得更小，而是讓後續任務<strong>持續重用先前知識、逐步增加複雜度，並保持問題情境連貫</strong>。</p>
+    <h2>研究限制與閱讀時的保留</h2>
+    <p>作者列出五項限制：（PDF 第 17至18 頁）</p>
+    <ol>
+    <li>參與者來自中國的一個幼兒樣本，樣本數與多樣性有限。</li>
+    <li>介入只有12週，無法判斷效果能維持多久。</li>
+    <li>行為分析只抽取前、中、後期各一堂課，可能沒有涵蓋所有行為。</li>
+    <li>執行功能測驗雖適合幼兒，但只測到執行功能的部分面向。</li>
+    <li>研究未把空間能力、數學能力等可能影響運算思維的變項納入分析。</li>
+    </ol>
+    <p>此外，閱讀時還要注意三點：</p>
+    <ul>
+    <li>方法章將研究稱為「準實驗」，摘要則寫參與者被「隨機分派」。論文沒有在方法章交代隨機化的具體程序，兩處表述並不完全一致。（PDF 第 1、8至9 頁）</li>
+    <li>研究採便利取樣，且只有一所幼兒園，因此結果不宜直接推廣到不同國家、年齡或社經背景的所有幼兒。</li>
+    <li>兩組都接受機器人程式設計與專題式教學，研究比較的是兩種課程安排，不能用來回答「機器人課程是否優於完全沒有機器人的課程」。</li>
+    </ul>
+    <h2>一句話帶走</h2>
+    <p><strong>對幼兒而言，好的進階學習不是每次換一套全新的內容，而是讓新任務踩在舊能力上前進；這篇研究顯示，這種累積式、連貫且逐步增加挑戰的機器人程式設計課程，可能更有利於運算思維、執行功能與正向學習行為的發展。</strong></p>
+      </article>
+    </section>
+
+
     <details class="source-details">
       <summary>查看原始Mermaid語法</summary>
       <div class="source-tools">
@@ -1281,7 +1596,7 @@
       <pre id="sourceDisplay"></pre>
     </details>
 
-    <p class="offline-note">本頁需要網路載入Mermaid 12。若要完全離線觀看，請使用先前建立的原生HTML版本。</p>
+    <p class="offline-note">互動圖會自動載入固定版本的Mermaid；若網路受限，請使用不需Mermaid的原生HTML版本。</p>
   </main>
 
   <div id="detailOverlay" class="detail-overlay" hidden>
@@ -1400,6 +1715,13 @@ flowchart TD
     const discussionCards = [...document.querySelectorAll(".discussion-card")];
     const expandDiscussions = document.getElementById("expandDiscussions");
     const collapseDiscussions = document.getElementById("collapseDiscussions");
+    const easyReadContent = document.getElementById("easyReadContent");
+    const easyReadTocList = document.getElementById("easyReadTocList");
+    const easyFontControl = document.getElementById("easyFontControl");
+    const easyFontOutput = document.getElementById("easyFontOutput");
+    const easyFontDecrease = document.getElementById("easyFontDecrease");
+    const easyFontIncrease = document.getElementById("easyFontIncrease");
+    const easyFontReset = document.getElementById("easyFontReset");
     let naturalWidth = 1200;
     let zoom = null;
     let lastFocusedNode = null;
@@ -1787,6 +2109,101 @@ flowchart TD
         });
       });
     }
+
+    function buildEasyReadToc() {
+      const headings = [...easyReadContent.querySelectorAll("h2:not(#easyReadTocTitle), h3")];
+      easyReadTocList.replaceChildren();
+      let sectionNumber = 0;
+      let subsectionNumber = 0;
+      let currentSectionItem = null;
+      let currentSublist = null;
+
+      headings.forEach((heading) => {
+        const isSection = heading.tagName === "H2";
+        if (isSection) {
+          sectionNumber += 1;
+          subsectionNumber = 0;
+          heading.id = `easy-read-section-${sectionNumber}`;
+        } else {
+          subsectionNumber += 1;
+          heading.id = `easy-read-section-${sectionNumber}-${subsectionNumber}`;
+        }
+
+        const item = document.createElement("li");
+        const link = document.createElement("a");
+        link.href = `#${heading.id}`;
+        link.textContent = heading.textContent;
+        item.appendChild(link);
+
+        if (isSection) {
+          easyReadTocList.appendChild(item);
+          currentSectionItem = item;
+          currentSublist = null;
+        } else if (currentSectionItem) {
+          if (!currentSublist) {
+            currentSublist = document.createElement("ol");
+            currentSectionItem.appendChild(currentSublist);
+          }
+          currentSublist.appendChild(item);
+        } else {
+          easyReadTocList.appendChild(item);
+        }
+      });
+    }
+
+    function initializeEasyReadControls() {
+      const minimum = Number.parseInt(easyFontControl.min, 10);
+      const maximum = Number.parseInt(easyFontControl.max, 10);
+      const storageKey = "i-pbrp-integrated-reader-font-size-v1";
+      const clamp = (value) => Math.min(maximum, Math.max(minimum, value));
+
+      const sync = (size) => {
+        easyFontControl.value = String(size);
+        easyFontControl.setAttribute("aria-valuetext", `${size}像素`);
+        easyFontOutput.value = `${size}px`;
+        easyFontDecrease.disabled = size <= minimum;
+        easyFontIncrease.disabled = size >= maximum;
+      };
+
+      const apply = (value, persist = true) => {
+        const size = clamp(Number.parseInt(value, 10) || 18);
+        easyReadContent.style.setProperty("--easy-reader-size", `${size}px`);
+        sync(size);
+        if (persist) {
+          try { localStorage.setItem(storageKey, String(size)); } catch { /* 儲存受限時仍可在本次瀏覽調整。 */ }
+        }
+      };
+
+      const readStored = () => {
+        try {
+          const stored = Number.parseInt(localStorage.getItem(storageKey), 10);
+          return Number.isFinite(stored) && stored >= minimum && stored <= maximum ? stored : null;
+        } catch {
+          return null;
+        }
+      };
+
+      easyFontControl.addEventListener("input", () => apply(easyFontControl.value));
+      easyFontDecrease.addEventListener("click", () => apply(Number.parseInt(easyFontControl.value, 10) - 1));
+      easyFontIncrease.addEventListener("click", () => apply(Number.parseInt(easyFontControl.value, 10) + 1));
+      easyFontReset.addEventListener("click", () => {
+        try { localStorage.removeItem(storageKey); } catch { /* 無可用儲存空間時直接恢復本次預設。 */ }
+        easyReadContent.style.removeProperty("--easy-reader-size");
+        const defaultSize = Math.round(Number.parseFloat(getComputedStyle(easyReadContent).fontSize)) || 18;
+        sync(defaultSize);
+      });
+
+      const stored = readStored();
+      if (stored === null) {
+        const defaultSize = Math.round(Number.parseFloat(getComputedStyle(easyReadContent).fontSize)) || 18;
+        sync(defaultSize);
+      } else {
+        apply(stored, false);
+      }
+    }
+
+    buildEasyReadToc();
+    initializeEasyReadControls();
 
     glossaryJump.addEventListener("click", () => {
       glossarySection.scrollIntoView({ behavior: "smooth", block: "start" });
