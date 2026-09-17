@@ -46,7 +46,7 @@ PyMuPDF 有 AGPL／商業授權要求。未來將專案封裝成可散佈 skill 
 
 直接雙擊上一層的 `開啟論文閱讀.command`，即可啟動網站並開啟統一閱讀入口。已啟動時會直接開啟，不重複啟動。首頁每篇都有「互動導讀」與「逐段精讀」；兩種模式可切換同一篇論文，精讀進度、筆記與書籤沿用原儲存位置。`#guide:paper-03` 可直接開啟第三篇導讀，原本 `#paper-03` 仍直接開啟精讀。
 
-互動導讀已逐篇比對本機獨立版本：第二到第八篇與原首頁一致；第一篇更新為 2026-09-15 的「讀者追問試作」版本（仍為試作內容），原首頁同步更新。八篇首頁內嵌內容、獨立檔與 `public/guides/` 均以 SHA-256 核對一致，記錄在 `content/guide-version-audit.json`；第一篇舊版保存在 `content/paper-01-guide-before-version-sync.html`。研究聲明不另設欄位；有完整附錄的論文提供「完整附錄」入口。研究聲明原文仍在 PDF 與來源資料中，既有筆記與書籤保留。
+第一篇採用 2026-09-15 的「讀者追問試作」版本。第二到第八篇已依第一篇對齊三個閱讀區，逐篇補齊作者的研究缺口、8 題 W／S 作業參考答案與 6 題讀者追問，保留原架構圖、統計、名詞及易讀解說。四項核心討論保留原文，原第五項批判反思移入 S 作業。新增內容仍為 AI 草稿，附原 PDF 頁碼；作者沒有明說的缺口不補造，原文統計矛盾保留提醒。八篇首頁內嵌內容、獨立檔與 `public/guides/` 均以 SHA-256 核對一致，記錄在 `content/guide-version-audit.json`；第一篇舊版保存在 `content/paper-01-guide-before-version-sync.html`。研究聲明不另設欄位；有完整附錄的論文提供「完整附錄」入口。研究聲明原文仍在 PDF 與來源資料中，既有筆記與書籤保留。
 
 ```bash
 npm install
@@ -54,6 +54,19 @@ npm run dev
 ```
 
 預設網址為 `http://localhost:5173/`。本機閱讀進度、書籤、筆記與校編草稿都存在瀏覽器 `localStorage`，不會上傳。
+
+## 導讀內容對齊與驗證
+
+新增答案與原文證據保存在 `content/guide-alignment/paper-02.json` 至 `paper-08.json`，研究缺口保留來源段落 ID、英文原文與 SHA-256；原導讀備份在同目錄 `originals/`。建置器先核對 PDF 與原文雜湊，才建立完整頁面。需 Python 3.11 以上與 Beautiful Soup 4：
+
+```bash
+python3 -m pip install beautifulsoup4
+python3 scripts/align_guide_pages.py
+python3 scripts/test_guide_alignment.py
+node scripts/browser_guide_alignment.mjs
+```
+
+瀏覽器檢查需要本機 Chrome 的 DevTools Protocol，預設 `http://127.0.0.1:9222`，閱讀網站預設 `http://localhost:5173/`；可用 `CHROME_DEBUG_URL` 與 `READER_URL` 指定。測試使用獨立瀏覽環境，檢查七篇的題目數、展開收合、跳轉、名詞視窗、字級與手機版。若上一層存在原本的獨立導讀及導讀首頁，建置器也會同步；GitHub 原始碼單獨取出時可直接重建 `public/guides/`。
 
 ## 資料重建與翻譯覆寫
 

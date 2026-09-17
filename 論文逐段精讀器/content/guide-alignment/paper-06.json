@@ -1,0 +1,152 @@
+{
+  "purpose": "本文以四組準實驗比較同儕評量、AIoT 機電桌遊、兩者整合，以及一般教學，觀察大一學生的 CT 與 AI 成就、CT 自我效能、學習焦慮及投入感受與行為模式。PAC 個人音訊分類器是學習 AI 與積木程式的共同工具。",
+  "purposePages": [
+    2,
+    3,
+    4
+  ],
+  "importance": "沒有程式經驗的新手可能對 AI 和 CT 缺乏信心並感到焦慮，教師也不容易提供每人的即時回饋。PAC 與積木程式可降低操作門檻，桌遊提供需要策略、合作及除錯的具體任務，同儕評量則增加回饋與修訂機會；本文要檢查這些安排的學習結果。",
+  "importancePages": [
+    2,
+    3,
+    4
+  ],
+  "previous": "桌遊研究已涉及動機、合作、問題解決與邏輯思考；同儕評量研究支援評分者與被評者透過規準和多元回饋學習。匿名線上評量也可能帶來更批判的回饋，但心理安全、信任與社會互動條件仍重要。作者因此把同儕評量與 AIoT 桌遊帶入新手 AI 與 CT 教學。",
+  "previousPages": [
+    2,
+    3,
+    4
+  ],
+  "compact": [
+    "比較同儕評量、AIoT桌遊、整合與一般教學的AI／CT學習結果與行為。",
+    "新手需要較低操作門檻、及時回饋及有意義的練習情境。",
+    "桌遊與同儕評量各已有研究，匿名評量的效益仍受到信任與互動條件影響。",
+    "作者要處理新手低自我效能、焦慮及回饋不足；沒有明確宣稱此領域完全沒有研究。",
+    "以PAC、積木程式、桌遊任務和同儕回饋支援修訂及問題解決，四組媒介並不完全相同。",
+    "四組準實驗：EG1兩種策略、EG2僅同儕評量且線上、EG3僅桌遊、CG皆無；EG1人數報告有矛盾。",
+    "三介入組成就高於CG，但整合組沒有勝過單策略；自我效能構面及情意結果不能概括為全面改善。"
+  ],
+  "reflection": "我學到，看到「兩種策略整合」不能直接推定效果會相加或優於單一策略。本文三個介入組成就較高，但整合組沒有更好；部分自我效能與焦慮結果又可能受線上媒介或競爭情境影響。判讀時要分清成就、技能與自我效能，並確認各組控制條件。",
+  "extensions": [
+    "採媒介一致的真正2×2設計，直接檢驗同儕評量、桌遊的主效果與互動作用。",
+    "釐清EG1人數與分析樣本，提高成就測驗信度，完整報告基線、缺失及信賴區間。",
+    "讓所有組都有可比較的行為資料，直接評量程式作品、模型應用與延宕遷移，而不只看自陳信心。"
+  ],
+  "reflectionPages": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "gaps": [
+    {
+      "title": "新手 CT 信心、焦慮與個別回饋仍是教學問題",
+      "text": "作者指出，沒有程式經驗的初學者常有較低 CT 自我效能，並可能伴隨較高焦慮；一般課堂也難以提供充分個別回饋。本文以桌遊與同儕評量回應這些教學需要。原文沒有明確聲稱「兩者整合完全未被研究」，本頁不補造這項缺口。",
+      "pages": [
+        2,
+        3
+      ],
+      "sourceSegmentId": "paper-06-s-d5fa4a196cdb",
+      "sourceTextSha256": "57ca50e98d6a16e536b20d6d5ccf5b0b139f1b8b44f768ba4a48c259ae99772d",
+      "sourceEnglish": "Students with no programming experience who are just beginning to learn CT often exhibit lower selfefficacy in CT. Lower CT self-efficacy is frequently accompanied by heightened learning anxiety, which can negatively affect learning achievement. However, prior studies also suggest that appropriate levels of challenge may enhance motivation and persistence despite increased anxiety (Bandura, 1977; Lin & Hou, 2022). Therefore, this study aimed to enhance students’ computational thinking in the four dimensions proposed by the British Broadcasting Corporation (BBC) in 2017, namely decomposition, pattern recognition, abstraction, and algorithms, through the utilization of AIoT board games and peer assessment. The following research questions were formulated:"
+    }
+  ],
+  "response": "作者以四組安排比較兩種策略與一般教學，使用成就測驗、自我效能和情意量表，再以影片行為補充學習歷程；但 EG2 的線上媒介及行為缺測限制成分比較。",
+  "responsePages": [
+    4,
+    5,
+    9,
+    10,
+    11,
+    12
+  ],
+  "questions": [
+    {
+      "title": "為什麼用 PAC 與 AIoT 桌遊來教 AI？",
+      "prompt": "抽象模型與實體遊戲如何連線？",
+      "answer": "PAC 讓學生建立音訊分類模型，再透過積木程式與 AIoT 裝置把模型用在遊戲操作中。桌遊中的路徑、資源與計分要求學生規劃、合作與除錯，使 AI 應用有可觀察的任務情境。",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boundary": "這是本文的教學設計，不等於各種AI能力都被直接測量。"
+    },
+    {
+      "title": "為什麼同儕評量可能同時幫助評分者與被評者？",
+      "prompt": "評量是否只是互相給分？",
+      "answer": "被評者得到可用於修訂 PAC 或程式作品的回饋；評分者也要依規準判斷品質、比較做法並說明理由。作者以這種互動及多元回饋支援同儕評量，並關注匿名方式下的批判回饋。",
+      "pages": [
+        2,
+        3,
+        4,
+        9,
+        10
+      ],
+      "boundary": "研究沒有直接分離評分者與被評者的學習增益，也不能把匿名視為必然有效。"
+    },
+    {
+      "title": "為什麼四組不能直接當作乾淨的2×2實驗？",
+      "prompt": "有四種組合，就已證明整合效果嗎？",
+      "answer": "四組表面上包含兩策略的有無組合，但作者以組別做比較，沒有正式估計兩因素主效果與互動作用。EG2 又是唯一線上組，同儕評量與媒介改變混在一起，因此整合或單一策略的解釋受限。",
+      "pages": [
+        9,
+        10,
+        11,
+        12,
+        16,
+        17
+      ],
+      "boundary": "整合組沒有優於單策略組，不能宣稱兩策略產生已驗證的加成效果。"
+    },
+    {
+      "title": "為什麼成就、CT自我效能與CT能力要分開看？",
+      "prompt": "覺得自己會做，是否等於真的完成了任務？",
+      "answer": "成就由 CT 與 AI 測驗評量；自我效能量表則包含問題解決、合作、創意與演演算法四構面，衡量信心。這四項量表構面也不是直接測試 BBC 的分解、模式辨識、抽象與演演算法四種技能。",
+      "pages": [
+        3,
+        4,
+        5,
+        11,
+        12,
+        13
+      ],
+      "boundary": "不能把某一信心構面較高改寫成全部 CT 技能提升；成就測驗信度也偏低。"
+    },
+    {
+      "title": "為什麼部分量表用非引數方法？",
+      "prompt": "這些分析與成就的 ANCOVA 有何不同？",
+      "answer": "作者用 ANCOVA 控制成就前測後比較後測；自我效能與情意則以 Kruskal–Wallis 和 Mann–Whitney U 比較組間秩次。後者不直接提供控制基線後的平均效果，讀者要依結果的尺度與模型分別解讀。",
+      "pages": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "boundary": "本文沒有充分說明所有方法選擇與假設檢查，不能自行補寫成「已確認全部假設成立」。"
+    },
+    {
+      "title": "為什麼 EG2 沒有行為序列資料？",
+      "prompt": "缺少資料能否代表線上學生較少互動？",
+      "answer": "受 COVID-19 影響，EG2 採線上教學，作者表示無法錄下對應活動行為，因此序列分析只有其他三組。這是資料取得的限制，不是觀察到 EG2 沒有學習行為。",
+      "pages": [
+        5,
+        15,
+        16,
+        17
+      ],
+      "boundary": "缺測組不能被當成零互動；三組影片序列也不能完整比較四種教學模式。"
+    }
+  ],
+  "id": "paper-06",
+  "sourceSha256": "87a8f300514340713f35c5835c85937181d46792d71ce7bb87d805f3f88dac8d",
+  "sourcePdfPages": 20,
+  "contentStatus": "ai-draft",
+  "alignmentRevision": "first-paper-three-zones-v1"
+}

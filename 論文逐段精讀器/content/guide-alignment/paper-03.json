@@ -1,0 +1,136 @@
+{
+  "purpose": "本文以 ARCS 動機模式設計遊戲化 AI 動作評量與回饋（G-AI-MAF），與同樣提供 AI 評量但沒有遊戲元素的 C-AI-MAF 比較，檢查大學生的瑜珈動作技能、學習投入與系統行為是否不同。研究重點是遊戲化如何加在既有即時 AI 回饋上。",
+  "purposePages": [
+    1,
+    3
+  ],
+  "importance": "大班體育課不容易逐一即時矯正動作，學生也可能因重複練習、進步不明顯或看不懂分析而降低投入。AI 能提供個別化評量，卻不能保證學生持續使用或理解回饋。因此，讓回饋可理解、讓練習成果可見，並維持有目標的參與，是本文關注的教學問題。",
+  "importancePages": [
+    1,
+    2,
+    3
+  ],
+  "previous": "作者回顧 AI 與動作擷取技術在個別化指導的應用，也提到視覺分析儀錶板可協助理解回饋。遊戲化研究已使用排行榜、徽章與挑戰提高參與；ARCS 導向遊戲化在高等體育教育也已有研究，但結合 AI 即時視覺分析來學動作技能的實施與效益仍待探討。",
+  "previousPages": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "compact": [
+    "比較 ARCS 導向遊戲化加在 AI 動作回饋上，是否改變技能、投入與行為。",
+    "即時 AI 回饋還需要學生理解並持續練習，才能發揮教學價值。",
+    "已有 AI 個別化回饋、視覺分析與遊戲化研究，但整合應用的證據仍不足。",
+    "ARCS、AI 即時視覺分析與動作技能學習的整合策略與效益仍待研究。",
+    "以頭像、徽章、等級、排行、個人化回饋及進度紀錄對應 ARCS 四構面。",
+    "兩班80人，各40人；第9週前測、第10～14週介入、第15週後測，分析技能、系統投入與行為。",
+    "遊戲化組立即技能與系統使用投入較高；ARCS 作用機制和複雜行為路徑的因果解釋未直接驗證。"
+  ],
+  "reflection": "我學到，提供 AI 回饋與維持學生練習是兩個不同的教學問題。遊戲化可能讓學生更常上傳動作、回看結果與持續練習，但系統使用次數不等於全面的學習投入，排行榜與獎勵也不能自動代表學生真正理解回饋。",
+  "extensions": [
+    "採多班或多校分派，並提供盲評與調整平均差的信賴區間，減少兩班設計的混淆。",
+    "直接測量 ARCS 四構面、主觀投入與競爭壓力，分離視覺回饋、徽章和排行榜的作用。",
+    "加入延宕技能測驗與其他動作，分析個人行為序列是否對應技能保留及遷移。"
+  ],
+  "reflectionPages": [
+    15,
+    16,
+    17,
+    18
+  ],
+  "gaps": [
+    {
+      "title": "ARCS 遊戲化與 AI 即時視覺分析的整合仍待研究",
+      "text": "作者指出，ARCS 導向遊戲化在高等體育課已有正向研究，但整合 AI 即時視覺學習分析以協助動作技能習得仍未充分探索；具體實施策略及學習效益需要進一步驗證。",
+      "pages": [
+        3
+      ],
+      "sourceSegmentId": "paper-03-s-dbb496174410",
+      "sourceTextSha256": "89d55868178c41218ef42e827fd47e565e4ad2093e57138da3c731ab4224584e",
+      "sourceEnglish": "To ensure that gamification effectively enhances student learning, scholars have suggested designing gamified elements based on the ARCS motivational model (Camacho-Sánchez et al., 2023; Hao, 2023; Khan et al., 2022). Proposed by Keller (1987), the ARCS model comprises four dimensions: Attention, Relevance, Confidence, and Satisfaction. It emphasizes capturing students’ attention, attracting their interest through novel and engaging content, and helping them focus on developing core competencies related to their learning goals. Enhancing relevance involves strengthening the connection between learning content and students’ experiences, interests, and objectives to increase their perception of its practical value. The model also supports building students’ confidence by setting clear goals, introducing progressively challenging tasks, and providing positive feedback, fostering their belief in their ability to succeed. Finally, it reinforces satisfaction by offering a sense of achievement when students complete learning tasks, leveraging both external rewards and intrinsic fulfillment to create a positive reinforcement loop (Khan et al., 2022; Quadir et al., 2023). Existing research has demonstrated that gamified learning based on the ARCS model can yield positive learning outcomes in higher education PE courses (e.g., Camacho-Sánchez et al., 2023). However, the integration of AI-supported real-time visual learning analytics to assist students in acquiring movement skills remains an unexplored area, with the specific implementation strategies and learning benefits requiring further investigation."
+    }
+  ],
+  "response": "本文把等級、經驗值、個人與小組排行及視覺回饋整合在 AI 動作評量系統，與沒有遊戲元素的 AI 系統進行兩班比較，並同時觀察技能、系統投入與行為序列。",
+  "responsePages": [
+    3,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "questions": [
+    {
+      "title": "為什麼以 ARCS 設計遊戲化，而不是隻加排行榜？",
+      "prompt": "遊戲元素如何對應學生的學習需要？",
+      "answer": "ARCS 要求兼顧注意、關聯、信心與滿足。本文以稱號與徽章吸引注意，以自選動作及建議連結目標，以回饋與歷程紀錄顯示進步，再用升級與排行提供成就感。設計因此包含多種支援，而非單一競爭機制。",
+      "pages": [
+        3,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boundary": "四構面沒有被逐一直接測量，也未分離各遊戲元素的效果。"
+    },
+    {
+      "title": "為什麼比較組也有 AI 評量與視覺回饋？",
+      "prompt": "這個比較能回答「AI 是否有效」嗎？",
+      "answer": "兩組都有 AI 評量，使用相同教師與課程；實驗組額外加入遊戲元素。研究主要回答遊戲化加在 AI 回饋上是否帶來差異，而非 AI 相對於沒有科技的教學效果。",
+      "pages": [
+        11,
+        12
+      ],
+      "boundary": "只有兩個既有班級，班級差異仍可能影響組間比較。"
+    },
+    {
+      "title": "為什麼技能後測由教師評分，而不是直接用 AI 分數？",
+      "prompt": "系統內分數與研究成果如何區分？",
+      "answer": "AI 分數用於練習中的即時回饋；正式技能測驗由兩位具經驗、具資格的教師依四級規準評分影片並取平均。這使成果評量具有明確動作規準與專家判斷，而不只是使用量或系統內排行。",
+      "pages": [
+        12,
+        13
+      ],
+      "boundary": "作者報告評分者相關係數為 .79，但沒有清楚報告盲評；評分者相關也不等同絕對一致程度。"
+    },
+    {
+      "title": "為什麼用登入與照片上傳衡量投入？",
+      "prompt": "學習投入的 0～1 指標到底代表什麼？",
+      "answer": "本文將每人的登入次數除以同儕最高登入次數，再將上傳次數除以同儕最高上傳次數，兩者平均形成 0～1 指標。這個操作化衡量的是相對的系統參與頻率，適合觀察使用系統的程度。",
+      "pages": [
+        13
+      ],
+      "boundary": "原文沒有另外解釋兩項為何等權重；指標不直接涵蓋情緒投入、認知努力或上傳品質。"
+    },
+    {
+      "title": "為什麼技能控制前測，投入卻直接比較平均？",
+      "prompt": "兩種分析對應的資料結構有何不同？",
+      "answer": "技能在介入前後都有測量，作者用 ANCOVA 控制先備技能後比較後測。投入指標來自介入中的登入與上傳次數，作者以獨立樣本 t 檢定比較兩組；因此技能結果與使用頻率結果的估計問題不同。",
+      "pages": [
+        13,
+        14,
+        15
+      ],
+      "boundary": "投入表的 Cohen d＝.13 與所列均數、標準差有疑點，仍應保留原值並要求勘誤。"
+    },
+    {
+      "title": "為什麼要看練習、測驗與回看結果的迴圈？",
+      "prompt": "更多回圈是否代表更深理解？",
+      "answer": "序列分析可補足總登入與上傳次數，呈現學生是否在觀看、測驗、結果與其他功能間反覆來回。作者據此認為遊戲化組較常主動測試與回看，但事件先後只描述使用流程。",
+      "pages": [
+        15,
+        16,
+        17
+      ],
+      "boundary": "各組內顯著轉移不是正式的組間路徑差異，也不能單獨證明迴圈造成更深理解。"
+    }
+  ],
+  "id": "paper-03",
+  "sourceSha256": "31bb89a6483cbbd8d4e00a9df39fdfee0eb3bd036b17187a6effef2a4df46833",
+  "sourcePdfPages": 21,
+  "contentStatus": "ai-draft",
+  "alignmentRevision": "first-paper-three-zones-v1"
+}

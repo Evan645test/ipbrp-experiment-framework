@@ -1,0 +1,152 @@
+{
+  "purpose": "本文提出 CM-GAI-CL，把概念圖加入生成式 AI 支援的協作學習，與只有 ChatGPT 的協作、一般網路搜尋協作比較。作者關注學習成就、集體效能、批判思考傾向、問題解決技能，以及三種模式的學習經驗。",
+  "purposePages": [
+    1,
+    2
+  ],
+  "importance": "生成式 AI 可以快速提供答案與多元觀點，但流暢敘述不保證正確，也不保證學生把資訊轉為理解。小組仍要組織概念、查核來源、協商觀點並完成有品質的產出；如果缺乏這些支架，便利性可能伴隨幻覺、資訊負荷與依賴。",
+  "importancePages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "previous": "既有協作學習與專題導向研究支援成就、高層次思考與集體效能，但教師難以及時回應每一組需求。GAI 可提供即時支援與多元觀點，卻有幻覺及無關資訊問題。概念圖則已用於外化知識關係、後設認知與共同監控，作者因此將其作為人主導的認知支架。",
+  "previousPages": [
+    2,
+    3,
+    4
+  ],
+  "compact": [
+    "比較概念圖＋GAI協作、GAI協作與一般搜尋協作的成就、傾向與經驗。",
+    "AI 提供資訊不等於學習者已完成組織、查核與轉化。",
+    "協作與 PBL、GAI 即時支援及概念圖各有既有證據，也各有需要支架的問題。",
+    "小組及時支援與把 GAI 資訊轉為有結構、可驗證的知識仍是作者要處理的問題。",
+    "以五階段流程和共享概念圖支援探索、組織、驗證與文章創作；AI 查核及理論機制未直接測量。",
+    "三班88人，一班一條件；33人CM-GAI-CL、26人GAI-CL、29人一般協作，三週300分鐘。",
+    "概念圖組總成就與若干傾向較高；記憶、理解與應用分析的結果不同，表文 p 值矛盾必須保留。"
+  ],
+  "reflection": "我學到，使用生成式 AI 的重點不只在問出更多答案，而是能否把答案組織成關係、找出缺口並共同查核。我也學到，批判思考傾向的問卷較高，不代表 AI 幻覺已被排除；閱讀統計時要分清成就層次，並保留表格與正文的矛盾。",
+  "extensions": [
+    "增加每個條件的班級與學校數，處理學生巢狀於班級及自由組隊的小組差異。",
+    "直接評分概念圖、查核紀錄、AI 對話與文章品質，檢驗結構支架是否改善實際思考與錯誤辨識。",
+    "預先指定主要結果與比較方式，釐清表文矛盾，加入延宕與新題目檢查保留及遷移。"
+  ],
+  "reflectionPages": [
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "gaps": [
+    {
+      "title": "協作小組缺少及時而有結構的支援",
+      "text": "作者指出，教師要同時照顧許多學生與小組，難以及時提供各組需要的指導；沒有適當支架時，小組可能混亂或焦慮。本文以 GAI 即時支援與概念圖結構回應此問題。",
+      "pages": [
+        1,
+        2
+      ],
+      "sourceSegmentId": "paper-05-s-184f03e51f7d",
+      "sourceTextSha256": "e6515b0d3d2c0198ae5adc4b2f15a81fc8605467363410b40f3ff25bca35ff45",
+      "sourceEnglish": "Collaborative learning has been recognized as an important and effective approach to fostering students’ higher order thinking as well as their collaboration and communication competences (Markula & Aksela, 2022; Quines, 2017; Rorimpandey et al., 2022). In the past decades, several previous studies have demonstrated the effectiveness of engaging students in collaborative learning tasks (Knoche, 2022; Suendarti & Virgana, 2022). For example, in a reading and writing course, Marcos et al. (2020) employed cooperative learning to encourage students to collaboratively analyze and write in groups and develop their own perspectives, and found that this approach effectively enhanced their creative thinking. However, research has indicated that when students engage in group-based problem-solving tasks without sufficient guidance or support, they may feel confused or even experience anxiety during the learning process (Tsai & Wu, 2021). When conducting conventional collaborative learning activities, teachers often manage numerous students and groups, making it difficult to adequately address the needs of each group. As indicated by several scholars, collaborative learning facilitates social negotiation and shared knowledge construction; however, it may lack sufficient structure without appropriate scaffolding (Kokku et al., 2018; Tsai & Wu, 2021); that is, providing timely guidance or immediate feedback or guidance to individual collaborative learning groups remains a critical challenge in educational contexts (Hsu et al., 2023; Kokku et al., 2018; Tsai & Wu, 2021)."
+    },
+    {
+      "title": "取得 GAI 資訊後，仍缺少組織、應用與轉化",
+      "text": "作者強調，單純獲得知識不足以形成有意義學習。GAI 可能提供幻覺、無關內容或過量資訊，因此還需要幫助學生整合、應用與轉化，而不只是增加對話次數。",
+      "pages": [
+        3
+      ],
+      "sourceSegmentId": "paper-05-s-c5404dbcb007",
+      "sourceTextSha256": "d13b129c36b1e347f88ed657a52293be996510ce2e26d3477ebac5360d8f8b33",
+      "sourceEnglish": "Although GAI can generate convincing narratives, previous studies have pointed out that it suffers from the problem of “hallucination,” that is, it generates information that does not correspond to the truth, but is linguistically and logically fluent, which is very likely to mislead learners (Lee et al., 2024; Zhang et al., 2023). For example, when asked about the social impact of sunset industries, GAI may fabricate non-existent industrial policies, misquote inaccurate cases, or misinterpret historical facts. This may reinforce students’ misperceptions if they do not have sufficient background knowledge or critical validation skills. Some studies have raised concerns regarding the application of GAI, particularly regarding the accuracy and reliability of the information it generates, as well as its tendency to produce both relevant and irrelevant content (Dwivedi et al., 2023; Michel-Villarreal et al., 2023). Consequently, it is crucial to support students in effectively integrating the knowledge they acquire, as mere knowledge acquisition is insufficient. The key lies in how students integrate, apply, and transform their knowledge (Machado & Carvalho, 2020; Shi et al., 2023). Otherwise, engaging in discussions and interactions with GAI may fail to produce meaningful learning outcomes, and could even impose an additional cognitive load on students. Therefore, providing appropriate learning scaffolding is essential when utilizing GAI for learning, as this improves the efficiency and effectiveness of students’ interactions with AI (Kasneci et al., 2023; Lin & Mubarok, 2021)."
+    }
+  ],
+  "response": "本文以概念圖外化共享知識、引導小組組織和驗證 GAI 資訊，並以三條件準實驗及成就層次、傾向問卷和訪談檢查可能效益。",
+  "responsePages": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "questions": [
+    {
+      "title": "為什麼有 ChatGPT 還要共同建構概念圖？",
+      "prompt": "AI 對話與概念圖分別承擔什麼工作？",
+      "answer": "GAI 擴充套件資訊與觀點，概念圖把零散回答轉為可看見、可協商的概念關係。小組可依關係網找缺口、比對觀點並修訂，再以共享結構完成文章；概念圖是人主導的組織支架。",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "boundary": "概念圖不會自動辨識 AI 幻覺；本研究也沒有直接評量來源查核正確率。"
+    },
+    {
+      "title": "為什麼設三種條件，而不是隻有兩組？",
+      "prompt": "CM-GAI-CL、GAI-CL 與一般協作各提供什麼比較？",
+      "answer": "概念圖＋ChatGPT 與 ChatGPT-only 的比較，有助於觀察加上概念圖的差異；與一般網路搜尋協作的比較，則把整套 GAI 與結構支架放入既有學習方式的脈絡。三組使用共同教師、內容與評量。",
+      "pages": [
+        5,
+        7,
+        8
+      ],
+      "boundary": "每種條件只有一班，班級與處理重疊；也沒有概念圖但無 GAI 的條件，不能完整分離所有成分。"
+    },
+    {
+      "title": "為什麼選夕陽產業作為協作主題？",
+      "prompt": "它如何對應五階段流程？",
+      "answer": "作者把夕陽產業當作真實且跨領域的永續發展問題，要求學生分析社會、經濟與環境面向。五階段從挑戰與目標、GAI 探索、知識組織、合作驗證到文章創作，讓資訊探索指向可評量的產出。",
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "boundary": "本文只在這個主題中測試，不能直接推廣到所有學科或問題。"
+    },
+    {
+      "title": "為什麼成就還要分記憶、理解與應用分析？",
+      "prompt": "總成就較高是否代表每個認知層次都更好？",
+      "answer": "分層分析顯示：記憶題是概念圖組與一般搜尋組高於 GAI-only；理解題沒有顯著組間差異；應用／分析題才是概念圖組高於另外兩組。層次分析避免把總分優勢寫成各層次全面改善。",
+      "pages": [
+        9,
+        10,
+        11
+      ],
+      "boundary": "這些是題目層次的結果，並有多次比較問題；不等於直接驗證了知識轉化的心理機制。"
+    },
+    {
+      "title": "為什麼批判思考與問題解決不能直接當作實際技能？",
+      "prompt": "量表與 AI 查核表現有什麼差別？",
+      "answer": "本文以問卷測量批判思考傾向及問題解決技能的自陳結果，反映學生對自身學習的評估；它們不是直接觀察學生辨認錯誤資訊、提出證據或完成新問題的表現。成就測驗與傾向問卷應分開判讀。",
+      "pages": [
+        8,
+        9,
+        11,
+        12,
+        13
+      ],
+      "boundary": "未評分 AI 查核、對話及概念圖品質，不能宣稱學生已具備可靠的幻覺辨識能力。"
+    },
+    {
+      "title": "為什麼表格與正文的 p 值都要保留？",
+      "prompt": "遇到結果矛盾，可否挑比較好看的數字？",
+      "answer": "集體效能、批判思考及問題解決的正文 p 值與表格標記不一致，部分均數也有報告矛盾。本頁保留表格調整均數與正文數值，指出衝突位置；在有勘誤或可核對資料前，不自行把某一組改為唯一真值。",
+      "pages": [
+        11,
+        12,
+        13
+      ],
+      "boundary": "指出矛盾不代表可推斷研究者的意圖；仍需作者或期刊提供可核查的更正。"
+    }
+  ],
+  "id": "paper-05",
+  "sourceSha256": "d4641dc89b7f03fdfdaf605221c50db35843a50452dedd1fa6d977bbc13232b1",
+  "sourcePdfPages": 19,
+  "contentStatus": "ai-draft",
+  "alignmentRevision": "first-paper-three-zones-v1"
+}

@@ -1,0 +1,149 @@
+{
+  "purpose": "本文提出自我解釋引導的虛擬博物館學習（SE-VML），要求學生在合作前先完成個人書面解釋，再與直接合作的 C-VML 比較成就、批判思考傾向、合作傾向、後設認知，以及探索行為與學習感受。",
+  "purposePages": [
+    1,
+    2,
+    3
+  ],
+  "importance": "虛擬博物館能提供豐富跨領域內容，但沉浸感與資訊量不必然轉為理解。若學生尚未形成自己的觀點，就可能難以說明、協商或依賴同伴。合作前的個人知識準備，因此是把文物探索轉為有意義知識共構的重要環節。",
+  "importancePages": [
+    2,
+    3
+  ],
+  "previous": "虛擬博物館研究已用體驗學習、概念圖與問題提出等支架促進學習；自我解釋也已在文字、影片及 VR 研究中應用。作者指出，VR 中只要求心裡默默總結的研究未必出現效果，所以本研究用結構化問題與書面產出，讓個人理解成為後續對話可用的材料。",
+  "previousPages": [
+    3,
+    4
+  ],
+  "compact": [
+    "比較合作前書面自我解釋與直接合作的虛擬博物館學習成果、行為與感受。",
+    "豐富沉浸內容不保證深度理解，合作前需要個人知識準備。",
+    "已有虛擬博物館支架及自我解釋證據，但VR默想總結不一定有效。",
+    "4C合作仍有個人理解不足與搭便車問題，VR自我解釋的有效引導仍需具體化。",
+    "以4C串接情境探索、個人書面解釋、分享澄清及合作概念圖，作用機制未直接測量。",
+    "56名六年級學生個別簡單隨機分派，各28人，無前測；200分鐘活動後測驗與問卷，搭配紀錄與訪談。",
+    "四項立即後測平均較高、效果量中等；不是個人進步，問卷傾向不等於實際技能，亦未報多重比較校正。"
+  ],
+  "reflection": "我學到，有效合作需要個人先形成可以說明、比較與修訂的理解，書面自我解釋可以成為這個起點。我也學到，後測組間差異不能改寫為每人從前測進步；批判思考與合作傾向的自陳結果也不能代替實際對話、作品或迷思修正的評量。",
+  "extensions": [
+    "擴大多校樣本，加入基線、延宕與遷移測驗，報告分派、小組結構、流失及信賴區間。",
+    "直接評分書面自我解釋與概念圖，記錄對話與共同編輯，檢驗個人準備是否促進真正的知識共構。",
+    "比較無回饋、延後回饋與即時回饋，觀察保留生成思考與及時修正迷思之間的取捨。"
+  ],
+  "reflectionPages": [
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "gaps": [
+    {
+      "title": "4C 合作前的個人理解與表達準備不足",
+      "text": "作者指出，學生可能缺少獨立思考、難以表達自己的觀點，並依賴同伴而出現搭便車。本文因此在對話與合作前加入個人支架，讓每位學生有可分享的初步理解。",
+      "pages": [
+        2
+      ],
+      "sourceSegmentId": "paper-08-s-e51c939947e7",
+      "sourceTextSha256": "f879842925888da4d4dd47f02154f4433afbdcd9cac2eed59adc62967c45bacb",
+      "sourceEnglish": "However, researchers have also pointed out the need to be aware of the challenges learners often face while collaborating under the constructivist framework. For example, learners are often unable to bring their own initial perspectives into group conversations due to a lack of independent thinking (Baloche and Brody 2017; Puntambekar 2006; Tu 2025). Learners may also have difficulty effectively expressing their understanding due to differences in knowledge structure and comprehension levels, resulting in the collaboration not proceeding smoothly (Lawson and Mayer 2021). In this case, the free-rider effect may also occur, where members become less committed to the learning task and rely on their peers to complete it, reducing collaboration tendencies and affecting overall learning outcomes (Liang et al. 2021). These collaborative challenges become more salient in information-rich virtual museum settings (De Back et al. 2023; Zhou et al. 2022). Under a constructivist framework, the focus of virtual museum learning shifts from simple information acquisition to a complex task of collaborative multimodal meaning-making (Ho et al. 2011; Wehrmann and Zender 2025). In this process, personal understanding plays a vital role in effective collaboration. When learners lack a well-organised personal understanding of the learning content, the collaborative challenges described above are further intensified (Hsu et al. 2016; Petersen et al. 2023). Therefore, before engaging in dialogue and collaboration, it is necessary to supplement learning with individual scaffolding strategies to enhance learners' personal understanding and ensure the effectiveness of subsequent group discussions (Hsu et al. 2016; Puntambekar 2006; Roy and Chi 2005)."
+    },
+    {
+      "title": "VR 中自我解釋的引導仍有限，默想不保證深度處理",
+      "text": "作者指出，VR 納入自我解釋的研究仍少，既有要求默默想像總結的研究未出現顯著學習差異。這不是自我解釋完全無效，而是需要更明確的引導與產出設計。",
+      "pages": [
+        4
+      ],
+      "sourceSegmentId": "paper-08-s-faf4e3c679ae",
+      "sourceTextSha256": "e9b8c725d5404f1ffbefb2724d4fbfc31213d57299dc7a154ae3f5f593fbead5",
+      "sourceEnglish": "Besides, self-explanation activities are particularly important in sensory-rich learning contexts such as VR, as they help learners resist environmental interference and focus their cognitive resources on core learning content to reduce cognitive load and enhance learning effectiveness (Elme et al. 2022; Makransky 2022). However, prior research on VR has seldom incorporated self-explanation strategies, and their application remains limited (Elme et al. 2022; Petersen et al. 2023). Petersen et al. (2023) also pointed out that in VR, merely asking individual students to perform silent, imagined summarisation (a form of covert self-explanation) did not result in significantly different learning outcomes compared to a control group with no such activities. This finding revealed that in VR, it is insufficient to merely expect learners to spontaneously engage in deep cognitive processing."
+    }
+  ],
+  "response": "本文以結構化引導題促使學生寫下解釋，再分享、互問與澄清，最後共同建構概念圖；以隨機分派比較合作前是否加入這項個人準備。",
+  "responsePages": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "questions": [
+    {
+      "title": "為什麼先個人自我解釋，再進入合作？",
+      "prompt": "個人階段如何與知識共構相連？",
+      "answer": "作者認為學生要先選取、組織與連結資訊，才能帶著可說明的理解進入討論。書面解釋提供可分享的材料，讓同伴比較、互問與澄清，避免合作從零散印象或依賴他人開始。",
+      "pages": [
+        2,
+        3,
+        6
+      ],
+      "boundary": "沒有直接評分個人解釋品質或搭便車行為，不能稱已證明這些機製得到改善。"
+    },
+    {
+      "title": "為什麼4C要區分建構、對話與合作？",
+      "prompt": "三個階段是否只是同一個小組活動？",
+      "answer": "建構階段重在形成個人的文字理解；對話階段分享並澄清彼此觀點；合作階段再以共同概念圖整合共享知識。先有個人產出，再修訂理解，最後共作，是作者安排的銜接邏輯。",
+      "pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "boundary": "沒有分別拆解各階段效果，本文比較的是合作前加入書面自我解釋的整套安排。"
+    },
+    {
+      "title": "為什麼要求寫下來，而不是隻在心裡想？",
+      "prompt": "書面產出與自發默想有何差別？",
+      "answer": "作者回顧VR默想總結未見顯著差異的研究，認為不能只期待學生自發深度處理。結構化問題與文字要求，使學生選取、組織並把新舊資訊連結成可檢查、可討論的產出。",
+      "pages": [
+        4,
+        6
+      ],
+      "boundary": "本文沒有「書面」與「默想」兩種自我解釋的直接比較，不能宣稱書面一定優於所有其他形式。"
+    },
+    {
+      "title": "為什麼無前測，也能比較後測？",
+      "prompt": "隨機分派是否保證兩組一開始完全相同？",
+      "answer": "個別簡單隨機分派讓各人有機會進入任一條件，可減少系統性分派偏差；作者因此比較兩組活動後結果。可是小樣本的隨機化不保證完全平衡，沒有基線也無法直接量出個人進步。",
+      "pages": [
+        8,
+        9,
+        17,
+        18
+      ],
+      "boundary": "四項結果是立即後測的組間差異，不能寫成每位學生的前後進步。"
+    },
+    {
+      "title": "為什麼批判思考與合作問卷用「傾向」來讀？",
+      "prompt": "高分是否代表學生真的做了更好的合作？",
+      "answer": "問卷反映學生自陳的思考與合作傾向，並不直接計分辯證品質、成員貢獻或協商表現。本文也指出主要關注支援合作的個人認知與傾向因素，沒有直接檢查合作內部的互動品質。",
+      "pages": [
+        3,
+        9,
+        10
+      ],
+      "boundary": "不能把問卷均數差寫成實際合作能力已提升；需另加對話與作品評量。"
+    },
+    {
+      "title": "為什麼反覆閱讀與訪談只能補充可能機制？",
+      "prompt": "行為與學生敘述能否證明自我解釋透過特定歷程造成效果？",
+      "answer": "SE-VML 出現較多反覆閱讀與跨場景閱讀轉移，訪談也描述自我監控與觀點檢查。它們與作者的個人準備解釋相容，但沒有直接測量認知負荷、解釋品質或中介關係。",
+      "pages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "boundary": "序列、訪談與測驗互補，不是機制的因果驗證；主題頻數也不等於學生人數。"
+    }
+  ],
+  "id": "paper-08",
+  "sourceSha256": "54d2a99a100ef5b8ae26a90dc50cfac2f16828aa6de6bce7548aa9d7af66da52",
+  "sourcePdfPages": 21,
+  "contentStatus": "ai-draft",
+  "alignmentRevision": "first-paper-three-zones-v1"
+}

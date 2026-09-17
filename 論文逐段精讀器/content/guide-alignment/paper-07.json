@@ -1,0 +1,149 @@
+{
+  "purpose": "本文把 LLM 個人虛擬代理加入替代實境遊戲（ARG），與只有預設規則回饋的 C-ARG 比較，檢查學習成就、後設認知與行為模式。作者另外在實驗組內探索互動頻率、任務成功、後設認知與成績之間的關係。",
+  "purposePages": [
+    1,
+    2
+  ],
+  "importance": "跨領域 STEM 任務要求學生整合知識並解決接近真實的問題。ARG 可以用情境與謎題吸引參與，但多模態資訊和任務不確定性也可能增加負擔；學生不一定能自行整理線索、監控理解與規劃，因此即時而可解釋的支架特別重要。",
+  "importancePages": [
+    1,
+    2,
+    3
+  ],
+  "previous": "既有 ARG 研究已有動機、探究、協作與問題解決的潛力；虛擬代理可提供即時回饋及情緒支援，但固定對話樹與規則系統較難理解新問題。LLM 聊天機器人已用於線上學習與個人化回饋，作者指出其自然對話、解釋回饋與後設認知支架在沉浸式任務中仍未充分探索。",
+  "previousPages": [
+    2,
+    3,
+    4
+  ],
+  "compact": [
+    "比較 LLM 動態代理與規則式 ARG，並探索互動頻率與成功及成績的關係。",
+    "複雜 STEM 遊戲需要整理線索、理解回饋與監控策略，參與感不等於有效學習。",
+    "ARG、虛擬代理與線上LLM回饋已有證據，固定回饋及沉浸式對話支架仍有限。",
+    "LLM 的自然語言、解釋型及後設認知支架在複雜沉浸情境中仍待探索。",
+    "以作答、任務導向與成就回饋支援探究和自我調節；認知負荷未直接測量。",
+    "兩班57人、28人LLM-ARG及29人C-ARG，五週準實驗，成就與後設認知 ANCOVA，搭配紀錄與相關。",
+    "兩項主要後測略高；高互動不一定成功較高，相關與事後分組不能證明互動造成效果。"
+  ],
+  "reflection": "我學到，AI 支架的價值不能只用互動次數衡量。學生可能因困難、探索或反覆確認而多問，也可能以較少互動有效完成任務；判斷學習仍要結合對話品質、策略、成就與保留。主要結果的顯著差異也不等於已直接證明認知負荷或自我調節機制。",
+  "extensions": [
+    "增加班級與學校並處理叢集結構，報告基線、缺失、信賴區間與模型設定。",
+    "分析對話內容、提示品質與自我調節歷程，加入直接認知負荷測量，檢查支架的實際作用。",
+    "預先定義互動策略與分析，加入延宕和遷移任務，區分立即成功、探索與長期理解。"
+  ],
+  "reflectionPages": [
+    15,
+    16
+  ],
+  "gaps": [
+    {
+      "title": "LLM 支架在複雜沉浸任務中的獨特作用仍待探索",
+      "text": "作者指出，大多數 LLM 教育研究偏向線上平臺，其自然語言對話、可解釋回饋與後設認知支架，在 ARG 等沉浸式學習環境中的作用仍未充分探索。",
+      "pages": [
+        2
+      ],
+      "sourceSegmentId": "paper-07-s-e159e81f4dde",
+      "sourceTextSha256": "4731ad427fdc0897ea0417176069b272f0ac4a9b2027665a884573c6e7ed6245",
+      "sourceEnglish": "Chatbots driven by generative artificial intelligence, acting as virtual agents, have shown substantial promise in advancing human-computer interactions within educational settings (Yan et al. 2024). Large Language Models (LLMs) employed in these chatbots have witnessed rapid advancements recently, particularly in the fields of knowledge retrieval, text recognition, and multimodal interactions, which have notably increased the chatbots' potential in educational applications (Kuhail et al. 2023). LLM-based chatbots, by providing instantaneous feedback and supplementary information, effectively aid students in problem solving, and are recognised as personal tutors or learning assistants that can be seamlessly incorporated into educational systems (Dokukina and Gumanova 2020; Essel et al. 2022). Supported by extensive data, these chatbots not only manage information efficiently, but also enhance student engagement and problem resolution, delivering tailored learning feedback (Chen et al. 2023; Kasneci et al. 2023). Nonetheless, the integration of LLM technology into complex situational learning tasks remains underexplored, with most studies focusing primarily on its application in online learning platforms (Ooi et al. 2023). Whilst prior research has established the benefits of adaptive feedback, the unique affordances of LLMs—such as their ability to engage in natural language dialogue, provide explanatory feedback, and offer metacognitive scaffolding—remain underexplored within immersive learning environments (Du 2025; El Hajji et al. 2025)."
+    },
+    {
+      "title": "傳統虛擬代理受預設對話樹與規則限制",
+      "text": "作者指出，傳統代理較難理解新問題並提供真正適應性的解釋回饋。本文因此轉向 LLM，處理 STEM 任務中需要動態、對話式支架的教學問題。",
+      "pages": [
+        3
+      ],
+      "sourceSegmentId": "paper-07-s-18b736e3d8ea",
+      "sourceTextSha256": "f6fcaf91f2ac57b3f500ae30cdb6b2f8dd4072db9b61ba4f96ab8ab47b537827",
+      "sourceEnglish": "With virtual agents' support, students can effectively complete learning tasks and practises, benefiting from timely feedback that assists them in identifying and rectifying errors (Oker et al. 2020; Sikström et al. 2022). Additionally, virtual agents boost students' self-efficacy and learning motivation through emotional feedback, which also strengthens their social presence in the learning process, reduces anxiety, and ignites their internal drive to learn (Chou et al. 2022; Fountoukidou et al. 2019). This emotional support not only increases students' feelings of security and belonging in virtual environments, but also motivates them to engage more actively in learning activities (Schlimbach et al. 2024). Research indicates that virtual agents not only spur learning motivation but also enhance the efficiency with which students execute tasks, thereby improving their performance and cognitive growth in complex learning scenarios (Krassmann et al. 2019; Lin et al. 2020). Virtual agents are emerging as potent educational tools that provide sustained support, boosting engagement and a sense of achievement amongst students tackling intricate tasks (Sinatra et al. 2021). Whilst the benefits demonstrated in these studies are significant, the effectiveness of most traditional virtual agents is constrained by their underlying technology. Typically reliant on pre-scripted dialogue trees and rule-based systems, their ability to provide truly adaptive, explanatory feedback or understand novel student inquiries is limited (Han et al. 2025). This rigidity can hinder the development of sophisticated learning processes that require more than pre-programmed hints (Al-Abri 2025). Therefore, to enable the kind of dynamic, conversational scaffolding needed for effective learning in varied STEM educational settings, this research turns to the advanced capabilities of LLMs."
+    }
+  ],
+  "response": "本文把個人虛擬代理 V 放進共同的 STEM ARG 任務，以三種回饋提供動態支援，與規則式代理比較成就、後設認知與行為，再探索不同互動頻率的學習型態。",
+  "responsePages": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "questions": [
+    {
+      "title": "為什麼使用 LLM 代理，而不是更多固定提示？",
+      "prompt": "動態對話想突破哪個限制？",
+      "answer": "固定提示只能覆蓋預設問題與分支；LLM 代理可以依學生提問及進度提供較個人化、可解釋的回饋。作者特別關注這種支援能否幫學生理解概念、監控任務與反思，而不只是告知答案正誤。",
+      "pages": [
+        2,
+        3,
+        4,
+        7,
+        8,
+        9
+      ],
+      "boundary": "研究沒有直接評分每則回饋的正確性與適應性，不能認定所有生成回覆都可靠。"
+    },
+    {
+      "title": "為什麼回饋分為作答、任務導向與成就三種？",
+      "prompt": "三類回饋如何承接不同時刻的需要？",
+      "answer": "作答回饋協助診斷與澄清概念；任務導向回饋提醒里程碑與下一步；成就回饋提供完成子目標後的進度與獎勵。它們把錯誤修正、規劃與持續參與放進同一套任務流程。",
+      "pages": [
+        7,
+        8,
+        9
+      ],
+      "boundary": "沒有逐一拆解三種回饋的效果，不能判斷哪一種是主要作用來源。"
+    },
+    {
+      "title": "為什麼成就與後設認知都控制前測？",
+      "prompt": "兩項結果是否在測同一件事？",
+      "answer": "成就測驗檢查知識表現，五題後設認知量表則反映自陳監控與調節。作者分別以 ANCOVA 控制相關前測，再比較兩項後測，因為先備知識與監控傾向可能影響學習表現。",
+      "pages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "boundary": "只有兩個既有班級；控制前測不會消除所有班級與未測因素，問卷也不等於直接觀察策略。"
+    },
+    {
+      "title": "為什麼互動次數不能當作 AI 使用品質？",
+      "prompt": "多問就是更投入、更成功嗎？",
+      "answer": "次數沒有告訴我們提問原因或回答品質。作者觀察到互動頻率與成功率的線性相關未顯著，事後高低頻組比較又呈現低頻組成功率較高；多問可能包括探索、反覆確認或困難。",
+      "pages": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "boundary": "探索型、精熟型等分類主要是作者解釋，並未以對話內容或獨立策略量表直接驗證。"
+    },
+    {
+      "title": "為什麼相關不顯著，事後高低組卻可能顯著？",
+      "prompt": "這是否自動表示兩項分析互相矛盾？",
+      "answer": "Pearson 相關檢查全實驗組數值間的線性關係；高低分組 t 檢定比較事後切分群體的平均成功率。它們使用不同的問題與資料處理，結果不必相同；事後切分也可能增加選擇與偶然顯著問題。",
+      "pages": [
+        13,
+        14
+      ],
+      "boundary": "都不是互動頻率的隨機介入，不能據此說少問造成更高成功率。"
+    },
+    {
+      "title": "為什麼行為表的 z 值要與正文敘述一起看？",
+      "prompt": "重複問答或問後成功的路徑能證明什麼？",
+      "answer": "序列分析描述事件轉移相對於預期的頻率。表5的 Q→Q，z＝0.44，未達作者使用的顯著門檻，不能把正文的重複互動描述當成顯著路徑；Q 之後的答題轉移也沒有直接檢驗錯誤下降機制。",
+      "pages": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "boundary": "行為轉移不是因果關係，組內顯著路徑也不等於已正式證明組間差異。"
+    }
+  ],
+  "id": "paper-07",
+  "sourceSha256": "49c86f4c7771f899ef1388548d95df5166b2853470de7a46c0aa68d9de84d708",
+  "sourcePdfPages": 19,
+  "contentStatus": "ai-draft",
+  "alignmentRevision": "first-paper-three-zones-v1"
+}

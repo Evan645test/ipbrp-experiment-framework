@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-17T11:34:03.727738+00:00",
+  "checkedAt": "2026-09-17T13:10:36.456961+00:00",
   "scope": "本機導讀首頁、八篇獨立導讀與統一閱讀入口；不以修改時間單獨判定。",
   "paper01Change": "首頁舊版更新為 2026-09-15 本機最新的讀者追問試作版，保留試作身分與原內容。",
   "originalPaper01Backup": "content/paper-01-guide-before-version-sync.html",
@@ -15,58 +15,65 @@
     {
       "id": "paper-02",
       "sourceFile": "2. Concept Maps as a Content and Language Integrated Learning Facilitator - 互動導讀.html",
-      "sourceModifiedAt": "2026-09-13T07:45:46.805290+00:00",
-      "sha256": "d7a1f7d4867637081b50f859ecd841fcb406a6cb671d8905714c74a57717af4a",
+      "sourceModifiedAt": "2026-09-17T13:10:36.456961+00:00",
+      "sha256": "700a3b0f28c7065a31816308839067d5c3533d32e4ed1c6f973057ebe7121954",
       "homepageMatchesSource": true,
-      "unifiedEntryMatchesSource": true
+      "unifiedEntryMatchesSource": true,
+      "alignmentRevision": "first-paper-three-zones-v1"
     },
     {
       "id": "paper-03",
       "sourceFile": "3. A gamified AI movement assessment and feedback approach - 互動導讀.html",
-      "sourceModifiedAt": "2026-09-14T02:24:12.581160+00:00",
-      "sha256": "3e26a871545e2f5046c225c7c20407d44b00f993c0b47dc74c09301858c48614",
+      "sourceModifiedAt": "2026-09-17T13:10:36.456961+00:00",
+      "sha256": "8c345f76c524cf4f2254924232aeac7af3e2892b50e37db91da7060cbdddbdc0",
       "homepageMatchesSource": true,
-      "unifiedEntryMatchesSource": true
+      "unifiedEntryMatchesSource": true,
+      "alignmentRevision": "first-paper-three-zones-v1"
     },
     {
       "id": "paper-04",
       "sourceFile": "4. Enhancing engagement and collaborative creativity in health promotion education - 互動導讀.html",
-      "sourceModifiedAt": "2026-09-14T02:24:12.677834+00:00",
-      "sha256": "29f4ab90f21cc86a6869447da8a4dd958ea2216c2c3c1b4844cc45503868713b",
+      "sourceModifiedAt": "2026-09-17T13:10:36.456961+00:00",
+      "sha256": "6c7b8e0d9d8ed1e3b13fff91346b0330bb2b42d1bc126e5f0d98779e49798a8f",
       "homepageMatchesSource": true,
-      "unifiedEntryMatchesSource": true
+      "unifiedEntryMatchesSource": true,
+      "alignmentRevision": "first-paper-three-zones-v1"
     },
     {
       "id": "paper-05",
       "sourceFile": "5. Concept mapping as a critical thinking facilitator for generative AI-supported collaborative learning - 互動導讀.html",
-      "sourceModifiedAt": "2026-09-14T02:24:12.779162+00:00",
-      "sha256": "42a630845a29c39aebb7b58e3e07f8929909c4879fffd370f00cc7b4d968d878",
+      "sourceModifiedAt": "2026-09-17T13:10:36.456961+00:00",
+      "sha256": "3456af3d66469b904e5acab8d15abc14c0494ee0eccf4049e22da20bc3f302da",
       "homepageMatchesSource": true,
-      "unifiedEntryMatchesSource": true
+      "unifiedEntryMatchesSource": true,
+      "alignmentRevision": "first-paper-three-zones-v1"
     },
     {
       "id": "paper-06",
       "sourceFile": "6. Effects of integrating peer assessment with electromechanical game-based learning - 互動導讀.html",
-      "sourceModifiedAt": "2026-09-14T02:24:12.900198+00:00",
-      "sha256": "be4f0999d5be4227a0d5381fb09474889f07f938314f92f0aeb75db528c09e1c",
+      "sourceModifiedAt": "2026-09-17T13:10:36.456961+00:00",
+      "sha256": "cfb50f65e7827972eff52450397e9acf38a9b9ce327ae941482ab8066d74ed43",
       "homepageMatchesSource": true,
-      "unifiedEntryMatchesSource": true
+      "unifiedEntryMatchesSource": true,
+      "alignmentRevision": "first-paper-three-zones-v1"
     },
     {
       "id": "paper-07",
       "sourceFile": "7. Boosting Student Engagement in STEM - 互動導讀.html",
-      "sourceModifiedAt": "2026-09-13T11:44:02.365944+00:00",
-      "sha256": "cb18af8cb28e42f93edcb57169be92ff63fed701f284129e2090751e9fbfd063",
+      "sourceModifiedAt": "2026-09-17T13:10:36.456961+00:00",
+      "sha256": "6832b71a28e909ff81a3fa744b8deb6147bb7d818787e81a43f23e7a6ea1a0e5",
       "homepageMatchesSource": true,
-      "unifiedEntryMatchesSource": true
+      "unifiedEntryMatchesSource": true,
+      "alignmentRevision": "first-paper-three-zones-v1"
     },
     {
       "id": "paper-08",
       "sourceFile": "8. Self-Explanation-Guided Virtual Museum Learning - 互動導讀.html",
-      "sourceModifiedAt": "2026-09-13T12:46:25.936186+00:00",
-      "sha256": "1d6a92e9acf869841174634333dbfbce8de461c258e6905ba52114a43a141e6e",
+      "sourceModifiedAt": "2026-09-17T13:10:36.456961+00:00",
+      "sha256": "dac0e1189d4f585c9291e7de4cd2551024b06ecf49bd5ab9240ce893309e30d3",
       "homepageMatchesSource": true,
-      "unifiedEntryMatchesSource": true
+      "unifiedEntryMatchesSource": true,
+      "alignmentRevision": "first-paper-three-zones-v1"
     }
   ],
   "publicCheck": {
@@ -115,5 +122,15 @@
         "matchesLatestLocal": true
       }
     ]
+  },
+  "alignment": {
+    "checkedAt": "2026-09-17T13:10:36.456961+00:00",
+    "reference": "paper-01",
+    "papers": 7,
+    "assignmentsPerPaper": 8,
+    "readerQuestionsPerPaper": 6,
+    "coreDiscussionsPerPaper": 4,
+    "evidenceDirectory": "content/guide-alignment",
+    "originalGuides": "content/guide-alignment/originals"
   }
 }
