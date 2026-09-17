@@ -1,0 +1,4723 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-17T04:59:11.912851+00:00",
+  "applied": true,
+  "thresholdWords": 10,
+  "papers": {
+    "paper-01": {
+      "excludedCandidates": [
+        {
+          "id": "paper-01-s-da6334e3a079",
+          "order": 47,
+          "pages": [
+            10
+          ],
+          "sourceText": "Table 1 Coding scheme.",
+          "words": 4,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 19,
+            "boldFraction": 0.3158
+          }
+        },
+        {
+          "id": "paper-01-s-cb710b102e05",
+          "order": 48,
+          "pages": [
+            10
+          ],
+          "sourceText": "Code Behavior Description",
+          "words": 3,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 23,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-01-s-a02a0e24efcd",
+          "order": 56,
+          "pages": [
+            11
+          ],
+          "sourceText": "Table 2 Descriptive statistics and time effects of the two groups’ CT.",
+          "words": 12,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 59,
+            "boldFraction": 0.1017
+          }
+        },
+        {
+          "id": "paper-01-s-40ee22e6e0e1",
+          "order": 57,
+          "pages": [
+            11
+          ],
+          "sourceText": "T0 T1 T2",
+          "words": 6,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 6,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-01-s-63440d720682",
+          "order": 64,
+          "pages": [
+            11
+          ],
+          "sourceText": "Group Mean ± SD F p η2",
+          "words": 6,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 16,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-01-s-fd7809f52bb4",
+          "order": 67,
+          "pages": [
+            12
+          ],
+          "sourceText": "Table 3 The linear mixed-effects model results for CT.",
+          "words": 9,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 46,
+            "boldFraction": 0.1304
+          }
+        },
+        {
+          "id": "paper-01-s-8d2118f0d5a2",
+          "order": 68,
+          "pages": [
+            12
+          ],
+          "sourceText": "Model equation:CT~1+time + group + group:time+(1|participant).",
+          "words": 10,
+          "reason": "table-model-label",
+          "typography": {
+            "matchedCharacters": 57,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-01-s-f2f30b71c38f",
+          "order": 69,
+          "pages": [
+            12
+          ],
+          "sourceText": "Table 4 Descriptive statistics and time effects of the two groups’ inhibition.",
+          "words": 12,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 67,
+            "boldFraction": 0.0896
+          }
+        },
+        {
+          "id": "paper-01-s-40ee22e6e0e1-2",
+          "order": 70,
+          "pages": [
+            12
+          ],
+          "sourceText": "T0 T1 T2",
+          "words": 6,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 6,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-01-s-497550ef7108",
+          "order": 72,
+          "pages": [
+            12
+          ],
+          "sourceText": "Fixed effect β SE 95% CI t p",
+          "words": 7,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 21,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-01-s-506c53ee35ea",
+          "order": 75,
+          "pages": [
+            12
+          ],
+          "sourceText": "Model fit Marginal Conditional ​R2 0.29 0.47 ​",
+          "words": 8,
+          "reason": "table-model-label",
+          "typography": {
+            "matchedCharacters": 37,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-01-s-63440d720682-2",
+          "order": 76,
+          "pages": [
+            12
+          ],
+          "sourceText": "Group Mean ± SD F p η2",
+          "words": 6,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 16,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-01-s-497550ef7108-2",
+          "order": 80,
+          "pages": [
+            13
+          ],
+          "sourceText": "Fixed effect β SE 95% CI t p",
+          "words": 7,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 21,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-01-s-55e7194803e8",
+          "order": 83,
+          "pages": [
+            13
+          ],
+          "sourceText": "Model fit Marginal Conditional ​R2 0.07 0.92 ​",
+          "words": 8,
+          "reason": "table-model-label",
+          "typography": {
+            "matchedCharacters": 37,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-01-s-cde3ec6a074a",
+          "order": 84,
+          "pages": [
+            13
+          ],
+          "sourceText": "Table 5 The linear mixed-effects model results for inhibition.",
+          "words": 9,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 54,
+            "boldFraction": 0.1111
+          }
+        },
+        {
+          "id": "paper-01-s-b630ec7e04d6",
+          "order": 85,
+          "pages": [
+            13
+          ],
+          "sourceText": "Model equation:Inhibition+time + group + group:time+(1|participant).",
+          "words": 9,
+          "reason": "table-model-label",
+          "typography": {
+            "matchedCharacters": 63,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-01-s-10089fc4be72",
+          "order": 86,
+          "pages": [
+            13
+          ],
+          "sourceText": "Table 6 Descriptive statistics and time effects of the two groups’ working memory.",
+          "words": 13,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 70,
+            "boldFraction": 0.0857
+          }
+        },
+        {
+          "id": "paper-01-s-40ee22e6e0e1-3",
+          "order": 87,
+          "pages": [
+            13
+          ],
+          "sourceText": "T0 T1 T2",
+          "words": 6,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 6,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-01-s-812914c9d431",
+          "order": 88,
+          "pages": [
+            13
+          ],
+          "sourceText": "Table 7 The linear mixed-effects model results for working memory.",
+          "words": 10,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 57,
+            "boldFraction": 0.1053
+          }
+        },
+        {
+          "id": "paper-01-s-191ae2688d43",
+          "order": 89,
+          "pages": [
+            13
+          ],
+          "sourceText": "Table 8 Descriptive statistics and time effects of the two groups’ cognitive flexibility.",
+          "words": 13,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 77,
+            "boldFraction": 0.0779
+          }
+        },
+        {
+          "id": "paper-01-s-40ee22e6e0e1-4",
+          "order": 90,
+          "pages": [
+            13
+          ],
+          "sourceText": "T0 T1 T2",
+          "words": 6,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 6,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-01-s-63440d720682-3",
+          "order": 91,
+          "pages": [
+            13
+          ],
+          "sourceText": "Group Mean ± SD F p η2",
+          "words": 6,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 16,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-01-s-497550ef7108-3",
+          "order": 94,
+          "pages": [
+            13
+          ],
+          "sourceText": "Fixed effect β SE 95% CI t p",
+          "words": 7,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 21,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-01-s-2bd25ad83310",
+          "order": 97,
+          "pages": [
+            13
+          ],
+          "sourceText": "Model fit Marginal Conditional ​R2 0.10 0.76 ​",
+          "words": 8,
+          "reason": "table-model-label",
+          "typography": {
+            "matchedCharacters": 37,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-01-s-63440d720682-4",
+          "order": 99,
+          "pages": [
+            13
+          ],
+          "sourceText": "Group Mean ± SD F p η2",
+          "words": 6,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 16,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-01-s-fe6e77ace6eb",
+          "order": 111,
+          "pages": [
+            15
+          ],
+          "sourceText": "Table 9 The linear mixed-effects model results for cognitive flexibility.",
+          "words": 10,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 64,
+            "boldFraction": 0.0938
+          }
+        },
+        {
+          "id": "paper-01-s-ab6298ca6acb",
+          "order": 112,
+          "pages": [
+            15
+          ],
+          "sourceText": "Table 10 Distribution and proportion of the two groups’ behaviors.",
+          "words": 10,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 57,
+            "boldFraction": 0.1228
+          }
+        },
+        {
+          "id": "paper-01-s-497550ef7108-4",
+          "order": 113,
+          "pages": [
+            15
+          ],
+          "sourceText": "Fixed effect β SE 95% CI t p",
+          "words": 7,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 21,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-01-s-a63fbdbe4111",
+          "order": 116,
+          "pages": [
+            15
+          ],
+          "sourceText": "Model fit Marginal Conditional ​R2 0.13 0.67 ​",
+          "words": 8,
+          "reason": "table-model-label",
+          "typography": {
+            "matchedCharacters": 37,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-01-s-554005665839",
+          "order": 138,
+          "pages": [
+            18
+          ],
+          "sourceText": "CRediT authorship contribution statement",
+          "words": 4,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 37,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-01-s-caec210e3421",
+          "order": 139,
+          "pages": [
+            18
+          ],
+          "sourceText": "Ethics approval and informed consent",
+          "words": 5,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 32,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-01-s-fafd4ee062f4",
+          "order": 140,
+          "pages": [
+            18
+          ],
+          "sourceText": "Availability of data and material",
+          "words": 5,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 29,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-01-s-ff72b6dd5e6e",
+          "order": 141,
+          "pages": [
+            18
+          ],
+          "sourceText": "Competing interests",
+          "words": 2,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 18,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-01-s-b70689041c39",
+          "order": 143,
+          "pages": [
+            18
+          ],
+          "sourceText": "Acknowledgment",
+          "words": 1,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 14,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-01-s-a1695c7cd61f",
+          "order": 144,
+          "pages": [
+            18
+          ],
+          "sourceText": "Appendix I",
+          "words": 2,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 9,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-01-s-00c3128f0cec",
+          "order": 149,
+          "pages": [
+            19
+          ],
+          "sourceText": "Appendix II",
+          "words": 2,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 10,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-01-s-6241008979e4",
+          "order": 151,
+          "pages": [
+            19
+          ],
+          "sourceText": "Data availability",
+          "words": 2,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 16,
+            "boldFraction": 1.0
+          }
+        }
+      ],
+      "preservedShortUnits": [
+        {
+          "id": "paper-01-s-147eeb800482",
+          "order": 10,
+          "sourceText": "Fig. 1. The flow of PBL (Synthesized by the authors).",
+          "words": 10,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-ab92fc53961f",
+          "order": 17,
+          "sourceText": "Fig. 2. The design principles of CPBL and IPBL.",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-afc461d3804a",
+          "order": 22,
+          "sourceText": "Fig. 3. Robot programming tool.",
+          "words": 5,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-b940d50efe04",
+          "order": 27,
+          "sourceText": "Fig. 4. The learning content for the I-PBRP approach.",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-3a8b6ccc0d77",
+          "order": 28,
+          "sourceText": "Fig. 5. The learning content for the C-PBRP approach.",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-26e5b46473b9",
+          "order": 31,
+          "sourceText": "Fig. 6. The flow of the I-PBRP approach.",
+          "words": 8,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-7086d0eca3e4",
+          "order": 41,
+          "sourceText": "Fig. 7. The teacher introduced new knowledge through different activities.",
+          "words": 10,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-d579388fffbc",
+          "order": 42,
+          "sourceText": "Fig. 8. The teacher assigned the task requirement.",
+          "words": 8,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-d85243e01e6c",
+          "order": 49,
+          "sourceText": "Fig. 10. Experimental procedure.",
+          "words": 4,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-11c642e44a44",
+          "order": 55,
+          "sourceText": "good reliability (Campbell et al., 2013).",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-585086a281fb",
+          "order": 66,
+          "sourceText": "Fig. 11. The two groups’ CT scores by time.",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-6c5979a9d16b",
+          "order": 71,
+          "sourceText": "PBRP group over time.",
+          "words": 4,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-664fe96445b6",
+          "order": 78,
+          "sourceText": "Fig. 12. The two groups’ inhibition scores by time.",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-0a53b0cab5c9",
+          "order": 93,
+          "sourceText": "Fig. 13. The two groups’ working memory scores by time.",
+          "words": 10,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-e3ac7c51c366",
+          "order": 110,
+          "sourceText": "Fig. 14. The two groups’ cognitive flexibility scores by time.",
+          "words": 10,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-a08ebd32f061",
+          "order": 118,
+          "sourceText": "Earlier phase Middle phase Later phase",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-c4e2874d3c67",
+          "order": 119,
+          "sourceText": "I-PBRP C-PBRP I-PBRP C-PBRP I-PBRP C-PBRP",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-e5107e2a694b",
+          "order": 124,
+          "sourceText": "Fig. 15. Progressive behavioral patterns of the two groups.",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-806f9b6ab1aa",
+          "order": 131,
+          "sourceText": "To extend the research scope, several recommendations are offered.",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-c8ece8616b3d",
+          "order": 142,
+          "sourceText": "The authors declare no conflicts of interest.",
+          "words": 7,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-d3a81bdfa161",
+          "order": 145,
+          "sourceText": "Sample item of the TechCheck-K CT test (Relkin & Bers, 2021).",
+          "words": 10,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-2a879afd88e1",
+          "order": 147,
+          "sourceText": "The data was available upon request from the corresponding authors.",
+          "words": 10,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-6731c7284556",
+          "order": 150,
+          "sourceText": "Details of EF measures (Howard & Melhuish, 2017).",
+          "words": 7,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-01-s-bbba8f6ed395",
+          "order": 152,
+          "sourceText": "Data will be made available on request.",
+          "words": 7,
+          "action": "preserved-review-only"
+        }
+      ],
+      "reasons": {
+        "table-title": 10,
+        "table-header": 13,
+        "table-model-label": 6,
+        "section-heading": 8
+      },
+      "includedAfter": 116
+    },
+    "paper-02": {
+      "excludedCandidates": [
+        {
+          "id": "paper-02-s-05535ecff78e",
+          "order": 9,
+          "pages": [
+            3
+          ],
+          "sourceText": "Summary",
+          "words": 1,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 7,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-02-s-5355fa779a5f",
+          "order": 10,
+          "pages": [
+            3
+          ],
+          "sourceText": "• What is already known about this topic",
+          "words": 7,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 33,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-02-s-8e2301705929",
+          "order": 14,
+          "pages": [
+            3
+          ],
+          "sourceText": "• What this paper adds",
+          "words": 4,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 18,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-02-s-ffccf3dc9687",
+          "order": 18,
+          "pages": [
+            3
+          ],
+          "sourceText": "• Implications for practice and/or policy",
+          "words": 6,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 36,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-02-s-cca6c57b7955",
+          "order": 55,
+          "pages": [
+            7
+          ],
+          "sourceText": "TABLE 1 | Coding scheme.",
+          "words": 4,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 20,
+            "boldFraction": 0.3
+          }
+        },
+        {
+          "id": "paper-02-s-012b59f27de5",
+          "order": 56,
+          "pages": [
+            7
+          ],
+          "sourceText": "Code Phase Description",
+          "words": 3,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 20,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-02-s-9f8a9d314620",
+          "order": 70,
+          "pages": [
+            8
+          ],
+          "sourceText": "TABLE 2 | ANCOVA result of the English learning achievement posttest of the two groups.",
+          "words": 14,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 73,
+            "boldFraction": 0.0822
+          }
+        },
+        {
+          "id": "paper-02-s-84f43a1132c3",
+          "order": 71,
+          "pages": [
+            8
+          ],
+          "sourceText": "CM-CLDG 53 95.32 12.55 94.59 1.90 30.01*** 0.286",
+          "words": 8,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 42,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-02-s-c97783bd3e77",
+          "order": 72,
+          "pages": [
+            8
+          ],
+          "sourceText": "C-CLDG 25 74.56 23.55 76.12 2.77",
+          "words": 6,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 28,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-02-s-0fca4fd72bb6",
+          "order": 73,
+          "pages": [
+            8
+          ],
+          "sourceText": "TABLE 3 | ANCOVA result of the science learning achievement posttest of the two groups.",
+          "words": 14,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 73,
+            "boldFraction": 0.0822
+          }
+        },
+        {
+          "id": "paper-02-s-200e7ae4aa06",
+          "order": 74,
+          "pages": [
+            8
+          ],
+          "sourceText": "Group N Mean SD Adjusted mean Std error F η2",
+          "words": 10,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 35,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-02-s-513156c2f872",
+          "order": 75,
+          "pages": [
+            8
+          ],
+          "sourceText": "CM-CLDG 53 85.21 8.32 84.89 1.52 27.68*** 0.270",
+          "words": 8,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 41,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-02-s-e0d7cc5df8fd",
+          "order": 76,
+          "pages": [
+            8
+          ],
+          "sourceText": "C-CLDG 25 70.08 19.05 70.76 2.21",
+          "words": 6,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 28,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-02-s-a8b65ee86d10",
+          "order": 77,
+          "pages": [
+            8
+          ],
+          "sourceText": "***p < 0.001.",
+          "words": 2,
+          "reason": "statistical-table-note",
+          "typography": {
+            "matchedCharacters": 11,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-02-s-a8b65ee86d10-2",
+          "order": 78,
+          "pages": [
+            8
+          ],
+          "sourceText": "***p < 0.001.",
+          "words": 2,
+          "reason": "statistical-table-note",
+          "typography": {
+            "matchedCharacters": 11,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-02-s-338face57e8c",
+          "order": 88,
+          "pages": [
+            9
+          ],
+          "sourceText": "TABLE 4 | ANCOVA result of the learning motivation posttest of the two groups.",
+          "words": 13,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 65,
+            "boldFraction": 0.0923
+          }
+        },
+        {
+          "id": "paper-02-s-cb25e531f771",
+          "order": 89,
+          "pages": [
+            9
+          ],
+          "sourceText": "CM-CLDG 53 3.71 0.69 3.77 0.47 0.02 0.000",
+          "words": 8,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 35,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-02-s-c2f19cf5509b",
+          "order": 90,
+          "pages": [
+            9
+          ],
+          "sourceText": "C-CLDG 25 3.90 0.66 3.79 0.69",
+          "words": 6,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 25,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-02-s-d30646ac0ad8",
+          "order": 91,
+          "pages": [
+            9
+          ],
+          "sourceText": "TABLE 5 | The t test result of the flow experience scores of the two groups.",
+          "words": 15,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 61,
+            "boldFraction": 0.0984
+          }
+        },
+        {
+          "id": "paper-02-s-7f3df9127f9b",
+          "order": 92,
+          "pages": [
+            9
+          ],
+          "sourceText": "Group N Mean SD t d",
+          "words": 6,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 14,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-02-s-5dee3cfff83f",
+          "order": 93,
+          "pages": [
+            9
+          ],
+          "sourceText": "CM-CLDG 53 4.00 0.83 −2.59* 0.58",
+          "words": 6,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 28,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-02-s-7e6f1b9fda97",
+          "order": 94,
+          "pages": [
+            9
+          ],
+          "sourceText": "C-CLDG 25 4.35 0.68",
+          "words": 4,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 17,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-02-s-1f81999e3232",
+          "order": 95,
+          "pages": [
+            9
+          ],
+          "sourceText": "*p < 0.05.",
+          "words": 2,
+          "reason": "statistical-table-note",
+          "typography": {
+            "matchedCharacters": 8,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-02-s-51a34159e3e7",
+          "order": 108,
+          "pages": [
+            10
+          ],
+          "sourceText": "TABLE 6 | ANCOVA result of the learning anxiety posttest of the two groups.",
+          "words": 13,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 62,
+            "boldFraction": 0.0968
+          }
+        },
+        {
+          "id": "paper-02-s-6153d5b9ea7d",
+          "order": 109,
+          "pages": [
+            10
+          ],
+          "sourceText": "CM-CLDG 53 3.66 1.03 3.77 0.60 0.36 0.005",
+          "words": 8,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 35,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-02-s-92842fea4456",
+          "order": 110,
+          "pages": [
+            10
+          ],
+          "sourceText": "C-CLDG 25 3.90 0.87 3.66 0.81",
+          "words": 6,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 25,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-02-s-005ac47a96ba",
+          "order": 111,
+          "pages": [
+            10
+          ],
+          "sourceText": "TABLE 7 | Results of sequential analysis of behaviours in the CM-CLDG model.",
+          "words": 12,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 65,
+            "boldFraction": 0.0923
+          }
+        },
+        {
+          "id": "paper-02-s-89621d61b4b3",
+          "order": 115,
+          "pages": [
+            10
+          ],
+          "sourceText": "Z-score Target",
+          "words": 2,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 14,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-02-s-edc22aa415c2",
+          "order": 116,
+          "pages": [
+            10
+          ],
+          "sourceText": "*Z > 1.96.",
+          "words": 2,
+          "reason": "statistical-table-note",
+          "typography": {
+            "matchedCharacters": 8,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-02-s-89621d61b4b3-2",
+          "order": 117,
+          "pages": [
+            10
+          ],
+          "sourceText": "Z-score Target",
+          "words": 2,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 14,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-02-s-edc22aa415c2-2",
+          "order": 118,
+          "pages": [
+            10
+          ],
+          "sourceText": "*Z > 1.96.",
+          "words": 2,
+          "reason": "statistical-table-note",
+          "typography": {
+            "matchedCharacters": 8,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-02-s-4f722340a2c1",
+          "order": 131,
+          "pages": [
+            10
+          ],
+          "sourceText": "TABLE 8 | Results of sequential analysis of behaviours in the C-CLDG model.",
+          "words": 12,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 64,
+            "boldFraction": 0.0938
+          }
+        },
+        {
+          "id": "paper-02-s-60a120d1cc4c",
+          "order": 162,
+          "pages": [
+            13
+          ],
+          "sourceText": "TABLE 9 | Results of interview-based comparison of learning experiences between the CM-CLDG and C-CLDG groups.",
+          "words": 15,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 95,
+            "boldFraction": 0.0632
+          }
+        },
+        {
+          "id": "paper-02-s-e2aee0fb859b",
+          "order": 163,
+          "pages": [
+            13
+          ],
+          "sourceText": "Mentions",
+          "words": 1,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 8,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-02-s-f5e6590129ef",
+          "order": 164,
+          "pages": [
+            13
+          ],
+          "sourceText": "CM-CLDG C-CLDG",
+          "words": 2,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 15,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-02-s-dc151a5a2b81",
+          "order": 165,
+          "pages": [
+            13
+          ],
+          "sourceText": "Theme",
+          "words": 1,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 5,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-02-s-8a5e63feac35",
+          "order": 167,
+          "pages": [
+            13
+          ],
+          "sourceText": "Improved knowledge application 7 3",
+          "words": 5,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 30,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-02-s-68d7005824aa",
+          "order": 168,
+          "pages": [
+            13
+          ],
+          "sourceText": "Increased learning motivation 7 12",
+          "words": 5,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 30,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-02-s-07208c7f22d4",
+          "order": 185,
+          "pages": [
+            15
+          ],
+          "sourceText": "Author Contributions",
+          "words": 2,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 19,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-02-s-e13916b7a5f2",
+          "order": 187,
+          "pages": [
+            15
+          ],
+          "sourceText": "Acknowledgements",
+          "words": 1,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 16,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-02-s-ca4b61e67406",
+          "order": 189,
+          "pages": [
+            15
+          ],
+          "sourceText": "Conflicts of Interest",
+          "words": 3,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 19,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-02-s-4ad40dabc9af",
+          "order": 191,
+          "pages": [
+            15
+          ],
+          "sourceText": "Data Availability Statement",
+          "words": 3,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 25,
+            "boldFraction": 1.0
+          }
+        }
+      ],
+      "preservedShortUnits": [
+        {
+          "id": "paper-02-s-f2583b2839cc",
+          "order": 33,
+          "sourceText": "FIGURE 1 | Structure of the concept map–embedded digital game.",
+          "words": 10,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-02-s-4a45a7dbe190",
+          "order": 34,
+          "sourceText": "FIGURE 2 | Task design flow of the digital game.",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-02-s-50515e9d07ac",
+          "order": 37,
+          "sourceText": "FIGURE 3 | Gaming scenario of completing the mission.",
+          "words": 8,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-02-s-1aec1eaddc8c",
+          "order": 40,
+          "sourceText": "FIGURE 4 | Gaming scenario of collecting information about animal habitats.",
+          "words": 10,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-02-s-61a9c8990cca",
+          "order": 44,
+          "sourceText": "FIGURE 6 | Integrated concept map displayed before game completion.",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-02-s-34eaff83f982",
+          "order": 63,
+          "sourceText": "RK Review Knowledge The student reviews previously acquired knowledge.",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-02-s-431e9b35ba12",
+          "order": 69,
+          "sourceText": "FIGURE 7 | Procedure of the experiment.",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-02-s-6ec909453801",
+          "order": 145,
+          "sourceText": "FIGURE 8 | Behavioural sequence diagram of the CM-CLDG group.",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-02-s-a1d9e1cb26ba",
+          "order": 146,
+          "sourceText": "FIGURE 9 | Behavioural sequence diagram of the C-CLDG group.",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-02-s-2cdf5f94ecc7",
+          "order": 151,
+          "sourceText": "FIGURE 10 | Behavioural transitions related to task engagement through answering.",
+          "words": 10,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-02-s-bbdf1d902b91",
+          "order": 156,
+          "sourceText": "FIGURE 11 | Behavioural transitions between answering and outcome feedback.",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-02-s-8c61310760a5",
+          "order": 157,
+          "sourceText": "FIGURE 12 | Behavioural transitions from scene information to task engagement.",
+          "words": 10,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-02-s-6ea959ca2fd3",
+          "order": 158,
+          "sourceText": "FIGURE 13 | Behavioural transitions involving review and answering actions.",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-02-s-749815d9207d",
+          "order": 166,
+          "sourceText": "Enhanced memory of lesson content 12 6",
+          "words": 7,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-02-s-f97fc809fdc8",
+          "order": 169,
+          "sourceText": "Promotion of self-directed learning 6 2",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-02-s-72be4f6308d2",
+          "order": 170,
+          "sourceText": "Greater sense of participation 5 4",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-02-s-6a1c92cdfc2d",
+          "order": 171,
+          "sourceText": "Higher level of engagement 5 12",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-02-s-8fddda25af76",
+          "order": 172,
+          "sourceText": "Experience of learning anxiety 1 4",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-02-s-c8ece8616b3d",
+          "order": 190,
+          "sourceText": "The authors declare no conflicts of interest.",
+          "words": 7,
+          "action": "preserved-review-only"
+        }
+      ],
+      "reasons": {
+        "section-heading": 8,
+        "table-title": 9,
+        "table-header": 5,
+        "numeric-table-fragment": 12,
+        "statistical-table-note": 5,
+        "short-bold-label": 3
+      },
+      "includedAfter": 150
+    },
+    "paper-03": {
+      "excludedCandidates": [
+        {
+          "id": "paper-03-s-22fcc2e3bf2b",
+          "order": 51,
+          "pages": [
+            14
+          ],
+          "sourceText": "Table 1 Coding scheme for students’ learning behaviors",
+          "words": 8,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 47,
+            "boldFraction": 0.1277
+          }
+        },
+        {
+          "id": "paper-03-s-396f20831604",
+          "order": 54,
+          "pages": [
+            14
+          ],
+          "sourceText": "Table 2 ANCOVA results of yogism movement skills performance Group N Mean SD Adjusted Mean SE F η2",
+          "words": 18,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 81,
+            "boldFraction": 0.0741
+          }
+        },
+        {
+          "id": "paper-03-s-dacf5313273f",
+          "order": 62,
+          "pages": [
+            15
+          ],
+          "sourceText": "Table 3 Independent t-test results of learning engagement",
+          "words": 8,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 50,
+            "boldFraction": 0.12
+          }
+        },
+        {
+          "id": "paper-03-s-cb7fc58fff3b",
+          "order": 63,
+          "pages": [
+            15
+          ],
+          "sourceText": "**p <.01",
+          "words": 2,
+          "reason": "statistical-table-note",
+          "typography": {
+            "matchedCharacters": 7,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-03-s-76a6f7f7461b",
+          "order": 78,
+          "pages": [
+            18
+          ],
+          "sourceText": "Declarations",
+          "words": 1,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 12,
+            "boldFraction": 1.0
+          }
+        }
+      ],
+      "preservedShortUnits": [
+        {
+          "id": "paper-03-s-d0a9953fff51",
+          "order": 8,
+          "sourceText": "iors compared to the C-AI-MAF approach?",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-03-s-0e917011cb56",
+          "order": 21,
+          "sourceText": "Fig. 1 System structure",
+          "words": 4,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-03-s-183b4c90b92c",
+          "order": 24,
+          "sourceText": "Fig. 2 Gamified personal interfaces",
+          "words": 5,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-03-s-6514bcaa2819",
+          "order": 27,
+          "sourceText": "Fig. 3 Interfaces for movement monitoring and feedback",
+          "words": 8,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-03-s-b050ee8df58f",
+          "order": 31,
+          "sourceText": "Fig. 4 Interfaces for learning records",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-03-s-2810235bbc9c",
+          "order": 34,
+          "sourceText": "Fig. 6 Experimental procedure",
+          "words": 4,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-03-s-266b9941529d",
+          "order": 39,
+          "sourceText": "Fig. 7 Examples of students using the system",
+          "words": 8,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-03-s-5c08f28615df",
+          "order": 50,
+          "sourceText": "Review completed movement skills test results E View teaching content",
+          "words": 10,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-03-s-b8c7f53d1a06",
+          "order": 52,
+          "sourceText": "View the dashboard with an overview of movement completion degree",
+          "words": 10,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-03-s-9f1b888d79f9",
+          "order": 53,
+          "sourceText": "Display the teacher’s demonstration and explanation D Check the dashboard",
+          "words": 10,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-03-s-b4907a679aa7",
+          "order": 77,
+          "sourceText": "Code Availability Not applicable.",
+          "words": 4,
+          "action": "preserved-review-only"
+        }
+      ],
+      "reasons": {
+        "table-title": 3,
+        "statistical-table-note": 1,
+        "section-heading": 1
+      },
+      "includedAfter": 85
+    },
+    "paper-04": {
+      "excludedCandidates": [
+        {
+          "id": "paper-04-s-267372bc3697",
+          "order": 11,
+          "pages": [
+            4
+          ],
+          "sourceText": "Game-based learning and game design",
+          "words": 5,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 31,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-94e3fa98b27b",
+          "order": 17,
+          "pages": [
+            4
+          ],
+          "sourceText": "Collaborative learning and creativity in higher education",
+          "words": 7,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 51,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-e7ef78d2bc03",
+          "order": 21,
+          "pages": [
+            5
+          ],
+          "sourceText": "Course design and pedagogical framework",
+          "words": 5,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 35,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-609166feb654",
+          "order": 30,
+          "pages": [
+            7
+          ],
+          "sourceText": "Study design",
+          "words": 2,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 11,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-23d5a69c806a",
+          "order": 36,
+          "pages": [
+            8
+          ],
+          "sourceText": "Background information",
+          "words": 2,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 21,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-6d1dae1b039c",
+          "order": 37,
+          "pages": [
+            8
+          ],
+          "sourceText": "Learning engagement",
+          "words": 2,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 18,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-a9483c9bfc1e",
+          "order": 38,
+          "pages": [
+            8
+          ],
+          "sourceText": "Collaborative creativity",
+          "words": 2,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 23,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-6631cef91b81",
+          "order": 48,
+          "pages": [
+            9
+          ],
+          "sourceText": "Instrument validation",
+          "words": 2,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 20,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-209af15f106a",
+          "order": 49,
+          "pages": [
+            9
+          ],
+          "sourceText": "Additional measures",
+          "words": 2,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 18,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-120171d48849",
+          "order": 50,
+          "pages": [
+            9
+          ],
+          "sourceText": "Participant characteristics",
+          "words": 2,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 26,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-ccd617680f4c",
+          "order": 58,
+          "pages": [
+            10
+          ],
+          "sourceText": "Table 1. Participant demographic characteristics.",
+          "words": 5,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 45,
+            "boldFraction": 0.1556
+          }
+        },
+        {
+          "id": "paper-04-s-344ff95a04af",
+          "order": 61,
+          "pages": [
+            10
+          ],
+          "sourceText": "Main effects of time on learning outcomes",
+          "words": 7,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 35,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-0ab7b1b336fa",
+          "order": 68,
+          "pages": [
+            10
+          ],
+          "sourceText": "Table 2. Time effects on learning outcomes (repeated measures ANOVA).",
+          "words": 10,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 60,
+            "boldFraction": 0.1167
+          }
+        },
+        {
+          "id": "paper-04-s-02ae5b56c661",
+          "order": 69,
+          "pages": [
+            10
+          ],
+          "sourceText": "Time point MEAN ± SD F p",
+          "words": 6,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 18,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-04-s-5deb9ceb44b0",
+          "order": 79,
+          "pages": [
+            11
+          ],
+          "sourceText": "Subscale-level changes in collaborative creativity",
+          "words": 5,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 46,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-bff8f996f563",
+          "order": 82,
+          "pages": [
+            11
+          ],
+          "sourceText": "Interaction effects by background variables",
+          "words": 5,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 39,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-32e13930bbff",
+          "order": 83,
+          "pages": [
+            11
+          ],
+          "sourceText": "Qualitative reflections on co-creative GBL",
+          "words": 5,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 38,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-c780be9d81a8",
+          "order": 89,
+          "pages": [
+            12
+          ],
+          "sourceText": "Table 3. Time X background variable interaction effects on learning outcomes (repeated measures ANOVA).",
+          "words": 14,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 90,
+            "boldFraction": 0.0778
+          }
+        },
+        {
+          "id": "paper-04-s-ea33cf2d6963",
+          "order": 107,
+          "pages": [
+            14
+          ],
+          "sourceText": "Limitations and future directions",
+          "words": 4,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 30,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-b7593fe45079",
+          "order": 113,
+          "pages": [
+            15
+          ],
+          "sourceText": "Acknowledgments",
+          "words": 1,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 15,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-76f3f8228128",
+          "order": 114,
+          "pages": [
+            15
+          ],
+          "sourceText": "Disclosure statement",
+          "words": 2,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 19,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-7f30b117b3d5",
+          "order": 115,
+          "pages": [
+            15
+          ],
+          "sourceText": "Funding",
+          "words": 1,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 7,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-cdd12981aecc",
+          "order": 116,
+          "pages": [
+            15
+          ],
+          "sourceText": "Notes on contributors",
+          "words": 3,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 19,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-89fb85930658",
+          "order": 117,
+          "pages": [
+            15
+          ],
+          "sourceText": "ORCID",
+          "words": 1,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 5,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-3d184f1e874b",
+          "order": 119,
+          "pages": [
+            15
+          ],
+          "sourceText": "Ethical statement",
+          "words": 2,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 16,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-31783b0f7143",
+          "order": 130,
+          "pages": [
+            16
+          ],
+          "sourceText": "Informed consent",
+          "words": 2,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 15,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-57db94cf9ae5",
+          "order": 131,
+          "pages": [
+            16
+          ],
+          "sourceText": "Author contribution",
+          "words": 2,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 18,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-04-s-f45ef1b6bd68",
+          "order": 132,
+          "pages": [
+            16
+          ],
+          "sourceText": "AI statement",
+          "words": 2,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 11,
+            "boldFraction": 1.0
+          }
+        }
+      ],
+      "preservedShortUnits": [
+        {
+          "id": "paper-04-s-f0ef43f65b35",
+          "order": 26,
+          "sourceText": "Figure 1. Health promotion course structure and GBL integration.",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-04-s-8859f94b7b82",
+          "order": 31,
+          "sourceText": "Figure 2. Timeline of instructional phases and data collection points.",
+          "words": 10,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-04-s-ed377ba99b66",
+          "order": 46,
+          "sourceText": "tion (e.g. ‘We managed time efficiently to meet deadlines’.)",
+          "words": 10,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-04-s-a99009917f78",
+          "order": 59,
+          "sourceText": "semester)",
+          "words": 1,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-04-s-e1bd5c6b3d8f",
+          "order": 60,
+          "sourceText": "learning)",
+          "words": 1,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-04-s-efac6f62c31a",
+          "order": 62,
+          "sourceText": "collaboration",
+          "words": 1,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-04-s-c979f9eda7c9",
+          "order": 63,
+          "sourceText": "achievement",
+          "words": 1,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-04-s-355705cf62a5",
+          "order": 64,
+          "sourceText": "Partial",
+          "words": 1,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-04-s-2d30e9a8bdb9",
+          "order": 65,
+          "sourceText": "η2 Bonferroni pairwise",
+          "words": 3,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-04-s-6735e8c32673",
+          "order": 92,
+          "sourceText": "(2013) guidelines: 0.01 = small, 0.06 = medium, 0.14 = large.",
+          "words": 8,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-04-s-a9d3e57ec77d",
+          "order": 118,
+          "sourceText": "Li-Ling Liao http://orcid.org/0000-0003-0867-2699",
+          "words": 9,
+          "action": "preserved-review-only"
+        }
+      ],
+      "reasons": {
+        "short-bold-label": 15,
+        "table-title": 3,
+        "table-header": 1,
+        "section-heading": 9
+      },
+      "includedAfter": 104
+    },
+    "paper-05": {
+      "excludedCandidates": [
+        {
+          "id": "paper-05-s-728889eb5c01",
+          "order": 42,
+          "pages": [
+            8
+          ],
+          "sourceText": "Table 1 Cronbach’s alpha coefficients for each questionnaire at the pretest and posttest.",
+          "words": 13,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 77,
+            "boldFraction": 0.0779
+          }
+        },
+        {
+          "id": "paper-05-s-8935b2c1e9fe",
+          "order": 48,
+          "pages": [
+            9
+          ],
+          "sourceText": "Table 2 ANCOVA results of learning achievement.",
+          "words": 7,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 41,
+            "boldFraction": 0.1463
+          }
+        },
+        {
+          "id": "paper-05-s-3eaf0fb73075",
+          "order": 62,
+          "pages": [
+            10
+          ],
+          "sourceText": "Table 3 ANCOVA results of learning achievement by item types.",
+          "words": 10,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 52,
+            "boldFraction": 0.1154
+          }
+        },
+        {
+          "id": "paper-05-s-258861427bea",
+          "order": 63,
+          "pages": [
+            10
+          ],
+          "sourceText": "Table 4 Content analysis of the “applying and analyzing” items.",
+          "words": 10,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 54,
+            "boldFraction": 0.1111
+          }
+        },
+        {
+          "id": "paper-05-s-bd5a788ec883",
+          "order": 68,
+          "pages": [
+            11
+          ],
+          "sourceText": "Table 5 ANCOVA results of collective efficacy.",
+          "words": 7,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 40,
+            "boldFraction": 0.15
+          }
+        },
+        {
+          "id": "paper-05-s-4817988ced23",
+          "order": 83,
+          "pages": [
+            12
+          ],
+          "sourceText": "Table 6 ANCOVA results of critical thinking tendencies.",
+          "words": 8,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 48,
+            "boldFraction": 0.125
+          }
+        },
+        {
+          "id": "paper-05-s-ac40707b8130",
+          "order": 84,
+          "pages": [
+            12
+          ],
+          "sourceText": "Table 7 ANCOVA results of problem-solving skills.",
+          "words": 7,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 43,
+            "boldFraction": 0.1395
+          }
+        },
+        {
+          "id": "paper-05-s-d3afaf170538",
+          "order": 94,
+          "pages": [
+            13
+          ],
+          "sourceText": "Table 8 Themes, codes, and numbers of occurrences of the interview results.",
+          "words": 12,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 64,
+            "boldFraction": 0.0938
+          }
+        },
+        {
+          "id": "paper-05-s-787f1ce5c365",
+          "order": 95,
+          "pages": [
+            13
+          ],
+          "sourceText": "E C1 C2",
+          "words": 5,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 5,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-05-s-7f30b117b3d5",
+          "order": 116,
+          "pages": [
+            16
+          ],
+          "sourceText": "Funding",
+          "words": 1,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 7,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-05-s-96928e041bbf",
+          "order": 118,
+          "pages": [
+            16
+          ],
+          "sourceText": "Ethics approval",
+          "words": 2,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 14,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-05-s-554005665839",
+          "order": 119,
+          "pages": [
+            16
+          ],
+          "sourceText": "CRediT authorship contribution statement",
+          "words": 4,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 37,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-05-s-922bef90ed7b",
+          "order": 127,
+          "pages": [
+            17
+          ],
+          "sourceText": "Declaration of competing interest",
+          "words": 4,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 30,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-05-s-e13916b7a5f2",
+          "order": 129,
+          "pages": [
+            17
+          ],
+          "sourceText": "Acknowledgements",
+          "words": 1,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 16,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-05-s-6241008979e4",
+          "order": 130,
+          "pages": [
+            17
+          ],
+          "sourceText": "Data availability",
+          "words": 2,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 16,
+            "boldFraction": 1.0
+          }
+        }
+      ],
+      "preservedShortUnits": [
+        {
+          "id": "paper-05-s-21c3cf02b58c",
+          "order": 19,
+          "sourceText": "Fig. 1. Stages of the CM-GAI-CL mode.",
+          "words": 7,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-05-s-01d1da3be26e",
+          "order": 36,
+          "sourceText": "Fig. 5. Experimental procedure.",
+          "words": 4,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-05-s-8ccab4773205",
+          "order": 43,
+          "sourceText": "Measure Stage No. of items Reliability",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-05-s-9127cb5f0a32",
+          "order": 92,
+          "sourceText": "Theme Code The number of times mentioned",
+          "words": 7,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-05-s-633920c592da",
+          "order": 115,
+          "sourceText": "these technological tools in students’ learning processes.",
+          "words": 7,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-05-s-eb724affc135",
+          "order": 117,
+          "sourceText": "None.",
+          "words": 1,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-05-s-c8ece8616b3d",
+          "order": 128,
+          "sourceText": "The authors declare no conflicts of interest.",
+          "words": 7,
+          "action": "preserved-review-only"
+        }
+      ],
+      "reasons": {
+        "table-title": 8,
+        "numeric-table-fragment": 1,
+        "section-heading": 6
+      },
+      "includedAfter": 115
+    },
+    "paper-06": {
+      "excludedCandidates": [
+        {
+          "id": "paper-06-s-b7dc969eeb3f",
+          "order": 18,
+          "pages": [
+            5
+          ],
+          "sourceText": "Table 1. Coding scheme.",
+          "words": 4,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 20,
+            "boldFraction": 0.35
+          }
+        },
+        {
+          "id": "paper-06-s-9861c201ba26",
+          "order": 25,
+          "pages": [
+            6
+          ],
+          "sourceText": "Table 2. Peer assessment form.",
+          "words": 5,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 26,
+            "boldFraction": 0.2692
+          }
+        },
+        {
+          "id": "paper-06-s-5f2c071c5ad6",
+          "order": 39,
+          "pages": [
+            6
+          ],
+          "sourceText": "Rubrics 1 2 3 4 5",
+          "words": 6,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 12,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-06-s-56864652a8d2",
+          "order": 41,
+          "pages": [
+            6
+          ],
+          "sourceText": "51–65% 66–80% 81–99% 100%",
+          "words": 7,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 22,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-06-s-51f46b83e0fa",
+          "order": 71,
+          "pages": [
+            11
+          ],
+          "sourceText": "Table 3. Learning achievement of CT and AI concepts.",
+          "words": 9,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 44,
+            "boldFraction": 0.1591
+          }
+        },
+        {
+          "id": "paper-06-s-e6a50c37f458",
+          "order": 72,
+          "pages": [
+            11
+          ],
+          "sourceText": "*p < .05, **p < .01.",
+          "words": 4,
+          "reason": "statistical-table-note",
+          "typography": {
+            "matchedCharacters": 15,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-06-s-b61f97f0bb54",
+          "order": 80,
+          "pages": [
+            12
+          ],
+          "sourceText": "Table 4. CT self-efficacy.",
+          "words": 4,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 23,
+            "boldFraction": 0.3043
+          }
+        },
+        {
+          "id": "paper-06-s-5f7c620d1a2d",
+          "order": 81,
+          "pages": [
+            12
+          ],
+          "sourceText": "Table 5. Learning anxiety and engagement.",
+          "words": 6,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 36,
+            "boldFraction": 0.1944
+          }
+        },
+        {
+          "id": "paper-06-s-43c7afd9c373",
+          "order": 82,
+          "pages": [
+            12
+          ],
+          "sourceText": "*p < .05, **p < .001.",
+          "words": 4,
+          "reason": "statistical-table-note",
+          "typography": {
+            "matchedCharacters": 16,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-06-s-aefc98d37d98",
+          "order": 91,
+          "pages": [
+            14
+          ],
+          "sourceText": "Table 6. Z Value of the control group.",
+          "words": 8,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 31,
+            "boldFraction": 0.2258
+          }
+        },
+        {
+          "id": "paper-06-s-1d71315e40d7",
+          "order": 92,
+          "pages": [
+            14
+          ],
+          "sourceText": "Given",
+          "words": 1,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 5,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-06-s-a2aac730f4c2",
+          "order": 93,
+          "pages": [
+            14
+          ],
+          "sourceText": "*p < .05.",
+          "words": 2,
+          "reason": "statistical-table-note",
+          "typography": {
+            "matchedCharacters": 7,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-06-s-682809978357",
+          "order": 94,
+          "pages": [
+            14
+          ],
+          "sourceText": "Table 7. Z value of experimental group 3.",
+          "words": 8,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 34,
+            "boldFraction": 0.2059
+          }
+        },
+        {
+          "id": "paper-06-s-49fa1e582230",
+          "order": 95,
+          "pages": [
+            14
+          ],
+          "sourceText": "Given:",
+          "words": 1,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 6,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-06-s-a2aac730f4c2-2",
+          "order": 96,
+          "pages": [
+            14
+          ],
+          "sourceText": "*p < .05.",
+          "words": 2,
+          "reason": "statistical-table-note",
+          "typography": {
+            "matchedCharacters": 7,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-06-s-0e8a3ad980ec",
+          "order": 97,
+          "pages": [
+            14
+          ],
+          "sourceText": "Target",
+          "words": 1,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 6,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-06-s-0e8a3ad980ec-2",
+          "order": 98,
+          "pages": [
+            14
+          ],
+          "sourceText": "Target",
+          "words": 1,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 6,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-06-s-6b9d153f308f",
+          "order": 108,
+          "pages": [
+            15
+          ],
+          "sourceText": "Table 8. Z value of experimental group 1.",
+          "words": 8,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 34,
+            "boldFraction": 0.2059
+          }
+        },
+        {
+          "id": "paper-06-s-49fa1e582230-2",
+          "order": 109,
+          "pages": [
+            15
+          ],
+          "sourceText": "Given:",
+          "words": 1,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 6,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-06-s-0e8a3ad980ec-3",
+          "order": 110,
+          "pages": [
+            15
+          ],
+          "sourceText": "Target",
+          "words": 1,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 6,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-06-s-76f3f8228128",
+          "order": 130,
+          "pages": [
+            18
+          ],
+          "sourceText": "Disclosure statement",
+          "words": 2,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 19,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-06-s-7f30b117b3d5",
+          "order": 132,
+          "pages": [
+            18
+          ],
+          "sourceText": "Funding",
+          "words": 1,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 7,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-06-s-07208c7f22d4",
+          "order": 133,
+          "pages": [
+            18
+          ],
+          "sourceText": "Author contributions",
+          "words": 2,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 19,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-06-s-89fb85930658",
+          "order": 134,
+          "pages": [
+            18
+          ],
+          "sourceText": "ORCID",
+          "words": 1,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 5,
+            "boldFraction": 1.0
+          }
+        }
+      ],
+      "preservedShortUnits": [
+        {
+          "id": "paper-06-s-9d5b6c375ef4",
+          "order": 22,
+          "sourceText": "Active/Passive Code Description Example",
+          "words": 5,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-06-s-2df4c047696d",
+          "order": 27,
+          "sourceText": "No indications or explanations provided.",
+          "words": 5,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-06-s-dac7b49b645e",
+          "order": 29,
+          "sourceText": "Below 50% success rate.",
+          "words": 4,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-06-s-0549853aadaa",
+          "order": 42,
+          "sourceText": "Figure 1. The AIoT board game.",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-06-s-c82ea675593b",
+          "order": 43,
+          "sourceText": "Figure 2. AIoT Game-Based Learning System.",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-06-s-343206d53a29",
+          "order": 49,
+          "sourceText": "(1) Preparation and Map Arrangement",
+          "words": 5,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-06-s-ed22b9b1a7e7",
+          "order": 50,
+          "sourceText": "(2) Connecting to the Smart Car",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-06-s-843c05343306",
+          "order": 51,
+          "sourceText": "(3) Setting Up the Smart Car",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-06-s-ae404bc92dac",
+          "order": 52,
+          "sourceText": "Figure 3. Process of the AIoT board game.",
+          "words": 8,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-06-s-4ac1f9644e06",
+          "order": 57,
+          "sourceText": "(4) Task Cards and Scoring Configuration",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-06-s-4579fec121b8",
+          "order": 58,
+          "sourceText": "(5) Determining Play Order",
+          "words": 4,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-06-s-b1bf52626b27",
+          "order": 59,
+          "sourceText": "(6) Team Collaboration and Strategy Planning",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-06-s-c0e8a315e786",
+          "order": 60,
+          "sourceText": "(7) Construction Phase",
+          "words": 3,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-06-s-742abd08489e",
+          "order": 61,
+          "sourceText": "(8) Endgame and Scoring",
+          "words": 4,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-06-s-67f4b1e63ec8",
+          "order": 68,
+          "sourceText": "Figure 4. Research procedure.",
+          "words": 4,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-06-s-26829a45ef13",
+          "order": 69,
+          "sourceText": "Figure 5. The AIoT board game.",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-06-s-7838f9b0de27",
+          "order": 70,
+          "sourceText": "Figure 6. Advanced tasks.",
+          "words": 4,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-06-s-99be37b41173",
+          "order": 78,
+          "sourceText": "Dimensions Group N Mean Rank SD H post-hoc (U test)",
+          "words": 10,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-06-s-99be37b41173-2",
+          "order": 87,
+          "sourceText": "Dimensions Group N Mean Rank SD H post-hoc (U test)",
+          "words": 10,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-06-s-518a2f4a27cd",
+          "order": 100,
+          "sourceText": "LT GC AT N OT EO D",
+          "words": 7,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-06-s-11c5c6b20bdb",
+          "order": 102,
+          "sourceText": "LT GC AT P N OT EO D",
+          "words": 8,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-06-s-11c5c6b20bdb-2",
+          "order": 105,
+          "sourceText": "LT GC AT P N OT EO D",
+          "words": 8,
+          "action": "preserved-review-only"
+        }
+      ],
+      "reasons": {
+        "table-title": 8,
+        "table-header": 7,
+        "numeric-table-fragment": 1,
+        "statistical-table-note": 4,
+        "section-heading": 4
+      },
+      "includedAfter": 111
+    },
+    "paper-07": {
+      "excludedCandidates": [
+        {
+          "id": "paper-07-s-05535ecff78e",
+          "order": 5,
+          "pages": [
+            2
+          ],
+          "sourceText": "Summary",
+          "words": 1,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 7,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-07-s-186ccf2c5617",
+          "order": 6,
+          "pages": [
+            2
+          ],
+          "sourceText": "• What is currently known about this topic",
+          "words": 7,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 35,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-07-s-0be10744ff68",
+          "order": 10,
+          "pages": [
+            2
+          ],
+          "sourceText": "• What does this paper add",
+          "words": 5,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 21,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-07-s-5f7d417de5c7",
+          "order": 14,
+          "pages": [
+            2
+          ],
+          "sourceText": "• Implications for practise and/or policy",
+          "words": 6,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 36,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-07-s-8cd6e23b6a12",
+          "order": 43,
+          "pages": [
+            7
+          ],
+          "sourceText": "TABLE 1 | LLM-driven feedback mechanisms in the ‘kart structure’ task.",
+          "words": 10,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 61,
+            "boldFraction": 0.0984
+          }
+        },
+        {
+          "id": "paper-07-s-0a2dbf59a451",
+          "order": 44,
+          "pages": [
+            7
+          ],
+          "sourceText": "LLM interaction method (prompt strategy + feedback type) Concrete case",
+          "words": 9,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 61,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-07-s-9f62bdb3a061",
+          "order": 49,
+          "pages": [
+            7
+          ],
+          "sourceText": "Gameplay loop Design purpose",
+          "words": 4,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 25,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-07-s-243972ad5fb9",
+          "order": 80,
+          "pages": [
+            10
+          ],
+          "sourceText": "TABLE 2 | Coding schema of game behaviour.",
+          "words": 7,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 35,
+            "boldFraction": 0.1714
+          }
+        },
+        {
+          "id": "paper-07-s-c21c8efb2929",
+          "order": 83,
+          "pages": [
+            10
+          ],
+          "sourceText": "Code Code name Student learning behaviours in the game",
+          "words": 9,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 46,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-07-s-5205d6454f3a",
+          "order": 97,
+          "pages": [
+            11
+          ],
+          "sourceText": "TABLE 3 | The ANCOVA results of learning achievement.",
+          "words": 8,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 45,
+            "boldFraction": 0.1333
+          }
+        },
+        {
+          "id": "paper-07-s-1f81999e3232",
+          "order": 98,
+          "pages": [
+            11
+          ],
+          "sourceText": "*p < 0.05.",
+          "words": 2,
+          "reason": "statistical-table-note",
+          "typography": {
+            "matchedCharacters": 8,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-07-s-edbef9d4c48e",
+          "order": 99,
+          "pages": [
+            11
+          ],
+          "sourceText": "TABLE 4 | The ANCOVA results of metacognitive awareness.",
+          "words": 8,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 48,
+            "boldFraction": 0.125
+          }
+        },
+        {
+          "id": "paper-07-s-1f81999e3232-2",
+          "order": 100,
+          "pages": [
+            11
+          ],
+          "sourceText": "*p < 0.05.",
+          "words": 2,
+          "reason": "statistical-table-note",
+          "typography": {
+            "matchedCharacters": 8,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-07-s-2582c903ac48",
+          "order": 105,
+          "pages": [
+            11
+          ],
+          "sourceText": "Group N Mean SD Adjusted mean SE F η2",
+          "words": 9,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 29,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-07-s-2582c903ac48-2",
+          "order": 108,
+          "pages": [
+            11
+          ],
+          "sourceText": "Group N Mean SD Adjusted mean SE F η2",
+          "words": 9,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 29,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-07-s-c1b091bb2c23",
+          "order": 120,
+          "pages": [
+            12
+          ],
+          "sourceText": "TABLE 5 | Results of residuals transition in the experimental group.",
+          "words": 10,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 58,
+            "boldFraction": 0.1034
+          }
+        },
+        {
+          "id": "paper-07-s-1f81999e3232-3",
+          "order": 121,
+          "pages": [
+            12
+          ],
+          "sourceText": "*p < 0.05.",
+          "words": 2,
+          "reason": "statistical-table-note",
+          "typography": {
+            "matchedCharacters": 8,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-07-s-751fa91e4979",
+          "order": 122,
+          "pages": [
+            12
+          ],
+          "sourceText": "TABLE 6 | Results of residuals transition in the control group.",
+          "words": 10,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 53,
+            "boldFraction": 0.1132
+          }
+        },
+        {
+          "id": "paper-07-s-2dafe78dbd00",
+          "order": 123,
+          "pages": [
+            12
+          ],
+          "sourceText": "E R S A C I",
+          "words": 6,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 6,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-07-s-e5799e2954ae",
+          "order": 124,
+          "pages": [
+            12
+          ],
+          "sourceText": "E 14.37* 18.18* −2.89 −10.22 −10.22 −11.49",
+          "words": 7,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 36,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-07-s-39e99a23b2cd",
+          "order": 125,
+          "pages": [
+            12
+          ],
+          "sourceText": "R −10.13 −8.86 11.37* 35.52* −8.86 −9.95",
+          "words": 7,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 34,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-07-s-486a54391250",
+          "order": 126,
+          "pages": [
+            12
+          ],
+          "sourceText": "S −2.87 −2.5 −0.71 11.37* −2.5 −2.81",
+          "words": 7,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 30,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-07-s-a7bd61861728",
+          "order": 127,
+          "pages": [
+            12
+          ],
+          "sourceText": "A −10.13 −8.86 −2.5 −8.86 7.78* 20.29*",
+          "words": 7,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 32,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-07-s-fb6af3864793",
+          "order": 128,
+          "pages": [
+            12
+          ],
+          "sourceText": "C 17.93* 9.51* −2.48 −8.77 −8.77 −9.85",
+          "words": 7,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 32,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-07-s-9936c7f3928a",
+          "order": 129,
+          "pages": [
+            12
+          ],
+          "sourceText": "I −11.39 −9.95 −2.81 −9.95 20.29* 12.04*",
+          "words": 7,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 34,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-07-s-1f81999e3232-4",
+          "order": 130,
+          "pages": [
+            12
+          ],
+          "sourceText": "*p < 0.05.",
+          "words": 2,
+          "reason": "statistical-table-note",
+          "typography": {
+            "matchedCharacters": 8,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-07-s-a55f98361d4f",
+          "order": 147,
+          "pages": [
+            14
+          ],
+          "sourceText": "TABLE 7 | Descriptive statistics of key metrics.",
+          "words": 7,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 41,
+            "boldFraction": 0.1463
+          }
+        },
+        {
+          "id": "paper-07-s-784c3dad62ff",
+          "order": 148,
+          "pages": [
+            14
+          ],
+          "sourceText": "Metric Mean SD Min Max 25% 50%",
+          "words": 7,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 24,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-07-s-452daf122838",
+          "order": 149,
+          "pages": [
+            14
+          ],
+          "sourceText": "Q_count 20.21 2.50 14 30 19 20",
+          "words": 8,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 24,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-07-s-ac487cdeebbb",
+          "order": 150,
+          "pages": [
+            14
+          ],
+          "sourceText": "Success rate 88 12 62 100 83 83",
+          "words": 8,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 24,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-07-s-33edd2b2fdd8",
+          "order": 151,
+          "pages": [
+            14
+          ],
+          "sourceText": "Failure rate 12 12 0 38 0 17",
+          "words": 8,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 21,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-07-s-ceb62f4ecf4f",
+          "order": 153,
+          "pages": [
+            14
+          ],
+          "sourceText": "TABLE 9 | Pearson correlation matrix amongst key variables.",
+          "words": 8,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 51,
+            "boldFraction": 0.1176
+          }
+        },
+        {
+          "id": "paper-07-s-7a003684b19c",
+          "order": 155,
+          "pages": [
+            14
+          ],
+          "sourceText": "Success_rate −0.169 1",
+          "words": 4,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 19,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-07-s-0d5b8e23ca8b",
+          "order": 156,
+          "pages": [
+            14
+          ],
+          "sourceText": "Pretest −0.181 0.314 1",
+          "words": 4,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 19,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-07-s-4de2f630313d",
+          "order": 157,
+          "pages": [
+            14
+          ],
+          "sourceText": "**p < 0.01. ***p < 0.001.",
+          "words": 4,
+          "reason": "statistical-table-note",
+          "typography": {
+            "matchedCharacters": 20,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-07-s-ec512d1b5117",
+          "order": 162,
+          "pages": [
+            14
+          ],
+          "sourceText": "TABLE 8 | Group comparison of high vs. low interaction based on a median split.",
+          "words": 14,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 65,
+            "boldFraction": 0.0923
+          }
+        },
+        {
+          "id": "paper-07-s-1134af06a54a",
+          "order": 164,
+          "pages": [
+            14
+          ],
+          "sourceText": "High interaction 8 22.63 0.79 0.14 −2.375 0.041",
+          "words": 8,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 40,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-07-s-546b2f79617a",
+          "order": 165,
+          "pages": [
+            14
+          ],
+          "sourceText": "Low interaction 20 19.25 0.92 0.09",
+          "words": 6,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 29,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-07-s-fe5daaad32ad",
+          "order": 166,
+          "pages": [
+            14
+          ],
+          "sourceText": "Q_count Success_rate Pretest Posttest Meta_pre Meta_post",
+          "words": 10,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 51,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-07-s-07208c7f22d4",
+          "order": 179,
+          "pages": [
+            16
+          ],
+          "sourceText": "Author Contributions",
+          "words": 2,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 19,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-07-s-e13916b7a5f2",
+          "order": 182,
+          "pages": [
+            16
+          ],
+          "sourceText": "Acknowledgements",
+          "words": 1,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 16,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-07-s-cb9241ab3a1a",
+          "order": 184,
+          "pages": [
+            16
+          ],
+          "sourceText": "Ethics Statement",
+          "words": 2,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 15,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-07-s-15b617889f16",
+          "order": 186,
+          "pages": [
+            16
+          ],
+          "sourceText": "Consent",
+          "words": 1,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 7,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-07-s-ca4b61e67406",
+          "order": 188,
+          "pages": [
+            16
+          ],
+          "sourceText": "Conflicts of Interest",
+          "words": 3,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 19,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-07-s-4ad40dabc9af",
+          "order": 190,
+          "pages": [
+            16
+          ],
+          "sourceText": "Data Availability Statement",
+          "words": 3,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 25,
+            "boldFraction": 1.0
+          }
+        }
+      ],
+      "preservedShortUnits": [
+        {
+          "id": "paper-07-s-3717a8e3c253",
+          "order": 7,
+          "sourceText": "○ STEM education struggles with fostering student engagement and interdisciplinary thinking.",
+          "words": 10,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-c47159ebdd39",
+          "order": 8,
+          "sourceText": "○ Alternate reality games (ARGs) can boost motivation via real-world problem-solving.",
+          "words": 10,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-c4ed3ce82050",
+          "order": 12,
+          "sourceText": "○ Demonstrates that personalised virtual agents enhance metacognitive awareness.",
+          "words": 8,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-edfcf729fa0e",
+          "order": 15,
+          "sourceText": "○ Applying LLM-driven ARGs can significantly enhance personalised STEM education.",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-e5dcd66f39a7",
+          "order": 16,
+          "sourceText": "○ Teachers should balance exploratory learning with efficiency-driven strategies.",
+          "words": 8,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-50a6cd6eacb9",
+          "order": 32,
+          "sourceText": "FIGURE 1 | LLM-ARG system framework.",
+          "words": 5,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-e868c85e2b9a",
+          "order": 36,
+          "sourceText": "FIGURE 2 | The system flow of the ARG system.",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-c8ab4e5ccd68",
+          "order": 40,
+          "sourceText": "FIGURE 3 | STEM learning content.",
+          "words": 5,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-88eece244de8",
+          "order": 62,
+          "sourceText": "FIGURE 4 | System interface.",
+          "words": 4,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-605562c1e7d7",
+          "order": 63,
+          "sourceText": "FIGURE 5 | Technology roadmap.",
+          "words": 4,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-9b6a2673ab66",
+          "order": 75,
+          "sourceText": "FIGURE 6 | Experimental procedure.",
+          "words": 4,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-d0c6fa5b53dc",
+          "order": 84,
+          "sourceText": "E Exploring Student explores learning scenarios",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-7e5bcf5c1129",
+          "order": 87,
+          "sourceText": "A Answering question Student answers a question in the game",
+          "words": 10,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-678acbf3b4a0",
+          "order": 106,
+          "sourceText": "Experimental group 28 69.29 7.90 69.29 1.01 4.258* 0.073",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-f80e742844ea",
+          "order": 107,
+          "sourceText": "Control group 29 66.38 6.39 66.38 0.99",
+          "words": 7,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-40fb2a7b1a72",
+          "order": 109,
+          "sourceText": "Experimental group 28 4.15 0.34 4.15 0.04 4.480* 0.077",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-f7dd67bd26f6",
+          "order": 110,
+          "sourceText": "Control group 29 4.05 0.27 4.05 0.04",
+          "words": 7,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-0b0ed8954434",
+          "order": 141,
+          "sourceText": "FIGURE 7 | Behavioural transition diagram of the experimental group.",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-83b2c726000e",
+          "order": 142,
+          "sourceText": "FIGURE 8 | Behavioural transition diagram of the control group.",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-27f25c59c4f4",
+          "order": 152,
+          "sourceText": "FIGURE 9 | Distribution of Q interactions.",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-5ae69b58f98a",
+          "order": 154,
+          "sourceText": "Q_count 1",
+          "words": 3,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-81b04b9c035e",
+          "order": 167,
+          "sourceText": "Posttest −0.320 0.357 0.646*** 1",
+          "words": 5,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-65372b0bd807",
+          "order": 168,
+          "sourceText": "Meta_pre −0.367 0.087 0.702*** 0.637*** 1",
+          "words": 7,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-babbbb4f6a20",
+          "order": 187,
+          "sourceText": "The authors have nothing to report.",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-07-s-c8ece8616b3d",
+          "order": 189,
+          "sourceText": "The authors declare no conflicts of interest.",
+          "words": 7,
+          "action": "preserved-review-only"
+        }
+      ],
+      "reasons": {
+        "section-heading": 10,
+        "table-title": 9,
+        "short-bold-label": 7,
+        "statistical-table-note": 5,
+        "numeric-table-fragment": 13,
+        "table-header": 1
+      },
+      "includedAfter": 146
+    },
+    "paper-08": {
+      "excludedCandidates": [
+        {
+          "id": "paper-08-s-0f4f87ebf794",
+          "order": 5,
+          "pages": [
+            2
+          ],
+          "sourceText": "Practitioner Notes",
+          "words": 2,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 17,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-08-s-70424714b6e6",
+          "order": 6,
+          "pages": [
+            2
+          ],
+          "sourceText": "What is Already Known About This Topic",
+          "words": 7,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 32,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-08-s-ecebf1c9b3ea",
+          "order": 10,
+          "pages": [
+            2
+          ],
+          "sourceText": "What This Paper Adds",
+          "words": 4,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 17,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-08-s-d345dd7f71aa",
+          "order": 14,
+          "pages": [
+            2
+          ],
+          "sourceText": "Implications for Practice and/or Policy",
+          "words": 6,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 35,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-08-s-60b2c47d7a0e",
+          "order": 62,
+          "pages": [
+            9
+          ],
+          "sourceText": "TABLE 1 | Coding table for learning behaviour.",
+          "words": 7,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 39,
+            "boldFraction": 0.1538
+          }
+        },
+        {
+          "id": "paper-08-s-fbbd50400a71",
+          "order": 63,
+          "pages": [
+            9
+          ],
+          "sourceText": "Description of behaviour in the VML",
+          "words": 6,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 30,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-08-s-4e1a58f7ca8f",
+          "order": 64,
+          "pages": [
+            9
+          ],
+          "sourceText": "Code Definition",
+          "words": 2,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 14,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-08-s-5e3b8d10ac9d",
+          "order": 78,
+          "pages": [
+            9
+          ],
+          "sourceText": "TABLE 2 | The independent samples t-test result of learning achievement.",
+          "words": 10,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 63,
+            "boldFraction": 0.0952
+          }
+        },
+        {
+          "id": "paper-08-s-c723bdcca019",
+          "order": 79,
+          "pages": [
+            9
+          ],
+          "sourceText": "Groups N Mean SD t d",
+          "words": 6,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 15,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-08-s-4aac7a41f9b3",
+          "order": 80,
+          "pages": [
+            9
+          ],
+          "sourceText": "Experimental 28 82.86 11.17 * 0.61",
+          "words": 5,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 29,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-0f928d9535d2",
+          "order": 81,
+          "pages": [
+            9
+          ],
+          "sourceText": "Control 28 75.36 13.19",
+          "words": 4,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 19,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-1f81999e3232",
+          "order": 82,
+          "pages": [
+            9
+          ],
+          "sourceText": "*p < 0.05.",
+          "words": 2,
+          "reason": "statistical-table-note",
+          "typography": {
+            "matchedCharacters": 8,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-fdb0a3be218d",
+          "order": 88,
+          "pages": [
+            10
+          ],
+          "sourceText": "TABLE 3 | The independent samples t-test result of critical thinking tendency.",
+          "words": 11,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 68,
+            "boldFraction": 0.0882
+          }
+        },
+        {
+          "id": "paper-08-s-c723bdcca019-2",
+          "order": 89,
+          "pages": [
+            10
+          ],
+          "sourceText": "Groups N Mean SD t d",
+          "words": 6,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 15,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-08-s-f325825429d9",
+          "order": 90,
+          "pages": [
+            10
+          ],
+          "sourceText": "Experimental 28 4.37 0.54 * 0.58",
+          "words": 5,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 27,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-e227408f827c",
+          "order": 91,
+          "pages": [
+            10
+          ],
+          "sourceText": "Control 28 4.03 0.62",
+          "words": 4,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 17,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-1f81999e3232-2",
+          "order": 92,
+          "pages": [
+            10
+          ],
+          "sourceText": "*p < 0.05.",
+          "words": 2,
+          "reason": "statistical-table-note",
+          "typography": {
+            "matchedCharacters": 8,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-6817f01410ab",
+          "order": 94,
+          "pages": [
+            10
+          ],
+          "sourceText": "TABLE 4 | The independent samples t-test result of collaboration tendency.",
+          "words": 10,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 65,
+            "boldFraction": 0.0923
+          }
+        },
+        {
+          "id": "paper-08-s-c723bdcca019-3",
+          "order": 95,
+          "pages": [
+            10
+          ],
+          "sourceText": "Groups N Mean SD t d",
+          "words": 6,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 15,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-08-s-ec01732ca1df",
+          "order": 96,
+          "pages": [
+            10
+          ],
+          "sourceText": "Experimental 28 4.49 0.69 * 0.56",
+          "words": 5,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 27,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-755ea7ecf3e3",
+          "order": 97,
+          "pages": [
+            10
+          ],
+          "sourceText": "Control 28 4.12 0.63",
+          "words": 4,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 17,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-1f81999e3232-3",
+          "order": 98,
+          "pages": [
+            10
+          ],
+          "sourceText": "*p < 0.05.",
+          "words": 2,
+          "reason": "statistical-table-note",
+          "typography": {
+            "matchedCharacters": 8,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-824f51a90a2d",
+          "order": 99,
+          "pages": [
+            10
+          ],
+          "sourceText": "TABLE 5 | The independent samples t-test result of metacognition.",
+          "words": 9,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 57,
+            "boldFraction": 0.1053
+          }
+        },
+        {
+          "id": "paper-08-s-c723bdcca019-4",
+          "order": 100,
+          "pages": [
+            10
+          ],
+          "sourceText": "Groups N Mean SD t d",
+          "words": 6,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 15,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-08-s-e1d5762c92d6",
+          "order": 101,
+          "pages": [
+            10
+          ],
+          "sourceText": "Experimental 28 4.58 0.59 * 0.64",
+          "words": 5,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 27,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-b7a6e2bab382",
+          "order": 102,
+          "pages": [
+            10
+          ],
+          "sourceText": "Control 28 4.18 0.66",
+          "words": 4,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 17,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-1f81999e3232-4",
+          "order": 103,
+          "pages": [
+            10
+          ],
+          "sourceText": "*p < 0.05.",
+          "words": 2,
+          "reason": "statistical-table-note",
+          "typography": {
+            "matchedCharacters": 8,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-016e7fe89b37",
+          "order": 104,
+          "pages": [
+            11
+          ],
+          "sourceText": "TABLE 6 | Residual table of the experimental group's learning behavioural analysis.",
+          "words": 11,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 72,
+            "boldFraction": 0.0833
+          }
+        },
+        {
+          "id": "paper-08-s-e64d8d0fb995",
+          "order": 105,
+          "pages": [
+            11
+          ],
+          "sourceText": "Z-score EO RO AC WA RM NS FE",
+          "words": 8,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 22,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-08-s-4ba8fa60d823",
+          "order": 106,
+          "pages": [
+            11
+          ],
+          "sourceText": "SE * −4.08 −3.46 −2.54 −2.42 −2.29 −0.55",
+          "words": 7,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 33,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-76c84cd6dee5",
+          "order": 107,
+          "pages": [
+            11
+          ],
+          "sourceText": "EO −5.97 −6.24 * −0.38 * −1.55 *",
+          "words": 5,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 25,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-4659a45107eb",
+          "order": 108,
+          "pages": [
+            11
+          ],
+          "sourceText": "RO −2.98 −8.11 −0.66 −1.1 −7.52 −4.28 −2.29",
+          "words": 8,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 36,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-778e1a463802",
+          "order": 109,
+          "pages": [
+            11
+          ],
+          "sourceText": "AC * −4.08 −3.81 −10.21 −2.13 −3.88 −3.73",
+          "words": 7,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 34,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-35dacf87c99f",
+          "order": 110,
+          "pages": [
+            11
+          ],
+          "sourceText": "WA −0.53 −2.32 −1.25 −0.97 1.75 −2.41 −1.29",
+          "words": 8,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 36,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-459b6b6c1313",
+          "order": 111,
+          "pages": [
+            11
+          ],
+          "sourceText": "RM −2.24 −6.91 * −2.67 * * −2.27",
+          "words": 5,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 25,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-1c5942509762",
+          "order": 112,
+          "pages": [
+            11
+          ],
+          "sourceText": "NS * −11.95 −7.88 −8.99 * −9.71 −3.31",
+          "words": 6,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 30,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-edc22aa415c2",
+          "order": 113,
+          "pages": [
+            11
+          ],
+          "sourceText": "*Z > 1.96.",
+          "words": 2,
+          "reason": "statistical-table-note",
+          "typography": {
+            "matchedCharacters": 8,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-edc22aa415c2-2",
+          "order": 114,
+          "pages": [
+            11
+          ],
+          "sourceText": "*Z > 1.96.",
+          "words": 2,
+          "reason": "statistical-table-note",
+          "typography": {
+            "matchedCharacters": 8,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-760c0fb124ba",
+          "order": 116,
+          "pages": [
+            11
+          ],
+          "sourceText": "TABLE 7 | Residual table of the control group's learning behavioural analysis.",
+          "words": 11,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 67,
+            "boldFraction": 0.0896
+          }
+        },
+        {
+          "id": "paper-08-s-e64d8d0fb995-2",
+          "order": 117,
+          "pages": [
+            11
+          ],
+          "sourceText": "Z-score EO RO AC WA RM NS FE",
+          "words": 8,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 22,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-08-s-5a971d8f82f8",
+          "order": 118,
+          "pages": [
+            11
+          ],
+          "sourceText": "SE * −3.64 −2.97 −2.59 −2.7 −2.34 −0.77",
+          "words": 7,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 32,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-d6798338f44c",
+          "order": 119,
+          "pages": [
+            11
+          ],
+          "sourceText": "EO −6.23 −5.91 * −0.25 * −1.47 *",
+          "words": 5,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 25,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-21e7c7eb331e",
+          "order": 120,
+          "pages": [
+            11
+          ],
+          "sourceText": "RO −3.12 −7.29 −1.82 −1.23 −6.82 −4.83 −2.42",
+          "words": 8,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 37,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-e58cb431c8ca",
+          "order": 121,
+          "pages": [
+            11
+          ],
+          "sourceText": "AC * −5.03 −3.73 −9.06 −3.01 −3.79 −3.81",
+          "words": 7,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 33,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-1bf633472fd8",
+          "order": 122,
+          "pages": [
+            11
+          ],
+          "sourceText": "WA −0.95 −1.92 −1.31 −1.01 1.51 −2.37 −1.34",
+          "words": 8,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 36,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-11cea798f0b2",
+          "order": 123,
+          "pages": [
+            11
+          ],
+          "sourceText": "RM −3.05 −5.54 * −2.41 1.67 −0.95 −2.33",
+          "words": 7,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 32,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-d3cc3d7ebf74",
+          "order": 124,
+          "pages": [
+            11
+          ],
+          "sourceText": "NS * −11.83 −7.75 −7.57 1.73 −9.69 −2.99",
+          "words": 7,
+          "reason": "numeric-table-fragment",
+          "typography": {
+            "matchedCharacters": 33,
+            "boldFraction": 0.0
+          }
+        },
+        {
+          "id": "paper-08-s-30fc53772fa9",
+          "order": 127,
+          "pages": [
+            13
+          ],
+          "sourceText": "TABLE 8 | Frequency of students' responses in the interviews.",
+          "words": 9,
+          "reason": "table-title",
+          "typography": {
+            "matchedCharacters": 52,
+            "boldFraction": 0.1154
+          }
+        },
+        {
+          "id": "paper-08-s-f8b2b5c0f91f",
+          "order": 128,
+          "pages": [
+            13
+          ],
+          "sourceText": "Aspect Item",
+          "words": 2,
+          "reason": "table-header",
+          "typography": {
+            "matchedCharacters": 10,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-08-s-e5884d87a9e2",
+          "order": 133,
+          "pages": [
+            13
+          ],
+          "sourceText": "Experimental group frequency",
+          "words": 3,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 26,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-08-s-756121c2adb9",
+          "order": 134,
+          "pages": [
+            13
+          ],
+          "sourceText": "Control group",
+          "words": 2,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 12,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-08-s-48a8832d1417",
+          "order": 135,
+          "pages": [
+            13
+          ],
+          "sourceText": "frequency",
+          "words": 1,
+          "reason": "short-bold-label",
+          "typography": {
+            "matchedCharacters": 9,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-08-s-07208c7f22d4",
+          "order": 185,
+          "pages": [
+            18
+          ],
+          "sourceText": "Author Contributions",
+          "words": 2,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 19,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-08-s-7f30b117b3d5",
+          "order": 187,
+          "pages": [
+            18
+          ],
+          "sourceText": "Funding",
+          "words": 1,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 7,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-08-s-ca4b61e67406",
+          "order": 189,
+          "pages": [
+            18
+          ],
+          "sourceText": "Conflicts of Interest",
+          "words": 3,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 19,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-08-s-4ad40dabc9af",
+          "order": 191,
+          "pages": [
+            18
+          ],
+          "sourceText": "Data Availability Statement",
+          "words": 3,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 25,
+            "boldFraction": 1.0
+          }
+        },
+        {
+          "id": "paper-08-s-aa2f696fe028",
+          "order": 193,
+          "pages": [
+            18
+          ],
+          "sourceText": "Peer Review",
+          "words": 2,
+          "reason": "section-heading",
+          "typography": {
+            "matchedCharacters": 10,
+            "boldFraction": 1.0
+          }
+        }
+      ],
+      "preservedShortUnits": [
+        {
+          "id": "paper-08-s-dade0b4336b6",
+          "order": 24,
+          "sourceText": "dency between the SE-VML model and the C-VML model?",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-f46be40dbda8",
+          "order": 25,
+          "sourceText": "between the SE-VML model and the C-VML model?",
+          "words": 8,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-0cd5439cc8bb",
+          "order": 26,
+          "sourceText": "the SE-VML model and the C-VML model?",
+          "words": 7,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-1b2791b821ca",
+          "order": 65,
+          "sourceText": "SE Start Experience Start a new experiential activity",
+          "words": 8,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-11399a095b45",
+          "order": 66,
+          "sourceText": "EO Explore Object Click on the description",
+          "words": 7,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-c607daee1e62",
+          "order": 67,
+          "sourceText": "or a guiding object",
+          "words": 4,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-661c8a63abec",
+          "order": 68,
+          "sourceText": "RO Repeat Object Repeatedly click on",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-e7d641f88013",
+          "order": 69,
+          "sourceText": "the description or",
+          "words": 3,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-ac6273b6fda5",
+          "order": 70,
+          "sourceText": "a guiding object",
+          "words": 3,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-b29147639e6f",
+          "order": 71,
+          "sourceText": "AC Answer the question correctly",
+          "words": 5,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-d9e5971bb40c",
+          "order": 72,
+          "sourceText": "Correctly answer the",
+          "words": 3,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-635a3dba77cd",
+          "order": 73,
+          "sourceText": "guiding question",
+          "words": 2,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-678947b72b80",
+          "order": 74,
+          "sourceText": "WA Wrong Answer Select a wrong answer",
+          "words": 7,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-365585ab8a64",
+          "order": 75,
+          "sourceText": "RM Read Materials Read or listen to learning materials",
+          "words": 9,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-dd9a79019c88",
+          "order": 77,
+          "sourceText": "FE Finish Experience Complete the entire learning experience",
+          "words": 8,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-01e51d954521",
+          "order": 129,
+          "sourceText": "the learning content",
+          "words": 3,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-ffb3526e680e",
+          "order": 130,
+          "sourceText": "learning content",
+          "words": 2,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-af8a01ae2fcb",
+          "order": 131,
+          "sourceText": "Enhancing metacognition Develop and refine conceptual knowledge",
+          "words": 7,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-4c777ed76c61",
+          "order": 136,
+          "sourceText": "Promoting learning effectiveness Focus on understanding",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-508aedcdc0e4",
+          "order": 137,
+          "sourceText": "Review and reflect on the",
+          "words": 5,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-7dfaf8d96a38",
+          "order": 138,
+          "sourceText": "Enhance interdisciplinary knowledge 11 9",
+          "words": 5,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-2adbfae45675",
+          "order": 139,
+          "sourceText": "Strengthen impressive understanding of knowledge",
+          "words": 5,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-0ab616350f6c",
+          "order": 140,
+          "sourceText": "Fostering critical thinking Promote diverse thinking 9 5",
+          "words": 8,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-0e1106ba2600",
+          "order": 141,
+          "sourceText": "Evaluate the accuracy of viewpoints 9 0",
+          "words": 7,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-eccd66553b60",
+          "order": 142,
+          "sourceText": "Develop independent thinking skills 8 0",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-8bef9e9720eb",
+          "order": 143,
+          "sourceText": "Fostering collaboration Communicate and share opinions 10 7",
+          "words": 8,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-297008768aa5",
+          "order": 144,
+          "sourceText": "Collaborate to complete tasks 8 6",
+          "words": 6,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-db6f516e9758",
+          "order": 145,
+          "sourceText": "Achieve group consensus 8 0",
+          "words": 5,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-3a2239feabbf",
+          "order": 146,
+          "sourceText": "Self-monitor comprehension 10 0",
+          "words": 4,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-ab4badb659da",
+          "order": 147,
+          "sourceText": "Adapt learning strategies 9 0",
+          "words": 5,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-a41020e6e4d4",
+          "order": 149,
+          "sourceText": "Continue to use the approach 10 9",
+          "words": 7,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-9d7bba94a2ce",
+          "order": 150,
+          "sourceText": "Explore the learning content further 9 0",
+          "words": 7,
+          "action": "preserved-review-only"
+        },
+        {
+          "id": "paper-08-s-c8ece8616b3d",
+          "order": 190,
+          "sourceText": "The authors declare no conflicts of interest.",
+          "words": 7,
+          "action": "preserved-review-only"
+        }
+      ],
+      "reasons": {
+        "section-heading": 9,
+        "table-title": 8,
+        "short-bold-label": 6,
+        "table-header": 8,
+        "numeric-table-fragment": 20,
+        "statistical-table-note": 6
+      },
+      "includedAfter": 137
+    }
+  }
+}

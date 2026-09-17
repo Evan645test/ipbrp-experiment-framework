@@ -1,0 +1,1563 @@
+{
+  "schemaVersion": "1.0.0",
+  "papers": {
+    "paper-01": {
+      "sourceSha256": "f115fdd76360d2b81f11162f81a419d30c973b58bdeb13a4b504a1f1a63a3ca1",
+      "segments": {
+        "paper-01-s-da6334e3a079": {
+          "sourceTextSha256": "d9f6a2d9c95a5ad6b194dcaca3b58e87e0a07aad7e86310337c97f962453cc90",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-01-s-cb710b102e05": {
+          "sourceTextSha256": "96a609606ca1108b3ce186d30a8ec83f76f3c2d94a5cfe5c86f9e948993dbe20",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-01-s-a02a0e24efcd": {
+          "sourceTextSha256": "116f962012695791198ba288901c1318d0f379862a5e99e8fe9aa92a0554599d",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-01-s-40ee22e6e0e1": {
+          "sourceTextSha256": "28aa8a543c738efc5ad78d8d5677f4781eb610a7032c8f10a00b6a3edb1ac8ec",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-01-s-63440d720682": {
+          "sourceTextSha256": "8fde5297f905ac66dd546cd92eb4be63187184280f62d48e8ec3c34dc2425c8c",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-01-s-fd7809f52bb4": {
+          "sourceTextSha256": "ef053473680eb30e9dd9452610e4edef91af106f439f10d49b50d9c40c1a476e",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-01-s-8d2118f0d5a2": {
+          "sourceTextSha256": "28af6784d2156e8be80668c6cc1f496f5c995e2ebe1879763fe85c5152cf2f3d",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-model-label"
+        },
+        "paper-01-s-f2f30b71c38f": {
+          "sourceTextSha256": "2e67a2930fdff3ef7a4220ca8d435e0bc9b428910d11633ec15f972fa966a09c",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-01-s-40ee22e6e0e1-2": {
+          "sourceTextSha256": "28aa8a543c738efc5ad78d8d5677f4781eb610a7032c8f10a00b6a3edb1ac8ec",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-01-s-497550ef7108": {
+          "sourceTextSha256": "9b5187a7326806b8ac8fd7112f24a9d72d0becd7b924b6ff16a9a5cbf5924006",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-01-s-506c53ee35ea": {
+          "sourceTextSha256": "c771e456a34f683820d64994d4fdb8dd900a0214879e48bced9eb7b2b5be65e7",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-model-label"
+        },
+        "paper-01-s-63440d720682-2": {
+          "sourceTextSha256": "8fde5297f905ac66dd546cd92eb4be63187184280f62d48e8ec3c34dc2425c8c",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-01-s-497550ef7108-2": {
+          "sourceTextSha256": "9b5187a7326806b8ac8fd7112f24a9d72d0becd7b924b6ff16a9a5cbf5924006",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-01-s-55e7194803e8": {
+          "sourceTextSha256": "675dd86505c971a5b3559c68fd1882a1111a01bde7a7c99b7c24c86dce8b6e57",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-model-label"
+        },
+        "paper-01-s-cde3ec6a074a": {
+          "sourceTextSha256": "352ef1e4487944001666ec059813313f7bf78d83a712ab6138037ed45fdec53a",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-01-s-b630ec7e04d6": {
+          "sourceTextSha256": "0aa7c819ef4748935fcd7e8919854eac7e79b5823ede8ee70f071d5f5394e4f4",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-model-label"
+        },
+        "paper-01-s-10089fc4be72": {
+          "sourceTextSha256": "d17cb892cd78f0e42691421b3cbae9aefe494a1d0a716aee1643c5044f29368a",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-01-s-40ee22e6e0e1-3": {
+          "sourceTextSha256": "28aa8a543c738efc5ad78d8d5677f4781eb610a7032c8f10a00b6a3edb1ac8ec",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-01-s-812914c9d431": {
+          "sourceTextSha256": "9aa188760942eef8520ccf09118ad06c1b135a10b230cddea8d6ef11016db82c",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-01-s-191ae2688d43": {
+          "sourceTextSha256": "8773c07514c65f9e35d1d5ed230f68fbda551a03012247d48fd38f89af6e55eb",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-01-s-40ee22e6e0e1-4": {
+          "sourceTextSha256": "28aa8a543c738efc5ad78d8d5677f4781eb610a7032c8f10a00b6a3edb1ac8ec",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-01-s-63440d720682-3": {
+          "sourceTextSha256": "8fde5297f905ac66dd546cd92eb4be63187184280f62d48e8ec3c34dc2425c8c",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-01-s-497550ef7108-3": {
+          "sourceTextSha256": "9b5187a7326806b8ac8fd7112f24a9d72d0becd7b924b6ff16a9a5cbf5924006",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-01-s-2bd25ad83310": {
+          "sourceTextSha256": "795871592c2a366954fc2720d7d1b33c9e6440dc6818927d2ce113f6ce858f22",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-model-label"
+        },
+        "paper-01-s-63440d720682-4": {
+          "sourceTextSha256": "8fde5297f905ac66dd546cd92eb4be63187184280f62d48e8ec3c34dc2425c8c",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-01-s-fe6e77ace6eb": {
+          "sourceTextSha256": "c82b203745a43d570c479b0637d0cea97998abdb35c2c880589fec70c6923f96",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-01-s-ab6298ca6acb": {
+          "sourceTextSha256": "11b9c13973d77cdc57c1c0ab1e6de6987472f36bd69b7a65bc431698e78ff1f0",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-01-s-497550ef7108-4": {
+          "sourceTextSha256": "9b5187a7326806b8ac8fd7112f24a9d72d0becd7b924b6ff16a9a5cbf5924006",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-01-s-a63fbdbe4111": {
+          "sourceTextSha256": "442e0b3a4c3a5907dd839348403e67f04ccf0f925dec40d7a4b4e2075a9c17d2",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-model-label"
+        },
+        "paper-01-s-554005665839": {
+          "sourceTextSha256": "75794fc7a639181c4b67897c71910444e5b8ebcbd0f51648ce8e59a2b166c896",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-01-s-caec210e3421": {
+          "sourceTextSha256": "bbf35654fc49512e8eb206ce5a603b7ef3beb8e71ec4027fb7ac0c89a87f917a",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-01-s-fafd4ee062f4": {
+          "sourceTextSha256": "5bd29a6b1d36d3811d6a85728ea92810680ef3987048232e62779d75342e82cd",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-01-s-ff72b6dd5e6e": {
+          "sourceTextSha256": "9abdb71c61909fcbda986b221203187a32a089656a81ea1f1147df607f367b55",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-01-s-b70689041c39": {
+          "sourceTextSha256": "791552fd3a59d0351cd4ba3654c650f88465a378b7672d827f3b2da473d4e5eb",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-01-s-a1695c7cd61f": {
+          "sourceTextSha256": "5c85b6f00ab5fa25919038deae6f4489b28deb2faa23bcb267c665ce68352e9e",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-01-s-00c3128f0cec": {
+          "sourceTextSha256": "5ac0a9f4469298aa15c9f6fc8d4d80ca6969b20781e444ac223f2753c4d1354e",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-01-s-6241008979e4": {
+          "sourceTextSha256": "188a992e372fe88d4d545fa96883a56c2aada07802d61a1332853f2ea664c1ed",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        }
+      }
+    },
+    "paper-02": {
+      "sourceSha256": "8c12bedfef7ac71cb4bc740dfec538ecc8b63369446d156346588921a6681c7b",
+      "segments": {
+        "paper-02-s-05535ecff78e": {
+          "sourceTextSha256": "8e76a94ac8320d515375e625bef1829238b097ecbd33611b59eeefd4ffefebfb",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-02-s-5355fa779a5f": {
+          "sourceTextSha256": "4fcb4790f10d6f4a5c527f9216ce219f757f9e968eb8b9bb4306efe027e52584",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-02-s-8e2301705929": {
+          "sourceTextSha256": "42827c9746c41ce17064099a86b346a200726a61629d6925832bb4dd30d4f52b",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-02-s-ffccf3dc9687": {
+          "sourceTextSha256": "1179d86e605289c0da745f4a537837d58889397a86ffb46a8ec276be500ba11c",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-02-s-cca6c57b7955": {
+          "sourceTextSha256": "4b72e45822fff029df21f0154ac18f0214a9f77c0e25fe353c55e283a4be9f5e",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-02-s-012b59f27de5": {
+          "sourceTextSha256": "b6771d200a821fb4a2fb30c48ea266f7c85cd6bf72e8f99a4bc91ecff353803e",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-02-s-9f8a9d314620": {
+          "sourceTextSha256": "211dea4f7058ba5f5fb709af27fd06cedc86607e418b520e21df2a9f0ab6c53e",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-02-s-84f43a1132c3": {
+          "sourceTextSha256": "1b29b13aff2d4e4fe96a5bdd122d5ee3f6d3846dabb4641decf3fb4f237c6b07",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-02-s-c97783bd3e77": {
+          "sourceTextSha256": "75f0b89166b7324c189911b6fbd4f7086cf3857362f70899d99b6e3dbe466d9d",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-02-s-0fca4fd72bb6": {
+          "sourceTextSha256": "b6c65535de8193b2bc064af420b13cd50bd6fcde855cf3a7c4235e1605562f1b",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-02-s-200e7ae4aa06": {
+          "sourceTextSha256": "51cf473028ae04481c965b96fffac84771ca3a7701fd066711ce17c127bd5762",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-02-s-513156c2f872": {
+          "sourceTextSha256": "5c13720e89e58fc35334f00893891359405b306bb20ab2f245dd30c984fac153",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-02-s-e0d7cc5df8fd": {
+          "sourceTextSha256": "d485a6b842a54c4d3ded633fe0fdf20f7574ecfcb754236335ed2441a6ec9994",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-02-s-a8b65ee86d10": {
+          "sourceTextSha256": "bf2426e4486f8802d08b0672301dc3685f4cc65dac3057dc472c373e624ecaac",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "statistical-table-note"
+        },
+        "paper-02-s-a8b65ee86d10-2": {
+          "sourceTextSha256": "bf2426e4486f8802d08b0672301dc3685f4cc65dac3057dc472c373e624ecaac",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "statistical-table-note"
+        },
+        "paper-02-s-338face57e8c": {
+          "sourceTextSha256": "a3145dde8d4bfc14b42e4aaf2ddfc2d1c6ec227a3f25fa83971f1b5759cf7313",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-02-s-cb25e531f771": {
+          "sourceTextSha256": "5e59c2dfbf378f7a6f177bfe928d701dbaa21d48c9ac0dec92c855998a68fb41",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-02-s-c2f19cf5509b": {
+          "sourceTextSha256": "1cc5bbff7edf677ce02d09b0ab366d0a076b27f532594d5253a66455a4dbd024",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-02-s-d30646ac0ad8": {
+          "sourceTextSha256": "6700ef48a9f35ada73852653658ae39dc07c11a8f40e127a3fa3fb6b6ddbe4f5",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-02-s-7f3df9127f9b": {
+          "sourceTextSha256": "d9cd334363d6eeb5e564d29946cc99f57683883084526b98d7a5c6bf24cf7d7c",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-02-s-5dee3cfff83f": {
+          "sourceTextSha256": "5a08db42e54e2b63023b4994ab687ffc386045adc5ecd9e80c6472026ede6187",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-02-s-7e6f1b9fda97": {
+          "sourceTextSha256": "ef0169c54bdcf7d3f748d8d0adb27410babacc830442b48f2cbc407502b57529",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-02-s-1f81999e3232": {
+          "sourceTextSha256": "dee7369afaf54cc988a8e505077f438f41653b2c7e426dd9344170ed6c4a77d1",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "statistical-table-note"
+        },
+        "paper-02-s-51a34159e3e7": {
+          "sourceTextSha256": "cca6ff2203159b568845d582a74d5d664f28540fbd6336fe20f6f46ddc415e2c",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-02-s-6153d5b9ea7d": {
+          "sourceTextSha256": "ff4bb11032e68dd81e5fcd237775ae3cb73202bd0d2a6e7bd181f5fef5bb514b",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-02-s-92842fea4456": {
+          "sourceTextSha256": "839e2787ea5e3c8fabdde537f8025c07149bab27647a33e7e0a8241285b1defc",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-02-s-005ac47a96ba": {
+          "sourceTextSha256": "81a445aa219a1f57c42d5b13cc26768b6dedf682bd1d5bea866a80bfb5e36fb0",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-02-s-89621d61b4b3": {
+          "sourceTextSha256": "5c7fb98d18fd789a9eae7550ff21dece8d150a8180aac7ea3e40533d6e847391",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-02-s-edc22aa415c2": {
+          "sourceTextSha256": "f836988d589f6b9d4922e45bcef7c3284867eeac440b120c30d32ac5245ea808",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "statistical-table-note"
+        },
+        "paper-02-s-89621d61b4b3-2": {
+          "sourceTextSha256": "5c7fb98d18fd789a9eae7550ff21dece8d150a8180aac7ea3e40533d6e847391",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-02-s-edc22aa415c2-2": {
+          "sourceTextSha256": "f836988d589f6b9d4922e45bcef7c3284867eeac440b120c30d32ac5245ea808",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "statistical-table-note"
+        },
+        "paper-02-s-4f722340a2c1": {
+          "sourceTextSha256": "3647936e97a8d122cf9fefcb524887f4a8e08f5ec4dbe2321b5564111b2c63b6",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-02-s-60a120d1cc4c": {
+          "sourceTextSha256": "826d25ebdc74fee1cafcedbb40df9fc94c7e4035203cd7494b7b44f6dc2380ed",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-02-s-e2aee0fb859b": {
+          "sourceTextSha256": "6f32e692ede03567b0539f2001b94ed58fbb6e3bd02fa11c5b2e933b1104d36b",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-02-s-f5e6590129ef": {
+          "sourceTextSha256": "bb373d5aeba984eed85bd001f1b070caff961d60e8c681193babb6412df60dd0",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-02-s-dc151a5a2b81": {
+          "sourceTextSha256": "efb52e7172b77731d996ff4f51cd7b3dcfd55fc6f07392994619418d58d170dd",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-02-s-8a5e63feac35": {
+          "sourceTextSha256": "4794810f8869578c272904b150a28983011cb4fa5c2e76dfae50240f0a1f1592",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-02-s-68d7005824aa": {
+          "sourceTextSha256": "ac9797efe624e3c0928d000cf9d12832101a94ba165f116ea6c4ad8dae5001a9",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-02-s-07208c7f22d4": {
+          "sourceTextSha256": "4cb1933bf1afc0a006c0622ce8a1c382cecc3b68f31e848be3f4583fd0d8f097",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-02-s-e13916b7a5f2": {
+          "sourceTextSha256": "c9015d53b90846454375a2fdf2829c66fad7a2e52de1e89e73949ca59c905e49",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-02-s-ca4b61e67406": {
+          "sourceTextSha256": "39b7c6d64b2ddda6bb42ffa31df21e240a86d2f4170f5583a40bfd4294414f62",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-02-s-4ad40dabc9af": {
+          "sourceTextSha256": "6ddbf365a1fb11d332ebf55fb6593e6b38b496265b01a2e9ecfc0c20b279e510",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        }
+      }
+    },
+    "paper-03": {
+      "sourceSha256": "31bb89a6483cbbd8d4e00a9df39fdfee0eb3bd036b17187a6effef2a4df46833",
+      "segments": {
+        "paper-03-s-22fcc2e3bf2b": {
+          "sourceTextSha256": "1270431d3e6836f14216c9cb6dfc9e4cfc4c7f2d728324369ee82ff8cba6555b",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-03-s-396f20831604": {
+          "sourceTextSha256": "b8e57d80e61b59b70d89df10308caa978394f76d66bb2ce37a66d15289c05df9",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-03-s-dacf5313273f": {
+          "sourceTextSha256": "5f4dbfefc38ba09d22134ed1bbdf18bab8e85978b1e95bfd7530ba0dcdb2c536",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-03-s-cb7fc58fff3b": {
+          "sourceTextSha256": "3b28215a9372908c4f760b0a1e5a07c650902461816bdb4fe24a1abbab5863b2",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "statistical-table-note"
+        },
+        "paper-03-s-76a6f7f7461b": {
+          "sourceTextSha256": "4826cfad244c14610657d4aa58e63b76422fee57c18a0fccbe825fa47574ec87",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        }
+      }
+    },
+    "paper-04": {
+      "sourceSha256": "cb615219ba33a28ac6e3b3c1e11f88c19d86aa63cd61f094b7812dd202bd1a8c",
+      "segments": {
+        "paper-04-s-267372bc3697": {
+          "sourceTextSha256": "7dc17bf620e200c3a06434f56f1a4b3def021ca43199ce8501f03021bcdf5105",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-04-s-94e3fa98b27b": {
+          "sourceTextSha256": "7cc6d924f25b8a9a1c204b56402da64b93d6710312f9847c241c7bcba0bafd79",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-04-s-e7ef78d2bc03": {
+          "sourceTextSha256": "bab90a3cbf52a58f795e3347e5186942846c2988f9f5122a09b143937f81cfc0",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-04-s-609166feb654": {
+          "sourceTextSha256": "afaf3d2415f3ed1681dd46326788fc44e1a5f6eeaa6e6319ab1631ea16ea417b",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-04-s-23d5a69c806a": {
+          "sourceTextSha256": "1570aec8dcce92d083a556506b2229634831b77264afa5822a17971eb76e1af2",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-04-s-6d1dae1b039c": {
+          "sourceTextSha256": "fe58bf7edd3f4d408fb45ca0d4ce7f378ec84f0d4140721948bc0cefa8c56f1a",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-04-s-a9483c9bfc1e": {
+          "sourceTextSha256": "e4511f6f14dfb6abd79645c7f1be8e21b223390095025841cc65873b0b1be182",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-04-s-6631cef91b81": {
+          "sourceTextSha256": "c47d7afdeb2c859a0ddd0052bd1c2a9b64db3ad250c6856ef9c9da862b63a4b3",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-04-s-209af15f106a": {
+          "sourceTextSha256": "1e1053da5c23a40defc8f120d6e4837cffd2c4d6f132c256362a85aaa04305fa",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-04-s-120171d48849": {
+          "sourceTextSha256": "46cb1f1e4a3fcd2ef157955e79eb934b95839d69552c8e59b0c26d16ea365965",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-04-s-ccd617680f4c": {
+          "sourceTextSha256": "5d5e545a26cdd5d3b206c60979ce640677f63a8fd140d2f3844b180006abffbc",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-04-s-344ff95a04af": {
+          "sourceTextSha256": "07c6c8b5d6e3b4378829c165f96225685dcce851da07c3c1b0280319c886b7ea",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-04-s-0ab7b1b336fa": {
+          "sourceTextSha256": "3ade48e080153bde21835ccbb8a68884dd555a3a6fdd4646ad5802ee5d69d1e6",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-04-s-02ae5b56c661": {
+          "sourceTextSha256": "ec89d4448d9d2c6c2440d459ef46ee52efa7cb5dd4c0aefe0b0e354ae056bac2",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-04-s-5deb9ceb44b0": {
+          "sourceTextSha256": "468987edba42dffb0f12a488264be186e64c4c59fdd2f496179eb6dca019cd96",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-04-s-bff8f996f563": {
+          "sourceTextSha256": "f8777fc66b57a0c55e02663ccd3f9099165b12af3bfb9f29fe1e24fd9bad5cfb",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-04-s-32e13930bbff": {
+          "sourceTextSha256": "b2ba7d2e040b49ac35bb995bfc8e7117e4d7001ac97fd861580191fd961522e1",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-04-s-c780be9d81a8": {
+          "sourceTextSha256": "e55316f9ad7665f93e615bf3fbbb4684de22400c8a36a6e20aa705b11340cb8e",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-04-s-ea33cf2d6963": {
+          "sourceTextSha256": "5a00e31c8bba1664b48e03316a7d2a9bf65436b9accb850b923edff3cd5fd9ca",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-04-s-b7593fe45079": {
+          "sourceTextSha256": "4be0f860ee3560910d50596233fe802eeecf0972c7a9de427a76ae9a622e2ea1",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-04-s-76f3f8228128": {
+          "sourceTextSha256": "ba88c3ed0fe3416b5109c78504bae14cacaf811a259281b5ff8435a3083290b4",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-04-s-7f30b117b3d5": {
+          "sourceTextSha256": "e93df741ad323efdfca3f9a08236d6aa90476b2f3ca01c9b67f062209d4fa660",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-04-s-cdd12981aecc": {
+          "sourceTextSha256": "9cc9edaa89e4e361ce8fc69dbb567f005bc29a5df34e3afbc4b280df7f97f4e9",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-04-s-89fb85930658": {
+          "sourceTextSha256": "35e1ea77dbc2ef4d3f27205c63e66f60228c52b402ebb50f57d5ca8944afa5eb",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-04-s-3d184f1e874b": {
+          "sourceTextSha256": "9448e3b147cf870bd99e6ba8140944a904faa34548654d98f6ba3ff2fd6c0b57",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-04-s-31783b0f7143": {
+          "sourceTextSha256": "74b3942c364aa6ed9fe5cb76c915b7ca99f74e78f62f38058199593dddb1d0bf",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-04-s-57db94cf9ae5": {
+          "sourceTextSha256": "2afab460ac3446888395307742ccde17785d3effd75124f93394a264d8e71cfa",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-04-s-f45ef1b6bd68": {
+          "sourceTextSha256": "8c2b6d32a282d8ae748466f2948955a237c4801a64d6ad75969dc2ea9c06fef5",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        }
+      }
+    },
+    "paper-05": {
+      "sourceSha256": "d4641dc89b7f03fdfdaf605221c50db35843a50452dedd1fa6d977bbc13232b1",
+      "segments": {
+        "paper-05-s-728889eb5c01": {
+          "sourceTextSha256": "ae50d79fcb71bdcd4872006d3bbca949282f7fa46e0108576d49853ed3079df6",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-05-s-8935b2c1e9fe": {
+          "sourceTextSha256": "67c984c69c62f63cbf6325ff6d2dcd18fb868e09335c3c8551f38886ff13d982",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-05-s-3eaf0fb73075": {
+          "sourceTextSha256": "f71fb43093f8b9d80080c8433f9bc75bf49677cdabed092a73c2c0195e5d99f5",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-05-s-258861427bea": {
+          "sourceTextSha256": "f58981fb17549f449d58d84cbaf118ecf4a322496c7a8e1872ce0659daa9bb92",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-05-s-bd5a788ec883": {
+          "sourceTextSha256": "8510feea3f903b1e8e388302f91942261f7d7f74ac81c2ce7c509ea922a682e4",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-05-s-4817988ced23": {
+          "sourceTextSha256": "ee4d7f0478163634eabe1d90b05157fe70df5f4ad7c7a0dd27c6dfe973f4f2d1",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-05-s-ac40707b8130": {
+          "sourceTextSha256": "a97d8c1c38e5273fd3042d405465a736bd8ae739bb5acdfd26058240b6905cc2",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-05-s-d3afaf170538": {
+          "sourceTextSha256": "528681ff9d71138247d026e2b3cb1052bf2c1648e3bb0a6f92e5e877d6a502f7",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-05-s-787f1ce5c365": {
+          "sourceTextSha256": "8811c46348bc713729d95ea0dfbd7b7d89f9612fa25c28e549d5750a3394794c",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-05-s-7f30b117b3d5": {
+          "sourceTextSha256": "e93df741ad323efdfca3f9a08236d6aa90476b2f3ca01c9b67f062209d4fa660",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-05-s-96928e041bbf": {
+          "sourceTextSha256": "6a43e0c24990718beec5bcae3db542ed6b67c131e6f5bceeac67af59d821492e",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-05-s-554005665839": {
+          "sourceTextSha256": "75794fc7a639181c4b67897c71910444e5b8ebcbd0f51648ce8e59a2b166c896",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-05-s-922bef90ed7b": {
+          "sourceTextSha256": "9c53d09d763e52c3bd982dc5e59f78546b18e21413f6d9ef7815e4ca3546c239",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-05-s-e13916b7a5f2": {
+          "sourceTextSha256": "c9015d53b90846454375a2fdf2829c66fad7a2e52de1e89e73949ca59c905e49",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-05-s-6241008979e4": {
+          "sourceTextSha256": "188a992e372fe88d4d545fa96883a56c2aada07802d61a1332853f2ea664c1ed",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        }
+      }
+    },
+    "paper-06": {
+      "sourceSha256": "87a8f300514340713f35c5835c85937181d46792d71ce7bb87d805f3f88dac8d",
+      "segments": {
+        "paper-06-s-b7dc969eeb3f": {
+          "sourceTextSha256": "2975b1a213fa50a3876f4827a5b31188b8fbc4b10cd4a81aa779b0cfe1441a21",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-06-s-9861c201ba26": {
+          "sourceTextSha256": "d80457c4cd9adf4e4d3290a9dda261871e12f5b5cf585f4e53e616f9c0ddfc34",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-06-s-5f2c071c5ad6": {
+          "sourceTextSha256": "edf1233dd20ac31690a88dc13551efe2575e1824fd80e8d7448d0994fabad1bb",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-06-s-56864652a8d2": {
+          "sourceTextSha256": "1ae06ba3a852c4b94dfe4079da07aef4880193393bf769b091d8323f85abcaea",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-06-s-51f46b83e0fa": {
+          "sourceTextSha256": "b1a0013d9974e8de5162c82d39d5c51dd6ebddab3a7e2424bec69592e5481558",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-06-s-e6a50c37f458": {
+          "sourceTextSha256": "6a1e529dd3541f36d0e9cfd1d583e2700acea48a3daa05e0e2799776038711fe",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "statistical-table-note"
+        },
+        "paper-06-s-b61f97f0bb54": {
+          "sourceTextSha256": "60b7f9786ca995a15fb0e993c974b67325c9ef110b630f874b44fb2d051d5cfc",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-06-s-5f7c620d1a2d": {
+          "sourceTextSha256": "3e8c624771f140b145336c746b45cbacd601a82cc62d517f818fe2b2f54c08a1",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-06-s-43c7afd9c373": {
+          "sourceTextSha256": "37149204dc85dcedceb80a1e35f411efa3fc61f695e1b77622847d61389bdf96",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "statistical-table-note"
+        },
+        "paper-06-s-aefc98d37d98": {
+          "sourceTextSha256": "985113268d5c10f5a9a27375f6bd1efc65a3e54b0b3df9923514c985cb647fc8",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-06-s-1d71315e40d7": {
+          "sourceTextSha256": "0cf2f0e2ccd9289e2cabf1fc59cf0a3e3cd006987cfac5e982542a7677de0b91",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-06-s-a2aac730f4c2": {
+          "sourceTextSha256": "615366d98513d83d6fa850b9d9056dcedbc8985414de0ce6b351e9bafee43fe8",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "statistical-table-note"
+        },
+        "paper-06-s-682809978357": {
+          "sourceTextSha256": "e16cdc38ceb228ce3878e4674725cb113c1f9c0fd093e1510ce1e123e7906313",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-06-s-49fa1e582230": {
+          "sourceTextSha256": "3348f2f276207911fbc74a16936fc3b29485c35c5288e62187c9cb4f850bde94",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-06-s-a2aac730f4c2-2": {
+          "sourceTextSha256": "615366d98513d83d6fa850b9d9056dcedbc8985414de0ce6b351e9bafee43fe8",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "statistical-table-note"
+        },
+        "paper-06-s-0e8a3ad980ec": {
+          "sourceTextSha256": "978354db0c00fc78c3a5524f462a73bc425df3fb2767e51a5f46352ae26ae6f9",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-06-s-0e8a3ad980ec-2": {
+          "sourceTextSha256": "978354db0c00fc78c3a5524f462a73bc425df3fb2767e51a5f46352ae26ae6f9",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-06-s-6b9d153f308f": {
+          "sourceTextSha256": "49338c5313194b17f3857053a6cc9aadefb1c9792beef99be2e47e3e882925cb",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-06-s-49fa1e582230-2": {
+          "sourceTextSha256": "3348f2f276207911fbc74a16936fc3b29485c35c5288e62187c9cb4f850bde94",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-06-s-0e8a3ad980ec-3": {
+          "sourceTextSha256": "978354db0c00fc78c3a5524f462a73bc425df3fb2767e51a5f46352ae26ae6f9",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-06-s-76f3f8228128": {
+          "sourceTextSha256": "ba88c3ed0fe3416b5109c78504bae14cacaf811a259281b5ff8435a3083290b4",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-06-s-7f30b117b3d5": {
+          "sourceTextSha256": "e93df741ad323efdfca3f9a08236d6aa90476b2f3ca01c9b67f062209d4fa660",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-06-s-07208c7f22d4": {
+          "sourceTextSha256": "af274ee53e9c422e9a2fec96af2ccb8f3eeaea83c6ee0b1e48fd0f732c7838df",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-06-s-89fb85930658": {
+          "sourceTextSha256": "35e1ea77dbc2ef4d3f27205c63e66f60228c52b402ebb50f57d5ca8944afa5eb",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        }
+      }
+    },
+    "paper-07": {
+      "sourceSha256": "49c86f4c7771f899ef1388548d95df5166b2853470de7a46c0aa68d9de84d708",
+      "segments": {
+        "paper-07-s-05535ecff78e": {
+          "sourceTextSha256": "8e76a94ac8320d515375e625bef1829238b097ecbd33611b59eeefd4ffefebfb",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-07-s-186ccf2c5617": {
+          "sourceTextSha256": "75166dd10f99dc15a8533afd6c3bc8cb49c67a87c5f27208c3783a6fa3ac2a5d",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-07-s-0be10744ff68": {
+          "sourceTextSha256": "80be1807cd20c9b867986cce35586ead70d3b89138c5a5e9a78d0f4e7c8b03ec",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-07-s-5f7d417de5c7": {
+          "sourceTextSha256": "f39372addbe5a0304087f0999922a1de6eb05d694c8f168356a4184f45e30489",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-07-s-8cd6e23b6a12": {
+          "sourceTextSha256": "845b8ff31a4876e63c420cf81ccf19e9e209a726efbc5436152588d2cc29fa29",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-07-s-0a2dbf59a451": {
+          "sourceTextSha256": "909d211e12a52e408e0c25bcd00a9e3f28dfce15839394fee8fbf2912f5bd51e",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-07-s-9f62bdb3a061": {
+          "sourceTextSha256": "7c04dfa766a2d6c09ed9f07f7da9942951e4135ff3a968b73867f4d9b5197771",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-07-s-243972ad5fb9": {
+          "sourceTextSha256": "e77249eae4094fc3e80cd9ec8b4b6192921741a91090f67e7723f63e5ae7d54f",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-07-s-c21c8efb2929": {
+          "sourceTextSha256": "6801687bac5de66ed90eadb8576aea99ea0b91db55a5983aa0963dcf800d5151",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-07-s-5205d6454f3a": {
+          "sourceTextSha256": "68d55724f987bee1db2395f32d9d82f33f19767833a9b62d0b2609d3832d3221",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-07-s-1f81999e3232": {
+          "sourceTextSha256": "dee7369afaf54cc988a8e505077f438f41653b2c7e426dd9344170ed6c4a77d1",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "statistical-table-note"
+        },
+        "paper-07-s-edbef9d4c48e": {
+          "sourceTextSha256": "504c60f16b734b3c33b45f212a3d71ee0628a5eb6411a362e5beaec7d6187ea2",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-07-s-1f81999e3232-2": {
+          "sourceTextSha256": "dee7369afaf54cc988a8e505077f438f41653b2c7e426dd9344170ed6c4a77d1",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "statistical-table-note"
+        },
+        "paper-07-s-2582c903ac48": {
+          "sourceTextSha256": "5baf1414c4e147ccd86017e07615f26fa15fa2d7b710b993a29ff830b6071028",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-07-s-2582c903ac48-2": {
+          "sourceTextSha256": "5baf1414c4e147ccd86017e07615f26fa15fa2d7b710b993a29ff830b6071028",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-07-s-c1b091bb2c23": {
+          "sourceTextSha256": "3327e592f25f8ea8796d3c9f1af58c834d81eadb6080f2ee96b2e4bd734def94",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-07-s-1f81999e3232-3": {
+          "sourceTextSha256": "dee7369afaf54cc988a8e505077f438f41653b2c7e426dd9344170ed6c4a77d1",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "statistical-table-note"
+        },
+        "paper-07-s-751fa91e4979": {
+          "sourceTextSha256": "b4c6fe89b300ba0485a93bc4e603387a16dfb2a706f1e616ee1c13ed205a72f7",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-07-s-2dafe78dbd00": {
+          "sourceTextSha256": "7bb7addd2d5b9ccaf3bc7df77b804a49e9172a88dbc513f12c991242f5a67e6f",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-07-s-e5799e2954ae": {
+          "sourceTextSha256": "cb0526aa8db2f3ffc6feab55dafd1317e02603c7b70b09c98c63f51b7e2e7492",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-07-s-39e99a23b2cd": {
+          "sourceTextSha256": "8ba05a20949f255c614d82e6f88c3478ca4014b88f95df60c49150769aefefa9",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-07-s-486a54391250": {
+          "sourceTextSha256": "04e80c1114009bf1f59b0c2d130efeb7fd84a53180a7643c526b94767ad7a548",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-07-s-a7bd61861728": {
+          "sourceTextSha256": "ff36c06c026c7a0fe2f61ead0abec8e0321189751b6e16aa722336c7e24aaacb",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-07-s-fb6af3864793": {
+          "sourceTextSha256": "8ad3ce4b1b6ab31799a5a26c2f0dbf5ad44a4d5a2d9869b0b1e60ad987f4c5da",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-07-s-9936c7f3928a": {
+          "sourceTextSha256": "41fd49d32606906a76fa98865e05a7167b5f753a84cfbcf0461ab215d2a4e0d4",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-07-s-1f81999e3232-4": {
+          "sourceTextSha256": "dee7369afaf54cc988a8e505077f438f41653b2c7e426dd9344170ed6c4a77d1",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "statistical-table-note"
+        },
+        "paper-07-s-a55f98361d4f": {
+          "sourceTextSha256": "a71824de120bd0f84ce9e2f518cbe1436c59c509f83fada99fbaa35880ef2493",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-07-s-784c3dad62ff": {
+          "sourceTextSha256": "f639cc0130977afe796402053b9a4f760a5049f3bf125c383aed94db3f74730c",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-07-s-452daf122838": {
+          "sourceTextSha256": "a370ed0f31e89062eae6193b23d8de04bdceef78efe14401f5abeabcb876a3a6",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-07-s-ac487cdeebbb": {
+          "sourceTextSha256": "c7a23254da320a433e2f6d92e40b2e8058c1d7ec872c951762680ed8f58ef12b",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-07-s-33edd2b2fdd8": {
+          "sourceTextSha256": "bb7c9726c91759ae6ba650c7f40ec55098ce6e773dfe82047c03397d9f39c961",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-07-s-ceb62f4ecf4f": {
+          "sourceTextSha256": "8c2cc47067f781bc6b95434fb93318d5aeb220190eb887395c9a889b071a4439",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-07-s-7a003684b19c": {
+          "sourceTextSha256": "af4da580bca9b852652181dffd0f016f62c778574af9d467e8373e2d432024f7",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-07-s-0d5b8e23ca8b": {
+          "sourceTextSha256": "e6cef01b7972a0cc8960cbc540bbed24e16bb1b5fc7534bc389f86928293e19c",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-07-s-4de2f630313d": {
+          "sourceTextSha256": "b292f02a6d12c40e298d99dd6860cb9eda31130e1362e4fd312089b1d9392dc6",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "statistical-table-note"
+        },
+        "paper-07-s-ec512d1b5117": {
+          "sourceTextSha256": "b1b80b08323cb898012825c2beb79922a8309de941172508822ffa7bfb81d5b6",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-07-s-1134af06a54a": {
+          "sourceTextSha256": "e3bf11d34f1cc43528d4a7c1868b5c4ff191e49498d2e29a3f8720867f00c545",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-07-s-546b2f79617a": {
+          "sourceTextSha256": "c8e3da73ed0ec179a1d7581459c1fbf3a5dc84e00419a1ed5449a95fa9546742",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-07-s-fe5daaad32ad": {
+          "sourceTextSha256": "7398f8a2f15e901f6778390d6f8dedaf507d0008e3cf332dd2be5ad6ea56df36",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-07-s-07208c7f22d4": {
+          "sourceTextSha256": "4cb1933bf1afc0a006c0622ce8a1c382cecc3b68f31e848be3f4583fd0d8f097",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-07-s-e13916b7a5f2": {
+          "sourceTextSha256": "c9015d53b90846454375a2fdf2829c66fad7a2e52de1e89e73949ca59c905e49",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-07-s-cb9241ab3a1a": {
+          "sourceTextSha256": "c81746cb6996a4081338dd914d790d8b27a7ef475ba0c81a80894b22f6a24fec",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-07-s-15b617889f16": {
+          "sourceTextSha256": "d37e0cd00f18a366f040d864a3fa641b54039aab8f55f60e09a1f11fde972caf",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-07-s-ca4b61e67406": {
+          "sourceTextSha256": "39b7c6d64b2ddda6bb42ffa31df21e240a86d2f4170f5583a40bfd4294414f62",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-07-s-4ad40dabc9af": {
+          "sourceTextSha256": "6ddbf365a1fb11d332ebf55fb6593e6b38b496265b01a2e9ecfc0c20b279e510",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        }
+      }
+    },
+    "paper-08": {
+      "sourceSha256": "54d2a99a100ef5b8ae26a90dc50cfac2f16828aa6de6bce7548aa9d7af66da52",
+      "segments": {
+        "paper-08-s-0f4f87ebf794": {
+          "sourceTextSha256": "41da6fb1214aca593a716dc6700bc8430191a92297810ebbdf39673dc5737d9f",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-08-s-70424714b6e6": {
+          "sourceTextSha256": "167b7d30c2278dedef3951f3c4842b7f9ccacaf556f1e4df757db51e974794b7",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-08-s-ecebf1c9b3ea": {
+          "sourceTextSha256": "61939263274fd22a1f32088048cd2728e632716daa53040d981da28cad7cbeee",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-08-s-d345dd7f71aa": {
+          "sourceTextSha256": "709212a83f8ed9422de222bb2d9883e74edae045bc51ade02a7ae0503bac499d",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-08-s-60b2c47d7a0e": {
+          "sourceTextSha256": "6cf773a92b3fccb4ecd44ff59b5f9b1d0a6d49ada86c57e5661b28ab17d2038b",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-08-s-fbbd50400a71": {
+          "sourceTextSha256": "660d845335420587564e0c7d1e0a2a0bee0a40703e30871107501d378c19e4e2",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-08-s-4e1a58f7ca8f": {
+          "sourceTextSha256": "8e906ba298c4f784d3efe1c8a5dfbe527349a623881d7da3422c44bd17267d84",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-08-s-5e3b8d10ac9d": {
+          "sourceTextSha256": "19071a483c3ab7033e4a6d691ee3f5a2a3d46fb186f36c8b867dd32057f3d8a1",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-08-s-c723bdcca019": {
+          "sourceTextSha256": "b41dd9bc2cb3f97932594ff82e9996e2e697df18a5d0aa8b879aead04d3d06d9",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-08-s-4aac7a41f9b3": {
+          "sourceTextSha256": "9e81c1ffe4c58bec6d2264bdda5bb3b140b6c7002f1dc4839cb44550b8d8bd56",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-08-s-0f928d9535d2": {
+          "sourceTextSha256": "60dcced753fe8d5138500052a1f2b9ead0f0f311800e36865ccf11476b69498a",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-08-s-1f81999e3232": {
+          "sourceTextSha256": "dee7369afaf54cc988a8e505077f438f41653b2c7e426dd9344170ed6c4a77d1",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "statistical-table-note"
+        },
+        "paper-08-s-fdb0a3be218d": {
+          "sourceTextSha256": "462971ad2fb03188a318db21f336cfdcbc6a97c916402d447a4974427673a0f3",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-08-s-c723bdcca019-2": {
+          "sourceTextSha256": "b41dd9bc2cb3f97932594ff82e9996e2e697df18a5d0aa8b879aead04d3d06d9",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-08-s-f325825429d9": {
+          "sourceTextSha256": "49436f4e9e8f7305492b96d7429f796d88324116809cbe1862475136e96d5d1f",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-08-s-e227408f827c": {
+          "sourceTextSha256": "5318ab561886c126d20c5f77d85a62e857763cd6410819753bceab1af261b4b2",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-08-s-1f81999e3232-2": {
+          "sourceTextSha256": "dee7369afaf54cc988a8e505077f438f41653b2c7e426dd9344170ed6c4a77d1",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "statistical-table-note"
+        },
+        "paper-08-s-6817f01410ab": {
+          "sourceTextSha256": "2124ef22a1a8e1b3c7856d2f4ef683e39c7c4ccd2f645feb2dbcbf50c3649b19",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-08-s-c723bdcca019-3": {
+          "sourceTextSha256": "b41dd9bc2cb3f97932594ff82e9996e2e697df18a5d0aa8b879aead04d3d06d9",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-08-s-ec01732ca1df": {
+          "sourceTextSha256": "a3b474c5ff190291560f9285429eb3efd66bb84e30f131194d9e44feb0011a63",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-08-s-755ea7ecf3e3": {
+          "sourceTextSha256": "a6823b3470814bbc8b25349230c30864fcc2dda71a7c71df03d37dea78dec78b",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-08-s-1f81999e3232-3": {
+          "sourceTextSha256": "dee7369afaf54cc988a8e505077f438f41653b2c7e426dd9344170ed6c4a77d1",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "statistical-table-note"
+        },
+        "paper-08-s-824f51a90a2d": {
+          "sourceTextSha256": "4011d218b4eb72893ce70ee40b34d611d9a135f137fd3859d0da402eafaf682b",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-08-s-c723bdcca019-4": {
+          "sourceTextSha256": "b41dd9bc2cb3f97932594ff82e9996e2e697df18a5d0aa8b879aead04d3d06d9",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-08-s-e1d5762c92d6": {
+          "sourceTextSha256": "79ac76007921eb380df339fd61d3e00135779b59d441f0b48c23b691866b8a26",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-08-s-b7a6e2bab382": {
+          "sourceTextSha256": "9f2d29456beeca3c9c627087306287c18b8813c689a85e20c823a1d75bb59efc",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-08-s-1f81999e3232-4": {
+          "sourceTextSha256": "dee7369afaf54cc988a8e505077f438f41653b2c7e426dd9344170ed6c4a77d1",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "statistical-table-note"
+        },
+        "paper-08-s-016e7fe89b37": {
+          "sourceTextSha256": "fad29f141d6ec1e55d1e663aad0a1643073818aa7df27e8f740d218f7c1ef56f",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-08-s-e64d8d0fb995": {
+          "sourceTextSha256": "c95e8f8f7d769555cd89986df905b41dbda237b8c8334745f1ce2a777ed892a4",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-08-s-4ba8fa60d823": {
+          "sourceTextSha256": "b35e373f132089e1a363f11c97843fa04c180a54bfa46410fa4b3a15f72d35d5",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-08-s-76c84cd6dee5": {
+          "sourceTextSha256": "7cb4c4c50b3e4a0f356f2a01a3edf9c5619e2c7cc7b04cdd5189537df37e8717",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-08-s-4659a45107eb": {
+          "sourceTextSha256": "e5a7ee1959f3c1c610b2eb2479cf8214734d3f6350b4a7bb61478de7f733e050",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-08-s-778e1a463802": {
+          "sourceTextSha256": "047b36355ba8c219a7b07c2e629c51c330e0cdf0d5ed6852e29787875e67b7c8",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-08-s-35dacf87c99f": {
+          "sourceTextSha256": "49115110c9c82ace884c5952dac4e43561902e18ec85c7b478a507667f488822",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-08-s-459b6b6c1313": {
+          "sourceTextSha256": "a63d23b83dafb9bcebf7ee17f4758a3e7b696fdf3b579cddaecbd80842096012",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-08-s-1c5942509762": {
+          "sourceTextSha256": "832724c629dc0df128cb7400b160aef5747190790c098a9c41b6503b9e299bf7",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-08-s-edc22aa415c2": {
+          "sourceTextSha256": "f836988d589f6b9d4922e45bcef7c3284867eeac440b120c30d32ac5245ea808",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "statistical-table-note"
+        },
+        "paper-08-s-edc22aa415c2-2": {
+          "sourceTextSha256": "f836988d589f6b9d4922e45bcef7c3284867eeac440b120c30d32ac5245ea808",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "statistical-table-note"
+        },
+        "paper-08-s-760c0fb124ba": {
+          "sourceTextSha256": "a925b677076e22e4ded3cb9dde27cde5d33a28d8eb1dac3fe59b70bf798cd21a",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-08-s-e64d8d0fb995-2": {
+          "sourceTextSha256": "c95e8f8f7d769555cd89986df905b41dbda237b8c8334745f1ce2a777ed892a4",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-08-s-5a971d8f82f8": {
+          "sourceTextSha256": "a46bffb967b18e6c22359bf5ec1768dc08f879ba4b0fc42ff096401ec0140c22",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-08-s-d6798338f44c": {
+          "sourceTextSha256": "99a0037baa53dfd501000af29bdc7e44199824146ef3ee20a1749185b253d5df",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-08-s-21e7c7eb331e": {
+          "sourceTextSha256": "2d718f9c59bf60d13a69ce89b5450260dc911c1491e59fe19968c61e44080cc6",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-08-s-e58cb431c8ca": {
+          "sourceTextSha256": "a2a0eeff5b30ffd3ffce01120c3b3414fb1cb7074652701d05985945b693cb5f",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-08-s-1bf633472fd8": {
+          "sourceTextSha256": "fe82536b7517540ad66e789f7ce12b6e5a6a12b3480493dc44930d204056ec07",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-08-s-11cea798f0b2": {
+          "sourceTextSha256": "728b85d66278e2f7854e672b2307a46631df6b12471435e249dd0d923467bf85",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-08-s-d3cc3d7ebf74": {
+          "sourceTextSha256": "764ae2aab00bb0b7c26cc61c5ed49b9ac52207bd974f784419ab53cce1d5964d",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "numeric-table-fragment"
+        },
+        "paper-08-s-30fc53772fa9": {
+          "sourceTextSha256": "a8381db964eeeb668c0fa45cb660d39891bd2f0a4b66ff634d211add499ba497",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-title"
+        },
+        "paper-08-s-f8b2b5c0f91f": {
+          "sourceTextSha256": "e31b6a5f097260b96456f672b83305051feeaa48f572a3ea697de17ab9472ab1",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "table-header"
+        },
+        "paper-08-s-e5884d87a9e2": {
+          "sourceTextSha256": "2dee6f32365712e2783d6be178595b52232914c04e6b4e9867aaac9c47aa2ebb",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-08-s-756121c2adb9": {
+          "sourceTextSha256": "c6838499600ca6958d40d1e9e5d072e35a8e871f39b45ff656da39a4a8dba82f",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-08-s-48a8832d1417": {
+          "sourceTextSha256": "2e9089fefc7aaa5c45a2bb971e07f119c408f758b1b8f09cdf9c4210a0780376",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "short-bold-label"
+        },
+        "paper-08-s-07208c7f22d4": {
+          "sourceTextSha256": "4cb1933bf1afc0a006c0622ce8a1c382cecc3b68f31e848be3f4583fd0d8f097",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-08-s-7f30b117b3d5": {
+          "sourceTextSha256": "e93df741ad323efdfca3f9a08236d6aa90476b2f3ca01c9b67f062209d4fa660",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-08-s-ca4b61e67406": {
+          "sourceTextSha256": "39b7c6d64b2ddda6bb42ffa31df21e240a86d2f4170f5583a40bfd4294414f62",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-08-s-4ad40dabc9af": {
+          "sourceTextSha256": "6ddbf365a1fb11d332ebf55fb6593e6b38b496265b01a2e9ecfc0c20b279e510",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        },
+        "paper-08-s-aa2f696fe028": {
+          "sourceTextSha256": "1cac4acad4010b422e65e9371b2b681bc78a4e164a994a15a35d94bc846db4ab",
+          "previousExcluded": null,
+          "hadExcludedField": false,
+          "reason": "section-heading"
+        }
+      }
+    }
+  }
+}

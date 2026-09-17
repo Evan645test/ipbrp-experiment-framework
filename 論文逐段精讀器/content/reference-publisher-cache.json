@@ -1,0 +1,1963 @@
+{
+  "10.1007/s11528-023-00841-1": {
+    "status": "available",
+    "originalText": "Educational robotics has been adopted to create interactive and engaging learning environments to develop computational thinking (CT) in K-12 learners. This study systematically examined 22 peer-reviewed empirical research articles on the use of educational robotics to develop CT in young learners (pre-kindergarten to 6th grade) published between 2012 and 2021. The findings revealed that using robotics activities to develop CT has mostly been studied in the formal education settings with the duration of robotics curricular activities ranging from 80 minutes to 24 hours. The five CT skills studied most often include Sequencing, Conditionals, Loops, Debugging, and Algorithmic Thinking. The different versions of LEGO Mindstorms are the most frequently adopted robotic kits in the examined studies. The most frequently adopted learning and instructional strategies in the robotics activities include collaborative learning, project-based learning, and embodied learning. This paper identified and discussed developmentally appropriated CT skills, robotics kits, and pedagogical approaches suitable for supporting CT development in young learners. The findings can guide educators and instructional designers for future robotics activity design and development endeavors. This paper also identified gaps in the current research and recommended directions for advancing research in adopting robotics to develop CT in young learners.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s11528-023-00841-1",
+    "sourceType": "publisher",
+    "metadataTitle": "Educational Robotics for Developing Computational Thinking in Young Learners: A Systematic Review",
+    "checkedAt": "2026-09-16T16:29:06.784526+00:00"
+  },
+  "10.1007/s10639-012-9242-8": {
+    "status": "available",
+    "originalText": "Cupi2 is a project that promotes an integral solution to problems in teaching/learning programming using a large and structured courseware, and a student-centered pedagogical model (Villalobos and Casallas 2006a ; Villalobos et al. 2009a , b ; Jiménez and Villalobos 2010 ). As a cornerstone of Cupi2, we use incremental projects intended to motivate students, and to develop high-level programming skills throughout their learning. A critical factor of these projects is that they are specially designed so that students are engaged in activities that complete a scaffold of a complete program. However, both the scaffolds and the activities needed to complete these incomplete programs must be arranged carefully by instructors in order to stress the adequate contents for students, and at the same time, to help those students acquire programming skills effectively. Jointly, scaffold versions need to comply with high quality standards, representing a high time consuming activity for instructors, and therefore, increased costs for institutions. In this paper, we describe the way we overcome these challenges using a software factory that supports the projects’ design in a scalable way.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-012-9242-8",
+    "sourceType": "publisher",
+    "metadataTitle": "A scalable and incremental project-based learning approach for CS1/CS2 courses",
+    "checkedAt": "2026-09-16T16:29:09.360394+00:00"
+  },
+  "10.1007/s10648-018-9434-x": {
+    "status": "available",
+    "originalText": "Self-explanation is a process by which learners generate inferences about causal connections or conceptual relationships. A meta-analysis was conducted on research that investigated learning outcomes for participants who received self-explanation prompts while studying or solving problems. Our systematic search of relevant bibliographic databases identified 69 effect sizes (from 64 research reports) which met certain inclusion criteria. The overall weighted mean effect size using a random effects model was g = .55. We coded and analyzed 20 moderator variables including type of learning task (e.g., solving problems, studying worked problems, and studying text), subject area, level of education, type of inducement, and treatment duration. We found that self-explanation prompts are a potentially powerful intervention across a range of instructional conditions. Due to the limitations of relying on instructor-scripted prompts, we recommend that future research explore computer-generation of self-explanation prompts.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10648-018-9434-x",
+    "sourceType": "publisher",
+    "metadataTitle": "Inducing Self-Explanation: a Meta-Analysis",
+    "checkedAt": "2026-09-16T16:29:11.503638+00:00"
+  },
+  "10.11648/j.sjedu.20160406.15": {
+    "status": "available",
+    "originalText": "Project-Based Learning (PBL) is a widely adopted pedagogy that ignites students’ interest of a subject through the investigation of an authentic problem and cultivates their abilities of innovation and self-learning. Traditional PBL often involves a project of complexity and significant scale, which, under the time constraint of a course, is often difficult for students to handle and risks insufficient comprehension of the knowledge and negative impact on learning confidence. This paper proposes an incremental teaching project concept and its design strategy on top of the traditional project-based learning. An incremental teaching project is carefully designed for a Java Programming curriculum, based on which we discuss the dos and don’ts of applying incremental PBL to teaching.",
+    "sourceUrl": "https://www.sciencepublishinggroup.com/article/10.11648/j.sjedu.20160406.15#abstract",
+    "sourceType": "publisher",
+    "metadataTitle": "The Incremental Teaching Project Design for Project-Based Learning and Its Application in Java Programming Course",
+    "checkedAt": "2026-09-16T16:26:51.099316+00:00"
+  },
+  "10.1016/j.compedu.2018.07.004": {
+    "status": "available",
+    "originalText": "Computational Thinking (CT) is seen as an important competence that is required in order to adapt to the future. However, educators, especially K-12 teachers and researchers, have not clearly identified how to teach it. In this study, a meta-review of the studies published in academic journals from 2006 to 2017 was conducted to analyze application courses, adopted learning strategies, participants, teaching tools, programming languages, and course categories of CT education. From the review results, it was found that the promotion of CT in education has made great progress in the last decade. In addition to the increasing number of CT studies in different countries, the subjects, research issues, and teaching tools have also become more diverse in recent years. It was also found that CT has mainly been applied to the activities of program design and computer science, while some studies are related to other subjects. Meanwhile, most of the studies adopted Project-Based Learning, Problem-Based Learning, Cooperative Learning, and Game-based Learning in the CT activities. In other words, such activities as aesthetic experience, design-based learning, and storytelling have been relatively less frequently adopted. Most of the studies focused on programming skills training and mathematical computing, while some adopted a cross-domain teaching mode to enable students to manage and analyze materials of various domains by computing. In addition, since the cognitive ability of students of different ages varies, the CT ability cultivation methods and content criteria should vary accordingly. Moreover, most studies reported the learners’ CT performance and perspectives, while their information society ability was seldom trained. Accordingly, the research trends and potential research issues of CT are proposed as a reference for researchers, instructors, and policy makers.",
+    "sourceUrl": "https://scholar.lib.ntnu.edu.tw/en/publications/how-to-learn-and-how-to-teach-computational-thinking-suggestions--2/",
+    "sourceType": "author",
+    "metadataTitle": "How to learn and how to teach computational thinking: Suggestions based on a review of the literature",
+    "checkedAt": "2026-09-16T16:41:06.011Z"
+  },
+  "10.1002/(sici)1098-2736(200002)37:2<109::aid-tea3>3.0.co;2-7": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1002/%28sici%291098-2736%28200002%2937%3A2%3C109%3A%3Aaid-tea3%3E3.0.co%3B2-7",
+    "checkedAt": "2026-09-16T16:51:25.982711+00:00"
+  },
+  "10.1006/cogp.1999.0734": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S001002859990734X",
+    "checkedAt": "2026-09-16T16:51:27.700848+00:00"
+  },
+  "10.1006/ceps.1994.1033": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0361476X84710332",
+    "checkedAt": "2026-09-16T16:51:27.677407+00:00"
+  },
+  "10.1007/978-3-319-90272-2_9": {
+    "status": "available",
+    "originalText": "As organizations are becoming increasingly dependent on collaborative teamwork there has been a major shift in focus from individual to team based innovation. Value is increasing in promoting team level creative competence in students. Hence, this chapter examines research on creativity with a special focus on collaborative creativity and its application in the context of education. We discuss the theoretical basis for collaborative creativity, different techniques for generating ideas in groups, the process of selecting the best ideas, and the role of culture and diversity in collaborative creativity. We then review the literature on collaborative creativity in various education disciplines. Finally, we make research- based recommendations on ways to promote as well as enhance collaborative creativity and innovation in educational settings.",
+    "sourceUrl": "https://link.springer.com/chapter/10.1007/978-3-319-90272-2_9",
+    "sourceType": "publisher",
+    "metadataTitle": "Collaborative Creativity and Innovation in Education",
+    "checkedAt": "2026-09-16T16:48:02.862124+00:00"
+  },
+  "10.1007/978-981-10-4241-6_12": {
+    "status": "available",
+    "originalText": "This study identified the effectiveness of cooperative learning approach in developing critical thinking skills of secondary students. The study involved 115 second-year level students as subjects. All the subjects were taught lessons using the lecture discussion method and cooperative learning approach alternately. The pseudo-experimental method utilizing the repeated measures design was used in the study. Correlation t -test was used to compare the mean scores on the pretest/posttest of achievement tests and attitudinal inventory scale tests, and Pearson moment correlation was used to determine the correlation between the mean scores on achievement and attitude of students. The study found out that there is a significant improvement in the critical thinking skills of students taught with the use of lecture discussion method and cooperative learning approach. The gain scores between the two groups do not significantly differ during the first three weeks; however, the cooperative learning approach has significantly improved the critical thinking skills of the students on the fourth, fifth, and sixth weeks, respectively. The cooperative learning attitude gain scores are higher than the lecture discussion method attitude gain scores. Lecture discussion method is not significantly related to critical thinking scores, while cooperative learning approach is significantly related to critical thinking scores.",
+    "sourceUrl": "https://link.springer.com/chapter/10.1007/978-981-10-4241-6_12",
+    "sourceType": "publisher",
+    "metadataTitle": "Effectiveness of Cooperative Learning Approach in Developing Critical Thinking Skills of Secondary Students",
+    "checkedAt": "2026-09-16T16:48:03.317060+00:00"
+  },
+  "10.1007/bf02905780": {
+    "status": "available",
+    "originalText": "The ARCS Model of motivation was developed in response to a desire to find more effective ways of understanding the major influences on the motivation to learn, and for systematic ways of identifying and solving problems with learning motivation. The resulting model contains a four category synthesis of variables that encompasses most of the areas of research on human motivation, and a motivational design process that is compatible with typical instructional design models. Following its development, the ARCS Model was field tested in two inservice teacher education programs. Based on the results of these field tests, the ARCS Model appears to provide useful assistance to designers and teachers, and warrants more controlled studies of its critical attributes and areas of effectiveness.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/BF02905780",
+    "sourceType": "publisher",
+    "metadataTitle": "Development and use of the ARCS model of instructional design",
+    "checkedAt": "2026-09-16T16:48:03.614053+00:00"
+  },
+  "10.1007/s00146-010-0272-8": {
+    "status": "available",
+    "originalText": "Why do people create extra representations to help them make sense of situations, diagrams, illustrations, instructions and problems? The obvious explanation—external representations save internal memory and computation—is only part of the story. I discuss seven ways external representations enhance cognitive power: they change the cost structure of the inferential landscape; they provide a structure that can serve as a shareable object of thought; they create persistent referents; they facilitate re-representation; they are often a more natural representation of structure than mental representations; they facilitate the computation of more explicit encoding of information; they enable the construction of arbitrarily complex structure; and they lower the cost of controlling thought—they help coordinate thought. Jointly, these functions allow people to think more powerfully with external representations than without. They allow us to think the previously unthinkable.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s00146-010-0272-8",
+    "sourceType": "publisher",
+    "metadataTitle": "Thinking with external representations",
+    "checkedAt": "2026-09-16T16:48:04.248200+00:00"
+  },
+  "10.1007/s00521-023-08990-3": {
+    "status": "available",
+    "originalText": "Project-based learning is a relatively novel learning mode in the modern education industry, which helps to improve students’ various abilities. However, in the specific practical process, project-based learning also has many shortcomings that need further improvement. This article integrated intelligent Internet of Things (IoT) technology, analyzed the characteristics of project-based learning, and analyzes the problems it faces in detail. From this, it also explored a model of project-based learning space to study students’ learning behavior. This article also combined the comprehensive weighted fusion algorithm to further explore the evaluation of project-based learning, and carried out relevant experimental analysis. The experimental results showed that in terms of autonomous learning ability, the average test result of this algorithm was 82.30%, while the average test result of traditional algorithms was 76.94%; In terms of teamwork ability, the average test result of this algorithm was 87.25%, the average test result of the traditional algorithm was 78.64%; In terms of skill application ability, the average test result of this algorithm was 78.37%; while, the average test result of traditional algorithms was 72.68%. In summary, this algorithm can effectively evaluate students’ abilities in various aspects.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s00521-023-08990-3",
+    "sourceType": "publisher",
+    "metadataTitle": "Project-based learning model based on intelligent computing of the internet of things: characteristics, hidden worries, and beyond",
+    "checkedAt": "2026-09-16T16:48:05.885328+00:00"
+  },
+  "10.1007/s10055-019-00391-z": {
+    "status": "available",
+    "originalText": "Archaeological excavations provide us with important clues about the past. Excavated artefacts represent an important connection to civilisations that no longer exist and help us understand some of their customs, traditions and common practices. With the help of academics and practitioners from various disciplines, the results of archaeological excavations can be analysed and a body of knowledge about the corresponding society can be created and shared with members of the general public. Museums have traditionally served the purpose of communicating this knowledge and backing it up with the help of the excavated artefacts. Many museum visitors, however, find it difficult to develop a coherent understanding of the corresponding society only based on the artefacts and annotations shown in museums. Effective modern techniques that have high potential in helping museum visitors with better understanding of the past are 3D reconstruction and virtual reality. 3D reconstruction offers a cost-effective way of recreating historical settlements in a computer-generated virtual environment, while virtual reality helps with immersing people into such environments and reaching a high degree of realism. With the help of these technologies, it becomes possible to relive history, imagine yourself being a part of the reconstructed society and learn about its culture firsthand. The combination of 3D reconstruction and virtual reality represents a very powerful learning tool; however, this tool has been rarely used in a museum setting and its correct use has not been properly investigated. In this paper, we present a study into using virtual reality in itinerant archaeological exhibitions. We discuss the lessons we have learned from developing an interactive virtual reality simulation of the Neolithic settlement of La Draga. These lessons feature our analysis of qualitative and quantitative feedback of museum visitors, as well as what we have learned from analysing their navigation and interaction patterns.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10055-019-00391-z",
+    "sourceType": "publisher",
+    "metadataTitle": "Lessons learned from supplementing archaeological museum exhibitions with virtual reality",
+    "checkedAt": "2026-09-16T16:48:06.141611+00:00"
+  },
+  "10.1007/s10639-018-9801-8": {
+    "status": "available",
+    "originalText": "The aim of this study was to develop a scale which can be used to measure the computational thinking skills (CTS) of high school students. Validity and reliability testing of the scale was performed with the participation of 785 students. Exploratory and confirmatory factor analysis showed that the five-point Likert scale had a construct consisting of four factors Problem-solving, Cooperative Learning & Critical Thinking, Creative Thinking, and Algorithmic Thinking expressed by 42 items. The factor loadings of the scale varied from .475 to .853. The confirmatory factor analysis performed to reveal the factorial validity of the scale showed that the Chi-square value (χ2 = 2679.07; sd = 815, p = 0.00) was significant. The fitness index values were found to be RMSA = .0075; SRMR = .081; NNFI = .91; CFI = .92; GFI = .90; and AGFI = .88. The Cronbach’s Alpha internal consistency coefficient was .969 for the overall scale. In addition, the stability of the scale was examined to obtain information about its reliability and the test-re-test method was used. It was concluded as a result of the analysis that the scale was a valid and reliable measurement tool which can be used to measure the CTS of high school students.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-018-9801-8",
+    "sourceType": "publisher",
+    "metadataTitle": "A valid and reliable tool for examining computational thinking skills",
+    "checkedAt": "2026-09-16T16:48:06.936801+00:00"
+  },
+  "10.1007/s10639-015-9412-6": {
+    "status": "available",
+    "originalText": "Computational Thinking is considered a universal competence, which should be added to every child’s analytical ability as a vital ingredient of their school learning. In this article we further elaborate on what Computational Thinking is and present examples of what needs to be taught and how. First we position Computational Thinking in Papert’s work with LOGO. We then discuss challenges in defining Computational Thinking and discuss the core and peripheral aspects of a definition. After that we offer examples of how Computational Thinking can be addressed in both formal and informal educational settings. In the conclusion and discussion section an agenda for research and practice is presented.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-015-9412-6",
+    "sourceType": "publisher",
+    "metadataTitle": "Computational thinking in compulsory education: Towards an agenda for research and practice",
+    "checkedAt": "2026-09-16T16:48:07.027517+00:00"
+  },
+  "10.1007/s10639-020-10123-5": {
+    "status": "available",
+    "originalText": "Virtual tutors are a promising technology, providing a rich interactive environment for children to learn in. However, the question of how they should behave in order to enhance pupils’ motivation remains unanswered. Using an embodied conversational agent platform, we tested human-computer interactions with 22 children aged 9–11 years. Children performed several numeracy exercises set by two different virtual agents. One agent provided solely verbal feedback (unimodal), while the other one combined facial expressions based on real muscle contractions with its verbal feedback (bimodal). Children then completed a perceived social support questionnaire. Qualitative and quantitative data were subjected to inferential statistical tests. Results showed that the overall duration of agent-pupil interactions varied, children found the bimodal agent more empathic, and produced significantly more correct answers. Moreover, there was a positive correlation between accuracy and mean reaction times for correct answers with the bimodal agent. The lack of a correlation for the unimodal agent is discussed in the light of empathy and motivation in social cognition.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-020-10123-5",
+    "sourceType": "publisher",
+    "metadataTitle": "Virtual tutor and pupil interaction: A study of empathic feedback as extrinsic motivation for learning",
+    "checkedAt": "2026-09-16T16:48:09.300120+00:00"
+  },
+  "10.1007/s10639-021-10472-9": {
+    "status": "available",
+    "originalText": "Following a mixed-methods approach, this study investigated the effect of a virtual reality (VR) creative project on EFL learners’ creative self-efficacy as well as their intrinsic motivation toward using VR technology. A class of 39 university students in Taiwan participated in the VR-supported creative project with the instructor’s guidance step by step. A creative self-efficacy student scale, an intrinsic motivation inventory and an open-ended survey were given to the students to explore how the project might have influenced their efficacy for creativity and learning of English. Results indicate that the VR-supported project facilitated the students’ efficacy for creative thinking in particular; yet, their efficacy for creative production as well as for their own competence while facing negative feedback did not change significantly. Moreover, those who had high creative self-efficacy also felt less pressure and tension toward this VR-supported project than their counterparts with low creative self-efficacy. Furthermore, working on the VR-supported project was perceived by the students to be a refreshing and relaxing learning experience that also benefited their learning of English. Based on the research findings, pedagogical implications are discussed with regard to how VR technology can be effectively integrated into an English classroom to facilitate students’ creative self-efficacy and intrinsic motivation.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-021-10472-9",
+    "sourceType": "publisher",
+    "metadataTitle": "Using virtual reality to facilitate learners’ creative self-efficacy and intrinsic motivation in an EFL classroom",
+    "checkedAt": "2026-09-16T16:48:09.385762+00:00"
+  },
+  "10.1007/s10639-021-10765-z": {
+    "status": "available",
+    "originalText": "When implemented appropriately, computational thinking (CT) experiences in early childhood settings build essential literacy skills and foster initial explorations of sequencing, engineering design principles, and cause-and-effect relationships. While existing research explores CT in K-12 settings, there is insufficient research documenting the true scope of CT skills for preschool-age children (ages 3–5 years old). Thus, the paucity of research in this emerging area warranted a scoping review approach. This scoping review surveys existing CT studies with preschool-age participants and maps what is known of CT learning experience design, intended educational outcomes, and CT study design. Evidence from the reviewed articles (n = 17) indicate most studies used physical kits, task-oriented activities, and varying experience timeframes and adult scaffolding. Most studies focused on learning sequencing and events with few embedding remixing and reusing skills. Additionally, studies primarily implemented pre-post research design approaches, and few utilized qualitative methods. The analysis of the reviewed articles indicates gaps exist in CT experience designs, scope of CT interventions, and CT tool research and development. We conclude with recommendations for closing the knowledge gaps by providing specific future research directions.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-021-10765-z",
+    "sourceType": "publisher",
+    "metadataTitle": "Computational thinking learning experiences, outcomes, and research in preschool settings: a scoping review of literature",
+    "checkedAt": "2026-09-16T16:48:09.786605+00:00"
+  },
+  "10.1007/s10639-021-10774-y": {
+    "status": "available",
+    "originalText": "Artificial Intelligence in Education (AIEd) is an emerging interdisciplinary field that applies artificial intelligence technologies to transform instructional design and student learning. However, most research has investigated AIEd from the technological perspective, which cannot achieve a deep understand of the complex roles of AI in instructional and learning processes and its relationship with other educational elements. To fill this gap, this review research proposes a conceptual framework from complex adaptive systems theory perspective, uses a systematic literature review approach to locate and summarize articles, and categorizes the roles of AI in the educational system. The review results indicate that when AI is added into an educational system, its roles can be characterized into three categories: AI as a new subject, AI as direct mediator, and AI as a supplementary assistant to influence the instructor-student, student-self, and student-student relationships. Reviewed articles under each category are examined to understand the influences of AI applications on instruction and learning. Based on the results, this systematic review research proposes practical, theoretical, and technological implications of AIEd development.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-021-10774-y",
+    "sourceType": "publisher",
+    "metadataTitle": "A systematic review of AI role in the educational system based on a proposed conceptual framework",
+    "checkedAt": "2026-09-16T16:48:10.037450+00:00"
+  },
+  "10.1007/s10639-021-10807-6": {
+    "status": "available",
+    "originalText": "Computer security competitions have been playing a significant role in encouraging students to get into cybersecurity, as well as enhancing the cybersecurity education system. The level of difficulty of the computer security tasks could be intimidating for most students and learners, one of the reasons there has been a shortage of cybersecurity professionals, in addition to that the lack of technical training and materials. The risks posed by the cyberattacks keep constantly evolving that positions the cybersecurity education as constantly changing area, which are at times hard to teach. Furthermore, the cybersecurity laboratories are hard to setup and the assessment tools are not accurate. This obviously impacts the proper engagement of students and the learning outcomes. To address these issues, we propose a game-based learning platform to enhance cybersecurity education. The platform applies an adapted ARCS motivational model to design and evaluate different challenges, it includes a virtual lab for students with the necessary tools for practice and a web portal where all challenges and learning materials are hosted. The aim is to help students learn at their own pace about different cybersecurity challenges, give them the opportunity to gain hacking skills with ethics taken in mind in a much safer environment. Learning by solving fun puzzles and playing educational games has a huge impact on students’ performances in cybersecurity. Although the contributed solution is developed for UAE University, we believe it imparts same gains in similar educational institutes.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-021-10807-6",
+    "sourceType": "publisher",
+    "metadataTitle": "Game-based learning platform to enhance cybersecurity education",
+    "checkedAt": "2026-09-16T16:48:12.129111+00:00"
+  },
+  "10.1007/s10639-021-10866-9": {
+    "status": "available",
+    "originalText": "This research investigated 1,552 university students to explore the correlation between their learning effectiveness of artificial intelligence (AI) technology application and its influencing factors. The aim is to provide a reference for school planning and application of AI in information and communications technology (ICT) teaching. The results show that ICT self-efficacy (ICT-SE) has a significant direct effect, and human-computer interaction experience (HCIE) has a significant indirect effect on lLearning effectiveness of AI-based technology applications (LE-AITA). The impact model of university student ICT-SE and HCIE on LE-AITA exhibits a good fit. The recommendation is that Taiwan education improve the AI learning environment, provide a suitable platform for the use and development of educational technology, and create a seamless teaching and learning experience. We discuss influencing factors and provide suggestions for the development of AI education.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-021-10866-9",
+    "sourceType": "publisher",
+    "metadataTitle": "Influencing factors on students’ learning effectiveness of AI-based technology application: Mediation variable of the human-computer interaction experience",
+    "checkedAt": "2026-09-16T16:48:12.342437+00:00"
+  },
+  "10.1007/s10639-023-11740-6": {
+    "status": "available",
+    "originalText": "This study used the ARCS approach to investigate the effects of university students’ motivation, including attention, relevance, confidence, and satisfaction, to use the Programming Teaching Assistant (PTA) on their Programming Problem-Solving Skills (PPSS). Previous studies have shown that PTA features enhance learners’ programming performance, but relevant studies have not empirically evaluated the factors influencing learners’ problem-solving skills in PTA-based programming language practice. Thus, the current study used the ARCS model to investigate the effects of its core factors, Attention (A), Relevance (R), Confidence (C), and Satisfaction (S), on the learners’ PPSS. A total of 99 students major in computer science and engineering (CSE) participated in this study. Multiple linear regression analysis was conducted and the results indicated that these motivational factors influenced learners’ PPSS in PTA-based programming language practice. The PTA has proven to be a motivating platform for programming language practice. Finally, relevant implications are offered.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-023-11740-6#Abs1-section",
+    "sourceType": "publisher",
+    "metadataTitle": "ARCS approach to PTA-based programming language practice sessions: Factors influencing Programming Problem-Solving Skills",
+    "checkedAt": "2026-09-16T16:48:12.894855+00:00"
+  },
+  "10.1007/s10639-022-11561-z": {
+    "status": "available",
+    "originalText": "In this study, it is aimed to examine and analyze virtual museums in accordance with design and perception of social presence. In this context, virtual museums that offer free access internationally were identified and accepted as documents. Document analysis, one of the qualitative research methods, was used in the study. Each of the virtual museums examined was subjected to content analysis and divided into groups according to the characteristics they have and do not have. The sample of the study consists of 352 virtual museums. “The Virtual Museum Review Form” created by the researchers was used in order to examine the determined virtual museums. Within the scope of the study, virtual museums were analyzed under seven categories, such that type of artwork, transfer to virtual environment, presentation, transition, navigation, guidance and virtual reality support. Virtual museums are divided into eight categories according to the type of work (culture-art, history, composite, military, archeology, science/technology, industrial and natural museum). It has been determined that most of the virtual museums examined are transferred to the virtual environment as an exact copy of the museums existing in real life. Virtual museums are divided into three as 2D/3D object, pop-up and link, according to the type of information they present to their visitors. Most of the virtual museums examined offer semi-flexible, flexible or non-flexible guidance services to their visitors. As a result of the study, it is suggested that the examined virtual museums be classified under 3 sub-headings as “type of artwork”, “type of transfer to virtual environment”, and “type of presentation” according to their designs and under 4 sub-headings as “type of transition”, “type of navigation”, “guidance”, and “virtual reality support” according to their social presence perceptions.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-022-11561-z#Abs1-section",
+    "sourceType": "publisher",
+    "metadataTitle": "Analysis of virtual museums in terms of design and perception of presence",
+    "checkedAt": "2026-09-16T16:48:12.977054+00:00"
+  },
+  "10.1007/s10639-023-11930-2": {
+    "status": "available",
+    "originalText": "This study explored the effects of a self-adapted mobile concept mapping-based problem-posing (CMPP) approach applied in a virtual museum context. To investigate the effectiveness of the proposed approach, a quasi-experimental design was applied to compare the critical thinking tendency, meta-cognition tendency, problem-solving tendency, computational tendency, cognitive load, and flow experience of college level students using the self-adapted mobile CMPP approach to those using the conventional mobile-based problem-posing and points-listing approach. A total of 56 university students from two classes were involved in the experiment. The two classes of students adopted different approaches to learning in the virtual museum for comparing their critical thinking tendency, meta-cognition tendency, problem-solving tendency, and computational tendency as well as flow experience and cognitive load. One class with 29 students was the experiment group adopting the self-adapted mobile CMPP approach, while the other class with 27 students was the control group using the conventional mobile-based learning approach. The results of the study showed that the proposed strategy could significantly improve learners’ critical thinking tendency, meta-cognition tendency, problem-solving tendency, and computational tendency compared to the conventional approach. Though the proposed approach raised slightly higher flow experience and cognitive load, there was no significant difference between the flow experience and the cognitive load of the proposed approach and that of the control group. The interview results complemented the experimental results and indicated that the proposed approach was effective in terms of developing learners’ thinking capability, knowledge construction, and self-learning capability.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-023-11930-2",
+    "sourceType": "publisher",
+    "metadataTitle": "Promoting students’ higher order thinking in virtual museum contexts: A self-adapted mobile concept mapping-based problem posing approach",
+    "checkedAt": "2026-09-16T16:48:15.319819+00:00"
+  },
+  "10.1007/s10639-023-11807-4": {
+    "status": "available",
+    "originalText": "Coding learning can promote the development of computational thinking (CT) in young children. The effect of coding learning on CT may vary between different cultures. However, it lacks studies to evaluate the effect of coding learning on the various dimensions of CT in young Chinese children. To provide insight into this question, we recruited children aged 5–6 years to participate in the quasi-experimental study involving an experimental group and a control group. The experimental group learned collaboration- and robot-based coding for 12 lessons, whereas children in the control group attended school learning activities. The two groups showed significant changes in CT concepts after coding learning, but the changes were not different between the two groups. In addition, coding learning positively influenced the development of CT practices, including algorithm and debugging skills. Finally, qualitative analyses showed that children could express, connect, and question after learning coding, suggesting that coding learning benefits the development of CT perspectives. To summarize, coding learning positively influences the ability to apply coding concepts to solve problems in practice and the perspectives about themselves and the world around them.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-023-11807-4",
+    "sourceType": "publisher",
+    "metadataTitle": "Effect of coding learning on the computational thinking of young Chinese children: based on the three-dimensional framework",
+    "checkedAt": "2026-09-16T16:48:15.430574+00:00"
+  },
+  "10.1007/s10639-023-12061-4": {
+    "status": "available",
+    "originalText": "This work aims to explore whether students' learning outcomes in the virtual museum (VM) 's Life and Science course are influenced by the type of knowledge and the different levels of interaction within the museum. The study was conducted using an eye-movement experimental method, based on cognitive load theory, knowledge visualisation and connectionist theory, to construct a virtual museum interaction hierarchy index to identify high and low levels of interaction in the experimental material. A randomised two-factor experiment was organised to obtain eye-movement related indicators and to analyse statistical data in conjunction with retention test scores and transfer test scores, taking into account the influence of the perceived difficulty of the learning material and the level of mental effort of the students on the experiment. This study will provide effective suggestions for museum learning design and resource development, ultimately offer insights in exploring the most suitable learning rules and learning material selection for VM learners.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-023-12061-4",
+    "sourceType": "publisher",
+    "metadataTitle": "Influences of design and knowledge type of interactive virtual museums on learning outcomes: An eye-tracking evidence-based study",
+    "checkedAt": "2026-09-16T16:48:16.048916+00:00"
+  },
+  "10.1007/s10639-023-12022-x": {
+    "status": "available",
+    "originalText": "How to develop students' computational thinking (CT) is an important topic faced by academics and front-line teachers. However, the solution of programming problems requires paying attention to every detail of the problem and building a solution to the problem step by step, and for beginners, they often get stuck when one of these aspects goes wrong because of the lack of metacognitive abilities. The integration of metacognitive scaffolding in project-based programming instruction can help students identify their strengths, become more aware of their learning status and identify problems in a timely manner. Therefore, this study designed a metacognitive scaffolding in four aspects: planning, monitoring, reflecting and evaluating, and assessed the effects of this scaffolding on students' CT, learning achievement and metacognitive abilities through a quasi-experimental design. The participants were 70 students aged 9–11 years in elementary school, where the experimental group (38 students) used a metacognitive scaffolding-based project-based learning approach, while the control group (32 students) used a traditional project-based learning approach. The results indicate that metacognitive scaffolding has a facilitative effect in helping students improve their CT and learning achievement, but does not significantly improve metacognitive abilities. This study provides insights into the deeper development of students' CT development and metacognitive scaffolding design.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-023-12022-x",
+    "sourceType": "publisher",
+    "metadataTitle": "The effects of metacognitive scaffolding of project-based learning environments on students’ metacognitive ability and computational thinking",
+    "checkedAt": "2026-09-16T16:48:16.396420+00:00"
+  },
+  "10.1007/s10639-023-12181-x": {
+    "status": "available",
+    "originalText": "Children’s preschool years are crucial for the development of computational thinking (CT) skills. However, debate continues regarding whether CT should be developed through plugged-in or unplugged activities. This study investigated the similarities and differences between plugged-in and unplugged activities with similar learning content and assessment methods for cultivating computational thinking (CT) in young children. Twenty-four young children (aged 5–6 years) from a kindergarten in Foshan, China, were randomly assigned to either the plugged-in or unplugged group to participate in a five-week study. In the plugged-in group, Dodobot was used in the classroom, while in the unplugged group, unplugged materials such as paper, pencil and tangram puzzles were used. Research results indicate that 1) both plugged-in and unplugged activities significantly improved the young children’s CT skills after a short-term educational intervention, but there were no significant differences between the two groups; 2) the extent to which the plugged-in and unplugged activities promoted subdimensions of CT was different, with the plugged-in group demonstrating significant improvements in hardware, algorithm, and modularity and the unplugged group demonstrating significant improvements in terms of representation; 3) the children from both the plugged-in and unplugged groups showed high motivation; And 4) the children in both the plugged-in and unplugged groups showed cooperative behaviors. The frequency of cooperative behavior was more related to materials, and cooperation quality was more related to teacher guidance.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-023-12181-x",
+    "sourceType": "publisher",
+    "metadataTitle": "Comparing the effects of plugged-in and unplugged activities on computational thinking development in young children",
+    "checkedAt": "2026-09-16T16:48:18.236605+00:00"
+  },
+  "10.1007/s10639-024-12549-7": {
+    "status": "available",
+    "originalText": "As an exemplary representative of AIGC products, ChatGPT has ushered in new possibilities for the field of education. Leveraging its robust text generation and comprehension capabilities, it has had a revolutionary impact on pedagogy, learning experiences, personalized education and other aspects. However, to date, there has been no comprehensive review of AIGC technology’s application in education. In light of this gap, this study employs a systematic literature review and selects 134 relevant publications on AIGC’s educational application from 4 databases: EBSCO, EI Compendex, Scopus, and Web of Science. The study aims to explore the macro development status and future trends in AIGC’s educational application. The following findings emerge: 1) In the AIGC’s educational application field, the United States is the most active country. Theoretical research dominates the research types in this domain; 2) Research on AIGC’s educational application is primarily published in journals and academic conferences in the fields of educational technology and medicine; 3) Research topics primarily focus on five themes: AIGC technology performance assessment, AIGC technology instructional application, AIGC technology enhancing learning outcomes, AIGC technology educational application’s Advantages and Disadvantages analysis, and AIGC technology educational application prospects. 4) Through Grounded Theory, the study delves into the core advantages and potential risks of AIGC’s educational application, deconstructing the scenarios and logic of AIGC’s educational application. 5) Based on a review of existing literature, the study provides valuable future agendas from both theoretical and practical application perspectives. Discussing the future research agenda contributes to clarifying key issues related to the integration of AI and education, promoting more intelligent, effective, and sustainable educational methods and tools, which is of great significance for advancing innovation and development in the field of education.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-024-12549-7",
+    "sourceType": "publisher",
+    "metadataTitle": "Empowering education development through AIGC: A systematic literature review",
+    "checkedAt": "2026-09-16T16:48:18.893940+00:00"
+  },
+  "10.1007/s10639-024-12729-5": {
+    "status": "available",
+    "originalText": "As technology advances, virtual museums have gained popularity as a new form of learning resources. However, persuading audiences to absorb and comprehend a tremendous volume of information in an unregulated online environment is the challenge. Considering the use of an online application in educational practice, collaborative teamwork can be implemented to tackle students’ difficulties caused by the use of the app as virtual museum. This study explored the validation of technology acceptance on collaborative teamwork in the implementation of a virtual museum and making storytelling. Two questionnaires were employed as the main instrument to collect the data from 122 higher education students. The findings indicate that five of twelve hypotheses were supported. Following the result, it is known that perceived ease of use and perceived usefulness significantly affects attitude toward use, perceived usefulness significantly affects teamwork quality, and attitude toward use significantly affects collaborative results. The other seven hypotheses that failed to be supported can represent the important activities and related features that need to be highlighted in designing a virtual museum used in storytelling under collaborative design. Therefore, it will help educational practices to design the features in the app matched by activities in collaborative and storytelling.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-024-12729-5",
+    "sourceType": "publisher",
+    "metadataTitle": "Application of collaborative storytelling with virtual museum: Modeling the relationship among pre-service teachers’ collaboration and technology acceptance",
+    "checkedAt": "2026-09-16T16:48:19.442481+00:00"
+  },
+  "10.1007/s10639-024-12741-9": {
+    "status": "available",
+    "originalText": "To enhance the effectiveness of educational games, researchers have advocated adding learning supports in educational games, but this may come at the cost of disrupting the learning experience. Embedding virtual companions to provide learning supports may be an effective solution that naturally integrates learning supports into the game. However, the effects of virtual companions providing learning supports (VCPLS) and potential influence mechanism are deficient. This study investigated the efficacy of VCPLS in enhancing learning experiences and performance in comparison to the system providing learning supports (TSPLS) and explored how VCPLS played a role in improving learning performance. A single-factor (VCPLS/ TSPLS) between-subjects design was employed, and four similar-level classes (126 middle school students) were randomly assigned to the two conditions. The results revealed that compared with TSPLS, VCPLS promoted learners’ basic psychological need satisfaction, positive emotions, motivation, and perceived learning performance but there was no difference in transfer performance. VCPLS also encouraged students to spend more time reading explanations and feedback, and process explanations actively after the first attempt and before the second attempt. Moreover, VCPLS promoted perceived learning performance by the mediating role of basic psychological need satisfaction and the sequential mediating roles of basic psychological need satisfaction and motivation.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-024-12741-9",
+    "sourceType": "publisher",
+    "metadataTitle": "Promoting math learning in educational games with virtual companions providing learning supports",
+    "checkedAt": "2026-09-16T16:48:19.874235+00:00"
+  },
+  "10.1007/s10639-024-12754-4": {
+    "status": "available",
+    "originalText": "In this study, a generative artificial intelligence (AI)-assisted Think-Aloud Pair Problem-Solving (TAPPS) learning strategy was introduced to support ethical dilemma-related problem-solving learning activities. Then, an interactive virtual learning companion system was developed and tested in a business ethics course to evaluate the efficacy of the proposed method. A total of 135 students from a technological university in central Taiwan participated in this experiment. The experimental group employed the generative AI chatbot virtual learning companion that assisted with the TAPPS approach for ethical dilemma learning. Two control groups used, respectively, the conventional TAPPS approach involving paired learners and the conventional individual thinking-aloud problem-solving method. The proposed method not only enhanced the students’ problem-solving ability but also fostered their learning motivation and ethical reasoning ability.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-024-12754-4",
+    "sourceType": "publisher",
+    "metadataTitle": "Improving ethical dilemma learning: Featuring thinking aloud pair problem solving (TAPPS) and AI-assisted virtual learning companion",
+    "checkedAt": "2026-09-16T16:48:21.277367+00:00"
+  },
+  "10.1007/s10639-024-12915-5": {
+    "status": "available",
+    "originalText": "A video lesson with generative learning activities has the potential to improve learning by engaging learners. However, existing literature regarding designing and implementing an interactive video lesson is insufficient. In the present study, we aimed to investigate: a) whether the use of the summarizing strategy would benefit learning via video with regard to learning outcome, cognitive load, intrinsic motivation, and metacognition; and b) which self-explanation prompts would further engage learners. A total of 149 university students were randomly assigned to one of six conditions formed by a 2 X 3 design with self-explanation prompts (structured prompts vs. open-ended prompts) and summarizing (constructed summarizing vs. provided summarizing vs. no summarizing) as the between-subjects factors. Analysis of covariance indicated that: a) the structured prompts reduced extraneous cognitive load and fostered metacognition, b) the positive effect of the structured prompts on retention was dependent upon no summarizing, and c) the provided summarizing strategy resulted in higher perceived competence when compared to the constructed summarizing strategy. These findings are discussed within the contemporary engagement theory and cognitive load theory.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-024-12915-5",
+    "sourceType": "publisher",
+    "metadataTitle": "Learning via video: The effects of summarizing strategies and self-explanation prompts",
+    "checkedAt": "2026-09-16T16:48:22.460544+00:00"
+  },
+  "10.1007/s10639-024-13115-x": {
+    "status": "available",
+    "originalText": "This study developed a school-based AI curriculum suitable for senior high school students, with the primary objective of enhancing their mastery of knowledge and proficiency in AI, as well as their computational thinking abilities. The curriculum was designed with an awareness of the practical challenges encountered by the subject school in their implementation of AI education, while also adhering to the guidelines for AI curriculum outlined in the General Senior High School Curriculum Standards: Information Technology. Building on this foundation, the curriculum objectives were proposed. The curriculum modules were meticulously developed, informed by the insights gained from student surveys and interviews with teachers. Subsequently, a teaching experiment was implemented in a high school, employing a combination of engaging lectures and project-based learning methodologies. Following this, a quasi-experiment was conducted to investigate variations in students’ computational thinking. A comprehensive evaluation was conducted, which included an examination to assess students' mastery of AI-related concepts and theories, project evaluation forms to investigate and evaluate students’ computational thinking processes, and a questionnaire to statistically analyze students' satisfaction with the curriculum. Through these measures, the effectiveness of the school-based AI curriculum was verified from multiple perspectives. The results confirmed the curriculum's effectiveness in enhancing students' computational thinking, particularly in algorithmic thinking, cooperativity, critical thinking, and problem-solving. When compared to traditional AI teaching methods based on the Information Technology curriculum, the school-based AI curriculum demonstrated a more pronounced effectiveness in cultivating these competencies, with students showing significant improvements in problem analysis, solving, and knowledge transfer, alongside high satisfaction levels. This study provided a compelling case of school-based AI education in senior high schools, expecting to inspire educators' teaching practice in AI education and to catalyze the development of computational thinking across K-12 learning environments.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-024-13115-x",
+    "sourceType": "publisher",
+    "metadataTitle": "Research on school-based AI curriculum design and practice for cultivating computational thinking in high school students",
+    "checkedAt": "2026-09-16T16:48:22.663054+00:00"
+  },
+  "10.1007/s10639-024-13242-5": {
+    "status": "available",
+    "originalText": "Gamification mechanisms have been increasingly integrated into educational environments to enhance learner’s engagement and improve the effectiveness of online courses. However, the precise effects of gamification on learner’s engagement, including the factors that influence this behavior, remain under-explored. This study addresses this gap by examining the relationships between learner’s interactions with three gamification strategies (i.e. contextualized content, constructive achievement, and social expression) and their intention to engage in learning activities. Using a sample of 463 learners from the Android Programming Technology course on a massive open online course (MOOC) platform in China, data was collected through a questionnaire survey and analyzed by a structural equation model. Using self-determination theory and the theory of rational action as the theoretical foundation, we empirically tested the proposed model and hypotheses through a structural equation model. The results indicate that gamification design strategies significantly impact learners' autonomy ( \\(\\beta =0.305,p<0.001)\\) , competence ( \\(\\beta =0.312,p<0.001)\\) , and relatedness ( \\(\\beta =0.295,p<0.001)\\) , which are essential for fulfilling psychological needs. Furthermore, perceived enjoyment positively influences perceived usefulness ( \\(\\beta =0.339,p<0.001)\\) and perceived behavioral control ( \\(\\beta =0.645,p<0.001)\\) , which jointly have a significant effect on learners' engagement intentions. Among the strategies, contextualized content had the strongest impact on perceived enjoyment ( \\(\\beta =0.459,p<0.001)\\) . These findings provide valuable insights for the design of gamified learning environments and contribute to the broader understanding of gamification's role in education.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-024-13242-5",
+    "sourceType": "publisher",
+    "metadataTitle": "How gamification-based course drives online learners’ engagement: Focusing on intrinsic motivation and effect mechanism",
+    "checkedAt": "2026-09-16T16:48:23.081551+00:00"
+  },
+  "10.1007/s10639-025-13484-x": {
+    "status": "available",
+    "originalText": "This study explores the impact of ChatGPT, an advanced Large Language Model (LLM), as a virtual tutor in online education across five key dimensions: answering questions, writing assistance, study resources, exam preparation, and availability. Utilizing an experimental design, 68 undergraduate students from a public university interacted with ChatGPT over a 15-week academic semester. Data were collected through a validated questionnaire and analyzed using descriptive statistics, correlation analysis, and multiple regression. Findings reveal that students generally perceive ChatGPT as a valuable tool, with a high mean rating across dimensions such as exam preparation ( M = 3.38, SD = 1.26) and availability ( M = 3.55, SD = 1.34 ). The correlation analyses showed significant interdependencies between dimensions, with the highest correlation coefficient observed between writing assistance and exam preparation ( Kendall’s tau_b = 0.45, p < 0.01 ). Multiple regression analysis identified writing assistance ( β = 0.35, p < 0.01 ) and exam preparation ( β = 0.40, p < 0.01 ) as significant predictors of overall effectiveness. These findings suggest that ChatGPT’s multiple functionalities do not operate independently but instead complement and reinforce each other, resulting in a more supportive and integrated learning environment. The study's findings highlight the transformative potential of LLMs to address the limitations of traditional Intelligent Tutoring Systems (ITSs) and offer a more comprehensive and personalized approach to online learning support. The study, however, identifies key areas for enhancing the LLM-based learning environment including the need for greater contextual engagement in learning materials and more comprehensive and personalized feedback mechanisms. The implications of these findings and future research directions are further discussed.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-025-13484-x",
+    "sourceType": "publisher",
+    "metadataTitle": "Exploring ChatGPT as a virtual tutor: A multi-dimensional analysis of large language models in academic support",
+    "checkedAt": "2026-09-16T16:48:24.014180+00:00"
+  },
+  "10.1007/s10648-010-9128-5": {
+    "status": "available",
+    "originalText": "In cognitive load theory, element interactivity has been used as the basic, defining mechanism of intrinsic cognitive load for many years. In this article, it is suggested that element interactivity underlies extraneous cognitive load as well. By defining extraneous cognitive load in terms of element interactivity, a distinct relation between intrinsic and extraneous cognitive load can be established based on whether element interactivity is essential to the task at hand or whether it is a function of instructional procedures. Furthermore, germane cognitive load can be defined in terms of intrinsic cognitive load, thus also associating germane cognitive load with element interactivity. An analysis of the consequences of explaining the various cognitive load effects in terms of element interactivity is carried out.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10648-010-9128-5",
+    "sourceType": "publisher",
+    "metadataTitle": "Element Interactivity and Intrinsic, Extraneous, and Germane Cognitive Load",
+    "checkedAt": "2026-09-16T16:48:25.363154+00:00"
+  },
+  "10.1007/s10639-025-13602-9": {
+    "status": "available",
+    "originalText": "The integration of Artificial Intelligence (AI) conversational agents in Computer-Assisted Language Learning (CALL) environments has received attention for its potential to enhance language learning outcomes. This study investigates the effects of AI conversational agents on EFL learners' self-regulated learning (SRL) and retention in CALL environments. A pretest–posttest experiment involving 203 EFL students was conducted, using pretest–posttest measures of SRL (goal-setting, monitoring, reflection) and retention (vocabulary/grammar recall). A mixed-methods approach evaluated the effectiveness of AI agents with adaptive feedback—defined here as real-time, error-specific corrections and scaffolded guidance tailored to individual learner performance. Quantitative results revealed that SRL pretest scores ranged from 2.98 to 3.10 (SD = 0.589–0.678), while posttest scores increased to 6.00–6.96 (SD = 0.194–0.808), reflecting a 133% improvement in SRL strategies. Retention pretest scores (3.00–3.24, SD = 1.355–1.366) also improved significantly. The adaptive feedback group outperformed other interventions, with posttest SRL scores 16% higher than non-adaptive groups (ΔM = 0.96, p < 0.001), indicating stronger metacognitive strategy use and long-term knowledge retention. Qualitative analysis highlighted learners’ perceptions of adaptive feedback as critical for personalized goal-setting and error correction. The study underscores the need to integrate operationalized adaptive feedback strategies—such as dynamic error prioritization and scaffolded explanations—into AI agents to optimize SRL and retention in EFL contexts.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10639-025-13602-9",
+    "sourceType": "publisher",
+    "metadataTitle": "How artificially intelligent conversational agents influence EFL learners'self-regulated learning and retention",
+    "checkedAt": "2026-09-16T16:48:25.712133+00:00"
+  },
+  "10.1007/s10648-015-9348-9": {
+    "status": "available",
+    "originalText": "Generative learning involves actively making sense of to-be-learned information by mentally reorganizing and integrating it with one’s prior knowledge, thereby enabling learners to apply what they have learned to new situations. In this article, we present eight learning strategies intended to promote generative learning: summarizing, mapping, drawing, imagining, self-testing, self-explaining, teaching, and enacting. First, we provide an overview of generative learning theory, grounded in Wittrock’s (1974) generative model of comprehension and reflected in more recent frameworks of active learning, such as Mayer’s ( 2014 ) select-organize-integrate (SOI) framework. Next, for each of the eight generative learning strategies, we provide a description, review exemplary research studies, discuss potential boundary conditions, and provide practical recommendations for implementation. Finally, we discuss the implications of generative learning for the science of learning, and we suggest directions for further research.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10648-015-9348-9",
+    "sourceType": "publisher",
+    "metadataTitle": "Eight Ways to Promote Generative Learning",
+    "checkedAt": "2026-09-16T16:48:26.690233+00:00"
+  },
+  "10.1007/s10648-019-09498-w": {
+    "status": "available",
+    "originalText": "This meta-analysis was conducted to systematically synthesize research findings on effects of gamification on cognitive, motivational, and behavioral learning outcomes. Results from random effects models showed significant small effects of gamification on cognitive ( g = .49, 95% CI [0.30, 0.69], k = 19, N = 1686), motivational ( g = .36, 95% CI [0.18, 0.54], k = 16, N = 2246), and behavioral learning outcomes ( g = .25, 95% CI [0.04, 0.46], k = 9, N = 951). Whereas the effect of gamification on cognitive learning outcomes was stable in a subsplit analysis of studies employing high methodological rigor, effects on motivational and behavioral outcomes were less stable. Given the heterogeneity of effect sizes, moderator analyses were conducted to examine inclusion of game fiction , social interaction , learning arrangement of the comparison group , as well as situational, contextual, and methodological moderators, namely, period of time , research context , randomization , design , and instruments . Inclusion of game fiction and social interaction were significant moderators of the effect of gamification on behavioral learning outcomes. Inclusion of game fiction and combining competition with collaboration were particularly effective within gamification for fostering behavioral learning outcomes. Results of the subsplit analysis indicated that effects of competition augmented with collaboration might also be valid for motivational learning outcomes. The results suggest that gamification as it is currently operationalized in empirical studies is an effective method for instruction, even though factors contributing to successful gamification are still somewhat unresolved, especially for cognitive learning outcomes.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10648-019-09498-w",
+    "sourceType": "publisher",
+    "metadataTitle": "The Gamification of Learning: a Meta-analysis",
+    "checkedAt": "2026-09-16T16:48:26.955532+00:00"
+  },
+  "10.1007/s10648-020-09550-0": {
+    "status": "available",
+    "originalText": "The shifting emphases of new national curricula have placed more attention on knowledge generation approaches to learning. Such approaches are centered on the fundamental sense of generative learning where practices and tools for learning become the focus of the learning environment, rather than on the products of learning. This paper, building on from the previous review by Fiorella and Mayer ( 2015 , 2016 ), focuses on a systematic review of doctoral and master theses of a knowledge generation approach to the learning of science called the science writing heuristic (SWH) approach. The outcomes of examining 81 theses show that students regardless of grade levels and cultural settings were significantly advantage in terms of content knowledge, critical thinking growth, and representational competency. The results also indicate that time in terms of engagement with the approach is critical for achieving student outcomes and for teachers to develop expertise with the approach. Questioning was also noted as being critical. Implications arising from the study are centered on the development and use of writing, the need for interactive dialogical environments, and the importance of questioning as critical elements for success.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10648-020-09550-0",
+    "sourceType": "publisher",
+    "metadataTitle": "Does a Knowledge Generation Approach to Learning Benefit Students? A Systematic Review of Research on the Science Writing Heuristic Approach",
+    "checkedAt": "2026-09-16T16:48:28.826555+00:00"
+  },
+  "10.1007/s10648-021-09594-w": {
+    "status": "available",
+    "originalText": "Generative learning theory posits that learners engage more deeply and produce better learning outcomes when they engage in selecting, organizing, and integrating processes during learning. The present experiments examine whether the generative learning activity of generating explanations can be extended to online multimedia lessons and whether prompts to engage in this generative learning activity work better than more passive instruction. Across three experiments, college students learned about greenhouse gasses from a 4-part online lesson involving captioned animations and subsequently took a posttest. After each part, learners were asked to generate an explanation (write-an-explanation), write an explanation using provided terms (write-a-focused-explanation), rewrite a provided explanation (rewrite-an-explanation), read a provided explanation (read-an-explanation), or simply move on to the next part (no-activity). Overall, students in the write-an-explanation group (Experiments 2 and 3), write-a-focused-explanation group (Experiment 2), and rewrite-an-explanation group (Experiment 3) performed significantly better on a delayed posttest than the no-activity group, but the groups did not differ significantly on an immediate posttest (Experiment 1). These results are consistent with generative learning theory and help identify generative learning strategies that improve online multimedia learning, thereby priming active learning with passive media.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10648-021-09594-w",
+    "sourceType": "publisher",
+    "metadataTitle": "Benefits of Writing an Explanation During Pauses in Multimedia Lessons",
+    "checkedAt": "2026-09-16T16:48:28.869652+00:00"
+  },
+  "10.1007/s10758-020-09487-x": {
+    "status": "available",
+    "originalText": "In recent years, there has been a lot of attention given to the trend of including game elements into non-gaming facilities. The usage of gamification in education is a massive benefit for motivation, user interaction, and social effects. The gamified elements such as points, badge, feedbacks, level, rewards, challenges, etc. have been used in e-learning. A systematic review of gamification in online education has not been found when the relevant literature examined. Therefore, this study aims to research the current literature using gamification and online education and highlight the reported benefits and challenges of gamification applications in online education. The present research followed the literature review method. The current study employed a qualitative approach for collected data. Thus, the term \"gamification\" was used as the primary research keyword. The results show that gamification has increasingly been accepted as a useful learning tool to generate more engaging educational environments. Additionally, elements support and motivate students to participate in a gamification system. The study showed that the most common gamification elements used in e-learning and have a powerful effect on the students are points, leaderboards, badge, and level. This study is thought to contribute significantly to studies on the use of gamification applications in online education. It reinforces previous studies and identifies many useful study topics that can be explored to advance the field. From these results, suggestions on gamification applications in e-learning for further research are given.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10758-020-09487-x",
+    "sourceType": "publisher",
+    "metadataTitle": "Gamification Applications in E-learning: A Literature Review",
+    "checkedAt": "2026-09-16T16:48:29.731643+00:00"
+  },
+  "10.1007/s10796-022-10291-4": {
+    "status": "available",
+    "originalText": "In higher education, low teacher-student ratios can make it difficult for students to receive immediate and interactive help. Chatbots, increasingly used in various scenarios such as customer service, work productivity, and healthcare, might be one way of helping instructors better meet student needs. However, few empirical studies in the field of Information Systems (IS) have investigated pedagogical chatbot efficacy in higher education and fewer still discuss their potential challenges and drawbacks. In this research we address this gap in the IS literature by exploring the opportunities, challenges, efficacy, and ethical concerns of using chatbots as pedagogical tools in business education. In this two study project, we conducted a chatbot-guided interview with 215 undergraduate students to understand student attitudes regarding the potential benefits and challenges of using chatbots as intelligent student assistants. Our findings revealed the potential for chatbots to help students learn basic content in a responsive, interactive, and confidential way. Findings also provided insights into student learning needs which we then used to design and develop a new, experimental chatbot assistant to teach basic AI concepts to 195 students. Results of this second study suggest chatbots can be engaging and responsive conversational learning tools for teaching basic concepts and for providing educational resources. Herein, we provide the results of both studies and discuss possible promising opportunities and ethical implications of using chatbots to support inclusive learning.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10796-022-10291-4",
+    "sourceType": "publisher",
+    "metadataTitle": "Artificial Intelligence (AI) Student Assistants in the Classroom: Designing Chatbots to Support Student Success",
+    "checkedAt": "2026-09-16T16:48:29.781372+00:00"
+  },
+  "10.1007/s10798-024-09905-6": {
+    "status": "available",
+    "originalText": "Policy emphases on early childhood and elementary computer science education have led to the development of many developmentally appropriate computer science and robotics tools, pedagogies, and high-quality curricula. One example is the integrated Coding as Another Language pedagogy for coding, literacy, and social and emotional learning. The pedagogy was initially developed for students in kindergarten and early elementary school and has not previously been aligned to prekindergarten learning frameworks or used in the prekindergarten setting. In this paper, we describe a pilot program if the CAL pedagogy could be successfully used for the prekindergarten setting. The study used a design-based method to adapt the Coding as Another Language curriculum for the prekindergarten setting and a mixed-methods protocol to evaluate the program at a preschool site serving children experiencing homelessness in classrooms that are part of the local school district’s universal prekindergarten program. Students were assessed using the Coding Stages Assessment of coding knowledge and the TechCheck-PreK assessment of computational thinking. Teachers completed semi-structured interviews over the course of the project. Teachers reported overall positive experiences teaching the curriculum including for English language learners, although some reported challenges integrating the curricula in their bilingual classrooms. Children participating in the program significantly improved on their coding knowledge by 4.60 points on the Coding Stages Assessment, p < .0001. These findings suggest that the Coding as Another Language pedagogy can be successfully integrated with preschool learning frameworks and implemented in preschool classrooms.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10798-024-09905-6",
+    "sourceType": "publisher",
+    "metadataTitle": "Robotics in universal prekindergarten classrooms",
+    "checkedAt": "2026-09-16T16:48:32.009693+00:00"
+  },
+  "10.1007/s10956-016-9679-4": {
+    "status": "available",
+    "originalText": "This project developed and studied The Source , an alternate reality game (ARG) designed to foster interest and knowledge related to science, technology, engineering, and math (STEM) among youth from populations underrepresented in STEM fields. ARGs are multiplayer games that engage participants across several media such as shared websites, social media, personal communications, and real-world settings to complete activities and collaborate with team members. The Source was a five-week summer program with 144 participants from Chicago aged 13 to 18 years. The Source incorporated six socio-contextual factors derived from three frameworks: Chang’s (ERIC Digest, 2002 ) recommendations for engaging underrepresented populations in STEM careers, Lave and Wenger’s (Cambridge University Press, 1991 ) situated learning model, and Barron’s (Human Development, 49(4); 193-224, 2006 ) learning ecology perspective. These factors aligned with the program’s aims of promoting (1) social community and peer support, (2) collaboration and teamwork, (3) real-world relevance and investigative learning, (4) mentoring and exposure to STEM professionals, (5) hands-on activities to foster transferable skill building, and (6) interface with technology. This paper presents results from 10 focus groups and 10 individual interviews conducted with a subset of the 144 youth participants who completed the game. It describes how these six factors were realized through The Source and uses them as a lens for considering how The Source functioned pedagogically. Qualitative findings describe youth’s perception of The Source ’s potential influence on STEM interest, engagement, and identity formation. Despite limitations, study results indicate that underrepresented youth can engage in an immersive, narrative, and game-based experience as a potential mechanism for piquing and developing STEM interest and skills, particularly among underrepresented youth.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10956-016-9679-4",
+    "sourceType": "publisher",
+    "metadataTitle": "Alternate Reality Games as an Informal Learning Tool for Generating STEM Engagement among Underrepresented Youth: a Qualitative Evaluation of the Source",
+    "checkedAt": "2026-09-16T16:48:32.210905+00:00"
+  },
+  "10.1007/s10956-018-9754-0": {
+    "status": "available",
+    "originalText": "Many studies have used the potential of computer games to promote students’ attitudes toward learning and increase their learning performance. A few studies have transformed scientific content into computer games or developed games with scientific content. In this paper, we employed students’ common misconceptions of chemistry regarding the properties of liquid to develop a computer game. Daily life situations and everyday phenomena related to the chemical understanding of the properties of liquid were also taken into account. Afterward, we applied a process-oriented, inquiry-based active learning approach to implement the game in a Thai high school chemistry course. We studied the implementation of a game-transformed inquiry-based learning class by comparing it to a conventional inquiry-based learning class. The results of this study include aspects of students’ conceptual understanding of chemistry and their motivation to learn chemistry. We found that students in both the game-transformed inquiry-based learning class and conventional inquiry-based learning class had a significantly increased conceptual understanding of chemistry. There was also a significant difference between the gains of both classes between the pre- and post-conceptual understanding scores. Moreover, the post-conceptual understanding scores of students in the two classes were significantly different. These findings support the notion that students can better comprehend chemistry concepts through a computer game, especially when integrated with the process-oriented, inquiry-based learning approach. The findings of this study also highlight the game-transformed inquiry-based learning approach’s support of students’ motivation to learn chemistry.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10956-018-9754-0",
+    "sourceType": "publisher",
+    "metadataTitle": "Implementation of Game-transformed Inquiry-based Learning to Promote the Understanding of and Motivation to Learn Chemistry",
+    "checkedAt": "2026-09-16T16:48:33.135332+00:00"
+  },
+  "10.1007/s10956-024-10135-7": {
+    "status": "available",
+    "originalText": "This paper presents and discusses the inclusive inquiry-based alternate reality game (IB-ARGI) approach, a pedagogical gamified approach supporting inclusive contemporary educational contexts. The IB-ARGI approach comprises Inquiry-based Learning, Alternate Reality Games, Universal Design for Learning and Augmented Reality technology in order to shape an inclusive inquiry-based learning environment for all students. The aspects of the IB-ARGI approach are illustrated and discussed by focusing on an IB-ARGI implementation on the topic of Magnets and Magnetism for 65 preschool student teachers in the context of a laboratory course in Science. The study aims to explore preschool student teachers’ perception of the IB-ARGI approach as learners and future teachers using a mixed method approach and assess the intervention’s learning outcomes through pre- and post-tests. The results revealed fruitful insights into how the IB-ARGI approach motivated the student teachers to actively participate in the inquiry through an immersive experience involving multiple means of engagement, representation, and action and expression. Findings concerning the learning outcomes also indicated significant learning gains for the participants. Despite this work’s suggestive and exploratory nature, the study offers new perspectives and findings to the literature regarding the formation of more inclusive inquiry practices. Additionally, it contributes to opening a route in the current literature concerning the formation of more inclusive approaches and practices in science education.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10956-024-10135-7",
+    "sourceType": "publisher",
+    "metadataTitle": "Combining Inquiry, Universal Design for Learning, Alternate Reality Games and Augmented Reality Technologies in Science Education: The IB-ARGI Approach and the Case of Magnetman",
+    "checkedAt": "2026-09-16T16:48:33.277397+00:00"
+  },
+  "10.1007/s11191-021-00310-2": {
+    "status": "available",
+    "originalText": "Balancing disciplinary knowledge and practical reasoning in problem solving is needed for meaningful learning. In STEM problem solving, science subject matter with associated practices often appears distant to learners due to its abstract nature. Consequently, learners experience difficulties making meaningful connections between science and their daily experiences. Applying Dewey’s idea of practical and science inquiry and Bereiter’s idea of referent-centred and problem-centred knowledge, we examine how integrated STEM problem solving offers opportunities for learners to shuttle between practical and science inquiry and the kinds of knowledge that result from each form of inquiry. We hypothesize that connecting science inquiry with practical inquiry narrows the gap between science and everyday experiences to overcome isolation and fragmentation of science learning. In this study, we examine classroom talk as students engage in problem solving to increase crop yield. Qualitative content analysis of the utterances of six classes of 113 eighth graders and their teachers were conducted for 3 hours of video recordings. Analysis showed an almost equal amount of science and practical inquiry talk. Teachers and students applied their everyday experiences to generate solutions. Science talk was at the basic level of facts and was used to explain reasons for specific design considerations. There was little evidence of higher-level scientific conceptual knowledge being applied. Our observations suggest opportunities for more intentional connections of science to practical problem solving, if we intend to apply higher-order scientific knowledge in problem solving. Deliberate application and reference to scientific knowledge could improve the quality of solutions generated.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s11191-021-00310-2",
+    "sourceType": "publisher",
+    "metadataTitle": "STEM Problem Solving: Inquiry, Concepts, and Reasoning",
+    "checkedAt": "2026-09-16T16:48:34.825405+00:00"
+  },
+  "10.1007/s10956-025-10205-4": {
+    "status": "available",
+    "originalText": "Digital game-based learning is a student-centered learning environment that influences learning success and learning motivation. Whereas, a poorly designed instructional game will impair learning. Through extensive knowledge construction and high engagement, collaborative concept mapping strategies have the potential to address above problems. Simultaneously, the first principles of instruction could further enhance the effectiveness of collaborative concept mapping. Therefore, a collaborative knowledge organizer-based digital game utilizing the first principles of instruction approach was proposed for Chinese eighth graders in biology courses. This study adopted a quasi-experimental design with three groups of 92 students: a collaborative knowledge organizer-based digital game (CKO-DG) group ( N = 33), a knowledge organizer-based digital game (KO-DG) group ( N = 31), and a collaborative digital game (CDG) group ( N = 28). The findings demonstrated that the CKO-DG students achieved the best biological achievement and motivation. However, the KO-DG students lacked peer support, resulting in a higher cognitive load; the CDG students lacked a proper strategy to organize their knowledge, resulting in low learning outcomes.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s10956-025-10205-4",
+    "sourceType": "publisher",
+    "metadataTitle": "First Principles of Instruction Approach to Developing a Collaborative Knowledge Organizer-Based Digital Game of Biology Learning",
+    "checkedAt": "2026-09-16T16:48:35.166965+00:00"
+  },
+  "10.1007/s11251-005-1272-9": {
+    "status": "not-found",
+    "originalText": "",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s11251-005-1272-9",
+    "sourceType": "publisher",
+    "metadataTitle": "Scaffolding Self-regulated Learning and Metacognition – Implications for the Design of Computer-based Scaffolds",
+    "checkedAt": "2026-09-16T16:51:28.496258+00:00"
+  },
+  "10.1007/s11251-007-9034-5": {
+    "status": "available",
+    "originalText": "Previous research on peer tutoring has found that students sometimes benefit academically from tutoring other students. In this study we combined quantitative and qualitative analyses to explore how untrained peer tutors learned via explaining and responding to tutee questions in a non-reciprocal tutoring setting. In support of our hypotheses, we found that tutors learned most effectively when their instructional activities incorporated reflective knowledge-building in which they monitored their own understanding, generated inferences to repair misunderstandings, and elaborated upon the source materials. However, tutors seemed to adopt a knowledge-telling bias in which they primarily summarized the source materials with little elaboration. Tutors’ reflective knowledge-building activities, when they occurred, were more frequently elicited by interactions with their tutee. In particular, when tutees asked questions that contained an inference or required an inferential answer, tutors’ responses were more likely to be elaborative and metacognitive. Directions for future research are also discussed.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s11251-007-9034-5",
+    "sourceType": "publisher",
+    "metadataTitle": "Tutor learning: the role of explaining and responding to questions",
+    "checkedAt": "2026-09-16T16:48:36.682173+00:00"
+  },
+  "10.1007/s11257-019-09222-x": {
+    "status": "available",
+    "originalText": "The aim of this article concerns adaptive and personalized navigation in a cultural heritage database. The theoretical grounding of the proposition relies on cognitive science, particularly constructivism and enaction. The navigation is conducted via an intelligent interface through a 3D “living” museum metaphor. The purpose of this interface is to recommend dynamic cultural heritage objects according to a user profile that is computed online from the interactions that a user has with these objects. To this end, objects are linked to semantic structures that represent relations between cultural heritage concepts. The user profile is described in terms of cultural heritage interests. A prototype of this principle is used to evaluate some of the basic hypotheses of this proposition.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s11257-019-09222-x",
+    "sourceType": "publisher",
+    "metadataTitle": "An evolving museum metaphor applied to cultural heritage for personalized content delivery",
+    "checkedAt": "2026-09-16T16:48:38.185234+00:00"
+  },
+  "10.1007/s11276-022-03000-1": {
+    "status": "available",
+    "originalText": "The metaverse has influenced the development of science and technology since it was proposed. While artificial intelligence (AI) is still one of the important technologies to solve problems in metaverse. The success of AI in various fields and the development of information technology make the integration of sports industry and AI an inevitable trend. Currently, the traditional physical education is experiencing qualitative changes, and the demand of integrating AI and metaverse into physical education is becoming more and more obvious. Football teaching is an important part of physical education, and Virtual Reality (VR) has the characteristics of immersion, interaction and imagination, which can build virtual and realistic football teaching process. In this study, through 360-degree panoramic VR football teaching videos empowered by the metaverse and K-means algorithm based on machine learning under AI, we study the strategies for improving the quality of football teaching in the mobile Internet environment. Therefore, we propose K-means based optimized 360-degree panoramic VR football teaching video delivery strategy. In addition, we conduct simulation experiments under content delivery networks simulator, and the simulation results show that the proposed strategy is superior to the baselines in terms of proxy server hit ratio, byte hit ratio, mean response time and students quality of experience. Moreover, through the 360-degree panoramic VR football teaching videos learning, students can intuitively analyze the actions and improve the teaching quality. The reconstruction of football teaching environment is beneficial to promote the combination of football teaching and smart learning.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s11276-022-03000-1",
+    "sourceType": "publisher",
+    "metadataTitle": "Strategy for improving the football teaching quality by AI and metaverse-empowered in mobile internet environment",
+    "checkedAt": "2026-09-16T16:48:38.442172+00:00"
+  },
+  "10.1007/s11409-024-09410-0": {
+    "status": "available",
+    "originalText": "Classical conceptualisations of self-regulated learning typically ignore the role of teaching strategies in real-world classrooms. Therefore, the present exploratory study aimed to examine the different clusters of perceived teaching strategies and students’ metacognitive knowledge and experiences, and motivation. The data came from 6365 (49.63% female) Greek secondary school students who participated in PISA 2018. Latent profile analyses revealed four patterns of perceived teachers’ strategies and students’ self-regulated learning, namely ‘struggling learners’ (18.60%), ‘resilient autonomous learners’ (19.79%), ‘average learners’ (32.73%), and ‘self-regulated thriving learners’ (28.86%). Comparisons with reading achievement competencies revealed that ‘struggling learners’ were the worst off followed by the ‘average learners’, whereas ‘self-regulated thriving learners’ and ‘resilient autonomous learners’ had the best reading scores. Good metacognitive knowledge and lower feelings of difficulty along with a higher self-concept could compensate for a reduced perceived student-centric instruction and lead to notable achievement gains. Perceived teacher-directed instruction complemented enthusiastic, student-centric instruction, and a good disciplinary climate were associated with higher metacognition and motivation, and optimal learning. In conclusion, the findings suggest that high metacognition and motivation can overcome perceived instructional barriers and, when combined with a perceived academically supportive teaching environment, can lead to maximum success in reading achievement.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s11409-024-09410-0",
+    "sourceType": "publisher",
+    "metadataTitle": "Typologies of teaching strategies in classrooms and students’ metacognition and motivation: a latent profile analysis of the Greek PISA 2018 data",
+    "checkedAt": "2026-09-16T16:48:39.503338+00:00"
+  },
+  "10.1007/s11409-012-9093-0": {
+    "status": "available",
+    "originalText": "The ability to monitor the status of one’s own understanding is important to accomplish academic tasks proficiently. Previous studies have shown that comprehension monitoring (metacomprehension accuracy) is generally poor, but improves when readers engage in activities that access valid cues reflecting their situation model (activities such as concept mapping or self-explaining). However, the question still remains as to which process, encoding or retrieving, causes the improvement of metacomprehension accuracy, and the findings of previous research on this matter have been inconsistent. This study examined whether college students’ metacomprehension accuracy improves when they expect, at the time of reading, that they will explain the content later (active encoding) or when they actually generate an explanation (encoding plus active retrieving). In the experiments, college students read five texts. During reading, some students expected that they would generate explanations but did not actually generate them. In contrast, some students actually generated an explanation of the text after reading. All students then rated their comprehension of each text. Finally, they completed tests on the materials. Results of both studies revealed that metacomprehension accuracy, operationalized as the association between comprehension ratings and test performance, was greater for the group that actually generated explanations than for the expectancy or control groups.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s11409-012-9093-0",
+    "sourceType": "publisher",
+    "metadataTitle": "Explanation generation, not explanation expectancy, improves metacomprehension accuracy",
+    "checkedAt": "2026-09-16T16:48:40.120290+00:00"
+  },
+  "10.1007/s11423-013-9329-y": {
+    "status": "available",
+    "originalText": "EFL learners in Taiwan have a low-level communication ability because many learners are still not provided opportunities to use language for genuine communication in classrooms and receive insufficient language input due to the environment. This study examines the use of digital board game language learning set in a task-collaborative platform, digital learning playground, designed for classroom learning. This study investigates whether communicative skills and intrinsic motivation could be improved by seeing relevant context and receiving adequate practice through gaming. Ninety-six high school Taiwanese students ( n = 96), who were randomly assigned to an ordinary instruction group, a board game language-learning group, or a digital board game language-learning group, engaged in a 50-min English class. Analysis of covariance was used for comparing learning performance through a speaking test between the three groups. A modified intrinsic motivation inventory was conducted to assess learners’ perceptions of learning experience and an interview was held for details. The quantitative data presents a higher learning performance for the instruction set at digital learning playground. The qualitative data confirms computerized simulation adapted from board game entails context-relevant immersion, encouraging communication and efficient game instruction management for EFL language learning.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s11423-013-9329-y",
+    "sourceType": "publisher",
+    "metadataTitle": "Using digital board games for genuine communication in EFL classrooms",
+    "checkedAt": "2026-09-16T16:48:41.080950+00:00"
+  },
+  "10.1007/s11423-019-09648-5": {
+    "status": "available",
+    "originalText": "This study highlights the importance of an educational design that includes robotics and programming through a visual programming language as a means to enable students to improve substantially their understanding of the elements of logic and mathematics. Gaining an understanding of computational concepts as well as a high degree of student participation and commitment emphasize the effectiveness of introducing robotics and visual programming based on active methodologies in primary education. Implementation of this design provides sixth-grade elementary education students with activities that integrate programming and robotics in sciences and mathematics; these practices allow students to understand coding, motion, engines, sequences and conditionals. A quasi-experimental design, descriptive analysis and participant observation were applied across various dimensions to 93 sixth-grade students in four primary education schools. Programming and robotics were integrated in one didactic unit of mathematics and another in sciences. Statistically significant improvements were achieved in the understanding of mathematical concepts and in the acquisition of computational concepts, based on an active pedagogical practice that instills motivation, enthusiasm, commitment, fun and interest in the content studied.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s11423-019-09648-5",
+    "sourceType": "publisher",
+    "metadataTitle": "The effect of programming on primary school students’ mathematical and scientific understanding: educational use of mBot",
+    "checkedAt": "2026-09-16T16:48:41.636429+00:00"
+  },
+  "10.1007/s11423-020-09762-9": {
+    "status": "available",
+    "originalText": "Complex problem solving is an effective means to engage students in disciplinary content while also furnishing critical non-cognitive and life skills. Despite increased adoption of complex problem-solving methods in K-12 classrooms today (e.g., case-, project-, or problem-based learning), we know little about how to make these approaches accessible to linguistically and culturally diverse (LCD) students. In this paper, we promote a conceptual framework, based on an ethos of intentionality , that supports culturally responsive teaching (CRT). We provide specific questions to guide teachers’ implementation of an ethos of intentionality, through critical reflection and meaningful action, and discuss a framework for culturally relevant practice that operationalizes key central tenets (e.g., high expectations, cultural competence, and critical consciousness). Finally, we include strategies that can help teachers and designers translate the principles of the CRT framework into action with a specific focus on complex problem solving in classrooms.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s11423-020-09762-9",
+    "sourceType": "publisher",
+    "metadataTitle": "Fostering complex problem solving for diverse learners: engaging an ethos of intentionality toward equitable access",
+    "checkedAt": "2026-09-16T16:48:42.809471+00:00"
+  },
+  "10.1007/s11423-022-10142-8": {
+    "status": "available",
+    "originalText": "Review strategies after learning new knowledge are essential for students to consolidate the key points, understand the subject content, analyze aspects of the learning topics, and summarize the knowledge content of learning while mastering new knowledge. However, educators have found that students generally have difficulties seeking help when they encounter learning problems. This could significantly affect their after-class review performances. To cope with this problem, an after-class review approach with an AI (Artificial Intelligence)-based chatbot is proposed in this study to provide students with immediate and quality feedback during the learning process. Moreover, a quasi-experiment was conducted to explore students’ learning motivation, attitude, and academic performance when using the AI-based chatbot. Participants were two classes of students from a university in Taiwan. One class with 18 students was the experimental group and the other with 20 students was the control group. The experimental group used the AI-based chatbot in the after-class review, while the control group used the conventional after-class review approach. Research results showed that the application of AI-based chatbots in the review process of public health courses could improve students’ academic performance, self-efficacy, learning attitude, and motivation. In other words, chatbots could help students become more active in the learning process. It is noted that after students asked questions, providing them with sufficient feedback during the review process could make them feel recognized and help to establish a relaxing and friendly interaction, thereby improving their academic performance.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s11423-022-10142-8",
+    "sourceType": "publisher",
+    "metadataTitle": "Impacts of an AI-based chabot on college students’ after-class review, academic performance, self-efficacy, learning attitude, and motivation",
+    "checkedAt": "2026-09-16T16:48:42.968204+00:00"
+  },
+  "10.1007/s11423-022-10182-0": {
+    "status": "available",
+    "originalText": "Echoing the increasing emphasis on STEM literacy, computational thinking has become a national priority in K-12 schools. Scholars have acknowledged abstraction as the keystone of computational thinking. To foster K-12 students’ computational thinking and STEM literacy, students’ ability to think abstractly should be enhanced. However, the existing curriculum in K-12 education may not adequately equip learners with the proper abstraction needed for the STEM workforce. Given the absence of a synthesized understanding of abstraction, effective instructional guidance for fostering student abstraction is also elusive. To overcome the gap in understanding abstraction, we attempted to conceptualize a synthesized framework of abstraction in computational thinking and proposed a set of design guidelines that may enhance students’ uptake of abstraction. In this paper, we describe the importance of abstraction in computational thinking and existing challenges in developing students’ ability to perform abstraction. Then, by reviewing the cognitive dimensions of abstraction and the role of abstraction in computing education, we identify three cognitive processes underlying abstraction in computational thinking (e.g., filtering information, locating similarities, and mapping problem structures). We thereby propose a conceptual framework of abstraction in computational thinking. Finally, design guidelines for fostering abstraction in computational thinking are provided with illustrated examples of a tailored STEM-integrative learning environment.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s11423-022-10182-0",
+    "sourceType": "publisher",
+    "metadataTitle": "Tracing the essence: ways to develop abstraction in computational thinking",
+    "checkedAt": "2026-09-16T16:48:43.857319+00:00"
+  },
+  "10.1007/s11423-025-10460-7": {
+    "status": "available",
+    "originalText": "In higher education, concept mapping has been extensively adopted as an assessment and evaluation tool for conceptual knowledge. In recent years, an increasing number of researchers have applied concept mapping to teaching in technology-based environments. However, no research was found to holistically explore the role of concept maps in technological contexts of higher education, or their influences on different learning aspects. To address this gap, the present study referred to the technology-based learning model to conduct a systematic review of the dimensions of the research trends, features (including data analysis, participants, media of concept maps, application domains, and roles of concept maps), and research foci. Based on the Preferred Reporting Items for Systematic Reviews and Meta-Analyses procedure, this study reviewed the Social Sciences Citation Index articles published in technology-based learning and higher education journals by the end of 2021 from the Web of Science database. The results indicated that in studies on the use of concept maps in technological contexts in higher education (CMHE), the most productive countries/regions (of the first authors) were Taiwan and the United States. The most frequently adopted data analysis methods were quantitative analysis and mixed. In the aspect of application domains, Engineering (including Computer courses) was the most frequent subject for CMHE studies, followed by Language, Social Studies, and Health, Medical and Physical Education. Desk-top computers were the most frequently adopted medium for working on concept maps, although there was increasing adoption of mobile devices. The role of concept maps was mainly as a personal mindtool and assessment and evaluation tool, followed by a collaborative mindtool. In terms of research foci, the cognition dimension was explored the most in CMHE studies, followed by the affect dimension, and learning behavior. Based on the findings of this study, several recommendations are made as a reference for educators, researchers, and policy makers in higher education.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s11423-025-10460-7",
+    "sourceType": "publisher",
+    "metadataTitle": "Concept maps in technological contexts of higher education: a systematic review of selected SSCI publications",
+    "checkedAt": "2026-09-16T16:48:45.108334+00:00"
+  },
+  "10.1007/s11423-025-10583-x": {
+    "status": "available",
+    "originalText": "Reading comprehension is an essential skill for learning and is facilitated through extensive reading, text discussion and analysis, and writing. With the spread of mobile technology, Artificial Intelligence (AI)-based chatbots, which combine speech recognition and semantic understanding, is a potential language learning tool to overcome students’ learning difficulties encountered in traditional instruction by providing personalized, real-time feedback. However, some students are not able to well organize learning contents through text-only reading, resulting in ineffective learning. Graphic organization is seen as a useful strategy to improve students' memory and comprehension. The study employed a quasi-experimental design to investigate the effects of an intelligent chatbot combining the graphical summarization strategy, speech recognition, and semantic comprehension on students' reading performance, learning experience, and tendency to think critically and reflectively. The subjects were 107 Grade 10 students, randomly divided into four groups, using a graphical summarization-based AI chatbot, a text summarization-based AI chatbot, graphical summarization-based learning, and text summarization-based learning. It was found that both the AI-based chatbot and graphical summarization strategy benefited students by improving their learning achievements; moreover, the significant interaction between the AI-based chatbot and graphical summarization strategy further showed the effectiveness of combining the two. In terms of intrinsic motivation, self-efficacy, critical thinking and cognitive load, the AI-based chatbot benefited the students more than traditional teaching; moreover, the graphical summarization strategy benefited the students more than text summarization did. The interview results further showed that combining the graphical summarization strategy and the AI-based chatbot enabled students to gain a more complete understanding of the learning content.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s11423-025-10583-x",
+    "sourceType": "publisher",
+    "metadataTitle": "Effects of graphical summarization and AI-based chatbots on learners' reading comprehension achievement, motivation, self-efficacy, critical thinking and cognitive load",
+    "checkedAt": "2026-09-16T16:48:45.383567+00:00"
+  },
+  "10.1007/s11528-016-0093-9": {
+    "status": "available",
+    "originalText": "This study investigated the effects of precommitment on college students’ goal setting and academic performance, and students’ attitude towards precommitment-related activities. Precommitment refers to a procedure in which students set up learning goals, possibly with a time limit at the beginning of a learning phase, then report the comparison between their goals and actual learning progress to their peers and teachers by the end of the learning phase. This study used a single-group repeated-measures design. 41 students from a large university in the southeastern United States participated in the study. Multivariate analysis of variance indicated that precommitment was significantly effective in optimizing students’ goals and improving their academic performance, but the attitude survey result indicated that students could not fully recognize the value of precommitment-related activities.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s11528-016-0093-9",
+    "sourceType": "publisher",
+    "metadataTitle": "The Effect of Precommitment on Student Achievement Within a Technology-Rich Project-Based Learning Environment",
+    "checkedAt": "2026-09-16T16:48:45.790024+00:00"
+  },
+  "10.1007/s12528-020-09255-x": {
+    "status": "available",
+    "originalText": "Students experience challenges when understanding visual information in multimedia learning. Specifically, immersive multimedia environments, such as virtual reality increase the likelihood that students undergo distractions in which information seeking during system-paced instruction occurred. Although previous studies have reviewed various cue designs to yield students’ higher attention, skepticism still exists regarding which ways cue designs can support their learning comprehension in video instruction. For this study, we sampled a total of 64 undergraduates in a university. Using video instruction performed by an animated pedagogical agent (APA), this study examined the effect of social (i.e., an APA’s conversational gestures) and cognitive (i.e., visual cue) cues on students’ learning comprehension and eye-gaze data within types of visual information (text and pictorial). Also, this study investigated how both cues promoted students’ cognitive load overall. Specific to text information processing, the results of the study confirmed that the negative prime effect of social cues undermined students’ learning comprehension and increased their cognitive load, whereas cognitive cues appeared to be supportive in video instruction. Also, this study found that students’ different visual-attention patterns appeared in pictorial information processing. In terms of pictorial information processing, the study finding implies that whereas social cues caused visual distractions and lowered learning comprehension, cognitive cues as visual cues helped learners to integrate pictorial information via visuospatial clues. Conclusively, we reported several design implications derived from the study findings.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s12528-020-09255-x",
+    "sourceType": "publisher",
+    "metadataTitle": "The effects of social and cognitive cues on learning comprehension, eye-gaze pattern, and cognitive load in video instruction",
+    "checkedAt": "2026-09-16T16:48:46.967880+00:00"
+  },
+  "10.1007/s12528-022-09338-x": {
+    "status": "available",
+    "originalText": "Although fully online learning is now the ‘new normal’ in many parts of the world, its implementation is often beset by challenges such as the lack of student self-regulation, and the sense of isolation. In this paper, we explored the use of chatbots to support student goal setting (Study 1) and social presence (Study 2) in online activities. In Study 1, participants in a fully online course were invited to complete a goal setting activity prior to attending class via a goal-setting chatbot. The chatbot engaged participants with five questions developed based on the SMART (specific, measurable, achievable, realistic, and timely) goal setting framework. In Study 2, English-as-Foreign-Language participants in a fully online course were tasked to complete listening practices. The learning buddy chatbot was designed based on the social presence framework (interpersonal communication, open communication, cohesive communication) to guide students through listening exercises. In both Study 1 and 2, we evaluated participants’ behavioral engagement by measuring their conversation records with the chatbots, as well as participants’ perceived usefulness and ease of use of the chatbots. We also gathered in-depth interview data concerning the participants’ perceptions of interacting with the chatbots. Overall, our findings found positive learner experiences with both chatbots with regard to the chatbots’ perceived usefulness and perceived ease of use. We also provided suggestions for instructors to apply chatbots in teaching and learning.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s12528-022-09338-x",
+    "sourceType": "publisher",
+    "metadataTitle": "Using chatbots to support student goal setting and social presence in fully online activities: learner engagement and perceptions",
+    "checkedAt": "2026-09-16T16:48:48.412545+00:00"
+  },
+  "10.1007/s12528-024-09408-2": {
+    "status": "available",
+    "originalText": "The purpose of this study is to explore the influence of the microlearning instructional approach in an online introductory database programming classroom. The ultimate goal of this study is to inform educators and instructional designers on the design and development of microlearning content that maximizes student learning. Grounded within the frameworks of cognitive theories of learning—Cognitive load theory, Cognitive theory of multimedia learning, and Cognitive, affective theory of learning with media, this exploratory case study collected student assessment data from ten-course topic quizzes and exam scores in midterm and final exams. Additionally, the students' and the course instructor's perceptions while experiencing the microlearning instructional approach were collected and analyzed. As a result, the students scored significantly higher in the course topic quizzes under microlearning instruction compared to the video lectures condition. The students experienced less cognitive load and were more motivated and engaged throughout the learning process under the microlearning instruction. The students also reported some challenges of microlearning instruction, including missing social aspects of learning, fragmented learning for some complex topics, and Canvas LMS platform issues. Overall, this inquiry suggests the potential of microlearning as an instructional approach for introductory programming concepts. Some key implications of the findings are also addressed.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s12528-024-09408-2",
+    "sourceType": "publisher",
+    "metadataTitle": "Exploring the role of a microlearning instructional approach in an introductory database programming course: an exploratory case study",
+    "checkedAt": "2026-09-16T16:48:48.485588+00:00"
+  },
+  "10.1007/s12528-025-09434-8": {
+    "status": "available",
+    "originalText": "Given the importance of self-regulated learning (SRL) in flipped learning in higher education, this study explored the role of a mobile-based artificial intelligence (AI) chatbot in enhancing SRL among university students enrolled in a flipped business course. The chatbot supported students by providing SRL prompts in the forethought, performance, and reflection phases. An explanatory sequential mixed-methods design was employed to examine the effectiveness of the chatbot and students’ conversation patterns. Survey data from 43 participants revealed that low prior-SRL students significantly benefited from chatbot interaction, while high prior-SRL students surprisingly exhibited a decrease in their SRL scores. Qualitative analysis of extreme cases revealed evident differences in interaction patterns between students whose SRL scores decreased and increased after chatbot use. The findings contribute valuable insights to the expanding field of mobile-based AI chatbots in flipped learning and emphasize the importance of adaptive and personalized interventions for students according to their prior SRL skills.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s12528-025-09434-8",
+    "sourceType": "publisher",
+    "metadataTitle": "Mobile-based artificial intelligence chatbot for self-regulated learning in a hybrid flipped classroom",
+    "checkedAt": "2026-09-16T16:48:48.953567+00:00"
+  },
+  "10.1007/s40593-024-00421-1": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S1560429226001265",
+    "checkedAt": "2026-09-16T16:51:27.780726+00:00"
+  },
+  "10.1007/s12564-015-9379-4": {
+    "status": "available",
+    "originalText": "This study attempts to design a survey to assess students’ perceptions of twenty-first-century learning practices in their classrooms and the resulting knowledge creation self-efficacy among the students. In addition, it also explores the relationships among the various dimensions of twenty-first-century learning practices. Four hundred and eighty-two primary school students from a Singapore school that focuses on the pervasive use of ICT within its school curriculum responded to the survey. The validation of the survey yielded satisfactory reliability and validity through both exploratory and confirmatory factor analyses. The results also showed that the subscales that survey students’ perceptions of critical thinking, creative thinking, and authentic problem-solving were more dominant predictors of their knowledge creation efficacy as compared to their perceptions about the learning processes.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s12564-015-9379-4",
+    "sourceType": "publisher",
+    "metadataTitle": "Assessing multidimensional students’ perceptions of twenty-first-century learning practices",
+    "checkedAt": "2026-09-16T16:48:49.697723+00:00"
+  },
+  "10.1016/0959-4752(94)90003-5": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/0959475294900035",
+    "checkedAt": "2026-09-16T16:51:29.507315+00:00"
+  },
+  "10.1016/j.caeai.2020.100001": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S2666920X20300011",
+    "checkedAt": "2026-09-16T16:51:29.382294+00:00"
+  },
+  "10.1007/s12564-022-09746-9": {
+    "status": "available",
+    "originalText": "Mind mapping is a visualization tool used in instruction that can be applied by learners to generate ideas, take notes, organize thinking, and develop concepts. Instruction using mind mapping is becoming increasingly commonly used in education. However, research has produced inconsistent results regarding the effectiveness of mind mapping-based instruction on student learning outcomes. Using the meta-analysis of 21 studies, this study investigates the overall effectiveness of the mind mapping-based instructions on students’ learning outcomes in comparison with that of traditional instruction. Mind mapping-based instruction has been found to have a more positive influence on students’ cognitive learning outcomes than traditional instruction. Analysis of moderator variables suggests that the subject matter and educational level are important factors in the effectiveness of mind mapping-based instruction. Lower-grade students are more susceptible to the influence of mind mapping-based instruction than higher-grade students, and mind mapping-based instruction helps students improve their cognitive learning outcomes in all subjects, especially in the Science, Technology, Engineering, and Math disciplines.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s12564-022-09746-9",
+    "sourceType": "publisher",
+    "metadataTitle": "Effects of mind mapping-based instruction on student cognitive learning outcomes: a meta-analysis",
+    "checkedAt": "2026-09-16T16:48:51.391892+00:00"
+  },
+  "10.1016/j.caeai.2022.100117": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S2666920X22000728",
+    "checkedAt": "2026-09-16T16:51:29.647466+00:00"
+  },
+  "10.1016/j.caeai.2023.100182": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S2666920X23000619",
+    "checkedAt": "2026-09-16T16:51:30.203102+00:00"
+  },
+  "10.1007/s40692-018-0124-y": {
+    "status": "available",
+    "originalText": "In this article we explore how to play storytelling games with collections of artworks. First we propose a generic storytelling game, titled “Find the artwork behind the story!”, and we present the results of a user study that investigates the game’s affordances in different environments and setups, ranging from large exhibitions at a cultural center, to a casual home setting. We report a series of game-testing sessions, highlighting the differences between on-site and remote experiences and we reflect upon critical aspects of the game design, identifying key opportunities and requirements in each case. Then we focus on the “home game scenario” and we describe how we re-designed the game experience so as to address the increased interactivity and learning requirements revealed in this setting. We propose a hybrid board game experience that combines analogue and digital media, orchestrating the use of physical “Artwork Cards” along with digital narratives displayed on the players’ personal mobile or tablet devices. We present the game-authoring platform and the mobile client application that we have developed to support the creation and provision of the proposed game experiences. Finally, following a user-centered design approach, we report preliminary evaluation results of the game prototype using the focus group methodology.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s40692-018-0124-y",
+    "sourceType": "publisher",
+    "metadataTitle": "How to play storytelling games with masterpieces: from art galleries to hybrid board games",
+    "checkedAt": "2026-09-16T16:48:52.225727+00:00"
+  },
+  "10.1016/j.caeai.2023.100199": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S2666920X23000784",
+    "checkedAt": "2026-09-16T16:51:31.257961+00:00"
+  },
+  "10.1016/j.caeai.2024.100221": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S2666920X24000225",
+    "checkedAt": "2026-09-16T16:51:31.346053+00:00"
+  },
+  "10.1016/j.caeo.2023.100122": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S2666557323000010",
+    "checkedAt": "2026-09-16T16:51:31.300122+00:00"
+  },
+  "10.1016/j.chb.2015.07.045": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S074756321530056X",
+    "checkedAt": "2026-09-16T16:51:33.184062+00:00"
+  },
+  "10.1016/j.chb.2016.12.033": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S074756321630855X",
+    "checkedAt": "2026-09-16T16:51:33.162767+00:00"
+  },
+  "10.1016/j.chb.2006.03.005": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S074756320600046X",
+    "checkedAt": "2026-09-16T16:51:32.183457+00:00"
+  },
+  "10.1016/j.chb.2017.01.018": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0747563217300195",
+    "checkedAt": "2026-09-16T16:51:33.238387+00:00"
+  },
+  "10.1016/j.chb.2022.107547": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0747563222003673",
+    "checkedAt": "2026-09-16T16:51:34.878793+00:00"
+  },
+  "10.1016/j.chb.2019.03.013": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0747563219301050",
+    "checkedAt": "2026-09-16T16:51:33.860229+00:00"
+  },
+  "10.1016/j.chb.2020.106562": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0747563220303113",
+    "checkedAt": "2026-09-16T16:51:34.902259+00:00"
+  },
+  "10.1016/j.chb.2024.108547": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0747563224004151",
+    "checkedAt": "2026-09-16T16:51:35.116633+00:00"
+  },
+  "10.1016/j.compedu.2013.07.008": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131513001759",
+    "checkedAt": "2026-09-16T16:51:37.439577+00:00"
+  },
+  "10.1016/j.compedu.2009.02.016": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131509000669",
+    "checkedAt": "2026-09-16T16:51:36.818809+00:00"
+  },
+  "10.1016/j.compedu.2016.11.010": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131516302391",
+    "checkedAt": "2026-09-16T16:51:38.574832+00:00"
+  },
+  "10.1016/j.compedu.2018.08.018": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131518302227",
+    "checkedAt": "2026-09-16T16:51:38.726643+00:00"
+  },
+  "10.1016/j.compedu.2019.01.013": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131519300090",
+    "checkedAt": "2026-09-16T16:51:39.304324+00:00"
+  },
+  "10.1016/j.compedu.2019.04.013": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131519300995",
+    "checkedAt": "2026-09-16T16:51:40.128193+00:00"
+  },
+  "10.1016/j.compedu.2019.05.014": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131519301290",
+    "checkedAt": "2026-09-16T16:51:40.479619+00:00"
+  },
+  "10.1016/j.compedu.2019.103751": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131519303045",
+    "checkedAt": "2026-09-16T16:51:42.009724+00:00"
+  },
+  "10.1016/j.compedu.2013.10.020": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131513003059",
+    "checkedAt": "2026-09-16T16:51:38.424772+00:00"
+  },
+  "10.1016/j.compedu.2020.103807": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131520300099",
+    "checkedAt": "2026-09-16T16:51:42.169481+00:00"
+  },
+  "10.1016/j.compedu.2020.103836": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131520300373",
+    "checkedAt": "2026-09-16T16:51:42.143468+00:00"
+  },
+  "10.1016/j.compedu.2020.103874": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131520300737",
+    "checkedAt": "2026-09-16T16:51:42.956477+00:00"
+  },
+  "10.1016/j.compedu.2020.104123": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131520303213",
+    "checkedAt": "2026-09-16T16:51:43.864044+00:00"
+  },
+  "10.1016/j.compedu.2021.104150": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131521000270",
+    "checkedAt": "2026-09-16T16:51:44.054768+00:00"
+  },
+  "10.1016/j.compedu.2021.104185": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131521000622",
+    "checkedAt": "2026-09-16T16:51:43.877759+00:00"
+  },
+  "10.1016/j.compedu.2021.104236": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131521001135",
+    "checkedAt": "2026-09-16T16:51:44.712213+00:00"
+  },
+  "10.1016/j.compedu.2021.104341": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131521002189",
+    "checkedAt": "2026-09-16T16:51:45.753375+00:00"
+  },
+  "10.1016/j.compedu.2021.104425": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S036013152100302X",
+    "checkedAt": "2026-09-16T16:51:45.789736+00:00"
+  },
+  "10.1016/j.compedu.2022.104684": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S036013152200255X",
+    "checkedAt": "2026-09-16T16:51:46.635220+00:00"
+  },
+  "10.1016/j.compedu.2022.104703": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131522002743",
+    "checkedAt": "2026-09-16T16:51:47.598641+00:00"
+  },
+  "10.1016/j.compedu.2022.104564": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S036013152200135X",
+    "checkedAt": "2026-09-16T16:51:45.722538+00:00"
+  },
+  "10.1016/j.compedu.2023.104738": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131523000155",
+    "checkedAt": "2026-09-16T16:51:47.505372+00:00"
+  },
+  "10.1016/j.compedu.2023.104757": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131523000349",
+    "checkedAt": "2026-09-16T16:51:48.531645+00:00"
+  },
+  "10.1016/j.compedu.2023.104806": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131523000830",
+    "checkedAt": "2026-09-16T16:51:49.352095+00:00"
+  },
+  "10.1016/j.compedu.2023.104898": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131523001756",
+    "checkedAt": "2026-09-16T16:51:49.479178+00:00"
+  },
+  "10.1016/j.compedu.2023.104931": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131523002087",
+    "checkedAt": "2026-09-16T16:51:49.313676+00:00"
+  },
+  "10.1016/j.compedu.2023.104977": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131523002543",
+    "checkedAt": "2026-09-16T16:51:50.404117+00:00"
+  },
+  "10.1016/j.compedu.2024.105043": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131524000575",
+    "checkedAt": "2026-09-16T16:51:51.247701+00:00"
+  },
+  "10.1016/j.compedu.2024.105045": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131524000599",
+    "checkedAt": "2026-09-16T16:51:51.069639+00:00"
+  },
+  "10.1016/j.compedu.2024.105196": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131524002100",
+    "checkedAt": "2026-09-16T16:51:51.202063+00:00"
+  },
+  "10.1016/j.compedu.2024.105212": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131524002264",
+    "checkedAt": "2026-09-16T16:51:52.314963+00:00"
+  },
+  "10.1016/j.compedu.2025.105322": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131525000909",
+    "checkedAt": "2026-09-16T16:51:53.109683+00:00"
+  },
+  "10.1016/j.ecresq.2021.05.001": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0885200621000569",
+    "checkedAt": "2026-09-16T16:51:52.959136+00:00"
+  },
+  "10.1016/j.ecresq.2023.05.014": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0885200623000765",
+    "checkedAt": "2026-09-16T16:51:54.222906+00:00"
+  },
+  "10.1016/j.edurev.2018.03.004": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S1747938X18301702",
+    "checkedAt": "2026-09-16T16:51:54.641854+00:00"
+  },
+  "10.1016/j.ecresq.2023.05.015": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0885200623000777",
+    "checkedAt": "2026-09-16T16:51:54.514143+00:00"
+  },
+  "10.1016/j.edurev.2022.100454": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S1747938X22000239",
+    "checkedAt": "2026-09-16T16:51:54.797431+00:00"
+  },
+  "10.1016/j.edurev.2022.100481": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S1747938X22000501",
+    "checkedAt": "2026-09-16T16:51:56.065654+00:00"
+  },
+  "10.1016/j.ijedro.2024.100319": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S2666374024000013",
+    "checkedAt": "2026-09-16T16:51:56.350329+00:00"
+  },
+  "10.1016/j.ijcci.2022.100563": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S2212868922000812",
+    "checkedAt": "2026-09-16T16:51:56.321724+00:00"
+  },
+  "10.1016/j.ijinfomgt.2023.102642": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0268401223000233",
+    "checkedAt": "2026-09-16T16:51:57.763316+00:00"
+  },
+  "10.1016/j.ijme.2022.100643": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S1472811722000453",
+    "checkedAt": "2026-09-16T16:51:58.233360+00:00"
+  },
+  "10.1016/j.im.2019.103229": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0378720618310280",
+    "checkedAt": "2026-09-16T16:51:58.064952+00:00"
+  },
+  "10.1016/j.jhlste.2021.100362": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S1473837621000630",
+    "checkedAt": "2026-09-16T16:51:58.218405+00:00"
+  },
+  "10.1016/j.jml.2020.104092": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0749596X20300061",
+    "checkedAt": "2026-09-16T16:51:59.481259+00:00"
+  },
+  "10.1016/j.jss.2018.03.065": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0164121218300645",
+    "checkedAt": "2026-09-16T16:51:59.780932+00:00"
+  },
+  "10.1016/j.learninstruc.2020.101344": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0959475219307297",
+    "checkedAt": "2026-09-16T16:52:00.083745+00:00"
+  },
+  "10.1016/j.learninstruc.2020.101438": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0959475220307337",
+    "checkedAt": "2026-09-16T16:51:59.927881+00:00"
+  },
+  "10.1016/j.learninstruc.2021.101547": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0959475221001067",
+    "checkedAt": "2026-09-16T16:52:01.323610+00:00"
+  },
+  "10.1016/j.learninstruc.2024.101974": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0959475224001014",
+    "checkedAt": "2026-09-16T16:52:01.668087+00:00"
+  },
+  "10.1016/j.lindif.2022.102146": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S1041608022000334",
+    "checkedAt": "2026-09-16T16:52:01.838081+00:00"
+  },
+  "10.1016/j.lindif.2023.102274": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S1041608023000195",
+    "checkedAt": "2026-09-16T16:52:01.743498+00:00"
+  },
+  "10.1016/j.nedt.2017.02.018": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0260691717300497",
+    "checkedAt": "2026-09-16T16:52:02.991379+00:00"
+  },
+  "10.1016/j.nedt.2022.105418": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S026069172200154X",
+    "checkedAt": "2026-09-16T16:52:03.330690+00:00"
+  },
+  "10.1016/j.neunet.2014.09.003": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0893608014002135",
+    "checkedAt": "2026-09-16T16:52:03.535325+00:00"
+  },
+  "10.1016/j.procs.2020.02.212": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S1877050920303355",
+    "checkedAt": "2026-09-16T16:52:03.518347+00:00"
+  },
+  "10.1016/j.radi.2005.03.004": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "DOI redirected outside supported HTTPS publisher hosts (https://radiographyonline.com)",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S1078817405000234",
+    "checkedAt": "2026-09-16T16:52:04.567077+00:00"
+  },
+  "10.1016/j.sbspro.2015.04.796": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S1877042815030712",
+    "checkedAt": "2026-09-16T16:52:04.982552+00:00"
+  },
+  "10.1016/j.system.2016.04.013": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0346251X16300239",
+    "checkedAt": "2026-09-16T16:52:05.187682+00:00"
+  },
+  "10.1016/j.tsc.2017.01.002": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S1871187117300068",
+    "checkedAt": "2026-09-16T16:52:05.166066+00:00"
+  },
+  "10.1016/j.tsc.2020.100663": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S187118711930166X",
+    "checkedAt": "2026-09-16T16:52:06.391548+00:00"
+  },
+  "10.1016/j.tsc.2022.101173": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S1871187122001766",
+    "checkedAt": "2026-09-16T16:52:06.670656+00:00"
+  },
+  "10.1016/j.tsc.2024.101528": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S187118712400066X",
+    "checkedAt": "2026-09-16T16:52:06.855189+00:00"
+  },
+  "10.1016/j.tsc.2023.101415": {
+    "sourceType": "author",
+    "sourceUrl": "https://ruomoplus.lib.uom.gr/handle/8000/1791?locale=en",
+    "checkedAt": "2026-09-17T02:28:15.650969+00:00",
+    "sourceTextSha256": "32bb304ab1cd465d91717d8894cd650b930020a5c56967d10d488fc4dfe7f8e8",
+    "status": "available",
+    "originalText": "The present study investigated the multidimensional relationships among some of the factors which affect the creative performance of teams, including creativity, collaboration, diversity, and autonomy in educational settings. Two hundred and thirty one (231) university students of Informatics worked in teams for a whole semester, and their projects were evaluated for creativity with the Consensual Assessment Technique. Structural equation modeling and path analysis with bootstrapping were used to analyze the collected data and examine relationships. According to the results, the creative diversity of teams had a significant positive relationship with their creative performance, whereas the aggregated individual creativity of members did not have a significant effect. Collaboration among team members had a positive impact on the teams’ creative outputs and also partially mediated the relationship between creative diversity and creative performance. Autonomy of members correlated significantly with their creativity, however, at the team level, there was not a significant relationship between autonomy and creative performance. Theoretical and practical implications are discussed and future research directions are proposed.",
+    "metadataTitle": "Examining the effects of creativity, collaboration, creative diversity and autonomy on team creative performance",
+    "acquisitionMethod": "complete explicit Abstract section or ePrints abstract metadata; title, author and year or DOI checked; no generated summary"
+  },
+  "10.1016/j.tsc.2024.101576": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S1871187124001147",
+    "checkedAt": "2026-09-16T16:52:08.075786+00:00"
+  },
+  "10.1016/j.tsc.2025.101990": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S1871187125002391",
+    "checkedAt": "2026-09-16T16:52:08.514384+00:00"
+  },
+  "10.1016/j.tsc.2024.101621": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S1871187124001597",
+    "checkedAt": "2026-09-16T16:52:08.322436+00:00"
+  },
+  "10.1016/s0883-0355(03)00072-7": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0883035503000727",
+    "checkedAt": "2026-09-16T16:52:08.752700+00:00"
+  },
+  "10.1017/cbo9781139519526.018": {
+    "status": "not-found",
+    "originalText": "",
+    "sourceUrl": "https://www.cambridge.org/core/books/abs/cambridge-handbook-of-the-learning-sciences/projectbased-learning/5FC5C22FBA6DD69B55CABA8710BB3D67",
+    "sourceType": "publisher",
+    "metadataTitle": "Project-Based Learning",
+    "checkedAt": "2026-09-16T16:52:10.420647+00:00"
+  },
+  "10.1017/cbo9780511816819.018": {
+    "status": "available",
+    "originalText": "Learning in multimedia environments is hard because it requires learners to actively comprehend and integrate information across diverse sources and modalities. Self-explanation is an effective learning strategy that helps learners develop deep understanding of complex phenomena and could be used to support learning from multimedia. Researchers have established the benefits of self-explaining across many domains for a range of ages and learning contexts (including multimedia situations). This research demonstrates that some learners are natural self-explainers and also indicates that learners can be trained to self-explain. However, even when trained, there remain large individual differences in effective self-explaining. Additional support, which may be afforded by multimedia environments, appears to be needed for engaging some learners in this activity. This chapter reviews related literature and explores the relationship between multimedia learning and self-explaining. Introduction Multimedia learning environments have the potential to substantially improve student learning compared to single media (Mayer & Moreno, 2002; Najjar, 1996). Controlled studies that compare multimedia (e.g, combinations of text and illustrations or narration and animation) with single media resources have found that students learn better from a combination of media, provided that the materials are well-designed (Goldman, 2003; Mayer, 1993; Mayer & Anderson, 1991; Mayer & Gallini, 1990; Mayer, Heiser, & Lonn, 2001).",
+    "sourceUrl": "https://www.cambridge.org/core/books/abs/cambridge-handbook-of-multimedia-learning/selfexplanation-principle-in-multimedia-learning/FB6C2A3CA39346D666CDD94B6DE88A36",
+    "sourceType": "publisher",
+    "metadataTitle": "The Self-Explanation Principle in Multimedia Learning",
+    "checkedAt": "2026-09-16T16:52:10.156451+00:00"
+  },
+  "10.1037/0003-066x.34.10.906": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "Publisher title did not match the local bibliography",
+    "sourceUrl": "https://psycnet.apa.org:443/doiLanding?doi=10.1037/0003-066X.34.10.906",
+    "checkedAt": "2026-09-16T16:52:10.836548+00:00"
+  },
+  "10.1037/0003-066x.55.1.68": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "Publisher title did not match the local bibliography",
+    "sourceUrl": "https://psycnet.apa.org:443/doiLanding?doi=10.1037/0003-066X.55.1.68",
+    "checkedAt": "2026-09-16T16:52:11.771156+00:00"
+  },
+  "10.1037/0003-066x.57.9.705": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "Publisher title did not match the local bibliography",
+    "sourceUrl": "https://psycnet.apa.org:443/doiLanding?doi=10.1037/0003-066X.57.9.705",
+    "checkedAt": "2026-09-16T16:52:11.368337+00:00"
+  },
+  "10.1037/0012-1649.27.4.682": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "Publisher title did not match the local bibliography",
+    "sourceUrl": "https://psycnet.apa.org:443/doiLanding?doi=10.1037/0012-1649.27.4.682",
+    "checkedAt": "2026-09-16T16:52:12.147312+00:00"
+  },
+  "10.1037/0033-295x.84.2.191": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "Publisher title did not match the local bibliography",
+    "sourceUrl": "https://psycnet.apa.org:443/doiLanding?doi=10.1037/0033-295X.84.2.191",
+    "checkedAt": "2026-09-16T16:52:12.548443+00:00"
+  },
+  "10.1017/9781108894333.051": {
+    "status": "available",
+    "originalText": "This chapter reviews media comparison research on the effects of various immersive technologies, including virtual reality and two types of mixed reality, augmented reality and augmented virtuality, on learning outcomes, as well as some boundary conditions for these effects. In sum, previous meta-analyses report that low immersion virtual reality ( d = .22–.41) and low immersion augmented reality ( d = .46–.68) improve learning outcomes compared to other instructional media, with small-to-medium-sized effects. However, high immersion virtual reality (median d = .10) and high immersion augmented reality (median d = .16) are less promising. Research on augmented virtuality is sparse, but shows positive effects on learning (median d = .45) based on a few studies. Theoretical implications of these immersive technologies regarding cognitive frameworks, as well as their practical implications on the future of technology in the classroom, are discussed.",
+    "sourceUrl": "https://www.cambridge.org/core/books/abs/cambridge-handbook-of-multimedia-learning/multimedia-learning-in-virtual-and-mixed-reality/58F89329789676CDC830E3EE841299A1",
+    "sourceType": "publisher",
+    "metadataTitle": "Multimedia Learning in Virtual and Mixed Reality",
+    "checkedAt": "2026-09-16T16:52:10.031313+00:00"
+  },
+  "10.1037/edu0000241": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "Publisher title did not match the local bibliography",
+    "sourceUrl": "https://psycnet.apa.org:443/doiLanding?doi=10.1037/edu0000241",
+    "checkedAt": "2026-09-16T16:52:13.522391+00:00"
+  },
+  "10.1037/a0015808": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "Publisher title did not match the local bibliography",
+    "sourceUrl": "https://psycnet.apa.org:443/doiLanding?doi=10.1037/a0015808",
+    "checkedAt": "2026-09-16T16:52:12.924142+00:00"
+  },
+  "10.1037/edu0000408": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "Publisher title did not match the local bibliography",
+    "sourceUrl": "https://psycnet.apa.org:443/doiLanding?doi=10.1037/edu0000408",
+    "checkedAt": "2026-09-16T16:52:14.288094+00:00"
+  },
+  "10.1037/h0084295": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "Publisher title did not match the local bibliography",
+    "sourceUrl": "https://psycnet.apa.org:443/doiLanding?doi=10.1037/h0084295",
+    "checkedAt": "2026-09-16T16:52:13.745324+00:00"
+  },
+  "10.1038/s41591-023-02448-8": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "DOI redirected outside supported HTTPS publisher hosts (https://idp.nature.com)",
+    "sourceUrl": "https://doi.org/10.1038/s41591-023-02448-8",
+    "checkedAt": "2026-09-16T16:52:14.167636+00:00"
+  },
+  "10.1038/s41562-024-02004-5": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "DOI redirected outside supported HTTPS publisher hosts (https://idp.nature.com)",
+    "sourceUrl": "https://doi.org/10.1038/s41562-024-02004-5",
+    "checkedAt": "2026-09-16T16:52:13.610693+00:00"
+  },
+  "10.1017/cbo9780511803932": {
+    "status": "available",
+    "originalText": "This book presents a theory of learning that starts with the assumption that engagement in social practice is the fundamental process by which we get to know what we know and by which we become who we are. The primary unit of analysis of this process is neither the individual nor social institutions, but the informal 'communities of practice' that people form as they pursue shared enterprises over time. To give a social account of learning, the theory explores in a systematic way the intersection of issues of community, social practice, meaning, and identity. The result is a broad framework for thinking about learning as a process of social participation. This ambitious but thoroughly accessible framework has relevance for the practitioner as well as the theoretician, presented with all the breadth, depth, and rigor necessary to address such a complex and yet profoundly human topic.",
+    "sourceUrl": "https://www.cambridge.org/highereducation/books/communities-of-practice/724C22A03B12D11DFC345EEF0AD3F22A",
+    "sourceType": "publisher",
+    "metadataTitle": "Communities of Practice: Learning, Meaning, and Identity",
+    "checkedAt": "2026-09-16T16:49:16.662670+00:00"
+  },
+  "10.1023/a:1023967026413": {
+    "status": "available",
+    "originalText": "The importance of formative assessment instudent learning is generally acknowledged, butit is not well understood across higher education.The identification of some key features offormative assessment opens the way for adiscussion of theory. It is argued that thereis a need for further theoretical developmentin respect of formative assessment, which needsto take account of disciplinary epistemology,theories of intellectual and moral development,students' stages of intellectual development,and the psychology of giving and receivingfeedback. A sketch is offered of the directionthat this development might take. It is notedthat formative assessment may be eitherconstructive or inhibitory towards learning. Suggestions are made regarding research intoformative assessment, and how research mightcontribute to the development of pedagogicpractice.",
+    "sourceUrl": "https://link.springer.com/article/10.1023/A:1023967026413",
+    "sourceType": "publisher",
+    "metadataTitle": "Formative assessment in higher education: Moves towards theory and the enhancement of pedagogic practice",
+    "checkedAt": "2026-09-16T16:49:17.077069+00:00"
+  },
+  "10.1057/s41599-025-04846-4.article558": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 404: Not Found",
+    "sourceUrl": "https://doi.org/10.1057/s41599-025-04846-4.article558",
+    "checkedAt": "2026-09-16T16:52:13.960773+00:00"
+  },
+  "10.1076/edre.7.2.263.3870": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1076/edre.7.2.263.3870",
+    "checkedAt": "2026-09-16T16:52:14.425444+00:00"
+  },
+  "10.1080/00131857.2022.2114346": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/00131857.2022.2114346",
+    "checkedAt": "2026-09-16T16:52:14.369711+00:00"
+  },
+  "10.1080/00405840802577569": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/00405840802577569",
+    "checkedAt": "2026-09-16T16:52:14.583131+00:00"
+  },
+  "10.1080/0142159x.2018.1536260": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/0142159x.2018.1536260",
+    "checkedAt": "2026-09-16T16:52:14.609510+00:00"
+  },
+  "10.1080/00461520.2014.965823": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/00461520.2014.965823",
+    "checkedAt": "2026-09-16T16:52:14.520169+00:00"
+  },
+  "10.1080/0144929x.2022.2079560": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/0144929x.2022.2079560",
+    "checkedAt": "2026-09-16T16:52:14.679130+00:00"
+  },
+  "10.1080/02602938.2013.803027": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/02602938.2013.803027",
+    "checkedAt": "2026-09-16T16:52:14.910713+00:00"
+  },
+  "10.1080/02602938.2016.1174766": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/02602938.2016.1174766",
+    "checkedAt": "2026-09-16T16:52:14.816679+00:00"
+  },
+  "10.1080/02607476.2017.1319513": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/02607476.2017.1319513",
+    "checkedAt": "2026-09-16T16:52:14.848718+00:00"
+  },
+  "10.1080/02671522.2021.1961301": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/02671522.2021.1961301",
+    "checkedAt": "2026-09-16T16:52:15.090769+00:00"
+  },
+  "10.1080/07377363.2020.1712579": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/07377363.2020.1712579",
+    "checkedAt": "2026-09-16T16:52:15.084595+00:00"
+  },
+  "10.1080/07303084.2015.1119074": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/07303084.2015.1119074",
+    "checkedAt": "2026-09-16T16:52:15.230626+00:00"
+  },
+  "10.1080/08874417.2023.2261010": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/08874417.2023.2261010",
+    "checkedAt": "2026-09-16T16:52:15.151922+00:00"
+  },
+  "10.1080/09588221.2018.1535508": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/09588221.2018.1535508",
+    "checkedAt": "2026-09-16T16:52:15.324316+00:00"
+  },
+  "10.1080/09588221.2022.2056203": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/09588221.2022.2056203",
+    "checkedAt": "2026-09-16T16:52:15.335331+00:00"
+  },
+  "10.1080/10400419.2020.1827606": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10400419.2020.1827606",
+    "checkedAt": "2026-09-16T16:52:15.381283+00:00"
+  },
+  "10.1080/10447318.2019.1709338": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10447318.2019.1709338",
+    "checkedAt": "2026-09-16T16:52:15.459994+00:00"
+  },
+  "10.1080/10447318.2022.2108563": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10447318.2022.2108563",
+    "checkedAt": "2026-09-16T16:52:15.724227+00:00"
+  },
+  "10.1057/s41271-024-00471-8": {
+    "status": "available",
+    "originalText": "This Viewpoint reviews the debate about whether the professionalization of public health practice should be approached through a certification and licensure system. It introduces the recent attempt at professionalizing public health in Taiwan with the newly enacted Public Health Specialists Act of 2020, regulating the Public Health Specialist (PHS) through a state-mandated certificate. The Viewpoint discusses the implications of this new PHS Act on Taiwan’s public health education and professionalization. The PHS model in Taiwan is one of the first of its kind around the globe. Advocates of public health professionalization and public health educators could benefit from Taiwan’s experience.",
+    "sourceUrl": "https://link.springer.com/article/10.1057/s41271-024-00471-8",
+    "sourceType": "publisher",
+    "metadataTitle": "Certification and licensing of public health professionals in Taiwan",
+    "checkedAt": "2026-09-16T16:49:19.582748+00:00"
+  },
+  "10.1080/10494820.2011.641683": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10494820.2011.641683",
+    "checkedAt": "2026-09-16T16:52:15.561848+00:00"
+  },
+  "10.1080/10494820.2014.926276": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10494820.2014.926276",
+    "checkedAt": "2026-09-16T16:52:15.597943+00:00"
+  },
+  "10.1080/10494820.2020.1855204": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10494820.2020.1855204",
+    "checkedAt": "2026-09-16T16:52:16.066529+00:00"
+  },
+  "10.1080/10494820.2018.1495652": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10494820.2018.1495652",
+    "checkedAt": "2026-09-16T16:52:15.710676+00:00"
+  },
+  "10.1080/10494820.2021.1894181": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10494820.2021.1894181",
+    "checkedAt": "2026-09-16T16:52:15.831412+00:00"
+  },
+  "10.1080/10494820.2021.1897845": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10494820.2021.1897845",
+    "checkedAt": "2026-09-16T16:52:16.151547+00:00"
+  },
+  "10.1080/10494820.2021.1926287": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10494820.2021.1926287",
+    "checkedAt": "2026-09-16T16:52:15.943437+00:00"
+  },
+  "10.1080/10494820.2021.1961810": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10494820.2021.1961810",
+    "checkedAt": "2026-09-16T16:52:16.070681+00:00"
+  },
+  "10.1080/10494820.2021.2006238": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10494820.2021.2006238",
+    "checkedAt": "2026-09-16T16:52:16.313100+00:00"
+  },
+  "10.1080/10494820.2021.1981394": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10494820.2021.1981394",
+    "checkedAt": "2026-09-16T16:52:16.435168+00:00"
+  },
+  "10.1080/10494820.2021.2016862": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10494820.2021.2016862",
+    "checkedAt": "2026-09-16T16:52:16.533718+00:00"
+  },
+  "10.1080/10494820.2022.2091606": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10494820.2022.2091606",
+    "checkedAt": "2026-09-16T16:52:16.417536+00:00"
+  },
+  "10.1080/10494820.2023.2208170": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10494820.2023.2208170",
+    "checkedAt": "2026-09-16T16:52:16.756600+00:00"
+  },
+  "10.1080/10494820.2022.2148258": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10494820.2022.2148258",
+    "checkedAt": "2026-09-16T16:52:16.801817+00:00"
+  },
+  "10.1080/10494820.2023.2205947": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10494820.2023.2205947",
+    "checkedAt": "2026-09-16T16:52:16.694352+00:00"
+  },
+  "10.1080/10494820.2023.2212712": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10494820.2023.2212712",
+    "checkedAt": "2026-09-16T16:52:16.826694+00:00"
+  },
+  "10.1080/10494820.2023.2253861": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10494820.2023.2253861",
+    "checkedAt": "2026-09-16T16:52:16.951369+00:00"
+  },
+  "10.1080/10494820.2024.2362798": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10494820.2024.2362798",
+    "checkedAt": "2026-09-16T16:52:17.235569+00:00"
+  },
+  "10.1080/10494820.2023.2294762": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10494820.2023.2294762",
+    "checkedAt": "2026-09-16T16:52:17.159497+00:00"
+  },
+  "10.1080/10494820.2024.2328280": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10494820.2024.2328280",
+    "checkedAt": "2026-09-16T16:52:17.249121+00:00"
+  },
+  "10.1080/10494820.2024.2364235": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/10494820.2024.2364235",
+    "checkedAt": "2026-09-16T16:52:17.373780+00:00"
+  },
+  "10.1080/13562510500400180": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/13562510500400180",
+    "checkedAt": "2026-09-16T16:52:17.393757+00:00"
+  },
+  "10.1080/13683500.2023.2300032": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/13683500.2023.2300032",
+    "checkedAt": "2026-09-16T16:52:17.476896+00:00"
+  },
+  "10.1080/1475939x.2013.822416": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/1475939x.2013.822416",
+    "checkedAt": "2026-09-16T16:52:17.508866+00:00"
+  },
+  "10.1080/17408989.2010": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 404: Not Found",
+    "sourceUrl": "https://doi.org/10.1080/17408989.2010",
+    "checkedAt": "2026-09-16T16:52:17.740879+00:00"
+  },
+  "10.1108/lht-02-2016-0018": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "DOI redirected outside supported HTTPS publisher hosts (http://www.emerald.com)",
+    "sourceUrl": "https://doi.org/10.1108/lht-02-2016-0018",
+    "checkedAt": "2026-09-16T16:52:17.653090+00:00"
+  },
+  "10.1080/713611428": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/713611428",
+    "checkedAt": "2026-09-16T16:52:17.884246+00:00"
+  },
+  "10.1080/25741136.2020.1864179": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1080/25741136.2020.1864179",
+    "checkedAt": "2026-09-16T16:52:17.802952+00:00"
+  },
+  "10.1109/educon46332.2021.9453926": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "Publisher title did not match the local bibliography",
+    "sourceUrl": "https://ieeexplore.ieee.org/document/9453926/",
+    "checkedAt": "2026-09-16T16:52:17.887552+00:00"
+  },
+  "10.1109/icassp.2018.8461812": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "Publisher title did not match the local bibliography",
+    "sourceUrl": "https://ieeexplore.ieee.org/document/8461812/",
+    "checkedAt": "2026-09-16T16:52:18.043832+00:00"
+  },
+  "10.1109/msp.2021.3055032": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "Publisher title did not match the local bibliography",
+    "sourceUrl": "https://ieeexplore.ieee.org/document/9418572/",
+    "checkedAt": "2026-09-16T16:52:18.293873+00:00"
+  },
+  "10.1109/icalt.2019.00102": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "Publisher title did not match the local bibliography",
+    "sourceUrl": "https://ieeexplore.ieee.org/document/8820823/",
+    "checkedAt": "2026-09-16T16:52:17.976037+00:00"
+  },
+  "10.1109/tlt.2024.3384765": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "Publisher title did not match the local bibliography",
+    "sourceUrl": "https://ieeexplore.ieee.org/document/10490240/",
+    "checkedAt": "2026-09-16T16:52:18.148173+00:00"
+  },
+  "10.1186/s40594-024-00525-z": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "DOI redirected outside supported HTTPS publisher hosts (https://stemeducationjournal.springeropen.com)",
+    "sourceUrl": "https://doi.org/10.1186/s40594-024-00525-z",
+    "checkedAt": "2026-09-16T16:52:18.438510+00:00"
+  },
+  "10.1109/tlt.2024.3406638": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "Publisher title did not match the local bibliography",
+    "sourceUrl": "https://ieeexplore.ieee.org/document/10540301/",
+    "checkedAt": "2026-09-16T16:52:18.450464+00:00"
+  },
+  "10.1207/s15327809jls0703&4_2": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "DOI redirected outside supported HTTPS publisher hosts (http://www.informaworld.com)",
+    "sourceUrl": "https://doi.org/10.1207/s15327809jls0703%264_2",
+    "checkedAt": "2026-09-16T16:52:18.598908+00:00"
+  },
+  "10.1111/bjet": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 404: Not Found",
+    "sourceUrl": "https://doi.org/10.1111/bjet",
+    "checkedAt": "2026-09-16T16:52:18.419498+00:00"
+  },
+  "10.1207/s15326985ep3004_8": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1207/s15326985ep3004_8",
+    "checkedAt": "2026-09-16T16:52:18.852666+00:00"
+  },
+  "10.1504/ijmlo.2014.067029": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1504/ijmlo.2014.067029",
+    "checkedAt": "2026-09-16T16:52:21.184620+00:00"
+  },
+  "10.14221/ajte.2016v41n3.3": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "Publisher title did not match the local bibliography",
+    "sourceUrl": "https://ro.ecu.edu.au/ajte/vol41/iss3/3/",
+    "checkedAt": "2026-09-16T16:52:19.438916+00:00"
+  },
+  "10.1504/ijmlo.2020.10026334": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1504/ijmlo.2020.10026334",
+    "checkedAt": "2026-09-16T16:52:21.170729+00:00"
+  },
+  "10.1504/ijmlo.2022.121888": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1504/ijmlo.2022.121888",
+    "checkedAt": "2026-09-16T16:52:21.373253+00:00"
+  },
+  "10.1504/ijmlo.2024.137610": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1504/ijmlo.2024.137610",
+    "checkedAt": "2026-09-16T16:52:23.355538+00:00"
+  },
+  "10.1504/ijmlo.2021.116509": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1504/ijmlo.2021.116509",
+    "checkedAt": "2026-09-16T16:52:21.440446+00:00"
+  },
+  "10.1504/ijmlo.2024.137613": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1504/ijmlo.2024.137613",
+    "checkedAt": "2026-09-16T16:52:22.368038+00:00"
+  },
+  "10.14742/ajet": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 404: Not Found",
+    "sourceUrl": "https://doi.org/10.14742/ajet",
+    "checkedAt": "2026-09-16T16:52:19.159250+00:00"
+  },
+  "10.1504/ijmlo.2025.142902": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "Publisher returned a non-HTML response",
+    "sourceUrl": "https://doi.org/10.1504/ijmlo.2025.142902",
+    "checkedAt": "2026-09-16T16:52:35.632422+00:00"
+  },
+  "10.1504/ijmlo.2024.141836": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1504/ijmlo.2024.141836",
+    "checkedAt": "2026-09-16T16:52:23.459757+00:00"
+  },
+  "10.1504/ijmlo.2025.149024": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1504/ijmlo.2025.149024",
+    "checkedAt": "2026-09-16T16:52:25.005187+00:00"
+  },
+  "10.17051/ilkonline.2021.01.029": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "DOI redirected outside supported HTTPS publisher hosts (https://www.ejmanager.com)",
+    "sourceUrl": "https://doi.org/10.17051/ilkonline.2021.01.029",
+    "checkedAt": "2026-09-16T16:52:25.133511+00:00"
+  },
+  "10.1504/ijmlo.2025.143022": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "Publisher returned a non-HTML response",
+    "sourceUrl": "https://doi.org/10.1504/ijmlo.2025.143022",
+    "checkedAt": "2026-09-16T16:52:31.313844+00:00"
+  },
+  "10.1504/ijmlo.2025.142915": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "Publisher returned a non-HTML response",
+    "sourceUrl": "https://doi.org/10.1504/ijmlo.2025.142915",
+    "checkedAt": "2026-09-16T16:52:36.543900+00:00"
+  },
+  "10.30191/ets.202201_25(1).0003": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "<urlopen error timed out>",
+    "sourceUrl": "https://doi.org/10.30191/ets.202201_25%281%29.0003",
+    "checkedAt": "2026-09-16T16:53:59.298922+00:00"
+  },
+  "10.30191/ets.202410_27(4).rp06": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "<urlopen error timed out>",
+    "sourceUrl": "https://doi.org/10.30191/ets.202410_27%284%29.rp06",
+    "checkedAt": "2026-09-16T16:54:09.080621+00:00"
+  },
+  "10.1787/3354387a-en": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1787/3354387a-en",
+    "checkedAt": "2026-09-16T16:52:25.573811+00:00"
+  },
+  "10.30191/ets.202410_27(4).rp05": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "<urlopen error timed out>",
+    "sourceUrl": "https://doi.org/10.30191/ets.202410_27%284%29.rp05",
+    "checkedAt": "2026-09-16T16:54:04.765799+00:00"
+  },
+  "10.37074/jalt.2023.6.1.9": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "The read operation timed out",
+    "sourceUrl": "https://doi.org/10.37074/jalt.2023.6.1.9",
+    "checkedAt": "2026-09-16T16:54:17.603756+00:00"
+  },
+  "10.33788/rcis.67.8": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "Publisher returned a non-HTML response",
+    "sourceUrl": "https://doi.org/10.33788/rcis.67.8",
+    "checkedAt": "2026-09-16T16:52:42.172215+00:00"
+  },
+  "10.48550/arxiv.2309.01219": {
+    "status": "available",
+    "originalText": ": While large language models (LLMs) have demonstrated remarkable capabilities across a range of downstream tasks, a significant concern revolves around their propensity to exhibit hallucinations: LLMs occasionally generate content that diverges from the user input, contradicts previously generated context, or misaligns with established world knowledge. This phenomenon poses a substantial challenge to the reliability of LLMs in real-world scenarios. In this paper, we survey recent efforts on the detection, explanation, and mitigation of hallucination, with an emphasis on the unique challenges posed by LLMs. We present taxonomies of the LLM hallucination phenomena and evaluation benchmarks, analyze existing approaches aiming at mitigating LLM hallucination, and discuss potential directions for future research.",
+    "sourceUrl": "https://arxiv.org/abs/2309.01219",
+    "sourceType": "publisher",
+    "metadataTitle": "Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+    "checkedAt": "2026-09-17T02:16:27.336722+00:00"
+  },
+  "10.6173/cjse.2007.1503.02": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "Publisher title did not match the local bibliography",
+    "sourceUrl": "https://www.airitilibrary.com/Article/Detail/1027507x-200706-15-3-317-334-a",
+    "checkedAt": "2026-09-16T16:54:04.368268+00:00"
+  },
+  "10.5334/2004-8-oblinger": {
+    "status": "available",
+    "originalText": "Abstract: Games are no longer just for fun; they offer potentially powerful learning environments. Today's students have grown up with computer games. In addition, their constant exposure to the Internet and other digital media has shaped how they receive information and how they learn. There are many attributes of games that make them pedagogically sound learning environments. An increasing number of faculty are using games as enhancements to the traditional learning environment with encouraging results. While the interactivity and engagement of games are highly positive a number of questions remain about how games will be developed, deployed and accepted in higher education. Invited Commentary: Mason, R. (2004) Commentary on: Oblinger, D. (2004). The Next Generation of Educational Engagement. [PDF] Editors: Terry Anderson and Denise Whitelock.",
+    "sourceUrl": "https://jime.open.ac.uk/articles/10.5334/2004-8-oblinger#abstract",
+    "sourceType": "publisher",
+    "metadataTitle": "The Next Generation of Educational Engagement",
+    "checkedAt": "2026-09-16T16:54:03.034057+00:00"
+  },
+  "10.3758/bf03193146": {
+    "status": "available",
+    "originalText": "G*Power (Erdfelder, Faul, & Buchner, 1996) was designed as a general stand-alone power analysis program for statistical tests commonly used in social and behavioral research. G*Power 3 is a major extension of, and improvement over, the previous versions. It runs on widely used computer platforms (i.e., Windows XP, Windows Vista, and Mac OS X 10.4) and covers many different statistical tests of the t, F , and χ 2 test families. In addition, it includes power analyses for z tests and some exact tests. G*Power 3 provides improved effect size calculators and graphic options, supports both distribution-based and design-based input modes, and offers all types of power analyses in which users might be interested. Like its predecessors, G*Power 3 is free.",
+    "sourceUrl": "https://link.springer.com/article/10.3758/BF03193146",
+    "sourceType": "publisher",
+    "metadataTitle": "G*Power 3: A flexible statistical power analysis program for the social, behavioral, and biomedical sciences",
+    "checkedAt": "2026-09-16T16:49:27.629335+00:00"
+  },
+  "10.3389/feduc.2018.00100": {
+    "status": "available",
+    "originalText": "Critical thinking is considered to be an important competence for students and graduates of higher education. Yet, it is largely unclear which teaching methods are most effective in supporting the acquisition of critical thinking skills, especially regarding one important aspect of critical thinking: avoiding biased reasoning. The present study examined whether creating desirable difficulties in instruction by prompting students to generate explanations of a problem-solution to themselves (i.e. self-explaining) is effective for fostering learning and transfer of unbiased reasoning. Seventy-nine first-year students of a Dutch Applied University of Sciences were first instructed on two categories of ‘heuristics and biases’ tasks (syllogism and base-rate or Wason and conjunction). Thereafter, they practiced these either with (self-explaining condition) or without (no self-explaining condition) self-explanation prompts that asked them to motivate their answers. Performance was measured on a pretest, immediate posttest, and delayed (two weeks later) posttest on all four task categories, to examine effects on learning (performance on practiced tasks) and transfer (performance on non-practiced tasks). Participants’ learning and transfer performance improved to a comparable degree from pretest to immediate posttest in both conditions, and this higher level of performance was retained on the delayed posttest. Surprisingly, self-explanation prompts had a negative effect on posttest performance on practiced tasks when those were Wason and conjunction tasks, and self-explaining had no effect on transfer performance. These findings suggest that the benefits of explicit instruction and practice on learning and transfer of unbiased reasoning cannot be enhanced by increasing the difficulty of the practice tasks through self-explaining.",
+    "sourceUrl": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2018.00100/full",
+    "sourceType": "publisher",
+    "metadataTitle": "Effects of Self-Explaining on Learning and Transfer of Critical Thinking Skills",
+    "checkedAt": "2026-09-16T16:49:30.656505+00:00"
+  },
+  "10.1016/j.compedu.2004.10.012": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131504001563",
+    "checkedAt": "2026-09-16T16:51:35.767641+00:00"
+  },
+  "10.1016/j.compedu.2010.10.001": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S036013151000285X",
+    "checkedAt": "2026-09-16T16:51:36.736654+00:00"
+  },
+  "10.1016/j.compedu.2010.12.003": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131510003520",
+    "checkedAt": "2026-09-16T16:51:36.965125+00:00"
+  },
+  "10.1016/j.compedu.2019.05.012": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131519301277",
+    "checkedAt": "2026-09-16T16:51:40.497683+00:00"
+  },
+  "10.1016/j.compedu.2019.103658": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131519302118",
+    "checkedAt": "2026-09-16T16:51:40.998214+00:00"
+  },
+  "10.1016/j.compedu.2022.104723": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131522002949",
+    "checkedAt": "2026-09-16T16:51:47.616100+00:00"
+  },
+  "10.1016/j.compedu.2025.105277": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0360131525000454",
+    "checkedAt": "2026-09-16T16:51:52.772681+00:00"
+  },
+  "10.1016/j.ijer.2017.07.014": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0883035517300502",
+    "checkedAt": "2026-09-16T16:51:56.523604+00:00"
+  },
+  "10.1111/jcal.12245": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "HTTP Error 403: Forbidden",
+    "sourceUrl": "https://doi.org/10.1111/jcal.12245",
+    "checkedAt": "2026-09-16T16:52:18.587807+00:00"
+  },
+  "10.1057/s41599-025-04846-4": {
+    "status": "not-checked",
+    "originalText": "",
+    "error": "DOI redirected outside supported HTTPS publisher hosts (https://idp.nature.com)",
+    "sourceUrl": "https://doi.org/10.1057/s41599-025-04846-4",
+    "checkedAt": "2026-09-16T17:02:21.186282+00:00"
+  },
+  "10.1007/978-3-030-21817-1_14": {
+    "status": "available",
+    "originalText": "Distance Education (DE) still have some challenges to be considered similar to the face-to-face mode of instruction regarding the quality of learning, including the lack in promoting the sense of presence. This research investigates whether a differentiated media support, complementary to the traditional Virtual Learning Environment (VLE), composed by the integration of 3D Virtual Worlds (3DVW) and Conversational Agents, in the role of a Virtual Companions, can promote the student’s sense of presence in order to contribute with the learning process in DE. A quasi-experiment pilot study was conducted with 36 students enrolled in the Financial Management discipline from a DE formal course. A 3DVW was developed in the light of the pedagogical model of Experiential Learning, in the form of a role-play simulation. The results reveal that although the students positively evaluated the experience in the 3DVW, it did not stimulate the sense of presence as expected. However, better performance rates were diagnosed for students who had the help of the Virtual Companion.",
+    "sourceUrl": "https://link.springer.com/chapter/10.1007/978-3-030-21817-1_14",
+    "sourceType": "publisher",
+    "metadataTitle": "Virtual Companions and 3D Virtual Worlds: Investigating the Sense of Presence in Distance Education",
+    "checkedAt": "2026-09-16T17:02:23.379921+00:00"
+  },
+  "10.1007/s11423-007-9076-z": {
+    "status": "available",
+    "originalText": "Educators and learning theorists suggest that play is one of the most important venues for learning, and games a useful educational tool. This study considers game activity preferences of middle school-aged children, so that educational games might be made more appealing to them. Based on children’s activity modes identified in our prior research, we developed the Educational Game Preferences Survey , which collects information on children’s preferences for play activity modes, their attitudes about each activity mode, and their preferences for game characters, settings, and forms of help. Survey results suggest the appeal of the Explorative mode of play for all children, especially girls. Gender differences in children’s preferences and attitudes for Active, Strategic, and Creative play modes were also found. We close with recommendations for game design to appeal to both boys and girls, as well as for boys and girls individually, to build engagement and hopefully lead to learning.",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s11423-007-9076-z",
+    "sourceType": "publisher",
+    "metadataTitle": "Gender differences in game activity preferences of middle school children: implications for educational game design",
+    "checkedAt": "2026-09-16T17:02:23.399964+00:00"
+  },
+  "10.1007/978-3-031-05637-6_38": {
+    "status": "available",
+    "originalText": "Games have been used to study psychological phenomena in the past. Further, Alternate Reality Games (ARGs) have also been discussed as great platforms to study psychological constructs such as team dynamics, social communication or coordination, personality, and emotions. In this paper, we introduce a new ARG we developed called LUX . LUX is developed as a new team-based Alternate Reality Game used to study the construct of coping and resilience within small groups of undergraduate/graduate students. We used a design research approach to develop LUX , where we developed and tested prototypes based on their ability to: (a) engage participants over time, and (b) collect granular data to study coping and resilience. To assess these prototypes, we developed a novel methodology that combines three methods: (i) qualitative coding of participants’ interaction outlining team work, exhibition of emotions, solution development, and submissions, (ii) process discovery, where a model of how participants interacted and solved process is developed from log data, (iii) a process visualization highlighting problem solving and team work with bottlenecks and time sinks, and (iv) a method to identify coping from process visualizations. We present LUX , the methodology, and results from using this methodology to evaluate one of the playtests.",
+    "sourceUrl": "https://link.springer.com/chapter/10.1007/978-3-031-05637-6_38",
+    "sourceType": "publisher",
+    "metadataTitle": "A Data-Driven Design of AR Alternate Reality Games to Measure Resilience",
+    "checkedAt": "2026-09-16T17:02:23.477054+00:00"
+  }
+}

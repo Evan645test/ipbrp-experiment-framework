@@ -1,0 +1,40 @@
+#!/usr/bin/env node
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import ts from 'typescript';
+const read=async path=>JSON.parse(await readFile(new URL(path,import.meta.url),'utf8'));
+const paper=await read('../public/data/paper-01.json');
+const before=(await read('../content/paper-01-before-reading-quality.json')).paper;
+const compile=async path=>`data:text/javascript;base64,${Buffer.from(ts.transpileModule(await readFile(new URL(path,import.meta.url),'utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText).toString('base64')}`;
+const {loadCuratorDraft,curatorStorageKey}=await import(await compile('../lib/curator-state.ts'));
+const {explanationIssues}=await import(await compile('../lib/reading-quality.ts'));
+const {readingSegments,resolveReadingSegment,emptyCompanionState,validateCompanionState}=await import(await compile('../lib/companion-state.ts'));
+const storage=new Map();globalThis.window={localStorage:{getItem:k=>storage.get(k)??null,setItem:(k,v)=>storage.set(k,v)}};
+const key=curatorStorageKey(paper.id);
+storage.set(key,JSON.stringify(before));
+const updated=loadCuratorDraft(paper);
+assert.equal(readingSegments(updated).length,66);
+for(const r of paper.readingQuality.explanationRepairs){
+  const segment=updated.segments.find(s=>s.id===r.segmentId);
+  assert.deepEqual(segment.translation,r.translation);
+  assert.deepEqual(explanationIssues(updated,segment),[]);
+}
+const merge=paper.readingUnitRepairs.find(r=>r.revision===paper.readingQuality.revision);
+for(const id of merge.absorbedIds)assert.equal(resolveReadingSegment(updated,id).id,merge.targetId);
+const oldCorrections=emptyCompanionState(paper);oldCorrections.corrections[merge.absorbedIds[0]]={[paper.exhibits[0].id]:'include'};
+assert.deepEqual(validateCompanionState(oldCorrections,paper),oldCorrections);
+const repaired=paper.readingQuality.explanationRepairs.find(r=>r.segmentId!==merge.targetId);
+const edit=structuredClone(before);edit.segments.find(s=>s.id===repaired.segmentId).translation.plainZh='保留我的手動稿';
+storage.set(key,JSON.stringify(edit));
+const preserved=loadCuratorDraft(paper).segments.find(s=>s.id===repaired.segmentId);
+assert.equal(preserved.translation.plainZh,'保留我的手動稿');assert.ok(explanationIssues(paper,preserved).length);
+preserved.translation.status='reviewed';assert.deepEqual(explanationIssues(paper,preserved),[]);
+const editedMerge=structuredClone(before);editedMerge.segments.find(s=>s.id===merge.absorbedIds[0]).translation.plainZh='清單手動稿';
+storage.set(key,JSON.stringify(editedMerge));const blocked=loadCuratorDraft(paper);
+assert.ok(blocked.pendingReadingUnitRepairs.includes(merge.targetId));
+assert.equal(blocked.segments.find(s=>s.id===merge.absorbedIds[0]).translation.plainZh,'清單手動稿');
+assert.ok(!blocked.segments.find(s=>s.id===merge.absorbedIds[0]).excluded);
+const deleted=structuredClone(paper);const removed=paper.readingQuality.appendices[0].relatedSegmentIds[0];deleted.segments=deleted.segments.filter(s=>s.id!==removed);
+storage.set(key,JSON.stringify(deleted));assert.ok(loadCuratorDraft(paper).readingQuality.appendices.every(a=>!a.relatedSegmentIds.includes(removed)));
+for(const s of readingSegments(paper))assert.deepEqual(explanationIssues(paper,s),[],s.id);
+console.log('Reading quality: 66 core steps, guarded old-draft migrations, protected manual edits, merged resumes, archived corrections, appendix links and explanation fidelity passed.');

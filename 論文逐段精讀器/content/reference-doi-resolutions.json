@@ -1,0 +1,1104 @@
+{
+  "paper-01-ref-ab144d9eb356": {
+    "sourceTextSha256": "ab144d9eb35609a985285a23d8955463ea722a317fd62aafacf01a640be60a04",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Observing+interaction%3A+An+introduction+to+sequential+analysis+%282nd+ed&query.author=Bakeman&rows=5",
+    "checkedAt": "2026-09-16T16:50:42.925615+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-01-ref-cce0375410ca": {
+    "sourceTextSha256": "cce0375410caefc38d0383fb491fb44e7ea13cdbe78db2d95d037ba1de0fd69d",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Sequential+analysis+and+observational+methods+for+the+behavioral+sciences+%281st+ed&query.author=Bakeman&rows=5",
+    "checkedAt": "2026-09-16T16:50:42.925715+00:00",
+    "doi": "10.1017/cbo9781139017343",
+    "metadataTitle": "Sequential Analysis and Observational Methods for the Behavioral Sciences",
+    "titleSimilarity": 0.954248366013072,
+    "matchedAuthor": "bakeman",
+    "matchedYears": [
+      2011,
+      2012
+    ],
+    "workType": "monograph",
+    "status": "verified"
+  },
+  "paper-01-ref-7ff7c453b9d0": {
+    "sourceTextSha256": "7ff7c453b9d058ed48ba3cb086a08c15ec0a986a72f0af571beb9b7c762fa67f",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Coding+as+a+playground%3A+Programming+and+computational+thinking+in+the+early+childhood+classroom&query.author=Bers&rows=5",
+    "checkedAt": "2026-09-16T16:50:44.800274+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-01-ref-0442113a66e3": {
+    "sourceTextSha256": "0442113a66e3f34a96a42bbb3226455920e737c05d5271d53f77365a6d2b055c",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=The+role+of+the+analysis+of+the+zone+of+proximal+development+in+the+course+of+remediation+of+executive+functions%3A+An+example&query.author=Akhutina&rows=5",
+    "checkedAt": "2026-09-16T16:50:42.925407+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-01-ref-8f038f968804": {
+    "sourceTextSha256": "8f038f968804c07e40bf18aa35719a025c90e16ef3a53050d43f511e3c60b80b",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=New+frameworks+for+studying+and+assessing+the+development+of+computational+thinking%2C+1%2C+25.&query.author=Brennan&rows=5",
+    "checkedAt": "2026-09-16T16:50:45.057516+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-01-ref-9852a03d8f73": {
+    "sourceTextSha256": "9852a03d8f736be4efd25e53752296df45d6603a9181471b4814a1ef2918775c",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=What+is+PBL%3F&query.author=Buck+Institute+for+Education&rows=5",
+    "checkedAt": "2026-09-16T16:50:46.891547+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-01-ref-984fd9aab250": {
+    "sourceTextSha256": "984fd9aab250dd2afbf12ebe2b35a8ebc76bf0771699fcb7d101a35c1822722d",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=STEM+project-based+learning+%3A+An+integrated+science%2C+technology%2C+engineering%2C+and+mathematics+%28STEM%29+approach&query.author=Capraro&rows=5",
+    "checkedAt": "2026-09-16T16:50:47.302478+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-01-ref-bf946b4c5db5": {
+    "sourceTextSha256": "bf946b4c5db55fc3af10d9f8adff88d66a5f0d5a4586b78f996bbfe5d8b6c679",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Project-based+instruction%3A+A+review+of+the+literature+on+effectiveness+in+prekindergarten&query.author=Holm&rows=5",
+    "checkedAt": "2026-09-16T16:50:48.696332+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-01-ref-3b0f02ecfe6e": {
+    "sourceTextSha256": "3b0f02ecfe6e0863af4967d3bfec60b62306d08df89e5960d27362b60d9824f3",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Introduction+to+classical+and+modern+test+theory&query.author=Crocker&rows=5",
+    "checkedAt": "2026-09-16T16:53:17.428795+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-01-ref-c093aa2ca490": {
+    "sourceTextSha256": "c093aa2ca4908bab04e2757cbb7f8b0f4632e2c7e9a1b3129f83424bd505fc0a",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Exploring+the+behavioural+patterns+in+project-based+learning+with+online+discussion%3A+Quantitative+content+analysis+and+progressive+sequential+analysis&query.author=Hou&rows=5",
+    "checkedAt": "2026-09-16T16:53:17.429089+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-01-ref-ef29af058192": {
+    "sourceTextSha256": "ef29af0581925c10c131ec2c3b644430294bd07c5086704a171614b682d083ff",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Child+development+and+education+%284th+ed&query.author=McDevitt&rows=5",
+    "checkedAt": "2026-09-16T16:53:18.738176+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-01-ref-d2df0e44817d": {
+    "sourceTextSha256": "d2df0e44817d50017abc2f9046fe1a283905bbc309409199fbca39b5b2b7e2b0",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Implementing+project+based+learning+in+early+childhood%3A+Overcoming+misconceptions+and+reaching+success&query.author=Lev&rows=5",
+    "checkedAt": "2026-09-16T16:53:17.429292+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-01-ref-ded4fcfc1d15": {
+    "sourceTextSha256": "ded4fcfc1d155f02a43e44d70293a1b9b5e76c0e7032c7bf20d7ff9d5dff99e6",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Mindstorms%3A+Children%2C+computers%2C+and+powerful+ideas&query.author=Papert&rows=5",
+    "checkedAt": "2026-09-16T16:53:18.818391+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-01-ref-8866cd26642a": {
+    "sourceTextSha256": "8866cd26642a24d08d4f0b1f9b25bbb45f0bcdbe91fba855cd591611ac54584a",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=The+collected+works+of+L.S.+vygotsky%3A+Volume+1%3A+Problems+of+general+psychology%2C+including+the+volume+thinking+and+speech&query.author=Vygotsky&rows=5",
+    "checkedAt": "2026-09-16T16:53:20.397825+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-01-ref-84602dc4940d": {
+    "sourceTextSha256": "84602dc4940d7068f644a3862c26a294bc34a13aa8a385aa3c5af4a4ac5c07b1",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=A+metaphor-based+robot+programming+approach+to+facilitating+young+children%E2%80%99s+computational+thinking+and+positive+learning+behaviors&query.author=Zhang&rows=5",
+    "checkedAt": "2026-09-16T16:53:21.588627+00:00",
+    "doi": "10.1016/j.compedu.2024.105039",
+    "metadataTitle": "A metaphor-based robot programming approach to facilitating young children’s computational thinking and positive learning behaviors",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "zhang",
+    "matchedYears": [
+      2024
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-02-ref-9217a0dfc802": {
+    "sourceTextSha256": "9217a0dfc802489848e77727390619fc45d7b41d79bb59815d7bbe482689a23d",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Observing+Interaction%3A+An+Introduction+to+Sequential+Analysis.+2nd+ed&query.author=Bakeman&rows=5",
+    "checkedAt": "2026-09-16T16:53:22.228858+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-01-ref-a34d74892884": {
+    "sourceTextSha256": "a34d74892884e07fa1687026423d36994a8a3abb964226f3bcc50cad1c67ce7a",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Developmental+stages+and+developmental+processes&query.author=Piaget&rows=5",
+    "checkedAt": "2026-09-16T16:53:19.934078+00:00",
+    "status": "access-error",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "paper-02-ref-11616b1e5335": {
+    "sourceTextSha256": "11616b1e5335ebf4e7cf4204c6d654f0809640f10257ecdd04b48e8c07dfc1e4",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Sequential+Analysis+and+Observational+Methods+for+the+Behavioral+Sciences&query.author=Bakeman&rows=5",
+    "checkedAt": "2026-09-16T16:53:24.213567+00:00",
+    "doi": "10.1017/cbo9781139017343",
+    "metadataTitle": "Sequential Analysis and Observational Methods for the Behavioral Sciences",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "bakeman",
+    "matchedYears": [
+      2011,
+      2012
+    ],
+    "workType": "monograph",
+    "status": "verified"
+  },
+  "paper-02-ref-9fe98364c3a5": {
+    "sourceTextSha256": "9fe98364c3a58fd812e12fd782a817d091a1f6feb4351595dc4f750fe164e51e",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Teaching+Software+Engineering+Through+a+Simulation+Game&query.author=Cagiltay&rows=5",
+    "checkedAt": "2026-09-16T16:53:25.009620+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-02-ref-cfeb196213f2": {
+    "sourceTextSha256": "cfeb196213f2c42c204c377ee029e60b54ea9aaf37b72bcec6ccaaf6b7c58d68",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Students%27+Perceptions+About+the+Use+of+Video+Games+in+the+Classroom&query.author=Bourgonjon&rows=5",
+    "checkedAt": "2026-09-16T16:53:24.743378+00:00",
+    "doi": "10.1016/j.compedu.2009.10.022",
+    "metadataTitle": "Students’ perceptions about the use of video games in the classroom",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "bourgonjon",
+    "matchedYears": [
+      2010
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-02-ref-8bcd38d1b3e0": {
+    "sourceTextSha256": "8bcd38d1b3e0f89531b5057c023f6b12fae36fa7bda60fe532c2041a3971ad7c",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=A+Learning+Diagnostic+System+Based+on+Concept+Map+Theory&query.author=Chang&rows=5",
+    "checkedAt": "2026-09-16T16:53:27.287639+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-02-ref-07f439dc3990": {
+    "sourceTextSha256": "07f439dc3990b74fb4574487a8c127bbd9fa41a941a9a128fa48936079d97131",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Integrating+Commercial+Video+Games+in+Education&query.author=Charsky&rows=5",
+    "checkedAt": "2026-09-16T16:53:28.309768+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-02-ref-da5759df034a": {
+    "sourceTextSha256": "da5759df034a2a4f82664be9d39b523fb4852a1b7705917761eccc91421bb038",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Roles%2C+Applications%2C+and+Trends+of+Concept+Map-Supported+Technology-Enhanced+Learning%3A+A+Review&query.author=Chang&rows=5",
+    "checkedAt": "2026-09-16T16:53:25.778000+00:00",
+    "status": "access-error",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "paper-02-ref-0003e1aaaba2": {
+    "sourceTextSha256": "0003e1aaaba205053ccb54a7a5cb3f63d65c30cf92d49f44343b30d88a3797da",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Effects+of+a+Concept+MappingBased+Flipped+Classroom+Approach+on+EFL+Students%27+English+Speaking+Performance%2C+Learning+Perceptions+and+Speaking+Anxiety&query.author=Chen&rows=5",
+    "checkedAt": "2026-09-16T16:53:29.646269+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-02-ref-88c1d116d209": {
+    "sourceTextSha256": "88c1d116d209d68032f4672940b7f2a3f3f2c360e97d7b99533fcf5c9facd2f3",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=CLIL%3A+Content+and+Language+Integrated+Learning&query.author=Coyle&rows=5",
+    "checkedAt": "2026-09-16T16:53:31.762362+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-02-ref-780acde40473": {
+    "sourceTextSha256": "780acde404734be16bb2142c4847aa64e1b98cc37c2f082321ba0f0f3202ea97",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Effectiveness+of+Using+a+Video+Game+to+Teach+a+Course+in+Mechanical+Engineering&query.author=Coller&rows=5",
+    "checkedAt": "2026-09-16T16:53:30.875332+00:00",
+    "status": "access-error",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "paper-02-ref-da6d75f92026": {
+    "sourceTextSha256": "da6d75f92026cdc82fdc09ae2f0f0231dd5b6988f172535118617777f9aace7e",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=The+Effect+of+Concept+Mapping+on+Students%27+Learning+Achievements+and+Interests&query.author=Chiou&rows=5",
+    "checkedAt": "2026-09-16T16:53:30.491274+00:00",
+    "doi": "10.1080/14703290802377240",
+    "metadataTitle": "The effect of concept mapping on students’ learning achievements and interests",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "chiou",
+    "matchedYears": [
+      2008
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-02-ref-4d52eb5f3de6": {
+    "sourceTextSha256": "4d52eb5f3de665a7af34fd5619072ad2de69d1cdb4787d8d0826f6c647a211d5",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Content-and-Language+Integrated+Learning%3A+From+Practice+to+Principles&query.author=Dalton-Puffer&rows=5",
+    "checkedAt": "2026-09-16T16:53:35.914838+00:00",
+    "doi": "10.1017/s0267190511000092",
+    "metadataTitle": "Content-and-Language Integrated Learning: From Practice to Principles?",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "dalton puffer",
+    "matchedYears": [
+      2011
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-02-ref-60691bf12349": {
+    "sourceTextSha256": "60691bf12349a69bfcb3883e8cb815b69ac78544f9f1df3a1874f22eccf70646",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Flow%3A+The+Psychology+of+Optimal+Experience&query.author=Csikszentmihalyi&rows=5",
+    "checkedAt": "2026-09-16T16:53:35.254350+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-02-ref-4f7b5aa697c9": {
+    "sourceTextSha256": "4f7b5aa697c95a4206a0783a3a07355b4cf67e566d176c15d53119673a29151f",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Making+Educational+Computer+Games+Educational&query.author=Fisch&rows=5",
+    "checkedAt": "2026-09-16T16:53:37.826629+00:00",
+    "doi": "10.1145/1109540.1109548",
+    "metadataTitle": "Making educational computer games \"educational\"",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "fisch",
+    "matchedYears": [
+      2005
+    ],
+    "workType": "proceedings-article",
+    "status": "verified"
+  },
+  "paper-02-ref-dabf2f835aac": {
+    "sourceTextSha256": "dabf2f835aac016962a5b76ec804587c35de2a39292bf14083948b6dcaf179bc",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Discovering+Statistics+Using+IBM+SPSS+Statistics.+4th+ed&query.author=Field&rows=5",
+    "checkedAt": "2026-09-16T16:53:36.684820+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-02-ref-9dc62a91f8af": {
+    "sourceTextSha256": "9dc62a91f8afce6ea5f9d595c5bade7597e8f7c83a02cb2d86e94835c95043c7",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=What+Video+Games+Have+to+Teach+Us+About+Learning+and+Literacy&query.author=Gee&rows=5",
+    "checkedAt": "2026-09-16T16:53:38.566349+00:00",
+    "doi": "10.1145/950566.950595",
+    "metadataTitle": "What video games have to teach us about learning and literacy",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "gee",
+    "matchedYears": [
+      2003
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-02-ref-4b8a9b308f9a": {
+    "sourceTextSha256": "4b8a9b308f9a629d18b9c4b0f6169f6c6918f02234fddab0639c84c0237a1f75",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Flow+Experiences+of+Children+in+an+Interactive+Social+Game+Environment&query.author=Inal&rows=5",
+    "checkedAt": "2026-09-16T16:53:39.731442+00:00",
+    "doi": "10.1111/j.1467-8535.2007.00709.x",
+    "metadataTitle": "Flow experiences of children in an interactive social game environment",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "inal",
+    "matchedYears": [
+      2007
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-02-ref-c45144df6275": {
+    "sourceTextSha256": "c45144df6275a11d368d3faade858a8b96968b6e3b8cf4578e84f6cc1287d65f",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Exploring+the+Role+of+Concept+Mapping+in+Science+Inquiry+Learning%3A+A+Longitudinal+Analysis+of+Motivation+and+Participation&query.author=Huang&rows=5",
+    "checkedAt": "2026-09-16T16:53:39.615507+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-02-ref-02a126be96f9": {
+    "sourceTextSha256": "02a126be96f9a5a6d9b3ecc79bed234abd7e04b73c53aa8345f893d17a12cac2",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Applying+a+Knowledge+Visualization+Approach+to+Develop+Digital+Concept+Maps+for+Flipped+Learning%3A+An+Investigation+of+Learning+Achievement%2C+Motivation+and+Behavior+Patterns&query.author=Hwang&rows=5",
+    "checkedAt": "2026-09-16T16:53:39.656575+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-02-ref-a8f29a78a3e5": {
+    "sourceTextSha256": "a8f29a78a3e5fad2dba38094c13a7a26778e801d1e389570b38320422b0c0722",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=The+Effect+of+CLIL+Context+on+the+Primary+Education+EFL+Receptive+and+Productive+Lexical+Growth&query.author=Jafarigohar&rows=5",
+    "checkedAt": "2026-09-16T16:53:41.724661+00:00",
+    "doi": "10.1177/13621688221078997",
+    "metadataTitle": "The effect of CLIL context on the primary education EFL receptive and productive lexical growth",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "jafarigohar",
+    "matchedYears": [
+      2022,
+      2025
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-02-ref-3b9902c46f39": {
+    "sourceTextSha256": "3b9902c46f3947203fd2475ba14dd6ec8dc43c97314a62af88b8584174be6b22",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Gender+Differences+in+Game+Activity+Preferences+of+Middle+School+Children%3A+Implications+for+Educational+Game+Design&query.author=Kinzie&rows=5",
+    "checkedAt": "2026-09-16T16:53:43.578970+00:00",
+    "doi": "10.1007/s11423-007-9076-z",
+    "metadataTitle": "Gender differences in game activity preferences of middle school children: implications for educational game design",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "kinzie",
+    "matchedYears": [
+      2008
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-02-ref-7137fcc48dbc": {
+    "sourceTextSha256": "7137fcc48dbc9b2d21905ea3795961fadd9844c1e94657fd32e980a6e4cf8f2c",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=A+Case+Study+of+Computer+Gaming+for+Math%3A+Engaged+Learning+From+Gameplay&query.author=Ke&rows=5",
+    "checkedAt": "2026-09-16T16:53:41.884554+00:00",
+    "doi": "10.1016/j.compedu.2008.03.003",
+    "metadataTitle": "A case study of computer gaming for math: Engaged learning from gameplay?",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "ke",
+    "matchedYears": [
+      2008
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-02-ref-80047b6de6a2": {
+    "sourceTextSha256": "80047b6de6a2f10e90345b76ef3108a370b3c7f32c888f3a5d0fb6398fac29f7",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Principles+and+Practice+in+Second+Language+Acquisition&query.author=Krashen&rows=5",
+    "checkedAt": "2026-09-16T16:53:43.789385+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-02-ref-24a5cedf50ee": {
+    "sourceTextSha256": "24a5cedf50eeff5b56239917c5e525ed21e421fe5f722ffa120a34f00b81a078",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Using+Ubiquitous+Games+in+an+English+Listening+and+Speaking+Course%3A+Impact+on+Learning+Outcomes+and+Motivation&query.author=Liu&rows=5",
+    "checkedAt": "2026-09-16T16:53:45.287647+00:00",
+    "doi": "10.1016/j.compedu.2010.02.023",
+    "metadataTitle": "Using ubiquitous games in an English listening and speaking course: Impact on learning outcomes and motivation",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "liu",
+    "matchedYears": [
+      2010
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-02-ref-5e91cf532b05": {
+    "sourceTextSha256": "5e91cf532b05d11c6136acb01236b5d94d0ed4cbf1c628c2cb425c7bb6064850",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=The+Theory+Underlying+Concept+Maps+and+How+to+Construct+Tem&query.author=Novak&rows=5",
+    "checkedAt": "2026-09-16T16:53:47.148654+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-02-ref-b299d0121481": {
+    "sourceTextSha256": "b299d0121481db55103c4e823cfc22c71d5cdac14ca523509e2d9b82cc9bc247",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=The+Use+of+Concept+Mapping+and+Knowledge+Vee+Mapping+With+Junior+High+School+Science+Students&query.author=Novak&rows=5",
+    "checkedAt": "2026-09-16T16:53:48.895214+00:00",
+    "doi": "10.1002/sce.3730670511",
+    "metadataTitle": "The use of concept mapping and knowledge vee mapping with junior high school science students",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "novak",
+    "matchedYears": [
+      1983,
+      2006
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-02-ref-c58f187fad52": {
+    "sourceTextSha256": "c58f187fad52be09c5b95165aa6eb62b7228b45418ea9410d751d8ae41af7cd9",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Game-Based+Learning%3A+Considering+the+Effectiveness+of+Games+as+Instructional+Tools&query.author=Nelson&rows=5",
+    "checkedAt": "2026-09-16T16:53:45.631974+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-02-ref-04a3258d682f": {
+    "sourceTextSha256": "04a3258d682fb568c87b683668f4e3ad7918fa266f8ea70b654afb6f86d6e5ad",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Learning+How+to+Learn&query.author=Novak&rows=5",
+    "checkedAt": "2026-09-16T16:53:47.386396+00:00",
+    "doi": "10.1017/cbo9781139173469",
+    "metadataTitle": "Learning How to Learn",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "novak",
+    "matchedYears": [
+      1984,
+      2012
+    ],
+    "workType": "monograph",
+    "status": "verified"
+  },
+  "paper-02-ref-3ae854777a97": {
+    "sourceTextSha256": "3ae854777a9749ab95d42eaaf1a1137690e27c28260dab5e8508e3b9e8c2a568",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Digital+Game-Based+Learning.+2nd+ed&query.author=Prensky&rows=5",
+    "checkedAt": "2026-09-16T16:53:51.680770+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-02-ref-552253a1682e": {
+    "sourceTextSha256": "552253a1682e58bb0c3c3fe43730b2322c136d94e273dd836b65595add74aefe",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=The+Effects+of+Incorporating+Concept+Mapping+Into+Flipped+Learning+on+EFL+Learners%27+Critical+Thinking+Performance&query.author=Sun&rows=5",
+    "checkedAt": "2026-09-16T16:53:53.123512+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-02-ref-c2f3300b1004": {
+    "sourceTextSha256": "c2f3300b1004646bea8c8268e6b32498f66ab6914803ccda5975fcf560ad5768",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=The+Ebb+and+Flow+of+Online+Learning&query.author=Pearce&rows=5",
+    "checkedAt": "2026-09-16T16:53:50.381585+00:00",
+    "doi": "10.1016/s0747-5632(04)00036-6",
+    "metadataTitle": "The ebb and flow of online learning",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "pearce",
+    "matchedYears": [
+      2005
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-02-ref-0d019afd4d0b": {
+    "sourceTextSha256": "0d019afd4d0b652a3c3d4a5452c4484fd6bbd7a9edcac3128ee52a12731480b6",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Digital+Game-Based+Learning%3A+It%27s+Not+Just+the+Digital+Natives+Who+Are+Restless&query.author=van+Eck&rows=5",
+    "checkedAt": "2026-09-16T16:53:56.737324+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-02-ref-8a636a3fac9a": {
+    "sourceTextSha256": "8a636a3fac9a6b452b0ced3dd5ec7d716590d17290c9211e7545ba13dec35960",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Mind+in+Society%3A+The+Development+of+Higher+Psychological+Processes%2C+edited+by+M&query.author=Vygotsky&rows=5",
+    "checkedAt": "2026-09-16T16:53:57.158740+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-02-ref-5b8ea531ead2": {
+    "sourceTextSha256": "5b8ea531ead22ae477b0c1ce49c0114406c96704b6441cd08221d24e9a48af02",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Using+Multivariate+Statistics.+7th+ed&query.author=Tabachnick&rows=5",
+    "checkedAt": "2026-09-16T16:53:53.642700+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-02-ref-bfe45c620c1f": {
+    "sourceTextSha256": "bfe45c620c1f6879a230dd44588cb924365fc9a37c2d12aa2b49b067bc1e046a",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Maximizing+Students%27+Content+and+Language+Development%3A+The+Pedagogical+Potential+of+Translanguaging+in+a+Chinese+Immersion+Setting&query.author=Wong&rows=5",
+    "checkedAt": "2026-09-16T16:53:58.616517+00:00",
+    "doi": "10.1016/j.learninstruc.2024.102023",
+    "metadataTitle": "Maximizing students’ content and language development: The pedagogical potential of translanguaging in a Chinese immersion setting",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "wong",
+    "matchedYears": [
+      2025
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-02-ref-1a3a86d063fd": {
+    "sourceTextSha256": "1a3a86d063fd719184eb8fdf29b73a3e8ca74cadf61b6f7b6768ea9cfc3548b3",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Qualitative+Research+from+Start+to+Finish&query.author=Yin&rows=5",
+    "checkedAt": "2026-09-16T16:53:59.949654+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-02-ref-886bee566d92": {
+    "sourceTextSha256": "886bee566d92f956c3aec8c7195f7e5f8ac5d2e1c4e541ce4c2a761e635213af",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Attaining+Self-Regulation%3A+A+Social+Cognitive+Perspective&query.author=Zimmerman&rows=5",
+    "checkedAt": "2026-09-16T16:54:00.702155+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-03-ref-c3870df94277": {
+    "sourceTextSha256": "c3870df942770dab6fd1bfba7dcc1724086a94ce5694853aa0678f3197d3ee56",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Observing+interaction%3A+An+Introduction+to+sequential+analysis+%282nd+ed.%29&query.author=Bakeman&rows=5",
+    "checkedAt": "2026-09-16T16:54:01.646990+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-02-ref-5c0af54c651b": {
+    "sourceTextSha256": "5c0af54c651bfa2f607228366f2389895e36f973bf8f9c8eb183da8fdfaaf96b",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Conversation+Technology+With+Micro-Learning%3A+The+Impact+of+Chatbot-Based+Learning+on+Students%27+Learning+Motivation+and+Performance&query.author=Yin&rows=5",
+    "checkedAt": "2026-09-16T16:53:59.051658+00:00",
+    "doi": "10.1177/0735633120952067",
+    "metadataTitle": "Conversation Technology With Micro-Learning: The Impact of Chatbot-Based Learning on Students’ Learning Motivation and Performance",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "yin",
+    "matchedYears": [
+      2020,
+      2021
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-03-ref-4a2fd55e04c1": {
+    "sourceTextSha256": "4a2fd55e04c1b5474c970f5694a12e39b8d5230bc40f44157bdd6cd445ffb954",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Promoting+physical+activity+among+international+students+in+higher+education%3A+A+peer-education+approach&query.author=Yan&rows=5",
+    "checkedAt": "2026-09-16T16:54:02.828333+00:00",
+    "doi": "10.1080/07303084.2013.746151",
+    "metadataTitle": "Promoting Physical Activity Among International Students in Higher Education: A Peer-Education Approach",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "yan",
+    "matchedYears": [
+      2013
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-04-ref-977c6dd7da52": {
+    "sourceTextSha256": "977c6dd7da52c26c01c3b284756909472aba7a22fec8b6862fcaa460ea31640a",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Teaching+for+quality+learning+at+university+%284th+ed.%29&query.author=Biggs&rows=5",
+    "checkedAt": "2026-09-16T16:54:03.322484+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-04-ref-0c783bab4b2c": {
+    "sourceTextSha256": "0c783bab4b2c1bccd7b48ac4ac3399f247f08190908565482ac2fc978c6610f6",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Statistical+power+analysis+for+the+behavioral+sciences+%282nd+ed.%29&query.author=Cohen&rows=5",
+    "checkedAt": "2026-09-16T16:54:04.828778+00:00",
+    "doi": "10.4324/9780203771587",
+    "metadataTitle": "Statistical Power Analysis for the Behavioral Sciences",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "cohen",
+    "matchedYears": [
+      2013
+    ],
+    "workType": "book",
+    "status": "verified"
+  },
+  "paper-04-ref-eb17bee572fa": {
+    "sourceTextSha256": "eb17bee572fa366a0e714fa7d9175333e8009dbaeeb4a7e65498428a8c942abc",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Change+by+design%3A+How+design+thinking+creates+new+alternatives+for+business+and+society&query.author=Brown&rows=5",
+    "checkedAt": "2026-09-16T16:54:03.381902+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-04-ref-bda9bf2d5caf": {
+    "sourceTextSha256": "bda9bf2d5cafebf9ee203365fd00af7810d3608bd8ad50168097657e6fc22905",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Science+to+practice%3A+Does+gamification+enhance+intrinsic+motivation&query.author=Jones&rows=5",
+    "checkedAt": "2026-09-16T16:54:06.277907+00:00",
+    "doi": "10.1177/14697874211066882",
+    "metadataTitle": "Science to practice: Does gamification enhance intrinsic motivation?",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "jones",
+    "matchedYears": [
+      2022,
+      2023
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-04-ref-66359e1b1a56": {
+    "sourceTextSha256": "66359e1b1a5646e0a408c8c9f9699398c816320b9f34dd1b1dde8ebc0f9e4e5d",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Flow%3A+The+psychology+of+optimal+experience&query.author=Csikszentmihalyi&rows=5",
+    "checkedAt": "2026-09-16T16:54:04.866219+00:00",
+    "status": "access-error",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "paper-04-ref-519eab6ce12c": {
+    "sourceTextSha256": "519eab6ce12c92ed4a3aefaad377449cf187b88608f864271556005fbdf6979f",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=The+nature+of+creativity&query.author=Sternberg&rows=5",
+    "checkedAt": "2026-09-16T16:54:08.159997+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-04-ref-92c3f5812432": {
+    "sourceTextSha256": "92c3f581243246f0f71319e6c8b94c96ab8c340c89a2f7f015417070ace458bb",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Foundations+for+health+promotion+%284th+ed.%29&query.author=Naidoo&rows=5",
+    "checkedAt": "2026-09-16T16:54:06.898499+00:00",
+    "status": "access-error",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "paper-04-ref-88e9078e4404": {
+    "sourceTextSha256": "88e9078e4404723fb0f6302d309c54867415e7118332db3cd19f64b53ea2138b",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Mind+in+society%3A+Development+of+higher+psychological+processes&query.author=Vygotsky&rows=5",
+    "checkedAt": "2026-09-16T16:54:09.943063+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-05-ref-7b1466efdbf8": {
+    "sourceTextSha256": "7b1466efdbf8599f8b01d4718d9bbbbe1131be2ae508d54e33618180b6f7a308",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Achievement+appraisals%2C+emotions+and+socio-cognitive+processes%3A+How+they+interplay+in+collaborative+problem-solving&query.author=Avry&rows=5",
+    "checkedAt": "2026-09-16T16:54:11.970201+00:00",
+    "doi": "10.1016/j.chb.2020.106267",
+    "metadataTitle": "Achievement appraisals, emotions and socio-cognitive processes: How they interplay in collaborative problem-solving?",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "avry",
+    "matchedYears": [
+      2020
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-05-ref-11cef1744b82": {
+    "sourceTextSha256": "11cef1744b82ccfaefd7cdf15d67df6cf83bc1ce3dc03075bcdc241765bdfc57",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Observing+interaction%3A+An+introduction+to+sequential+analysis&query.author=Bakeman&rows=5",
+    "checkedAt": "2026-09-16T16:54:12.197320+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-05-ref-fa1fbd80a88b": {
+    "sourceTextSha256": "fa1fbd80a88b92a48d9a2de029c8d30dbca12ff3d3a46ce91ce8a9a165541a14",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Social+foundations+of+thought+and+action&query.author=Bandura&rows=5",
+    "checkedAt": "2026-09-16T16:54:13.713743+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-04-ref-217720f0c2c9": {
+    "sourceTextSha256": "217720f0c2c995d60a53a453351d3ecae7d08b74d3f3d0be17f04133be2f50f0",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Global+competency+framework+for+universal+health+coverage.+https%3A%2F%2Fwww.who.int%2Fpublications%2Fi%2Fitem%2F9789240034686&query.author=World+Health+Organization&rows=5",
+    "checkedAt": "2026-09-16T16:54:10.582807+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-05-ref-aa184b3535c0": {
+    "sourceTextSha256": "aa184b3535c0a0ef8726e741458afa22fafe04740ef8a8ebc64575fdce6dd827",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Self-efficacy%3A+The+exercise+of+control&query.author=Bandura&rows=5",
+    "checkedAt": "2026-09-16T16:54:13.997203+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-05-ref-ec3c61c6dc96": {
+    "sourceTextSha256": "ec3c61c6dc9644e383d11a49cf8f2779c0f49aa1452f97e57d32ef25df8e4275",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Taxonomy+of+educational+objectives%3A+The+classification+of+educational+goals&query.author=Bloom&rows=5",
+    "checkedAt": "2026-09-16T16:54:15.852230+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-05-ref-97cd7c1263ee": {
+    "sourceTextSha256": "97cd7c1263eefbed2c4497142477edbdcc7784944aeb302f2ecfb4e831b7b179",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Concept+mapping+as+a+collaborative+tool+for+enhanced+online+learning&query.author=Cicognani&rows=5",
+    "checkedAt": "2026-09-16T16:54:17.205550+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-05-ref-f6e8146c3390": {
+    "sourceTextSha256": "f6e8146c33902b084681c84140c827f89d5b6c59db36a58a261666df95665d2b",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Artificial+intelligent+robots+for+precision+education&query.author=Chen&rows=5",
+    "checkedAt": "2026-09-16T16:54:16.436808+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-05-ref-4f4f93cf6c8b": {
+    "sourceTextSha256": "4f4f93cf6c8bc204fcf4392e706c5193377b8fd147d25d0cb66f34130ebdbd37",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Steps+in+conducting+a+scholarly+mixed+methods+study&query.author=Creswell&rows=5",
+    "checkedAt": "2026-09-16T16:54:17.216646+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-05-ref-874c88dfa32d": {
+    "sourceTextSha256": "874c88dfa32d381e1fa8e5c4fd4952d30c9e96322ea9ba1450f922723227de6c",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Generative+AI+and+ChatGPT%3A+Applications%2C+challenges%2C+and+AI-human+collaboration&query.author=Fui-Hoon+Nah&rows=5",
+    "checkedAt": "2026-09-16T16:54:20.064917+00:00",
+    "doi": "10.1080/15228053.2023.2233814",
+    "metadataTitle": "Generative AI and ChatGPT: Applications, challenges, and AI-human collaboration",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "fui hoon nah",
+    "matchedYears": [
+      2023
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-05-ref-d2cd19eec26a": {
+    "sourceTextSha256": "d2cd19eec26a113af45caa85722f0010c58d12571de300c2121a5b2b8d652555",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=School+engagement%3A+Potential+of+the+concept%2C+state+of+the+evidence&query.author=Fredricks&rows=5",
+    "checkedAt": "2026-09-16T16:54:18.991338+00:00",
+    "doi": "10.3102/00346543074001059",
+    "metadataTitle": "School Engagement: Potential of the Concept, State of the Evidence",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "fredricks",
+    "matchedYears": [
+      2004
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-05-ref-ba6248c6a315": {
+    "sourceTextSha256": "ba6248c6a31528e41a510ef06836f9430f3f1716ce03dfa276828f5e969645af",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Verification+of+the+perception+and+optimal+number+of+learners+in+a+group+for+computer-assisted+language+learning+%28Eds.%29&query.author=Hsu&rows=5",
+    "checkedAt": "2026-09-16T16:54:21.162938+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-05-ref-7ea2d9070e35": {
+    "sourceTextSha256": "7ea2d9070e35f17a5e93e89320a887e5c9de9813068edfaa264d59f3b86cdd4b",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Effects+of+incorporating+an+expert+decision-making+mechanism+into+chatbots+on+students%E2%80%99+achievement%2C+enjoyment%2C+and+anxiety&query.author=Hsu&rows=5",
+    "checkedAt": "2026-09-16T16:54:23.264838+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-05-ref-e0b656dcd2c5": {
+    "sourceTextSha256": "e0b656dcd2c53f9084c9987bb374e767be7a1184328607ec63a1a47356cb9f13",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Learning+analytics+for+investigating+the+mind+map-guided+AI+chatbot+approach+in+an+EFL+flipped+speaking+classroom&query.author=Lin&rows=5",
+    "checkedAt": "2026-09-16T16:54:24.940892+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-05-ref-41b62d5ba73d": {
+    "sourceTextSha256": "41b62d5ba73d4ea6b65ff5f2e629c8bdc826a46651b1cfdeb99fbdf0e79949ae",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Effect+of+a+reflection-guided+visualized+mindtool+strategy+for+improving+students%E2%80%99+learning+performance+and+behaviors+in+computational+thinking+development&query.author=Lin&rows=5",
+    "checkedAt": "2026-09-16T16:54:25.369085+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-05-ref-02e26bd3ae31": {
+    "sourceTextSha256": "02e26bd3ae3154051631152620d7d13e4be2d6dfe0eac401605e71b57f665d50",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=The+use+of+concept+mapping+and+knowledge+vee+mapping+with+junior+high+school+science+students&query.author=Novak&rows=5",
+    "checkedAt": "2026-09-16T16:54:25.624247+00:00",
+    "doi": "10.1002/sce.3730670511",
+    "metadataTitle": "The use of concept mapping and knowledge vee mapping with junior high school science students",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "novak",
+    "matchedYears": [
+      1983,
+      2006
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-05-ref-ea2e88fff0a0": {
+    "sourceTextSha256": "ea2e88fff0a048f7ec3bf38b2f871abb0eb42bc15374035f89d627b89c303e4f",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Cognitive+load+during+problem+solving%3A+Effects+on+learning&query.author=Sweller&rows=5",
+    "checkedAt": "2026-09-16T16:54:27.505727+00:00",
+    "doi": "10.1207/s15516709cog1202_4",
+    "metadataTitle": "Cognitive Load During Problem Solving: Effects on Learning",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "sweller",
+    "matchedYears": [
+      1988,
+      2010
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-05-ref-3203dff5ce11": {
+    "sourceTextSha256": "3203dff5ce11e576acbc923bbe0675a624fa3b2f21aba6e10367c1328b234725",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Motivation+and+social+cognitive+theory&query.author=Schunk&rows=5",
+    "checkedAt": "2026-09-16T16:54:27.089590+00:00",
+    "doi": "10.1016/j.cedpsych.2019.101832",
+    "metadataTitle": "Motivation and social cognitive theory",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "schunk",
+    "matchedYears": [
+      2020
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-05-ref-80dab7c5f5ad": {
+    "sourceTextSha256": "80dab7c5f5ada48c96d0085860b7ee51ea707145b69a2df2429c2f33f90899f1",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Thought+and+language+%28A&query.author=Vygotsky&rows=5",
+    "checkedAt": "2026-09-16T16:54:29.128593+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-06-ref-5d3cfccb58f1": {
+    "sourceTextSha256": "5d3cfccb58f16484aeffcc4755111aef6f3cda9dfeec832749b39051a1c32f3f",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Bringing+computational+thinking+to+K-12%3A+What+is+Involved+and+what+is+the+role+of+the+computer+science+education+community&query.author=Barr&rows=5",
+    "checkedAt": "2026-09-16T16:54:30.206043+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-05-ref-7dbbb4cdbcf9": {
+    "sourceTextSha256": "7dbbb4cdbcf94c2f50a589128c5bda9f386986ce70164e86c3fc229c11f75f99",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Concept+mapping%3A+A+useful+tool+for+science+education&query.author=Novak&rows=5",
+    "checkedAt": "2026-09-16T16:54:26.330115+00:00",
+    "doi": "10.1002/tea.3660271003",
+    "metadataTitle": "Concept mapping: A useful tool for science education",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "novak",
+    "matchedYears": [
+      1990,
+      2011
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-06-ref-aada17461844": {
+    "sourceTextSha256": "aada17461844c043eb32e3ab5a5af20353f59fd913bb23b526ffceb378698cf9",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Observing+interaction%3A+An+introduction+to+sequential+analysis&query.author=Bakeman&rows=5",
+    "checkedAt": "2026-09-16T16:54:29.876866+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-06-ref-97d2df894a0c": {
+    "sourceTextSha256": "97d2df894a0c52ff05e1ba75b7ef3487e1390590112f2d67935873107c2d731e",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Drafting+an+army&query.author=Carter&rows=5",
+    "checkedAt": "2026-09-16T16:54:32.646933+00:00",
+    "doi": "10.1177/1555412013513349",
+    "metadataTitle": "Drafting an Army",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "carter",
+    "matchedYears": [
+      2014
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-06-ref-04e81aa4710d": {
+    "sourceTextSha256": "04e81aa4710d74b34bd20b06898b0866a479d7af9523a56d064b368ab5bddbff",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Game-based+learning+as+a+vehicle+to+teach+first+aid+content%3A+A+randomized+experiment&query.author=Charlier&rows=5",
+    "checkedAt": "2026-09-16T16:54:33.252539+00:00",
+    "doi": "10.1111/josh.12057",
+    "metadataTitle": "Game‐Based Learning as a Vehicle to Teach First Aid Content: A Randomized Experiment",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "charlier",
+    "matchedYears": [
+      2013
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-06-ref-4007952e5316": {
+    "sourceTextSha256": "4007952e5316aa3c786bce289514761a0faa613b8731f90697d1b5d4f6d93a94",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Exploring+the+use+of+peer+assessment+as+a+vehicle+for+closing+the+gap+between+feedback+given+and+feedback+used&query.author=Cartney&rows=5",
+    "checkedAt": "2026-09-16T16:54:32.889450+00:00",
+    "doi": "10.1080/02602931003632381",
+    "metadataTitle": "Exploring the use of peer assessment as a vehicle for closing the gap between feedback given and feedback used",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "cartney",
+    "matchedYears": [
+      2010
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-06-ref-a169c8c64995": {
+    "sourceTextSha256": "a169c8c649951dab2411891b9732e776664d329fd5d40eac687cbea44d0a76b9",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=The+effect+of+using+board+games+in+reducing+language+anxiety+and+improving+oral+performance&query.author=Cheng&rows=5",
+    "checkedAt": "2026-09-16T16:54:34.406655+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-06-ref-5f78a07638b9": {
+    "sourceTextSha256": "5f78a07638b9078b5931c7d841205ac9e84ee1f06f9e66491362079651f92909",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Reflections%2C+rationales+and+realities&query.author=Clegg&rows=5",
+    "checkedAt": "2026-09-16T16:54:34.682351+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-06-ref-d64ad1c26fdb": {
+    "sourceTextSha256": "d64ad1c26fdb36e49487963db61593927b1f545420b6622cc637a900a99771d0",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Statistical+power+analysis+for+the+behavioral+Sciences&query.author=Cohen&rows=5",
+    "checkedAt": "2026-09-16T16:54:35.562427+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-06-ref-0590b5ab8ac6": {
+    "sourceTextSha256": "0590b5ab8ac64a65fbc5e01fa344760879fec25b4cffc3b65cf605375e33753a",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Peer-assisted+learning&query.author=Ehly&rows=5",
+    "checkedAt": "2026-09-16T16:54:36.053909+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-06-ref-25c4c346edc3": {
+    "sourceTextSha256": "25c4c346edc3ae425c1f8f926a5de4a74966b8f2bb29b1bc1c44fca82dedf4aa",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=An+empirical+review+of+anonymity+effects+in+peer+assessment%2C+peer+feedback%2C+peer+review%2C+peer+evaluation+and+peer+grading&query.author=Panadero&rows=5",
+    "checkedAt": "2026-09-16T16:54:41.369385+00:00",
+    "doi": "10.1080/02602938.2019.1600186",
+    "metadataTitle": "An empirical review of anonymity effects in peer assessment, peer feedback, peer review, peer evaluation and peer grading",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "panadero",
+    "matchedYears": [
+      2019
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-06-ref-0c49ee1172c7": {
+    "sourceTextSha256": "0c49ee1172c777f7d5c863f5220d6f0007bed519c72974c0a12a63f96d3c9380",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Scaffolding+self-regulated+learning+through+self-assessment+and+peer+assessment%3A+Guidelines+for+classroom+implementation&query.author=Panadero&rows=5",
+    "checkedAt": "2026-09-16T16:54:41.897182+00:00",
+    "doi": "10.1007/978-3-319-39211-0_18",
+    "metadataTitle": "Scaffolding Self-Regulated Learning Through Self-Assessment and Peer Assessment: Guidelines for Classroom Implementation",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "panadero",
+    "matchedYears": [
+      2016
+    ],
+    "workType": "book-chapter",
+    "status": "verified"
+  },
+  "paper-06-ref-82b8228d5ac8": {
+    "sourceTextSha256": "82b8228d5ac88c805f4d90e348e95d00e49474229242d1541d1f8b0efa979768",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Computational+thinking%3A+The+developing+definition+%28pp.+6%29&query.author=Selby&rows=5",
+    "checkedAt": "2026-09-16T16:54:43.427935+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-06-ref-b32a7c87fa13": {
+    "sourceTextSha256": "b32a7c87fa139ae999863b3cc8e8bcd46c00c838f0a96fe3fbd55ffe804aa09a",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=A+board+game+education&query.author=Hinebaugh&rows=5",
+    "checkedAt": "2026-09-16T16:54:40.110894+00:00",
+    "doi": "10.5771/9781607092612",
+    "metadataTitle": "A Board Game Education",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "hinebaugh",
+    "matchedYears": [
+      2009
+    ],
+    "workType": "monograph",
+    "status": "verified"
+  },
+  "paper-06-ref-6c365bb31254": {
+    "sourceTextSha256": "6c365bb3125405513fc1c1f1dcf566e034b2ea7e2f2ed9d583854646181d62e2",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Determinants+of+perceived+ease+of+use%3A+Integrating+control%2C+intrinsic+motivation%2C+and+emotion+into+the+technology+acceptance+model&query.author=Venkatesh&rows=5",
+    "checkedAt": "2026-09-16T16:54:44.074171+00:00",
+    "doi": "10.1287/isre.11.4.342.11872",
+    "metadataTitle": "Determinants of Perceived Ease of Use: Integrating Control, Intrinsic Motivation, and Emotion into the Technology Acceptance Model",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "venkatesh",
+    "matchedYears": [
+      2000
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-06-ref-a11fd751c09b": {
+    "sourceTextSha256": "a11fd751c09b922501586d696a949bb2a710a56722887dd9459d194c65f5c7d2",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Computational+thinking&query.author=Wing&rows=5",
+    "checkedAt": "2026-09-16T16:54:45.663738+00:00",
+    "doi": "10.1145/1118178.1118215",
+    "metadataTitle": "Computational thinking",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "wing",
+    "matchedYears": [
+      2006
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-06-ref-57702cc1dbc7": {
+    "sourceTextSha256": "57702cc1dbc7c49857d4759b543e4c3b30fff56608ad504a630322ad2434b761",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Test+anxiety%3A+The+state+of+the+art&query.author=Zeidner&rows=5",
+    "checkedAt": "2026-09-16T16:54:46.522197+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-07-ref-b1a1f204d01c": {
+    "sourceTextSha256": "b1a1f204d01c474d833e7d38f2764589d279c621498ef54a8969f4deef55af66",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=A+Data-Driven+Design+of+AR+Alternate+Reality+Games+to+Measure+Resilience&query.author=Habibi&rows=5",
+    "checkedAt": "2026-09-16T16:54:47.369045+00:00",
+    "doi": "10.1007/978-3-031-05637-6_38",
+    "metadataTitle": "A Data-Driven Design of AR Alternate Reality Games to Measure Resilience",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "habibi",
+    "matchedYears": [
+      2022
+    ],
+    "workType": "book-chapter",
+    "status": "verified"
+  },
+  "paper-07-ref-810ab0174d47": {
+    "sourceTextSha256": "810ab0174d47e86529bdd0f9d815a6c92d796a814673f3fb360a76989e91fb56",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Worlding+Through+Play%3A+Alternate+Reality+Games%2C+Large-Scale+Learning%2C+and+the+Source&query.author=Jagoda&rows=5",
+    "checkedAt": "2026-09-16T16:54:48.140060+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-06-ref-cd2dd351c962": {
+    "sourceTextSha256": "cd2dd351c9626683d8f08955768cdc126c8d7a49e412b3e9446f98689cbf946f",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Research+notebook%3A+Computational+thinking+%E2%80%93+What+and+why&query.author=Wing&rows=5",
+    "checkedAt": "2026-09-16T16:54:44.837980+00:00",
+    "status": "access-error",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "paper-07-ref-d3447066caf7": {
+    "sourceTextSha256": "d3447066caf7bffdafdac3869ef06fe302d6f3ecf6ba5ec11d93e3ec05b93d2c",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Virtual+Companions+and+3D+Virtual+Worlds%3A+Investigating+the+Sense+of+Presence+in+Distance+Education&query.author=Krassmann&rows=5",
+    "checkedAt": "2026-09-16T16:54:49.108194+00:00",
+    "doi": "10.1007/978-3-030-21817-1_14",
+    "metadataTitle": "Virtual Companions and 3D Virtual Worlds: Investigating the Sense of Presence in Distance Education",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "krassmann",
+    "matchedYears": [
+      2019
+    ],
+    "workType": "book-chapter",
+    "status": "verified"
+  },
+  "paper-07-ref-55a68bb00113": {
+    "sourceTextSha256": "55a68bb00113dff902f68b8dc2457027b3727a3c73e1b1614f45f2ee14b52535",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Learning+Analytics+for+Investigating+the+Mind+Map-Guided+AI+Chatbot+Approach+in+an+EFL+Flipped+Speaking+Classroom&query.author=Lin&rows=5",
+    "checkedAt": "2026-09-16T16:54:49.890502+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-07-ref-965c5747f759": {
+    "sourceTextSha256": "965c5747f75958b3c5ac599cefc0fef44a67629684bfe924667fd705699e6f46",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=The+Impact+of+an+Online+Gamified+Approach+Embedded+With+Self-Regulated+Learning+Support+on+Students%27+Reading+Performance+and+Intrinsic+Motivation%3A+A+Randomized+Controlled+Trial&query.author=Qiao&rows=5",
+    "checkedAt": "2026-09-16T16:54:49.984185+00:00",
+    "doi": "10.1111/jcal.12684",
+    "metadataTitle": "The impact of an online gamified approach embedded with self‐regulated learning support on students' reading performance and intrinsic motivation: A randomized controlled trial",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "qiao",
+    "matchedYears": [
+      2022
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-08-ref-61001053e097": {
+    "sourceTextSha256": "61001053e097e8892dc57456b2ae12a46af92f603f5a7f14e2502add9d423ba5",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Immersive+Virtual+Reality+in+STEM%3A+Is+IVR+an+Effective+Learning+Medium+and+Does+Adding+Self-Explanation+After+a+Lesson+Improve+Learning+Outcomes&query.author=Elme&rows=5",
+    "checkedAt": "2026-09-16T16:54:51.726780+00:00",
+    "doi": "10.1007/s11423-022-10139-3",
+    "metadataTitle": "Immersive virtual reality in STEM: is IVR an effective learning medium and does adding self-explanation after a lesson improve learning outcomes?",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "elme",
+    "matchedYears": [
+      2022
+    ],
+    "workType": "journal-article",
+    "status": "verified"
+  },
+  "paper-08-ref-cb70a5f22510": {
+    "sourceTextSha256": "cb70a5f22510ef935764a76bf41ef7e584ab743c1cdcab53fbf52e3ff33ab7f9",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Self-Explanation+Strategy%3A+Supporting+Students+Critical+Thinking+in+Reading+Comprehension+for+Science+Class+in+Senior+High+School&query.author=Fajrin&rows=5",
+    "checkedAt": "2026-09-16T16:54:52.335593+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-08-ref-4e049f147733": {
+    "sourceTextSha256": "4e049f147733926c08348b0bfe0e6f9896e18a31f1d49f689d971984b65f6343",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Design+and+Analysis%3A+A+Researcher%27s+Handbook&query.author=Keppel&rows=5",
+    "checkedAt": "2026-09-16T16:54:53.251023+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-08-ref-eee30f414264": {
+    "sourceTextSha256": "eee30f414264c07760e35e464a4dfb01bb25c0589f76cbbba27a5e8a23e9e38c",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=The+Immersion+Principle+in+Multimedia+Learning&query.author=Makransky&rows=5",
+    "checkedAt": "2026-09-16T16:54:54.010326+00:00",
+    "doi": "10.1017/9781108894333.031",
+    "metadataTitle": "The Immersion Principle in Multimedia Learning",
+    "titleSimilarity": 1.0,
+    "matchedAuthor": "makransky",
+    "matchedYears": [
+      2021
+    ],
+    "workType": "book-chapter",
+    "status": "verified"
+  },
+  "paper-08-ref-b48a36c3fe91": {
+    "sourceTextSha256": "b48a36c3fe91b7b6cadeaa0de239f7e5312d04a91736117479c417f6263ff788",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Statistical+Power+Analysis+for+the+Behavioral+Sciences.+2nd+ed&query.author=Cohen&rows=5",
+    "checkedAt": "2026-09-16T16:54:50.756167+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-08-ref-d7a9f15e7564": {
+    "sourceTextSha256": "d7a9f15e7564cd48f8a10fdb69298b1b38cd1c36e3ad3942d570ae2a3e8e1041",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=The+ABCs+of+How+we+Learn%3A+26+Scientifically+Proven+Approaches%2C+How+They+Work%2C+and+When+to+Use+Them&query.author=Schwartz&rows=5",
+    "checkedAt": "2026-09-16T16:54:56.445151+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-08-ref-956019d36e0f": {
+    "sourceTextSha256": "956019d36e0f200de3d6f5c1bb0641fa784eb63338d7a9e98ce7c6fec82dfe6e",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Cognitive+Load+Theory&query.author=Sweller&rows=5",
+    "checkedAt": "2026-09-16T16:54:57.025150+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-08-ref-d3786aab0644": {
+    "sourceTextSha256": "d3786aab0644f220a23ece7280a05ee3ed33cd61a1042aac456aa74ee91108f8",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Innovative+Use+of+Mobile+Video+Conferencing+in+Face-To-Face+Collaborative+Science+Learning%3A+The+Case+of+Reflection+in+Optics&query.author=Ting&rows=5",
+    "checkedAt": "2026-09-16T16:54:57.597865+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  },
+  "paper-08-ref-ca5a3c5a7594": {
+    "sourceTextSha256": "ca5a3c5a759436f4fb3601274e997b68bf91bef8cfe45c2609e2e57f9aa95809",
+    "sourceUrl": "https://api.crossref.org/works?query.bibliographic=Constructivism%3A+From+Philosophy+to+Practice.+https%3A%2F%2F+eric.ed.gov%2F%3Fid%3DED444966.&query.author=Murphy&rows=5",
+    "checkedAt": "2026-09-16T16:54:54.665351+00:00",
+    "status": "no-exact-match",
+    "candidateCount": 0
+  }
+}

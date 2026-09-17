@@ -1,0 +1,86 @@
+{
+  "paperId": "paper-04",
+  "sourceSha256": "cb615219ba33a28ac6e3b3c1e11f88c19d86aa63cd61f094b7812dd202bd1a8c",
+  "figures": [
+    {
+      "label": "Table 1",
+      "page": 10,
+      "bbox": [
+        58,
+        50,
+        438,
+        216
+      ],
+      "output": "public/figures/paper-04/table1_p10_remaining_companion.png",
+      "dpi": 300,
+      "method": "source-checked-300dpi-complete-companion-crop",
+      "status": "ok",
+      "quality_score": 1.0,
+      "quality_reasons": []
+    },
+    {
+      "label": "Table 2",
+      "page": 10,
+      "bbox": [
+        58,
+        446,
+        438,
+        643
+      ],
+      "output": "public/figures/paper-04/table2_p10_remaining_companion.png",
+      "dpi": 300,
+      "method": "source-checked-300dpi-complete-companion-crop",
+      "status": "ok",
+      "quality_score": 1.0,
+      "quality_reasons": []
+    },
+    {
+      "label": "Table 3",
+      "page": 12,
+      "bbox": [
+        58,
+        50,
+        438,
+        320
+      ],
+      "output": "public/figures/paper-04/table3_p12_remaining_companion.png",
+      "dpi": 300,
+      "method": "source-checked-300dpi-complete-companion-crop",
+      "status": "ok",
+      "quality_score": 1.0,
+      "quality_reasons": []
+    },
+    {
+      "label": "Figure 1",
+      "page": 6,
+      "bbox": [
+        58,
+        51.3690185546875,
+        438,
+        259
+      ],
+      "output": "public/figures/paper-04/figure1_p06_remaining_companion.png",
+      "dpi": 300,
+      "method": "source-checked-300dpi-complete-companion-crop",
+      "status": "ok",
+      "quality_score": 1.0,
+      "quality_reasons": []
+    },
+    {
+      "label": "Figure 2",
+      "page": 7,
+      "bbox": [
+        58,
+        51.34901428222656,
+        438,
+        259
+      ],
+      "output": "public/figures/paper-04/figure2_p07_remaining_companion.png",
+      "dpi": 300,
+      "method": "source-checked-300dpi-complete-companion-crop",
+      "status": "ok",
+      "quality_score": 1.0,
+      "quality_reasons": []
+    }
+  ]
+}

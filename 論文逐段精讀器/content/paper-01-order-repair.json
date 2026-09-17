@@ -1,0 +1,38 @@
+{
+  "sourceSha256": "f115fdd76360d2b81f11162f81a419d30c973b58bdeb13a4b504a1f1a63a3ca1",
+  "segments": {
+    "paper-01-s-bd0df1233583": {
+      "sourceText": "Computational thinking (CT), a set of thinking skills involving computer science principles for individuals to solve problems, has become a priority for K-12 Science, Technology, Engineering, and Mathematics (STEM) education (Wing, 2006; Zhang et al., 2025). In recent years, CT has been progressively integrated into early childhood education (Su & Yang, 2023). Cultivating young children’s CT is significant as it is positively associated with STEM learning, cognitive development, and career pathways (Lin et al., 2023; Tsarava et al., 2022).",
+      "translation": {
+        "faithfulZh": "運算思維（CT）是一組讓個人運用電腦科學原理解決問題的思考技能，已成為中小學科學、科技、工程與數學（STEM）教育的重點（Wing, 2006；Zhang et al., 2025）。近年來，運算思維也逐步融入幼兒教育（Su & Yang, 2023）。培養幼兒的運算思維具有重要意義，因為它與 STEM 學習、認知發展及未來職涯發展呈正向關聯（Lin et al., 2023；Tsarava et al., 2022）。",
+        "plainZh": "作者先說明運算思維是什麼，以及為什麼值得從幼兒階段開始培養。它不只是學寫程式，而是運用電腦科學的思考方式解決問題。這一段引用研究，指出運算思維與 STEM 學習、認知發展及未來職涯有正向關聯；這裡談的是關聯，不等於已證明因果。",
+        "status": "ai-draft",
+        "reviewedAt": null,
+        "generatedAt": "2026-09-17T06:30:03Z",
+        "generatedBy": "Codex source-grounded paragraph restoration"
+      }
+    },
+    "paper-01-s-dd5aa63837c8": {
+      "sourceText": "Programming, which involves children applying computer science principles (e.g., algorithms, debugging) to solve problems, is an effective approach to fostering CT (Hsu et al., 2018; McCormick & Hall, 2021). In programming activities, children plan, handle information, and change their ways of thinking, which also benefits executive function (EF) (Arf´e et al., 2020; Zhang et al., 2025). EF involves a series of cognitive skills that self-regulate thoughts and behaviors to solve problems (Diamond, 2012). It is closely linked with academic performance, social bonds, and health (Ahmed et al., 2018; Lohndorf et al., 2021). EF and CT share a similar problem-solving nature. Studies have revealed a correlation between them (Liu, 2024; Pellas, 2024; Robertson et al., 2020).",
+      "translation": {
+        "faithfulZh": "程式設計讓兒童運用電腦科學原理，例如演算法與除錯，來解決問題，是培養運算思維（CT）的有效方法（Hsu et al., 2018；McCormick & Hall, 2021）。在程式設計活動中，兒童需要規劃、處理資訊及調整思考方式，這也有助於執行功能（EF）（Arfé et al., 2020；Zhang et al., 2025）。執行功能包含一系列認知技能，讓個人透過自我調節思想與行為來解決問題（Diamond, 2012）。它與學業表現、社會連結及健康密切相關（Ahmed et al., 2018；Lohndorf et al., 2021）。執行功能與運算思維都具有解決問題的特性。研究也發現兩者之間具有相關性（Liu, 2024；Pellas, 2024；Robertson et al., 2020）。",
+        "plainZh": "這一段把程式設計、運算思維與執行功能連起來。孩子寫程式時不只要想出步驟、找出錯誤，也要規劃、處理資訊和調整想法。作者據此說明，程式設計可能同時支持 CT 與 EF 的發展，並引用研究指出兩種能力彼此相關。",
+        "status": "ai-draft",
+        "reviewedAt": null,
+        "generatedAt": "2026-09-17T06:30:03Z",
+        "generatedBy": "Codex source-grounded paragraph restoration"
+      }
+    },
+    "paper-01-s-6e363a12658d": {
+      "sourceText": "With advancements in robotics, educational robots have been adopted to support children’s cognitive growth (Kalogiannakis, Papadakis, & Dorouka, 2020; Misirli and Komis, 2023). Programmable robots are an age-appropriate tool that offers children playful and hands-on experiences of manipulating tangible objects (Chen et al., 2024; Levinson & Bers, 2024). Empirical studies have demonstrated that robot programming could effectively enhance children’s CT and EF (Berson et al., 2023; Zurnacı & Turan, 2024).",
+      "translation": {
+        "faithfulZh": "隨著機器人技術的進步，教育機器人已被用來支持兒童的認知發展（Kalogiannakis, Papadakis, & Dorouka, 2020；Misirli and Komis, 2023）。可程式設計機器人是符合兒童年齡需求的工具，讓他們透過遊戲及親手操作實體物件來獲得學習經驗（Chen et al., 2024；Levinson & Bers, 2024）。實證研究顯示，機器人程式設計能有效提升兒童的運算思維（CT）與執行功能（EF）（Berson et al., 2023；Zurnacı & Turan, 2024）。",
+        "plainZh": "作者接著說明為什麼選擇機器人程式設計作為學習活動：孩子可以透過遊戲和實體操作學習，而不只是看螢幕。這一段引用既有實證研究，支持機器人程式設計有助於 CT 和 EF；這不是本篇研究的結果，而是研究背景。",
+        "status": "ai-draft",
+        "reviewedAt": null,
+        "generatedAt": "2026-09-17T06:30:03Z",
+        "generatedBy": "Codex source-grounded paragraph restoration"
+      }
+    }
+  }
+}

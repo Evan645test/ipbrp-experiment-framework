@@ -1,0 +1,43 @@
+{
+  "10.1007/s11528-023-00841-1": {
+    "abstract": {
+      "status": "available",
+      "originalText": "Educational robotics has been adopted to create interactive and engaging learning environments to develop computational thinking (CT) in K-12 learners.",
+      "summaryZh": "這篇系統性回顧整理 2012 至 2021 年間的 22 篇實徵研究，探討教育機器人如何支持學前至六年級學習者的運算思維。研究多在正式教育場域進行，活動時間介於 80 分鐘與 24 小時；最常研究的能力包括順序、條件、迴圈、除錯與演算法思考。常見教學策略為合作學習、專題式學習及具身學習。作者討論適合年幼學習者的能力、機器人套件與教學方式，也指出研究缺口與未來方向。",
+      "summaryMethod": "source-grounded",
+      "sourceUrl": "https://link.springer.com/article/10.1007/s11528-023-00841-1#Abs1",
+      "sourceType": "publisher",
+      "checkedAt": "2026-09-17T00:00:00Z"
+    }
+  },
+  "10.1007/s10639-012-9242-8": {
+    "abstract": {
+      "status": "available",
+      "originalText": "As a cornerstone of Cupi2, we use incremental projects intended to motivate students",
+      "summaryZh": "這篇文章介紹 Cupi2 如何透過漸進式專題，讓學生完成預先設計的程式鷹架，逐步培養程式設計能力。作者指出，教師必須仔細安排鷹架與活動，而高品質鷹架的製作相當耗時；文章提出以軟體工廠支援可擴展的專題設計。摘要未提供對幼兒運算思維或執行功能的實驗結果。",
+      "sourceUrl": "https://link.springer.com/article/10.1007/s10639-012-9242-8",
+      "sourceType": "publisher",
+      "checkedAt": "2026-09-16T00:00:00Z"
+    }
+  },
+  "10.11648/j.sjedu.20160406.15": {
+    "abstract": {
+      "status": "available",
+      "originalText": "This paper proposes an incremental teaching project concept and its design strategy on top of the traditional project-based learning.",
+      "summaryZh": "作者指出，傳統專題式學習的專題可能過於龐大、複雜，學生在有限課程時間內難以掌握，也可能影響理解與信心。文章提出漸進式教學專題的概念與設計策略，並以 Java 程式設計課程為例，討論實施時應注意的事項。這是教學設計的摘要，不能直接當成對幼兒學習成效的證據。",
+      "sourceUrl": "https://www.sciencepublishinggroup.com/article/10.11648/j.sjedu.20160406.15",
+      "sourceType": "publisher",
+      "checkedAt": "2026-09-16T00:00:00Z"
+    }
+  },
+  "10.1007/s10648-018-9434-x": {
+    "abstract": {
+      "status": "available",
+      "originalText": "Self-explanation is a process by which learners generate inferences about causal connections or conceptual relationships.",
+      "summaryZh": "這篇後設分析整合 64 份研究報告中的 69 個效果量，檢視學習或解題時提供自我解釋提示的學習成效。隨機效果模型的整體加權效果量為 g＝0.55；研究也分析 20 個調節變項，指出自我解釋提示在多種教學條件下具有潛力。作者建議進一步研究由電腦生成提示的方式，而非把現有結果直接等同於所有情境都有效。",
+      "sourceUrl": "https://link.springer.com/article/10.1007/s10648-018-9434-x",
+      "sourceType": "publisher",
+      "checkedAt": "2026-09-16T00:00:00Z"
+    }
+  }
+}

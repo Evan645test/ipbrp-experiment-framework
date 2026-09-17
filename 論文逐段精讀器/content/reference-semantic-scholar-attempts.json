@@ -1,0 +1,847 @@
+{
+  "10.1002/sce.3730670511": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/2fffaa18e2f71204e42a346668108b5a923de485?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "The use of concept mapping and knowledge vee mapping with junior high school science students",
+    "databaseId": "https://www.semanticscholar.org/paper/2fffaa18e2f71204e42a346668108b5a923de485",
+    "checkedAt": "2026-09-16T16:57:25.160495+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1006/ceps.1994.1033": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/224e42e5fa59c4adf44f06c52f201c77d748cfee?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Assessing metacognitive awareness",
+    "databaseId": "https://www.semanticscholar.org/paper/224e42e5fa59c4adf44f06c52f201c77d748cfee",
+    "checkedAt": "2026-09-16T16:57:25.160674+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1006/cogp.1999.0734": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/086a7d7e8315ce3d25e1a2a7a2602b1d2c60eb7a?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "The unity and diversity of executive functions and their contributions to complex \"Frontal Lobe\" tasks: a latent variable analysis.",
+    "databaseId": "https://www.semanticscholar.org/paper/086a7d7e8315ce3d25e1a2a7a2602b1d2c60eb7a",
+    "checkedAt": "2026-09-16T16:57:25.161370+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1007/978-3-030-21817-1_14": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/c5fd0253828352741070391808daf3534b443bac?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Virtual Companions and 3D Virtual Worlds: Investigating the Sense of Presence in Distance Education",
+    "databaseId": "https://www.semanticscholar.org/paper/c5fd0253828352741070391808daf3534b443bac",
+    "checkedAt": "2026-09-16T16:57:25.161806+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1007/978-3-031-05637-6_38": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/3e516c1db78f82fb02e70083c93e732e75594985?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "A Data-Driven Design of AR Alternate Reality Games to Measure Resilience",
+    "databaseId": "https://www.semanticscholar.org/paper/3e516c1db78f82fb02e70083c93e732e75594985",
+    "checkedAt": "2026-09-16T16:57:25.162515+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1007/978-3-319-39211-0_18": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/8682d7455e592468a0db05e7715572a425475676?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Scaffolding Self-Regulated Learning Through Self-Assessment and Peer Assessment: Guidelines for Classroom Implementation",
+    "databaseId": "https://www.semanticscholar.org/paper/8682d7455e592468a0db05e7715572a425475676",
+    "checkedAt": "2026-09-16T16:57:25.163063+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1007/s11251-005-1272-9": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/7f71fecdfd0684551ed7e311fbe6484f930293ee?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Scaffolding Self-regulated Learning and Metacognition – Implications for the Design of Computer-based Scaffolds",
+    "databaseId": "https://www.semanticscholar.org/paper/7f71fecdfd0684551ed7e311fbe6484f930293ee",
+    "checkedAt": "2026-09-16T16:57:25.163496+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1007/s11423-007-9076-z": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/9a5e29435a27defc50114598b456f2ec10ef5fb4?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Gender differences in game activity preferences of middle school children: implications for educational game design",
+    "databaseId": "https://www.semanticscholar.org/paper/9a5e29435a27defc50114598b456f2ec10ef5fb4",
+    "checkedAt": "2026-09-16T16:57:25.163937+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1007/s11423-022-10139-3": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/46a716c24966db384f531d4eee77dc3256d53304?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Immersive virtual reality in STEM: is IVR an effective learning medium and does adding self-explanation after a lesson improve learning outcomes?",
+    "databaseId": "https://www.semanticscholar.org/paper/46a716c24966db384f531d4eee77dc3256d53304",
+    "checkedAt": "2026-09-16T16:57:25.164808+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/0959-4752(94)90003-5": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/10b88717fd8256fa0f9c6317c4e9a0f9f6ae5a1b?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "COGNITIVE LOAD THEORY, LEARNING DIFFICULTY, AND INSTRUCTIONAL DESIGN",
+    "databaseId": "https://www.semanticscholar.org/paper/10b88717fd8256fa0f9c6317c4e9a0f9f6ae5a1b",
+    "checkedAt": "2026-09-16T16:57:25.165256+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.cedpsych.2019.101832": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/2c9dd3a713121573070ac99191c8b0aa708034d5?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Motivation and social cognitive theory",
+    "databaseId": "https://www.semanticscholar.org/paper/2c9dd3a713121573070ac99191c8b0aa708034d5",
+    "checkedAt": "2026-09-16T16:57:25.165482+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.chb.2006.03.005": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/1bb8843f15e86140e04f434daed780eef2359968?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "The effects of group composition of self-efficacy and collective efficacy on computer-supported collaborative learning",
+    "databaseId": "https://www.semanticscholar.org/paper/1bb8843f15e86140e04f434daed780eef2359968",
+    "checkedAt": "2026-09-16T16:57:25.166064+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.chb.2015.07.045": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/e85845e8126306bc6a51d20ea6e6f16c85c46c4e?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Challenging games help students learn: An empirical study on engagement, flow and immersion in game-based learning",
+    "databaseId": "https://www.semanticscholar.org/paper/e85845e8126306bc6a51d20ea6e6f16c85c46c4e",
+    "checkedAt": "2026-09-16T16:57:25.166598+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.chb.2017.01.018": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/02f5d7f4056e377851ad99cad0357e4fc71c9091?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Educational Robotics intervention on Executive Functions in preschool children: A pilot study",
+    "databaseId": "https://www.semanticscholar.org/paper/02f5d7f4056e377851ad99cad0357e4fc71c9091",
+    "checkedAt": "2026-09-16T16:57:25.167043+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.chb.2019.03.013": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/c54d22be4c1cea4760a5689950fa22eb3fbc5f55?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Effects of an artificial agent as a behavioral model on motivational and learning outcomes",
+    "databaseId": "https://www.semanticscholar.org/paper/c54d22be4c1cea4760a5689950fa22eb3fbc5f55",
+    "checkedAt": "2026-09-16T16:57:25.167480+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.chb.2020.106267": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/54d50f8e6f71f38f2e648ed16c13e46b13b0b732?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Achievement appraisals, emotions and socio-cognitive processes: How they interplay in collaborative problem-solving?",
+    "databaseId": "https://www.semanticscholar.org/paper/54d50f8e6f71f38f2e648ed16c13e46b13b0b732",
+    "checkedAt": "2026-09-16T16:57:25.167951+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.chb.2020.106562": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/898bb3101c292546a659d67a506c41ab9b3e60e8?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Social fidelity in virtual agents: Impacts on presence and learning",
+    "databaseId": "https://www.semanticscholar.org/paper/898bb3101c292546a659d67a506c41ab9b3e60e8",
+    "checkedAt": "2026-09-16T16:57:25.168223+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2004.10.012": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/ac55a8094008274e17ac719a035438191483e98a?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Analyzing collaborative interactions: divergence, shared understanding and construction of knowledge",
+    "databaseId": "https://www.semanticscholar.org/paper/ac55a8094008274e17ac719a035438191483e98a",
+    "checkedAt": "2026-09-16T16:57:25.168444+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2008.03.003": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/4a8ce8214c74131a21d7b43b83672e9bde4fe80a?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "A case study of computer gaming for math: Engaged learning from gameplay?",
+    "databaseId": "https://www.semanticscholar.org/paper/4a8ce8214c74131a21d7b43b83672e9bde4fe80a",
+    "checkedAt": "2026-09-16T16:57:25.168677+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2009.02.016": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/680d1aa1f887618f2a9037a5a7e47ee1d5724619?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "A context-aware ubiquitous learning environment for conducting complex science experiments",
+    "databaseId": "https://www.semanticscholar.org/paper/680d1aa1f887618f2a9037a5a7e47ee1d5724619",
+    "checkedAt": "2026-09-16T16:57:25.169252+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2009.10.022": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/3302701d2667b873a354f6b4d722e71de1cc22c7?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Students' perceptions about the use of video games in the classroom",
+    "databaseId": "https://www.semanticscholar.org/paper/3302701d2667b873a354f6b4d722e71de1cc22c7",
+    "checkedAt": "2026-09-16T16:57:25.169481+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2010.02.023": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/94f9869ec0b2294449755d87b20ccda67d789a82?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Using ubiquitous games in an English listening and speaking course: Impact on learning outcomes and motivation",
+    "databaseId": "https://www.semanticscholar.org/paper/94f9869ec0b2294449755d87b20ccda67d789a82",
+    "checkedAt": "2026-09-16T16:57:25.169881+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2010.10.001": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/b890844e0eed31112578d62f6a24c6879940dbb1?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "\"Games are made for fun\": Lessons on the effects of concept maps in the classroom use of computer games",
+    "databaseId": "https://www.semanticscholar.org/paper/b890844e0eed31112578d62f6a24c6879940dbb1",
+    "checkedAt": "2026-09-16T16:57:25.170108+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2010.12.003": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/3f3fac9b4c74177f02bd72fe1ed18ec72ff3278d?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Design and implementation of a student-generated virtual museum in a language curriculum to enhance collaborative multimodal meaning-making",
+    "databaseId": "https://www.semanticscholar.org/paper/3f3fac9b4c74177f02bd72fe1ed18ec72ff3278d",
+    "checkedAt": "2026-09-16T16:57:25.170419+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2013.07.008": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/9e193e6a026e3e8b18ae8a3eeb6ff4d625bc38da?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "A concept map-embedded educational computer game for improving students' learning performance in natural science courses",
+    "databaseId": "https://www.semanticscholar.org/paper/9e193e6a026e3e8b18ae8a3eeb6ff4d625bc38da",
+    "checkedAt": "2026-09-16T16:57:25.170854+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2013.10.020": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/2b46c2e979f15170de15f6f372b944ac7c87c9a2?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Computational thinking and tinkering: Exploration of an early childhood robotics curriculum",
+    "databaseId": "https://www.semanticscholar.org/paper/2b46c2e979f15170de15f6f372b944ac7c87c9a2",
+    "checkedAt": "2026-09-16T16:57:25.171167+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2016.11.010": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/b7fcdb83c7042f4d1ccc20f435cf2a57f9e86f72?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Interaction of problem-based gaming and learning anxiety in language students' English listening performance and progressive behavioral patterns",
+    "databaseId": "https://www.semanticscholar.org/paper/b7fcdb83c7042f4d1ccc20f435cf2a57f9e86f72",
+    "checkedAt": "2026-09-16T16:57:25.171732+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2018.08.018": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/c218545788f087bccb80f1391bbecf4521363e52?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Need-supporting gamification in education: An assessment of motivational effects over time",
+    "databaseId": "https://www.semanticscholar.org/paper/c218545788f087bccb80f1391bbecf4521363e52",
+    "checkedAt": "2026-09-16T16:57:25.172087+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2019.01.013": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/a853d59eb9f3e19bf9c9a995720c4b2d6582f710?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "The interactivity of video and collaboration for learning achievement, intrinsic motivation, cognitive load, and behavior patterns in a digital game-based learning environment",
+    "databaseId": "https://www.semanticscholar.org/paper/a853d59eb9f3e19bf9c9a995720c4b2d6582f710",
+    "checkedAt": "2026-09-16T16:57:25.173384+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2019.04.013": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/3baaf6f73b81fe959fc2e3f8e493037a3624b66a?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Coding as a playground: Promoting positive learning experiences in childhood classrooms",
+    "databaseId": "https://www.semanticscholar.org/paper/3baaf6f73b81fe959fc2e3f8e493037a3624b66a",
+    "checkedAt": "2026-09-16T16:57:25.173705+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2019.05.012": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/94d5cdfad8a6c937c2e95c3e940880b39333f0dc?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "More confusion and frustration, better learning: The impact of erroneous examples",
+    "databaseId": "https://www.semanticscholar.org/paper/94d5cdfad8a6c937c2e95c3e940880b39333f0dc",
+    "checkedAt": "2026-09-16T16:57:25.173891+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2019.05.014": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/a9dea1368c92640ce3c0a48a4495976aee909440?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Effects of ASQ-based flipped learning on nurse practitioner learners' nursing skills, learning achievement and learning perceptions",
+    "databaseId": "https://www.semanticscholar.org/paper/a9dea1368c92640ce3c0a48a4495976aee909440",
+    "checkedAt": "2026-09-16T16:57:25.174282+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2019.103658": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/88cbf9435f546fc16b892d9c87244de42645ae8e?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Using a pedagogical agent to deliver conversational style instruction: What benefits can you obtain?",
+    "databaseId": "https://www.semanticscholar.org/paper/88cbf9435f546fc16b892d9c87244de42645ae8e",
+    "checkedAt": "2026-09-16T16:57:25.174391+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2019.103751": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/714c622c02d7868502ef59970d601c7d23f0f9b5?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Effects of peer assessment within the context of spherical video-based virtual reality on EFL students' English-Speaking performance and learning perceptions",
+    "databaseId": "https://www.semanticscholar.org/paper/714c622c02d7868502ef59970d601c7d23f0f9b5",
+    "checkedAt": "2026-09-16T16:57:25.174795+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2020.103807": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/9048f174f24eb3a7e3caff7e45ff33e8681cc106?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "The effects of coding on children's planning and inhibition skills",
+    "databaseId": "https://www.semanticscholar.org/paper/9048f174f24eb3a7e3caff7e45ff33e8681cc106",
+    "checkedAt": "2026-09-16T16:57:25.175070+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2020.103836": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/fa53ca1f8b3f031a4201dc8d11376696f3ad1e82?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Teaching and learning with children: Impact of reciprocal peer learning with a social robot on children's learning and emotive engagement",
+    "databaseId": "https://www.semanticscholar.org/paper/fa53ca1f8b3f031a4201dc8d11376696f3ad1e82",
+    "checkedAt": "2026-09-16T16:57:25.175522+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2020.103874": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/fd0b137e970ccbe881355272ffcceb911875f966?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Psychological effects of gamified didactics with exergames in Physical Education at primary schools: Results from a natural experiment",
+    "databaseId": "https://www.semanticscholar.org/paper/fd0b137e970ccbe881355272ffcceb911875f966",
+    "checkedAt": "2026-09-16T16:57:25.175850+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2020.104123": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/45ea6df652e4529b71335fc6af10094da56e7f51?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Effect sizes and research directions of peer assessments: From an integrated perspective of meta-analysis and co-citation network",
+    "databaseId": "https://www.semanticscholar.org/paper/45ea6df652e4529b71335fc6af10094da56e7f51",
+    "checkedAt": "2026-09-16T16:57:25.176122+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2021.104150": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/feee9667b105d707cca54d33674f8e8d545fd41d?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Do socio-cultural differences matter? A study of the learning effects and satisfaction with physical activity from digital learning assimilated into a university dance course",
+    "databaseId": "https://www.semanticscholar.org/paper/feee9667b105d707cca54d33674f8e8d545fd41d",
+    "checkedAt": "2026-09-16T16:57:25.176493+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2021.104185": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/fd5824e55b90efd49559e3694813bccad88fa439?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Innovation in physical education: Teachers' perspectives on readiness for wearable technology integration",
+    "databaseId": "https://www.semanticscholar.org/paper/fd5824e55b90efd49559e3694813bccad88fa439",
+    "checkedAt": "2026-09-16T16:57:25.176664+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2021.104236": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/f121e3c6639bcdcf70ad73c661c6a7fbb2572aa4?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Visual search patterns, information selection strategies, and information anxiety for online information problem solving",
+    "databaseId": "https://www.semanticscholar.org/paper/f121e3c6639bcdcf70ad73c661c6a7fbb2572aa4",
+    "checkedAt": "2026-09-16T16:57:25.176880+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2021.104425": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/f048ff7edda66b00db59f36b8d5d9e2699cafeca?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "A cognitive definition of computational thinking in primary education",
+    "databaseId": "https://www.semanticscholar.org/paper/f048ff7edda66b00db59f36b8d5d9e2699cafeca",
+    "checkedAt": "2026-09-16T16:57:25.176971+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2022.104684": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/b115e857ab8998078e3bfb9f138c47692db6642e?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Effects of artificial Intelligence-Enabled personalized recommendations on learners' learning engagement, motivation, and outcomes in a flipped classroom",
+    "databaseId": "https://www.semanticscholar.org/paper/b115e857ab8998078e3bfb9f138c47692db6642e",
+    "checkedAt": "2026-09-16T16:57:25.177280+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2022.104703": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/b1c2b8fc19e85f114282f4d14d32bc16bd281a43?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "What matters in AI-supported learning: A study of human-AI interactions in language learning using cluster analysis and epistemic network analysis",
+    "databaseId": "https://www.semanticscholar.org/paper/b1c2b8fc19e85f114282f4d14d32bc16bd281a43",
+    "checkedAt": "2026-09-16T16:57:25.177600+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2022.104723": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/298323cbea73e779ec2276278c82c679e008d781?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "The power of affective pedagogical agent and self-explanation in computer-based learning",
+    "databaseId": "https://www.semanticscholar.org/paper/298323cbea73e779ec2276278c82c679e008d781",
+    "checkedAt": "2026-09-16T16:57:25.177674+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2023.104738": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/31a2e3f7e0af4723462f5cb5abc49a5b744172d6?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Development of the system for observing virtual real time lessons in physical education (SOVRTL-PE): A tool to support preservice teachers' applied learning experiences",
+    "databaseId": "https://www.semanticscholar.org/paper/31a2e3f7e0af4723462f5cb5abc49a5b744172d6",
+    "checkedAt": "2026-09-16T16:57:25.178037+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2023.104757": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/70345ec2b6cc9033daedb8459e7e67fa0502f5c5?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Effects of a graphic organizer-based two-tier test approach on students' learning achievement and behaviors in spherical video-based virtual learning contexts",
+    "databaseId": "https://www.semanticscholar.org/paper/70345ec2b6cc9033daedb8459e7e67fa0502f5c5",
+    "checkedAt": "2026-09-16T16:57:25.178343+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2023.104898": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/cadbc2eada24060c3bc29b51fff1ecc771283bf6?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Beyond ChatGPT: A conceptual framework and systematic review of speech-recognition chatbots for language learning",
+    "databaseId": "https://www.semanticscholar.org/paper/cadbc2eada24060c3bc29b51fff1ecc771283bf6",
+    "checkedAt": "2026-09-16T16:57:25.178508+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2024.105039": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/ee672dfa49c93eb8c230d52829850f0b5a49e227?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "A metaphor-based robot programming approach to facilitating young children's computational thinking and positive learning behaviors",
+    "databaseId": "https://www.semanticscholar.org/paper/ee672dfa49c93eb8c230d52829850f0b5a49e227",
+    "checkedAt": "2026-09-16T16:57:25.178722+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2024.105043": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/ed6a4c38e840d712f0128bfcb87ad2e4da5541e0?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "The learning analytics of computational scientific modeling with self-explanation for subgoals and demonstration scaffolding",
+    "databaseId": "https://www.semanticscholar.org/paper/ed6a4c38e840d712f0128bfcb87ad2e4da5541e0",
+    "checkedAt": "2026-09-16T16:57:25.178940+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2024.105196": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/0c99221568a43d622d4f060c5ed139ff962825cf?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Personalization in educational gamification: Learners with different trait competitiveness benefit differently from rankings on leaderboards",
+    "databaseId": "https://www.semanticscholar.org/paper/0c99221568a43d622d4f060c5ed139ff962825cf",
+    "checkedAt": "2026-09-16T16:57:25.179192+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.compedu.2024.105212": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/bd07f64610e0c7323450b26c46d1e9ce78d466ea?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Effectiveness of gamified intelligent tutoring in physical education through the lens of self-determination theory",
+    "databaseId": "https://www.semanticscholar.org/paper/bd07f64610e0c7323450b26c46d1e9ce78d466ea",
+    "checkedAt": "2026-09-16T16:57:25.179388+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.ecresq.2023.05.015": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/bd3a055fdd7efaca3d239e21a488ff900e8238dc?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "An exploration of robot programming as a foundation for spatial reasoning and computational thinking in preschoolers’ guided play",
+    "databaseId": "https://www.semanticscholar.org/paper/bd3a055fdd7efaca3d239e21a488ff900e8238dc",
+    "checkedAt": "2026-09-16T16:57:25.179629+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.edurev.2022.100454": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/32799b39b7c08bf5d46a7910ec84c78a839f0269?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "A meta-analytic review on incorporating virtual and augmented reality in museum learning",
+    "databaseId": "https://www.semanticscholar.org/paper/32799b39b7c08bf5d46a7910ec84c78a839f0269",
+    "checkedAt": "2026-09-16T16:57:25.179809+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.ijcci.2022.100563": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016%2Fj.ijcci.2022.100563?fields=title,authors,year,abstract,externalIds,url",
+    "checkedAt": "2026-09-16T16:57:25.179816+00:00",
+    "reason": "database-has-no-record"
+  },
+  "10.1016/j.ijer.2017.07.014": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/9bdafe312b88bdf91b349f2746744b47f9e031b9?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Promoting academically productive student dialogue during collaborative learning",
+    "databaseId": "https://www.semanticscholar.org/paper/9bdafe312b88bdf91b349f2746744b47f9e031b9",
+    "checkedAt": "2026-09-16T16:57:25.179893+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.ijme.2022.100643": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/394015154936c92fa6fb5fef315175a30143ca62?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Thinking about cooperative learning: The impacts of epistemic motives and social structure on cooperative learning environments",
+    "databaseId": "https://www.semanticscholar.org/paper/394015154936c92fa6fb5fef315175a30143ca62",
+    "checkedAt": "2026-09-16T16:57:25.180148+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.im.2019.103229": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/5133c0abfd93da8979711cfa8a72697df70c2744?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Experiencing immersive virtual reality in museums",
+    "databaseId": "https://www.semanticscholar.org/paper/5133c0abfd93da8979711cfa8a72697df70c2744",
+    "checkedAt": "2026-09-16T16:57:25.180245+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.jhlste.2021.100362": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/00f1024465435e1519ca9319f9a082f0dc57daa9?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Endorsing gamification pedagogy as a helpful strategy to offset the COVID-19 induced disruptions in tourism education",
+    "databaseId": "https://www.semanticscholar.org/paper/00f1024465435e1519ca9319f9a082f0dc57daa9",
+    "checkedAt": "2026-09-16T16:57:25.180505+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.jml.2020.104092": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/a59ea70e51a64d9cadda87c0bedd1c44cc81eb48?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Best practice guidance for linear mixed-effects models in psychological science",
+    "databaseId": "https://www.semanticscholar.org/paper/a59ea70e51a64d9cadda87c0bedd1c44cc81eb48",
+    "checkedAt": "2026-09-16T16:57:25.180669+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.jss.2018.03.065": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016%2Fj.jss.2018.03.065?fields=title,authors,year,abstract,externalIds,url",
+    "checkedAt": "2026-09-16T16:57:25.180675+00:00",
+    "reason": "database-has-no-record"
+  },
+  "10.1016/j.learninstruc.2020.101344": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/a668a8fd289a85e49fc7619beb647b272fbd603a?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Learning by explaining orally or in written form? Text complexity matters",
+    "databaseId": "https://www.semanticscholar.org/paper/a668a8fd289a85e49fc7619beb647b272fbd603a",
+    "checkedAt": "2026-09-16T16:57:25.180855+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.learninstruc.2020.101438": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/91e5210e2de57bbead4b33cb5923b1e0cdfdc798?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Learning by Writing Explanations: Is Explaining to a Fictitious Student More Effective Than Self-Explaining?",
+    "databaseId": "https://www.semanticscholar.org/paper/91e5210e2de57bbead4b33cb5923b1e0cdfdc798",
+    "checkedAt": "2026-09-16T16:57:25.181091+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.learninstruc.2021.101547": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/792657ba4de6d86c1b486c5c47968b523cb6940b?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Does embedding learning supports enhance transfer during game-based learning?",
+    "databaseId": "https://www.semanticscholar.org/paper/792657ba4de6d86c1b486c5c47968b523cb6940b",
+    "checkedAt": "2026-09-16T16:57:25.181239+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.learninstruc.2024.102023": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/d6a9931123be64a855805c203fda37da9604e49f?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Maximizing students’ content and language development: The pedagogical potential of translanguaging in a Chinese immersion setting",
+    "databaseId": "https://www.semanticscholar.org/paper/d6a9931123be64a855805c203fda37da9604e49f",
+    "checkedAt": "2026-09-16T16:57:25.181520+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.lindif.2023.102274": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/a98862ffe4c18634a67a3df8a965a35e5e0d7ec8?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "ChatGPT for good? On opportunities and challenges of large language models for education",
+    "databaseId": "https://www.semanticscholar.org/paper/a98862ffe4c18634a67a3df8a965a35e5e0d7ec8",
+    "checkedAt": "2026-09-16T16:57:25.181797+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.nedt.2017.02.018": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/ddcd918cd2769c80354015be7fff6cc0a601abbf?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "The effectiveness of concept mapping on development of critical thinking in nursing education: A systematic review and meta-analysis.",
+    "databaseId": "https://www.semanticscholar.org/paper/ddcd918cd2769c80354015be7fff6cc0a601abbf",
+    "checkedAt": "2026-09-16T16:57:25.182046+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.nedt.2022.105418": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/3ad0efb435e8a42c2deba690bd6a3d9f4c1de2b9?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Effectiveness of the use of concept maps and simulated cases as a teaching-learning strategy in enhancing the learning confidence of baccalaureate nursing students: A qualitative approach.",
+    "databaseId": "https://www.semanticscholar.org/paper/3ad0efb435e8a42c2deba690bd6a3d9f4c1de2b9",
+    "checkedAt": "2026-09-16T16:57:25.182514+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.neunet.2014.09.003": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/193edd20cae92c6759c18ce93eeea96afd9528eb?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Deep learning in neural networks: An overview",
+    "databaseId": "https://www.semanticscholar.org/paper/193edd20cae92c6759c18ce93eeea96afd9528eb",
+    "checkedAt": "2026-09-16T16:57:25.182582+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.radi.2005.03.004": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/267d8763399e5471d0cee3763883d4e14ee4f152?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Assessment of the critical thinking skills of student radiographers",
+    "databaseId": "https://www.semanticscholar.org/paper/267d8763399e5471d0cee3763883d4e14ee4f152",
+    "checkedAt": "2026-09-16T16:57:25.182708+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.system.2016.04.013": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/a2feb1f41ba97894acab4b6d2c08a43738226fb1?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Motivational strategies in a mobile inquiry-based language learning setting",
+    "databaseId": "https://www.semanticscholar.org/paper/a2feb1f41ba97894acab4b6d2c08a43738226fb1",
+    "checkedAt": "2026-09-16T16:57:25.182915+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.tsc.2020.100663": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/737434524e20836f5a8d830771423380459508f5?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Promoting children’s creative thinking through reading and writing in a cooperative learning classroom",
+    "databaseId": "https://www.semanticscholar.org/paper/737434524e20836f5a8d830771423380459508f5",
+    "checkedAt": "2026-09-16T16:57:25.183152+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.tsc.2022.101173": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/ebba7373e40f7915b9d2a64ec029f53b69e2d6ad?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Enhancing Student Creativity Through an Interdisciplinary, Project-Oriented Problem-Based Learning Undergraduate Curriculum",
+    "databaseId": "https://www.semanticscholar.org/paper/ebba7373e40f7915b9d2a64ec029f53b69e2d6ad",
+    "checkedAt": "2026-09-16T16:57:25.183424+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.tsc.2023.101415": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/930cbf0dd5e069176d64b3186f3f9377f313612f?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Examining the effects of creativity, collaboration, creative diversity and autonomy on team creative performance",
+    "databaseId": "https://www.semanticscholar.org/paper/930cbf0dd5e069176d64b3186f3f9377f313612f",
+    "checkedAt": "2026-09-16T16:57:25.183614+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.tsc.2024.101528": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/bd422f05a806ca84472b28c86a8b3a674d5b4355?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Can robot-supported learning enhance computational thinking? –A meta-analysis",
+    "databaseId": "https://www.semanticscholar.org/paper/bd422f05a806ca84472b28c86a8b3a674d5b4355",
+    "checkedAt": "2026-09-16T16:57:25.183722+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.tsc.2024.101576": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/fa69c59dd5e488b66b04bb588d985f02207469b8?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Educational robotics or unplugged coding activities in kindergartens?: Comparison of the effects on pre-school children's computational thinking and executive function skills",
+    "databaseId": "https://www.semanticscholar.org/paper/fa69c59dd5e488b66b04bb588d985f02207469b8",
+    "checkedAt": "2026-09-16T16:57:25.184086+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/j.tsc.2025.101990": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/150cd3045758fe222017d067f43aedf89712c339?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Embedding 21st-Century Competencies into Higher Education: Insights from Vietnamese Lecturers’ Perspectives and Pedagogical Strategies",
+    "databaseId": "https://www.semanticscholar.org/paper/150cd3045758fe222017d067f43aedf89712c339",
+    "checkedAt": "2026-09-16T16:57:25.184335+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1016/s0747-5632(04)00036-6": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016%2Fs0747-5632%2804%2900036-6?fields=title,authors,year,abstract,externalIds,url",
+    "checkedAt": "2026-09-16T16:57:25.184342+00:00",
+    "reason": "database-has-no-record"
+  },
+  "10.1016/s0883-0355(03)00072-7": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/a4bd65132a05d567d73445cb612431d266e5e1ab?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Structuring cooperative group work in classrooms",
+    "databaseId": "https://www.semanticscholar.org/paper/a4bd65132a05d567d73445cb612431d266e5e1ab",
+    "checkedAt": "2026-09-16T16:57:25.184398+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1017/cbo9781139519526.018": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/78573ddfeab631c1dc945ff6f0afd74871e82ede?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Project-based learning",
+    "databaseId": "https://www.semanticscholar.org/paper/78573ddfeab631c1dc945ff6f0afd74871e82ede",
+    "checkedAt": "2026-09-16T16:57:25.184442+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1037/0003-066x.34.10.906": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/ee652f0f63ed5b0cfe0af4cb4ea76b2ecf790c8d?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Metacognition and Cognitive Monitoring: A New Area of Cognitive-Developmental Inquiry.",
+    "databaseId": "https://www.semanticscholar.org/paper/ee652f0f63ed5b0cfe0af4cb4ea76b2ecf790c8d",
+    "checkedAt": "2026-09-16T16:57:25.184591+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1037/0003-066x.55.1.68": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/358f092645d60e74a0d917c147a33076037cf23e?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being.",
+    "databaseId": "https://www.semanticscholar.org/paper/358f092645d60e74a0d917c147a33076037cf23e",
+    "checkedAt": "2026-09-16T16:57:25.184791+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1037/0003-066x.57.9.705": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/ebcd793a6c2f123d038bc95f259dd5e3e05acaea?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Building a practically useful theory of goal setting and task motivation. A 35-year odyssey.",
+    "databaseId": "https://www.semanticscholar.org/paper/ebcd793a6c2f123d038bc95f259dd5e3e05acaea",
+    "checkedAt": "2026-09-16T16:57:25.184919+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1037/h0084295": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1037%2Fh0084295?fields=title,authors,year,abstract,externalIds,url",
+    "checkedAt": "2026-09-16T16:57:25.184926+00:00",
+    "reason": "database-has-no-record"
+  },
+  "10.1038/s41562-024-02004-5": {
+    "status": "available",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/90a3410bc1632ba3340de7259186c66ba03f1668?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Promises and challenges of generative artificial intelligence for human learning",
+    "databaseId": "https://www.semanticscholar.org/paper/90a3410bc1632ba3340de7259186c66ba03f1668",
+    "checkedAt": "2026-09-16T16:57:25.185073+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1038/s41591-023-02448-8": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/94ce1d5924e05e8d75e43ce70044293ddcef850a?fields=title,authors,year,abstract,externalIds,url",
+    "metadataTitle": "Large language models in medicine",
+    "databaseId": "https://www.semanticscholar.org/paper/94ce1d5924e05e8d75e43ce70044293ddcef850a",
+    "checkedAt": "2026-09-16T16:57:25.185126+00:00",
+    "acquisitionMethod": "complete abstract field; no TLDR, summary or generative content"
+  },
+  "10.1057/s41599-025-04846-4.article558": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1057%2Fs41599-025-04846-4.article558?fields=title,authors,year,abstract,externalIds,url",
+    "checkedAt": "2026-09-16T16:57:25.185133+00:00",
+    "reason": "database-has-no-record"
+  },
+  "10.1080/17408989.2010": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1080%2F17408989.2010?fields=title,authors,year,abstract,externalIds,url",
+    "checkedAt": "2026-09-16T16:57:25.185136+00:00",
+    "reason": "database-has-no-record"
+  },
+  "10.1111/bjet": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1111%2Fbjet?fields=title,authors,year,abstract,externalIds,url",
+    "checkedAt": "2026-09-16T16:57:25.185139+00:00",
+    "reason": "database-has-no-record"
+  },
+  "10.1207/s15327809jls0703&4_2": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1207%2Fs15327809jls0703%264_2?fields=title,authors,year,abstract,externalIds,url",
+    "checkedAt": "2026-09-16T16:57:25.185147+00:00",
+    "reason": "database-has-no-record"
+  },
+  "10.14742/ajet": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.14742%2Fajet?fields=title,authors,year,abstract,externalIds,url",
+    "checkedAt": "2026-09-16T16:57:25.185150+00:00",
+    "reason": "database-has-no-record"
+  },
+  "10.30191/ets.202201_25(1).0003": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.30191%2Fets.202201_25%281%29.0003?fields=title,authors,year,abstract,externalIds,url",
+    "checkedAt": "2026-09-16T16:57:25.185153+00:00",
+    "reason": "database-has-no-record"
+  },
+  "10.30191/ets.202410_27(4).rp05": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.30191%2Fets.202410_27%284%29.rp05?fields=title,authors,year,abstract,externalIds,url",
+    "checkedAt": "2026-09-16T16:57:25.185156+00:00",
+    "reason": "database-has-no-record"
+  },
+  "10.30191/ets.202410_27(4).rp06": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.30191%2Fets.202410_27%284%29.rp06?fields=title,authors,year,abstract,externalIds,url",
+    "checkedAt": "2026-09-16T16:57:25.185158+00:00",
+    "reason": "database-has-no-record"
+  },
+  "10.48550/arxiv.2309.01219": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.48550%2Farxiv.2309.01219?fields=title,authors,year,abstract,externalIds,url",
+    "checkedAt": "2026-09-16T16:57:25.185160+00:00",
+    "reason": "database-has-no-record"
+  },
+  "10.6173/cjse.2007.1503.02": {
+    "status": "not-found",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.6173%2Fcjse.2007.1503.02?fields=title,authors,year,abstract,externalIds,url",
+    "checkedAt": "2026-09-16T16:57:25.185163+00:00",
+    "reason": "database-has-no-record"
+  },
+  "paper-01-ref-0442113a66e3": {
+    "status": "not-checked",
+    "sourceType": "semantic-scholar",
+    "sourceUrl": "https://api.semanticscholar.org/graph/v1/paper/search?query=The+role+of+the+analysis+of+the+zone+of+proximal+development+in+the+course+of+remediation+of+executive+functions%3A+An+example&limit=5&fields=title%2Cauthors%2Cyear%2Cabstract%2CexternalIds%2Curl",
+    "checkedAt": "2026-09-16T16:57:26.192871+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "0442113a66e3f34a96a42bbb3226455920e737c05d5271d53f77365a6d2b055c",
+    "error": "HTTP Error 429: "
+  }
+}

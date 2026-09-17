@@ -1,0 +1,978 @@
+{
+  "paper-01-ref-ab144d9eb356": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+role+of+the+analysis+of+the+zone+of+proximal+development+in+the+course+of+remediation+of+executive+functions+an+example%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22doing+with+understanding+lessons+from+research+on+problem+and+projectbased+learning%22+OR+title%3A%22coding+as+a+playground+programming+and+computational+thinking+in+the+early+childhood+classroom%22+OR+title%3A%22computational+thinking+and+tinkering+exploration+of+an+early+childhood+robotics+curriculum%22+OR+title%3A%22stem+project+based+learning+an+integrated+science+technology+engineering+and+mathematics+stem+approach%22+OR+title%3A%22young+children+s+conceptions+of+robot+programming+learning+a+draw+a+picture+and+epistemic+network+analysis%22+OR+title%3A%22project+based+instruction+a+review+of+the+literature+on+effectiveness+in+prekindergarten%22+OR+title%3A%22child+development+and+education+4th+ed%22+OR+title%3A%22mindstorms+children+computers+and+powerful+ideas%22+OR+title%3A%22the+collected+works+of+l+s+vygotsky+volume+1+problems+of+general+psychology+including+the+volume+thinking+and+speech%22+OR+title%3A%22educational+robotics+or+unplugged+coding+activities+in+kindergartens+comparison+of+the+effects+on+pre+school+children+s+computational+thinking+and+executive+function+skills%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22motivational+strategies+in+a+mobile+inquiry+based+language+learning+setting%22+OR+title%3A%22a+learning+diagnostic+system+based+on+concept+map+theory%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:08:32.453871+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "ab144d9eb35609a985285a23d8955463ea722a317fd62aafacf01a640be60a04"
+  },
+  "paper-01-ref-0442113a66e3": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+role+of+the+analysis+of+the+zone+of+proximal+development+in+the+course+of+remediation+of+executive+functions+an+example%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22doing+with+understanding+lessons+from+research+on+problem+and+projectbased+learning%22+OR+title%3A%22coding+as+a+playground+programming+and+computational+thinking+in+the+early+childhood+classroom%22+OR+title%3A%22computational+thinking+and+tinkering+exploration+of+an+early+childhood+robotics+curriculum%22+OR+title%3A%22stem+project+based+learning+an+integrated+science+technology+engineering+and+mathematics+stem+approach%22+OR+title%3A%22young+children+s+conceptions+of+robot+programming+learning+a+draw+a+picture+and+epistemic+network+analysis%22+OR+title%3A%22project+based+instruction+a+review+of+the+literature+on+effectiveness+in+prekindergarten%22+OR+title%3A%22child+development+and+education+4th+ed%22+OR+title%3A%22mindstorms+children+computers+and+powerful+ideas%22+OR+title%3A%22the+collected+works+of+l+s+vygotsky+volume+1+problems+of+general+psychology+including+the+volume+thinking+and+speech%22+OR+title%3A%22educational+robotics+or+unplugged+coding+activities+in+kindergartens+comparison+of+the+effects+on+pre+school+children+s+computational+thinking+and+executive+function+skills%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22motivational+strategies+in+a+mobile+inquiry+based+language+learning+setting%22+OR+title%3A%22a+learning+diagnostic+system+based+on+concept+map+theory%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:08:32.452706+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "0442113a66e3f34a96a42bbb3226455920e737c05d5271d53f77365a6d2b055c"
+  },
+  "paper-01-ref-7ff7c453b9d0": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+role+of+the+analysis+of+the+zone+of+proximal+development+in+the+course+of+remediation+of+executive+functions+an+example%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22doing+with+understanding+lessons+from+research+on+problem+and+projectbased+learning%22+OR+title%3A%22coding+as+a+playground+programming+and+computational+thinking+in+the+early+childhood+classroom%22+OR+title%3A%22computational+thinking+and+tinkering+exploration+of+an+early+childhood+robotics+curriculum%22+OR+title%3A%22stem+project+based+learning+an+integrated+science+technology+engineering+and+mathematics+stem+approach%22+OR+title%3A%22young+children+s+conceptions+of+robot+programming+learning+a+draw+a+picture+and+epistemic+network+analysis%22+OR+title%3A%22project+based+instruction+a+review+of+the+literature+on+effectiveness+in+prekindergarten%22+OR+title%3A%22child+development+and+education+4th+ed%22+OR+title%3A%22mindstorms+children+computers+and+powerful+ideas%22+OR+title%3A%22the+collected+works+of+l+s+vygotsky+volume+1+problems+of+general+psychology+including+the+volume+thinking+and+speech%22+OR+title%3A%22educational+robotics+or+unplugged+coding+activities+in+kindergartens+comparison+of+the+effects+on+pre+school+children+s+computational+thinking+and+executive+function+skills%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22motivational+strategies+in+a+mobile+inquiry+based+language+learning+setting%22+OR+title%3A%22a+learning+diagnostic+system+based+on+concept+map+theory%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:08:32.454763+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "7ff7c453b9d058ed48ba3cb086a08c15ec0a986a72f0af571beb9b7c762fa67f"
+  },
+  "10.1207/s15327809jls0703&4_2": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+role+of+the+analysis+of+the+zone+of+proximal+development+in+the+course+of+remediation+of+executive+functions+an+example%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22doing+with+understanding+lessons+from+research+on+problem+and+projectbased+learning%22+OR+title%3A%22coding+as+a+playground+programming+and+computational+thinking+in+the+early+childhood+classroom%22+OR+title%3A%22computational+thinking+and+tinkering+exploration+of+an+early+childhood+robotics+curriculum%22+OR+title%3A%22stem+project+based+learning+an+integrated+science+technology+engineering+and+mathematics+stem+approach%22+OR+title%3A%22young+children+s+conceptions+of+robot+programming+learning+a+draw+a+picture+and+epistemic+network+analysis%22+OR+title%3A%22project+based+instruction+a+review+of+the+literature+on+effectiveness+in+prekindergarten%22+OR+title%3A%22child+development+and+education+4th+ed%22+OR+title%3A%22mindstorms+children+computers+and+powerful+ideas%22+OR+title%3A%22the+collected+works+of+l+s+vygotsky+volume+1+problems+of+general+psychology+including+the+volume+thinking+and+speech%22+OR+title%3A%22educational+robotics+or+unplugged+coding+activities+in+kindergartens+comparison+of+the+effects+on+pre+school+children+s+computational+thinking+and+executive+function+skills%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22motivational+strategies+in+a+mobile+inquiry+based+language+learning+setting%22+OR+title%3A%22a+learning+diagnostic+system+based+on+concept+map+theory%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:08:32.454235+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "0eb8239316d77e3ac558f0276b0dcab8694fd9a0f24e0ba8374d3ecb47cc28a8"
+  },
+  "10.1016/j.compedu.2013.10.020": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+role+of+the+analysis+of+the+zone+of+proximal+development+in+the+course+of+remediation+of+executive+functions+an+example%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22doing+with+understanding+lessons+from+research+on+problem+and+projectbased+learning%22+OR+title%3A%22coding+as+a+playground+programming+and+computational+thinking+in+the+early+childhood+classroom%22+OR+title%3A%22computational+thinking+and+tinkering+exploration+of+an+early+childhood+robotics+curriculum%22+OR+title%3A%22stem+project+based+learning+an+integrated+science+technology+engineering+and+mathematics+stem+approach%22+OR+title%3A%22young+children+s+conceptions+of+robot+programming+learning+a+draw+a+picture+and+epistemic+network+analysis%22+OR+title%3A%22project+based+instruction+a+review+of+the+literature+on+effectiveness+in+prekindergarten%22+OR+title%3A%22child+development+and+education+4th+ed%22+OR+title%3A%22mindstorms+children+computers+and+powerful+ideas%22+OR+title%3A%22the+collected+works+of+l+s+vygotsky+volume+1+problems+of+general+psychology+including+the+volume+thinking+and+speech%22+OR+title%3A%22educational+robotics+or+unplugged+coding+activities+in+kindergartens+comparison+of+the+effects+on+pre+school+children+s+computational+thinking+and+executive+function+skills%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22motivational+strategies+in+a+mobile+inquiry+based+language+learning+setting%22+OR+title%3A%22a+learning+diagnostic+system+based+on+concept+map+theory%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:08:32.455138+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "3b6c404630ea83d3c9ae8441e40594e70d118b6e59989bd4092cc819bc900b2f"
+  },
+  "paper-01-ref-8f038f968804": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=New+frameworks+for+studying+and+assessing+the+development+of+computational+thinking%2C+1%2C+25.&format=json&rows=5",
+    "checkedAt": "2026-09-16T17:05:25.435515+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "8f038f968804c07e40bf18aa35719a025c90e16ef3a53050d43f511e3c60b80b"
+  },
+  "10.1016/j.ecresq.2023.05.015": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=An+exploration+of+robot+programming+as+a+foundation+for+spatial+reasoning+and+computational+thinking+in+preschoolers%E2%80%99+guided+play&format=json&rows=5",
+    "checkedAt": "2026-09-16T17:05:25.185260+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "85e9e21d793430093608adfb889f549d6f94e9f0fa0a043b941ee23f847cdda6"
+  },
+  "paper-01-ref-9852a03d8f73": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=What+is+PBL%3F&format=json&rows=5",
+    "checkedAt": "2026-09-16T17:05:27.506528+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "9852a03d8f736be4efd25e53752296df45d6603a9181471b4814a1ef2918775c"
+  },
+  "10.30191/ets.202410_27(4).rp05": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+role+of+the+analysis+of+the+zone+of+proximal+development+in+the+course+of+remediation+of+executive+functions+an+example%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22doing+with+understanding+lessons+from+research+on+problem+and+projectbased+learning%22+OR+title%3A%22coding+as+a+playground+programming+and+computational+thinking+in+the+early+childhood+classroom%22+OR+title%3A%22computational+thinking+and+tinkering+exploration+of+an+early+childhood+robotics+curriculum%22+OR+title%3A%22stem+project+based+learning+an+integrated+science+technology+engineering+and+mathematics+stem+approach%22+OR+title%3A%22young+children+s+conceptions+of+robot+programming+learning+a+draw+a+picture+and+epistemic+network+analysis%22+OR+title%3A%22project+based+instruction+a+review+of+the+literature+on+effectiveness+in+prekindergarten%22+OR+title%3A%22child+development+and+education+4th+ed%22+OR+title%3A%22mindstorms+children+computers+and+powerful+ideas%22+OR+title%3A%22the+collected+works+of+l+s+vygotsky+volume+1+problems+of+general+psychology+including+the+volume+thinking+and+speech%22+OR+title%3A%22educational+robotics+or+unplugged+coding+activities+in+kindergartens+comparison+of+the+effects+on+pre+school+children+s+computational+thinking+and+executive+function+skills%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22motivational+strategies+in+a+mobile+inquiry+based+language+learning+setting%22+OR+title%3A%22a+learning+diagnostic+system+based+on+concept+map+theory%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:08:32.455866+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "701d6f0373297ba490d4f25a8f79ad7311cc1847d93c525441d04ab256a262fa"
+  },
+  "paper-01-ref-984fd9aab250": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+role+of+the+analysis+of+the+zone+of+proximal+development+in+the+course+of+remediation+of+executive+functions+an+example%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22doing+with+understanding+lessons+from+research+on+problem+and+projectbased+learning%22+OR+title%3A%22coding+as+a+playground+programming+and+computational+thinking+in+the+early+childhood+classroom%22+OR+title%3A%22computational+thinking+and+tinkering+exploration+of+an+early+childhood+robotics+curriculum%22+OR+title%3A%22stem+project+based+learning+an+integrated+science+technology+engineering+and+mathematics+stem+approach%22+OR+title%3A%22young+children+s+conceptions+of+robot+programming+learning+a+draw+a+picture+and+epistemic+network+analysis%22+OR+title%3A%22project+based+instruction+a+review+of+the+literature+on+effectiveness+in+prekindergarten%22+OR+title%3A%22child+development+and+education+4th+ed%22+OR+title%3A%22mindstorms+children+computers+and+powerful+ideas%22+OR+title%3A%22the+collected+works+of+l+s+vygotsky+volume+1+problems+of+general+psychology+including+the+volume+thinking+and+speech%22+OR+title%3A%22educational+robotics+or+unplugged+coding+activities+in+kindergartens+comparison+of+the+effects+on+pre+school+children+s+computational+thinking+and+executive+function+skills%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22motivational+strategies+in+a+mobile+inquiry+based+language+learning+setting%22+OR+title%3A%22a+learning+diagnostic+system+based+on+concept+map+theory%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:08:32.455499+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "984fd9aab250dd2afbf12ebe2b35a8ebc76bf0771699fcb7d101a35c1822722d"
+  },
+  "paper-01-ref-3b0f02ecfe6e": {
+    "status": "available",
+    "sourceType": "eric",
+    "sourceUrl": "https://eric.ed.gov/?id=ED312281",
+    "checkedAt": "2026-09-16T17:05:29.500450+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "3b0f02ecfe6e0863af4967d3bfec60b62306d08df89e5960d27362b60d9824f3",
+    "metadataTitle": "Introduction to Classical and Modern Test Theory.",
+    "abstractOrigin": "Unspecified",
+    "acquisitionMethod": "complete ERIC Abstract field (description); abstractor origin retained; no AI summary"
+  },
+  "10.1016/j.compedu.2016.11.010": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=Interaction+of+problem-based+gaming+and+learning+anxiety+in+language+students%E2%80%99+English+listening+performance+and+progressive+behavioral+patterns&format=json&rows=5",
+    "checkedAt": "2026-09-16T17:06:00.635953+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "00c29b5218191d35a99fe9b70e77b7d1c758d4995832f6022c03deb6a5be7a66"
+  },
+  "paper-01-ref-ef29af058192": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+role+of+the+analysis+of+the+zone+of+proximal+development+in+the+course+of+remediation+of+executive+functions+an+example%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22doing+with+understanding+lessons+from+research+on+problem+and+projectbased+learning%22+OR+title%3A%22coding+as+a+playground+programming+and+computational+thinking+in+the+early+childhood+classroom%22+OR+title%3A%22computational+thinking+and+tinkering+exploration+of+an+early+childhood+robotics+curriculum%22+OR+title%3A%22stem+project+based+learning+an+integrated+science+technology+engineering+and+mathematics+stem+approach%22+OR+title%3A%22young+children+s+conceptions+of+robot+programming+learning+a+draw+a+picture+and+epistemic+network+analysis%22+OR+title%3A%22project+based+instruction+a+review+of+the+literature+on+effectiveness+in+prekindergarten%22+OR+title%3A%22child+development+and+education+4th+ed%22+OR+title%3A%22mindstorms+children+computers+and+powerful+ideas%22+OR+title%3A%22the+collected+works+of+l+s+vygotsky+volume+1+problems+of+general+psychology+including+the+volume+thinking+and+speech%22+OR+title%3A%22educational+robotics+or+unplugged+coding+activities+in+kindergartens+comparison+of+the+effects+on+pre+school+children+s+computational+thinking+and+executive+function+skills%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22motivational+strategies+in+a+mobile+inquiry+based+language+learning+setting%22+OR+title%3A%22a+learning+diagnostic+system+based+on+concept+map+theory%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:08:32.457482+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "ef29af0581925c10c131ec2c3b644430294bd07c5086704a171614b682d083ff"
+  },
+  "paper-01-ref-bf946b4c5db5": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+role+of+the+analysis+of+the+zone+of+proximal+development+in+the+course+of+remediation+of+executive+functions+an+example%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22doing+with+understanding+lessons+from+research+on+problem+and+projectbased+learning%22+OR+title%3A%22coding+as+a+playground+programming+and+computational+thinking+in+the+early+childhood+classroom%22+OR+title%3A%22computational+thinking+and+tinkering+exploration+of+an+early+childhood+robotics+curriculum%22+OR+title%3A%22stem+project+based+learning+an+integrated+science+technology+engineering+and+mathematics+stem+approach%22+OR+title%3A%22young+children+s+conceptions+of+robot+programming+learning+a+draw+a+picture+and+epistemic+network+analysis%22+OR+title%3A%22project+based+instruction+a+review+of+the+literature+on+effectiveness+in+prekindergarten%22+OR+title%3A%22child+development+and+education+4th+ed%22+OR+title%3A%22mindstorms+children+computers+and+powerful+ideas%22+OR+title%3A%22the+collected+works+of+l+s+vygotsky+volume+1+problems+of+general+psychology+including+the+volume+thinking+and+speech%22+OR+title%3A%22educational+robotics+or+unplugged+coding+activities+in+kindergartens+comparison+of+the+effects+on+pre+school+children+s+computational+thinking+and+executive+function+skills%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22motivational+strategies+in+a+mobile+inquiry+based+language+learning+setting%22+OR+title%3A%22a+learning+diagnostic+system+based+on+concept+map+theory%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:08:32.456245+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "bf946b4c5db55fc3af10d9f8adff88d66a5f0d5a4586b78f996bbfe5d8b6c679"
+  },
+  "paper-01-ref-a34d74892884": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=Developmental+stages+and+developmental+processes&format=json&rows=5",
+    "checkedAt": "2026-09-16T17:06:33.373299+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "a34d74892884e07fa1687026423d36994a8a3abb964226f3bcc50cad1c67ce7a"
+  },
+  "paper-01-ref-ded4fcfc1d15": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+role+of+the+analysis+of+the+zone+of+proximal+development+in+the+course+of+remediation+of+executive+functions+an+example%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22doing+with+understanding+lessons+from+research+on+problem+and+projectbased+learning%22+OR+title%3A%22coding+as+a+playground+programming+and+computational+thinking+in+the+early+childhood+classroom%22+OR+title%3A%22computational+thinking+and+tinkering+exploration+of+an+early+childhood+robotics+curriculum%22+OR+title%3A%22stem+project+based+learning+an+integrated+science+technology+engineering+and+mathematics+stem+approach%22+OR+title%3A%22young+children+s+conceptions+of+robot+programming+learning+a+draw+a+picture+and+epistemic+network+analysis%22+OR+title%3A%22project+based+instruction+a+review+of+the+literature+on+effectiveness+in+prekindergarten%22+OR+title%3A%22child+development+and+education+4th+ed%22+OR+title%3A%22mindstorms+children+computers+and+powerful+ideas%22+OR+title%3A%22the+collected+works+of+l+s+vygotsky+volume+1+problems+of+general+psychology+including+the+volume+thinking+and+speech%22+OR+title%3A%22educational+robotics+or+unplugged+coding+activities+in+kindergartens+comparison+of+the+effects+on+pre+school+children+s+computational+thinking+and+executive+function+skills%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22motivational+strategies+in+a+mobile+inquiry+based+language+learning+setting%22+OR+title%3A%22a+learning+diagnostic+system+based+on+concept+map+theory%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:08:32.458136+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "ded4fcfc1d155f02a43e44d70293a1b9b5e76c0e7032c7bf20d7ff9d5dff99e6"
+  },
+  "10.1016/j.ijcci.2022.100563": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=Effects+of+a+computational+thinking+intervention+program+on+executive+functions+in+children+aged+10+to+11&format=json&rows=5",
+    "checkedAt": "2026-09-16T17:06:34.730792+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "3fd15e08cf9747d9e72d1e0d76084f9b16a23ecc58135b95acba57295ad44f7b"
+  },
+  "paper-01-ref-8866cd26642a": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+role+of+the+analysis+of+the+zone+of+proximal+development+in+the+course+of+remediation+of+executive+functions+an+example%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22doing+with+understanding+lessons+from+research+on+problem+and+projectbased+learning%22+OR+title%3A%22coding+as+a+playground+programming+and+computational+thinking+in+the+early+childhood+classroom%22+OR+title%3A%22computational+thinking+and+tinkering+exploration+of+an+early+childhood+robotics+curriculum%22+OR+title%3A%22stem+project+based+learning+an+integrated+science+technology+engineering+and+mathematics+stem+approach%22+OR+title%3A%22young+children+s+conceptions+of+robot+programming+learning+a+draw+a+picture+and+epistemic+network+analysis%22+OR+title%3A%22project+based+instruction+a+review+of+the+literature+on+effectiveness+in+prekindergarten%22+OR+title%3A%22child+development+and+education+4th+ed%22+OR+title%3A%22mindstorms+children+computers+and+powerful+ideas%22+OR+title%3A%22the+collected+works+of+l+s+vygotsky+volume+1+problems+of+general+psychology+including+the+volume+thinking+and+speech%22+OR+title%3A%22educational+robotics+or+unplugged+coding+activities+in+kindergartens+comparison+of+the+effects+on+pre+school+children+s+computational+thinking+and+executive+function+skills%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22motivational+strategies+in+a+mobile+inquiry+based+language+learning+setting%22+OR+title%3A%22a+learning+diagnostic+system+based+on+concept+map+theory%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:08:32.458482+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "8866cd26642a24d08d4f0b1f9b25bbb45f0bcdbe91fba855cd591611ac54584a"
+  },
+  "10.1016/j.tsc.2024.101528": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=Can+robot-supported+learning+enhance+computational+thinking%3F+A+meta-analysis&format=json&rows=5",
+    "checkedAt": "2026-09-16T17:06:40.509730+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "98f0bbb58a49d16505b0be2db700f951fd4791a39168c3694b0a311ddcb5f1df"
+  },
+  "10.1016/j.compedu.2024.105039": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=A+metaphor-based+robot+programming+approach+to+facilitating+young+children%E2%80%99s+computational+thinking+and+positive+learning+behaviors&format=json&rows=5",
+    "checkedAt": "2026-09-16T17:06:41.776286+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "84602dc4940d7068f644a3862c26a294bc34a13aa8a385aa3c5af4a4ac5c07b1"
+  },
+  "10.1016/j.tsc.2024.101576": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+role+of+the+analysis+of+the+zone+of+proximal+development+in+the+course+of+remediation+of+executive+functions+an+example%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22doing+with+understanding+lessons+from+research+on+problem+and+projectbased+learning%22+OR+title%3A%22coding+as+a+playground+programming+and+computational+thinking+in+the+early+childhood+classroom%22+OR+title%3A%22computational+thinking+and+tinkering+exploration+of+an+early+childhood+robotics+curriculum%22+OR+title%3A%22stem+project+based+learning+an+integrated+science+technology+engineering+and+mathematics+stem+approach%22+OR+title%3A%22young+children+s+conceptions+of+robot+programming+learning+a+draw+a+picture+and+epistemic+network+analysis%22+OR+title%3A%22project+based+instruction+a+review+of+the+literature+on+effectiveness+in+prekindergarten%22+OR+title%3A%22child+development+and+education+4th+ed%22+OR+title%3A%22mindstorms+children+computers+and+powerful+ideas%22+OR+title%3A%22the+collected+works+of+l+s+vygotsky+volume+1+problems+of+general+psychology+including+the+volume+thinking+and+speech%22+OR+title%3A%22educational+robotics+or+unplugged+coding+activities+in+kindergartens+comparison+of+the+effects+on+pre+school+children+s+computational+thinking+and+executive+function+skills%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22motivational+strategies+in+a+mobile+inquiry+based+language+learning+setting%22+OR+title%3A%22a+learning+diagnostic+system+based+on+concept+map+theory%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:08:32.458894+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "491a59e29fec1e83ae292528733d6c54836ed80bb59696e65d2c5f30d5706739"
+  },
+  "paper-02-ref-9217a0dfc802": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+role+of+the+analysis+of+the+zone+of+proximal+development+in+the+course+of+remediation+of+executive+functions+an+example%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22doing+with+understanding+lessons+from+research+on+problem+and+projectbased+learning%22+OR+title%3A%22coding+as+a+playground+programming+and+computational+thinking+in+the+early+childhood+classroom%22+OR+title%3A%22computational+thinking+and+tinkering+exploration+of+an+early+childhood+robotics+curriculum%22+OR+title%3A%22stem+project+based+learning+an+integrated+science+technology+engineering+and+mathematics+stem+approach%22+OR+title%3A%22young+children+s+conceptions+of+robot+programming+learning+a+draw+a+picture+and+epistemic+network+analysis%22+OR+title%3A%22project+based+instruction+a+review+of+the+literature+on+effectiveness+in+prekindergarten%22+OR+title%3A%22child+development+and+education+4th+ed%22+OR+title%3A%22mindstorms+children+computers+and+powerful+ideas%22+OR+title%3A%22the+collected+works+of+l+s+vygotsky+volume+1+problems+of+general+psychology+including+the+volume+thinking+and+speech%22+OR+title%3A%22educational+robotics+or+unplugged+coding+activities+in+kindergartens+comparison+of+the+effects+on+pre+school+children+s+computational+thinking+and+executive+function+skills%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22motivational+strategies+in+a+mobile+inquiry+based+language+learning+setting%22+OR+title%3A%22a+learning+diagnostic+system+based+on+concept+map+theory%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:08:32.459253+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "9217a0dfc802489848e77727390619fc45d7b41d79bb59815d7bbe482689a23d"
+  },
+  "10.1016/j.compedu.2009.10.022": {
+    "status": "available",
+    "sourceType": "eric",
+    "sourceUrl": "https://eric.ed.gov/?id=EJ875206",
+    "checkedAt": "2026-09-16T17:06:44.538565+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "cfeb196213f2c42c204c377ee029e60b54ea9aaf37b72bcec6ccaaf6b7c58d68",
+    "metadataTitle": "Students Perceptions about the Use of Video Games in the Classroom",
+    "abstractOrigin": "Unspecified",
+    "acquisitionMethod": "complete ERIC Abstract field (description); abstractor origin retained; no AI summary"
+  },
+  "10.1016/j.compedu.2021.104425": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=A+cognitive+definition+of+computational+thinking+in+primary+education&format=json&rows=5",
+    "checkedAt": "2026-09-16T17:06:35.940915+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "46d2f6f31317a061c5d423cba5d4d20a39a9aa95f1ea7d07b7df2268b4dfe510"
+  },
+  "paper-02-ref-9fe98364c3a5": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=Teaching+Software+Engineering+Through+a+Simulation+Game&format=json&rows=5",
+    "checkedAt": "2026-09-16T17:06:46.126199+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "9fe98364c3a58fd812e12fd782a817d091a1f6feb4351595dc4f750fe164e51e"
+  },
+  "10.1016/j.system.2016.04.013": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+role+of+the+analysis+of+the+zone+of+proximal+development+in+the+course+of+remediation+of+executive+functions+an+example%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22doing+with+understanding+lessons+from+research+on+problem+and+projectbased+learning%22+OR+title%3A%22coding+as+a+playground+programming+and+computational+thinking+in+the+early+childhood+classroom%22+OR+title%3A%22computational+thinking+and+tinkering+exploration+of+an+early+childhood+robotics+curriculum%22+OR+title%3A%22stem+project+based+learning+an+integrated+science+technology+engineering+and+mathematics+stem+approach%22+OR+title%3A%22young+children+s+conceptions+of+robot+programming+learning+a+draw+a+picture+and+epistemic+network+analysis%22+OR+title%3A%22project+based+instruction+a+review+of+the+literature+on+effectiveness+in+prekindergarten%22+OR+title%3A%22child+development+and+education+4th+ed%22+OR+title%3A%22mindstorms+children+computers+and+powerful+ideas%22+OR+title%3A%22the+collected+works+of+l+s+vygotsky+volume+1+problems+of+general+psychology+including+the+volume+thinking+and+speech%22+OR+title%3A%22educational+robotics+or+unplugged+coding+activities+in+kindergartens+comparison+of+the+effects+on+pre+school+children+s+computational+thinking+and+executive+function+skills%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22motivational+strategies+in+a+mobile+inquiry+based+language+learning+setting%22+OR+title%3A%22a+learning+diagnostic+system+based+on+concept+map+theory%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:08:32.459613+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "57e602d9e1d2410aa86135786b463cd4d9add2309b29faf9032f71c09e1fd457"
+  },
+  "paper-02-ref-8bcd38d1b3e0": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+role+of+the+analysis+of+the+zone+of+proximal+development+in+the+course+of+remediation+of+executive+functions+an+example%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22doing+with+understanding+lessons+from+research+on+problem+and+projectbased+learning%22+OR+title%3A%22coding+as+a+playground+programming+and+computational+thinking+in+the+early+childhood+classroom%22+OR+title%3A%22computational+thinking+and+tinkering+exploration+of+an+early+childhood+robotics+curriculum%22+OR+title%3A%22stem+project+based+learning+an+integrated+science+technology+engineering+and+mathematics+stem+approach%22+OR+title%3A%22young+children+s+conceptions+of+robot+programming+learning+a+draw+a+picture+and+epistemic+network+analysis%22+OR+title%3A%22project+based+instruction+a+review+of+the+literature+on+effectiveness+in+prekindergarten%22+OR+title%3A%22child+development+and+education+4th+ed%22+OR+title%3A%22mindstorms+children+computers+and+powerful+ideas%22+OR+title%3A%22the+collected+works+of+l+s+vygotsky+volume+1+problems+of+general+psychology+including+the+volume+thinking+and+speech%22+OR+title%3A%22educational+robotics+or+unplugged+coding+activities+in+kindergartens+comparison+of+the+effects+on+pre+school+children+s+computational+thinking+and+executive+function+skills%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22motivational+strategies+in+a+mobile+inquiry+based+language+learning+setting%22+OR+title%3A%22a+learning+diagnostic+system+based+on+concept+map+theory%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:08:32.459938+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "8bcd38d1b3e0f89531b5057c023f6b12fae36fa7bda60fe532c2041a3971ad7c"
+  },
+  "paper-02-ref-07f439dc3990": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22integrating+commercial+video+games+in+education%22+OR+title%3A%22games+are+made+for+fun+lessons+on+the+effects+of+concept+maps+in+the+classroom+use+of+computer+games%22+OR+title%3A%22effects+of+a+concept+mappingbased+flipped+classroom+approach+on+efl+students+english+speaking+performance+learning+perceptions+and+speaking+anxiety%22+OR+title%3A%22effectiveness+of+using+a+video+game+to+teach+a+course+in+mechanical+engineering%22+OR+title%3A%22flow+the+psychology+of+optimal+experience%22+OR+title%3A%22discovering+statistics+using+ibm+spss+statistics+4th+ed%22+OR+title%3A%22metacognition+and+cognitive+monitoring+a+new+area+of+cognitive+developmental+inquiry%22+OR+title%3A%22exploring+the+role+of+concept+mapping+in+science+inquiry+learning+a+longitudinal+analysis+of+motivation+and+participation%22+OR+title%3A%22a+concept+mapembedded+educational+computer+game+for+improving+students+learning+performance+in+natural+science+courses%22+OR+title%3A%22applying+a+knowledge+visualization+approach+to+develop+digital+concept+maps+for+flipped+learning+an+investigation+of+learning+achievement+motivation+and+behavior+patterns%22+OR+title%3A%22a+case+study+of+computer+gaming+for+math+engaged+learning+from+gameplay%22+OR+title%3A%22principles+and+practice+in+second+language+acquisition%22+OR+title%3A%22using+ubiquitous+games+in+an+english+listening+and+speaking+course+impact+on+learning+outcomes+and+motivation%22+OR+title%3A%22game+based+learning+considering+the+effectiveness+of+games+as+instructional+tools%22+OR+title%3A%22the+theory+underlying+concept+maps+and+how+to+construct+tem%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:09:04.116562+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "07f439dc3990b74fb4574487a8c127bbd9fa41a941a9a128fa48936079d97131"
+  },
+  "10.1016/j.compedu.2010.10.001": {
+    "status": "available",
+    "sourceType": "eric",
+    "sourceUrl": "https://eric.ed.gov/?id=EJ908621",
+    "checkedAt": "2026-09-16T17:09:04.132544+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "b30fc63b3686cb74f300dd3a25fba5bd9d2084b8e62de9d36c970a33a86c3d7e",
+    "metadataTitle": "\"Games Are Made for Fun\": Lessons on the Effects of Concept Maps in the Classroom Use of Computer Games",
+    "abstractOrigin": "Unspecified",
+    "acquisitionMethod": "complete ERIC Abstract field (description); no AI summary"
+  },
+  "paper-02-ref-0003e1aaaba2": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22integrating+commercial+video+games+in+education%22+OR+title%3A%22games+are+made+for+fun+lessons+on+the+effects+of+concept+maps+in+the+classroom+use+of+computer+games%22+OR+title%3A%22effects+of+a+concept+mappingbased+flipped+classroom+approach+on+efl+students+english+speaking+performance+learning+perceptions+and+speaking+anxiety%22+OR+title%3A%22effectiveness+of+using+a+video+game+to+teach+a+course+in+mechanical+engineering%22+OR+title%3A%22flow+the+psychology+of+optimal+experience%22+OR+title%3A%22discovering+statistics+using+ibm+spss+statistics+4th+ed%22+OR+title%3A%22metacognition+and+cognitive+monitoring+a+new+area+of+cognitive+developmental+inquiry%22+OR+title%3A%22exploring+the+role+of+concept+mapping+in+science+inquiry+learning+a+longitudinal+analysis+of+motivation+and+participation%22+OR+title%3A%22a+concept+mapembedded+educational+computer+game+for+improving+students+learning+performance+in+natural+science+courses%22+OR+title%3A%22applying+a+knowledge+visualization+approach+to+develop+digital+concept+maps+for+flipped+learning+an+investigation+of+learning+achievement+motivation+and+behavior+patterns%22+OR+title%3A%22a+case+study+of+computer+gaming+for+math+engaged+learning+from+gameplay%22+OR+title%3A%22principles+and+practice+in+second+language+acquisition%22+OR+title%3A%22using+ubiquitous+games+in+an+english+listening+and+speaking+course+impact+on+learning+outcomes+and+motivation%22+OR+title%3A%22game+based+learning+considering+the+effectiveness+of+games+as+instructional+tools%22+OR+title%3A%22the+theory+underlying+concept+maps+and+how+to+construct+tem%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:09:04.136556+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "0003e1aaaba205053ccb54a7a5cb3f63d65c30cf92d49f44343b30d88a3797da"
+  },
+  "paper-02-ref-780acde40473": {
+    "status": "available",
+    "sourceType": "eric",
+    "sourceUrl": "https://eric.ed.gov/?id=EJ848775",
+    "checkedAt": "2026-09-16T17:09:04.137894+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "780acde404734be16bb2142c4847aa64e1b98cc37c2f082321ba0f0f3202ea97",
+    "metadataTitle": "Effectiveness of Using a Video Game to Teach a Course in Mechanical Engineering",
+    "abstractOrigin": "Unspecified",
+    "acquisitionMethod": "complete ERIC Abstract field (description); no AI summary"
+  },
+  "paper-02-ref-60691bf12349": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22integrating+commercial+video+games+in+education%22+OR+title%3A%22games+are+made+for+fun+lessons+on+the+effects+of+concept+maps+in+the+classroom+use+of+computer+games%22+OR+title%3A%22effects+of+a+concept+mappingbased+flipped+classroom+approach+on+efl+students+english+speaking+performance+learning+perceptions+and+speaking+anxiety%22+OR+title%3A%22effectiveness+of+using+a+video+game+to+teach+a+course+in+mechanical+engineering%22+OR+title%3A%22flow+the+psychology+of+optimal+experience%22+OR+title%3A%22discovering+statistics+using+ibm+spss+statistics+4th+ed%22+OR+title%3A%22metacognition+and+cognitive+monitoring+a+new+area+of+cognitive+developmental+inquiry%22+OR+title%3A%22exploring+the+role+of+concept+mapping+in+science+inquiry+learning+a+longitudinal+analysis+of+motivation+and+participation%22+OR+title%3A%22a+concept+mapembedded+educational+computer+game+for+improving+students+learning+performance+in+natural+science+courses%22+OR+title%3A%22applying+a+knowledge+visualization+approach+to+develop+digital+concept+maps+for+flipped+learning+an+investigation+of+learning+achievement+motivation+and+behavior+patterns%22+OR+title%3A%22a+case+study+of+computer+gaming+for+math+engaged+learning+from+gameplay%22+OR+title%3A%22principles+and+practice+in+second+language+acquisition%22+OR+title%3A%22using+ubiquitous+games+in+an+english+listening+and+speaking+course+impact+on+learning+outcomes+and+motivation%22+OR+title%3A%22game+based+learning+considering+the+effectiveness+of+games+as+instructional+tools%22+OR+title%3A%22the+theory+underlying+concept+maps+and+how+to+construct+tem%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:09:04.140379+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "60691bf12349a69bfcb3883e8cb815b69ac78544f9f1df3a1874f22eccf70646"
+  },
+  "paper-02-ref-dabf2f835aac": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22integrating+commercial+video+games+in+education%22+OR+title%3A%22games+are+made+for+fun+lessons+on+the+effects+of+concept+maps+in+the+classroom+use+of+computer+games%22+OR+title%3A%22effects+of+a+concept+mappingbased+flipped+classroom+approach+on+efl+students+english+speaking+performance+learning+perceptions+and+speaking+anxiety%22+OR+title%3A%22effectiveness+of+using+a+video+game+to+teach+a+course+in+mechanical+engineering%22+OR+title%3A%22flow+the+psychology+of+optimal+experience%22+OR+title%3A%22discovering+statistics+using+ibm+spss+statistics+4th+ed%22+OR+title%3A%22metacognition+and+cognitive+monitoring+a+new+area+of+cognitive+developmental+inquiry%22+OR+title%3A%22exploring+the+role+of+concept+mapping+in+science+inquiry+learning+a+longitudinal+analysis+of+motivation+and+participation%22+OR+title%3A%22a+concept+mapembedded+educational+computer+game+for+improving+students+learning+performance+in+natural+science+courses%22+OR+title%3A%22applying+a+knowledge+visualization+approach+to+develop+digital+concept+maps+for+flipped+learning+an+investigation+of+learning+achievement+motivation+and+behavior+patterns%22+OR+title%3A%22a+case+study+of+computer+gaming+for+math+engaged+learning+from+gameplay%22+OR+title%3A%22principles+and+practice+in+second+language+acquisition%22+OR+title%3A%22using+ubiquitous+games+in+an+english+listening+and+speaking+course+impact+on+learning+outcomes+and+motivation%22+OR+title%3A%22game+based+learning+considering+the+effectiveness+of+games+as+instructional+tools%22+OR+title%3A%22the+theory+underlying+concept+maps+and+how+to+construct+tem%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:09:04.141045+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "dabf2f835aac016962a5b76ec804587c35de2a39292bf14083948b6dcaf179bc"
+  },
+  "10.1037/0003-066x.34.10.906": {
+    "status": "available",
+    "sourceType": "eric",
+    "sourceUrl": "https://eric.ed.gov/?id=EJ217109",
+    "checkedAt": "2026-09-16T17:09:04.142140+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "e3c185fb7602534b0536f87cbbb56867bbf31ddce913c7b72f5ac7c89762a92d",
+    "metadataTitle": "Metacognition and Cognitive Monitoring: A New Area of Cognitive-Developmental Inquiry.",
+    "abstractOrigin": "Unspecified",
+    "acquisitionMethod": "complete ERIC Abstract field (description); no AI summary"
+  },
+  "paper-02-ref-c45144df6275": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22integrating+commercial+video+games+in+education%22+OR+title%3A%22games+are+made+for+fun+lessons+on+the+effects+of+concept+maps+in+the+classroom+use+of+computer+games%22+OR+title%3A%22effects+of+a+concept+mappingbased+flipped+classroom+approach+on+efl+students+english+speaking+performance+learning+perceptions+and+speaking+anxiety%22+OR+title%3A%22effectiveness+of+using+a+video+game+to+teach+a+course+in+mechanical+engineering%22+OR+title%3A%22flow+the+psychology+of+optimal+experience%22+OR+title%3A%22discovering+statistics+using+ibm+spss+statistics+4th+ed%22+OR+title%3A%22metacognition+and+cognitive+monitoring+a+new+area+of+cognitive+developmental+inquiry%22+OR+title%3A%22exploring+the+role+of+concept+mapping+in+science+inquiry+learning+a+longitudinal+analysis+of+motivation+and+participation%22+OR+title%3A%22a+concept+mapembedded+educational+computer+game+for+improving+students+learning+performance+in+natural+science+courses%22+OR+title%3A%22applying+a+knowledge+visualization+approach+to+develop+digital+concept+maps+for+flipped+learning+an+investigation+of+learning+achievement+motivation+and+behavior+patterns%22+OR+title%3A%22a+case+study+of+computer+gaming+for+math+engaged+learning+from+gameplay%22+OR+title%3A%22principles+and+practice+in+second+language+acquisition%22+OR+title%3A%22using+ubiquitous+games+in+an+english+listening+and+speaking+course+impact+on+learning+outcomes+and+motivation%22+OR+title%3A%22game+based+learning+considering+the+effectiveness+of+games+as+instructional+tools%22+OR+title%3A%22the+theory+underlying+concept+maps+and+how+to+construct+tem%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:09:04.145322+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "c45144df6275a11d368d3faade858a8b96968b6e3b8cf4578e84f6cc1287d65f"
+  },
+  "10.1016/j.compedu.2013.07.008": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22integrating+commercial+video+games+in+education%22+OR+title%3A%22games+are+made+for+fun+lessons+on+the+effects+of+concept+maps+in+the+classroom+use+of+computer+games%22+OR+title%3A%22effects+of+a+concept+mappingbased+flipped+classroom+approach+on+efl+students+english+speaking+performance+learning+perceptions+and+speaking+anxiety%22+OR+title%3A%22effectiveness+of+using+a+video+game+to+teach+a+course+in+mechanical+engineering%22+OR+title%3A%22flow+the+psychology+of+optimal+experience%22+OR+title%3A%22discovering+statistics+using+ibm+spss+statistics+4th+ed%22+OR+title%3A%22metacognition+and+cognitive+monitoring+a+new+area+of+cognitive+developmental+inquiry%22+OR+title%3A%22exploring+the+role+of+concept+mapping+in+science+inquiry+learning+a+longitudinal+analysis+of+motivation+and+participation%22+OR+title%3A%22a+concept+mapembedded+educational+computer+game+for+improving+students+learning+performance+in+natural+science+courses%22+OR+title%3A%22applying+a+knowledge+visualization+approach+to+develop+digital+concept+maps+for+flipped+learning+an+investigation+of+learning+achievement+motivation+and+behavior+patterns%22+OR+title%3A%22a+case+study+of+computer+gaming+for+math+engaged+learning+from+gameplay%22+OR+title%3A%22principles+and+practice+in+second+language+acquisition%22+OR+title%3A%22using+ubiquitous+games+in+an+english+listening+and+speaking+course+impact+on+learning+outcomes+and+motivation%22+OR+title%3A%22game+based+learning+considering+the+effectiveness+of+games+as+instructional+tools%22+OR+title%3A%22the+theory+underlying+concept+maps+and+how+to+construct+tem%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:09:04.146493+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "e5f57896636db82be5bc5b9307eab0955891f130390d6d107ee8ca2b105374bb"
+  },
+  "paper-02-ref-02a126be96f9": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22integrating+commercial+video+games+in+education%22+OR+title%3A%22games+are+made+for+fun+lessons+on+the+effects+of+concept+maps+in+the+classroom+use+of+computer+games%22+OR+title%3A%22effects+of+a+concept+mappingbased+flipped+classroom+approach+on+efl+students+english+speaking+performance+learning+perceptions+and+speaking+anxiety%22+OR+title%3A%22effectiveness+of+using+a+video+game+to+teach+a+course+in+mechanical+engineering%22+OR+title%3A%22flow+the+psychology+of+optimal+experience%22+OR+title%3A%22discovering+statistics+using+ibm+spss+statistics+4th+ed%22+OR+title%3A%22metacognition+and+cognitive+monitoring+a+new+area+of+cognitive+developmental+inquiry%22+OR+title%3A%22exploring+the+role+of+concept+mapping+in+science+inquiry+learning+a+longitudinal+analysis+of+motivation+and+participation%22+OR+title%3A%22a+concept+mapembedded+educational+computer+game+for+improving+students+learning+performance+in+natural+science+courses%22+OR+title%3A%22applying+a+knowledge+visualization+approach+to+develop+digital+concept+maps+for+flipped+learning+an+investigation+of+learning+achievement+motivation+and+behavior+patterns%22+OR+title%3A%22a+case+study+of+computer+gaming+for+math+engaged+learning+from+gameplay%22+OR+title%3A%22principles+and+practice+in+second+language+acquisition%22+OR+title%3A%22using+ubiquitous+games+in+an+english+listening+and+speaking+course+impact+on+learning+outcomes+and+motivation%22+OR+title%3A%22game+based+learning+considering+the+effectiveness+of+games+as+instructional+tools%22+OR+title%3A%22the+theory+underlying+concept+maps+and+how+to+construct+tem%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:09:04.148191+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "02a126be96f9a5a6d9b3ecc79bed234abd7e04b73c53aa8345f893d17a12cac2"
+  },
+  "10.1016/j.compedu.2008.03.003": {
+    "status": "available",
+    "sourceType": "eric",
+    "sourceUrl": "https://eric.ed.gov/?id=EJ807623",
+    "checkedAt": "2026-09-16T17:09:04.149596+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "7137fcc48dbc9b2d21905ea3795961fadd9844c1e94657fd32e980a6e4cf8f2c",
+    "metadataTitle": "A Case Study of Computer Gaming for Math: Engaged Learning from Gameplay?",
+    "abstractOrigin": "Unspecified",
+    "acquisitionMethod": "complete ERIC Abstract field (description); no AI summary"
+  },
+  "paper-02-ref-80047b6de6a2": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22integrating+commercial+video+games+in+education%22+OR+title%3A%22games+are+made+for+fun+lessons+on+the+effects+of+concept+maps+in+the+classroom+use+of+computer+games%22+OR+title%3A%22effects+of+a+concept+mappingbased+flipped+classroom+approach+on+efl+students+english+speaking+performance+learning+perceptions+and+speaking+anxiety%22+OR+title%3A%22effectiveness+of+using+a+video+game+to+teach+a+course+in+mechanical+engineering%22+OR+title%3A%22flow+the+psychology+of+optimal+experience%22+OR+title%3A%22discovering+statistics+using+ibm+spss+statistics+4th+ed%22+OR+title%3A%22metacognition+and+cognitive+monitoring+a+new+area+of+cognitive+developmental+inquiry%22+OR+title%3A%22exploring+the+role+of+concept+mapping+in+science+inquiry+learning+a+longitudinal+analysis+of+motivation+and+participation%22+OR+title%3A%22a+concept+mapembedded+educational+computer+game+for+improving+students+learning+performance+in+natural+science+courses%22+OR+title%3A%22applying+a+knowledge+visualization+approach+to+develop+digital+concept+maps+for+flipped+learning+an+investigation+of+learning+achievement+motivation+and+behavior+patterns%22+OR+title%3A%22a+case+study+of+computer+gaming+for+math+engaged+learning+from+gameplay%22+OR+title%3A%22principles+and+practice+in+second+language+acquisition%22+OR+title%3A%22using+ubiquitous+games+in+an+english+listening+and+speaking+course+impact+on+learning+outcomes+and+motivation%22+OR+title%3A%22game+based+learning+considering+the+effectiveness+of+games+as+instructional+tools%22+OR+title%3A%22the+theory+underlying+concept+maps+and+how+to+construct+tem%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:09:04.152544+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "80047b6de6a2f10e90345b76ef3108a370b3c7f32c888f3a5d0fb6398fac29f7"
+  },
+  "10.1016/j.compedu.2010.02.023": {
+    "status": "available",
+    "sourceType": "eric",
+    "sourceUrl": "https://eric.ed.gov/?id=EJ884442",
+    "checkedAt": "2026-09-16T17:09:04.153345+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "24a5cedf50eeff5b56239917c5e525ed21e421fe5f722ffa120a34f00b81a078",
+    "metadataTitle": "Using Ubiquitous Games in an English Listening and Speaking Course: Impact on Learning Outcomes and Motivation",
+    "abstractOrigin": "Unspecified",
+    "acquisitionMethod": "complete ERIC Abstract field (description); no AI summary"
+  },
+  "paper-02-ref-c58f187fad52": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22integrating+commercial+video+games+in+education%22+OR+title%3A%22games+are+made+for+fun+lessons+on+the+effects+of+concept+maps+in+the+classroom+use+of+computer+games%22+OR+title%3A%22effects+of+a+concept+mappingbased+flipped+classroom+approach+on+efl+students+english+speaking+performance+learning+perceptions+and+speaking+anxiety%22+OR+title%3A%22effectiveness+of+using+a+video+game+to+teach+a+course+in+mechanical+engineering%22+OR+title%3A%22flow+the+psychology+of+optimal+experience%22+OR+title%3A%22discovering+statistics+using+ibm+spss+statistics+4th+ed%22+OR+title%3A%22metacognition+and+cognitive+monitoring+a+new+area+of+cognitive+developmental+inquiry%22+OR+title%3A%22exploring+the+role+of+concept+mapping+in+science+inquiry+learning+a+longitudinal+analysis+of+motivation+and+participation%22+OR+title%3A%22a+concept+mapembedded+educational+computer+game+for+improving+students+learning+performance+in+natural+science+courses%22+OR+title%3A%22applying+a+knowledge+visualization+approach+to+develop+digital+concept+maps+for+flipped+learning+an+investigation+of+learning+achievement+motivation+and+behavior+patterns%22+OR+title%3A%22a+case+study+of+computer+gaming+for+math+engaged+learning+from+gameplay%22+OR+title%3A%22principles+and+practice+in+second+language+acquisition%22+OR+title%3A%22using+ubiquitous+games+in+an+english+listening+and+speaking+course+impact+on+learning+outcomes+and+motivation%22+OR+title%3A%22game+based+learning+considering+the+effectiveness+of+games+as+instructional+tools%22+OR+title%3A%22the+theory+underlying+concept+maps+and+how+to+construct+tem%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:09:04.156424+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "c58f187fad52be09c5b95165aa6eb62b7228b45418ea9410d751d8ae41af7cd9"
+  },
+  "paper-02-ref-5e91cf532b05": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22integrating+commercial+video+games+in+education%22+OR+title%3A%22games+are+made+for+fun+lessons+on+the+effects+of+concept+maps+in+the+classroom+use+of+computer+games%22+OR+title%3A%22effects+of+a+concept+mappingbased+flipped+classroom+approach+on+efl+students+english+speaking+performance+learning+perceptions+and+speaking+anxiety%22+OR+title%3A%22effectiveness+of+using+a+video+game+to+teach+a+course+in+mechanical+engineering%22+OR+title%3A%22flow+the+psychology+of+optimal+experience%22+OR+title%3A%22discovering+statistics+using+ibm+spss+statistics+4th+ed%22+OR+title%3A%22metacognition+and+cognitive+monitoring+a+new+area+of+cognitive+developmental+inquiry%22+OR+title%3A%22exploring+the+role+of+concept+mapping+in+science+inquiry+learning+a+longitudinal+analysis+of+motivation+and+participation%22+OR+title%3A%22a+concept+mapembedded+educational+computer+game+for+improving+students+learning+performance+in+natural+science+courses%22+OR+title%3A%22applying+a+knowledge+visualization+approach+to+develop+digital+concept+maps+for+flipped+learning+an+investigation+of+learning+achievement+motivation+and+behavior+patterns%22+OR+title%3A%22a+case+study+of+computer+gaming+for+math+engaged+learning+from+gameplay%22+OR+title%3A%22principles+and+practice+in+second+language+acquisition%22+OR+title%3A%22using+ubiquitous+games+in+an+english+listening+and+speaking+course+impact+on+learning+outcomes+and+motivation%22+OR+title%3A%22game+based+learning+considering+the+effectiveness+of+games+as+instructional+tools%22+OR+title%3A%22the+theory+underlying+concept+maps+and+how+to+construct+tem%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:09:04.157334+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "5e91cf532b05d11c6136acb01236b5d94d0ed4cbf1c628c2cb425c7bb6064850"
+  },
+  "10.1002/sce.3730670511": {
+    "status": "available",
+    "sourceType": "eric",
+    "sourceUrl": "https://eric.ed.gov/?id=EJ287216",
+    "checkedAt": "2026-09-16T17:11:20.895213+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "b299d0121481db55103c4e823cfc22c71d5cdac14ca523509e2d9b82cc9bc247",
+    "metadataTitle": "The Use of Concept Mapping and Knowledge Vee Mapping with Junior High School Science Students.",
+    "abstractOrigin": "Unspecified",
+    "acquisitionMethod": "complete ERIC Abstract field (description); no AI summary"
+  },
+  "10.1037/h0084295": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+use+of+concept+mapping+and+knowledge+vee+mapping+with+junior+high+school+science+students%22+OR+title%3A%22dual+coding+theory+retrospect+and+current+status%22+OR+title%3A%22the+ebb+and+flow+of+online+learning%22+OR+title%3A%22digital+game+based+learning+2nd+ed%22+OR+title%3A%22the+effects+of+incorporating+concept+mapping+into+flipped+learning+on+efl+learners+critical+thinking+performance%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:20.898216+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "4e8b51edd81194e7e99047049d736b55e0f51126878afc280544da15030c1b9e"
+  },
+  "10.1016/s0747-5632(04)00036-6": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+use+of+concept+mapping+and+knowledge+vee+mapping+with+junior+high+school+science+students%22+OR+title%3A%22dual+coding+theory+retrospect+and+current+status%22+OR+title%3A%22the+ebb+and+flow+of+online+learning%22+OR+title%3A%22digital+game+based+learning+2nd+ed%22+OR+title%3A%22the+effects+of+incorporating+concept+mapping+into+flipped+learning+on+efl+learners+critical+thinking+performance%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:20.898719+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "c2f3300b1004646bea8c8268e6b32498f66ab6914803ccda5975fcf560ad5768"
+  },
+  "paper-02-ref-3ae854777a97": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+use+of+concept+mapping+and+knowledge+vee+mapping+with+junior+high+school+science+students%22+OR+title%3A%22dual+coding+theory+retrospect+and+current+status%22+OR+title%3A%22the+ebb+and+flow+of+online+learning%22+OR+title%3A%22digital+game+based+learning+2nd+ed%22+OR+title%3A%22the+effects+of+incorporating+concept+mapping+into+flipped+learning+on+efl+learners+critical+thinking+performance%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:20.899388+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "3ae854777a9749ab95d42eaaf1a1137690e27c28260dab5e8508e3b9e8c2a568"
+  },
+  "paper-02-ref-552253a1682e": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+use+of+concept+mapping+and+knowledge+vee+mapping+with+junior+high+school+science+students%22+OR+title%3A%22dual+coding+theory+retrospect+and+current+status%22+OR+title%3A%22the+ebb+and+flow+of+online+learning%22+OR+title%3A%22digital+game+based+learning+2nd+ed%22+OR+title%3A%22the+effects+of+incorporating+concept+mapping+into+flipped+learning+on+efl+learners+critical+thinking+performance%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:20.900090+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "552253a1682e58bb0c3c3fe43730b2322c136d94e273dd836b65595add74aefe"
+  },
+  "10.1016/0959-4752(94)90003-5": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22cognitive+load+theory+learning+difficulty+and+instructional+design%22+OR+title%3A%22using+multivariate+statistics+7th+ed%22+OR+title%3A%22mind+in+society+the+development+of+higher+psychological+processes+edited+by+m%22+OR+title%3A%22maximizing+students+content+and+language+development+the+pedagogical+potential+of+translanguaging+in+a+chinese+immersion+setting%22+OR+title%3A%22innovation+in+physical+education+teachers+perspectives+on+readiness+for+wearable+technology+integration%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:21.872409+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "b967c5be07373c480c1c491b669932120e3218408b2ad75a8618fd28da552fd5"
+  },
+  "paper-02-ref-5b8ea531ead2": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22cognitive+load+theory+learning+difficulty+and+instructional+design%22+OR+title%3A%22using+multivariate+statistics+7th+ed%22+OR+title%3A%22mind+in+society+the+development+of+higher+psychological+processes+edited+by+m%22+OR+title%3A%22maximizing+students+content+and+language+development+the+pedagogical+potential+of+translanguaging+in+a+chinese+immersion+setting%22+OR+title%3A%22innovation+in+physical+education+teachers+perspectives+on+readiness+for+wearable+technology+integration%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:21.873862+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "5b8ea531ead22ae477b0c1ce49c0114406c96704b6441cd08221d24e9a48af02"
+  },
+  "paper-02-ref-8a636a3fac9a": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22cognitive+load+theory+learning+difficulty+and+instructional+design%22+OR+title%3A%22using+multivariate+statistics+7th+ed%22+OR+title%3A%22mind+in+society+the+development+of+higher+psychological+processes+edited+by+m%22+OR+title%3A%22maximizing+students+content+and+language+development+the+pedagogical+potential+of+translanguaging+in+a+chinese+immersion+setting%22+OR+title%3A%22innovation+in+physical+education+teachers+perspectives+on+readiness+for+wearable+technology+integration%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:21.874968+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "8a636a3fac9a6b452b0ced3dd5ec7d716590d17290c9211e7545ba13dec35960"
+  },
+  "10.1016/j.learninstruc.2024.102023": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22cognitive+load+theory+learning+difficulty+and+instructional+design%22+OR+title%3A%22using+multivariate+statistics+7th+ed%22+OR+title%3A%22mind+in+society+the+development+of+higher+psychological+processes+edited+by+m%22+OR+title%3A%22maximizing+students+content+and+language+development+the+pedagogical+potential+of+translanguaging+in+a+chinese+immersion+setting%22+OR+title%3A%22innovation+in+physical+education+teachers+perspectives+on+readiness+for+wearable+technology+integration%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:21.875865+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "bfe45c620c1f6879a230dd44588cb924365fc9a37c2d12aa2b49b067bc1e046a"
+  },
+  "10.1016/j.compedu.2021.104185": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22cognitive+load+theory+learning+difficulty+and+instructional+design%22+OR+title%3A%22using+multivariate+statistics+7th+ed%22+OR+title%3A%22mind+in+society+the+development+of+higher+psychological+processes+edited+by+m%22+OR+title%3A%22maximizing+students+content+and+language+development+the+pedagogical+potential+of+translanguaging+in+a+chinese+immersion+setting%22+OR+title%3A%22innovation+in+physical+education+teachers+perspectives+on+readiness+for+wearable+technology+integration%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:21.877227+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "760be0dcc3a18b11fd97068ac2027ce96279a7a04efcb4b9941dc52f6022a286"
+  },
+  "10.1017/cbo9780511527685": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22the+design+and+evaluation+of+a+multiscaffolding+game+based+career+education+teaching+module+with+mobile+technology+for+high+school+students+with+mild+intellectual+disabilities%22+OR+title%3A%22do+socio+cultural+differences+matter+a+study+of+the+learning+effects+and+satisfaction+with+physical+activity+from+digital+learning+assimilated+into+a+university+dance+course%22+OR+title%3A%22two+decades+of+artificial+intelligence+in+education+contributors+collaborations+research+topics+challenges+and+future+directions%22+OR+title%3A%22effectiveness+of+gamified+intelligent+tutoring+in+physical+education+through+the+lens+of+self+determination+theory%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:53.234383+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "c3870df942770dab6fd1bfba7dcc1724086a94ce5694853aa0678f3197d3ee56"
+  },
+  "10.30191/ets.202410_27(4).rp06": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22the+design+and+evaluation+of+a+multiscaffolding+game+based+career+education+teaching+module+with+mobile+technology+for+high+school+students+with+mild+intellectual+disabilities%22+OR+title%3A%22do+socio+cultural+differences+matter+a+study+of+the+learning+effects+and+satisfaction+with+physical+activity+from+digital+learning+assimilated+into+a+university+dance+course%22+OR+title%3A%22two+decades+of+artificial+intelligence+in+education+contributors+collaborations+research+topics+challenges+and+future+directions%22+OR+title%3A%22effectiveness+of+gamified+intelligent+tutoring+in+physical+education+through+the+lens+of+self+determination+theory%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:53.239465+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "ac6b7b0a7f27576bed960761d0d24ba021ffe7e87d13d14531dd28b676602364"
+  },
+  "10.1016/j.compedu.2021.104150": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22the+design+and+evaluation+of+a+multiscaffolding+game+based+career+education+teaching+module+with+mobile+technology+for+high+school+students+with+mild+intellectual+disabilities%22+OR+title%3A%22do+socio+cultural+differences+matter+a+study+of+the+learning+effects+and+satisfaction+with+physical+activity+from+digital+learning+assimilated+into+a+university+dance+course%22+OR+title%3A%22two+decades+of+artificial+intelligence+in+education+contributors+collaborations+research+topics+challenges+and+future+directions%22+OR+title%3A%22effectiveness+of+gamified+intelligent+tutoring+in+physical+education+through+the+lens+of+self+determination+theory%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:53.241670+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "18f572887c9d4d10049b9e1ecf592e3f98551919fbfd99d93381ceeb5e6d89a4"
+  },
+  "10.30191/ets.202201_25(1).0003": {
+    "status": "available",
+    "sourceType": "eric",
+    "sourceUrl": "https://eric.ed.gov/?id=EJ1336009",
+    "checkedAt": "2026-09-16T17:11:53.244114+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "29f447333d20a2e238f225c4c9964e97b61cf7bc37f419d503d04b667dbed9b3",
+    "metadataTitle": "Two Decades of Artificial Intelligence in Education: Contributors, Collaborations, Research Topics, Challenges, and Future Directions",
+    "abstractOrigin": "Unspecified",
+    "acquisitionMethod": "complete ERIC Abstract field (description); no AI summary"
+  },
+  "10.1016/j.compedu.2024.105212": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22observing+interaction+an+introduction+to+sequential+analysis+2nd+ed%22+OR+title%3A%22the+design+and+evaluation+of+a+multiscaffolding+game+based+career+education+teaching+module+with+mobile+technology+for+high+school+students+with+mild+intellectual+disabilities%22+OR+title%3A%22do+socio+cultural+differences+matter+a+study+of+the+learning+effects+and+satisfaction+with+physical+activity+from+digital+learning+assimilated+into+a+university+dance+course%22+OR+title%3A%22two+decades+of+artificial+intelligence+in+education+contributors+collaborations+research+topics+challenges+and+future+directions%22+OR+title%3A%22effectiveness+of+gamified+intelligent+tutoring+in+physical+education+through+the+lens+of+self+determination+theory%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:53.249464+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "bb2834356da436ffe20d892423647915e0b54c88b3060cc44f934479b5f92b90"
+  },
+  "10.6173/cjse.2007.1503.02": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+development+of+a+computer+assisted+self+regulation+system+on+the+internet%22+OR+title%3A%22development+of+the+system+for+observing+virtual+real+time+lessons+in+physical+education+sovrtl+pe+a+tool+to+support+preservice+teachers+applied+learning+experiences%22+OR+title%3A%22personalization+in+educational+gamification+learners+with+different+trait+competitiveness+benefit+differently+from+rankings+on+leaderboards%22+OR+title%3A%22gamification+in+software+engineering+education+a+systematic+mapping%22+OR+title%3A%22teaching+for+quality+learning+at+university+4th+ed%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:54.245458+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "b9bede01004a74f9494173df896df101cea22e66399216e5994a49cabab541bb"
+  },
+  "10.1016/j.compedu.2023.104738": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+development+of+a+computer+assisted+self+regulation+system+on+the+internet%22+OR+title%3A%22development+of+the+system+for+observing+virtual+real+time+lessons+in+physical+education+sovrtl+pe+a+tool+to+support+preservice+teachers+applied+learning+experiences%22+OR+title%3A%22personalization+in+educational+gamification+learners+with+different+trait+competitiveness+benefit+differently+from+rankings+on+leaderboards%22+OR+title%3A%22gamification+in+software+engineering+education+a+systematic+mapping%22+OR+title%3A%22teaching+for+quality+learning+at+university+4th+ed%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:54.248487+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "27a6dc96514fc82490d6ef9bb2722222bd5f2e5519de7d22502c3c64a35f027a"
+  },
+  "10.1016/j.compedu.2024.105196": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+development+of+a+computer+assisted+self+regulation+system+on+the+internet%22+OR+title%3A%22development+of+the+system+for+observing+virtual+real+time+lessons+in+physical+education+sovrtl+pe+a+tool+to+support+preservice+teachers+applied+learning+experiences%22+OR+title%3A%22personalization+in+educational+gamification+learners+with+different+trait+competitiveness+benefit+differently+from+rankings+on+leaderboards%22+OR+title%3A%22gamification+in+software+engineering+education+a+systematic+mapping%22+OR+title%3A%22teaching+for+quality+learning+at+university+4th+ed%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:54.250314+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "a31739aab003f5ae8407626302f29018aba03544d8fa474fc8ebc3c1e3035984"
+  },
+  "10.1016/j.jss.2018.03.065": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+development+of+a+computer+assisted+self+regulation+system+on+the+internet%22+OR+title%3A%22development+of+the+system+for+observing+virtual+real+time+lessons+in+physical+education+sovrtl+pe+a+tool+to+support+preservice+teachers+applied+learning+experiences%22+OR+title%3A%22personalization+in+educational+gamification+learners+with+different+trait+competitiveness+benefit+differently+from+rankings+on+leaderboards%22+OR+title%3A%22gamification+in+software+engineering+education+a+systematic+mapping%22+OR+title%3A%22teaching+for+quality+learning+at+university+4th+ed%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:54.251490+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "a6488cba88eafeebbbb63db4f16b0689661449448844fb0f3c1117a2a682d975"
+  },
+  "paper-04-ref-977c6dd7da52": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+development+of+a+computer+assisted+self+regulation+system+on+the+internet%22+OR+title%3A%22development+of+the+system+for+observing+virtual+real+time+lessons+in+physical+education+sovrtl+pe+a+tool+to+support+preservice+teachers+applied+learning+experiences%22+OR+title%3A%22personalization+in+educational+gamification+learners+with+different+trait+competitiveness+benefit+differently+from+rankings+on+leaderboards%22+OR+title%3A%22gamification+in+software+engineering+education+a+systematic+mapping%22+OR+title%3A%22teaching+for+quality+learning+at+university+4th+ed%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:54.252686+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "977c6dd7da52c26c01c3b284756909472aba7a22fec8b6862fcaa460ea31640a"
+  },
+  "paper-04-ref-eb17bee572fa": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22change+by+design+how+design+thinking+creates+new+alternatives+for+business+and+society%22+OR+title%3A%22flow+the+psychology+of+optimal+experience%22+OR+title%3A%22embedding+21st+century+competencies+into+higher+education+insights+from+vietnamese+lecturers+perspectives+and+pedagogical+strategies%22+OR+title%3A%22foundations+for+health+promotion+4th+ed%22+OR+title%3A%22self+determination+theory+and+the+facilitation+of+intrinsic+motivation+social+development+and+well+being%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:55.400234+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "eb17bee572fa366a0e714fa7d9175333e8009dbaeeb4a7e65498428a8c942abc"
+  },
+  "paper-04-ref-66359e1b1a56": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22change+by+design+how+design+thinking+creates+new+alternatives+for+business+and+society%22+OR+title%3A%22flow+the+psychology+of+optimal+experience%22+OR+title%3A%22embedding+21st+century+competencies+into+higher+education+insights+from+vietnamese+lecturers+perspectives+and+pedagogical+strategies%22+OR+title%3A%22foundations+for+health+promotion+4th+ed%22+OR+title%3A%22self+determination+theory+and+the+facilitation+of+intrinsic+motivation+social+development+and+well+being%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:55.401899+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "66359e1b1a5646e0a408c8c9f9699398c816320b9f34dd1b1dde8ebc0f9e4e5d"
+  },
+  "10.1016/j.tsc.2025.101990": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22change+by+design+how+design+thinking+creates+new+alternatives+for+business+and+society%22+OR+title%3A%22flow+the+psychology+of+optimal+experience%22+OR+title%3A%22embedding+21st+century+competencies+into+higher+education+insights+from+vietnamese+lecturers+perspectives+and+pedagogical+strategies%22+OR+title%3A%22foundations+for+health+promotion+4th+ed%22+OR+title%3A%22self+determination+theory+and+the+facilitation+of+intrinsic+motivation+social+development+and+well+being%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:55.404474+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "302a002c930f09e874647ae9e99ca81f4009cff34bc45b5452c20f5291a00000"
+  },
+  "paper-04-ref-92c3f5812432": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22change+by+design+how+design+thinking+creates+new+alternatives+for+business+and+society%22+OR+title%3A%22flow+the+psychology+of+optimal+experience%22+OR+title%3A%22embedding+21st+century+competencies+into+higher+education+insights+from+vietnamese+lecturers+perspectives+and+pedagogical+strategies%22+OR+title%3A%22foundations+for+health+promotion+4th+ed%22+OR+title%3A%22self+determination+theory+and+the+facilitation+of+intrinsic+motivation+social+development+and+well+being%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:55.406282+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "92c3f581243246f0f71319e6c8b94c96ab8c340c89a2f7f015417070ace458bb"
+  },
+  "10.1037/0003-066x.55.1.68": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22change+by+design+how+design+thinking+creates+new+alternatives+for+business+and+society%22+OR+title%3A%22flow+the+psychology+of+optimal+experience%22+OR+title%3A%22embedding+21st+century+competencies+into+higher+education+insights+from+vietnamese+lecturers+perspectives+and+pedagogical+strategies%22+OR+title%3A%22foundations+for+health+promotion+4th+ed%22+OR+title%3A%22self+determination+theory+and+the+facilitation+of+intrinsic+motivation+social+development+and+well+being%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:55.407696+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "d8b48d038fe54c6feab29449d386dae9e0fbc64f6ccab178953db64c5f9b1e86"
+  },
+  "paper-04-ref-519eab6ce12c": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+nature+of+creativity%22+OR+title%3A%22examining+the+effects+of+creativity+collaboration+creative+diversity+and+autonomy+on+team+creative+performance%22+OR+title%3A%22global+competency+framework+for+universal+health+coverage+https+www+who+int+publications+i+item+9789240034686%22+OR+title%3A%22scaffolding+self+regulated+learning+and+metacognition+implications+for+the+design+of+computer+based+scaffolds%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:56.242267+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "519eab6ce12c92ed4a3aefaad377449cf187b88608f864271556005fbdf6979f"
+  },
+  "10.1016/j.tsc.2023.101415": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+nature+of+creativity%22+OR+title%3A%22examining+the+effects+of+creativity+collaboration+creative+diversity+and+autonomy+on+team+creative+performance%22+OR+title%3A%22global+competency+framework+for+universal+health+coverage+https+www+who+int+publications+i+item+9789240034686%22+OR+title%3A%22scaffolding+self+regulated+learning+and+metacognition+implications+for+the+design+of+computer+based+scaffolds%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:56.246770+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "32bb304ab1cd465d91717d8894cd650b930020a5c56967d10d488fc4dfe7f8e8"
+  },
+  "paper-04-ref-217720f0c2c9": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+nature+of+creativity%22+OR+title%3A%22examining+the+effects+of+creativity+collaboration+creative+diversity+and+autonomy+on+team+creative+performance%22+OR+title%3A%22global+competency+framework+for+universal+health+coverage+https+www+who+int+publications+i+item+9789240034686%22+OR+title%3A%22scaffolding+self+regulated+learning+and+metacognition+implications+for+the+design+of+computer+based+scaffolds%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:56.252850+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "217720f0c2c995d60a53a453351d3ecae7d08b74d3f3d0be17f04133be2f50f0"
+  },
+  "10.1007/s11251-005-1272-9": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+nature+of+creativity%22+OR+title%3A%22examining+the+effects+of+creativity+collaboration+creative+diversity+and+autonomy+on+team+creative+performance%22+OR+title%3A%22global+competency+framework+for+universal+health+coverage+https+www+who+int+publications+i+item+9789240034686%22+OR+title%3A%22scaffolding+self+regulated+learning+and+metacognition+implications+for+the+design+of+computer+based+scaffolds%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:56.256340+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "3a34ccb780490db0bcf4b52dd1e00fffc4e1df0223047fb790cbcfc440d52e60"
+  },
+  "paper-05-ref-11cef1744b82": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22the+nature+of+creativity%22+OR+title%3A%22examining+the+effects+of+creativity+collaboration+creative+diversity+and+autonomy+on+team+creative+performance%22+OR+title%3A%22global+competency+framework+for+universal+health+coverage+https+www+who+int+publications+i+item+9789240034686%22+OR+title%3A%22scaffolding+self+regulated+learning+and+metacognition+implications+for+the+design+of+computer+based+scaffolds%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:56.262809+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "11cef1744b82ccfaefd7cdf15d67df6cf83bc1ce3dc03075bcdc241765bdfc57"
+  },
+  "paper-05-ref-fa1fbd80a88b": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22social+foundations+of+thought+and+action%22+OR+title%3A%22self+efficacy+the+exercise+of+control%22+OR+title%3A%22taxonomy+of+educational+objectives+the+classification+of+educational+goals%22+OR+title%3A%22assessment+of+the+critical+thinking+skills+of+student+radiographers%22+OR+title%3A%22enhancing+student+creativity+through+an+interdisciplinary+project+oriented+problem+based+learning+undergraduate+curriculum%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:56.896751+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "fa1fbd80a88b92a48d9a2de029c8d30dbca12ff3d3a46ce91ce8a9a165541a14"
+  },
+  "paper-05-ref-aa184b3535c0": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22social+foundations+of+thought+and+action%22+OR+title%3A%22self+efficacy+the+exercise+of+control%22+OR+title%3A%22taxonomy+of+educational+objectives+the+classification+of+educational+goals%22+OR+title%3A%22assessment+of+the+critical+thinking+skills+of+student+radiographers%22+OR+title%3A%22enhancing+student+creativity+through+an+interdisciplinary+project+oriented+problem+based+learning+undergraduate+curriculum%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:56.900360+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "aa184b3535c0a0ef8726e741458afa22fafe04740ef8a8ebc64575fdce6dd827"
+  },
+  "paper-05-ref-ec3c61c6dc96": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22social+foundations+of+thought+and+action%22+OR+title%3A%22self+efficacy+the+exercise+of+control%22+OR+title%3A%22taxonomy+of+educational+objectives+the+classification+of+educational+goals%22+OR+title%3A%22assessment+of+the+critical+thinking+skills+of+student+radiographers%22+OR+title%3A%22enhancing+student+creativity+through+an+interdisciplinary+project+oriented+problem+based+learning+undergraduate+curriculum%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:56.902015+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "ec3c61c6dc9644e383d11a49cf8f2779c0f49aa1452f97e57d32ef25df8e4275"
+  },
+  "10.1016/j.radi.2005.03.004": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22social+foundations+of+thought+and+action%22+OR+title%3A%22self+efficacy+the+exercise+of+control%22+OR+title%3A%22taxonomy+of+educational+objectives+the+classification+of+educational+goals%22+OR+title%3A%22assessment+of+the+critical+thinking+skills+of+student+radiographers%22+OR+title%3A%22enhancing+student+creativity+through+an+interdisciplinary+project+oriented+problem+based+learning+undergraduate+curriculum%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:56.903322+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "28a2e018f0315cadc8dbff80bce82e67bd3304cb629d41b93627aa47eec9bfbf"
+  },
+  "10.1016/j.tsc.2022.101173": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22social+foundations+of+thought+and+action%22+OR+title%3A%22self+efficacy+the+exercise+of+control%22+OR+title%3A%22taxonomy+of+educational+objectives+the+classification+of+educational+goals%22+OR+title%3A%22assessment+of+the+critical+thinking+skills+of+student+radiographers%22+OR+title%3A%22enhancing+student+creativity+through+an+interdisciplinary+project+oriented+problem+based+learning+undergraduate+curriculum%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:56.904796+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "87be67e0b40b9df791496103987184e4397c320c505774ab385643d758700d92"
+  },
+  "paper-05-ref-f6e8146c3390": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22artificial+intelligent+robots+for+precision+education%22+OR+title%3A%22structuring+cooperative+group+work+in+classrooms%22+OR+title%3A%22verification+of+the+perception+and+optimal+number+of+learners+in+a+group+for+computer+assisted+language+learning+eds%22+OR+title%3A%22effects+of+incorporating+an+expert+decision+making+mechanism+into+chatbots+on+students+achievement+enjoyment+and+anxiety%22+OR+title%3A%22a+context+aware+ubiquitous+learning+environment+for+conducting+complex+science+experiments%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:57.884227+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "f6e8146c33902b084681c84140c827f89d5b6c59db36a58a261666df95665d2b"
+  },
+  "10.1016/s0883-0355(03)00072-7": {
+    "status": "available",
+    "sourceType": "eric",
+    "sourceUrl": "https://eric.ed.gov/?id=EJ778888",
+    "checkedAt": "2026-09-16T17:11:57.888416+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "5151f7df800e6b3039185f1bfb5ba640fac61c6890c8cb252f6eea670099a6e6",
+    "metadataTitle": "Structuring Cooperative Group Work in Classrooms",
+    "abstractOrigin": "Unspecified",
+    "acquisitionMethod": "complete ERIC Abstract field (description); no AI summary"
+  },
+  "paper-05-ref-ba6248c6a315": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22artificial+intelligent+robots+for+precision+education%22+OR+title%3A%22structuring+cooperative+group+work+in+classrooms%22+OR+title%3A%22verification+of+the+perception+and+optimal+number+of+learners+in+a+group+for+computer+assisted+language+learning+eds%22+OR+title%3A%22effects+of+incorporating+an+expert+decision+making+mechanism+into+chatbots+on+students+achievement+enjoyment+and+anxiety%22+OR+title%3A%22a+context+aware+ubiquitous+learning+environment+for+conducting+complex+science+experiments%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:57.895058+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "ba6248c6a31528e41a510ef06836f9430f3f1716ce03dfa276828f5e969645af"
+  },
+  "paper-05-ref-7ea2d9070e35": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22artificial+intelligent+robots+for+precision+education%22+OR+title%3A%22structuring+cooperative+group+work+in+classrooms%22+OR+title%3A%22verification+of+the+perception+and+optimal+number+of+learners+in+a+group+for+computer+assisted+language+learning+eds%22+OR+title%3A%22effects+of+incorporating+an+expert+decision+making+mechanism+into+chatbots+on+students+achievement+enjoyment+and+anxiety%22+OR+title%3A%22a+context+aware+ubiquitous+learning+environment+for+conducting+complex+science+experiments%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:57.897297+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "7ea2d9070e35f17a5e93e89320a887e5c9de9813068edfaa264d59f3b86cdd4b"
+  },
+  "10.1016/j.compedu.2009.02.016": {
+    "status": "available",
+    "sourceType": "eric",
+    "sourceUrl": "https://eric.ed.gov/?id=EJ842984",
+    "checkedAt": "2026-09-16T17:11:57.899574+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "1cac313cf10223cd27a8ab9fa9bc10bc600385c04f33dde1448b02e50ad08b79",
+    "metadataTitle": "A Context-Aware Ubiquitous Learning Environment for Conducting Complex Science Experiments",
+    "abstractOrigin": "Unspecified",
+    "acquisitionMethod": "complete ERIC Abstract field (description); no AI summary"
+  },
+  "10.1016/j.compedu.2023.104898": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22beyond+chatgpt+a+conceptual+framework+and+systematic+review+of+speech+recognition+chatbots+for+language+learning%22+OR+title%3A%22thinking+about+cooperative+learning+the+impacts+of+epistemic+motives+and+social+structure+on+cooperative+learning+environments%22+OR+title%3A%22project+based+learning+ed%22+OR+title%3A%22effect+of+a+reflection+guided+visualized+mindtool+strategy+for+improving+students+learning+performance+and+behaviors+in+computational+thinking+development%22+OR+title%3A%22building+a+practically+useful+theory+of+goal+setting+and+task+motivation+a+35+year+odyssey%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:58.626179+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "1d52ce987a0eaa3322c76eae99d7a562c03724590862ff52bb0c3c2991406422"
+  },
+  "10.1016/j.ijme.2022.100643": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22beyond+chatgpt+a+conceptual+framework+and+systematic+review+of+speech+recognition+chatbots+for+language+learning%22+OR+title%3A%22thinking+about+cooperative+learning+the+impacts+of+epistemic+motives+and+social+structure+on+cooperative+learning+environments%22+OR+title%3A%22project+based+learning+ed%22+OR+title%3A%22effect+of+a+reflection+guided+visualized+mindtool+strategy+for+improving+students+learning+performance+and+behaviors+in+computational+thinking+development%22+OR+title%3A%22building+a+practically+useful+theory+of+goal+setting+and+task+motivation+a+35+year+odyssey%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:58.628939+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "da1a058f557ecbff6f7b07fe6428c1b737bdcff3aac32f807ba1b8d7fad247b6"
+  },
+  "10.1017/cbo9781139519526.018": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22beyond+chatgpt+a+conceptual+framework+and+systematic+review+of+speech+recognition+chatbots+for+language+learning%22+OR+title%3A%22thinking+about+cooperative+learning+the+impacts+of+epistemic+motives+and+social+structure+on+cooperative+learning+environments%22+OR+title%3A%22project+based+learning+ed%22+OR+title%3A%22effect+of+a+reflection+guided+visualized+mindtool+strategy+for+improving+students+learning+performance+and+behaviors+in+computational+thinking+development%22+OR+title%3A%22building+a+practically+useful+theory+of+goal+setting+and+task+motivation+a+35+year+odyssey%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:58.631026+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "cc5884492a98cde96d79ea4c68bcbc97e49707de0724089a4baf3c833162a322"
+  },
+  "paper-05-ref-41b62d5ba73d": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22beyond+chatgpt+a+conceptual+framework+and+systematic+review+of+speech+recognition+chatbots+for+language+learning%22+OR+title%3A%22thinking+about+cooperative+learning+the+impacts+of+epistemic+motives+and+social+structure+on+cooperative+learning+environments%22+OR+title%3A%22project+based+learning+ed%22+OR+title%3A%22effect+of+a+reflection+guided+visualized+mindtool+strategy+for+improving+students+learning+performance+and+behaviors+in+computational+thinking+development%22+OR+title%3A%22building+a+practically+useful+theory+of+goal+setting+and+task+motivation+a+35+year+odyssey%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:58.632511+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "41b62d5ba73d4ea6b65ff5f2e629c8bdc826a46651b1cfdeb99fbdf0e79949ae"
+  },
+  "10.1037/0003-066x.57.9.705": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22beyond+chatgpt+a+conceptual+framework+and+systematic+review+of+speech+recognition+chatbots+for+language+learning%22+OR+title%3A%22thinking+about+cooperative+learning+the+impacts+of+epistemic+motives+and+social+structure+on+cooperative+learning+environments%22+OR+title%3A%22project+based+learning+ed%22+OR+title%3A%22effect+of+a+reflection+guided+visualized+mindtool+strategy+for+improving+students+learning+performance+and+behaviors+in+computational+thinking+development%22+OR+title%3A%22building+a+practically+useful+theory+of+goal+setting+and+task+motivation+a+35+year+odyssey%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:58.634028+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "e2e0154a3ac96d5e7ce05258a776b6ad89534b4dc24405879fc19af4b7c61859"
+  },
+  "10.1016/j.compedu.2021.104236": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22visual+search+patterns+information+selection+strategies+and+information+anxiety+for+online+information+problem+solving%22+OR+title%3A%22thought+and+language+a%22+OR+title%3A%22the+effects+of+group+composition+of+self+efficacy+and+collective+efficacy+on+computer+supported+collaborative+learning%22+OR+title%3A%22siren+s+song+in+the+ai+ocean+a+survey+on+hallucination+in+large+language+models+arxiv+preprint+arxiv+2309+01219+10+48550+arxiv+2309+01219%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:59.365321+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "6e9dfdb801fbfd9969afaa275595f98a1051c36fae630311f6dd42d4ddb07c67"
+  },
+  "paper-05-ref-80dab7c5f5ad": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22visual+search+patterns+information+selection+strategies+and+information+anxiety+for+online+information+problem+solving%22+OR+title%3A%22thought+and+language+a%22+OR+title%3A%22the+effects+of+group+composition+of+self+efficacy+and+collective+efficacy+on+computer+supported+collaborative+learning%22+OR+title%3A%22siren+s+song+in+the+ai+ocean+a+survey+on+hallucination+in+large+language+models+arxiv+preprint+arxiv+2309+01219+10+48550+arxiv+2309+01219%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:59.368880+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "80dab7c5f5ada48c96d0085860b7ee51ea707145b69a2df2429c2f33f90899f1"
+  },
+  "10.1016/j.chb.2006.03.005": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22visual+search+patterns+information+selection+strategies+and+information+anxiety+for+online+information+problem+solving%22+OR+title%3A%22thought+and+language+a%22+OR+title%3A%22the+effects+of+group+composition+of+self+efficacy+and+collective+efficacy+on+computer+supported+collaborative+learning%22+OR+title%3A%22siren+s+song+in+the+ai+ocean+a+survey+on+hallucination+in+large+language+models+arxiv+preprint+arxiv+2309+01219+10+48550+arxiv+2309+01219%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:59.370564+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "f0fc883757c7826987eb36b5894d825b39cc64f402a89d846a35afa962cf876c"
+  },
+  "10.48550/arxiv.2309.01219": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22visual+search+patterns+information+selection+strategies+and+information+anxiety+for+online+information+problem+solving%22+OR+title%3A%22thought+and+language+a%22+OR+title%3A%22the+effects+of+group+composition+of+self+efficacy+and+collective+efficacy+on+computer+supported+collaborative+learning%22+OR+title%3A%22siren+s+song+in+the+ai+ocean+a+survey+on+hallucination+in+large+language+models+arxiv+preprint+arxiv+2309+01219+10+48550+arxiv+2309+01219%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:59.372372+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "f2567decd24b6d6c110cc8ce1a28c3a1da62ce7eec332db34913e8fae6fecc2a"
+  },
+  "paper-06-ref-aada17461844": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22visual+search+patterns+information+selection+strategies+and+information+anxiety+for+online+information+problem+solving%22+OR+title%3A%22thought+and+language+a%22+OR+title%3A%22the+effects+of+group+composition+of+self+efficacy+and+collective+efficacy+on+computer+supported+collaborative+learning%22+OR+title%3A%22siren+s+song+in+the+ai+ocean+a+survey+on+hallucination+in+large+language+models+arxiv+preprint+arxiv+2309+01219+10+48550+arxiv+2309+01219%22+OR+title%3A%22observing+interaction+an+introduction+to+sequential+analysis%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:11:59.373779+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "aada17461844c043eb32e3ab5a5af20353f59fd913bb23b526ffceb378698cf9"
+  },
+  "10.1016/j.compedu.2020.104123": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22effect+sizes+and+research+directions+of+peer+assessments+from+an+integrated+perspective+of+meta+analysis+and+co+citation+network%22+OR+title%3A%22the+effect+of+using+board+games+in+reducing+language+anxiety+and+improving+oral+performance%22+OR+title%3A%22reflections+rationales+and+realities%22+OR+title%3A%22statistical+power+analysis+for+the+behavioral+sciences%22+OR+title%3A%22peer+assisted+learning%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:12:01.276439+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "15e9a976338894a73fde02de049ed8ffd5b73d3551dfab29d12267beafe246ad"
+  },
+  "paper-06-ref-a169c8c64995": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22effect+sizes+and+research+directions+of+peer+assessments+from+an+integrated+perspective+of+meta+analysis+and+co+citation+network%22+OR+title%3A%22the+effect+of+using+board+games+in+reducing+language+anxiety+and+improving+oral+performance%22+OR+title%3A%22reflections+rationales+and+realities%22+OR+title%3A%22statistical+power+analysis+for+the+behavioral+sciences%22+OR+title%3A%22peer+assisted+learning%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:12:01.340148+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "a169c8c649951dab2411891b9732e776664d329fd5d40eac687cbea44d0a76b9"
+  },
+  "paper-06-ref-5f78a07638b9": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22effect+sizes+and+research+directions+of+peer+assessments+from+an+integrated+perspective+of+meta+analysis+and+co+citation+network%22+OR+title%3A%22the+effect+of+using+board+games+in+reducing+language+anxiety+and+improving+oral+performance%22+OR+title%3A%22reflections+rationales+and+realities%22+OR+title%3A%22statistical+power+analysis+for+the+behavioral+sciences%22+OR+title%3A%22peer+assisted+learning%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:12:01.360863+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "5f78a07638b9078b5931c7d841205ac9e84ee1f06f9e66491362079651f92909"
+  },
+  "paper-06-ref-d64ad1c26fdb": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22effect+sizes+and+research+directions+of+peer+assessments+from+an+integrated+perspective+of+meta+analysis+and+co+citation+network%22+OR+title%3A%22the+effect+of+using+board+games+in+reducing+language+anxiety+and+improving+oral+performance%22+OR+title%3A%22reflections+rationales+and+realities%22+OR+title%3A%22statistical+power+analysis+for+the+behavioral+sciences%22+OR+title%3A%22peer+assisted+learning%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:12:01.370677+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "d64ad1c26fdb36e49487963db61593927b1f545420b6622cc637a900a99771d0"
+  },
+  "paper-06-ref-0590b5ab8ac6": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22effect+sizes+and+research+directions+of+peer+assessments+from+an+integrated+perspective+of+meta+analysis+and+co+citation+network%22+OR+title%3A%22the+effect+of+using+board+games+in+reducing+language+anxiety+and+improving+oral+performance%22+OR+title%3A%22reflections+rationales+and+realities%22+OR+title%3A%22statistical+power+analysis+for+the+behavioral+sciences%22+OR+title%3A%22peer+assisted+learning%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:12:01.384218+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "0590b5ab8ac64a65fbc5e01fa344760879fec25b4cffc3b65cf605375e33753a"
+  },
+  "10.1016/j.chb.2015.07.045": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22challenging+games+help+students+learn+an+empirical+study+on+engagement+flow+and+immersion+in+game+based+learning%22+OR+title%3A%22computational+thinking+the+developing+definition+pp+6%22+OR+title%3A%22research+notebook+computational+thinking+what+and+why%22+OR+title%3A%22effects+of+artificial+intelligence+enabled+personalized+recommendations+on+learners+learning+engagement+motivation+and+outcomes+in+a+flipped+classroom%22+OR+title%3A%22worlding+through+play+alternate+reality+games+large+scale+learning+and+the+source%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:12:02.355622+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "fb74c42336ab7bac3c943591d671c753c8b3922913e748574e3630ab26ffa21b"
+  },
+  "paper-06-ref-82b8228d5ac8": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22challenging+games+help+students+learn+an+empirical+study+on+engagement+flow+and+immersion+in+game+based+learning%22+OR+title%3A%22computational+thinking+the+developing+definition+pp+6%22+OR+title%3A%22research+notebook+computational+thinking+what+and+why%22+OR+title%3A%22effects+of+artificial+intelligence+enabled+personalized+recommendations+on+learners+learning+engagement+motivation+and+outcomes+in+a+flipped+classroom%22+OR+title%3A%22worlding+through+play+alternate+reality+games+large+scale+learning+and+the+source%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:12:02.358884+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "82b8228d5ac88c805f4d90e348e95d00e49474229242d1541d1f8b0efa979768"
+  },
+  "paper-06-ref-cd2dd351c962": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22challenging+games+help+students+learn+an+empirical+study+on+engagement+flow+and+immersion+in+game+based+learning%22+OR+title%3A%22computational+thinking+the+developing+definition+pp+6%22+OR+title%3A%22research+notebook+computational+thinking+what+and+why%22+OR+title%3A%22effects+of+artificial+intelligence+enabled+personalized+recommendations+on+learners+learning+engagement+motivation+and+outcomes+in+a+flipped+classroom%22+OR+title%3A%22worlding+through+play+alternate+reality+games+large+scale+learning+and+the+source%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:12:02.360500+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "cd2dd351c9626683d8f08955768cdc126c8d7a49e412b3e9446f98689cbf946f"
+  },
+  "10.1016/j.compedu.2022.104684": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22challenging+games+help+students+learn+an+empirical+study+on+engagement+flow+and+immersion+in+game+based+learning%22+OR+title%3A%22computational+thinking+the+developing+definition+pp+6%22+OR+title%3A%22research+notebook+computational+thinking+what+and+why%22+OR+title%3A%22effects+of+artificial+intelligence+enabled+personalized+recommendations+on+learners+learning+engagement+motivation+and+outcomes+in+a+flipped+classroom%22+OR+title%3A%22worlding+through+play+alternate+reality+games+large+scale+learning+and+the+source%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:12:02.362079+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "a71b4d4afdd707af6fcd12cef53ba4c45bd2d018ad0799c0047889161062afc2"
+  },
+  "paper-07-ref-810ab0174d47": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22challenging+games+help+students+learn+an+empirical+study+on+engagement+flow+and+immersion+in+game+based+learning%22+OR+title%3A%22computational+thinking+the+developing+definition+pp+6%22+OR+title%3A%22research+notebook+computational+thinking+what+and+why%22+OR+title%3A%22effects+of+artificial+intelligence+enabled+personalized+recommendations+on+learners+learning+engagement+motivation+and+outcomes+in+a+flipped+classroom%22+OR+title%3A%22worlding+through+play+alternate+reality+games+large+scale+learning+and+the+source%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:12:02.363500+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "810ab0174d47e86529bdd0f9d815a6c92d796a814673f3fb360a76989e91fb56"
+  },
+  "10.1006/ceps.1994.1033": {
+    "status": "available",
+    "sourceType": "eric",
+    "sourceUrl": "https://eric.ed.gov/?id=EJ498462",
+    "checkedAt": "2026-09-16T17:12:33.778722+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "18491d0020d1932359ecedd6dd42708b1f52e54cad0081a9d2836735f46d08f3",
+    "metadataTitle": "Assessing Metacognitive Awareness.",
+    "abstractOrigin": "Unspecified",
+    "acquisitionMethod": "complete ERIC Abstract field (description); no AI summary"
+  },
+  "paper-08-ref-b48a36c3fe91": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22assessing+metacognitive+awareness%22+OR+title%3A%22statistical+power+analysis+for+the+behavioral+sciences+2nd+ed%22+OR+title%3A%22self+explanation+strategy+supporting+students+critical+thinking+in+reading+comprehension+for+science+class+in+senior+high+school%22+OR+title%3A%22design+and+implementation+of+a+student+generated+virtual+museum+in+a+language+curriculum+to+enhance+collaborative+multimodal+meaning+making%22+OR+title%3A%22effects+of+a+graphic+organizer+based+two+tier+test+approach+on+students+learning+achievement+and+behaviors+in+spherical+video+based+virtual+learning+contexts%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:12:33.796464+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "b48a36c3fe91b7b6cadeaa0de239f7e5312d04a91736117479c417f6263ff788"
+  },
+  "paper-08-ref-cb70a5f22510": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22assessing+metacognitive+awareness%22+OR+title%3A%22statistical+power+analysis+for+the+behavioral+sciences+2nd+ed%22+OR+title%3A%22self+explanation+strategy+supporting+students+critical+thinking+in+reading+comprehension+for+science+class+in+senior+high+school%22+OR+title%3A%22design+and+implementation+of+a+student+generated+virtual+museum+in+a+language+curriculum+to+enhance+collaborative+multimodal+meaning+making%22+OR+title%3A%22effects+of+a+graphic+organizer+based+two+tier+test+approach+on+students+learning+achievement+and+behaviors+in+spherical+video+based+virtual+learning+contexts%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:12:33.797582+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "cb70a5f22510ef935764a76bf41ef7e584ab743c1cdcab53fbf52e3ff33ab7f9"
+  },
+  "10.1016/j.compedu.2010.12.003": {
+    "status": "available",
+    "sourceType": "eric",
+    "sourceUrl": "https://eric.ed.gov/?id=EJ918747",
+    "checkedAt": "2026-09-16T17:12:33.798547+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "514ecf12cc41595ebfb30cd6119b2d1509fcef4e1a38ff03fa83f2bdaaf33072",
+    "metadataTitle": "Design and Implementation of a Student-Generated Virtual Museum in a Language Curriculum to Enhance Collaborative Multimodal Meaning-Making",
+    "abstractOrigin": "Unspecified",
+    "acquisitionMethod": "complete ERIC Abstract field (description); no AI summary"
+  },
+  "10.1016/j.compedu.2023.104757": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22assessing+metacognitive+awareness%22+OR+title%3A%22statistical+power+analysis+for+the+behavioral+sciences+2nd+ed%22+OR+title%3A%22self+explanation+strategy+supporting+students+critical+thinking+in+reading+comprehension+for+science+class+in+senior+high+school%22+OR+title%3A%22design+and+implementation+of+a+student+generated+virtual+museum+in+a+language+curriculum+to+enhance+collaborative+multimodal+meaning+making%22+OR+title%3A%22effects+of+a+graphic+organizer+based+two+tier+test+approach+on+students+learning+achievement+and+behaviors+in+spherical+video+based+virtual+learning+contexts%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:12:33.801548+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "24b7d1c4c310792d2e0802c908405339176561d8b70b07e269429439f7af737a"
+  },
+  "paper-08-ref-4e049f147733": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22design+and+analysis+a+researcher+s+handbook%22+OR+title%3A%22constructivism+from+philosophy+to+practice+https+eric+ed+gov+id+ed444966%22+OR+title%3A%22analyzing+collaborative+interactions+divergence+shared+understanding+and+construction+of+knowledge%22+OR+title%3A%22the+abcs+of+how+we+learn+26+scientifically+proven+approaches+how+they+work+and+when+to+use+them%22+OR+title%3A%22cognitive+load+theory%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:13:06.714659+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "4e049f147733926c08348b0bfe0e6f9896e18a31f1d49f689d971984b65f6343"
+  },
+  "paper-08-ref-ca5a3c5a7594": {
+    "status": "available",
+    "sourceType": "eric",
+    "sourceUrl": "https://eric.ed.gov/?id=ED444966",
+    "checkedAt": "2026-09-17T02:28:25.221851+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "ca5a3c5a759436f4fb3601274e997b68bf91bef8cfe45c2609e2e57f9aa95809",
+    "metadataTitle": "Constructivism: From Philosophy to Practice.",
+    "abstractOrigin": "Unspecified",
+    "acquisitionMethod": "complete ERIC Abstract field (description); no AI summary"
+  },
+  "10.1016/j.compedu.2004.10.012": {
+    "status": "available",
+    "sourceType": "eric",
+    "sourceUrl": "https://eric.ed.gov/?id=EJ738994",
+    "checkedAt": "2026-09-16T17:13:06.748241+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "8a983fd3e29a8b8826f2e18ec49600d757733b1e171105d103a28a18a028faa1",
+    "metadataTitle": "Analyzing Collaborative Interactions: Divergence, Shared Understanding and Construction of Knowledge",
+    "abstractOrigin": "Unspecified",
+    "acquisitionMethod": "complete ERIC Abstract field (description); no AI summary"
+  },
+  "paper-08-ref-d7a9f15e7564": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22design+and+analysis+a+researcher+s+handbook%22+OR+title%3A%22constructivism+from+philosophy+to+practice+https+eric+ed+gov+id+ed444966%22+OR+title%3A%22analyzing+collaborative+interactions+divergence+shared+understanding+and+construction+of+knowledge%22+OR+title%3A%22the+abcs+of+how+we+learn+26+scientifically+proven+approaches+how+they+work+and+when+to+use+them%22+OR+title%3A%22cognitive+load+theory%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:13:06.780658+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "d7a9f15e7564cd48f8a10fdb69298b1b38cd1c36e3ad3942d570ae2a3e8e1041"
+  },
+  "paper-08-ref-956019d36e0f": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22design+and+analysis+a+researcher+s+handbook%22+OR+title%3A%22constructivism+from+philosophy+to+practice+https+eric+ed+gov+id+ed444966%22+OR+title%3A%22analyzing+collaborative+interactions+divergence+shared+understanding+and+construction+of+knowledge%22+OR+title%3A%22the+abcs+of+how+we+learn+26+scientifically+proven+approaches+how+they+work+and+when+to+use+them%22+OR+title%3A%22cognitive+load+theory%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:13:06.797246+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "956019d36e0f200de3d6f5c1bb0641fa784eb63338d7a9e98ce7c6fec82dfe6e"
+  },
+  "paper-08-ref-d3786aab0644": {
+    "status": "available",
+    "sourceType": "eric",
+    "sourceUrl": "https://eric.ed.gov/?id=EJ1184347",
+    "checkedAt": "2026-09-16T17:14:10.167447+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "d3786aab0644f220a23ece7280a05ee3ed33cd61a1042aac456aa74ee91108f8",
+    "metadataTitle": "Innovative Use of Mobile Video Conferencing in Face-to-Face Collaborative Science Learning: The Case of Reflection in Optics",
+    "abstractOrigin": "Unspecified",
+    "acquisitionMethod": "complete ERIC Abstract field (description); no AI summary"
+  },
+  "10.1016/j.compedu.2022.104723": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22innovative+use+of+mobile+video+conferencing+in+face+to+face+collaborative+science+learning+the+case+of+reflection+in+optics%22+OR+title%3A%22the+power+of+affective+pedagogical+agent+and+self+explanation+in+computer+based+learning%22+OR+title%3A%22the+learning+analytics+of+computational+scientific+modeling+with+self+explanation+for+subgoals+and+demonstration+scaffolding%22+OR+title%3A%22a+meta+analytic+review+on+incorporating+virtual+and+augmented+reality+in+museum+learning%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:14:10.177115+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "edfc91aab1ec33b39920c10741e56b25f27cad229938fb4f7f9b103de004a64a"
+  },
+  "10.1016/j.compedu.2024.105043": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22innovative+use+of+mobile+video+conferencing+in+face+to+face+collaborative+science+learning+the+case+of+reflection+in+optics%22+OR+title%3A%22the+power+of+affective+pedagogical+agent+and+self+explanation+in+computer+based+learning%22+OR+title%3A%22the+learning+analytics+of+computational+scientific+modeling+with+self+explanation+for+subgoals+and+demonstration+scaffolding%22+OR+title%3A%22a+meta+analytic+review+on+incorporating+virtual+and+augmented+reality+in+museum+learning%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:14:10.179280+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "44383487a4d168204210d67653cdb5a5b548635e39e184864993f22f3bc2f528"
+  },
+  "10.1016/j.edurev.2022.100454": {
+    "status": "not-found",
+    "sourceType": "eric",
+    "sourceUrl": "https://api.ies.ed.gov/eric/?search=title%3A%22innovative+use+of+mobile+video+conferencing+in+face+to+face+collaborative+science+learning+the+case+of+reflection+in+optics%22+OR+title%3A%22the+power+of+affective+pedagogical+agent+and+self+explanation+in+computer+based+learning%22+OR+title%3A%22the+learning+analytics+of+computational+scientific+modeling+with+self+explanation+for+subgoals+and+demonstration+scaffolding%22+OR+title%3A%22a+meta+analytic+review+on+incorporating+virtual+and+augmented+reality+in+museum+learning%22&format=json&rows=250",
+    "checkedAt": "2026-09-16T17:14:10.181626+00:00",
+    "reason": "no-exact-identity",
+    "sourceTextSha256": "9fc338954d1963b0285a8e0a5e3e8e78ff917adf5320993baebd416d0b2a2e15"
+  }
+}

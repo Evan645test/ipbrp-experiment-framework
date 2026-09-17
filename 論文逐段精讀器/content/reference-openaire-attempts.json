@@ -1,0 +1,886 @@
+{
+  "paper-01-ref-0442113a66e3": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=the+role+of+the+analysis+of+the+zone+of+proximal+development+in+the+course+of+remediation+of+executive+functions+an+example&author=Akhutina",
+    "checkedAt": "2026-09-17T02:12:59.615179+00:00",
+    "sourceTextSha256": "0442113a66e3f34a96a42bbb3226455920e737c05d5271d53f77365a6d2b055c",
+    "reason": "no-exact-identity"
+  },
+  "10.1207/s15327809jls0703&4_2": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1207%2Fs15327809jls0703%264_2",
+    "checkedAt": "2026-09-17T02:12:59.615455+00:00",
+    "sourceTextSha256": "0eb8239316d77e3ac558f0276b0dcab8694fd9a0f24e0ba8374d3ecb47cc28a8",
+    "reason": "database-has-no-abstract"
+  },
+  "paper-01-ref-7ff7c453b9d0": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=coding+as+a+playground+programming+and+computational+thinking+in+the+early+childhood+classroom&author=Bers",
+    "checkedAt": "2026-09-17T02:13:00.482283+00:00",
+    "sourceTextSha256": "7ff7c453b9d058ed48ba3cb086a08c15ec0a986a72f0af571beb9b7c762fa67f",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.compedu.2013.10.020": {
+    "status": "available",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.compedu.2013.10.020",
+    "checkedAt": "2026-09-17T02:13:00.846659+00:00",
+    "sourceTextSha256": "3b6c404630ea83d3c9ae8441e40594e70d118b6e59989bd4092cc819bc900b2f",
+    "reason": "no-exact-identity",
+    "metadataTitle": "Computational thinking and tinkering: Exploration of an early childhood robotics curriculum",
+    "databaseId": "doi_dedup___::2ce7acbe160b2e0fec027260ab91c7dd",
+    "abstractOrigin": "OpenAIRE source repository metadata",
+    "acquisitionMethod": "complete non-inferred source description field; no generated summary; identity checked by DOI and title or title, author and year"
+  },
+  "10.1016/j.ecresq.2023.05.015": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.ecresq.2023.05.015",
+    "checkedAt": "2026-09-17T02:13:01.264778+00:00",
+    "sourceTextSha256": "85e9e21d793430093608adfb889f549d6f94e9f0fa0a043b941ee23f847cdda6",
+    "reason": "database-has-no-abstract"
+  },
+  "paper-01-ref-ab144d9eb356": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=observing+interaction+an+introduction+to+sequential+analysis&author=Bakeman",
+    "checkedAt": "2026-09-17T02:12:59.615369+00:00",
+    "sourceTextSha256": "ab144d9eb35609a985285a23d8955463ea722a317fd62aafacf01a640be60a04",
+    "reason": "no-exact-identity"
+  },
+  "paper-01-ref-8f038f968804": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=new+frameworks+for+studying+and+assessing+the+development+of+computational+thinking+1+25&author=Brennan",
+    "checkedAt": "2026-09-17T02:13:01.787037+00:00",
+    "sourceTextSha256": "8f038f968804c07e40bf18aa35719a025c90e16ef3a53050d43f511e3c60b80b",
+    "reason": "no-exact-identity"
+  },
+  "paper-01-ref-9852a03d8f73": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=what+is+pbl&author=Buck+Institute+for+Education",
+    "checkedAt": "2026-09-17T02:13:01.967805+00:00",
+    "sourceTextSha256": "9852a03d8f736be4efd25e53752296df45d6603a9181471b4814a1ef2918775c",
+    "reason": "no-exact-identity"
+  },
+  "paper-01-ref-984fd9aab250": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=stem+project+based+learning+an+integrated+science+technology+engineering+and+mathematics+stem+approach&author=Capraro",
+    "checkedAt": "2026-09-17T02:13:02.219878+00:00",
+    "sourceTextSha256": "984fd9aab250dd2afbf12ebe2b35a8ebc76bf0771699fcb7d101a35c1822722d",
+    "reason": "no-exact-identity"
+  },
+  "10.30191/ets.202410_27(4).rp05": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.30191%2Fets.202410_27%284%29.rp05",
+    "checkedAt": "2026-09-17T02:13:02.784341+00:00",
+    "sourceTextSha256": "701d6f0373297ba490d4f25a8f79ad7311cc1847d93c525441d04ab256a262fa",
+    "reason": "no-exact-identity"
+  },
+  "paper-01-ref-bf946b4c5db5": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=project+based+instruction+a+review+of+the+literature+on+effectiveness+in+prekindergarten&author=Holm",
+    "checkedAt": "2026-09-17T02:13:02.842065+00:00",
+    "sourceTextSha256": "bf946b4c5db55fc3af10d9f8adff88d66a5f0d5a4586b78f996bbfe5d8b6c679",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.compedu.2016.11.010": {
+    "status": "available",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.compedu.2016.11.010",
+    "checkedAt": "2026-09-17T02:13:03.067015+00:00",
+    "sourceTextSha256": "00c29b5218191d35a99fe9b70e77b7d1c758d4995832f6022c03deb6a5be7a66",
+    "reason": "no-exact-identity",
+    "metadataTitle": "Interaction of problem-based gaming and learning anxiety in language students' English listening performance and progressive behavioral patterns",
+    "databaseId": "doi_dedup___::26529f104c1f162d0a354d8641b49e60",
+    "abstractOrigin": "OpenAIRE source repository metadata",
+    "acquisitionMethod": "complete non-inferred source description field; no generated summary; identity checked by DOI and title or title, author and year"
+  },
+  "paper-01-ref-ef29af058192": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=child+development+and+education&author=McDevitt",
+    "checkedAt": "2026-09-17T02:13:03.478033+00:00",
+    "sourceTextSha256": "ef29af0581925c10c131ec2c3b644430294bd07c5086704a171614b682d083ff",
+    "reason": "no-exact-identity"
+  },
+  "paper-01-ref-ded4fcfc1d15": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=mindstorms+children+computers+and+powerful+ideas&author=Papert",
+    "checkedAt": "2026-09-17T02:13:03.589701+00:00",
+    "sourceTextSha256": "ded4fcfc1d155f02a43e44d70293a1b9b5e76c0e7032c7bf20d7ff9d5dff99e6",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.ijcci.2022.100563": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.ijcci.2022.100563",
+    "checkedAt": "2026-09-17T02:13:04.269841+00:00",
+    "sourceTextSha256": "3fd15e08cf9747d9e72d1e0d76084f9b16a23ecc58135b95acba57295ad44f7b",
+    "reason": "database-has-no-abstract"
+  },
+  "paper-01-ref-8866cd26642a": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=the+collected+works+of+l+s+vygotsky+volume+1+problems+of+general+psychology+including+the+volume+thinking+and+speech&author=Vygotsky",
+    "checkedAt": "2026-09-17T02:13:05.212932+00:00",
+    "sourceTextSha256": "8866cd26642a24d08d4f0b1f9b25bbb45f0bcdbe91fba855cd591611ac54584a",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.compedu.2021.104425": {
+    "status": "available",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.compedu.2021.104425",
+    "checkedAt": "2026-09-17T02:13:04.590426+00:00",
+    "sourceTextSha256": "46d2f6f31317a061c5d423cba5d4d20a39a9aa95f1ea7d07b7df2268b4dfe510",
+    "reason": "no-exact-identity",
+    "metadataTitle": "A cognitive definition of computational thinking in primary education",
+    "databaseId": "doi_dedup___::8dcc6ef518bc0fca06fe029bea85cef6",
+    "abstractOrigin": "OpenAIRE source repository metadata",
+    "acquisitionMethod": "complete non-inferred source description field; no generated summary; identity checked by DOI and title or title, author and year"
+  },
+  "paper-01-ref-a34d74892884": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=developmental+stages+and+developmental+processes&author=Piaget",
+    "checkedAt": "2026-09-17T02:13:04.014233+00:00",
+    "sourceTextSha256": "a34d74892884e07fa1687026423d36994a8a3abb964226f3bcc50cad1c67ce7a",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.tsc.2024.101528": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.tsc.2024.101528",
+    "checkedAt": "2026-09-17T02:13:06.051629+00:00",
+    "sourceTextSha256": "98f0bbb58a49d16505b0be2db700f951fd4791a39168c3694b0a311ddcb5f1df",
+    "reason": "database-has-no-abstract"
+  },
+  "10.1016/j.tsc.2024.101576": {
+    "status": "available",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.tsc.2024.101576",
+    "checkedAt": "2026-09-17T02:13:06.728023+00:00",
+    "sourceTextSha256": "491a59e29fec1e83ae292528733d6c54836ed80bb59696e65d2c5f30d5706739",
+    "reason": "no-exact-identity",
+    "metadataTitle": "Educational robotics or unplugged coding activities in kindergartens?: Comparison of the effects on pre-school children's computational thinking and executive function skills",
+    "databaseId": "doi_dedup___::fa1d19574085af449d2fc28367476d4f",
+    "abstractOrigin": "OpenAIRE source repository metadata",
+    "acquisitionMethod": "complete non-inferred source description field; no generated summary; identity checked by DOI and title or title, author and year"
+  },
+  "paper-02-ref-9217a0dfc802": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=observing+interaction+an+introduction+to+sequential+analysis&author=Bakeman",
+    "checkedAt": "2026-09-17T02:13:06.833712+00:00",
+    "sourceTextSha256": "9217a0dfc802489848e77727390619fc45d7b41d79bb59815d7bbe482689a23d",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-9fe98364c3a5": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=teaching+software+engineering+through+a+simulation+game&author=Cagiltay",
+    "checkedAt": "2026-09-17T02:13:07.631686+00:00",
+    "sourceTextSha256": "9fe98364c3a58fd812e12fd782a817d091a1f6feb4351595dc4f750fe164e51e",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.system.2016.04.013": {
+    "status": "available",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.system.2016.04.013",
+    "checkedAt": "2026-09-17T02:13:07.962088+00:00",
+    "sourceTextSha256": "57e602d9e1d2410aa86135786b463cd4d9add2309b29faf9032f71c09e1fd457",
+    "reason": "no-exact-identity",
+    "metadataTitle": "Motivational strategies in a mobile inquiry-based language learning setting",
+    "databaseId": "doi_dedup___::0f557d359920409d6d0325d3517bc6d6",
+    "abstractOrigin": "OpenAIRE source repository metadata",
+    "acquisitionMethod": "complete non-inferred source description field; no generated summary; identity checked by DOI and title or title, author and year"
+  },
+  "paper-02-ref-8bcd38d1b3e0": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=a+learning+diagnostic+system+based+on+concept+map+theory&author=Chang",
+    "checkedAt": "2026-09-17T02:13:08.587436+00:00",
+    "sourceTextSha256": "8bcd38d1b3e0f89531b5057c023f6b12fae36fa7bda60fe532c2041a3971ad7c",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-07f439dc3990": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=integrating+commercial+video+games+in+education&author=Charsky",
+    "checkedAt": "2026-09-17T02:13:08.733900+00:00",
+    "sourceTextSha256": "07f439dc3990b74fb4574487a8c127bbd9fa41a941a9a128fa48936079d97131",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-60691bf12349": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=flow+the+psychology+of+optimal+experience&author=Csikszentmihalyi",
+    "checkedAt": "2026-09-17T02:13:09.623661+00:00",
+    "sourceTextSha256": "60691bf12349a69bfcb3883e8cb815b69ac78544f9f1df3a1874f22eccf70646",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.compedu.2024.105039": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.compedu.2024.105039",
+    "checkedAt": "2026-09-17T02:13:06.536923+00:00",
+    "sourceTextSha256": "84602dc4940d7068f644a3862c26a294bc34a13aa8a385aa3c5af4a4ac5c07b1",
+    "reason": "database-has-no-abstract"
+  },
+  "paper-02-ref-0003e1aaaba2": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=effects+of+a+concept+mappingbased+flipped+classroom+approach+on+efl+students+english+speaking+performance+learning+perceptions+and+speaking+anxiety&author=Chen",
+    "checkedAt": "2026-09-17T02:13:09.478854+00:00",
+    "sourceTextSha256": "0003e1aaaba205053ccb54a7a5cb3f63d65c30cf92d49f44343b30d88a3797da",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-dabf2f835aac": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=discovering+statistics+using+ibm+spss+statistics&author=Field",
+    "checkedAt": "2026-09-17T02:13:11.293591+00:00",
+    "sourceTextSha256": "dabf2f835aac016962a5b76ec804587c35de2a39292bf14083948b6dcaf179bc",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-c45144df6275": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=exploring+the+role+of+concept+mapping+in+science+inquiry+learning+a+longitudinal+analysis+of+motivation+and+participation&author=Huang",
+    "checkedAt": "2026-09-17T02:13:11.650870+00:00",
+    "sourceTextSha256": "c45144df6275a11d368d3faade858a8b96968b6e3b8cf4578e84f6cc1287d65f",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.compedu.2013.07.008": {
+    "status": "available",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.compedu.2013.07.008",
+    "checkedAt": "2026-09-17T02:13:11.795766+00:00",
+    "sourceTextSha256": "e5f57896636db82be5bc5b9307eab0955891f130390d6d107ee8ca2b105374bb",
+    "reason": "no-exact-identity",
+    "metadataTitle": "A concept map-embedded educational computer game for improving students' learning performance in natural science courses",
+    "databaseId": "doi_dedup___::081c07a61c7bf4768243afb366e7eb38",
+    "abstractOrigin": "OpenAIRE source repository metadata",
+    "acquisitionMethod": "complete non-inferred source description field; no generated summary; identity checked by DOI and title or title, author and year"
+  },
+  "paper-02-ref-02a126be96f9": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=applying+a+knowledge+visualization+approach+to+develop+digital+concept+maps+for+flipped+learning+an+investigation+of+learning+achievement+motivation+and+behavior+patterns&author=Hwang",
+    "checkedAt": "2026-09-17T02:13:12.399486+00:00",
+    "sourceTextSha256": "02a126be96f9a5a6d9b3ecc79bed234abd7e04b73c53aa8345f893d17a12cac2",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-80047b6de6a2": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=principles+and+practice+in+second+language+acquisition&author=Krashen",
+    "checkedAt": "2026-09-17T02:13:12.546231+00:00",
+    "sourceTextSha256": "80047b6de6a2f10e90345b76ef3108a370b3c7f32c888f3a5d0fb6398fac29f7",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-c58f187fad52": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=game+based+learning+considering+the+effectiveness+of+games+as+instructional+tools&author=Nelson",
+    "checkedAt": "2026-09-17T02:13:12.795251+00:00",
+    "sourceTextSha256": "c58f187fad52be09c5b95165aa6eb62b7228b45418ea9410d751d8ae41af7cd9",
+    "reason": "no-exact-identity"
+  },
+  "10.1037/h0084295": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1037%2Fh0084295",
+    "checkedAt": "2026-09-17T02:13:13.649965+00:00",
+    "sourceTextSha256": "4e8b51edd81194e7e99047049d736b55e0f51126878afc280544da15030c1b9e",
+    "reason": "database-has-no-abstract"
+  },
+  "paper-02-ref-5e91cf532b05": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=the+theory+underlying+concept+maps+and+how+to+construct+tem&author=Novak",
+    "checkedAt": "2026-09-17T02:13:13.485741+00:00",
+    "sourceTextSha256": "5e91cf532b05d11c6136acb01236b5d94d0ed4cbf1c628c2cb425c7bb6064850",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-552253a1682e": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=the+effects+of+incorporating+concept+mapping+into+flipped+learning+on+efl+learners+critical+thinking+performance&author=Sun",
+    "checkedAt": "2026-09-17T02:13:14.371453+00:00",
+    "sourceTextSha256": "552253a1682e58bb0c3c3fe43730b2322c136d94e273dd836b65595add74aefe",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/s0747-5632(04)00036-6": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fs0747-5632%2804%2900036-6",
+    "checkedAt": "2026-09-17T02:13:13.891647+00:00",
+    "sourceTextSha256": "c2f3300b1004646bea8c8268e6b32498f66ab6914803ccda5975fcf560ad5768",
+    "reason": "database-has-no-abstract"
+  },
+  "paper-02-ref-3ae854777a97": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=digital+game+based+learning&author=Prensky",
+    "checkedAt": "2026-09-17T02:13:14.344824+00:00",
+    "sourceTextSha256": "3ae854777a9749ab95d42eaaf1a1137690e27c28260dab5e8508e3b9e8c2a568",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-5b8ea531ead2": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=using+multivariate+statistics&author=Tabachnick",
+    "checkedAt": "2026-09-17T02:13:15.233567+00:00",
+    "sourceTextSha256": "5b8ea531ead22ae477b0c1ce49c0114406c96704b6441cd08221d24e9a48af02",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/0959-4752(94)90003-5": {
+    "status": "available",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2F0959-4752%2894%2990003-5",
+    "checkedAt": "2026-09-17T02:13:15.190321+00:00",
+    "sourceTextSha256": "b967c5be07373c480c1c491b669932120e3218408b2ad75a8618fd28da552fd5",
+    "reason": "no-exact-identity",
+    "metadataTitle": "Cognitive load theory, learning difficulty, and instructional design",
+    "databaseId": "doi_dedup___::2bffc3928c827b69693689af6020bb52",
+    "abstractOrigin": "OpenAIRE source repository metadata",
+    "acquisitionMethod": "complete non-inferred source description field; no generated summary; identity checked by DOI and title or title, author and year"
+  },
+  "paper-02-ref-8a636a3fac9a": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=mind+in+society+the+development+of+higher+psychological+processes+edited+by+m&author=Vygotsky",
+    "checkedAt": "2026-09-17T02:13:15.390554+00:00",
+    "sourceTextSha256": "8a636a3fac9a6b452b0ced3dd5ec7d716590d17290c9211e7545ba13dec35960",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.compedu.2021.104185": {
+    "status": "available",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.compedu.2021.104185",
+    "checkedAt": "2026-09-17T02:13:16.083458+00:00",
+    "sourceTextSha256": "760be0dcc3a18b11fd97068ac2027ce96279a7a04efcb4b9941dc52f6022a286",
+    "reason": "no-exact-identity",
+    "metadataTitle": "Innovation in physical education: Teachers’ perspectives on readiness for wearable technology integration",
+    "databaseId": "doi_dedup___::2d7406dce6974287888d7e7bd5250106",
+    "abstractOrigin": "OpenAIRE source repository metadata",
+    "acquisitionMethod": "complete non-inferred source description field; no generated summary; identity checked by DOI and title or title, author and year"
+  },
+  "10.1017/cbo9780511527685": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1017%2Fcbo9780511527685",
+    "checkedAt": "2026-09-17T02:13:16.154493+00:00",
+    "sourceTextSha256": "c3870df942770dab6fd1bfba7dcc1724086a94ce5694853aa0678f3197d3ee56",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.learninstruc.2024.102023": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.learninstruc.2024.102023",
+    "checkedAt": "2026-09-17T02:13:16.035004+00:00",
+    "sourceTextSha256": "bfe45c620c1f6879a230dd44588cb924365fc9a37c2d12aa2b49b067bc1e046a",
+    "reason": "database-has-no-abstract"
+  },
+  "10.30191/ets.202410_27(4).rp06": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.30191%2Fets.202410_27%284%29.rp06",
+    "checkedAt": "2026-09-17T02:13:16.968622+00:00",
+    "sourceTextSha256": "ac6b7b0a7f27576bed960761d0d24ba021ffe7e87d13d14531dd28b676602364",
+    "reason": "no-exact-identity"
+  },
+  "10.6173/cjse.2007.1503.02": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.6173%2Fcjse.2007.1503.02",
+    "checkedAt": "2026-09-17T02:13:17.657590+00:00",
+    "sourceTextSha256": "b9bede01004a74f9494173df896df101cea22e66399216e5994a49cabab541bb",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.compedu.2024.105212": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.compedu.2024.105212",
+    "checkedAt": "2026-09-17T02:13:17.198172+00:00",
+    "sourceTextSha256": "bb2834356da436ffe20d892423647915e0b54c88b3060cc44f934479b5f92b90",
+    "reason": "database-has-no-abstract"
+  },
+  "10.1016/j.compedu.2021.104150": {
+    "status": "available",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.compedu.2021.104150",
+    "checkedAt": "2026-09-17T02:13:17.133166+00:00",
+    "sourceTextSha256": "18f572887c9d4d10049b9e1ecf592e3f98551919fbfd99d93381ceeb5e6d89a4",
+    "reason": "no-exact-identity",
+    "metadataTitle": "Do socio-cultural differences matter? A study of the learning effects and satisfaction with physical activity from digital learning assimilated into a university dance course",
+    "databaseId": "doi_dedup___::81416471be456116e17b89c753a465f8",
+    "abstractOrigin": "OpenAIRE source repository metadata",
+    "acquisitionMethod": "complete non-inferred source description field; no generated summary; identity checked by DOI and title or title, author and year"
+  },
+  "10.1016/j.compedu.2023.104738": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.compedu.2023.104738",
+    "checkedAt": "2026-09-17T02:13:18.335551+00:00",
+    "sourceTextSha256": "27a6dc96514fc82490d6ef9bb2722222bd5f2e5519de7d22502c3c64a35f027a",
+    "reason": "database-has-no-abstract"
+  },
+  "10.1016/j.compedu.2024.105196": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.compedu.2024.105196",
+    "checkedAt": "2026-09-17T02:13:18.565738+00:00",
+    "sourceTextSha256": "a31739aab003f5ae8407626302f29018aba03544d8fa474fc8ebc3c1e3035984",
+    "reason": "database-has-no-abstract"
+  },
+  "paper-04-ref-977c6dd7da52": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=teaching+for+quality+learning+at+university&author=Biggs",
+    "checkedAt": "2026-09-17T02:13:19.242152+00:00",
+    "sourceTextSha256": "977c6dd7da52c26c01c3b284756909472aba7a22fec8b6862fcaa460ea31640a",
+    "reason": "no-exact-identity"
+  },
+  "paper-04-ref-eb17bee572fa": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=change+by+design+how+design+thinking+creates+new+alternatives+for+business+and+society&author=Brown",
+    "checkedAt": "2026-09-17T02:13:19.299107+00:00",
+    "sourceTextSha256": "eb17bee572fa366a0e714fa7d9175333e8009dbaeeb4a7e65498428a8c942abc",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.tsc.2025.101990": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.tsc.2025.101990",
+    "checkedAt": "2026-09-17T02:13:20.159006+00:00",
+    "sourceTextSha256": "302a002c930f09e874647ae9e99ca81f4009cff34bc45b5452c20f5291a00000",
+    "reason": "database-has-no-abstract"
+  },
+  "paper-04-ref-66359e1b1a56": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=flow+the+psychology+of+optimal+experience&author=Csikszentmihalyi",
+    "checkedAt": "2026-09-17T02:13:20.069134+00:00",
+    "sourceTextSha256": "66359e1b1a5646e0a408c8c9f9699398c816320b9f34dd1b1dde8ebc0f9e4e5d",
+    "reason": "no-exact-identity"
+  },
+  "10.1037/0003-066x.55.1.68": {
+    "status": "available",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1037%2F0003-066x.55.1.68",
+    "checkedAt": "2026-09-17T02:13:21.107507+00:00",
+    "sourceTextSha256": "d8b48d038fe54c6feab29449d386dae9e0fbc64f6ccab178953db64c5f9b1e86",
+    "reason": "no-exact-identity",
+    "metadataTitle": "Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being.",
+    "databaseId": "doi_dedup___::5bdd6e017367a6ac4693a98006e8a600",
+    "abstractOrigin": "OpenAIRE source repository metadata",
+    "acquisitionMethod": "complete non-inferred source description field; no generated summary; identity checked by DOI and title or title, author and year"
+  },
+  "paper-04-ref-519eab6ce12c": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=the+nature+of+creativity&author=Sternberg",
+    "checkedAt": "2026-09-17T02:13:22.446669+00:00",
+    "sourceTextSha256": "519eab6ce12c92ed4a3aefaad377449cf187b88608f864271556005fbdf6979f",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.tsc.2023.101415": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.tsc.2023.101415",
+    "checkedAt": "2026-09-17T02:13:23.258565+00:00",
+    "sourceTextSha256": "32bb304ab1cd465d91717d8894cd650b930020a5c56967d10d488fc4dfe7f8e8",
+    "reason": "database-has-no-abstract"
+  },
+  "paper-04-ref-217720f0c2c9": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=global+competency+framework+for+universal+health+coverage+https+www+who+int+publications+i+item+9789240034686&author=World+Health+Organization",
+    "checkedAt": "2026-09-17T02:13:23.961997+00:00",
+    "sourceTextSha256": "217720f0c2c995d60a53a453351d3ecae7d08b74d3f3d0be17f04133be2f50f0",
+    "reason": "no-exact-identity"
+  },
+  "paper-04-ref-92c3f5812432": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=foundations+for+health+promotion&author=Naidoo",
+    "checkedAt": "2026-09-17T02:13:20.874434+00:00",
+    "sourceTextSha256": "92c3f581243246f0f71319e6c8b94c96ab8c340c89a2f7f015417070ace458bb",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.jss.2018.03.065": {
+    "status": "available",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.jss.2018.03.065",
+    "checkedAt": "2026-09-17T02:13:18.830686+00:00",
+    "sourceTextSha256": "a6488cba88eafeebbbb63db4f16b0689661449448844fb0f3c1117a2a682d975",
+    "reason": "no-exact-identity",
+    "metadataTitle": "Gamification in software engineering education: A systematic mapping",
+    "databaseId": "doi_dedup___::5c45f28dccc3c7782506801dffdf753c",
+    "abstractOrigin": "OpenAIRE source repository metadata",
+    "acquisitionMethod": "complete non-inferred source description field; no generated summary; identity checked by DOI and title or title, author and year"
+  },
+  "paper-05-ref-11cef1744b82": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=observing+interaction+an+introduction+to+sequential+analysis&author=Bakeman",
+    "checkedAt": "2026-09-17T02:13:24.978512+00:00",
+    "sourceTextSha256": "11cef1744b82ccfaefd7cdf15d67df6cf83bc1ce3dc03075bcdc241765bdfc57",
+    "reason": "no-exact-identity"
+  },
+  "paper-05-ref-fa1fbd80a88b": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=social+foundations+of+thought+and+action&author=Bandura",
+    "checkedAt": "2026-09-17T02:13:25.077191+00:00",
+    "sourceTextSha256": "fa1fbd80a88b92a48d9a2de029c8d30dbca12ff3d3a46ce91ce8a9a165541a14",
+    "reason": "no-exact-identity"
+  },
+  "10.1007/s11251-005-1272-9": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1007%2Fs11251-005-1272-9",
+    "checkedAt": "2026-09-17T02:13:24.765754+00:00",
+    "sourceTextSha256": "3a34ccb780490db0bcf4b52dd1e00fffc4e1df0223047fb790cbcfc440d52e60",
+    "reason": "database-has-no-abstract"
+  },
+  "paper-05-ref-ec3c61c6dc96": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=taxonomy+of+educational+objectives+the+classification+of+educational+goals&author=Bloom",
+    "checkedAt": "2026-09-17T02:13:25.867707+00:00",
+    "sourceTextSha256": "ec3c61c6dc9644e383d11a49cf8f2779c0f49aa1452f97e57d32ef25df8e4275",
+    "reason": "no-exact-identity"
+  },
+  "paper-05-ref-aa184b3535c0": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=self+efficacy+the+exercise+of+control&author=Bandura",
+    "checkedAt": "2026-09-17T02:13:25.744366+00:00",
+    "sourceTextSha256": "aa184b3535c0a0ef8726e741458afa22fafe04740ef8a8ebc64575fdce6dd827",
+    "reason": "database-has-no-abstract"
+  },
+  "paper-05-ref-f6e8146c3390": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=artificial+intelligent+robots+for+precision+education&author=Chen",
+    "checkedAt": "2026-09-17T02:13:26.758950+00:00",
+    "sourceTextSha256": "f6e8146c33902b084681c84140c827f89d5b6c59db36a58a261666df95665d2b",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.tsc.2022.101173": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.tsc.2022.101173",
+    "checkedAt": "2026-09-17T02:13:26.647165+00:00",
+    "sourceTextSha256": "87be67e0b40b9df791496103987184e4397c320c505774ab385643d758700d92",
+    "reason": "database-has-no-abstract"
+  },
+  "10.1016/j.radi.2005.03.004": {
+    "status": "available",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.radi.2005.03.004",
+    "checkedAt": "2026-09-17T02:13:25.942948+00:00",
+    "sourceTextSha256": "28a2e018f0315cadc8dbff80bce82e67bd3304cb629d41b93627aa47eec9bfbf",
+    "reason": "no-exact-identity",
+    "metadataTitle": "Assessment of the critical thinking skills of student radiographers",
+    "databaseId": "doi_dedup___::fe1eb8a89bba02a3df112e649a931e24",
+    "abstractOrigin": "OpenAIRE source repository metadata",
+    "acquisitionMethod": "complete non-inferred source description field; no generated summary; identity checked by DOI and title or title, author and year"
+  },
+  "paper-05-ref-ba6248c6a315": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=verification+of+the+perception+and+optimal+number+of+learners+in+a+group+for+computer+assisted+language+learning+eds&author=Hsu",
+    "checkedAt": "2026-09-17T02:13:27.551170+00:00",
+    "sourceTextSha256": "ba6248c6a31528e41a510ef06836f9430f3f1716ce03dfa276828f5e969645af",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.ijme.2022.100643": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.ijme.2022.100643",
+    "checkedAt": "2026-09-17T02:13:28.336799+00:00",
+    "sourceTextSha256": "da1a058f557ecbff6f7b07fe6428c1b737bdcff3aac32f807ba1b8d7fad247b6",
+    "reason": "database-has-no-abstract"
+  },
+  "paper-05-ref-7ea2d9070e35": {
+    "status": "available",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=effects+of+incorporating+an+expert+decision+making+mechanism+into+chatbots+on+students+achievement+enjoyment+and+anxiety&author=Hsu",
+    "checkedAt": "2026-09-17T02:13:27.987210+00:00",
+    "sourceTextSha256": "7ea2d9070e35f17a5e93e89320a887e5c9de9813068edfaa264d59f3b86cdd4b",
+    "reason": "no-exact-identity",
+    "metadataTitle": "Effects of Incorporating an Expert Decision-making Mechanism into Chatbots on Students’ Achievement, Enjoyment, and Anxiety",
+    "databaseId": "doajarticles::a4b0eee9d8db6b5998cfd39cfd3582e2",
+    "abstractOrigin": "OpenAIRE source repository metadata",
+    "acquisitionMethod": "complete non-inferred source description field; no generated summary; identity checked by DOI and title or title, author and year"
+  },
+  "10.1016/j.compedu.2023.104898": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.compedu.2023.104898",
+    "checkedAt": "2026-09-17T02:13:28.326766+00:00",
+    "sourceTextSha256": "1d52ce987a0eaa3322c76eae99d7a562c03724590862ff52bb0c3c2991406422",
+    "reason": "database-has-no-abstract"
+  },
+  "10.1017/cbo9781139519526.018": {
+    "status": "available",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1017%2Fcbo9781139519526.018",
+    "checkedAt": "2026-09-17T02:13:29.062441+00:00",
+    "sourceTextSha256": "cc5884492a98cde96d79ea4c68bcbc97e49707de0724089a4baf3c833162a322",
+    "reason": "no-exact-identity",
+    "metadataTitle": "Project-Based Learning",
+    "databaseId": "doi_dedup___::70771928ecc7900623434399036dbadf",
+    "abstractOrigin": "OpenAIRE source repository metadata",
+    "acquisitionMethod": "complete non-inferred source description field; no generated summary; identity checked by DOI and title or title, author and year"
+  },
+  "10.1037/0003-066x.57.9.705": {
+    "status": "available",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1037%2F0003-066x.57.9.705",
+    "checkedAt": "2026-09-17T02:13:29.595573+00:00",
+    "sourceTextSha256": "e2e0154a3ac96d5e7ce05258a776b6ad89534b4dc24405879fc19af4b7c61859",
+    "reason": "no-exact-identity",
+    "metadataTitle": "Building a practically useful theory of goal setting and task motivation: A 35-year odyssey.",
+    "databaseId": "doi_dedup___::79cd53a6d0a7fbe428e564fa05bc6bdb",
+    "abstractOrigin": "OpenAIRE source repository metadata",
+    "acquisitionMethod": "complete non-inferred source description field; no generated summary; identity checked by DOI and title or title, author and year"
+  },
+  "10.1016/j.compedu.2021.104236": {
+    "status": "available",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.compedu.2021.104236",
+    "checkedAt": "2026-09-17T02:13:29.970110+00:00",
+    "sourceTextSha256": "6e9dfdb801fbfd9969afaa275595f98a1051c36fae630311f6dd42d4ddb07c67",
+    "reason": "no-exact-identity",
+    "metadataTitle": "Visual search patterns, information selection strategies, and information anxiety for online information problem solving",
+    "databaseId": "doi_dedup___::4710f1fa3325a2416f59c375b1115213",
+    "abstractOrigin": "OpenAIRE source repository metadata",
+    "acquisitionMethod": "complete non-inferred source description field; no generated summary; identity checked by DOI and title or title, author and year"
+  },
+  "paper-05-ref-41b62d5ba73d": {
+    "status": "available",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=effect+of+a+reflection+guided+visualized+mindtool+strategy+for+improving+students+learning+performance+and+behaviors+in+computational+thinking+development&author=Lin",
+    "checkedAt": "2026-09-17T02:13:29.081554+00:00",
+    "sourceTextSha256": "41b62d5ba73d4ea6b65ff5f2e629c8bdc826a46651b1cfdeb99fbdf0e79949ae",
+    "reason": "no-exact-identity",
+    "metadataTitle": "Effect of a Reflection-Guided Visualized Mindtool Strategy for Improving Students’ Learning Performance and Behaviors in Computational Thinking Development",
+    "databaseId": "doajarticles::e269b52b520182e2009d3d804e0e75af",
+    "abstractOrigin": "OpenAIRE source repository metadata",
+    "acquisitionMethod": "complete non-inferred source description field; no generated summary; identity checked by DOI and title or title, author and year"
+  },
+  "10.1016/j.chb.2006.03.005": {
+    "status": "available",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.chb.2006.03.005",
+    "checkedAt": "2026-09-17T02:13:30.853438+00:00",
+    "sourceTextSha256": "f0fc883757c7826987eb36b5894d825b39cc64f402a89d846a35afa962cf876c",
+    "reason": "no-exact-identity",
+    "metadataTitle": "The effects of group composition of self-efficacy and collective efficacy on computer-supported collaborative learning",
+    "databaseId": "doi_dedup___::540dc7b2c45ce4f02fd5340e487d00a5",
+    "abstractOrigin": "OpenAIRE source repository metadata",
+    "acquisitionMethod": "complete non-inferred source description field; no generated summary; identity checked by DOI and title or title, author and year"
+  },
+  "10.48550/arxiv.2309.01219": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.48550%2Farxiv.2309.01219",
+    "checkedAt": "2026-09-17T02:13:31.230472+00:00",
+    "sourceTextSha256": "f2567decd24b6d6c110cc8ce1a28c3a1da62ce7eec332db34913e8fae6fecc2a",
+    "reason": "no-exact-identity"
+  },
+  "paper-06-ref-aada17461844": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=observing+interaction+an+introduction+to+sequential+analysis&author=Bakeman",
+    "checkedAt": "2026-09-17T02:13:31.858514+00:00",
+    "sourceTextSha256": "aada17461844c043eb32e3ab5a5af20353f59fd913bb23b526ffceb378698cf9",
+    "reason": "no-exact-identity"
+  },
+  "paper-05-ref-80dab7c5f5ad": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=thought+and+language+a&author=Vygotsky",
+    "checkedAt": "2026-09-17T02:13:30.495954+00:00",
+    "sourceTextSha256": "80dab7c5f5ada48c96d0085860b7ee51ea707145b69a2df2429c2f33f90899f1",
+    "reason": "no-exact-identity"
+  },
+  "paper-06-ref-a169c8c64995": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=the+effect+of+using+board+games+in+reducing+language+anxiety+and+improving+oral+performance&author=Cheng",
+    "checkedAt": "2026-09-17T02:13:32.643821+00:00",
+    "sourceTextSha256": "a169c8c649951dab2411891b9732e776664d329fd5d40eac687cbea44d0a76b9",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.compedu.2020.104123": {
+    "status": "available",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.compedu.2020.104123",
+    "checkedAt": "2026-09-17T02:13:32.345780+00:00",
+    "sourceTextSha256": "15e9a976338894a73fde02de049ed8ffd5b73d3551dfab29d12267beafe246ad",
+    "reason": "no-exact-identity",
+    "metadataTitle": "Effect sizes and research directions of peer assessments: From an integrated perspective of meta-analysis and co-citation network",
+    "databaseId": "doi_dedup___::d14e39eeb5f0ae349e6def1464525de1",
+    "abstractOrigin": "OpenAIRE source repository metadata",
+    "acquisitionMethod": "complete non-inferred source description field; no generated summary; identity checked by DOI and title or title, author and year"
+  },
+  "paper-06-ref-5f78a07638b9": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=reflections+rationales+and+realities&author=Clegg",
+    "checkedAt": "2026-09-17T02:13:33.306884+00:00",
+    "sourceTextSha256": "5f78a07638b9078b5931c7d841205ac9e84ee1f06f9e66491362079651f92909",
+    "reason": "no-exact-identity"
+  },
+  "paper-06-ref-0590b5ab8ac6": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=peer+assisted+learning&author=Ehly",
+    "checkedAt": "2026-09-17T02:13:33.627252+00:00",
+    "sourceTextSha256": "0590b5ab8ac64a65fbc5e01fa344760879fec25b4cffc3b65cf605375e33753a",
+    "reason": "no-exact-identity"
+  },
+  "paper-06-ref-d64ad1c26fdb": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=statistical+power+analysis+for+the+behavioral+sciences&author=Cohen",
+    "checkedAt": "2026-09-17T02:13:33.494662+00:00",
+    "sourceTextSha256": "d64ad1c26fdb36e49487963db61593927b1f545420b6622cc637a900a99771d0",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.chb.2015.07.045": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.chb.2015.07.045",
+    "checkedAt": "2026-09-17T02:13:34.101563+00:00",
+    "sourceTextSha256": "fb74c42336ab7bac3c943591d671c753c8b3922913e748574e3630ab26ffa21b",
+    "reason": "database-has-no-abstract"
+  },
+  "paper-06-ref-cd2dd351c962": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=research+notebook+computational+thinking+what+and+why&author=Wing",
+    "checkedAt": "2026-09-17T02:13:34.578303+00:00",
+    "sourceTextSha256": "cd2dd351c9626683d8f08955768cdc126c8d7a49e412b3e9446f98689cbf946f",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.compedu.2022.104684": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.compedu.2022.104684",
+    "checkedAt": "2026-09-17T02:13:35.049101+00:00",
+    "sourceTextSha256": "a71b4d4afdd707af6fcd12cef53ba4c45bd2d018ad0799c0047889161062afc2",
+    "reason": "database-has-no-abstract"
+  },
+  "paper-07-ref-810ab0174d47": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=worlding+through+play+alternate+reality+games+large+scale+learning+and+the+source&author=Jagoda",
+    "checkedAt": "2026-09-17T02:13:35.347319+00:00",
+    "sourceTextSha256": "810ab0174d47e86529bdd0f9d815a6c92d796a814673f3fb360a76989e91fb56",
+    "reason": "no-exact-identity"
+  },
+  "paper-06-ref-82b8228d5ac8": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=computational+thinking+the+developing+definition+pp+6&author=Selby",
+    "checkedAt": "2026-09-17T02:13:34.524558+00:00",
+    "sourceTextSha256": "82b8228d5ac88c805f4d90e348e95d00e49474229242d1541d1f8b0efa979768",
+    "reason": "no-exact-identity"
+  },
+  "paper-08-ref-cb70a5f22510": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=self+explanation+strategy+supporting+students+critical+thinking+in+reading+comprehension+for+science+class+in+senior+high+school&author=Fajrin",
+    "checkedAt": "2026-09-17T02:13:36.200696+00:00",
+    "sourceTextSha256": "cb70a5f22510ef935764a76bf41ef7e584ab743c1cdcab53fbf52e3ff33ab7f9",
+    "reason": "no-exact-identity"
+  },
+  "paper-08-ref-b48a36c3fe91": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=statistical+power+analysis+for+the+behavioral+sciences&author=Cohen",
+    "checkedAt": "2026-09-17T02:13:35.940617+00:00",
+    "sourceTextSha256": "b48a36c3fe91b7b6cadeaa0de239f7e5312d04a91736117479c417f6263ff788",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.compedu.2023.104757": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.compedu.2023.104757",
+    "checkedAt": "2026-09-17T02:13:36.866053+00:00",
+    "sourceTextSha256": "24b7d1c4c310792d2e0802c908405339176561d8b70b07e269429439f7af737a",
+    "reason": "database-has-no-abstract"
+  },
+  "paper-08-ref-4e049f147733": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=design+and+analysis+a+researcher+s+handbook&author=Keppel",
+    "checkedAt": "2026-09-17T02:13:36.986882+00:00",
+    "sourceTextSha256": "4e049f147733926c08348b0bfe0e6f9896e18a31f1d49f689d971984b65f6343",
+    "reason": "no-exact-identity"
+  },
+  "paper-08-ref-ca5a3c5a7594": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=constructivism+from+philosophy+to+practice+https+eric+ed+gov+id+ed444966&author=Murphy",
+    "checkedAt": "2026-09-17T02:13:37.085807+00:00",
+    "sourceTextSha256": "ca5a3c5a759436f4fb3601274e997b68bf91bef8cfe45c2609e2e57f9aa95809",
+    "reason": "no-exact-identity"
+  },
+  "paper-08-ref-d7a9f15e7564": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=the+abcs+of+how+we+learn+26+scientifically+proven+approaches+how+they+work+and+when+to+use+them&author=Schwartz",
+    "checkedAt": "2026-09-17T02:13:37.772177+00:00",
+    "sourceTextSha256": "d7a9f15e7564cd48f8a10fdb69298b1b38cd1c36e3ad3942d570ae2a3e8e1041",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.compedu.2022.104723": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.compedu.2022.104723",
+    "checkedAt": "2026-09-17T02:13:38.481501+00:00",
+    "sourceTextSha256": "edfc91aab1ec33b39920c10741e56b25f27cad229938fb4f7f9b103de004a64a",
+    "reason": "database-has-no-abstract"
+  },
+  "10.1016/j.edurev.2022.100454": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.edurev.2022.100454",
+    "checkedAt": "2026-09-17T02:13:39.372315+00:00",
+    "sourceTextSha256": "9fc338954d1963b0285a8e0a5e3e8e78ff917adf5320993baebd416d0b2a2e15",
+    "reason": "database-has-no-abstract"
+  },
+  "10.1016/j.compedu.2024.105043": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&doi=10.1016%2Fj.compedu.2024.105043",
+    "checkedAt": "2026-09-17T02:13:38.600713+00:00",
+    "sourceTextSha256": "44383487a4d168204210d67653cdb5a5b548635e39e184864993f22f3bc2f528",
+    "reason": "database-has-no-abstract"
+  },
+  "paper-08-ref-956019d36e0f": {
+    "status": "not-found",
+    "sourceType": "openaire",
+    "sourceUrl": "https://api.openaire.eu/search/publications?format=json&size=100&title=cognitive+load+theory&author=Sweller",
+    "checkedAt": "2026-09-17T02:13:37.775335+00:00",
+    "sourceTextSha256": "956019d36e0f200de3d6f5c1bb0641fa784eb63338d7a9e98ce7c6fec82dfe6e",
+    "reason": "ambiguous-identity"
+  }
+}

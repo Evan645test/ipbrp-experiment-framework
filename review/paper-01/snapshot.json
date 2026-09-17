@@ -1,0 +1,3156 @@
+{
+  "paperId": "paper-01",
+  "sourceSha256": "f115fdd76360d2b81f11162f81a419d30c973b58bdeb13a4b504a1f1a63a3ca1",
+  "dataSha256": "97d7cba2d9ebc0884dcb493a2610f45f67f042fbd73511f1b8fe30fd1a23b7b6",
+  "generatedAt": "2026-09-17T09:44:49.552403+00:00",
+  "includedReadingUnits": 66,
+  "excludedRecords": 57,
+  "companionUnits": 33,
+  "pages": [
+    {
+      "page": 1,
+      "image": "page-01.png",
+      "readingUnits": [
+        {
+          "id": "paper-01-s-7c912a2c2cbe",
+          "label": "R001",
+          "kind": "body",
+          "section": "Abstract",
+          "assessment": null,
+          "sourceText": "Robot programming is an age-appropriate means to cultivate children’s computational thinking (CT) and executive function (EF). Project-based learning (PBL) is commonly applied to teach robot programming. PBL involves complex, large-scale projects consisting of multiple subprojects. Each sub-project introduces new knowledge but offers few opportunities to connect it with previously learned knowledge, thus misaligning with children’s cognitive development. In comparison, incremental PBL (IPBL) is a tailored design of PBL that begins with basic knowledge, with each new sub-project building on all learned knowledge from previous sub-projects and progressively adding new knowledge to achieve complete project learning. Hence, this research integrated IPBL into robot programming to develop an incremental project-based robot programming (I-PBRP) approach, and evaluated its effect on young children’s CT, EF, and learning behavioral patterns. Ninety-five children aged 5–6 engaged in 12-week interventions. They were randomly assigned to the I-PBRP group and the conventional project-based robot programming (C-PBRP) group. Results manifested that the I-PBRP group achieved better performance than the C-PBRP group in CT and in the three components of EF (inhibition, working memory, and cognitive flexibility) over time. The progressive behavioral analysis manifested that the I-PBRP approach promoted superior performance in robot programming activities and more positive learning behaviors for children. This research has implications for robot programming teaching approaches for young children’s CT and EF development.",
+          "boxes": [
+            [
+              197.74,
+              358.68,
+              507.37,
+              533.0
+            ]
+          ]
+        }
+      ],
+      "companionUnits": [],
+      "excluded": [],
+      "exhibits": []
+    },
+    {
+      "page": 2,
+      "image": "page-02.png",
+      "readingUnits": [
+        {
+          "id": "paper-01-s-bd0df1233583",
+          "label": "R002",
+          "kind": "body",
+          "section": "1. Introduction",
+          "assessment": null,
+          "sourceText": "Computational thinking (CT), a set of thinking skills involving computer science principles for individuals to solve problems, has become a priority for K-12 Science, Technology, Engineering, and Mathematics (STEM) education (Wing, 2006; Zhang et al., 2025). In recent years, CT has been progressively integrated into early childhood education (Su & Yang, 2023). Cultivating young children’s CT is significant as it is positively associated with STEM learning, cognitive development, and career pathways (Lin et al., 2023; Tsarava et al., 2022).",
+          "boxes": [
+            [
+              39.0,
+              70.23,
+              507.6,
+              125.1
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-dd5aa63837c8",
+          "label": "R003",
+          "kind": "body",
+          "section": "1. Introduction",
+          "assessment": null,
+          "sourceText": "Programming, which involves children applying computer science principles (e.g., algorithms, debugging) to solve problems, is an effective approach to fostering CT (Hsu et al., 2018; McCormick & Hall, 2021). In programming activities, children plan, handle information, and change their ways of thinking, which also benefits executive function (EF) (Arf´e et al., 2020; Zhang et al., 2025). EF involves a series of cognitive skills that self-regulate thoughts and behaviors to solve problems (Diamond, 2012). It is closely linked with academic performance, social bonds, and health (Ahmed et al., 2018; Lohndorf et al., 2021). EF and CT share a similar problem-solving nature. Studies have revealed a correlation between them (Liu, 2024; Pellas, 2024; Robertson et al., 2020).",
+          "boxes": [
+            [
+              39.0,
+              122.56,
+              507.6,
+              187.86
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-6e363a12658d",
+          "label": "R004",
+          "kind": "body",
+          "section": "1. Introduction",
+          "assessment": null,
+          "sourceText": "With advancements in robotics, educational robots have been adopted to support children’s cognitive growth (Kalogiannakis, Papadakis, & Dorouka, 2020; Misirli and Komis, 2023). Programmable robots are an age-appropriate tool that offers children playful and hands-on experiences of manipulating tangible objects (Chen et al., 2024; Levinson & Bers, 2024). Empirical studies have demonstrated that robot programming could effectively enhance children’s CT and EF (Berson et al., 2023; Zurnacı & Turan, 2024).",
+          "boxes": [
+            [
+              39.0,
+              185.32,
+              507.59,
+              229.7
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-5dded5f2be0d",
+          "label": "R005",
+          "kind": "body",
+          "section": "1. Introduction",
+          "assessment": null,
+          "sourceText": "The teaching approach for robot programming is crucial for fostering CT and EF (Hsu et al., 2018; Zhang et al., 2025). Studies have identified that project-based learning (PBL) is the most commonly adopted teaching approach for robot programming (Ching & Hsu, 2023; Pugnali et al., 2017; Saad & Zainudin, 2024). PBL has been shown to be appropriate and effective for young children (Holm, 2011; Lev et al., 2020). Conventional PBL (CPBL) often involves a complex, large-scale project composed of multiple sub-projects. Each sub-project requires children to learn a large amount of new knowledge and apply it to achieve the final goal (Hao et al., 2016; Huang, 2016). For example, Wang et al. (2023) adopted PBL to teach computer programming and designed five sub-projects. Each sub-project introduced new knowledge: “algorithm,” “selection and bubble sort,” “linear and dichotomous search,” “flowcharting,” and “mind mapping.” However, in CPBL, introducing new knowledge in every sub-project offers few chances for children to connect it with the learned knowledge from previous sub-projects. This approach mismatches the staged nature of children’s cognitive development, where higher-level skills build upon foundational ones (Piaget, 1971). It also fails to activate children’s Zone of Proximal Development (ZPD; i.e., the gap between the current and potential level of development to be achieved with appropriate support; Vygotsky, 1987). Furthermore, CPBL may overwhelm children with limited working memory and increase their cognitive load, thereby hindering CT and EF growth (Hao et al., 2016; Liu, 2024).",
+          "boxes": [
+            [
+              39.0,
+              227.16,
+              507.61,
+              365.71
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-190b05a24c0c",
+          "label": "R006",
+          "kind": "body",
+          "section": "1. Introduction",
+          "assessment": null,
+          "sourceText": "Incremental PBL (IPBL), a tailored design of PBL, originated from and is commonly used to teach computer programming. Unlike CPBL, it systematically integrates all learned content in previous sub-projects and new knowledge in each sub-project (Huang, 2016; Vega et al., 2012). For example, Huang (2016) applied IPBL to teach Java programming. He designed nine sub-projects, each combining new knowledge with all knowledge from previous sub-projects (e.g., sub-project 3 integrated new knowledge “classes and objects” with all learned content from sub-projects 1, “language basics,” and 2, “strings and arrays”). IPBL matches children’s gradual development nature and supports learning within the ZPD by providing optimal challenges based on prior learning that bridge the gap between their current and potential development (Piaget, 1971; Vygotsky, 1987). IPBL also exerts a lower cognitive load by engaging children in sub-projects featured in progressively increased knowledge and similar problem-solving contexts (Hao et al., 2016). Accordingly, IPBL may address the problems of CPBL and be an appropriate teaching approach for robot programming to support children’s CT and EF (Di Lieto et al., 2017; Fallon, 2024). For CT development, IPBL progressively connects new knowledge with what children have learned, which reinforces memory retention and enables children to acquire programming knowledge and apply it to solve increasingly complex tasks easily. For EF development, IPBL builds on existing knowledge with each task, encouraging children to stay focused on goals and manipulate information. As tasks become progressively more challenging, children learn to switch between different requirements, enhancing their cognitive flexibility. Although studies have applied IPBL to teaching older students computer programming (Huang, 2016; Vega et al., 2012), its applicability in robot programming for young children’s CT and EF development remains under-explored.",
+          "boxes": [
+            [
+              39.0,
+              363.16,
+              507.61,
+              533.06
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-bf36c7559072",
+          "label": "R007",
+          "kind": "body",
+          "section": "1. Introduction",
+          "assessment": null,
+          "sourceText": "Hence, our purpose was to integrate IPBL into robot programming to propose an incremental project-based robot programming (I- PBRP) approach and compare its effect on young children’s CT and EF with the conventional project-based robot programming (C- PBRP) approach. Besides, Bers et al. (2019, 2022) underscored the significance of delving into children’s behaviors in robot programming learning. However, previous literature reviews identified that existing studies mainly collected quantitative data to examine children’s learning outcomes, rather than the learning process (e.g., behaviors; McCormick & Hall, 2021; Su & Yang, 2023). Since children exposed to different teaching approaches exhibit distinct behaviors, analyzing their behaviors offers qualitative and explainable insights into different robot programming teaching approaches (Hwang et al., 2017; Sun et al., 2021). Hence, children’s behaviors under the I-PBRP and C-PBRP approaches were further explored. Three research questions guided this study.",
+          "boxes": [
+            [
+              39.0,
+              530.52,
+              507.61,
+              616.74
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-b66f826d37d8",
+          "label": "R008",
+          "kind": "body",
+          "section": "1. Introduction",
+          "assessment": null,
+          "sourceText": "RQ1: What are the differences in CT between children under the I-PBRP and C-PBRP approaches? RQ2: What are the differences in EF between children under the I-PBRP and C-PBRP approaches? RQ3: What are the differences in behavioral patterns between children under the I-PBRP and C-PBRP approaches?",
+          "boxes": [
+            [
+              50.97,
+              624.63,
+              455.47,
+              658.58
+            ]
+          ]
+        }
+      ],
+      "companionUnits": [],
+      "excluded": [],
+      "exhibits": []
+    },
+    {
+      "page": 3,
+      "image": "page-03.png",
+      "readingUnits": [
+        {
+          "id": "paper-01-s-1d22b750c2ce",
+          "label": "R009",
+          "kind": "body",
+          "section": "2.1. Computational thinking (CT) for young children",
+          "assessment": null,
+          "sourceText": "CT stemmed from Papert (1980) and was advanced by Wing (2006). It refers to a set of thinking skills employing computer science principles to solve problems related to STEM and real life (Zhang et al., 2024, 2025). Researchers have proposed specific and operational definitions of CT. For instance, Brennan and Resnick (2012) classified CT into three dimensions based on Scratch: concepts, practices, and perspectives of CT. With growing attention to children’s CT, Bers (2020) proposed a CT framework for 4-9-year-olds, including seven constructs: software/hardware (software provides instructions to hardware, enabling devices to process information to perform programmed tasks), debugging (identifying and correcting errors), representation (understanding that symbols represent instructions), modularity (breaking complex problems into smaller parts), algorithm (creating a series of ordered steps to solve problems), control structure (determining the flow where instructions are executed in programs), and design process (iteratively working on the programs). This framework served as the foundation of CT in this study. Accordingly, we describe CT as a set of thinking skills that enable children to solve diverse problems through computer science principles, including software/hardware, debugging, representation, modularity, algorithms, control structures, and design process.",
+          "boxes": [
+            [
+              39.0,
+              91.15,
+              507.61,
+              208.78
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-c5bf381800bc",
+          "label": "R010",
+          "kind": "body",
+          "section": "2.2. Executive function (EF) for young children",
+          "assessment": null,
+          "sourceText": "EF is a series of higher-order cognitive skills that self-regulate thoughts and behaviors to solve problems (Diamond, 2012). Miyake et al. (2000) proposed a widely acknowledged EF framework: (1) inhibition: the ability to control behaviors, thoughts, or emotions; (2) working memory: the ability to keep and use information; and (3) cognitive flexibility: the ability to switch thinking and solve problems from diverse perspectives. Scholars have indicated that programming can enhance these three components of EF (Arf´e et al., 2020; Di Lieto et al., 2017). Hence, this study referred to Miyake et al. (2000) and focused on inhibition, working memory, and cognitive flexibility.",
+          "boxes": [
+            [
+              39.0,
+              242.69,
+              507.61,
+              307.99
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-1aa90ddfdaf2",
+          "label": "R011",
+          "kind": "body",
+          "section": "2.3. Robot programming, computational thinking (CT) and executive function (EF)",
+          "assessment": null,
+          "sourceText": "Programmable robots have been applied to teach young children programming and to promote cognitive development (Darmawansah et al., 2023; Chookaew & Panjaburee, 2022). They enable children to program without specialized training (Levinson & Bers, 2024). Grounded on Papert’s (1980) constructionism theory, programmable robots offer children great opportunities to interact with tangible objects and to solve problems in playful settings. They also offer concrete representations of abstract concepts and impose lower cognitive load than screen-based devices (Zhang et al., 2025).",
+          "boxes": [
+            [
+              39.0,
+              341.85,
+              507.6,
+              396.77
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-d11f79a31d57",
+          "label": "R012",
+          "kind": "body",
+          "section": "2.3. Robot programming, computational thinking (CT) and executive function (EF)",
+          "assessment": null,
+          "sourceText": "Robot programming allows children to create programs through blocks/instructions or directional buttons to drive robots and solve problems, thereby boosting CT (Bers et al., 2014, 2019). For example, as each programming block represents specific actions of the robot, children comprehend the symbolic meaning of each block (representation), and then arrange them in sequences to achieve the goal (algorithm); when the robot does not perform actions as intended, children should correct the errors (debugging). Empirical evidence has disclosed the effectiveness of robot programming in boosting young children’s CT. For instance, Lin et al. (2023) reported positive outcomes of Dodobot-based robot programming activities for young children’s CT. Levinson and Bers (2024) implemented the KIBO curriculum and found its effectiveness in young children’s CT.",
+          "boxes": [
+            [
+              39.0,
+              394.17,
+              507.6,
+              469.96
+            ]
+          ]
+        }
+      ],
+      "companionUnits": [
+        {
+          "id": "paper-01-s-147eeb800482",
+          "label": "C001",
+          "kind": "caption",
+          "section": "2.3. Robot programming, computational thinking (CT) and executive function (EF)",
+          "assessment": null,
+          "sourceText": "Fig. 1. The flow of PBL (Synthesized by the authors).",
+          "boxes": [
+            [
+              185.61,
+              677.97,
+              358.62,
+              689.7
+            ]
+          ]
+        }
+      ],
+      "excluded": [],
+      "exhibits": [
+        {
+          "id": "paper-01-figure-1",
+          "label": "Figure 1",
+          "bbox": [
+            178.46,
+            475.44,
+            365.82,
+            675.97
+          ]
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "image": "page-04.png",
+      "readingUnits": [
+        {
+          "id": "paper-01-s-5d2f9714afc0",
+          "label": "R013",
+          "kind": "body",
+          "section": "2.3. Robot programming, computational thinking (CT) and executive function (EF)",
+          "assessment": null,
+          "sourceText": "Simultaneously, robot programming has the potential to enhance children’s EF (Zhang et al., 2025; Zurnacı & Turan, 2024). Engaging in robot programming can exercise inhibition by requiring children to follow rules and avoid immediate but incorrect commands. It also stimulates working memory as children retain and update rules and blocks throughout the process. Moreover, cognitive flexibility is stimulated when children switch between strategies or adjust solutions when robots do not perform as expected. Empirical studies have shown the effectiveness of robot programming on children’s EF. For example, Di Lieto et al. (2017) reported that KIBO robot programming activities improved children’s inhibition and working memory. Zhang et al., 2025 demonstrated the effectiveness of Matatalab-based robot programming activities in enhancing children’s inhibition, working memory, and cognitive flexibility.",
+          "boxes": [
+            [
+              39.01,
+              49.31,
+              507.6,
+              135.59
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-7b21896a1bae",
+          "label": "R014",
+          "kind": "body",
+          "section": "2.4. Project-based learning (PBL) in programming",
+          "assessment": null,
+          "sourceText": "PBL is a student-centered approach whereby students engage in meaningful projects and solve real-world problems to acquire knowledge and skills (Barron et al., 1998; Buck Institute for Education, 2011). Referring to representative studies (Buck Institute for Education, 2011; Hu, 2023), we summarized the process of PBL into six stages (Fig. 1): (1) Introduction to task context: Set real-world contexts, clarify learning goals, and present driving problems/questions; (2) Knowledge and skill building: Equip participants with the essential knowledge and skills needed for the project; (3) Communication and scheme design: Invite students to communicate with peers and design solutions; (4) Task inquiry: Guide students in inquiry to complete tasks; (5) Presentation and evaluation: Invite students to present project products and reflect on the process and outcomes; and (6) Revision and extension: Invite students to improve their works and then extend their thoughts.",
+          "boxes": [
+            [
+              39.01,
+              165.31,
+              507.61,
+              251.53
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-4f6e42fbc329",
+          "label": "R015",
+          "kind": "body",
+          "section": "2.4. Project-based learning (PBL) in programming",
+          "assessment": null,
+          "sourceText": "Previous studies have manifested that PBL is an effective teaching approach for young children (Holm, 2011; Lev et al., 2020). PBL has also been widely adopted to teach young children robot programming, CT, and EF. For example, literature reviews by Hsu et al. (2018) and Ching and Hsu (2023) reported that PBL was a commonly adopted approach to teach children robot programming and CT. Robledo-Castro et al. (2023) revealed the effectiveness of PBL on children’s CT and EF. Scholars noted that the features of PBL match robot programming and are compatible with diverse knowledge and disciplines, which can empower children’s CT, EF, and abilities such as collaboration and creativity (Darmawansah et al., 2023; Saad & Zainudin, 2024).",
+          "boxes": [
+            [
+              39.01,
+              248.98,
+              507.58,
+              314.29
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-d70bdab7383f",
+          "label": "R016",
+          "kind": "body",
+          "section": "2.4. Project-based learning (PBL) in programming",
+          "assessment": null,
+          "sourceText": "In designing CPBL, the teacher divides a complete project into several individual sub-projects, with each sub-project integrating distinct new knowledge. Students work on these sub-projects sequentially and then comprehensively apply the learned knowledge to complete the final project (Hao et al., 2016; Huang, 2016). Examples of CPBL can be found in the literature, particularly in the project content section (Liu et al., 2024; Robledo-Castro et al., 2023; Wang et al., 2023). However, CPBL features large-scale and complex sub-projects, each requiring children to learn and use new knowledge to solve problems, but with limited connection to the learned knowledge from previous sub-projects. Without careful design, novice learners, and especially young children, may struggle to acquire and apply knowledge, further affecting task completions and learning outcomes (Ferrero et al., 2021).",
+          "boxes": [
+            [
+              39.01,
+              311.74,
+              507.6,
+              387.53
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-40757fb92c91",
+          "label": "R017",
+          "kind": "body",
+          "section": "2.5. Incremental project-based learning (IPBL)",
+          "assessment": null,
+          "sourceText": "IPBL, a tailored design of PBL, begins with basic knowledge, with each new sub-project building on all learned knowledge in previous sub-projects, and progressively adding new knowledge to achieve complete project learning (Huang, 2016). It is grounded in constructivism and children’s cognitive development.",
+          "boxes": [
+            [
+              39.01,
+              417.25,
+              507.6,
+              451.2
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-1a15e48ca5e3",
+          "label": "R018",
+          "kind": "body",
+          "section": "2.5. Incremental project-based learning (IPBL)",
+          "assessment": null,
+          "sourceText": "Studies have enacted design principles of IPBL in computer programming and reported its positive outcomes. For example, Vega et al. (2012) found that computer programming is difficult for students. They introduced the IPBL approach, where each sub-project shares similar real-world contexts, reinforces prior knowledge, and simultaneously introduces new knowledge. This approach promoted students’ programming performance and motivation. Huang (2016) found that CPBL involves complex projects and challenges students to understand key knowledge. Accordingly, Huang designed an IPBL approach for Java programming courses and found that it could enhance students’ learning efficiency and satisfaction. Huang outlined that in designing IPBL, teachers should plan the whole project to ensure it begins with the basics and then adds knowledge; the subsequent sub-projects include new knowledge and all knowledge from previous sub-projects. Drawing on Vega et al. (2012) and Huang (2016), we identified three design principles of IPBL: (1) Teachers arrange the whole project in advance and divide it into several interrelated sub-projects to ensure that the difficulty of the knowledge involved in each sub-project increases progressively; (2) Each sub-project integrates the incremental knowledge (new knowledge) and all/most learned knowledge from previous sub-projects; and (3) The context of each sub-project should be similar to other sub-projects and aligned with the whole project. Fig. 2 shows the differences in the design principles of CPBL and IPBL (Capraro et al., 2013; Huang, 2016; Vega et al., 2012; Wang et al., 2023).",
+          "boxes": [
+            [
+              39.01,
+              448.6,
+              507.61,
+              524.39
+            ]
+          ]
+        }
+      ],
+      "companionUnits": [
+        {
+          "id": "paper-01-s-ab92fc53961f",
+          "label": "C002",
+          "kind": "caption",
+          "section": "2.5. Incremental project-based learning (IPBL)",
+          "assessment": null,
+          "sourceText": "Fig. 2. The design principles of CPBL and IPBL.",
+          "boxes": [
+            [
+              194.91,
+              677.97,
+              349.29,
+              689.7
+            ]
+          ]
+        }
+      ],
+      "excluded": [],
+      "exhibits": [
+        {
+          "id": "paper-01-figure-2",
+          "label": "Figure 2",
+          "bbox": [
+            37.0,
+            529.87,
+            510.51,
+            675.97
+          ]
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "image": "page-05.png",
+      "readingUnits": [
+        {
+          "id": "paper-01-s-1a15e48ca5e3",
+          "label": "R018",
+          "kind": "body",
+          "section": "2.5. Incremental project-based learning (IPBL)",
+          "assessment": null,
+          "sourceText": "Studies have enacted design principles of IPBL in computer programming and reported its positive outcomes. For example, Vega et al. (2012) found that computer programming is difficult for students. They introduced the IPBL approach, where each sub-project shares similar real-world contexts, reinforces prior knowledge, and simultaneously introduces new knowledge. This approach promoted students’ programming performance and motivation. Huang (2016) found that CPBL involves complex projects and challenges students to understand key knowledge. Accordingly, Huang designed an IPBL approach for Java programming courses and found that it could enhance students’ learning efficiency and satisfaction. Huang outlined that in designing IPBL, teachers should plan the whole project to ensure it begins with the basics and then adds knowledge; the subsequent sub-projects include new knowledge and all knowledge from previous sub-projects. Drawing on Vega et al. (2012) and Huang (2016), we identified three design principles of IPBL: (1) Teachers arrange the whole project in advance and divide it into several interrelated sub-projects to ensure that the difficulty of the knowledge involved in each sub-project increases progressively; (2) Each sub-project integrates the incremental knowledge (new knowledge) and all/most learned knowledge from previous sub-projects; and (3) The context of each sub-project should be similar to other sub-projects and aligned with the whole project. Fig. 2 shows the differences in the design principles of CPBL and IPBL (Capraro et al., 2013; Huang, 2016; Vega et al., 2012; Wang et al., 2023).",
+          "boxes": [
+            [
+              39.0,
+              49.31,
+              507.6,
+              114.67
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-92953cdbb1bd",
+          "label": "R019",
+          "kind": "body",
+          "section": "2.6. Young children’s learning behaviors in robot programming",
+          "assessment": null,
+          "sourceText": "Learning behavior analysis is a process-oriented method for understanding how children engage in during learning activities (Bakeman & Gottman, 1997). Few studies have explored children’s learning behaviors in robot programming contexts. For example, Bers et al. (2019) observed children’s positive behaviors in robot programming and then calculated frequencies. However, calculations of behavior frequency cannot capture temporal order and transitional patterns of behaviors. In contrast, Zhang et al. (2024) adopted lag sequential analysis to explore children’s behavioral patterns under different robot programming teaching approaches. Lag sequential analysis is an analytical method that examines individuals’ or groups’ temporal order and transitional patterns of behaviors during the learning process (Bakeman & Gottman, 1997). Progressive sequential analysis, an extension of lag sequential analysis, enables the tracing of changes in learners’ behavioral patterns across different learning phases (Cheng and Hou, 2013; Hou, 2010). Zhang et al. (2024) and Bakeman and Quera (2011) demonstrated the feasibility of these methods for exploring children’s behavioral patterns. Hence, this study employed progressive sequential analysis to examine children’s behavioral patterns under the I-PBRP and C-PBRP approaches.",
+          "boxes": [
+            [
+              39.0,
+              147.79,
+              507.61,
+              265.42
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-102dea33da1b",
+          "label": "R020",
+          "kind": "body",
+          "section": "3.1. Theoretical foundations: Children’s cognitive development theories",
+          "assessment": null,
+          "sourceText": "Children’s cognitive development theories provide theoretical foundations for the I-PBRP approach in CT and EF development. Children’s cognitive development has a stage-like nature, from simple to complex, with higher-level skills building on earlier ones (Piaget, 1971). The I-PBRP approach aligns with this by starting with basic programming knowledge and gradually introducing more advanced concepts. Vygotsky (1987) implied that children learn best when working on tasks just beyond their current abilities, within their ZPD. In designing the I-PBRP approach, the teacher should ensure that sets of knowledge and tasks are progressively challenging for children, yet remain within the ZPD (Akhutina & Pylaeva, 2012). This also matches the requirement of CT and EF growth through repeated practice and progressive challenges (Diamond, 2012). Moreover, working memory is crucial for CT and EF development as it helps children memorize and manipulate information (Liu, 2024). However, young children have limited capacities of working memory, and being exposed to a large amount of new information at one time may impose cognitive loads. Effective information storage requires repetition and connection of new information with existing knowledge in memory (McDevitt & Ormrod, 2010). The I-PBRP approach ensures a reasonable amount of new knowledge, repeats learned knowledge, and connects new knowledge with existing knowledge in each sub-project to retain and update information.",
+          "boxes": [
+            [
+              39.0,
+              316.22,
+              507.61,
+              444.28
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-adeafd695d68",
+          "label": "R021",
+          "kind": "body",
+          "section": "3.2. The robot programming tool",
+          "assessment": null,
+          "sourceText": "The Matatalab robot programming kit, designed for 4-9-year-olds, was utilized for both groups. Children were organized into small groups of 2–3. Each group owns one kit. Children can place the programming blocks onto the control board, then press the button to make MatataBot perform actions on the map (Fig. 3). Studies have shown the feasibility of the Matatalab for fostering children’s CT and EFs (Fu et al., 2023; Zhang et al., 2025). Additionally, this tool enables the implementation of PBL where children engage in hands-on, collaborative problem solving in real-world contexts, and its different programming modules allow for the incremental introduction of complex knowledge and tasks. Moreover, children were offered materials, including crayons, stickers, glue, and paper cups, to creatively decorate the robot and the map, aiming to enhance the project context’s authenticity and children’s engagement.",
+          "boxes": [
+            [
+              39.0,
+              477.45,
+              507.61,
+              500.92
+            ]
+          ]
+        }
+      ],
+      "companionUnits": [
+        {
+          "id": "paper-01-s-afc461d3804a",
+          "label": "C003",
+          "kind": "caption",
+          "section": "3.2. The robot programming tool",
+          "assessment": null,
+          "sourceText": "Fig. 3. Robot programming tool.",
+          "boxes": [
+            [
+              218.95,
+              677.97,
+              325.28,
+              689.7
+            ]
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "id": "paper-01-s-43c126f8360c",
+          "label": "X001",
+          "kind": "body",
+          "section": "2.5. Incremental project-based learning (IPBL)",
+          "assessment": null,
+          "sourceText": "knowledge from previous sub-projects. Drawing on Vega et al. (2012) and Huang (2016), we identified three design principles of IPBL: (1) Teachers arrange the whole project in advance and divide it into several interrelated sub-projects to ensure that the difficulty of the knowledge involved in each sub-project increases progressively; (2) Each sub-project integrates the incremental knowledge (new knowledge) and all/most learned knowledge from previous sub-projects; and (3) The context of each sub-project should be similar to other sub-projects and aligned with the whole project. Fig. 2 shows the differences in the design principles of CPBL and IPBL (Capraro et al., 2013; Huang, 2016; Vega et al., 2012; Wang et al., 2023).",
+          "boxes": [
+            [
+              39.0,
+              49.31,
+              507.6,
+              114.67
+            ]
+          ]
+        }
+      ],
+      "exhibits": [
+        {
+          "id": "paper-01-figure-3",
+          "label": "Figure 3",
+          "bbox": [
+            107.6,
+            506.4,
+            436.65,
+            675.97
+          ]
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "image": "page-06.png",
+      "readingUnits": [
+        {
+          "id": "paper-01-s-adeafd695d68",
+          "label": "R021",
+          "kind": "body",
+          "section": "3.2. The robot programming tool",
+          "assessment": null,
+          "sourceText": "The Matatalab robot programming kit, designed for 4-9-year-olds, was utilized for both groups. Children were organized into small groups of 2–3. Each group owns one kit. Children can place the programming blocks onto the control board, then press the button to make MatataBot perform actions on the map (Fig. 3). Studies have shown the feasibility of the Matatalab for fostering children’s CT and EFs (Fu et al., 2023; Zhang et al., 2025). Additionally, this tool enables the implementation of PBL where children engage in hands-on, collaborative problem solving in real-world contexts, and its different programming modules allow for the incremental introduction of complex knowledge and tasks. Moreover, children were offered materials, including crayons, stickers, glue, and paper cups, to creatively decorate the robot and the map, aiming to enhance the project context’s authenticity and children’s engagement.",
+          "boxes": [
+            [
+              39.0,
+              49.31,
+              507.61,
+              104.18
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-6de3921bddb4",
+          "label": "R022",
+          "kind": "body",
+          "section": "3.3. Learning content",
+          "assessment": null,
+          "sourceText": "Fig. 4 presents the learning content for the I-PBRP approach, which was developed based on the design principle of the IPBL. First, three experts determined the theme of the whole project based on the forest map of the Matatalab kit: Fun Tour of the Forest, which is close to children’s life. To ensure consistency across the theme of the sub-projects and the whole project, the theme of each sub-project was centered around the animals and plants in the forest map. The learning content was designed incrementally, with each sub-project covering both consolidated (previously learned) and incremental knowledge. At the end of the learning, children were required to complete the final deliverable of the project: they comprehensively applied previously learned knowledge to create programs that guided the MatataBot to move through the forest.",
+          "boxes": [
+            [
+              39.0,
+              139.06,
+              507.61,
+              214.85
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-96975a96e4dc",
+          "label": "R023",
+          "kind": "body",
+          "section": "3.3. Learning content",
+          "assessment": null,
+          "sourceText": "The learning content for the C-PBRP approach is displayed in Fig. 5 to show the distinction from the I-PBRP approach. It was developed based on the design principles of CPBL. The differences were twofold (Huang, 2016; Wang et al., 2023). First, regarding knowledge arrangement, the C-PBRP group focused solely on introducing new programming knowledge in each sub-project, without a systematic requirement to build upon previously learned content. Second, regarding learning contexts, each sub-project in the C-PBRP approach was relatively independent of the others and the whole project, and was not situated within a consistent problem-solving context. The number of sub-projects and the final deliverable of the project were the same for both approaches; that is, the C-PBRP approach also required children to comprehensively apply previously learned knowledge to create programs that guided the MatataBot to move through the forest.",
+          "boxes": [
+            [
+              39.0,
+              212.3,
+              507.62,
+              298.53
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-418fc5a36f54",
+          "label": "R024",
+          "kind": "body",
+          "section": "3.3. Learning content",
+          "assessment": null,
+          "sourceText": "The sub-projects for both approaches incorporated CT objectives (software/hardware, algorithms, modularity, control structures, debugging, representation, design process). For example, children were introduced to the components and functions of the robot programming kit to understand hardware and software. Through introducing specific programming blocks (e.g., “move forward,” “parameter,” “loop”), they learned to represent commands symbolically and understand CT concepts. As they decomposed tasks into discrete steps, organized blocks into logical sequences, and determined the execution flow of instructions, they engaged in modularity, algorithms, control structures, and the design process. When the robot did not perform as expected, children corrected the errors in the debugging stage. The EF objectives (inhibition, working memory, cognitive flexibility) were also incorporated. For instance, children practiced inhibition by resisting impulsive actions such as placing blocks without prior planning. Working memory was engaged as they held and updated information while creating and modifying programs. Cognitive flexibility was fostered through adapting to evolving task demands, revising strategies in response to visual/auditory feedback from robots, and shifting solutions as needed.",
+          "boxes": [
+            [
+              39.0,
+              295.98,
+              507.61,
+              403.18
+            ]
+          ]
+        }
+      ],
+      "companionUnits": [
+        {
+          "id": "paper-01-s-b940d50efe04",
+          "label": "C004",
+          "kind": "caption",
+          "section": "3.3. Learning content",
+          "assessment": null,
+          "sourceText": "Fig. 4. The learning content for the I-PBRP approach.",
+          "boxes": [
+            [
+              185.16,
+              677.97,
+              359.07,
+              689.7
+            ]
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "id": "paper-01-s-1304821abdca",
+          "label": "X002",
+          "kind": "body",
+          "section": "3.2. The robot programming tool",
+          "assessment": null,
+          "sourceText": "make MatataBot perform actions on the map (Fig. 3). Studies have shown the feasibility of the Matatalab for fostering children’s CT and EFs (Fu et al., 2023; Zhang et al., 2025). Additionally, this tool enables the implementation of PBL where children engage in hands-on, collaborative problem solving in real-world contexts, and its different programming modules allow for the incremental introduction of complex knowledge and tasks. Moreover, children were offered materials, including crayons, stickers, glue, and paper cups, to creatively decorate the robot and the map, aiming to enhance the project context’s authenticity and children’s engagement.",
+          "boxes": [
+            [
+              39.0,
+              49.31,
+              507.61,
+              104.18
+            ]
+          ]
+        }
+      ],
+      "exhibits": [
+        {
+          "id": "paper-01-figure-4",
+          "label": "Figure 4",
+          "bbox": [
+            65.02,
+            408.68,
+            479.18,
+            675.97
+          ]
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "image": "page-07.png",
+      "readingUnits": [
+        {
+          "id": "paper-01-s-ff45d50d374d",
+          "label": "R025",
+          "kind": "body",
+          "section": "3.4. The flow of the I-PBRP approach",
+          "assessment": null,
+          "sourceText": "Based on representative studies (Hu, 2023; Huang, 2016; Zhang et al., 2024), the flow of the I-PBRP approach was developed. Fig. 6 presents a general flow of the I-PBRP approach, which illustrates the flow of each sub-project and incremental processes between sub-projects. The whole project included several sub-projects. The flow of each sub-project followed the six stages of PBL (Fig. 1). As the project progressed, the knowledge of the subsequent sub-project incremented based on all learned knowledge of the previous sub-project. In other words, the subsequent sub-project integrated both incremental knowledge of that sub-project and all learned knowledge from the previous sub-projects. Meanwhile, the context for each sub-project was relevant to children’s daily life and similar to other sub-projects. For better illustration, we generally describe the flow of the I-PBRP approach and elaborate on it through sub-project 4, “Hi, Red Fish,” as an example.",
+          "boxes": [
+            [
+              39.0,
+              359.48,
+              507.6,
+              445.7
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-c295e5bf0f9c",
+          "label": "R026",
+          "kind": "body",
+          "section": "3.4. The flow of the I-PBRP approach",
+          "assessment": null,
+          "sourceText": "The first stage was the introduction to the robot programming task contexts. In this stage, the teacher set authentic contexts for the task that were relevant to children’s daily life and similar to the other sub-projects, and raised the driving problems/questions to spark children’s interest. For instance, in the sub-project “Hi, Red Fish,” the teacher introduced guessing games and guided children to find the Red Fish on the map. Then, the teacher introduced the driving problem of today’s task: helping MatataBot get to Red Fish’s home.",
+          "boxes": [
+            [
+              39.0,
+              443.16,
+              507.6,
+              466.62
+            ]
+          ]
+        }
+      ],
+      "companionUnits": [
+        {
+          "id": "paper-01-s-3a8b6ccc0d77",
+          "label": "C005",
+          "kind": "caption",
+          "section": "3.3. Learning content",
+          "assessment": null,
+          "sourceText": "Fig. 5. The learning content for the C-PBRP approach.",
+          "boxes": [
+            [
+              184.08,
+              317.07,
+              360.14,
+              328.79
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-26e5b46473b9",
+          "label": "C006",
+          "kind": "caption",
+          "section": "3.4. The flow of the I-PBRP approach",
+          "assessment": null,
+          "sourceText": "Fig. 6. The flow of the I-PBRP approach.",
+          "boxes": [
+            [
+              205.74,
+              677.97,
+              338.49,
+              689.7
+            ]
+          ]
+        }
+      ],
+      "excluded": [],
+      "exhibits": [
+        {
+          "id": "paper-01-figure-5",
+          "label": "Figure 5",
+          "bbox": [
+            37.0,
+            45,
+            510.51,
+            315.07
+          ]
+        },
+        {
+          "id": "paper-01-figure-6",
+          "label": "Figure 6",
+          "bbox": [
+            37.0,
+            481.77,
+            510.51,
+            675.97
+          ]
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "image": "page-08.png",
+      "readingUnits": [
+        {
+          "id": "paper-01-s-c295e5bf0f9c",
+          "label": "R026",
+          "kind": "body",
+          "section": "3.4. The flow of the I-PBRP approach",
+          "assessment": null,
+          "sourceText": "The first stage was the introduction to the robot programming task contexts. In this stage, the teacher set authentic contexts for the task that were relevant to children’s daily life and similar to the other sub-projects, and raised the driving problems/questions to spark children’s interest. For instance, in the sub-project “Hi, Red Fish,” the teacher introduced guessing games and guided children to find the Red Fish on the map. Then, the teacher introduced the driving problem of today’s task: helping MatataBot get to Red Fish’s home.",
+          "boxes": [
+            [
+              39.0,
+              49.31,
+              507.6,
+              72.83
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-0a68ad4399cf",
+          "label": "R027",
+          "kind": "body",
+          "section": "3.4. The flow of the I-PBRP approach",
+          "assessment": null,
+          "sourceText": "The second stage was robot programming knowledge and skill building. This stage comprised two steps: first, the teacher guided children to review all learned knowledge from the previous sub-projects; second, the teacher introduced incremental knowledge of this sub-project through different activities. This stage aimed to reinforce existing knowledge and to connect existing and new knowledge. Take “Hi, Red Fish” as an example of the I-PBRP approach. First, the teacher reviewed all blocks (“move forward,” “move backward,” and “turn right”) learned in sub-project 3. Then, the teacher initiated activities on the left-turn signpost (Fig. 7(a)) and recognizing left and right (Fig. 7(b)). Subsequently, the teacher introduced the new block “turn left,” explaining its function and usage. Children were encouraged to explore MatataBot’s movement by using the “turn left” and “turn right” blocks, and to think about how the new block allows the robot to turn in the reverse direction compared to the “turn right” block. The I-PBRP approach differs from the C-PBRP approach in that it reviewed all learned programming blocks (“move forward” and “move backward” blocks) in previous sub-projects before presenting the new one (“turn left”), while C-PBRP solely introduced the new block (“turn left”) at this stage.",
+          "boxes": [
+            [
+              39.0,
+              70.23,
+              507.6,
+              177.43
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-acd036ac92f6",
+          "label": "R028",
+          "kind": "body",
+          "section": "3.4. The flow of the I-PBRP approach",
+          "assessment": null,
+          "sourceText": "The third stage involved peer communication and task solution design. In this stage, the teacher specified the goal and requirements of the task involving both consolidated and incremental knowledge. Then, children communicated with peers regarding the solutions and division of labor. For example, in the sub-project “Hi, Red Fish,” the teacher introduced the goal and requirement to the class (Fig. 8). Then, each group discussed possible solutions. During this process, children decomposed the task, planned steps and routes in sequence, and used programming symbols to represent problems. The teacher facilitated discussions and design processes by asking guiding questions to encourage groups to share their reasoning, and offered help if necessary.",
+          "boxes": [
+            [
+              39.0,
+              174.83,
+              507.61,
+              240.19
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-958b21bd5bf4",
+          "label": "R029",
+          "kind": "body",
+          "section": "3.4. The flow of the I-PBRP approach",
+          "assessment": null,
+          "sourceText": "The fourth stage involved robot programming task inquiry. In this stage, as presented in Fig. 9, the children created and executed programs with partners. During this process, they debugged programs by consistently finding errors and adjusting solutions until the goal was achieved. The teacher observed and offered help if necessary.",
+          "boxes": [
+            [
+              39.0,
+              237.59,
+              507.6,
+              271.54
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-613524e050b0",
+          "label": "R030",
+          "kind": "body",
+          "section": "3.4. The flow of the I-PBRP approach",
+          "assessment": null,
+          "sourceText": "The fifth stage involved robot programming task presentation and evaluation. In this stage, children were invited to present their works. They were encouraged to share solutions and reflect on what they encountered and how they solved them during the process. The teacher offered feedback to the children.",
+          "boxes": [
+            [
+              39.0,
+              269.0,
+              507.57,
+              302.95
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-e4bc8d87e80d",
+          "label": "R031",
+          "kind": "body",
+          "section": "3.4. The flow of the I-PBRP approach",
+          "assessment": null,
+          "sourceText": "The sixth stage involved robot programming task refinement and extension. In this stage, the children were encouraged to revise and improve their work. They also had opportunities to transfer the learned knowledge and extend the task context by exploring new solutions or tasks.",
+          "boxes": [
+            [
+              39.0,
+              300.35,
+              507.56,
+              334.36
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-13ebaa9517c6",
+          "label": "R032",
+          "kind": "body",
+          "section": "3.4. The flow of the I-PBRP approach",
+          "assessment": null,
+          "sourceText": "After these six stages, the flow of one sub-project was completed. Subsequently, a new and more complex sub-project that involved all learned knowledge from previous sub-projects and the newly added knowledge started.",
+          "boxes": [
+            [
+              39.0,
+              331.76,
+              507.6,
+              355.27
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-cebf56f7d36b",
+          "label": "R033",
+          "kind": "body",
+          "section": "4.1. Research design",
+          "assessment": null,
+          "sourceText": "We designed a 12-week quasi-experiment and conducted within-group and between-group comparisons. A mixed-method approach was employed to comprehensively interpret the effectiveness of the proposed approach. Quantitative data were collected using the CT and EF tests, while qualitative data comprised children’s behaviors through classroom videos.",
+          "boxes": [
+            [
+              39.0,
+              406.48,
+              507.57,
+              440.43
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-70f25539ff85",
+          "label": "R034",
+          "kind": "body",
+          "section": "4.2. Participants",
+          "assessment": null,
+          "sourceText": "Wang and Xie (2024) and Zhang et al. (2021) reported medium effect sizes of robot programming on CT and EF. A prior power analysis using G*power (f = 0.25, α = 0.05, power = 0.9, group = 2, measurement = 3, correlation among repeated measures = 0.5) suggested 36 samples (Faul et al., 2007). Through convenience sampling, 95 children aged 5–6 were enrolled from a kindergarten in eastern China. Participants had no prior training experience and no reported cognitive difficulties. Forty-eight children (Meanage = 5.68 years, 24 boys and 24 girls) engaged in the I-PBRP group, while 47 (Meanage = 5.65 years, 24 boys and 23 girls) engaged in the C-PBRP group. The two groups’ age and gender showed no significant difference (p > 0.05). The research protocol was approved by the ethics board (WZUED20250101). Informed consent was obtained from children’s guardians.",
+          "boxes": [
+            [
+              39.0,
+              475.53,
+              507.61,
+              520.4
+            ]
+          ]
+        }
+      ],
+      "companionUnits": [
+        {
+          "id": "paper-01-s-7086d0eca3e4",
+          "label": "C007",
+          "kind": "caption",
+          "section": "4.2. Participants",
+          "assessment": null,
+          "sourceText": "Fig. 7. The teacher introduced new knowledge through different activities.",
+          "boxes": [
+            [
+              151.03,
+              677.97,
+              393.23,
+              689.7
+            ]
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "id": "paper-01-s-aefabf9c9ac4",
+          "label": "X003",
+          "kind": "body",
+          "section": "3.4. The flow of the I-PBRP approach",
+          "assessment": null,
+          "sourceText": "children’s interest. For instance, in the sub-project “Hi, Red Fish,” the teacher introduced guessing games and guided children to find the Red Fish on the map. Then, the teacher introduced the driving problem of today’s task: helping MatataBot get to Red Fish’s home.",
+          "boxes": [
+            [
+              39.0,
+              49.31,
+              507.6,
+              72.83
+            ]
+          ]
+        }
+      ],
+      "exhibits": [
+        {
+          "id": "paper-01-figure-7",
+          "label": "Figure 7",
+          "bbox": [
+            65.02,
+            525.46,
+            479.18,
+            675.97
+          ]
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "image": "page-09.png",
+      "readingUnits": [
+        {
+          "id": "paper-01-s-70f25539ff85",
+          "label": "R034",
+          "kind": "body",
+          "section": "4.2. Participants",
+          "assessment": null,
+          "sourceText": "Wang and Xie (2024) and Zhang et al. (2021) reported medium effect sizes of robot programming on CT and EF. A prior power analysis using G*power (f = 0.25, α = 0.05, power = 0.9, group = 2, measurement = 3, correlation among repeated measures = 0.5) suggested 36 samples (Faul et al., 2007). Through convenience sampling, 95 children aged 5–6 were enrolled from a kindergarten in eastern China. Participants had no prior training experience and no reported cognitive difficulties. Forty-eight children (Meanage = 5.68 years, 24 boys and 24 girls) engaged in the I-PBRP group, while 47 (Meanage = 5.65 years, 24 boys and 23 girls) engaged in the C-PBRP group. The two groups’ age and gender showed no significant difference (p > 0.05). The research protocol was approved by the ethics board (WZUED20250101). Informed consent was obtained from children’s guardians.",
+          "boxes": [
+            [
+              39.0,
+              498.89,
+              507.6,
+              532.84
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-6c126a5b18b3",
+          "label": "R035",
+          "kind": "body",
+          "section": "4.3. Procedure and implementation fidelity",
+          "assessment": null,
+          "sourceText": "As presented in Fig. 10, the children first took 30-min CT and EF pretests. The two groups then engaged in a 12-week (60 min/week) robot programming intervention. The experimental group implemented the I-PBRP approach, whereas the control group employed the C-PBRP approach. After 6 weeks, the two groups took 30-min CT and EF mid-tests. They then continued with the intervention. After interventions, both groups immediately took the CT and EF posttests. During interventions, the two groups’ behaviors were videorecorded.",
+          "boxes": [
+            [
+              39.01,
+              561.65,
+              507.6,
+              616.52
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-1bf2486fad12",
+          "label": "R036",
+          "kind": "body",
+          "section": "4.3. Procedure and implementation fidelity",
+          "assessment": null,
+          "sourceText": "Several efforts were made for implementation fidelity. First, both groups were instructed by the same teacher in identical learning duration (12 weeks), but differed in the knowledge and context arrangement of the teaching approaches. Second, each session was video-recorded and reviewed by the researchers. Third, well-trained research assistants administered the CT and EF tests one-on-one with each child in a quiet room to avoid disruption.",
+          "boxes": [
+            [
+              39.01,
+              613.97,
+              507.6,
+              658.36
+            ]
+          ]
+        }
+      ],
+      "companionUnits": [
+        {
+          "id": "paper-01-s-d579388fffbc",
+          "label": "C008",
+          "kind": "caption",
+          "section": "4.2. Participants",
+          "assessment": null,
+          "sourceText": "Fig. 8. The teacher assigned the task requirement.",
+          "boxes": [
+            [
+              190.54,
+              236.28,
+              353.67,
+              248.01
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-a76638df7f3c",
+          "label": "C009",
+          "kind": "caption",
+          "section": "4.2. Participants",
+          "assessment": null,
+          "sourceText": "Fig. 9. A group participated in the robot programming task inquiry.",
+          "boxes": [
+            [
+              162.03,
+              477.45,
+              382.21,
+              489.18
+            ]
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "id": "paper-01-s-21d579fded22",
+          "label": "X004",
+          "kind": "body",
+          "section": "4.2. Participants",
+          "assessment": null,
+          "sourceText": "5.68 years, 24 boys and 24 girls) engaged in the I-PBRP group, while 47 (Meanage = 5.65 years, 24 boys and 23 girls) engaged in the C-PBRP group. The two groups’ age and gender showed no significant difference (p > 0.05). The research protocol was approved by the ethics board (WZUED20250101). Informed consent was obtained from children’s guardians.",
+          "boxes": [
+            [
+              39.0,
+              498.89,
+              507.6,
+              532.84
+            ]
+          ]
+        }
+      ],
+      "exhibits": [
+        {
+          "id": "paper-01-figure-8",
+          "label": "Figure 8",
+          "bbox": [
+            37.0,
+            45,
+            510.51,
+            234.28
+          ]
+        },
+        {
+          "id": "paper-01-figure-9",
+          "label": "Figure 9",
+          "bbox": [
+            107.6,
+            250.01,
+            436.65,
+            475.45
+          ]
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "image": "page-10.png",
+      "readingUnits": [
+        {
+          "id": "paper-01-s-d32eb93a5c39",
+          "label": "R037",
+          "kind": "body",
+          "section": "4.4.1. The computational thinking (CT) test",
+          "assessment": null,
+          "sourceText": "The TechCheck-K was employed to measure children’s CT (Relkin & Bers, 2021). It is based on CT framework of this study, covering software/hardware, algorithms, representations, modularity, control structures, and debugging (Bers, 2020). This test has 15 items, with a perfect score of 15. It has been validated by Relkin and Bers (2021). The KR-20 value of this test was 0.87 in this study, indicating good reliability (Crocker & Algina, 1986). Appendix I presents sample items.",
+          "boxes": [
+            [
+              39.0,
+              358.86,
+              507.6,
+              403.24
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-e57b858d5ac0",
+          "label": "R038",
+          "kind": "body",
+          "section": "4.4.2. The executive function (EF) test",
+          "assessment": null,
+          "sourceText": "The Early Years Toolbox was used to evaluate children’s EF (Howard & Melhuish, 2017). It was developed for children aged 3–6 and included tasks for three components of EF: the “Go/No-Go” task measured inhibition, the “Mr. Ant” task measured working memory, and the “Card Sorting” task measured cognitive flexibility. Howard and Melhuish (2017) reported good reliability for these measures (Cronbach’s α > 0.80) and convergent validity with existing EF measures. Appendix II provides details of the test.",
+          "boxes": [
+            [
+              39.0,
+              421.62,
+              507.61,
+              466.0
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-c92507a4832b",
+          "label": "R039",
+          "kind": "body",
+          "section": "4.4.3. Coding scheme for learning behaviors",
+          "assessment": null,
+          "sourceText": "Based on representative literature (Di Lieto et al., 2017; Robledo-Castro et al., 2023), an initial coding scheme was formed. It follows the stages of PBL and features of children’s CT and EF in robot programming settings. Video clips were reviewed to check the feasibility and establish code examples. Two experts were invited to determine the final coding scheme (Table 1). Two experienced researchers engaged in the coding session, with discrepancies solved by immediate discussion. The Kappa value was 0.83, indicating good reliability (Campbell et al., 2013).",
+          "boxes": [
+            [
+              39.01,
+              484.38,
+              507.6,
+              528.76
+            ]
+          ]
+        }
+      ],
+      "companionUnits": [
+        {
+          "id": "paper-01-s-d85243e01e6c",
+          "label": "C010",
+          "kind": "caption",
+          "section": "4.3. Procedure and implementation fidelity",
+          "assessment": null,
+          "sourceText": "Fig. 10. Experimental procedure.",
+          "boxes": [
+            [
+              218.1,
+              305.95,
+              326.11,
+              317.68
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-68079e87c86d",
+          "label": "C011",
+          "kind": "caption",
+          "section": "4.4.3. Coding scheme for learning behaviors",
+          "assessment": null,
+          "sourceText": "Table 1 Coding scheme. Code Behavior Description LI Listen to the instructor Children listen to the instructor during the class. II Interact with the instructor Children interact with the instructor, such as answering questions or providing feedback. DP Discuss with partners Children communicate with partners on programming schemes or ideas. CA Create algorithms Children plan routes or step-by-step sequences. PB Place blocks Children place the programming blocks on the control board. EP Execute the program Children press the launch button and execute the program. AH Ask for help Children seek help from the instructor or partners. DA Debug algorithms Children reflect on and adjust their planned sequences or routes. DB Debug blocks Children replace, add, or remove the programming blocks to correct or refine their program. ET Extend the task Children try other solutions or extend tasks after finishing the required tasks. SH Share Children share solutions or products with instructors or partners. IB Irrelevant behaviors Children display off-task behaviors, such as playing or chatting.",
+          "boxes": [
+            [
+              37,
+              541.27,
+              510.51,
+              689
+            ]
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "id": "paper-01-s-da6334e3a079",
+          "label": "X005",
+          "kind": "caption",
+          "section": "4.4.3. Coding scheme for learning behaviors",
+          "assessment": null,
+          "sourceText": "Table 1 Coding scheme.",
+          "boxes": [
+            [
+              39.0,
+              543.27,
+              89.06,
+              564.58
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-cb710b102e05",
+          "label": "X006",
+          "kind": "body",
+          "section": "4.4.3. Coding scheme for learning behaviors",
+          "assessment": null,
+          "sourceText": "Code Behavior Description",
+          "boxes": [
+            [
+              44.96,
+              566.96,
+              268.99,
+              577.38
+            ]
+          ]
+        }
+      ],
+      "exhibits": [
+        {
+          "id": "paper-01-figure-10",
+          "label": "Figure 10",
+          "bbox": [
+            37.0,
+            45,
+            510.51,
+            303.95
+          ]
+        },
+        {
+          "id": "paper-01-table-1",
+          "label": "Table 1",
+          "bbox": [
+            37,
+            541.27,
+            510.51,
+            689
+          ]
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "image": "page-11.png",
+      "readingUnits": [
+        {
+          "id": "paper-01-s-c92507a4832b",
+          "label": "R039",
+          "kind": "body",
+          "section": "4.4.3. Coding scheme for learning behaviors",
+          "assessment": null,
+          "sourceText": "Based on representative literature (Di Lieto et al., 2017; Robledo-Castro et al., 2023), an initial coding scheme was formed. It follows the stages of PBL and features of children’s CT and EF in robot programming settings. Video clips were reviewed to check the feasibility and establish code examples. Two experts were invited to determine the final coding scheme (Table 1). Two experienced researchers engaged in the coding session, with discrepancies solved by immediate discussion. The Kappa value was 0.83, indicating good reliability (Campbell et al., 2013).",
+          "boxes": [
+            [
+              39.0,
+              49.31,
+              179.76,
+              62.35
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-25c25483af8e",
+          "label": "R040",
+          "kind": "body",
+          "section": "4.5. Data analysis",
+          "assessment": null,
+          "sourceText": "For RQ1 & RQ2, the Shapiro-Wilk test showed normal distribution of the data. The independent sample t-test revealed no difference in the two groups’ CT and EF pretests. Then, a simple time effect analysis was adopted to assess within-group changes in CT and EF from pre-to post-intervention for the two groups, as it treats time as a factor to examine changes in the dependent variable across measurement points within the same group. The linear mixed-effects model was employed to probe between-group changes in CT and EF over time, as it considers both fixed and random effects and is suitable for analyzing the effects of categorical and continuous variables as well as their interactions (Meteyard & Davies, 2020). We set participant intercepts (each participant’s pretest score) as a random factor to capture individual differences, with group and time as fixed factors and group-by-time as the interaction effect. R2 Marginal and R2 Conditional denote the variance explained by fixed factors and the entire model, respectively. The Jamovi software was used for data analysis.",
+          "boxes": [
+            [
+              39.0,
+              95.35,
+              507.61,
+              192.06
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-cf031c71b7e5",
+          "label": "R041",
+          "kind": "body",
+          "section": "4.5. Data analysis",
+          "assessment": null,
+          "sourceText": "For RQ3, three sessions—one session each from the earlier (sub-project 2), middle (sub-project 6), and later (sub-project 10) phases of the intervention—were selected: as knowledge and tasks progressively increased in complexity, these sessions involved different content and both simpler and more complex tasks. Two researchers coded the behaviors, recording a specific behavior in chronological order when a child performed it (Bakeman & Gottman, 1997). The GSEQ software was used to analyze the frequency of the behavior and the adjusted residuals of behavioral sequences. The Z score of the adjusted residual larger than 1.96 denotes statistically significant behavioral sequences. The behavioral patterns were drawn to conduct comparisons.",
+          "boxes": [
+            [
+              39.01,
+              189.52,
+              507.62,
+              254.82
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-3b225b28632e",
+          "label": "R042",
+          "kind": "body",
+          "section": "5.1. Analysis of computational thinking (CT)",
+          "assessment": null,
+          "sourceText": "Table 2 shows the descriptive statistics and time effects of the two groups’ CT. The time effect manifested significant improvements in CT for the I-PBRP (F = 38.40, p < 0.001, η2 = 0.35) and C-PBRP (F = 16.04, p < 0.001, η2 = 0.19) groups after the 12-week intervention. Fig. 11 also manifests that the I-PBRP group had a more prominent upward trajectory in CT than the C-PBRP group over time.",
+          "boxes": [
+            [
+              39.01,
+              305.57,
+              507.59,
+              349.95
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-77bbe7d39176",
+          "label": "R043",
+          "kind": "body",
+          "section": "5.1. Analysis of computational thinking (CT)",
+          "assessment": null,
+          "sourceText": "Table 3 displays the linear mixed-effects model results of the two groups’ CT. The entire model explained 47 % (R2 Conditional = 0.47) of the variance, and the fixed factors explained 29 % (R2 Marginal = 0.29). After 6 weeks of intervention (T0→T1), the two groups’ CT did not vary significantly (t = 1.20, p > 0.05), with the I-PBRP group outperforming the C-PBRP group by 0.57 points (β = 0.57). However, after 12 weeks (T0→T2), the two groups’ CT varied significantly (t = 2.68, p < 0.01), with the I-PBRP group outperforming the C-PBRP group by 1.27 points (β = 1.27). This suggests that the I-PBRP group had better performance than the C-PBRP group in CT over time.",
+          "boxes": [
+            [
+              39.01,
+              346.22,
+              507.62,
+              402.28
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-213cd44f0896",
+          "label": "R044",
+          "kind": "body",
+          "section": "5.2.1. Inhibition",
+          "assessment": null,
+          "sourceText": "Table 4 shows the descriptive statistics and time effects of the two groups’ inhibition. The time effect manifested significant improvements in inhibition for the I-PBRP (F = 8.20, p < 0.001, η2 = 0.10) and C-PBRP (F = 3.26, p < 0.05, η2 = 0.05) groups after the 12-week intervention. Fig. 12 also illustrates that the I-PBRP group had a more prominent upward trajectory in inhibition than the C- PBRP group over time.",
+          "boxes": [
+            [
+              39.01,
+              445.71,
+              507.6,
+              490.15
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-f91268590f4f",
+          "label": "R045",
+          "kind": "body",
+          "section": "5.2.1. Inhibition",
+          "assessment": null,
+          "sourceText": "Table 5 presents the linear mixed-effects model results for inhibition. The entire model explained 92 % (R2 Conditional = 0.92) of the variance, and the fixed factors explained 7 % (R2 Marginal = 0.07). After 6 weeks of intervention (T0→T1), the two groups’ inhibition did not vary significantly (t = 1.16, p > 0.05), with the I-PBRP group outperforming the C-PBRP group by 0.01 points (β = 0.01). However, after 12 weeks (T0→T2), the two groups’ inhibition varied significantly (t = 2.81, p < 0.01), with the I-PBRP group outperforming the C-PBRP group by 0.03 points (β = 0.03). This suggests that the I-PBRP group had better performance than the C-PBRP group in inhibition over time.",
+          "boxes": [
+            [
+              39.01,
+              486.42,
+              507.61,
+              552.91
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-2f2cfe8f1c19",
+          "label": "R046",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Table 6 shows the descriptive statistics and time effects of the two groups’ working memory. The time effect manifested significant improvements in working memory for the I-PBRP (F = 10.91, p < 0.001, η2 = 0.13) and C-PBRP (F = 3.11, p < 0.05, η2 = 0.04) groups after 12 weeks. Fig. 13 also manifests that the I-PBRP group had a more prominent upward trajectory in working memory than the C-PBRP group over time.",
+          "boxes": [
+            [
+              39.01,
+              571.23,
+              507.62,
+              605.18
+            ]
+          ]
+        }
+      ],
+      "companionUnits": [
+        {
+          "id": "paper-01-s-e01f1753f441",
+          "label": "C012",
+          "kind": "caption",
+          "section": "5.1. Analysis of computational thinking (CT)",
+          "assessment": null,
+          "sourceText": "Table 2 Descriptive statistics and time effects of the two groups’ CT.\nGroup Mean ± SD F p η2\nT0 T1 T2\nI-PBRP 8.77 ± 1.75 10.08 ± 2.38 12.17 ± 1.51 38.40 <0.001 0.35 C-PBRP 8.79 ± 1.99 9.53 ± 1.85 10.91 ± 1.69 16.04 <0.001 0.19",
+          "boxes": [
+            [
+              37,
+              613.84,
+              510.51,
+              689
+            ]
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "id": "paper-01-s-11c642e44a44",
+          "label": "X007",
+          "kind": "body",
+          "section": "4.4.3. Coding scheme for learning behaviors",
+          "assessment": {
+            "status": "needs-review",
+            "reasons": [
+              "短文字以小寫起始，可能是前句延續；需核對原 PDF，不因字數或語感直接刪除。"
+            ],
+            "relatedSegmentIds": [],
+            "sourceTextSha256": "4fc67862b2fda337eef3df607efa90024b0dbaa443b0f449b58a1070976fd3c2"
+          },
+          "sourceText": "good reliability (Campbell et al., 2013).",
+          "boxes": [
+            [
+              39.0,
+              49.31,
+              179.76,
+              62.35
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-a02a0e24efcd",
+          "label": "X008",
+          "kind": "caption",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Table 2 Descriptive statistics and time effects of the two groups’ CT.",
+          "boxes": [
+            [
+              39.0,
+              615.84,
+              230.43,
+              637.09
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-63440d720682",
+          "label": "X009",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Group Mean ± SD F p η2",
+          "boxes": [
+            [
+              44.96,
+              638.92,
+              492.43,
+              649.89
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-40ee22e6e0e1",
+          "label": "X010",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "T0 T1 T2",
+          "boxes": [
+            [
+              112.14,
+              652.62,
+              282.31,
+              663.04
+            ]
+          ]
+        }
+      ],
+      "exhibits": [
+        {
+          "id": "paper-01-table-2",
+          "label": "Table 2",
+          "bbox": [
+            37,
+            613.84,
+            510.51,
+            689
+          ]
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "image": "page-12.png",
+      "readingUnits": [
+        {
+          "id": "paper-01-s-2f2cfe8f1c19",
+          "label": "R046",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Table 6 shows the descriptive statistics and time effects of the two groups’ working memory. The time effect manifested significant improvements in working memory for the I-PBRP (F = 10.91, p < 0.001, η2 = 0.13) and C-PBRP (F = 3.11, p < 0.05, η2 = 0.04) groups after 12 weeks. Fig. 13 also manifests that the I-PBRP group had a more prominent upward trajectory in working memory than the C-PBRP group over time.",
+          "boxes": [
+            [
+              39.0,
+              589.2,
+              119.63,
+              602.23
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-7252561fab80",
+          "label": "R047",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Table 7 presents the linear mixed-effects model results for working memory. The entire model explained 76 % (R2 Conditional = 0.76) of the variance, and the fixed factors explained 10 % (R2 Marginal = 0.10). After 6 weeks of intervention (T0→T1), the two groups’ working memory did not vary significantly (t = 0.65, p < 0.05), with the I-PBRP group outperforming the C-PBRP group by 0.07 points (β = 0.07). However, after 12 weeks (T0→T2), the two groups’ working memory varied significantly (t = 3.00, p < 0.01), with the I- PBRP group outperforming the C-PBRP group by 0.31 points (β = 0.31). This suggests that the I-PBRP group had better performance than the C-PBRP group in working memory over time.",
+          "boxes": [
+            [
+              39.01,
+              598.5,
+              507.62,
+              664.99
+            ]
+          ]
+        }
+      ],
+      "companionUnits": [
+        {
+          "id": "paper-01-s-585086a281fb",
+          "label": "C013",
+          "kind": "caption",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Fig. 11. The two groups’ CT scores by time.",
+          "boxes": [
+            [
+              200.41,
+              179.53,
+              343.86,
+              191.26
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-42e110a0ef05",
+          "label": "C014",
+          "kind": "caption",
+          "section": "5.1. Analysis of computational thinking (CT)",
+          "assessment": null,
+          "sourceText": "Table 3 The linear mixed-effects model results for CT.\nFixed effect β SE 95% CI t p\n(Intercept) 10.04 0.14 (9.77, 10.31) 73.47 <0.001 Group 0.60 0.27 (0.06, 1.13) 2.18 0.032 Group × Time (T0→T1) 0.57 0.47 (-0.36, 1.49) 1.20 0.231 Group × Time (T0→T2) 1.27 0.47 (0.34, 2.19) 2.68 0.008\nRandom effect Variance SD ICC Participant (Intercept) 0.89 0.94 0.25 Residual 2.65 1.63 ​\nModel fit Marginal Conditional ​R2 0.29 0.47 ​\nModel equation:CT~1+time + group + group:time+(1|participant).",
+          "boxes": [
+            [
+              37,
+              200.55,
+              510.51,
+              344
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-e30e9b5f5b12",
+          "label": "C015",
+          "kind": "caption",
+          "section": "5.2.1. Inhibition",
+          "assessment": null,
+          "sourceText": "Table 4 Descriptive statistics and time effects of the two groups’ inhibition.\nGroup Mean ± SD F p η2\nT0 T1 T2\nI-PBRP 0.71 ± 0.13 0.75 ± 0.11 0.81 ± 0.11 8.20 <0.001 0.10 C-PBRP 0.72 ± 0.14 0.74 ± 0.12 0.78 ± 0.12 3.26 0.041 0.05",
+          "boxes": [
+            [
+              37,
+              351.01,
+              510.51,
+              424
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-664fe96445b6",
+          "label": "C016",
+          "kind": "caption",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Fig. 12. The two groups’ inhibition scores by time.",
+          "boxes": [
+            [
+              189.13,
+              567.7,
+              355.08,
+              579.43
+            ]
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "id": "paper-01-s-fd7809f52bb4",
+          "label": "X011",
+          "kind": "caption",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Table 3 The linear mixed-effects model results for CT.",
+          "boxes": [
+            [
+              39.0,
+              202.55,
+              184.51,
+              223.85
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-497550ef7108",
+          "label": "X012",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Fixed effect β SE 95% CI t p",
+          "boxes": [
+            [
+              44.96,
+              226.23,
+              481.35,
+              236.66
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-937fa0a15f54",
+          "label": "X013",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Random effect Variance SD ICC Participant (Intercept) 0.89 0.94 0.25 Residual 2.65 1.63 ​",
+          "boxes": [
+            [
+              44.96,
+              278.22,
+              490.75,
+              305.76
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-506c53ee35ea",
+          "label": "X014",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Model fit Marginal Conditional ​R2 0.29 0.47 ​",
+          "boxes": [
+            [
+              44.96,
+              308.49,
+              478.2,
+              327.48
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-8d2118f0d5a2",
+          "label": "X015",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Model equation:CT~1+time + group + group:time+(1|participant).",
+          "boxes": [
+            [
+              39.0,
+              330.27,
+              256.64,
+              342.0
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-f2f30b71c38f",
+          "label": "X016",
+          "kind": "caption",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Table 4 Descriptive statistics and time effects of the two groups’ inhibition.",
+          "boxes": [
+            [
+              39.0,
+              353.01,
+              252.9,
+              374.26
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-63440d720682-2",
+          "label": "X017",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Group Mean ± SD F p η2",
+          "boxes": [
+            [
+              44.96,
+              376.1,
+              492.43,
+              387.06
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-40ee22e6e0e1-2",
+          "label": "X018",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "T0 T1 T2",
+          "boxes": [
+            [
+              113.9,
+              389.79,
+              284.07,
+              400.22
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-6c5979a9d16b",
+          "label": "X019",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "PBRP group over time.",
+          "boxes": [
+            [
+              39.0,
+              589.2,
+              119.63,
+              602.23
+            ]
+          ]
+        }
+      ],
+      "exhibits": [
+        {
+          "id": "paper-01-figure-11",
+          "label": "Figure 11",
+          "bbox": [
+            37.0,
+            45,
+            510.51,
+            177.53
+          ]
+        },
+        {
+          "id": "paper-01-figure-12",
+          "label": "Figure 12",
+          "bbox": [
+            37,
+            433,
+            510.51,
+            582
+          ]
+        },
+        {
+          "id": "paper-01-table-3",
+          "label": "Table 3",
+          "bbox": [
+            37,
+            200.55,
+            510.51,
+            344
+          ]
+        },
+        {
+          "id": "paper-01-table-4",
+          "label": "Table 4",
+          "bbox": [
+            37,
+            351.01,
+            510.51,
+            424
+          ]
+        }
+      ]
+    },
+    {
+      "page": 13,
+      "image": "page-13.png",
+      "readingUnits": [],
+      "companionUnits": [
+        {
+          "id": "paper-01-s-4929a6263b9b",
+          "label": "C017",
+          "kind": "caption",
+          "section": "5.2.1. Inhibition",
+          "assessment": null,
+          "sourceText": "Table 5 The linear mixed-effects model results for inhibition.\nFixed effect β SE 95% CI t p\n(Intercept) 0.75 0.01 (0.73, 0.78) 61.08 <0.001 Group 0.01 0.02 (-0.04, 0.06) 0.42 0.677 Group × Time (T0→T1) 0.01 0.01 (-0.01, 0.03) 1.16 0.248 Group × Time (T0→T2) 0.03 0.01 (0.01, 0.05) 2.81 0.005\nRandom effect Variance SD ICC Participant (Intercept) 0.01 0.12 0.92 Residual 0.00 0.04 ​\nModel fit Marginal Conditional ​R2 0.07 0.92 ​\nModel equation:Inhibition+time + group + group:time+(1|participant).",
+          "boxes": [
+            [
+              37,
+              48.55,
+              510.51,
+              192.01
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-9505108def93",
+          "label": "C018",
+          "kind": "caption",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Table 6 Descriptive statistics and time effects of the two groups’ working memory.\nGroup Mean ± SD F p η2\nT0 T1 T2\nI-PBRP 2.17 ± 0.69 2.40 ± 0.70 2.83 ± 0.72 10.91 <0.001 0.13 C-PBRP 2.19 ± 0.62 2.35 ± 0.71 2.54 ± 0.70 3.11 0.048 0.04",
+          "boxes": [
+            [
+              37,
+              204.97,
+              510.51,
+              278
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-0a53b0cab5c9",
+          "label": "C019",
+          "kind": "caption",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Fig. 13. The two groups’ working memory scores by time.",
+          "boxes": [
+            [
+              177.39,
+              427.5,
+              366.82,
+              439.23
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-993ba6f8e4a1",
+          "label": "C020",
+          "kind": "caption",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Table 7 The linear mixed-effects model results for working memory.\nFixed effect β SE 95% CI t p\n(Intercept) 2.41 0.06 (2.29, 2.54) 37.59 <0.001 Group 0.11 0.13 (-0.14, 0.36) 0.84 0.403 Group × Time (T0→T1) 0.07 0.10 (-0.14, 0.27) 0.65 0.518 Group × Time (T0→T2) 0.31 0.10 (0.11, 0.52) 3.00 0.003\nRandom effect Variance SD ICC Participant (Intercept) 0.35 0.59 0.73 Residual 0.13 0.36 ​\nModel fit Marginal Conditional ​R2 0.10 0.76 ​\nModel equation:Working memory~1+time + group + group:time+(1|participant).",
+          "boxes": [
+            [
+              37,
+              455.1,
+              510.51,
+              598.55
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-8c7b6ee36d4a",
+          "label": "C021",
+          "kind": "caption",
+          "section": "5.2.3. Cognitive flexibility",
+          "assessment": null,
+          "sourceText": "Table 8 Descriptive statistics and time effects of the two groups’ cognitive flexibility.\nGroup Mean ± SD F p η2\nT0 T1 T2\nI-PBRP 5.58 ± 1.67 6.10 ± 1.56 7.40 ± 1.56 15.05 <0.001 0.18 C-PBRP 5.57 ± 1.65 6.13 ± 1.56 6.74 ± 1.59 6.08 0.003 0.08",
+          "boxes": [
+            [
+              37,
+              613.84,
+              510.51,
+              689
+            ]
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "id": "paper-01-s-cde3ec6a074a",
+          "label": "X020",
+          "kind": "caption",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Table 5 The linear mixed-effects model results for inhibition.",
+          "boxes": [
+            [
+              39.0,
+              50.55,
+              206.98,
+              71.86
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-497550ef7108-2",
+          "label": "X021",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Fixed effect β SE 95% CI t p",
+          "boxes": [
+            [
+              44.96,
+              74.24,
+              481.35,
+              84.66
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-27227d628078",
+          "label": "X022",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Random effect Variance SD ICC Participant (Intercept) 0.01 0.12 0.92 Residual 0.00 0.04 ​",
+          "boxes": [
+            [
+              44.96,
+              126.22,
+              490.75,
+              153.77
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-55e7194803e8",
+          "label": "X023",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Model fit Marginal Conditional ​R2 0.07 0.92 ​",
+          "boxes": [
+            [
+              44.96,
+              156.5,
+              478.2,
+              175.49
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-b630ec7e04d6",
+          "label": "X024",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Model equation:Inhibition+time + group + group:time+(1|participant).",
+          "boxes": [
+            [
+              39.0,
+              178.28,
+              269.34,
+              190.01
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-10089fc4be72",
+          "label": "X025",
+          "kind": "caption",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Table 6 Descriptive statistics and time effects of the two groups’ working memory.",
+          "boxes": [
+            [
+              39.0,
+              206.97,
+              276.14,
+              228.28
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-63440d720682-3",
+          "label": "X026",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Group Mean ± SD F p η2",
+          "boxes": [
+            [
+              44.96,
+              230.11,
+              492.43,
+              241.08
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-40ee22e6e0e1-3",
+          "label": "X027",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "T0 T1 T2",
+          "boxes": [
+            [
+              113.33,
+              243.81,
+              282.31,
+              254.23
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-812914c9d431",
+          "label": "X028",
+          "kind": "caption",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Table 7 The linear mixed-effects model results for working memory.",
+          "boxes": [
+            [
+              39.0,
+              457.1,
+              230.28,
+              478.35
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-497550ef7108-3",
+          "label": "X029",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Fixed effect β SE 95% CI t p",
+          "boxes": [
+            [
+              44.96,
+              480.73,
+              481.35,
+              491.15
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-a6449f129fd7",
+          "label": "X030",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Random effect Variance SD ICC Participant (Intercept) 0.35 0.59 0.73 Residual 0.13 0.36 ​",
+          "boxes": [
+            [
+              44.96,
+              532.77,
+              490.75,
+              560.32
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-2bd25ad83310",
+          "label": "X031",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Model fit Marginal Conditional ​R2 0.10 0.76 ​",
+          "boxes": [
+            [
+              44.96,
+              563.04,
+              478.2,
+              582.03
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-941196685b2e",
+          "label": "X032",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Model equation:Working memory~1+time + group + group:time+(1|participant).",
+          "boxes": [
+            [
+              39.0,
+              584.83,
+              303.47,
+              596.55
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-191ae2688d43",
+          "label": "X033",
+          "kind": "caption",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Table 8 Descriptive statistics and time effects of the two groups’ cognitive flexibility.",
+          "boxes": [
+            [
+              39.0,
+              615.84,
+              283.44,
+              637.09
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-63440d720682-4",
+          "label": "X034",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "Group Mean ± SD F p η2",
+          "boxes": [
+            [
+              44.96,
+              638.92,
+              492.43,
+              649.89
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-40ee22e6e0e1-4",
+          "label": "X035",
+          "kind": "body",
+          "section": "5.2.2. Working memory",
+          "assessment": null,
+          "sourceText": "T0 T1 T2",
+          "boxes": [
+            [
+              113.33,
+              652.62,
+              282.31,
+              663.04
+            ]
+          ]
+        }
+      ],
+      "exhibits": [
+        {
+          "id": "paper-01-figure-13",
+          "label": "Figure 13",
+          "bbox": [
+            37,
+            286,
+            510.51,
+            442
+          ]
+        },
+        {
+          "id": "paper-01-table-5",
+          "label": "Table 5",
+          "bbox": [
+            37,
+            48.55,
+            510.51,
+            192.01
+          ]
+        },
+        {
+          "id": "paper-01-table-6",
+          "label": "Table 6",
+          "bbox": [
+            37,
+            204.97,
+            510.51,
+            278
+          ]
+        },
+        {
+          "id": "paper-01-table-7",
+          "label": "Table 7",
+          "bbox": [
+            37,
+            455.1,
+            510.51,
+            598.55
+          ]
+        },
+        {
+          "id": "paper-01-table-8",
+          "label": "Table 8",
+          "bbox": [
+            37,
+            613.84,
+            510.51,
+            689
+          ]
+        }
+      ]
+    },
+    {
+      "page": 14,
+      "image": "page-14.png",
+      "readingUnits": [
+        {
+          "id": "paper-01-s-c2006a2d6863",
+          "label": "R048",
+          "kind": "body",
+          "section": "5.2.3. Cognitive flexibility",
+          "assessment": null,
+          "sourceText": "Table 8 shows the descriptive statistics and time effects of the two groups’ cognitive flexibility. The time effect manifested significant improvements in cognitive flexibility for the I-PBRP (F = 15.05, p < 0.001, η2 = 0.18) and C-PBRP (F = 6.08, p < 0.01, η2 = 0.08) groups after the 12-week intervention. Fig. 14 also manifests that the I-PBRP group had a more prominent upward trajectory in cognitive flexibility than the C-PBRP group over time.",
+          "boxes": [
+            [
+              39.0,
+              59.8,
+              507.6,
+              104.19
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-e09bcaa80a95",
+          "label": "R049",
+          "kind": "body",
+          "section": "5.2.3. Cognitive flexibility",
+          "assessment": null,
+          "sourceText": "Table 9 presents the linear mixed-effects model results for cognitive flexibility. The entire model explained 67 % (R2 Conditional = 0.67) of the variance, and the fixed factors explained 13 % (R2 Marginal = 0.13). After 6 weeks of intervention (T0→T1), the two groups’ cognitive flexibility did not vary significantly (t = 0.11, p > 0.05), with the C-PBRP group outperforming the I-PBRP group by 0.03 points (β = −0.03). However, after 12 weeks (T0→T2), the two groups’ cognitive flexibility varied significantly (t = 2.16, p < 0.05), with the I-PBRP group outperforming the C-PBRP group by 0.64 points (β = 0.64). This suggests that the I-PBRP group had better performance than the C-PBRP group in cognitive flexibility over time.",
+          "boxes": [
+            [
+              39.01,
+              100.45,
+              507.6,
+              166.94
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-49b23b77f629",
+          "label": "R050",
+          "kind": "body",
+          "section": "5.3. Analysis of children’s learning behaviors",
+          "assessment": null,
+          "sourceText": "Totally, 2872 behavioral codes were recorded: 894 from the earlier phase, 972 from the middle phase, and 1006 from the later phase. Table 10 shows the distribution and proportion of the two groups’ behaviors in the three phases. The bold and superscripts denote the top three behaviors in each phase.",
+          "boxes": [
+            [
+              39.01,
+              195.81,
+              507.58,
+              229.76
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-9cde81a4e29e",
+          "label": "R051",
+          "kind": "body",
+          "section": "5.3. Analysis of children’s learning behaviors",
+          "assessment": null,
+          "sourceText": "Progressive sequential analysis was adopted to explore the two groups’ behavioral patterns in the different phases. Statistically significant behavioral sequences based on adjusted residuals (Z > 1.96) are presented in Fig. 15.",
+          "boxes": [
+            [
+              39.01,
+              227.22,
+              507.6,
+              250.68
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-4bf7a5b21ad1",
+          "label": "R052",
+          "kind": "body",
+          "section": "5.3. Analysis of children’s learning behaviors",
+          "assessment": null,
+          "sourceText": "In the earlier phase, both groups exhibited 23 statistically significant behavioral sequences respectively, and shared many similar patterns. The two groups frequently alternated between listening to and interacting with the instructor (LI→II→LI), with some displaying irrelevant behaviors during this process (LI→II→IB→LI). Most children discussed with peers, created and executed programs, debugged, and shared works (DP→CA→PB→EP→DA/DB→SH), implying smooth task completion. However, some children encountered difficulties, as shown by sequences such as seeking help after placing blocks (PB→AH), during repeated program execution (EP→AH→EP), or before debugging blocks (AH→DB). Moreover, distinctive sequences between groups included the I-PBRP group sharing tasks after executing programs (EP→SH), whereas a unique sequence in the C-PBRP group involved debugging algorithms following peer discussions (DP→DA).",
+          "boxes": [
+            [
+              39.01,
+              248.14,
+              507.59,
+              334.36
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-2b0657e18a04",
+          "label": "R053",
+          "kind": "body",
+          "section": "5.3. Analysis of children’s learning behaviors",
+          "assessment": null,
+          "sourceText": "In the middle phase, the I-PBRP group exhibited 23 statistically significant behavioral sequences, while the C-PBRP group had 25. The two groups exhibited differences in their behavioral patterns. Both groups alternated between listening to and interacting with the instructor (LI→II→LI) and occasionally transitioned from irrelevant behaviors to listening (IB→LI). However, only the C-PBRP group showed irrelevant behaviors after class interactions (II→IB), and only the I-PBRP group engaged in peer discussions after listening (LT→DP). A prominent difference was the I-PBRP group’s smoother programming trajectory from peer discussions to creating algorithms, placing blocks, and executing programs (DP→CA→PB→EP). Conversely, the C-PBRP group exhibited a less streamlined behavioral sequence during this process. They tended to discuss with peers after creating programs (CA→PB→DP) and to seek help and execute programs (EP→AH→EP), as well as debugging after program execution (EP→DA/DB). Moreover, the I-PBRP group more commonly shared after completing programs (EP→SH) and repeatedly shared and extended tasks (SH→ET→SH), whereas the C-PBRP group more frequently shared and extended tasks after debugging blocks (DB→SH/ET). During this period, the I-PBRP group extended tasks after irrelevant behaviors (IB→ET), whereas the C-PBRP group performed irrelevant behaviors after sharing (SH→IB).",
+          "boxes": [
+            [
+              39.01,
+              331.81,
+              507.61,
+              449.44
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-89aaea93bb6b",
+          "label": "R054",
+          "kind": "body",
+          "section": "5.3. Analysis of children’s learning behaviors",
+          "assessment": null,
+          "sourceText": "In the later phase, the I-PBRP group had 17 statistically significant behavioral sequences, while the C-PBRP group had 24. Conspicuously different patterns emerged between the two groups. Both continued to show similar patterns between listening to and interacting with the instructor (LI→II→LI). However, the C-PBRP group more frequently displayed irrelevant behaviors (IB→LI; II→IB), whereas the I-PBRP group appeared more engaged during this process, and then turned to peer discussions (LI→DP). Notably, the I-PBRP group had a clear trajectory, from discussing with partners to programming, to executing the program (DP→CA→PB→EP). Likewise, they were more likely to share and extend tasks (SH→ET→SH). Conversely, the C-PBRP group tended to repeatedly program execution and help-seeking (EP→AH→EP) or debugging and help-seeking (DB→AH→DB). Moreover, the C-PBRP group showed unique sequences, including extending tasks after debugging blocks (DB→ET) and irrelevant behaviors after sharing or extending tasks (SH→IB; ET→IB).",
+          "boxes": [
+            [
+              39.01,
+              446.84,
+              507.61,
+              543.55
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-085c9180534d",
+          "label": "R055",
+          "kind": "body",
+          "section": "6. Discussion and conclusions",
+          "assessment": null,
+          "sourceText": "This research proposed an I-PBRP approach and evaluated its impact on 5-6-year-old children’s CT, EF, and learning behavioral patterns. Following 12-week interventions, the I-PBRP group performed better in CT and EF than the C-PBRP group over time. Additionally, progressive behavioral analysis disclosed that the I-PBRP approach facilitated superior performance in robot programming and more positive behaviors for children as time progressed. The following sections discuss the main findings of the three research questions.",
+          "boxes": [
+            [
+              39.01,
+              572.42,
+              507.59,
+              627.29
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-f2f3f7d0c580",
+          "label": "R056",
+          "kind": "body",
+          "section": "6.1. Differences in children’s computational thinking under the I-PBRP and C-PBRP approaches (RQ1)",
+          "assessment": null,
+          "sourceText": "The time effect results showed that both the I-PBRP and C-PBRP approaches significantly facilitated children’s CT after 12 weeks. The linear mixed-effects model revealed that the I-PBRP group did not significantly outperform the C-PBRP group in CT after 6 weeks, but did so after 12 weeks. This finding suggests that the I-PBRP approach better stimulated young children’s CT than the C-PBRP approach over time, echoing Huang’s (2016) and Vega et al.’s (2012) findings on the effectiveness of IPBL in computer programming. A possible reason is that in the initial phase, both groups engaged in basic knowledge learning and relatively simple tasks, leading to no statistically significant differences between the two groups in CT after 6 weeks. Based on prior studies (Saad & Zainudin, 2024; S´aez-L´opez et al., 2019), the C-PBRP approach that integrated PBL into robot programming emphasized introducing different new knowledge across sub-projects, which could enhance children’s CT. As time progressed, the programming knowledge gradually increased in complexity, requiring children to connect previously acquired knowledge and apply CT to solve problems. The cumulative benefits of the I-PBRP approach for young children’s CT began to amplify, resulting in statistically significant differences in CT between the two groups after 12 weeks. Differing from the C-PBRP approach, the I-PBRP approach began with basic knowledge and progressively incorporated prior and new programming knowledge across sub-projects. This approach matches the staged features of children’s cognitive development (Piaget, 1971) and bridges children’s current abilities with potential development, ensuring that each task remains within the ZPD (Vygotsky, 1987). It also stimulates effective information storage by repetition and connecting new information to existing knowledge. Such dynamic progression supports sustained CT growth. Accordingly, these findings suggest that the I-PBRP approach has a superior impact on facilitating young children’s CT.",
+          "boxes": [
+            [
+              39.01,
+              656.09,
+              507.59,
+              690.04
+            ]
+          ]
+        }
+      ],
+      "companionUnits": [],
+      "excluded": [],
+      "exhibits": []
+    },
+    {
+      "page": 15,
+      "image": "page-15.png",
+      "readingUnits": [
+        {
+          "id": "paper-01-s-f2f3f7d0c580",
+          "label": "R056",
+          "kind": "body",
+          "section": "6.1. Differences in children’s computational thinking under the I-PBRP and C-PBRP approaches (RQ1)",
+          "assessment": null,
+          "sourceText": "The time effect results showed that both the I-PBRP and C-PBRP approaches significantly facilitated children’s CT after 12 weeks. The linear mixed-effects model revealed that the I-PBRP group did not significantly outperform the C-PBRP group in CT after 6 weeks, but did so after 12 weeks. This finding suggests that the I-PBRP approach better stimulated young children’s CT than the C-PBRP approach over time, echoing Huang’s (2016) and Vega et al.’s (2012) findings on the effectiveness of IPBL in computer programming. A possible reason is that in the initial phase, both groups engaged in basic knowledge learning and relatively simple tasks, leading to no statistically significant differences between the two groups in CT after 6 weeks. Based on prior studies (Saad & Zainudin, 2024; S´aez-L´opez et al., 2019), the C-PBRP approach that integrated PBL into robot programming emphasized introducing different new knowledge across sub-projects, which could enhance children’s CT. As time progressed, the programming knowledge gradually increased in complexity, requiring children to connect previously acquired knowledge and apply CT to solve problems. The cumulative benefits of the I-PBRP approach for young children’s CT began to amplify, resulting in statistically significant differences in CT between the two groups after 12 weeks. Differing from the C-PBRP approach, the I-PBRP approach began with basic knowledge and progressively incorporated prior and new programming knowledge across sub-projects. This approach matches the staged features of children’s cognitive development (Piaget, 1971) and bridges children’s current abilities with potential development, ensuring that each task remains within the ZPD (Vygotsky, 1987). It also stimulates effective information storage by repetition and connecting new information to existing knowledge. Such dynamic progression supports sustained CT growth. Accordingly, these findings suggest that the I-PBRP approach has a superior impact on facilitating young children’s CT.",
+          "boxes": [
+            [
+              39.0,
+              524.85,
+              507.61,
+              663.46
+            ]
+          ]
+        }
+      ],
+      "companionUnits": [
+        {
+          "id": "paper-01-s-e3ac7c51c366",
+          "label": "C022",
+          "kind": "caption",
+          "section": "6.1. Differences in children’s computational thinking under the I-PBRP and C-PBRP approaches (RQ1)",
+          "assessment": null,
+          "sourceText": "Fig. 14. The two groups’ cognitive flexibility scores by time.",
+          "boxes": [
+            [
+              173.76,
+              182.42,
+              370.5,
+              194.15
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-7dacb7deddd0",
+          "label": "C023",
+          "kind": "caption",
+          "section": "5.2.3. Cognitive flexibility",
+          "assessment": null,
+          "sourceText": "Table 9 The linear mixed-effects model results for cognitive flexibility.\nFixed effect β SE 95% CI t p\n(Intercept) 6.26 0.15 (5.97, 6.54) 42.94 <0.001 Group 0.21 0.29 (-0.36, 0.78) 0.73 0.468 Group × Time (T0→T1) −0.03 0.30 (-0.61, 0.55) −0.11 0.913 Group × Time (T0→T2) 0.64 0.30 (0.06, 1.22) 2.16 0.032\nRandom effect Variance SD ICC Participant (Intercept) 1.67 1.29 0.61 Residual 1.05 1.02 ​\nModel fit Marginal Conditional ​R2 0.13 0.67 ​\nModel equation:Cognitive flexibility~1+time + group + group:time+(1|participant).",
+          "boxes": [
+            [
+              37,
+              203.15,
+              510.51,
+              346.61
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-a08ebd32f061",
+          "label": "C024",
+          "kind": "caption",
+          "section": "5.3. Analysis of children’s learning behaviors",
+          "assessment": null,
+          "sourceText": "Table 10 Distribution and proportion of the two groups’ behaviors.\nEarlier phase Middle phase Later phase\nI-PBRP C-PBRP I-PBRP C-PBRP I-PBRP C-PBRP\nLI 111 (24 %)1 105 (24 %)1 115 (23 %)1 105 (22 %)1 116 (23 %)1 104 (20 %)1\nII 76 (17 %)2 69 (16 %)2 65 (13 %)3 71 (15 %)2 61 (12 %)3 61 (12 %)3\nDP 53 (12 %) 51 (12 %) 69 (14 %)2 61 (13 %)3 60 (12 %)3 58 (11 %) CA 21 (5 %) 21 (5 %) 40 (8 %) 29 (6 %) 43 (9 %) 21 (4 %) PB 57 (12 %)3 56 (13 %)3 69 (14 %)2 57 (12 %) 63 (13 %)2 58 (11 %) EP 48 (10 %) 44 (10 %) 48 (10 %) 46 (10 %) 49 (10 %) 46 (9 %) AH 18 (4 %) 16 (4 %) 11 (2 %) 25 (5 %) 7 (1 %) 36 (7 %) DA 6 (1 %) 6 (1 %) 4 (1 %) 8 (2 %) 9 (2 %) 7 (1 %) DB 15 (3 %) 13 (3 %) 12 (2 %) 19 (4 %) 17 (3 %) 32 (6 %) ET 6 (1 %) 6 (1 %) 12 (2 %) 5 (1 %) 18 (4 %) 14 (3 %) SH 7 (2 %) 6 (1 %) 27 (5 %) 7 (1 %) 26 (5 %) 10 (2 %) IB 41 (9 %) 42 (10 %) 27 (5 %) 40 (8 %) 25 (5 %) 65 (13 %)2",
+          "boxes": [
+            [
+              37,
+              353.56,
+              510.51,
+              512.2
+            ]
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "id": "paper-01-s-fe6e77ace6eb",
+          "label": "X036",
+          "kind": "caption",
+          "section": "6.1. Differences in children’s computational thinking under the I-PBRP and C-PBRP approaches (RQ1)",
+          "assessment": null,
+          "sourceText": "Table 9 The linear mixed-effects model results for cognitive flexibility.",
+          "boxes": [
+            [
+              39.0,
+              205.15,
+              237.58,
+              226.41
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-497550ef7108-4",
+          "label": "X037",
+          "kind": "body",
+          "section": "6.1. Differences in children’s computational thinking under the I-PBRP and C-PBRP approaches (RQ1)",
+          "assessment": null,
+          "sourceText": "Fixed effect β SE 95% CI t p",
+          "boxes": [
+            [
+              44.96,
+              228.78,
+              481.35,
+              239.21
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-59f90a7cb4ac",
+          "label": "X038",
+          "kind": "body",
+          "section": "6.1. Differences in children’s computational thinking under the I-PBRP and C-PBRP approaches (RQ1)",
+          "assessment": null,
+          "sourceText": "Random effect Variance SD ICC Participant (Intercept) 1.67 1.29 0.61 Residual 1.05 1.02 ​",
+          "boxes": [
+            [
+              44.96,
+              280.83,
+              490.75,
+              308.37
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-a63fbdbe4111",
+          "label": "X039",
+          "kind": "body",
+          "section": "6.1. Differences in children’s computational thinking under the I-PBRP and C-PBRP approaches (RQ1)",
+          "assessment": null,
+          "sourceText": "Model fit Marginal Conditional ​R2 0.13 0.67 ​",
+          "boxes": [
+            [
+              44.96,
+              311.1,
+              478.2,
+              330.09
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-6d308c21b460",
+          "label": "X040",
+          "kind": "body",
+          "section": "6.1. Differences in children’s computational thinking under the I-PBRP and C-PBRP approaches (RQ1)",
+          "assessment": null,
+          "sourceText": "Model equation:Cognitive flexibility~1+time + group + group:time+(1|participant).",
+          "boxes": [
+            [
+              39.0,
+              332.88,
+              310.84,
+              344.61
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-ab6298ca6acb",
+          "label": "X041",
+          "kind": "caption",
+          "section": "6.1. Differences in children’s computational thinking under the I-PBRP and C-PBRP approaches (RQ1)",
+          "assessment": null,
+          "sourceText": "Table 10 Distribution and proportion of the two groups’ behaviors.",
+          "boxes": [
+            [
+              39.0,
+              355.56,
+              222.78,
+              376.87
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-c4e2874d3c67",
+          "label": "X042",
+          "kind": "body",
+          "section": "6.1. Differences in children’s computational thinking under the I-PBRP and C-PBRP approaches (RQ1)",
+          "assessment": null,
+          "sourceText": "I-PBRP C-PBRP I-PBRP C-PBRP I-PBRP C-PBRP",
+          "boxes": [
+            [
+              92.18,
+              392.4,
+              484.65,
+              402.82
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-6c570852fe11",
+          "label": "X043",
+          "kind": "body",
+          "section": "6.1. Differences in children’s computational thinking under the I-PBRP and C-PBRP approaches (RQ1)",
+          "assessment": null,
+          "sourceText": "LI 111 (24 %)1 105 (24 %)1 115 (23 %)1 105 (22 %)1 116 (23 %)1 104 (20 %)1",
+          "boxes": [
+            [
+              44.96,
+              405.01,
+              499.27,
+              415.98
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-4c5cf68a2bdd",
+          "label": "X044",
+          "kind": "body",
+          "section": "6.1. Differences in children’s computational thinking under the I-PBRP and C-PBRP approaches (RQ1)",
+          "assessment": null,
+          "sourceText": "II 76 (17 %)2 69 (16 %)2 65 (13 %)3 71 (15 %)2 61 (12 %)3 61 (12 %)3",
+          "boxes": [
+            [
+              44.96,
+              413.57,
+              495.52,
+              424.54
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-5b9b21cff2ed",
+          "label": "X045",
+          "kind": "body",
+          "section": "6.1. Differences in children’s computational thinking under the I-PBRP and C-PBRP approaches (RQ1)",
+          "assessment": null,
+          "sourceText": "DP 53 (12 %) 51 (12 %) 69 (14 %)2 61 (13 %)3 60 (12 %)3 58 (11 %) CA 21 (5 %) 21 (5 %) 40 (8 %) 29 (6 %) 43 (9 %) 21 (4 %) PB 57 (12 %)3 56 (13 %)3 69 (14 %)2 57 (12 %) 63 (13 %)2 58 (11 %) EP 48 (10 %) 44 (10 %) 48 (10 %) 46 (10 %) 49 (10 %) 46 (9 %) AH 18 (4 %) 16 (4 %) 11 (2 %) 25 (5 %) 7 (1 %) 36 (7 %) DA 6 (1 %) 6 (1 %) 4 (1 %) 8 (2 %) 9 (2 %) 7 (1 %) DB 15 (3 %) 13 (3 %) 12 (2 %) 19 (4 %) 17 (3 %) 32 (6 %) ET 6 (1 %) 6 (1 %) 12 (2 %) 5 (1 %) 18 (4 %) 14 (3 %) SH 7 (2 %) 6 (1 %) 27 (5 %) 7 (1 %) 26 (5 %) 10 (2 %) IB 41 (9 %) 42 (10 %) 27 (5 %) 40 (8 %) 25 (5 %) 65 (13 %)2",
+          "boxes": [
+            [
+              44.96,
+              422.13,
+              495.52,
+              510.2
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-911670e9a711",
+          "label": "X046",
+          "kind": "body",
+          "section": "6.1. Differences in children’s computational thinking under the I-PBRP and C-PBRP approaches (RQ1)",
+          "assessment": null,
+          "sourceText": "approach over time, echoing Huang’s (2016) and Vega et al.’s (2012) findings on the effectiveness of IPBL in computer programming. A possible reason is that in the initial phase, both groups engaged in basic knowledge learning and relatively simple tasks, leading to no statistically significant differences between the two groups in CT after 6 weeks. Based on prior studies (Saad & Zainudin, 2024; S´aez-L´opez et al., 2019), the C-PBRP approach that integrated PBL into robot programming emphasized introducing different new knowledge across sub-projects, which could enhance children’s CT. As time progressed, the programming knowledge gradually increased in complexity, requiring children to connect previously acquired knowledge and apply CT to solve problems. The cumulative benefits of the I-PBRP approach for young children’s CT began to amplify, resulting in statistically significant differences in CT between the two groups after 12 weeks. Differing from the C-PBRP approach, the I-PBRP approach began with basic knowledge and progressively incorporated prior and new programming knowledge across sub-projects. This approach matches the staged features of children’s cognitive development (Piaget, 1971) and bridges children’s current abilities with potential development, ensuring that each task remains within the ZPD (Vygotsky, 1987). It also stimulates effective information storage by repetition and connecting new information to existing knowledge. Such dynamic progression supports sustained CT growth. Accordingly, these findings suggest that the I-PBRP approach has a superior impact on facilitating young children’s CT.",
+          "boxes": [
+            [
+              39.0,
+              524.85,
+              507.61,
+              663.46
+            ]
+          ]
+        }
+      ],
+      "exhibits": [
+        {
+          "id": "paper-01-figure-14",
+          "label": "Figure 14",
+          "bbox": [
+            37.0,
+            45,
+            510.51,
+            180.42
+          ]
+        },
+        {
+          "id": "paper-01-table-9",
+          "label": "Table 9",
+          "bbox": [
+            37,
+            203.15,
+            510.51,
+            346.61
+          ]
+        },
+        {
+          "id": "paper-01-table-10",
+          "label": "Table 10",
+          "bbox": [
+            37,
+            353.56,
+            510.51,
+            512.2
+          ]
+        }
+      ]
+    },
+    {
+      "page": 16,
+      "image": "page-16.png",
+      "readingUnits": [
+        {
+          "id": "paper-01-s-3d681aa6e863",
+          "label": "R057",
+          "kind": "body",
+          "section": "6.2. Differences in children’s executive function under the I-PBRP and C-PBRP approaches (RQ2)",
+          "assessment": null,
+          "sourceText": "The time effect results indicated that both the I-PBRP and C-PBRP approaches could significantly facilitate children’s inhibition, working memory, and cognitive flexibility after 12 weeks. This finding partly aligns with previous findings on the benefits of robot programming and PBL for EF (Di Lieto et al., 2017; Zhang et al., 2025). Further, the linear mixed-effects model disclosed no significant differences between the two groups in these three aspects after 6 weeks. However, the I-PBRP group outperformed the C-PBRP group after 12 weeks, suggesting that the I-PBRP approach better supported inhibition, working memory, and cognitive flexibility over time.",
+          "boxes": [
+            [
+              39.0,
+              418.5,
+              507.62,
+              473.37
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-4fe4eaa10af4",
+          "label": "R058",
+          "kind": "body",
+          "section": "6.2. Differences in children’s executive function under the I-PBRP and C-PBRP approaches (RQ2)",
+          "assessment": null,
+          "sourceText": "In terms of inhibition, in robot programming activities, children should follow specific rules and plan carefully when creating programs to maintain focus and avoid disrupting goals (Zhang et al., 2025). In the initial phase, both groups engaged in relatively simple tasks. The two approaches might not exert conspicuously different demands on children’s inhibition, leading to no statistically significant differences after 6 weeks. However, as tasks grew more complex, the I-PBRP approach, by progressively introducing new rules based on prior ones, stimulated children’s inhibition capacity. Conversely, the C-PBRP approach introduced new rules in each sub-project with fewer links to prior content, limiting opportunities for children to exercise inhibition cumulatively. This may explain why the I-PBRP group showed greater gains in inhibition after 12 weeks.",
+          "boxes": [
+            [
+              39.0,
+              470.83,
+              507.59,
+              546.62
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-1993a4d8d46e",
+          "label": "R059",
+          "kind": "body",
+          "section": "6.2. Differences in children’s executive function under the I-PBRP and C-PBRP approaches (RQ2)",
+          "assessment": null,
+          "sourceText": "In robot programming activities, working memory requires children to remember and update symbolic representations of programming instructions to select the required ones to complete tasks (Di Lieto et al., 2017). At the early stage, both groups engaged in memorizing basic blocks/instructions. Consequently, no statistically significant differences in working memory were observed between the two groups after 6 weeks. As the intervention advanced, the C-PBRP approach, which introduces new knowledge across sub-projects, encouraged children to update information. However, it offered fewer links to previously learned knowledge, potentially hindering their ability to retain and manipulate information. In contrast, integrating IPBL into robot programming emphasizes systematically connected prior knowledge while introducing new knowledge in each sub-project. This provided more sustained practice in working memory. This might explain why the I-PBRP group outperformed the C-PBRP group in working memory over time.",
+          "boxes": [
+            [
+              39.0,
+              544.02,
+              507.6,
+              630.29
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-e4aa3b962c51",
+          "label": "R060",
+          "kind": "body",
+          "section": "6.2. Differences in children’s executive function under the I-PBRP and C-PBRP approaches (RQ2)",
+          "assessment": null,
+          "sourceText": "In robot programming activities, cognitive flexibility requires children to leverage different learned knowledge and transform rules to complete tasks (Ahmed et al., 2018). In the earlier phase, both groups primarily solved simple tasks through basic blocks, which placed modest demands on cognitive flexibility. Consequently, there were no statistically significant differences in cognitive flexibility between the two groups after 6 weeks. However, as the intervention progressed, the I-PBRP approach emphasized building on previously learned knowledge while introducing new content in each sub-project. This approach helped the children to progressively shift from rules to adapting strategies in new problem-solving contexts. Conversely, the C-PBRP approach introduced new knowledge in each sub-project, which encouraged idea transformation to some extent. However, its reduced emphasis on revisiting earlier strategies offered fewer opportunities for flexible knowledge transformation. This may illustrate why the I-PBRP group had better performance in cognitive flexibility over time.",
+          "boxes": [
+            [
+              39.0,
+              627.69,
+              507.61,
+              682.56
+            ]
+          ]
+        }
+      ],
+      "companionUnits": [
+        {
+          "id": "paper-01-s-e5107e2a694b",
+          "label": "C025",
+          "kind": "caption",
+          "section": "6.1. Differences in children’s computational thinking under the I-PBRP and C-PBRP approaches (RQ1)",
+          "assessment": null,
+          "sourceText": "Fig. 15. Progressive behavioral patterns of the two groups.",
+          "boxes": [
+            [
+              176.6,
+              376.08,
+              367.66,
+              387.81
+            ]
+          ]
+        }
+      ],
+      "excluded": [],
+      "exhibits": [
+        {
+          "id": "paper-01-figure-15",
+          "label": "Figure 15",
+          "bbox": [
+            37.0,
+            45,
+            510.51,
+            374.08
+          ]
+        }
+      ]
+    },
+    {
+      "page": 17,
+      "image": "page-17.png",
+      "readingUnits": [
+        {
+          "id": "paper-01-s-e4aa3b962c51",
+          "label": "R060",
+          "kind": "body",
+          "section": "6.2. Differences in children’s executive function under the I-PBRP and C-PBRP approaches (RQ2)",
+          "assessment": null,
+          "sourceText": "In robot programming activities, cognitive flexibility requires children to leverage different learned knowledge and transform rules to complete tasks (Ahmed et al., 2018). In the earlier phase, both groups primarily solved simple tasks through basic blocks, which placed modest demands on cognitive flexibility. Consequently, there were no statistically significant differences in cognitive flexibility between the two groups after 6 weeks. However, as the intervention progressed, the I-PBRP approach emphasized building on previously learned knowledge while introducing new content in each sub-project. This approach helped the children to progressively shift from rules to adapting strategies in new problem-solving contexts. Conversely, the C-PBRP approach introduced new knowledge in each sub-project, which encouraged idea transformation to some extent. However, its reduced emphasis on revisiting earlier strategies offered fewer opportunities for flexible knowledge transformation. This may illustrate why the I-PBRP group had better performance in cognitive flexibility over time.",
+          "boxes": [
+            [
+              39.0,
+              49.31,
+              507.6,
+              93.75
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-053e5c9f87fa",
+          "label": "R061",
+          "kind": "body",
+          "section": "6.2. Differences in children’s executive function under the I-PBRP and C-PBRP approaches (RQ2)",
+          "assessment": null,
+          "sourceText": "From a broader perspective, Diamond (2012) underscored that EF development requires repeated practice and progressive challenges. While both I-PBRP and C-PBRP could support EFgrowth, the I-PBRP approach provides children with more opportunities for systematic reinforcement and repeated practice of inhibition, working memory, and cognitive flexibility in increasingly complex tasks. Accordingly, these findings suggest that the I-PBRP approach better promoted young children’s EF.",
+          "boxes": [
+            [
+              39.0,
+              91.15,
+              507.59,
+              135.59
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-e10106e5cd6e",
+          "label": "R062",
+          "kind": "body",
+          "section": "6.3. Differences in children’s behavioral patterns under the I-PBRP and C-PBRP approaches (RQ3)",
+          "assessment": null,
+          "sourceText": "The progressive sequential analysis showed distinct behavioral patterns between the I-PBRP and C-PBRP groups across time. In the earlier phase, both groups exhibited mostly similar behavioral patterns. It is reasonable that the programming knowledge and task difficulty in the initial robot programming activities under the two approaches did not differ conspicuously. In the middle phase, some differences began to emerge. The I-PBRP group demonstrated more frequent transitions from peer discussions to creating and executing programs, followed by sharing and extending tasks. Conversely, the C-PBRP group appeared to face more difficulties with tasks, as shown by repeated cycles of seeking help and debugging. In the later phase, the two groups’ behavioral patterns exhibited more pronounced differences. The I-PBRP group experienced greater success in the robot programming tasks, as they exhibited a clear behavioral pattern from peer discussions to program creation and execution to task sharing and extension. Conversely, the C-PBRP group struggled during the robot programming tasks since they repeatedly sought help, debugged programs, and exhibited more offtask behaviors. The following reasons may explain the distinctive behavioral patterns of the two groups in the middle and later phases. The C-PBRP approach introduced new programming knowledge in each sub-project, but offered fewer opportunities for children to connect prior knowledge with new knowledge. This may have led to their underperformance in robot programming tasks and hindered their CT and EF development over time. In contrast, the I-PBRP approach introduced knowledge incrementally across sub-projects, enabling the children to reinforce their prior knowledge while integrating new knowledge within consistent problem-solving contexts. This design supports CT by helping them create coherent programming sequences and optimal solutions, and maintain symbolic representations of instructions (Huang, 2016). Observed smooth transitions from ideation to task completion in robot programming are indicative of effective CT acquisition (). Additionally, the observed smooth task completion and extension showcase that I-PBRP encouraged children to think critically before placing blocks, consolidate knowledge in memory, and switch between solutions, reflecting EF (Diamond, 2012). As time progressed, I-PBRP facilitated children’s meaningful knowledge construction and handled increasingly complex robot programming tasks with confidence, thereby supporting CT and EF. These results provide explanatory evidence that the I-PBRP approach more effectively enhanced children’s CT and EF than the C-PBRP approach. Overall, these findings imply that the I-PBRP approach enhanced superior performance in robot programming and facilitated more positive behaviors over time.",
+          "boxes": [
+            [
+              39.0,
+              171.54,
+              507.62,
+              414.69
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-a0ff9a97bba8",
+          "label": "R063",
+          "kind": "body",
+          "section": "7. Contributions and implications",
+          "assessment": null,
+          "sourceText": "First, considering the problems with C-PBRP, this study proposed the I-PBRP approach for young children’s CT and EF. We extended the studies by Huang (2016) and Vega et al. (2012), applying IPBL to robot programming for young children, and confirmed its effectiveness in CT and EF. The results provide insights into effective pedagogical approaches in robot programming to support young children’s CT and EF. Hence, this study should inspire educators to receive training for effective implementation of the I-PBRP approach.",
+          "boxes": [
+            [
+              39.0,
+              445.2,
+              507.6,
+              500.07
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-59c018b7a55f",
+          "label": "R064",
+          "kind": "body",
+          "section": "7. Contributions and implications",
+          "assessment": null,
+          "sourceText": "Second, this research contributes to research methodology by employing progressive sequential analysis to examine children’s behavioral patterns in robot programming. Compared with mere quantitative research, such analysis provides qualitative and explainable evidence to evaluate the effectiveness of different teaching approaches (Hwang et al., 2017). Additionally, analyzing children’s behaviors across intervention phases helped reveal the effect of proposed teaching approaches over time (Hou, 2010).",
+          "boxes": [
+            [
+              39.0,
+              497.52,
+              507.61,
+              541.91
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-f38019831dae",
+          "label": "R065",
+          "kind": "body",
+          "section": "8. Limitations and future directions",
+          "assessment": null,
+          "sourceText": "Five limitations should be acknowledged. First, this research enrolled children from China. The sample size is relatively small. It limits the generality of the findings. Second, this experiment was conducted for 12 weeks, which was still short, thus limiting to reveal the long-term effectiveness of the I-PBRP approach. Third, we selected three sessions for progressive sequential analysis, which may not have captured all possible behaviors in the different phases. Fourth, the EF test used is age-appropriate for children. However, due to the complexity of EF, this test captures only a specific facet of EF and may not encompass the broader or more nuanced aspects of each construct (Hohl & Dolcos, 2024). Fifth, spatial or mathematical skills are potential covariates that influence CT (Berson et al., 2023; Tsarava et al., 2022), but were not considered in this research.",
+          "boxes": [
+            [
+              39.0,
+              572.41,
+              507.61,
+              648.2
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-806f9b6ab1aa",
+          "label": "R066",
+          "kind": "body",
+          "section": "8. Limitations and future directions",
+          "assessment": null,
+          "sourceText": "To extend the research scope, several recommendations are offered. (1) Future studies could expand the number and diversity of participants and extend the research duration to validate the current findings. (2) To comprehensively capture children’s CT and EF development, researchers could consider broader cognitive profiling, and incorporate measures such as task-based assessment or interviews. (3) IPBL is suitable for children who benefit from progressive knowledge construction. Researchers could apply IPBL in other subjects for children’s knowledge and skill development. (4) Future research could consider variables such as spatial or mathematics skills to further reveal the benefits of the I-PBRP approach. (5) This research developed a viable solution by introducing the I-PBRP approach to enhance children’s CT and EF. Researchers could continue to formulate effective teaching approaches for children’s CT and EF development.",
+          "boxes": [
+            [
+              48.81,
+              645.66,
+              507.57,
+              690.04
+            ]
+          ]
+        }
+      ],
+      "companionUnits": [],
+      "excluded": [
+        {
+          "id": "paper-01-s-8f57a26a733c",
+          "label": "X047",
+          "kind": "body",
+          "section": "8. Limitations and future directions",
+          "assessment": null,
+          "sourceText": "(1) Future studies could expand the number and diversity of participants and extend the research duration to validate the current findings.",
+          "boxes": [
+            [
+              48.81,
+              666.58,
+              507.57,
+              690.04
+            ]
+          ]
+        }
+      ],
+      "exhibits": []
+    },
+    {
+      "page": 18,
+      "image": "page-18.png",
+      "readingUnits": [
+        {
+          "id": "paper-01-s-806f9b6ab1aa",
+          "label": "R066",
+          "kind": "body",
+          "section": "8. Limitations and future directions",
+          "assessment": null,
+          "sourceText": "To extend the research scope, several recommendations are offered. (1) Future studies could expand the number and diversity of participants and extend the research duration to validate the current findings. (2) To comprehensively capture children’s CT and EF development, researchers could consider broader cognitive profiling, and incorporate measures such as task-based assessment or interviews. (3) IPBL is suitable for children who benefit from progressive knowledge construction. Researchers could apply IPBL in other subjects for children’s knowledge and skill development. (4) Future research could consider variables such as spatial or mathematics skills to further reveal the benefits of the I-PBRP approach. (5) This research developed a viable solution by introducing the I-PBRP approach to enhance children’s CT and EF. Researchers could continue to formulate effective teaching approaches for children’s CT and EF development.",
+          "boxes": [
+            [
+              48.81,
+              49.31,
+              507.61,
+              135.59
+            ]
+          ]
+        }
+      ],
+      "companionUnits": [
+        {
+          "id": "paper-01-s-7871d7663630",
+          "label": "C026",
+          "kind": "body",
+          "section": "CRediT authorship contribution statement",
+          "assessment": null,
+          "sourceText": "Yuchen Chen: Writing – original draft, Investigation, Formal analysis, Data curation, Conceptualization. Xinli Zhang: Supervision, Project administration, Investigation, Funding acquisition, Conceptualization. Lailin Hu: Validation, Supervision, Resources. Gwo-Jen Hwang: Writing – review & editing, Validation, Resources, Conceptualization. Haoran Xie: Software, Resources, Methodology. Yun-Fang Tu: Writing – original draft, Validation, Investigation, Conceptualization.",
+          "boxes": [
+            [
+              39.01,
+              164.4,
+              507.59,
+              208.78
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-309d9d9f2ba9",
+          "label": "C027",
+          "kind": "body",
+          "section": "Ethics approval and informed consent",
+          "assessment": null,
+          "sourceText": "Approval for the research protocol was received from the institution’s ethics board under reference number WZUED20250101. Informed consent was also obtained from kindergarten administrators and participants’ parents. All children voluntarily engaged in this research.",
+          "boxes": [
+            [
+              39.01,
+              237.59,
+              507.6,
+              271.54
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-2a879afd88e1",
+          "label": "C028",
+          "kind": "body",
+          "section": "Availability of data and material",
+          "assessment": null,
+          "sourceText": "The data was available upon request from the corresponding authors.",
+          "boxes": [
+            [
+              50.97,
+              300.35,
+              297.0,
+              313.38
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-c8ece8616b3d",
+          "label": "C029",
+          "kind": "body",
+          "section": "Competing interests",
+          "assessment": null,
+          "sourceText": "The authors declare no conflicts of interest.",
+          "boxes": [
+            [
+              50.97,
+              342.24,
+              204.66,
+              355.27
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-e604986f06c6",
+          "label": "C030",
+          "kind": "body",
+          "section": "Acknowledgment",
+          "assessment": null,
+          "sourceText": "This study was is supported by the Humanities and Social Science Project by the Ministry of Education in China [grant number: 24YJA880096].",
+          "boxes": [
+            [
+              39.01,
+              384.08,
+              507.6,
+              407.55
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-d3a81bdfa161",
+          "label": "C031",
+          "kind": "body",
+          "section": "Appendix I",
+          "assessment": null,
+          "sourceText": "Sample item of the TechCheck-K CT test (Relkin & Bers, 2021).",
+          "boxes": [
+            [
+              50.97,
+              436.35,
+              275.07,
+              449.38
+            ]
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "id": "paper-01-s-603255494860",
+          "label": "X048",
+          "kind": "body",
+          "section": "8. Limitations and future directions",
+          "assessment": null,
+          "sourceText": "(2) To comprehensively capture children’s CT and EF development, researchers could consider broader cognitive profiling, and incorporate measures such as task-based assessment or interviews. (3) IPBL is suitable for children who benefit from progressive knowledge construction. Researchers could apply IPBL in other subjects for children’s knowledge and skill development. (4) Future research could consider variables such as spatial or mathematics skills to further reveal the benefits of the I-PBRP approach. (5) This research developed a viable solution by introducing the I-PBRP approach to enhance children’s CT and EF. Researchers could continue to formulate effective teaching approaches for children’s CT and EF development.",
+          "boxes": [
+            [
+              48.81,
+              49.31,
+              507.61,
+              135.59
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-554005665839",
+          "label": "X049",
+          "kind": "body",
+          "section": "8. Limitations and future directions",
+          "assessment": null,
+          "sourceText": "CRediT authorship contribution statement",
+          "boxes": [
+            [
+              39.01,
+              143.48,
+              200.94,
+              156.51
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-caec210e3421",
+          "label": "X050",
+          "kind": "body",
+          "section": "8. Limitations and future directions",
+          "assessment": null,
+          "sourceText": "Ethics approval and informed consent",
+          "boxes": [
+            [
+              39.01,
+              216.67,
+              184.71,
+              229.7
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-fafd4ee062f4",
+          "label": "X051",
+          "kind": "body",
+          "section": "8. Limitations and future directions",
+          "assessment": null,
+          "sourceText": "Availability of data and material",
+          "boxes": [
+            [
+              39.01,
+              279.43,
+              164.26,
+              292.46
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-ff72b6dd5e6e",
+          "label": "X052",
+          "kind": "body",
+          "section": "8. Limitations and future directions",
+          "assessment": null,
+          "sourceText": "Competing interests",
+          "boxes": [
+            [
+              39.01,
+              321.32,
+              115.24,
+              334.36
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-b70689041c39",
+          "label": "X053",
+          "kind": "body",
+          "section": "8. Limitations and future directions",
+          "assessment": null,
+          "sourceText": "Acknowledgment",
+          "boxes": [
+            [
+              39.01,
+              363.16,
+              105.09,
+              376.19
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-a1695c7cd61f",
+          "label": "X054",
+          "kind": "body",
+          "section": "8. Limitations and future directions",
+          "assessment": null,
+          "sourceText": "Appendix I",
+          "boxes": [
+            [
+              39.01,
+              415.43,
+              82.98,
+              428.47
+            ]
+          ]
+        }
+      ],
+      "exhibits": [
+        {
+          "id": "paper-01-appendix-i",
+          "label": "Appendix I",
+          "bbox": [
+            39,
+            413,
+            509,
+            688
+          ]
+        }
+      ]
+    },
+    {
+      "page": 19,
+      "image": "page-19.png",
+      "readingUnits": [],
+      "companionUnits": [
+        {
+          "id": "paper-01-s-6731c7284556",
+          "label": "C032",
+          "kind": "body",
+          "section": "Appendix II",
+          "assessment": null,
+          "sourceText": "Details of EF measures (Howard & Melhuish, 2017).",
+          "boxes": [
+            [
+              50.97,
+              89.34,
+              238.05,
+              102.37
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-bbba8f6ed395",
+          "label": "C033",
+          "kind": "body",
+          "section": "Data availability",
+          "assessment": null,
+          "sourceText": "Data will be made available on request.",
+          "boxes": [
+            [
+              50.97,
+              638.75,
+              191.28,
+              651.78
+            ]
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "id": "paper-01-s-00c3128f0cec",
+          "label": "X055",
+          "kind": "body",
+          "section": "8. Limitations and future directions",
+          "assessment": null,
+          "sourceText": "Appendix II",
+          "boxes": [
+            [
+              39.0,
+              68.42,
+              85.84,
+              81.45
+            ]
+          ]
+        },
+        {
+          "id": "paper-01-s-6241008979e4",
+          "label": "X056",
+          "kind": "body",
+          "section": "8. Limitations and future directions",
+          "assessment": null,
+          "sourceText": "Data availability",
+          "boxes": [
+            [
+              39.0,
+              617.83,
+              102.51,
+              630.86
+            ]
+          ]
+        }
+      ],
+      "exhibits": [
+        {
+          "id": "paper-01-appendix-ii",
+          "label": "Appendix II",
+          "bbox": [
+            39,
+            66,
+            509,
+            601
+          ]
+        }
+      ]
+    },
+    {
+      "page": 20,
+      "image": "page-20.png",
+      "readingUnits": [],
+      "companionUnits": [],
+      "excluded": [
+        {
+          "id": "paper-01-s-fb4b491173bb",
+          "label": "X057",
+          "kind": "body",
+          "section": "8. Limitations and future directions",
+          "assessment": null,
+          "sourceText": "Ahmed, S. F., Tang, S., Waters, N. E., & Davis-Kean, P. (2018). Executive function and academic achievement: Longitudinal relations from early childhood to adolescence. Center for Open Science. https://doi.org/10.31234/osf.io/xd5jy Akhutina, T. V., & Pylaeva, N. M. (2012). The role of the analysis of the zone of proximal development in the course of remediation of executive functions: An example. In In overcoming learning disabilities: A Vygotskian-Lurian neuropsychological approach (pp. 136–150). Cambridge: Cambridge University Press. Arf´e, B., Vardanega, T., & Ronconi, L. (2020). The effects of coding on children’s planning and inhibition skills. Computers & Education, 148, Article 103807. https:// doi.org/10.1016/j.compedu.2020.103807 Bakeman, R., & Gottman, J. M. (1997). Observing interaction: An introduction to sequential analysis (2nd ed. Cambridge University Press. Bakeman, R., & Quera, V. (2011). Sequential analysis and observational methods for the behavioral sciences (1st ed. Cambridge University Press. Barron, B., Schwartz, D., Vye, N., Moore, A., Petrosino, A., Zech, L., & Bransford, J. (1998). Doing with understanding: Lessons from research on problem and projectbased learning. The Journal of the Learning Sciences, 7(3), 271–311. https://doi.org/10.1207/s15327809jls0703&4_2 Bers, M. U. (2020). Coding as a playground: Programming and computational thinking in the early childhood classroom. New York: Routledge. Bers, M. U., Flannery, L., Kazakoff, E. R., & Sullivan, A. (2014). Computational thinking and tinkering: Exploration of an early childhood robotics curriculum. Computers & Education, 72, 145–157. https://doi.org/10.1016/j.compedu.2013.10.020 Bers, M. U., Gonz´alez-Gonz´alez, C., & Armas-Torres, M. B. (2019). Coding as a playground: Promoting positive learning experiences in childhood classrooms. Computers & Education, 138, 130–145. https://doi.org/10.1016/j.compedu.2019.04.013 Bers, M. U., Strawhacker, A., & Sullivan, A. (2022). The state of the field of computational thinking in early childhood education. OECD education working papers.",
+          "boxes": [
+            [
+              39.0,
+              69.59,
+              505.15,
+              199.58
+            ]
+          ]
+        }
+      ],
+      "exhibits": []
+    },
+    {
+      "page": 21,
+      "image": "page-21.png",
+      "readingUnits": [],
+      "companionUnits": [],
+      "excluded": [],
+      "exhibits": []
+    }
+  ]
+}

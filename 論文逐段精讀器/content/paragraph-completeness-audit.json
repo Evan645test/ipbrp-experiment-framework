@@ -1,0 +1,484 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-17T05:50:51.266088+00:00",
+  "applied": true,
+  "method": "PDF soft-hyphen and coordinate evidence; review cues are not semantic judgments",
+  "papers": {
+    "paper-01": {
+      "sourceSha256": "f115fdd76360d2b81f11162f81a419d30c973b58bdeb13a4b504a1f1a63a3ca1",
+      "counts": {
+        "needs-review": 1
+      },
+      "units": {
+        "paper-01-s-11c642e44a44": {
+          "status": "needs-review",
+          "reasons": [
+            "短文字以小寫起始，可能是前句延續；需核對原 PDF，不因字數或語感直接刪除。"
+          ],
+          "relatedSegmentIds": [],
+          "sourceTextSha256": "4fc67862b2fda337eef3df607efa90024b0dbaa443b0f449b58a1070976fd3c2"
+        }
+      },
+      "evidence": []
+    },
+    "paper-02": {
+      "sourceSha256": "8c12bedfef7ac71cb4bc740dfec538ecc8b63369446d156346588921a6681c7b",
+      "counts": {
+        "needs-review": 2
+      },
+      "units": {
+        "paper-02-s-ee5a48e78dc6": {
+          "status": "needs-review",
+          "reasons": [
+            "短文字以小寫起始，可能是前句延續；需核對原 PDF，不因字數或語感直接刪除。"
+          ],
+          "relatedSegmentIds": [],
+          "sourceTextSha256": "ef11bda20faa9e7b196fa15724829cd7854f179b109f740df6370e2915ab19f6"
+        },
+        "paper-02-s-1ec56399ddfb": {
+          "status": "needs-review",
+          "reasons": [
+            "短文字以小寫起始，可能是前句延續；需核對原 PDF，不因字數或語感直接刪除。"
+          ],
+          "relatedSegmentIds": [],
+          "sourceTextSha256": "bdddf7b9d926b4c40d9a9808350831b13b0fc88aeecae282ed3c716a89bee09c"
+        }
+      },
+      "evidence": []
+    },
+    "paper-03": {
+      "sourceSha256": "31bb89a6483cbbd8d4e00a9df39fdfee0eb3bd036b17187a6effef2a4df46833",
+      "counts": {
+        "fragment": 6
+      },
+      "units": {
+        "paper-03-s-8c73efb5bf6c": {
+          "status": "fragment",
+          "reasons": [
+            "原 PDF 的同一個單字被切到不同閱讀單位，無法作為完整段落獨立解釋。",
+            "編號研究問題尚未結束，原 PDF 的下一行被拆到另一個閱讀單位，需恢復完整問題。"
+          ],
+          "relatedSegmentIds": [
+            "paper-03-s-c36263879452",
+            "paper-03-s-d8d0e07c2c1c"
+          ],
+          "sourceTextSha256": "4a15a1d298735985119d311b750fab8bd13dbe1e421d277c0e499ee9c9715fec"
+        },
+        "paper-03-s-c36263879452": {
+          "status": "fragment",
+          "reasons": [
+            "原 PDF 的同一個單字被切到不同閱讀單位，無法作為完整段落獨立解釋。"
+          ],
+          "relatedSegmentIds": [
+            "paper-03-s-8c73efb5bf6c",
+            "paper-03-s-d0a9953fff51"
+          ],
+          "sourceTextSha256": "2663e2fe45f9933da8c135f2e8ae27738f9a32c3fc4c8af2424db450fed1d4dd"
+        },
+        "paper-03-s-d0a9953fff51": {
+          "status": "fragment",
+          "reasons": [
+            "原 PDF 的同一個單字被切到不同閱讀單位，無法作為完整段落獨立解釋。"
+          ],
+          "relatedSegmentIds": [
+            "paper-03-s-c36263879452"
+          ],
+          "sourceTextSha256": "8a3a637b9f8e57d04cfe96940c64a1320bee8d9f9b3daaaa1418a0e045a7d453"
+        },
+        "paper-03-s-1c6944fd81c3": {
+          "status": "fragment",
+          "reasons": [
+            "原 PDF 的同一個單字被切到不同閱讀單位，無法作為完整段落獨立解釋。"
+          ],
+          "relatedSegmentIds": [
+            "paper-03-s-58986f5c644c"
+          ],
+          "sourceTextSha256": "9034345977849e276bf2ceaa24103c076259bfe403d171b8203f14498007e634"
+        },
+        "paper-03-s-58986f5c644c": {
+          "status": "fragment",
+          "reasons": [
+            "原 PDF 的同一個單字被切到不同閱讀單位，無法作為完整段落獨立解釋。"
+          ],
+          "relatedSegmentIds": [
+            "paper-03-s-1c6944fd81c3"
+          ],
+          "sourceTextSha256": "c6fa6aab7d2f0c851344f85980a03e938717aecd51f86260453170190c5ac5d6"
+        },
+        "paper-03-s-d8d0e07c2c1c": {
+          "status": "fragment",
+          "reasons": [
+            "編號研究問題尚未結束，原 PDF 的下一行被拆到另一個閱讀單位，需恢復完整問題。"
+          ],
+          "relatedSegmentIds": [
+            "paper-03-s-8c73efb5bf6c"
+          ],
+          "sourceTextSha256": "88129524571d88c79483ff6a76b196fe7fced47dbd857dafa3536d22512c9126"
+        }
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "word": "engagement",
+          "parts": [
+            "engage",
+            "ment"
+          ],
+          "segmentIds": [
+            "paper-03-s-8c73efb5bf6c",
+            "paper-03-s-c36263879452"
+          ],
+          "wordBoxes": [
+            [
+              356.70361328125,
+              535.4586181640625,
+              388.34637451171875,
+              548.9286499023438
+            ],
+            [
+              67.49359893798828,
+              547.4586181640625,
+              87.49359893798828,
+              560.9286499023438
+            ]
+          ]
+        },
+        {
+          "page": 3,
+          "word": "behaviors",
+          "parts": [
+            "behav",
+            "iors"
+          ],
+          "segmentIds": [
+            "paper-03-s-c36263879452",
+            "paper-03-s-d0a9953fff51"
+          ],
+          "wordBoxes": [
+            [
+              361.1426696777344,
+              559.4586181640625,
+              388.34637451171875,
+              572.9286499023438
+            ],
+            [
+              67.49359893798828,
+              571.4586181640625,
+              82.49359893798828,
+              584.9286499023438
+            ]
+          ]
+        },
+        {
+          "page": 19,
+          "word": "Digitalization",
+          "parts": [
+            "Digi",
+            "talization"
+          ],
+          "segmentIds": [
+            "paper-03-s-1c6944fd81c3",
+            "paper-03-s-58986f5c644c"
+          ],
+          "wordBoxes": [
+            [
+              371.4604187011719,
+              126.53864288330078,
+              388.3464050292969,
+              137.31463623046875
+            ],
+            [
+              68.03150177001953,
+              136.03863525390625,
+              97.80750274658203,
+              146.81463623046875
+            ]
+          ]
+        },
+        {
+          "page": 3,
+          "kind": "unfinished-numbered-question",
+          "segmentIds": [
+            "paper-03-s-d8d0e07c2c1c",
+            "paper-03-s-8c73efb5bf6c"
+          ],
+          "wordBoxes": [
+            [
+              367.2325744628906,
+              499.4586486816406,
+              388.35260009765625,
+              512.9286499023438
+            ],
+            [
+              67.49359893798828,
+              511.4586486816406,
+              118.02361297607422,
+              524.9286499023438
+            ]
+          ]
+        }
+      ]
+    },
+    "paper-04": {
+      "sourceSha256": "cb615219ba33a28ac6e3b3c1e11f88c19d86aa63cd61f094b7812dd202bd1a8c",
+      "counts": {
+        "fragment": 2,
+        "needs-review": 4
+      },
+      "units": {
+        "paper-04-s-3049b57d7abd": {
+          "status": "fragment",
+          "reasons": [
+            "原 PDF 的同一個單字被切到不同閱讀單位，無法作為完整段落獨立解釋。"
+          ],
+          "relatedSegmentIds": [
+            "paper-04-s-ed377ba99b66"
+          ],
+          "sourceTextSha256": "22cb1ff969898a91c9c3ea94ec9a6155616212a49fbcda7ce387a3661583e20f"
+        },
+        "paper-04-s-ed377ba99b66": {
+          "status": "fragment",
+          "reasons": [
+            "原 PDF 的同一個單字被切到不同閱讀單位，無法作為完整段落獨立解釋。"
+          ],
+          "relatedSegmentIds": [
+            "paper-04-s-3049b57d7abd"
+          ],
+          "sourceTextSha256": "c3f996255809309ea6423f108c95f4b38307df82887da70347d24e35f8972043"
+        },
+        "paper-04-s-a99009917f78": {
+          "status": "needs-review",
+          "reasons": [
+            "短文字以小寫起始，可能是前句延續；需核對原 PDF，不因字數或語感直接刪除。"
+          ],
+          "relatedSegmentIds": [],
+          "sourceTextSha256": "8523d224e24707f0773d65a2c4cfeae8ebbabd982c226bb1e186d597292a0f07"
+        },
+        "paper-04-s-e1bd5c6b3d8f": {
+          "status": "needs-review",
+          "reasons": [
+            "短文字以小寫起始，可能是前句延續；需核對原 PDF，不因字數或語感直接刪除。"
+          ],
+          "relatedSegmentIds": [],
+          "sourceTextSha256": "74ed3e729eaa18f9e71010336ebf9d9d450f366ce93f6a1d65059815575168de"
+        },
+        "paper-04-s-efac6f62c31a": {
+          "status": "needs-review",
+          "reasons": [
+            "短文字以小寫起始，可能是前句延續；需核對原 PDF，不因字數或語感直接刪除。"
+          ],
+          "relatedSegmentIds": [],
+          "sourceTextSha256": "0d5a011050205b392ce21075879cfcdeb36ffe7affc285b6b3f0a15e62f79525"
+        },
+        "paper-04-s-c979f9eda7c9": {
+          "status": "needs-review",
+          "reasons": [
+            "短文字以小寫起始，可能是前句延續；需核對原 PDF，不因字數或語感直接刪除。"
+          ],
+          "relatedSegmentIds": [],
+          "sourceTextSha256": "a38bcf73d352e4c7ecd5e6480c34fafb1454d0d1ce77066af3ac6720ea250372"
+        }
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "word": "completion",
+          "parts": [
+            "comple",
+            "tion"
+          ],
+          "segmentIds": [
+            "paper-04-s-3049b57d7abd",
+            "paper-04-s-ed377ba99b66"
+          ],
+          "wordBoxes": [
+            [
+              398.7190856933594,
+              624.9639892578125,
+              433.15911865234375,
+              634.9639892578125
+            ],
+            [
+              87.30609893798828,
+              637.947021484375,
+              103.99610137939453,
+              647.947021484375
+            ]
+          ]
+        }
+      ]
+    },
+    "paper-05": {
+      "sourceSha256": "d4641dc89b7f03fdfdaf605221c50db35843a50452dedd1fa6d977bbc13232b1",
+      "counts": {
+        "needs-review": 1
+      },
+      "units": {
+        "paper-05-s-633920c592da": {
+          "status": "needs-review",
+          "reasons": [
+            "短文字以小寫起始，可能是前句延續；需核對原 PDF，不因字數或語感直接刪除。"
+          ],
+          "relatedSegmentIds": [],
+          "sourceTextSha256": "1c123db1005e1bf7a0d0ca5d654609954edb51634b89104ad993a0356dad68d8"
+        }
+      },
+      "evidence": []
+    },
+    "paper-06": {
+      "sourceSha256": "87a8f300514340713f35c5835c85937181d46792d71ce7bb87d805f3f88dac8d",
+      "counts": {},
+      "units": {},
+      "evidence": []
+    },
+    "paper-07": {
+      "sourceSha256": "49c86f4c7771f899ef1388548d95df5166b2853470de7a46c0aa68d9de84d708",
+      "counts": {
+        "needs-review": 2
+      },
+      "units": {
+        "paper-07-s-e2e64bdc299f": {
+          "status": "needs-review",
+          "reasons": [
+            "短文字以小寫起始，可能是前句延續；需核對原 PDF，不因字數或語感直接刪除。"
+          ],
+          "relatedSegmentIds": [],
+          "sourceTextSha256": "3c26b43427b24a16c92528bc1b52ffe2d0200219efea6484adeb815d249827b8"
+        },
+        "paper-07-s-beabcea471ec": {
+          "status": "needs-review",
+          "reasons": [
+            "短文字以小寫起始，可能是前句延續；需核對原 PDF，不因字數或語感直接刪除。"
+          ],
+          "relatedSegmentIds": [],
+          "sourceTextSha256": "b521a9cb41b834a3572ee4706b713ea71ec0bbb34de65a1c77cf247b5a90a15d"
+        }
+      },
+      "evidence": []
+    },
+    "paper-08": {
+      "sourceSha256": "54d2a99a100ef5b8ae26a90dc50cfac2f16828aa6de6bce7548aa9d7af66da52",
+      "counts": {
+        "fragment": 1,
+        "needs-review": 10
+      },
+      "units": {
+        "paper-08-s-dade0b4336b6": {
+          "status": "fragment",
+          "reasons": [
+            "原 PDF 的同一個單字被切到不同閱讀單位，無法作為完整段落獨立解釋。"
+          ],
+          "relatedSegmentIds": [],
+          "sourceTextSha256": "817f9f9dd20c54c6370ef7abb2aea964462f6a5ee6db3b2007bc9841eb571b8a"
+        },
+        "paper-08-s-263eabd57359": {
+          "status": "needs-review",
+          "reasons": [
+            "短文字以小寫起始，可能是前句延續；需核對原 PDF，不因字數或語感直接刪除。"
+          ],
+          "relatedSegmentIds": [],
+          "sourceTextSha256": "c5e9964da9eeeac22da9ab7b15f30971bfbf424377de27fbf8bac75688451cf9"
+        },
+        "paper-08-s-f46be40dbda8": {
+          "status": "needs-review",
+          "reasons": [
+            "短文字以小寫起始，可能是前句延續；需核對原 PDF，不因字數或語感直接刪除。"
+          ],
+          "relatedSegmentIds": [],
+          "sourceTextSha256": "412bbf44ed195095ff4d1ae8fb19756caa21b5429e5820b10fdf08e415886be7"
+        },
+        "paper-08-s-0cd5439cc8bb": {
+          "status": "needs-review",
+          "reasons": [
+            "短文字以小寫起始，可能是前句延續；需核對原 PDF，不因字數或語感直接刪除。"
+          ],
+          "relatedSegmentIds": [],
+          "sourceTextSha256": "68929e6d11ca560609440720296bb5b184295efb9d52aa4f74f88e70bc3e30f1"
+        },
+        "paper-08-s-232d39350814": {
+          "status": "needs-review",
+          "reasons": [
+            "短文字以小寫起始，可能是前句延續；需核對原 PDF，不因字數或語感直接刪除。"
+          ],
+          "relatedSegmentIds": [],
+          "sourceTextSha256": "9cdaaa99ca38d5d6feeb47e821d7d42c1fe0a62012d9de93613d87ebbcf7c4f4"
+        },
+        "paper-08-s-c607daee1e62": {
+          "status": "needs-review",
+          "reasons": [
+            "短文字以小寫起始，可能是前句延續；需核對原 PDF，不因字數或語感直接刪除。"
+          ],
+          "relatedSegmentIds": [],
+          "sourceTextSha256": "0318646984736b275e79c326899c6c4f20279b00042d87cfdc15a3c8fd9f127e"
+        },
+        "paper-08-s-e7d641f88013": {
+          "status": "needs-review",
+          "reasons": [
+            "短文字以小寫起始，可能是前句延續；需核對原 PDF，不因字數或語感直接刪除。"
+          ],
+          "relatedSegmentIds": [],
+          "sourceTextSha256": "df0e4d23785099ce42a19f7c5e33864d9d211470f7d4997273eb15a3d0169254"
+        },
+        "paper-08-s-ac6273b6fda5": {
+          "status": "needs-review",
+          "reasons": [
+            "短文字以小寫起始，可能是前句延續；需核對原 PDF，不因字數或語感直接刪除。"
+          ],
+          "relatedSegmentIds": [],
+          "sourceTextSha256": "ab0ad19246b5a4c6477c8455d113f44c589e810b84db065d0edf8947017e0cd2"
+        },
+        "paper-08-s-635a3dba77cd": {
+          "status": "needs-review",
+          "reasons": [
+            "短文字以小寫起始，可能是前句延續；需核對原 PDF，不因字數或語感直接刪除。"
+          ],
+          "relatedSegmentIds": [],
+          "sourceTextSha256": "3c9c98643b0df6684165c31739710aed8814044ba177e08069caa721932f9ab1"
+        },
+        "paper-08-s-01e51d954521": {
+          "status": "needs-review",
+          "reasons": [
+            "短文字以小寫起始，可能是前句延續；需核對原 PDF，不因字數或語感直接刪除。"
+          ],
+          "relatedSegmentIds": [],
+          "sourceTextSha256": "23e3e37c4d2cf86f0e2fb0208ef84f317e54559ef4b409340a4eae09ca0ef72e"
+        },
+        "paper-08-s-ffb3526e680e": {
+          "status": "needs-review",
+          "reasons": [
+            "短文字以小寫起始，可能是前句延續；需核對原 PDF，不因字數或語感直接刪除。"
+          ],
+          "relatedSegmentIds": [],
+          "sourceTextSha256": "3f98e55afad9ee596e5253fab21e3d13069ab0c06d5287ed2e80ed92d419e6e6"
+        }
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "word": "tendency",
+          "parts": [
+            "ten",
+            "dency"
+          ],
+          "segmentIds": [
+            "paper-08-s-dade0b4336b6"
+          ],
+          "wordBoxes": [
+            [
+              274.0586853027344,
+              300.75579833984375,
+              289.1340026855469,
+              313.5357971191406
+            ],
+            [
+              65.35430145263672,
+              312.25579833984375,
+              87.95330047607422,
+              325.0357971191406
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "sourceSha256": "54d2a99a100ef5b8ae26a90dc50cfac2f16828aa6de6bce7548aa9d7af66da52",
+  "engine": "Tesseract eng, 300 dpi, psm 3",
+  "regions": [
+    {
+      "page": 4,
+      "bbox": [
+        304,
+        283,
+        553,
+        499
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "In the VR scenario, learners were guided to engage in self-\nexplanation based on systematic guiding questions to facilitate\nreflection and knowledge organisation, thereby deepening their\nunderstanding and construction of the learning content. Across\nthe four stages of the model, self-explanation serves as a bridge\nbetween individual sense-making and subsequent social knowl-\nedge co-construction, ensuring that learners enter collaborative\nphases with cognitively prepared and explicit representations.\nThe model consists of four stages, as shown in Figure 1. Each\nstage operationalises a distinct regulatory function, progres-\nsively guiding learners from unstructured exploration towards\ncoordinated collaborative knowledge construction. The follow-\ning sections explicitly highlight the logical progression between\nstages and how cognitive readiness established in earlier stages\nlays the foundation for subsequent phases.\n\nIn the context stage, this study utilised open data such as arte-\nfacts and images provided by the National Palace Museum in\n",
+      "paragraphs": [
+        "In the VR scenario, learners were guided to engage in selfexplanation based on systematic guiding questions to facilitate reflection and knowledge organisation, thereby deepening their understanding and construction of the learning content. Across the four stages of the model, self-explanation serves as a bridge between individual sense-making and subsequent social knowledge co-construction, ensuring that learners enter collaborative phases with cognitively prepared and explicit representations. The model consists of four stages, as shown in Figure 1. Each stage operationalises a distinct regulatory function, progressively guiding learners from unstructured exploration towards coordinated collaborative knowledge construction. The following sections explicitly highlight the logical progression between stages and how cognitive readiness established in earlier stages lays the foundation for subsequent phases.",
+        "In the context stage, this study utilised open data such as artefacts and images provided by the National Palace Museum in"
+      ]
+    },
+    {
+      "page": 5,
+      "bbox": [
+        43,
+        213,
+        294,
+        251
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "Construction stage: A learning activity that involved explora-\ntion and self-explanation of the virtual museum. First, learners\n",
+      "paragraphs": [
+        "Construction stage: A learning activity that involved exploration and self-explanation of the virtual museum. First, learners"
+      ]
+    },
+    {
+      "page": 5,
+      "bbox": [
+        304,
+        28,
+        553,
+        236
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "actively explored the background knowledge of the artefacts\nthrough structured guiding questions embedded in each scene\nof the virtual museum. The system provided real-time interac-\ntive feedback to assist learners in initially checking their un-\nderstanding. These guiding questions also prompted learners\nto think about how new knowledge was organised and how it\nlinked to their previous experiences. Through feedback from\nthe system, learners were able to review the correctness of the\nknowledge content and actively construct knowledge instead\nof passively accepting information (Figure 3). Notably, the\nstructured guiding questions provided real-time feedback so\nthat learners could secure an accurate initial grasp of the ar-\ntefacts' factual information. Afterwards, the self-explanation\ntask asked learners to digest, organise, and internalise these\nverified ideas. Learners constructed coherent meaning in\ntheir own words. By design, this task offered no instant sys-\ntem feedback; its aim was to foster an individual generative\ncognitive process.\n",
+      "paragraphs": [
+        "actively explored the background knowledge of the artefacts through structured guiding questions embedded in each scene of the virtual museum. The system provided real-time interactive feedback to assist learners in initially checking their understanding. These guiding questions also prompted learners to think about how new knowledge was organised and how it linked to their previous experiences. Through feedback from the system, learners were able to review the correctness of the knowledge content and actively construct knowledge instead of passively accepting information (Figure 3). Notably, the structured guiding questions provided real-time feedback so that learners could secure an accurate initial grasp of the artefacts' factual information. Afterwards, the self-explanation task asked learners to digest, organise, and internalise these verified ideas. Learners constructed coherent meaning in their own words. By design, this task offered no instant system feedback; its aim was to foster an individual generative cognitive process."
+      ]
+    },
+    {
+      "page": 6,
+      "bbox": [
+        43,
+        237,
+        294,
+        564
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "Next, in order to deepen knowledge construction, this study\nadopted the self-explanation-guided virtual museum learning\nmodel, which allowed learners to complete self-explanation\ntasks in textual form through online structured guiding\nworksheets (Figure 4). The core of the self-explanation strat-\negy was to motivate learners to externalise their own under-\nstanding of knowledge, which not only reduced the burden on\ntheir working memory but also enhanced their participation\nin the construction of meaning in the content, generating\nclear and detailed descriptions of knowledge for themselves.\nSpecifically, this process required learners to organise and\nreorganise content, making meaningful connections between\nnew information and existing knowledge. In this study, “con-\nnecting existing information with new concepts” was oper-\nationalised through artefact appreciation. Students already\npossessed fragmented understandings from class and supple-\nments, for instance, knowledge of dynasty context and social\ncustoms (e.g., the Tang dynasty's emphasis on burial items),\nthe symbolism of idioms (¢.g., #1, denoting many de-\nscendants), and the evolution of scripts and inscriptions\n(e.g., text cast on the inner walls of bronze vessels). In vir-\ntual museum learning, learners were situated in an artefact\nappreciation context. They activated and reorganised their\nprior knowledge and then integrated it with new, artefact-\nspecific information via self-explanation tasks. The process\nof translating understanding into words facilitated learners’\nknowledge construction, and enhanced the retention and sub-\nsequent transfer of knowledge.\n",
+      "paragraphs": [
+        "Next, in order to deepen knowledge construction, this study adopted the self-explanation-guided virtual museum learning model, which allowed learners to complete self-explanation tasks in textual form through online structured guiding worksheets (Figure 4). The core of the self-explanation strategy was to motivate learners to externalise their own understanding of knowledge, which not only reduced the burden on their working memory but also enhanced their participation in the construction of meaning in the content, generating clear and detailed descriptions of knowledge for themselves. Specifically, this process required learners to organise and reorganise content, making meaningful connections between new information and existing knowledge. In this study, “connecting existing information with new concepts” was operationalised through artefact appreciation. Students already possessed fragmented understandings from class and supplements, for instance, knowledge of dynasty context and social customs (e.g., the Tang dynasty's emphasis on burial items), the symbolism of idioms (¢.g., #1, denoting many descendants), and the evolution of scripts and inscriptions (e.g., text cast on the inner walls of bronze vessels). In virtual museum learning, learners were situated in an artefact appreciation context. They activated and reorganised their prior knowledge and then integrated it with new, artefactspecific information via self-explanation tasks. The process of translating understanding into words facilitated learners’ knowledge construction, and enhanced the retention and subsequent transfer of knowledge."
+      ]
+    },
+    {
+      "page": 6,
+      "bbox": [
+        304,
+        386,
+        553,
+        599
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "Collaboration stage: Group members constructed a concept\nmap of knowledge through synchronous collaboration, shared\nthe results of their group discussions (Figure 5), presented their\nwork to the class, and received feedback and suggestions from\nboth peers and the teacher. The collaborative process not only\nrequired members to organise and connect the core concepts\ntogether but also facilitated the externalisation and sharing\nof knowledge through visual images. Through collaborative\nplanning and practice, group members achieved collaborative\nknowledge construction and deepened their systematic under-\nstanding of the content. Collaborative knowledge construction\nat this stage benefited from the refined understanding and clar-\nification achieved during the conversation stage. Through the\nscaffolding provided by the preceding construction and con-\nversation stages, learners entered the collaboration phase with\nsufficient cognitive readiness and a shared foundation of under-\nstanding. This enabled the final collaborative concept mapping\nto proceed efficiently.\n",
+      "paragraphs": [
+        "Collaboration stage: Group members constructed a concept map of knowledge through synchronous collaboration, shared the results of their group discussions (Figure 5), presented their work to the class, and received feedback and suggestions from both peers and the teacher. The collaborative process not only required members to organise and connect the core concepts together but also facilitated the externalisation and sharing of knowledge through visual images. Through collaborative planning and practice, group members achieved collaborative knowledge construction and deepened their systematic understanding of the content. Collaborative knowledge construction at this stage benefited from the refined understanding and clarification achieved during the conversation stage. Through the scaffolding provided by the preceding construction and conversation stages, learners entered the collaboration phase with sufficient cognitive readiness and a shared foundation of understanding. This enabled the final collaborative concept mapping to proceed efficiently."
+      ]
+    },
+    {
+      "page": 8,
+      "bbox": [
+        304,
+        630,
+        553,
+        737
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "Figure 7 shows the experimental process. The experimen-\ntal group and the control group each took part in a 200-min\nlearning activity, which included the teacher's explanation of\nthe operation of the virtual museum equipment, the function\nof the collaborative conceptual mapping tool, and the experi-\nence of the overall activity flow. Students in the experimen-\ntal group learned with the SE-VML model, and students in\nthe control group learned with the C-VML model. Students\n",
+      "paragraphs": [
+        "Figure 7 shows the experimental process. The experimental group and the control group each took part in a 200-min learning activity, which included the teacher's explanation of the operation of the virtual museum equipment, the function of the collaborative conceptual mapping tool, and the experience of the overall activity flow. Students in the experimental group learned with the SE-VML model, and students in the control group learned with the C-VML model. Students"
+      ]
+    },
+    {
+      "page": 9,
+      "bbox": [
+        304,
+        638,
+        553,
+        737
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "As shown in Table 2, the mean and standard deviation of\nthe experimental group were 82.86 and 11.17, respectively,\nwhile those of the control group were 75.36 and 13.19, respec-\ntively. The experimental group's learning achievement was\nsignificantly better than that of the control group (t=2.30,\np=0.03 <0.05), with a medium effect size (Cohen's d=0.61)\n(Cohen 1988).\n",
+      "paragraphs": [
+        "As shown in Table 2, the mean and standard deviation of the experimental group were 82.86 and 11.17, respectively, while those of the control group were 75.36 and 13.19, respectively. The experimental group's learning achievement was significantly better than that of the control group (t=2.30, p=0.03 <0.05), with a medium effect size (Cohen's d=0.61) (Cohen 1988)."
+      ]
+    },
+    {
+      "page": 9,
+      "bbox": [
+        43,
+        455,
+        294,
+        601
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "For the analysis of learning behaviour patterns, the learning\nbehaviour coding scale proposed by Hwang et al. (2023) was\nused as a reference and was adjusted to fit the context of this\nstudy. Based on the design of the virtual museum learning en-\nvironment, the following eight behavioural codes were selected\nand retained: start experience (SE), explore object (EO), repeat\nobject (RO), answer correctly (AC), wrong answer (WA), read\nmaterials (RM), next scene (NS), and finish experience (FE).\nThe definitions and descriptions of these behaviours are shown\nin Table 1. These codes were mainly used to classify the be-\nhaviours displayed by students during the process of completing\nthe learning tasks.\n",
+      "paragraphs": [
+        "For the analysis of learning behaviour patterns, the learning behaviour coding scale proposed by Hwang et al. (2023) was used as a reference and was adjusted to fit the context of this study. Based on the design of the virtual museum learning environment, the following eight behavioural codes were selected and retained: start experience (SE), explore object (EO), repeat object (RO), answer correctly (AC), wrong answer (WA), read materials (RM), next scene (NS), and finish experience (FE). The definitions and descriptions of these behaviours are shown in Table 1. These codes were mainly used to classify the behaviours displayed by students during the process of completing the learning tasks."
+      ]
+    },
+    {
+      "page": 10,
+      "bbox": [
+        43,
+        120,
+        294,
+        254
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "As shown in Table 3, the mean and standard deviation of the\nexperimental group were 4.37 and 0.54, respectively, while\nthose of the control group were 4.03 and 0.62, respectively.\nThe experimental group's critical thinking tendency was\nsignificantly higher than that of the control group (t=2.22,\np=0.03 <0.05), with a medium effect size (Cohen's d=0.58)\n(Cohen 1988). It is inferred that the SE-VML model was effec-\ntive in terms of helping students enhance their critical think-\ning tendency.\n",
+      "paragraphs": [
+        "As shown in Table 3, the mean and standard deviation of the experimental group were 4.37 and 0.54, respectively, while those of the control group were 4.03 and 0.62, respectively. The experimental group's critical thinking tendency was significantly higher than that of the control group (t=2.22, p=0.03 <0.05), with a medium effect size (Cohen's d=0.58) (Cohen 1988). It is inferred that the SE-VML model was effective in terms of helping students enhance their critical thinking tendency."
+      ]
+    },
+    {
+      "page": 10,
+      "bbox": [
+        43,
+        339,
+        294,
+        472
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "As shown in Table 4, the mean and standard deviation of the\nexperimental group were 4.49 and 0.69, respectively, while\nthose of the control group were 4.12 and 0.63, respectively.\nThe collaborative tendency of the experimental group was\nsignificantly higher than that of the control group (¢=2.11,\np=0.03 <0.05), with a medium effect size (Cohen's d=0.56)\n(Cohen 1988). It is inferred that the SE-VML model was effec-\ntive in terms of helping students enhance their propensity to\ncollaborate.\n",
+      "paragraphs": [
+        "As shown in Table 4, the mean and standard deviation of the experimental group were 4.49 and 0.69, respectively, while those of the control group were 4.12 and 0.63, respectively. The collaborative tendency of the experimental group was significantly higher than that of the control group (¢=2.11, p=0.03 <0.05), with a medium effect size (Cohen's d=0.56) (Cohen 1988). It is inferred that the SE-VML model was effective in terms of helping students enhance their propensity to collaborate."
+      ]
+    },
+    {
+      "page": 10,
+      "bbox": [
+        43,
+        558,
+        294,
+        635
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "As shown in Table 5, the mean and standard deviation of the\nexperimental group were 4.58 and 0.59, respectively, while\nthose of the control group were 4.18 and 0.66, respectively.\nThe experimental group's metacognition was significantly\nhigher than that of the control group (t=2.40, p=0.02 <0.05),\n",
+      "paragraphs": [
+        "As shown in Table 5, the mean and standard deviation of the experimental group were 4.58 and 0.59, respectively, while those of the control group were 4.18 and 0.66, respectively. The experimental group's metacognition was significantly higher than that of the control group (t=2.40, p=0.02 <0.05),"
+      ]
+    },
+    {
+      "page": 10,
+      "bbox": [
+        304,
+        28,
+        553,
+        97
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "with a medium effect size (Cohen's d=0.64) (Cohen 1988).\nIt is inferred that the SE-VML model proposed in this study\nwas effective in terms of helping students enhance their\nmetacognition.\n",
+      "paragraphs": [
+        "with a medium effect size (Cohen's d=0.64) (Cohen 1988). It is inferred that the SE-VML model proposed in this study was effective in terms of helping students enhance their metacognition."
+      ]
+    },
+    {
+      "page": 10,
+      "bbox": [
+        304,
+        119,
+        553,
+        230
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "The behavioural codes in this study were developed with ref-\nerence to the coding table proposed by Hwang et al. (2023) and\nwere adjusted according to the characteristics of the virtual\nmuseum developed in this study. The coding scheme included a\ntotal of eight behavioural codes, the definitions and descriptions\nof which are detailed in Table 1. The learning behaviours of the\nlearners were automatically recorded in the virtual museum\nsystem and were coded by two researchers according to the cod-\ning table, with a Kappa value of 0.80.\n",
+      "paragraphs": [
+        "The behavioural codes in this study were developed with reference to the coding table proposed by Hwang et al. (2023) and were adjusted according to the characteristics of the virtual museum developed in this study. The coding scheme included a total of eight behavioural codes, the definitions and descriptions of which are detailed in Table 1. The learning behaviours of the learners were automatically recorded in the virtual museum system and were coded by two researchers according to the coding table, with a Kappa value of 0.80."
+      ]
+    },
+    {
+      "page": 10,
+      "bbox": [
+        304,
+        361,
+        553,
+        528
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "The results of the analysis showed that in the residual table,\nthere were 10 learning behaviours in the experimental group\n(Table 6) and seven in the control group (Table 7) that reached a\nsignificant level. There were seven identical learning behaviours\nthat reached a significant level in both groups and three differ-\nent significant behaviours.\n\nThe behavioural conversion diagram for the experimental\ngroup was plotted according to Table 6, as shown in Figure 8,\nand the behavioural conversion diagram for the control group\nwas plotted according to Table 7, as shown in Figure 9. The\nvalues in the graphs represent the Z-values of each sequence.\nThe black line represents the significant sequences occurring in\n",
+      "paragraphs": [
+        "The results of the analysis showed that in the residual table, there were 10 learning behaviours in the experimental group (Table 6) and seven in the control group (Table 7) that reached a significant level. There were seven identical learning behaviours that reached a significant level in both groups and three different significant behaviours.",
+        "The behavioural conversion diagram for the experimental group was plotted according to Table 6, as shown in Figure 8, and the behavioural conversion diagram for the control group was plotted according to Table 7, as shown in Figure 9. The values in the graphs represent the Z-values of each sequence. The black line represents the significant sequences occurring in"
+      ]
+    },
+    {
+      "page": 11,
+      "bbox": [
+        304,
+        662,
+        553,
+        737
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "From Figures 8 and 9, we can observe the same salient be-\nhaviours in both groups, including the behavioural paths of\nStart Experience (SE) > Explore Object (EO) > Read Materials\n(RM) — Answer the question correctly (AC)— Explore Object\n(EO), Next Scene (NS)— Explore Object (EO)— Answer the\nquestion correctly (AC), and Explore Object (EO)-— Finish\n",
+      "paragraphs": [
+        "From Figures 8 and 9, we can observe the same salient behaviours in both groups, including the behavioural paths of Start Experience (SE) > Explore Object (EO) > Read Materials (RM) — Answer the question correctly (AC)— Explore Object (EO), Next Scene (NS)— Explore Object (EO)— Answer the question correctly (AC), and Explore Object (EO)-— Finish"
+      ]
+    },
+    {
+      "page": 12,
+      "bbox": [
+        304,
+        535,
+        553,
+        736
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "Besides, the red line in Figure 8 presents the main differences\nin the learning behaviours of the two groups. Students in the\nexperimental group had a very high probability of repeatedly\nreading the materials after reading them once (Read Materials\n(RM) - Read Materials (RM)). This suggests that the SE-VML\nmode motivated learners to engage in repeated iterative mes-\nsage processing when comprehending the content, in order\nto fulfil the need for self-explanation of textual representa-\ntions. Furthermore, the high probability that students in the\nexperimental group moved to the next scene and continued\nto read the materials (Read Materials (RM)—Next Scene\n(NS) > Read Materials (RM)) suggests that the SE-VML model\nencouraged learners to proactively and purposefully move to\na new scene after completing the self-explanation task in the\ncurrent scene, and to prioritise searching for relevant content\nin preparation for the next explanatory task.\n",
+      "paragraphs": [
+        "Besides, the red line in Figure 8 presents the main differences in the learning behaviours of the two groups. Students in the experimental group had a very high probability of repeatedly reading the materials after reading them once (Read Materials (RM) - Read Materials (RM)). This suggests that the SE-VML mode motivated learners to engage in repeated iterative message processing when comprehending the content, in order to fulfil the need for self-explanation of textual representations. Furthermore, the high probability that students in the experimental group moved to the next scene and continued to read the materials (Read Materials (RM)—Next Scene (NS) > Read Materials (RM)) suggests that the SE-VML model encouraged learners to proactively and purposefully move to a new scene after completing the self-explanation task in the current scene, and to prioritise searching for relevant content in preparation for the next explanatory task."
+      ]
+    },
+    {
+      "page": 13,
+      "bbox": [
+        43,
+        154,
+        294,
+        244
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "As can be seen in Figures 10 and 11, we distinguished the text data\ninto application codes (green and red) and abstract codes (blue),\nand used the code-code relation of “is part of” to establish the links\nbetween them. In addition, the five abstract codes were connected\nto each other through the code-code relation of “is associated\nwith,” presenting the relatedness between the abstract codes. In\nresponse to research question 5, five themes were finalised.\n",
+      "paragraphs": [
+        "As can be seen in Figures 10 and 11, we distinguished the text data into application codes (green and red) and abstract codes (blue), and used the code-code relation of “is part of” to establish the links between them. In addition, the five abstract codes were connected to each other through the code-code relation of “is associated with,” presenting the relatedness between the abstract codes. In response to research question 5, five themes were finalised."
+      ]
+    },
+    {
+      "page": 13,
+      "bbox": [
+        43,
+        265,
+        294,
+        338
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "Students mentioned several advantages that promote learn-\ning effectiveness. These included focusing on understanding\nthe learning content, reviewing and reflecting on the learn-\ning content, and enhancing interdisciplinary knowledge.\nBesides, the experimental group specifically reported one\n",
+      "paragraphs": [
+        "Students mentioned several advantages that promote learning effectiveness. These included focusing on understanding the learning content, reviewing and reflecting on the learning content, and enhancing interdisciplinary knowledge. Besides, the experimental group specifically reported one"
+      ]
+    },
+    {
+      "page": 13,
+      "bbox": [
+        304,
+        28,
+        553,
+        59
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "benefit: strengthening impressive understanding of knowl-\nedge (Table 8).\n",
+      "paragraphs": [
+        "benefit: strengthening impressive understanding of knowledge (Table 8)."
+      ]
+    },
+    {
+      "page": 13,
+      "bbox": [
+        304,
+        178,
+        553,
+        338
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "2. Fostering Critical Thinking\n\nStudents reported that the learning process fostered critical\nthinking. This included the ability to promote diverse thinking.\nBesides, the experimental group uniquely reported two abilities:\nevaluating the accuracy of viewpoints and developing indepen-\ndent thinking skills (Table 8). Most students in the experimental\ngroup stated that before participating in facilitating collabo-\nration, they built their understanding and perspectives on the\ncontent through the process of self-explanation, which involved\ndeveloping independent thinking skills. This process helped\nthem more effectively evaluate the accuracy of viewpoints\nduring group collaboration and provide constructive feedback.\n",
+      "paragraphs": [
+        "2. Fostering Critical Thinking",
+        "Students reported that the learning process fostered critical thinking. This included the ability to promote diverse thinking. Besides, the experimental group uniquely reported two abilities: evaluating the accuracy of viewpoints and developing independent thinking skills (Table 8). Most students in the experimental group stated that before participating in facilitating collaboration, they built their understanding and perspectives on the content through the process of self-explanation, which involved developing independent thinking skills. This process helped them more effectively evaluate the accuracy of viewpoints during group collaboration and provide constructive feedback."
+      ]
+    },
+    {
+      "page": 14,
+      "bbox": [
+        43,
+        143,
+        294,
+        321
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "3. Fostering Collaboration\n\nIn terms of facilitating collaboration, students mentioned sev-\neral aspects. These included the ability to communicate and\nshare opinions, as well as the ability to collaborate to complete\ntasks. Besides, the experimental group additionally reported an\nextra ability: achieving group consensus (Table 8). Most stu-\ndents in the experimental group believed that after completing\nthe self-explanation task, they could express their viewpoints\nmore clearly when entering group discussions. Through com-\nmunicating and sharing opinions, they were able to compare\nand integrate different ideas, which helped them achieve group\nconsensus. In contrast, students in the control group often men-\ntioned situations where they either omitted certain content or\nstruggled to explain their thoughts clearly.\n",
+      "paragraphs": [
+        "3. Fostering Collaboration",
+        "In terms of facilitating collaboration, students mentioned several aspects. These included the ability to communicate and share opinions, as well as the ability to collaborate to complete tasks. Besides, the experimental group additionally reported an extra ability: achieving group consensus (Table 8). Most students in the experimental group believed that after completing the self-explanation task, they could express their viewpoints more clearly when entering group discussions. Through communicating and sharing opinions, they were able to compare and integrate different ideas, which helped them achieve group consensus. In contrast, students in the control group often mentioned situations where they either omitted certain content or struggled to explain their thoughts clearly."
+      ]
+    },
+    {
+      "page": 14,
+      "bbox": [
+        43,
+        489,
+        294,
+        641
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "4. Enhancing Metacognition\n\nIn terms of enhancing metacognition, students mentioned the\nability to develop and refine conceptual knowledge. Besides, the\nexperimental group solely reported two abilities: self-monitoring\ncomprehension and adapting learning strategies (Table 8). Most\nstudents in the experimental group stated that when answer-\ning the self-explanation task questions, they were better able to\nmonitor their understanding of the learning content. They also\nbecame more aware of the information easily overlooked during\nthe exploration of the virtual museum scenes, prompting them\nto adapt their learning strategies and focus more on the key\ninformation.\n",
+      "paragraphs": [
+        "4. Enhancing Metacognition",
+        "In terms of enhancing metacognition, students mentioned the ability to develop and refine conceptual knowledge. Besides, the experimental group solely reported two abilities: self-monitoring comprehension and adapting learning strategies (Table 8). Most students in the experimental group stated that when answering the self-explanation task questions, they were better able to monitor their understanding of the learning content. They also became more aware of the information easily overlooked during the exploration of the virtual museum scenes, prompting them to adapt their learning strategies and focus more on the key information."
+      ]
+    },
+    {
+      "page": 14,
+      "bbox": [
+        304,
+        142,
+        553,
+        398
+      ],
+      "pageSize": [
+        595.2760009765625,
+        782.3619995117188
+      ],
+      "rawText": "5. Increasing Learning Motivation\n\nIn terms of increasing learning motivation, students reported\ntwo common willingness indicators: their willingness to apply\nthe approach to other courses and their willingness to continue\nto use the approach. Besides, the experimental group exclusively\nreported an additional aspect: the desire to explore the learning\ncontent further (Table 8). E04 stated that this learning approach\nsparked their interest in learning and made them curious about\nthe interdisciplinary knowledge embedded in the artefacts. It\nalso motivated them to proactively read the learning materials\nfirst whenever entering a new scene. C05 expressed that the\nlearning method was very interesting, and they hoped to con-\ntinue using it and apply it to different course content. Besides,\nE08 mentioned that the museum collections contain many ar-\ntefacts, but this learning activity only focused on a few items.\nAfter completing the collaborative concept mapping with the\ngroup, E08 expressed the hope to have more opportunities to ex-\nplore additional artefacts in the future.\n\n6 | Discussion and Conclusions\n",
+      "paragraphs": [
+        "5. Increasing Learning Motivation",
+        "In terms of increasing learning motivation, students reported two common willingness indicators: their willingness to apply the approach to other courses and their willingness to continue to use the approach. Besides, the experimental group exclusively reported an additional aspect: the desire to explore the learning content further (Table 8). E04 stated that this learning approach sparked their interest in learning and made them curious about the interdisciplinary knowledge embedded in the artefacts. It also motivated them to proactively read the learning materials first whenever entering a new scene. C05 expressed that the learning method was very interesting, and they hoped to continue using it and apply it to different course content. Besides, E08 mentioned that the museum collections contain many artefacts, but this learning activity only focused on a few items. After completing the collaborative concept mapping with the group, E08 expressed the hope to have more opportunities to explore additional artefacts in the future.",
+        "6 | Discussion and Conclusions"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1145 @@
+{
+  "revision": "remaining-papers-companion-v1",
+  "papers": {
+    "paper-02": {
+      "segments": {
+        "paper-02-s-0c62657ded0c": {
+          "faithfulZh": "該遊戲包含多個身臨其境的場景，旨在讓學生深入瞭解與不同動物棲息地相關的任務。 圖 3 顯示了一個敘事互動場景，學生在其中與女王角色交談以接收背景資訊並開始他們的使命。 這種基於對話的設定有助於建立故事情節並將學習目標置於背景中。 圖 4 展示了另一個互動場景，學生與學習目標（例如，青蛙王）互動，回答與棲息地相關的問題，例如“鱷魚住在哪裡？”透過這些互動，學生在草原、沙漠等不同環境中積極收集和應用知識， 森林、海洋、河流和北極。 收集的資訊儲存在系統中以供以後審查和整合。",
+          "plainZh": "遊戲使用身臨其境的場景來幫助學生了解動物棲息地，圖 3 顯示了一個基於對話的場景，帶有一個女王角色進行任務簡報。 圖 4 展示了另一個互動場景，學生回答棲息地問題，收集有關草地、沙漠、森林、海洋、河流和北極的知識，這些知識將被儲存起來以供以後審查。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:21:02.841Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "b283a0327e171373eeaaf1e62f3dadabb5e12e1eca734607f627d7e58df1672f",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-02-s-1e1d9d3a758f": {
+          "faithfulZh": "ANCOVA 使用學習動機的預問卷分數作為協變數，學習方法（概念地圖促進或常規遊戲）作為自變數，將學習動機的後問卷評分作為因變數。",
+          "plainZh": "ANCOVA 用於比較兩種學習方法之間的學習動機：概念地圖促進遊戲或傳統遊戲。 學習動機預測試分數在分析中用作協變數。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:21:02.876Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "80e606a6297e9cf211ab81fe53d9b2852c0773de5bb90695f6c38b0ba636d013",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-02-s-2b19a0700fc9": {
+          "faithfulZh": "圖 9 代表了 C-CLDG 組的行為轉變。 儘管也存在導致 Ca 和 CW 過渡到 CR 的 AQ 等有益序列，但行為轉變的整體模式結構不那麼清晰。 值得注意的是，複發性雙向轉變經常發生，例如 CA 恢復到 AQ，表明任務期間的潛在不確質性或不一致的理解。 此外，單一行為中的重複迴圈（例如，CW 反覆過渡到自身）反映了在有效解決錯誤或提高理解方面的困難。 與 CM-CLDG 組中明顯的相比，這種行為模式表明相對較少的戰略方向和更少系統的學習方法。 總體而言，順序分析強調了兩種遊戲模式中行為模式之間明顯的質性差異。",
+          "plainZh": "在 C-CLDG 組中，行為轉變的結構比有益的序列少。 複發性雙向轉變（例如，CA 恢復為 AQ）很常見，表明潛在的理解問題。 行為中的重複迴圈反映了糾正錯誤的困難，這表明與 CM-CLDG 組相比，戰略學習的學習較少。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:21:02.946Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "a14ae9ac3197b1b1891ee9f554d5f7b3ba3386c930df7efd862b1b0af0eacb00",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-02-s-456131e55584": {
+          "faithfulZh": "基於認知負荷理論（Sweller 1988, 1994），該研究強調了減少外來負荷和促進有效學習的相關負荷的重要性，本研究提出了 CM-CLDG 模型。 該模型將概念對映整合為數字遊戲過程的嵌入式元件，允許學習者在透過遊戲任務進行的過程中視覺化概念之間的關係。 CM-CLDG 模型旨在利用概念圖的認知益處和 DGBL 的動機可供性，支援學生構建知識、管理情緒和有意義地參與學習內容。 透過將概念對映嵌入到遊戲故事情節和回饋機制中，這種方法旨在以更結構化和後設認知的支援方式增強學習成果。",
+          "plainZh": "本研究提出了一種基於認知負荷理論的CM-CLDG模型，將概念對映整合到數字遊戲中以減少外來負荷並促進相關負荷。 該模型旨在透過更結構化和後設認知的支援方法利用概念圖和遊戲來支援知識構建、情緒調節和參與學習。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:21:02.997Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "4bcfdc4c21db16df6490c0897c47461a9eec00273981c2b4494565d2f7fb597b",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-02-s-4772f87c6512": {
+          "faithfulZh": "在這項研究中進行了準實驗。 參與者是臺灣中部一所小學的三年級六年級學生。 他們的平均年齡是 12 歲。 他們分為兩組：CM-CLDG 模型組，由兩類學生 (n = 53) 和 C-CLDG 模型組組成，由一類 (n = 25) 組成。 這兩個小組都由具有超過 3 年英語教學經驗的同一位講師教授。 此外，一位擁有超過 8 年雙語科學教學經驗的高階教師參與了課程設計和討論，以確保教學質量和與英語和科學教育目標的一致性。",
+          "plainZh": "對臺灣中部一所學校的三個六年級班（CM-CLDG 模型組 n=53，C-CLDG 模型組 n=25）進行了準實驗。 學生由同一位講師（超過 3 年的經驗）教授，一名高階教師（超過 8 年的雙語科學經驗）協助課程設計，以確保教學質量。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:21:03.051Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "0695b980f6fc3836dff8b8551481294253a32644a7ad78b850d09380181fac95",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-02-s-529ee340799b": {
+          "faithfulZh": "分析顯示 CM-CLDG 組和 C-CLDG 組之間的學習焦慮沒有顯著差異。 這可能是由於學生之前接觸過數字學習，這可能會使基於遊戲的環境正常化並減少潛在的焦慮觸發因素。 儘管先前的研究發現概念圖可以透過提供更清晰的結構和減少歧義來緩解語言焦慮（Chen 和 Hwang 2020），但本研究中觀察到的焦慮水平已經中等可能限制了可衡量差異的可能性。 未來的研究可能會考慮在更高的焦慮情況下應用類似的干預措施，以更好地評估概念對映的情感益處。 Krashen 的情感過濾器假設 (1982) 表明，焦慮透過促進或阻礙輸入處理來影響語言習得。 在這項研究中，兩組中相對較低的情感過濾器可能減少了概念對映對焦慮減少的可觀察影響。",
+          "plainZh": "CM-CLDG 和 C-CLDG 組之間的學習焦慮沒有顯著差異。 這可能是因為學生已經習慣了數字學習，可能會使遊戲環境正常化。 先前的研究表明，概念圖可以減少語言焦慮，但本研究中的中等焦慮水平可能限制了可觀察到的差異。 情感過濾器假設表明，低焦慮水平可能減少了概念對映對焦慮減少的影響。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:21:03.113Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "5beaad78e0e90e2ff0740dd590b27e9cd3e0a304aea91a4eefa3dbabdf1711c0",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-02-s-922e7b71ebe0": {
+          "faithfulZh": "DGBL 是一種整合遊戲機制和學習目標的教育方法，讓學生參與有意義的學習任務（Hwang et al. 2020; Panjaburee et al. 2025; Presky 2007）。 在 DGBL 環境中，學習者與基於計算機的遊戲進行互動，其中教育內容嵌入在遊戲場景中，指導學習者透過探索、決策和解決問題來完成任務（Poompimol et al. 2024; Prensky 2007）。 這些遊戲通常旨在透過提供促進認知發展和技能獲取的挑戰來創造身臨其境的學習體驗，並支援促進反思和修訂的即時回饋機制（Kinzie 和 Joseph 2008；Oblinger 2004）。 學習者通常需要完成任務或解決與教育目標相一致的問題，鼓勵享受和深度學習（Cagiltaty 2007；Coller 和 Scott 2009）。 由於其互動性和引人入勝的性質，DGBL 已應用於各種教育環境，例如數學、語言學習、科學和職業培訓（Liu 和 Chu 2010）。",
+          "plainZh": "DGBL 是一種使用遊戲機制吸引學習者的教育方法； 基於計算機的遊戲嵌入了教育內容，指導學習者透過探索、決策和解決問題，並得到即時回饋的支援。 這種方法已在數學、語言學習、科學和職業培訓等各種學科中採用。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:21:23.601Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "da0fac589ac03ec19d6ad1293f42071e33631f6d54fb2eebd73ecd84388bdad3",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-02-s-c148f6d8bd5c": {
+          "faithfulZh": "在教學實驗之後，對來自實驗組的六名學生和對照組的六名學生進行了訪談，以收集他們的學習經歷的質性見解。 為確保代表性，選擇是基於學生的預測試表現。 具體來說，從每組中隨機選擇了三名成績優異的學生和三名成績不佳的學生。 CM-CLDG 和 C-CLDG 組的大多數參與者對基於情境化的遊戲環境表達了積極的態度。 結果還揭示了兩組的不同經驗模式，如表 9 所示。",
+          "plainZh": "在教學實驗之後，對來自實驗組和對照組的六名學生進行了訪談，以收集有關他們學習經歷的質性資料。 參與者是根據他們的預測試表現選擇的，每組隨機選擇三名成績優異的學生和三名成績不佳的學生。 兩組中的大多數參與者都對基於遊戲的環境表示積極的態度，兩組之間觀察到不同的體驗模式。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:21:23.652Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "7503ad4aebff56f60e31439cae5b16e2e0b160cb470249c07190d7adeb8652ba",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-02-s-c198cae08a0c": {
+          "faithfulZh": "1. 使用概念地圖促進內容和語言綜合數字遊戲 (CM-CLDG) 模式學習的學生是否比使用傳統內容和語言整合數字遊戲 (C-CLDG) 模式學習的學生表現出更好的英語學習成績？",
+          "plainZh": "該研究詢問學生是否使用概念地圖促進內容和語言整合數字遊戲 (CM-CLDG) 模型學習與使用傳統內容和語言整合數字遊戲 (C-CLDG) 模型的學生相比，能獲得更好的英語學習成果。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:21:23.683Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "4a1c7e730e41e427fa4f2c63b24783cece1642b1b1b4e45a84cf62afd005527c",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-02-s-d5b6f498eb5c": {
+          "faithfulZh": "圖 13 顯示了兩種遊戲模式中與 RK（複習知識）相關的行為轉換。 在 C-CLDG 組中，觀察到從 RK 到 AQ 的顯著轉變。 這表明學生有時會在回顧知識內容後回答任務。 在 CM-CLDG 組中，儘管也存在回顧行為，但沒有檢測到從 RK 到 AQ 的顯著轉變。 鑑於 CM-CLDG 模型涉及概念圖作為指導框架，學生可能會出於即時回答的目的進行復習，例如識別概念差距或透過概念圖更新他們的理解。 兩組之間可觀察到的過渡的差異表明，視覺支架的存在與否可能會影響學生如何將複習活動與後續的任務反應聯絡起來。",
+          "plainZh": "在 C-CLDG 組中，觀察到從複習知識 (RK) 到回答問題 (AQ) 的重大轉變，表明學生有時會在複習材料後回答任務。 在 CM-CLDG 組中，沒有觀察到從 RK 到 AQ 的顯著轉變。 這表明概念圖可能會鼓勵用於超出即時回答的目的審查，例如識別概念差距。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:21:23.753Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "6d8f8e8f0d9b389056084af007e3b4ed87aa487956f6ac90fcf7e5a6f50734b7",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-02-s-deda0ac4c12a": {
+          "faithfulZh": "必須承認一些限制。 首先，樣本量相對較小，僅限於一所學校，這可能會限制研究結果的普遍性。 其次，雖然該研究使用預測試控制了先驗知識，但沒有評估其他學習者特徵，如學習方式、數字素養或先前接觸基於遊戲的環境。 第三，干預期為短期； 因此，該研究沒有評估內容知識的長期保留或持續的動機效應。 最後，雖然使用 Gseq 分析了行為序列並輔以學生訪談，但對遊戲中學習者後設認知過程的深入探索需要進一步研究。",
+          "plainZh": "侷限性包括僅限於一所學校的小樣本量，缺乏對學習風格和數字素養等學習特徵的評估，短期干預期，以及在遊戲過程中進一步探索後設認知過程的必要性。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:21:23.797Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "a758334014fa05633b8066ee8753ccc25affdb38e665f01f69d46b2ba8a46053",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-02-s-ea1bc34a3c6f": {
+          "faithfulZh": "這個數字遊戲系統是圍繞一個專注於動物棲息地及其相關環境特徵的學習單元設計的。 該遊戲圍繞一系列任務構建，這些任務指導學生完成探索、互動和知識構建的有序過程。 如圖 2 所示，遊戲開始於遊戲的啟動和場景特定資訊的呈現。 然後，學生根據棲息地內容回答測驗問題。 根據他們的反應，系統提供即時回饋，表明他們的答案是正確還是不正確，然後有機會收集徽章作為獎勵。 在遊戲過程中，該系統還包括學生重試任務、識別正確和不正確的資訊並獲得最終解釋的機會。 在後期，學生透過系統回饋回顧他們所學到的知識，然後進行概念圖審查和反思階段，在那裡他們檢視和組織綜合概念圖以鞏固他們的理解。 這一步透過將任務執行與反思聯絡起來來結束迴圈，從而形成一個促進形成性評估和有意義學習的迴圈學習過程。",
+          "plainZh": "數字遊戲系統側重於動物棲息地，利用任務引導學生進行探索、互動和知識構建。 遊戲玩法包括回答測驗問題、立即獲得回饋、賺取徽章和重試任務，並有機會進行概念圖審查和反思，以鞏固理解。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:21:23.858Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "81722fc6f28471bafaa26fc964388da5f9a6d270b0b1338ff81af6ce8f34f525",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-02-s-recovered-00e872a9850e": {
+          "faithfulZh": "3. 使用 CM-CLDG 模型學習的學生是否比使用 C-CLDG 模型學習的學生表現出更高的學習動機？",
+          "plainZh": "這篇文章詢問使用 CM-CLDG 模型的學生是否表現出與使用 C-CLDG 模型的學生相比更高的學習動機。 本文研究了兩種學習模型之間動機的潛在差異。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:21:37.583Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "00e872a9850eac33dc8b32a207efc8d599c351cfe32f413e8a3b1a85c5e1a2dd",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-02-s-recovered-27d6d80942d8": {
+          "faithfulZh": "4. 用 CM-CLDG 模型學習的學生是否比使用 C-CLDG 模型學習的學生體驗到更多的流動？",
+          "plainZh": "這篇文章調查了使用 CM-CLDG 模型的學生是否報告了使用 C-CLDG 模型的學生的流量比學生更大的情況。 該研究將流動作為與兩種不同學習方法相關的體驗來檢驗。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:21:37.610Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "27d6d80942d8dc433b001ca1f24bfa53cfa457208f06550fbd0b18b3ed758891",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-02-s-recovered-29e0545e135c": {
+          "faithfulZh": "6. 使用 CM-CLDG 模型學習的學生是否表現出與使用 C-CLDG 模型學習的不同的行為模式？",
+          "plainZh": "這篇文章詢問學生使用 CM-CLDG 模型學習是否表現出與使用 C-CLDG 模型學習的學生不同的行為模式。 該研究檢查了兩種學習模型之間觀察到的行為差異。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:21:37.634Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "29e0545e135cf0d1624709427cae89c6634cad5a03e214aaab9175f16afef323",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-02-s-recovered-3073d7eacf34": {
+          "faithfulZh": "2. 使用 CM-CLDG 模型學習的學生是否比使用 C-CLDG 模型學習的學生表現出更好的科學學習成果？",
+          "plainZh": "這篇文章詢問使用 CM-CLDG 模型學習的學生是否比使用 C-CLDG 模型學習的學生獲得更好的科學學習成果。 該研究的重點是使用這兩個模型比較科學學習成果。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:21:37.657Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "3073d7eacf343707863ce465777120eb465951f456a34d4a2fdbe72aaf5d22fc",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-02-s-recovered-ecb14a771d87": {
+          "faithfulZh": "5. 與 C-CLDG 模型相比，CM-CLDG 模型是否減少了學生的學習焦慮？",
+          "plainZh": "這篇文章詢問 CM-CLDG 模型是否減少了與 C-CLDG 模型相比學生的學習焦慮。 該研究調查了 CM-CLDG 模型對學生學習焦慮水平的影響。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:21:37.679Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "ecb14a771d87dcc833dc5c61a887319596f9197c994b650cd797a55392ea0c53",
+          "explanationMethod": "isolated-model-clone-v1"
+        }
+      },
+      "appendices": {}
+    },
+    "paper-03": {
+      "segments": {
+        "paper-03-s-394f712fcaea": {
+          "faithfulZh": "系統綜合學習目標、學生興趣和個人學習需求，以增強內容的相關性。 例如，學生可以根據自己的興趣和需求選擇他們希望評估的瑜伽運動，觀看示範，並接受這些運動的關鍵解釋。 他們還被允許提交練習照片以獲取即時建議，包括骨架圖、雷達圖分析和指標分數（見圖 3）。 透過系統的具體指導和回饋，學生更清楚地瞭解如何提高他們的表現。 同時，這加強了實踐過程與特定學習成果之間的聯絡，進一步增強了他們學習的意義和相關性。",
+          "plainZh": "該系統根據學生的興趣和需求量身定製學習內容，使他們能夠選擇運動來評估和接收諸如骨骼圖和雷達圖的回饋（圖 3）。 這種指導實踐提高了學生的表現，並加強了實踐和學習成果之間的聯絡。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:21:50.232Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "6afbf912a00b92408057e937679ebbfd3a398b5a7f1a79cd617cff4adf069e8b",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-03-s-d8d0e07c2c1c": {
+          "faithfulZh": "(1) 與傳統 AI 運動評估和回饋 (C-AI-MAF) 方法相比，G-AI-MAF 方法是否會導致學生的運動技能表現有所不同？ (2) 與 C-AI-MAF 方法相比，G-AI-MAF 方法是否會導致學生的學習參與度有所不同？ (3) G-AI-MAF 方法與 C-AI-MAF 方法相比是否會導致學生的學習行為有所不同？",
+          "plainZh": "該研究調查了 G-AI-MAF 方法與傳統 C-AI-MAF 方法在學生運動技能表現、學習參與和學習行為方面的差異。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:21:50.305Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "d272b03f2960d22053483d612eee6d056a2f5c7ba258cb916014c76aa58dba39",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-03-s-recovered-0b0f62df911e": {
+          "faithfulZh": "在體育教育 (PE) 中，學生的運動技能表現是評估教學效果的關鍵指標。 提高學生的運動技能需要培養他們對相關理論知識的理解，並確保他們正確執行運動。 此外，必須儘量減少不正確的練習，以防止潛在的運動損傷和表現下降，最終實現技能提高的教育目標。 然而，根據每個學生的個人需求提供量身定製的指導給教師帶來了重大挑戰（Chao 等人，2021；Yan & Cardinal，2013；Yan & Fitzpatrick，2016）。 因此，學者們引入了技術輔助學習，成功地證明了其在支援體育課程方面的有效性（Almusawi et al., 2021; Moon et al., 2023）。 特別是，人工智慧 (AI) 的應用為技術輔助學習和個性化指導開闢了更多機會（Chen et al., 2022; Lai & Tu, 2024; Tu & Lu, 2025）。 例如，AI語音識別技術可以立即翻譯和幫助學生學習語言（Darvishi et al., 2022; Wang et al., 2023）。 運動捕捉技術可以分析學生的運動技能表現，並根據個人學習進度和挑戰提供個性化的指導（Hsia et al., 2024, 2025; Li et al., 2024; Song, 2024）。 這些研究表明，人工智慧提供的個性化回饋確實可以幫助大多數學生更有效地學習。 然而，一些學生報告說難以理解人工智慧提供的學習績效分析，這表明他們需要額外的支援才能完全理解他們的問題（劉等人，2024；宋，2024；王等人，2023）。 為了解決這個問題，一些學者建議提供一個視覺化的學習分析儀表板，透過簡單的圖表呈現關鍵指標，幫助學生理解和反思他們的學習過程（Lee & Kim，2024）。 根據該建議，本研究以視覺化格式呈現評估結果，以幫助學生克服語言障礙和理解運動技能指導。",
+          "plainZh": "在體育教育中，個性化的回饋對教師來說具有挑戰性，但技術，尤其是人工智慧，可以提供幫助。 像 Motion Capture 這樣的 AI 應用程式可以分析運動技能並提供量身定製的指導，但學生可能需要支援才能理解分析，這表明需要視覺化的學習分析。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:21:50.410Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "0b0f62df911e070654f83a30ef613a555237114cd19ba7b7a1bcb7b624cd4022",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-03-s-d428b65b19f8": {
+          "faithfulZh": "至於學習行為，系統會自動記錄學生的行為，並使用 GSEQ 軟體進行滯後順序分析，以探索學習環境中的行為模式。 採用 Z 分數進行測試，並生成調整後的殘差表以分析這些行為模式。 大於 1.96 (Bakeman & Gottman, 1997) 的 z 分數被認為對於識別有意義的行為模式很重要。",
+          "plainZh": "系統自動記錄學生的動作，GSEQ 軟體用於分析學習過程中的行為模式。 Z 分數用於確定任何觀察到的行為模式是否具有統計學意義（大於 1.96，Bakeman & Gottman，1997）。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:21:50.273Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "aae659d1de30c66ab98b44e24a15886bcc5c8c60d5127fb4e4f6686d90fe20ec",
+          "explanationMethod": "isolated-model-clone-v1"
+        }
+      },
+      "appendices": {}
+    },
+    "paper-04": {
+      "segments": {
+        "paper-04-s-285083337c57": {
+          "faithfulZh": "與參與度量一樣，專案詞幹適應了課程的各個階段。 T1 和 T2 專案涉及小組專案經驗（例如“在以前的小組工作中，我的團隊中的大多數成員都對任務感興趣”），而 T3 專案針對當前學期的合作專案（例如“在本學期的小組工作中，我的團隊中的大多數成員都是 對任務感興趣”）。 指令是為了區分一般和特定於課程的反應而量身定製的。 這三個分量表的操作如下：（1）協同社會合作評估了情感和社會凝聚力，例如信任和互惠（例如，“我的團隊有歸屬感”。）（2）分散式創造力評估了創造性貢獻的程度 共享和迭代開發（例如，“我們的團隊為教育遊戲產生了新的和創造性的想法”。）（3）時間調節和成就衡量的時間管理和任務完成（例如，“我們有效地管理時間以滿足最後期限”）。",
+          "plainZh": "課程納入了適應不同階段的措施，其中有與現有小組專案經驗相關的 T1 和 T2 專案和側重於本學期專案的 T3 專案。 對一般和課程特定反應的說明進行了區分。 該研究實施了三個子量表：協同社會合作（情感/社會凝聚力，如信任和互惠）、分散式創造力（共享/迭代開發創造性貢獻）以及時間調節與成就（時間管理/任務完成）。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:22:13.280Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "558c46dff28cc1a9e963d0f3b0ee1c687e0588bfb224d31bc2f67ef681f919ee",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-04-s-36e5b8f7b1d5": {
+          "faithfulZh": "在這些框架的指導下，學期分為三個階段（圖 1）。 第一階段（第 1-9 周）透過關於健康促進原則、行為理論和全球戰略的講座和討論的理論基礎。 第二個（第 10-11 周）透過需求評估和干預設計制定了規劃技能。 最後一個階段（第 12-18 周）以共同創造性應用為中心，學生以 6-7 人的小組工作，為小學生設計教育棋盤遊戲。 每個小組都選擇了一個特定的健康主題（例如均衡飲食、傳染病預防、空氣汙染預防）、進行了受眾分析、定義了學習目標，並建立了遊戲機制和故事情節來傳達健康資訊。 每週的研討會和諮詢支援原型開發、同行遊戲測試和迭代改進，以將理論與社羣實踐聯絡起來的公開演示結束。",
+          "plainZh": "本學期分為三個階段：第 1-9 周專注於理論基礎，第 10-11 周發展規劃技能，第 12-18 周專注於學生設計教育棋盤遊戲的共同創造應用。 6-7 人小組選擇了健康主題、進行了受眾分析、定義了學習目標並建立了遊戲機制。 每週研討會支援原型開發、同行遊戲測試和改進，以公開演示結束。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:22:13.350Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "063505a2c7260d8471df4611821d2368afd84f9c5edd3f8c4c452e83481b13ca",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-04-s-3ed08068687d": {
+          "faithfulZh": "在課程結束時收集的開放式反思揭示了三個關鍵主題。 首先，學生報告說，共同創造任務幫助他們將抽象理論轉化為應用實踐。 一位學生指出，“設計一款遊戲讓我意識到簡化複雜的健康資訊是多麼困難”。 幾名學生表示，這項任務加深了他們的理解，因為這需要他們將理論內容轉化為對兒童友好的格式。 其次，活動增強了協作能力。 任務的迭代性質鼓勵了同行互動、想法分享和聯合決策。 一位參與者評論說：“我們學會了重視每個人的優勢。 遊戲的成功來自於結合不同的想法”。 第三，學生對受眾需求的認識更加強烈。 為小學生設計提高了他們對學習者觀點和職業認同感的敏感性。 “當我們的遊戲與孩子們一起點選的那一刻，我感覺就像一個真正的健康教育者”，一位學生反映道。 這些發現表明，Co-GBL 方法促進了公共衛生學習中的認知參與、團隊合作和現實世界相關性。",
+          "plainZh": "開放式反思表明，共同創造幫助學生將抽象理論應用於實踐，透過將概念轉化為對兒童友好的格式來加深他們的理解，並透過同伴互動和決策來增強協作能力。 學生還對觀眾的需求產生了更高的認識，從而產生了更強的專業認同感。 Co-GBL 方法促進了公共衛生學習中的認知參與、團隊合作和現實世界相關性。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:22:13.411Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "ee9e185c7c7c261bd193a54b3080bc56a69e67e94da2738fd54cf72b5cb7937a",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-04-s-6519e074d587": {
+          "faithfulZh": "健康促進教育橋接學術理論和社羣實踐，要求學習者發展概念理解和團隊合作、溝通和專案實施等實踐能力（Mackay 等，2024）。 然而，傳統的基於講座的教學往往無法培養批判性思維和可轉移技能，限制學生在真實環境中應用知識的能力。 體驗式和反思性學習，包括基於遊戲的學習 (GBL)，提供了一種將理論與實踐聯絡起來並加強身份發展的有前途的方式（Pham 等人，2023）。",
+          "plainZh": "健康促進教育旨在彌合理論和實踐，需要團隊合作和專案實施等技能。 傳統的講座通常會限制批判性思維和技能發展。 體驗式學習，尤其是基於遊戲的學習（GBL），可以將理論與實踐聯絡起來，加強身份認同。 這種學習方法有望促進參與和可轉移的技能。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:22:13.447Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "03df7d2b1c51c174f273b6a7f3cc082e8ad4ae9b0e712f65525cbe4dc64ee7f1",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-04-s-fc7251ae8e19": {
+          "faithfulZh": "儘管已在科學和可持續性教育等領域進行了共同創造性的 GBL（Heim & Holt, 2021; Mercer 等人，2017）的探索，但它在健康教育中的代表性仍然不足。 來自其他學科的證據表明，將學生作為協作設計者不僅加深了動力和自我效能感，而且還增強了學習的感知相關性，將抽象理論與真實的、以實踐為導向的應用聯絡起來（Romero et al., 2019）。 這一差距凸顯了共同創造性、基於設計的 GBL 如何在健康促進教育中促進參與和協作創造力。",
+          "plainZh": "雖然共同創造性 GBL 用於科學和可持續性教育，但它在健康教育中的代表性不足。 讓學生作為共同設計師加深學生的動力、自我效能感和感知到的學習相關性，將理論與真實的應用聯絡起來。 基於設計的共同創造性的 GBL 可以促進公共衛生教育的參與和協作創造力。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:22:13.491Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "1ba92e74c1605a31d751369d7200c330ac6e1d4fd928af4a769ab761ebed4bec",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-04-s-recovered-b33a5b62a91d": {
+          "faithfulZh": "作者證實，在本手稿的構思、起草、編寫、編輯或修訂中沒有使用生成人工智慧 (AI) 工具或 AI 輔助技術。 所有內容、分析和解釋完全都是作者自己的。",
+          "plainZh": "作者證實，在手稿創作的任何階段都沒有使用生成性人工智慧 (AI) 工具或 AI 輔助技術，確保所有內容、分析和解釋都僅是作者自己的。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:22:13.514Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "b33a5b62a91dd9ef77b80a2f984affd1907c79d7e0a5648b4907b7d0d092f62b",
+          "explanationMethod": "isolated-model-clone-v1"
+        }
+      },
+      "appendices": {}
+    },
+    "paper-05": {
+      "segments": {
+        "paper-05-s-00f5cde595f5": {
+          "faithfulZh": "最後，我們提出以下建議，以指導未來的研究，以探索人工智慧工具在教育中的挑戰和潛力： 1. 建議未來的研究探索如何將 GAI 與其他個性化學習系統整合或開發進一步的個性化 AI 模型，以根據學生的學習情況自動調整內容和教學方法 效能，從而增強了人工智慧工具的教育應用能力。 在這種情況下，概念對映可以作為一種視覺和診斷工具來表示學生的認知結構，使人工智慧系統能夠更好地識別學習差距並相應地定製教學提示。 2. 未來的研究應將 GAI 與各種教學模式相結合，將其用作補充工具，而不是作為主要學習途徑。 教育工作者可以將人工智慧技術與傳統教學方法相結合，以促進教師和學生之間的協作和討論，從而平衡技術應用與人際交往的重要性。 3. GAI 提供的即時回饋的便利性可能會減少學生進行獨立思考的機會。 如果學生習慣於依靠 GAI 的答案，他們可能會忽略潛在的邏輯推理和分析過程，可能導致他們的認知能力下降。 因此，建議未來的教育工作者設計具有挑戰性的任務，要求學生在使用 AI 後進行反思、總結和批評。 例如，可以要求學生進一步解釋或擴充套件 AI 生成的答案，確保他們不僅瞭解結果，而且掌握潛在的過程和原則。 4. 由於 GAI 的反應是基於現有的資料和模式，它可能在培養學生的創造性思維方面沒有效果，特別是在需要發散思維或創新問題解決的情況下。 未來的研究可以探索如何將 GAI 與創造性的學習活動相結合，例如設計任務，要求學生批評或擴充套件 Aigenated 答案，從而激發他們的創造性思維。 此外，教師可以使用 GAI 生成不同的選項或觀點，促使學生進行評估、進行比較和表達他們的創造力。 5. 考慮道德問題，包括人工智慧偏見、錯誤資訊和學生資料隱私也很重要。 6. 此外，探索教師促進、合作學習維度的作用，以及情感和後設認知結構之間的關係，可以進一步提高 AI 輔助學習的教育效果。",
+          "plainZh": "未來的研究應該探索將生成式人工智慧 (GAI) 與個性化學習系統整合或開發適應學生學習情況的 AI 模型。 概念對映可以成為幫助 AI 識別學習差距和調整指令的視覺化工具，增強 AI 的教育應用性。 將 GAI 與教學模式作為補充工具相結合，平衡了技術使用與師生互動。 過度依賴 Gai 的即時回饋可能會阻礙獨立思考和邏輯推理； 教育工作者應設計需要在人工智慧使用後進行反思的具有挑戰性的任務。 GAI 的回應基於現有資料，可能無法有效激發創造性思維； 研究應探索將 GAI 與創造性活動相結合。 還必須考慮對人工智慧偏見、錯誤資訊和學生資料隱私的道德問題。 此外，研究教師促進、合作學習維度和情感/後設認知結構可以提高 AI 輔助學習的有效性。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:22:39.176Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "47005027c1bcebd68ae54a32bdb4aebfe7ed569bf6af83b52c76c0106b109e5f",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-05-s-184f03e51f7d": {
+          "faithfulZh": "協作學習已被認為是培養學生高階思維及其協作和溝通能力的重要且有效的方法（Markula & Aksela, 2022; Quines, 2017; Rorimandey et al., 2022）。 在過去的幾十年中，之前的幾項研究證明了讓學生參與協作學習任務的有效性（Knoche，2022；Suendarti & Virgana，2022）。 例如，在閱讀和寫作課程中，Marcos 等人。 （2020）運用合作學習，鼓勵學生分組分析和寫作，發展自己的觀點，發現這種方法有效地增強了他們的創造性思維。 然而，研究表明，當學生在沒有足夠指導或支援的情況下從事基於小組的問題解決任務時，他們可能會在學習過程中感到困惑甚至感到焦慮（Tsai & Wu, 2021）。 在進行傳統的協作學習活動時，教師通常會管理眾多的學生和團體，因此很難充分滿足每個小組的需求。 正如幾位學者所指出的，協作學習促進了社會談判和共享知識的構建； 然而，如果沒有適當的腳手架，它可能缺乏足夠的結構（Kokku 等，2018；Tsai & Wu，2021）； 也就是說，在教育環境中為個體協作學習小組提供及時的指導或即時回饋或指導仍然是一個關鍵挑戰（Hsu 等人，2023；Kokku 等人，2018；Tsai & Wu，2021）。",
+          "plainZh": "協作學習是促進高階思維和團隊合作技能的有效方法（Markula & Aksela, 2022; Quines, 2017; Rorimpandey et al., 2022）。 以前的研究表明它在吸引學生方面的有效性（Knoche，2022；Suendarti & Virgana，2022）。 然而，小組工作中的指導不足會導致混亂和焦慮（Tsai & Wu, 2021）。 教師經常在協作活動中努力滿足每個小組的需求。 協作學習支援知識構建，但需要結構（Kokku 等，2018；Tsai & Wu，2021）； 提供及時的指導仍然是一個關鍵挑戰（Hsu 等人，2023；Kokku 等人，2018；Tsai & Wu，2021）。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:22:39.352Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "e6515b0d3d2c0198ae5adc4b2f15a81fc8605467363410b40f3ff25bca35ff45",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-05-s-434f79fd114f": {
+          "faithfulZh": "Shih-ting Chu：寫作——評論與編輯、寫作——原稿、視覺化、驗證、專案管理、方法論、調查、形式分析、資料策展、概念化。 Gwo-Jen Hwang：寫作——評論與編輯、寫作——原始草稿、視覺化、驗證、專案管理、方法論、調查、概念化。 Yun-Fang Tu：寫作——評論與編輯、寫作——原稿、視覺化、驗證、方法論、概念化。",
+          "plainZh": "朱世亭、黃國明、雲芳都為作品的不同方面做出了貢獻，包括寫作、審閱、編輯、視覺化、驗證、專案管理、方法論、調查、形式分析、資料策劃和概念化。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:22:39.500Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "590702deb29e636e3817eefde1f0abeddb0b60e4e6231323c58ba15623b0ed50",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-05-s-6a1ba48ebdaa": {
+          "faithfulZh": "本研究中使用的批判性思維傾向問卷取自 Chai 等人。 (2015)，他改編了 Castle (2006) 開發的原始樂器。 因為柴等人。 (2015) 版本是為資訊通訊技術 (ICT) 支援的學習環境開發的，在本研究中被認為更適合 GAI 支援的學習環境。 使用了經過驗證的六項版本，包括諸如“在學習過程中，我評估提供給我的新資訊或證據的價值”等專案。 翻譯成中文後，兩位專家對問卷進行了審查，以確認翻譯專案對 11 年級學生的清晰度和適當性。 在沒有改變基礎結構的情況下進行了小的措辭修改。 此外，該儀器以前曾用於涉及高中生的研究（例如，Chien 等人，2020；Huang 等人，2026），並在本研究中證明了令人滿意的內部一致性（Cronbach's α = 0.93 預測試，0.86 表示後測）。",
+          "plainZh": "Chai 等人採用了批判性思維傾向問卷。 (2015)，改編最初由 Castle (2006) 開發的樂器。 柴等人。 (2015) 版本因其適合 ICT 支援的學習環境而被選中。 經過驗證的六項問卷包括評估新資訊等專案。 經過專家翻譯和審查後，問卷顯示出令人滿意的內部一致性（Cronbach's α = 0.93 預測試和 0.86 表示後測），以前曾與高中生一起使用過（例如，Chien 等人， 2020；黃等人，2026）。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:22:39.695Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "548260b1007c3a82b582b2ea58c09276a7d50f8956609d2422d1b54123e109b7",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-05-s-703bc5ffdb53": {
+          "faithfulZh": "例如，E2-21 說：“我們很少自己尋找答案。我喜歡這種學習模式，因為它可以幫助我更好地理解知識。” 儘管對照組 1 比實驗組更少提到“深化學習內容”，但他們的反應仍然反映了對理解材料的強調。 與實驗組相比，缺乏概念對映可能會限制他們的參與深度。 在“提高學習效率”方面，對照組 1 的 10 名學生的學習效率有所提高。 例如，E2-23 指出，“使用 ChatGPT 搜尋資訊更容易、更方便。” 同樣，E2-22 評論說：“與 ChatGPT 互動更快，讓我能夠同時測試我的理解。” 然而，由於結構化策略較少，學生可能很難完全組織從 ChatGPT 中檢索到的資訊。 至於“擴充套件不同的視角”，對照組 1 中的七名學生認為參與活動有助於他們從不同的角度拓寬思維。 例如，E2-01 表示：“透過與 ChatGPT 和我的同行的討論，我能夠從不同的角度得出更多的結論。” 這表明學生在課程中受益於不同的觀點，特別是由於 ChatGPT 輔助的討論和可持續發展教育 (ESD) 相關的任務。",
+          "plainZh": "這篇文章討論了學生使用 ChatGPT 的學習偏好和經歷的反應。 雖然實驗組喜歡使用 ChatGPT，但對照組 1 中缺乏概念對映可能會限制他們的參與度和資訊組織。 研究指出，對照組 1 的學生受益於課程期間接觸不同觀點，尤其是透過 ChatGPT 輔助討論。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:22:59.054Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "a1a98f4595346dd17896b46ed3032ab577c9afdc27ad1496d92686347cbbff43",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-05-s-7b5c432f08a4": {
+          "faithfulZh": "實驗組在學習活動後明顯優於對照組 1 和 2。 這一發現意味著 CM-GAI-CL 模式在提高學生在“應用和分析”專案上的學習成績方面是有效的。",
+          "plainZh": "實驗組在學習活動後明顯優於對照組 1 和 2，這意味著 CM-GAI-CL 模式有效地提高了學生在“應用和分析”專案上的學習。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:22:59.083Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "544baef53d3ba6cb65b248b24d418d6076f83f9ab6f480a7631a22ea5937b154",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-05-s-8dacec72beee": {
+          "faithfulZh": "底層結構。 此外，該儀器以前曾用於涉及高中生的研究（例如，Chien 等人，2020；Huang 等人，2026），並在本研究中證明了令人滿意的內部一致性（Cronbach's α = 0.93 預測試，0.86 表示後測）。",
+          "plainZh": "研究中使用的儀器表現出令人滿意的內部一致性，Cronbach 的 α 值在預測試中為 0.93，後測為 0.86，表明可靠性。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:22:59.118Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "b8939a63dd3e43a8b7f278d78e133bd1232df690fabff4371d4176b1bf940a2b",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-05-s-aae2e10f19f5": {
+          "faithfulZh": "結果如表 3 所示。對於“記憶”專案，實驗組、對照組 1 和對照組 2 的調整後平均分分別為 21.74、16.91 和 21.89。 記憶的分數在學習模式中差異顯著（F = 10.49，p = .00 < 0.001，η2 = 0.27）。 LSD 事後測試顯示，實驗組和對照組 2 在學習活動後的得分顯著高於對照組 1。 這一發現表明，在協作學習環境中，CM-GAI-CL 模式和 C-CL 模式都有效地提高了學生在“記憶”專案上的學習成績。 至於“理解”專案，實驗組、對照組 1 和對照組 2 的調整後平均得分分別為 29.18、25.44 和 28.64。 沒有發現跨學習模式的理解分數有顯著差異（F = 2.05，p = .14 > 0.05）。 關於“應用和分析”專案，實驗組、對照組 1 和對照組 2 的調整後平均得分分別為 13.13、9.63 和 7.32。 跨學習模式應用和分析的分數存在顯著差異（F = 13.37，p = .00 < 0.001，η2 = 0.24）。 LSD 事後測試顯示，實驗組在學習活動後的表現顯著優於對照組 1 和 2。 這一發現意味著 CM-GAI-CL 模式在提高學生在“應用和分析”專案上的學習成績方面是有效的。",
+          "plainZh": "表 3 顯示了不同學習模式在學習活動後的“記憶”、“理解”和“應用和分析”專案上的調整平均分數。 與對照組相比，實驗組在“記憶”和“應用和分析”專案上的表現明顯更好，而“理解”沒有顯著差異。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:22:59.213Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "c0afd300a2c18b9fa47ae2b98055e7225380e90ba3ab0d7265211cb6516d058f",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-05-s-ba1eef259e8a": {
+          "faithfulZh": "本研究的主要侷限性是其持續時間短，這可能影響了 GAI 的概念對映和使用的有效性，特別是在評估批判性思維傾向等高階技能方面。 鼓勵未來的研究人員延長實驗週期，以更全面地分析各個方面。 此外，進行縱向研究以觀察概念對映和 GAI 對學生學習成就的持續影響將為這些技術工具在學生學習過程中的作用提供有價值的見解。",
+          "plainZh": "該研究的一個侷限性是其持續時間較短，這可能限制了對高階技能的評估。 未來的研究應考慮更長的實驗期和縱向研究，以瞭解概念對映和 GAI 對學生學習的持續影響。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:22:59.249Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "de22c2f7e7e0b419327c9a7af7534dea570f5a62233f7eb46c1745e8c0523b51",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-05-s-e6bf8cbdec5a": {
+          "faithfulZh": "除了學習模式的差異外，所有組的學習內容、教學材料、書面論文資源和評估程式都是相同的，以控制教師和課堂效果。 同一位教師按照標準化的教學程式實施了所有教學條件。 ChatGPT-3.5 的標準提示源自教學手冊，由同一教師在所有三個組中一致地管理，以確保學生與 AI 的互動一致性。 一些示例提示是“這個日落行業的主要原因和影響是什麼？” “您能否根據可持續性原則提出可能的解決方案或轉型策略？” “在分析這個問題時應該考慮哪些額外的資訊或觀點？” 學生被允許合作產生後續問題； 然而，所有初始提示和任務說明都是跨組標準化的。 在整個干預過程中，教師監控學生的學習過程，在必要時提供指導，澄清概念上的誤解，並記錄學生的參與行為以供進一步分析。 完成論文後，所有三個小組都進行了 60 分鐘的後測和完成後問卷，然後進行了採訪。",
+          "plainZh": "所有組都收到了相同的學習內容、材料和評估程式來控制無關變數。 ChatGPT-3.5 提示由同一教師進行標準化和管理，以確保學生的統一互動。 教師在整個干預過程中監控學生的學習並提供指導。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:22:59.308Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "e2ee848bcfa77f8d6ede92b25f1b7cdd02ec2b591de78f5f0f4320484a01e6d9",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-05-s-ec011b729eea": {
+          "faithfulZh": "在教育領域，協作學習已被廣泛應用，被認為是增強學生學習的有效教學策略（Gillies，2003；Hron & Friedrich，2003；Kokku 等，2018）。 一些研究人員表明，協作學習可以顯著提高學生的學業成績（Rorimpandey 等，2022；Suendarti & Virgana，2022），集體功效（Gillies，2019），批判性思維傾向（黃等人） 2017；Quines，2017），以及解決問題和決策能力（Knoche，2022）。 這些好處也可以用社會認知理論來解釋，它強調學習是透過共享環境中的社會互動和觀察過程發生的（Bandura，1986，2000）。 在協作學習的基礎上，PBL 已成為一種體現其核心原則的結構化方法。 它通常被認為是一種具體的協作學習形式，並深受社會建構主義理論的啟發（Vygotsky，1986）。 根據 Vygotsky (1986) 的社會建構主義觀點，知識是透過社會互動、語言交流和文化背景下的協作活動構建的。 在 PBL 背景下，學生討論、推理和分享小組對小組中實際問題的瞭解，並透過同伴協作和反思來發展理解和解決方案（Markula & Aksela, 2022; Tsai & Wu, 2021）。 這一學習過程加強了學習者的積極參與，實現了社會互動在認知發展和知識構建中的關鍵作用。Krajcik和Shin（2014）PBL關鍵特徵的框架將協作學習分為不同的階段，即驅動問題、學習目標、科學實踐、 協作、使用技術工具和創造人工製品，這有助於提高學生解決問題的能力。 先前的研究表明，讓學生參與協作學習和 PBL 任務不僅可以提高他們的學業成績，還可以提高他們的團隊自我效能、批判性思維傾向和解決問題的能力（Huang et al., 2017; Knoche, 2022; Ma et al., 2023)。",
+          "plainZh": "協同學習是提高學生學習、學業成績、集體功效、批判性思維和解決問題能力的有效教學策略，並得到社會認知理論的支援。 專題式學習 (PBL) 是一種結構化的協作方法，受社會建構主義的啟發，學生透過討論、推理和分享有關實際問題的知識來發展理解。 Krajcik 和 Shin 的框架概述了 PBL 的關鍵特徵，以提高解決問題的能力，參與協作學習/PBL 可以提高團隊的自我效能、批判性思維和解決問題的能力。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:23:11.090Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "88dd430dcfb885e25494a3fd0f76613d212b7b3109053786bdbf5a44488b7607",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-05-s-f4a2f5c7d2ca": {
+          "faithfulZh": "最後，在“論文的創作”階段，學生們根據他們獲得的知識和探究結果建立了一篇書面論文，包括與 GAI 的對話和他們的概念圖中的資訊。 在此過程中，GAI 協助學生規劃和格式化論文，提供有關語言、組織和結構的建議。 此外，學生被要求整合他們獲得的知識，並進行迭代修訂，直到最後的論文完成。 這個過程不僅是知識的總結，也是對學生學習和協作技能的綜合評估。 書面論文中涉及的迭代修訂符合 Bloom (1956) 的認知學習目標分類，即創造，要求學生以創新的方式綜合和應用他們獲得的知識並表達他們的想法。 這篇論文還幫助學生組織和總結了他們的學習，同時提高了他們的寫作和溝通技巧（見圖 4）。",
+          "plainZh": "在“論文的創作”階段，學生們使用他們獲得的知識、與 GAI 的對話的結果和概念圖來寫一篇文章。 GAI 協助規劃和格式化，而學生則迭代地修改文章以展示他們對學習和協作技能的全面評估，與 Bloom 的分類學的最高水平相一致：創造。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:23:11.149Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "6fb945a01e34f15be358121910f849ff285a303839adbbd3c9c585a470539194",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-05-s-recovered-f20096c12e6e": {
+          "faithfulZh": "資料和材料可應要求提供給相應的作者。",
+          "plainZh": "研究中使用的資料和材料可根據要求從通訊作者處獲得。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:23:11.160Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "f20096c12e6e59b6cf9955dabc050c0f778f453ad75217a13e948ff64d7fedc7",
+          "explanationMethod": "isolated-model-clone-v1"
+        }
+      },
+      "appendices": {
+        "paper-05-appendix-A": {
+          "faithfulZh": "附錄 A. 內容分析編碼方案（修改他們在小組討論後選擇的日落行業） 類別 子類別 A1 日落行業的最終選擇 A1-01：製造業 A1-02：建築 A1-03：藝術、娛樂和娛樂 A1-04：教育 A1-05：住宿和餐飲服務活動 A1-06：服務和銷售 A1-07：專業、科學和技術活動 A1-08：資訊和通訊裝置 A2 行業消失的原因 A2-01：成本上升 A2-02：技術進步 和科學 A2-03：出生率下降 A2-04：缺乏繼任者 A2-05：低工資 A2-06：市場需求下降 A2-07：消費者行為的變化 A2-08：替代品的出現 A2-09：壓力 關於環境可持續性 A2-10：更高的風險/更大的努力 A3 改善或延遲行業消失的措施 A3-01：政府政策 A3-02 的支援：技能提升培訓（人才發展） A3–03：與旅遊業 A3–04 的整合： 納入教育材料 A3-05：名人代言/廣告推廣 A3-06：透過新技術應用/轉型 A3-07：工資增長 A3-08：支援環境可持續性 A3-09：降低成本 A3-10： 調整營銷策略 A3-11：組織相關比賽 A4 小組討論中學到的新事實或觀點 A4-01：日落工業的重要性 A4-02：日落工業的具體改進措施 A4-03：日落工業 A4-04 消失的原因： 市場需求變化 A4–05：成本 A4–06：勞動力短缺 A4–07：環境趨勢",
+          "sourceTextSha256": "365458aff66a81753bb8448c2aac42933ddf7df8c2043904f17a97a8464d6467"
+        }
+      }
+    },
+    "paper-06": {
+      "segments": {
+        "paper-06-s-002d8c048e61": {
+          "faithfulZh": "平臺有資格參加同行評估。 因此，不會有任何缺失或不匹配的評估。 在同伴評估期間，每個學生都收到了匿名同伴的作業和同行評估表，如表 2 所示。學生評估是使用同行評估表中指定的標準進行的，以分配分數，還可以提供質性回饋。",
+          "plainZh": "平臺使用者可以參與同行評估，以確保評估完成。 在同伴評估期間，每個學生都會收到匿名同伴的作業和評估表。 學生根據表格的標準對作業進行評分，並可以提供質性回饋。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:23:30.932Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "89710e55c93b3065e1e462c2b47ab079829cb2ed6d1d64d3c31f6bc5db045882",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-06-s-75467c1495ba": {
+          "faithfulZh": "為了調查各組的學習成績是否存在顯著差異，本研究使用 CT 和 AI 學習成績測試來評估學習者的學習狀況。 Kuder-Richardson 的可靠性用於確認成就測試內容的內部一致性。 前測和後測的 Kr-20 可靠性值分別為 0.584 和 0.546。 儘管這些值低於 0.70 的常規閾值，但它們被認為可以接受探索性教育研究。 此外，還使用了專家內容的有效性，並在與具有超過 2 年教學經驗的研究人員討論後得到確認。",
+          "plainZh": "本研究使用 CT 和 AI 學習成績測試來評估組間的學習差異。 測試的內部一致性以 KR-20 可靠性值 0.584（預測試）和 0.546（後測）確認，這被認為是探索性研究可以接受的。 透過與專家的討論確認了專家內容的有效性。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:23:31.007Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "afe191916ff9bd259bcd76eb7c4de5e239a3ba30e74615267ebc02a52c7f552b",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-06-s-8574040da79d": {
+          "faithfulZh": "同行評估是在 Bookroll 學習管理平臺上進行的。 這個過程採用了匿名和隨機分配的方法。 只有向平臺提交作業的學生才有資格參加同行評估。 因此，不會有任何缺失或不匹配的評估。 在同伴評估期間，每個學生都收到了匿名同伴的作業和同行評估表，如表 2 所示。學生評估是使用同行評估表中指定的標準進行的，以分配分數，還可以提供質性回饋。",
+          "plainZh": "同行評估是在 Bookroll 學習平臺上進行的，經過匿名和隨機分配。 只有提交作業的學生才有資格參加，以防止缺失評估。 學生收到了匿名同伴的作業和評分的表格，並附有可選的質性回饋。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:23:31.045Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "7546d05fa1235aac852bfb293118bba3a501fe599876cc539b7eef1641781b44",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-06-s-bc661729478c": {
+          "faithfulZh": "圖 6 說明了 EG3 的行為模式。 在構建和測試語音識別模型時，學生進行相互討論和交換意見（GC→EO，EO→GC）。 完成設定以在其應用程式中控制機器人汽車後，他們開始測試。 如果出現錯誤，它們會返回撥試，然後進行進一步的測試（D→P，P→D）。 如果感測器校準不準確，學生的機器人汽車運動會遇到問題，導致遊戲過程中出現偏差。 這促使學生在每一輪比賽後除錯他們的設定（P→D）。",
+          "plainZh": "學生在構建和測試語音識別模型時進行討論和交流想法，在除錯（d→p，p→d）和測試（p→d，d→p）之間交替。 感測器校準錯誤導致機器人在每輪比賽後需要除錯的移動問題。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:23:31.086Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "199182026045b49e52da92e8437a15b537a838835a5c2845997d3a7904d04dfc",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-06-s-e0d03fd0d6b0": {
+          "faithfulZh": "由於資料不滿足正態分佈的假設，我們使用 Kruskal-Wallis H 檢驗來分析四組的結果。 進行了事後 U 檢驗以檢查組間的差異。 事後 U 檢驗比較了所有可能的組對，但表 5 中僅顯示了具有統計學顯著差異的對，以保持簡潔的報告。 根據表 5 中的研究結果，在學習焦慮方面，四組之間存在顯著差異。 根據事後 U 測試的結果，EG3 在學習焦慮的維度上的得分顯著高於 EG1 和 EG2。",
+          "plainZh": "由於非正態資料分佈，Kruskal-Wallis H 檢驗用於分析四組的結果，然後進行事後 U 檢驗以比較對。 在各組之間觀察到學習焦慮的顯著差異； EG3 的得分明顯高於 EG1 和 EG2。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:23:31.129Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "8d0ac16622b401083d63a7708bdf8fcab239630bf705c41be5f121045cb36dd6",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-06-s-recovered-884160dfff95": {
+          "faithfulZh": "Mu-Sheng Chen：概念化、方法論、資料管理、軟體、形式分析、寫作——原始草案准備。 Ting-Chia Hsu：監督、資金收購、概念化、方法論、驗證、寫作——審查和編輯。",
+          "plainZh": "Mu-Sheng Chen 為原始草稿的概念化、方法論、資料管理、軟體、形式分析和寫作做出了貢獻。 Ting-Chia Hsu 監督了這項工作，管理資金，為審查和編輯的概念化、方法論、驗證和寫作做出了貢獻。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:23:31.154Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "884160dfff952b014428c2ddabd289736b81561ae4887cd4fada6f39dd553f17",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-06-s-recovered-ff063ce2dfbd": {
+          "faithfulZh": "這項研究部分得到了國家科學技術委員會的支援，合同號為 NSTC 111-2410-H-003-168-MY3 和 NSTC 113-2628-H-003-002。",
+          "plainZh": "這項研究獲得了國家科學技術委員會 (NSTC) 的資助，根據 NSTC 111-2410-H-003-168-MY3 和 NSTC 113-2628-H-003-002 獲得了資助。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:23:34.854Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "ff063ce2dfbd6a7de3699315924e92edda2fc889c5f59bbc5bbd2ee1159dc7da",
+          "explanationMethod": "isolated-model-clone-v1"
+        }
+      },
+      "appendices": {}
+    },
+    "paper-07": {
+      "segments": {
+        "paper-07-s-1254fae764b4": {
+          "faithfulZh": "在第 1 周，學習者參與了介紹性活動，以 20 分鐘的課程開始，介紹學習活動和規則。 在此之後，學生完成了 30 分鐘的預測試，以評估學習成績和後設認知意識。 這些介紹性活動確保所有參與者在參與主要教學內容之前都清楚地瞭解學習目標和初始基線資料。 在第 2 至第 4 周，實驗組和對照組都參加了旨在透過講座和動手解決問題的任務來培養 STEM 知識和技能的核心教學活動。 在教學活動之後，每組獨立完成 60 分鐘的 ARG 任務。 LLM-ARG 組與個性化虛擬代理“V”進行互動，提供自適應、實時支援，而 C-Arg 小組使用僅提供傳統非自適應指導的系統進行相同的教學活動，具體情況在參與者部分進行了詳細說明。 兩組都接觸到相同的場景、教育內容和任務持續時間，以確保學習環境的一致性。 在第 5 周，進行了 60 分鐘的後測，以評估學業成績和干預後後設認知意識。 這種設計確保了 ARG 干預系統地整合到標準課程中，保持兩組的教學時間和任務結構一致。",
+          "plainZh": "學習者參加了介紹性活動，包括關於活動和規則的 20 分鐘會議，然後進行 30 分鐘的預測試，以評估表現和後設認知意識。 第 2-4 周涉及核心 STEM 教學，講座和解決問題，然後是 60 分鐘的 ARG 任務。 LLM-ARG 組與提供自適應支援的虛擬代理“V”進行互動，而 C-Arg 組使用傳統指導。 兩組都收到了相同的場景和內容。 在第 5 周進行了 60 分鐘的後測，以評估表現和後設認知意識。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:23:58.843Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "833bedbfee2cc8d3e616eac618148c6c7092d56bb4ee9d7741d484f39341dbe0",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-07-s-1cfbe86e0371": {
+          "faithfulZh": "在實驗組中，學生經常在正確和不正確的反應（C → F、I1 → F、I2 → F、I3 → F）下與虛擬代理進行互動，進行重複的互動（F → Q，Q → 問）。 這些相互作用導致更高的正確答案率 (q → c) 和降低的錯誤率 (q → i2, q → i3)。 這種連續的回饋迴路不僅提高了準確性，而且激發了動力，鼓勵學生進一步探索（Q → E）和閱讀材料（Q → R）。 這些發現強調了虛擬代理在促進學習動機和結果方面的重要作用。",
+          "plainZh": "在實驗組中，在正確和不正確的答案之後與虛擬代理“V”的頻繁互動會導致更高的正確答案率和降低的錯誤率。 這種持續的回饋提高了準確性並激發了動力，鼓勵進一步的探索和閱讀。 這突出了虛擬代理在學習動機和結果中的作用。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:23:58.912Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "bed290690dc228b8b4abb38c274c44882af76fb111cb6bc7b498327c8bc3d8af",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-07-s-1ff4ed8310b3": {
+          "faithfulZh": "科學、技術、工程和數學 (STEM) 教育被廣泛認為是提高學生科學素養、批判性思維和解決跨學科問題的能力的關鍵方法（英語 2023）。 STEM 教育將科學、技術、工程和數學整合到現實世界的場景中，促進學生的自主探索和創新實踐，深化他們的學科知識和磨練他們解決問題的能力（Tan et al. 2023）。 隨著教育技術的發展，STEM 教育在教育領域的重要性變得更加突出（Li et al. 2020）。 然而，它的實際應用遇到了許多挑戰，例如科學知識的抽象性（錢和崔 2023）、學習材料的複雜性（Gao et al. 2020）以及在內在激勵學生時傳統的教學方法不足的教學方法，從而限制了他們 學習動機和有效性（Lin and Wang 2021）。 從認知科學的角度來看，這些挑戰會給學生帶來高認知負擔，阻礙他們有效處理資訊和參與深度學習的能力（Sweller 1994）。 如何有效地創造現實的學習環境，使學生能夠理解和應用抽象和複雜的概念，現在是教育研究和實踐中的核心問題（Chernikova et al. 2020）。",
+          "plainZh": "STEM 教育被認為對科學素養、批判性思維和解決問題至關重要。 將 STEM 與現實世界場景相結合可以促進探索和創新。 不斷髮展的教育技術提高了 STEM 的重要性，但挑戰仍然包括抽象知識、複雜材料和傳統教學缺乏內在動機。 從認知科學的角度來看，這些挑戰會帶來高認知負荷，阻礙學習。 開發現實的學習環境以理解和應用複雜的概念是教育研究的核心問題。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:23:59.015Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "85dfdce6219ddd3d807efc91f0d0ed28c500a0c79fc6580edf9f7cdc1d7a32ff",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-07-s-24c5148c840d": {
+          "faithfulZh": "第二個模組是資料處理和傳輸，它處理遊戲環境與百度艾雲千帆平臺之間的資料互動。 它由三個關鍵元件組成：呼叫外掛、資料傳輸和解析資料外掛。 呼叫外掛管理獲取訪問令牌並將 HTTP 請求提交到錢帆平臺進行模型呼叫。 資料傳輸元件處理提示資料和遊戲資料，以促進遊戲引擎和大型模型之間的實時互動。 解析資料外掛負責從模型輸出中提取和處理對話內容，確保“V”提供的回饋是相關且連貫的。",
+          "plainZh": "資料處理和傳輸模組將遊戲環境與百度艾雲千帆平臺連線起來。 它涉及訪問平臺的呼叫外掛，用於處理遊戲引擎和模型之間的資料的資料傳輸，以及一個解析資料外掛，從模型的輸出中提取對話內容以獲得一致的回饋。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:23:59.059Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "ace1b163cec1f731ae84d273a1e2e16522f6db174abf6e264de771f5c5b58714",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-07-s-4520fa7115b4": {
+          "faithfulZh": "LLM-ARG 系統由四個核心模組組成。 第一個模組是學生與代理“V”互動。 在本模組中，學生透過各種輸入與虛擬代理進行互動，包括玩家輸入、變數識別、指令理解和角色對話。 代理“V”動態解釋和響應玩家的動作和查詢，提供支援解決問題和學習的上下文感知回饋。 Persona 對話功能允許個性化指導，使互動體驗更具吸引力和資訊豐富。",
+          "plainZh": "LLM-ARG 系統由四個模組組成。 第一個是學生與代理“V”的互動，學生透過輸入進行互動，“V”提供上下文感知回饋。 Persona 對話功能可實現個性化指導、增強參與和資訊提供。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:23:59.095Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "19eeb570b7df10bcde4379263653cc4fda740f2c80c9890015628c2236d96e93",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-07-s-476b1f1af91d": {
+          "faithfulZh": "在實驗組中，進行了 Pearson 相關分析。",
+          "plainZh": "在實驗組內進行了 Pearson 相關性分析。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:23:59.103Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "cf68c45121806efddec5ed9950870ff6cf215bcb76265da63e317257efba3aa7",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-07-s-4aa3140070c7": {
+          "faithfulZh": "圖 2 說明了 ARG 系統工作流程，學生在虛擬代理的幫助和支援下參與學習並完成所有 ARG 任務，“V”包括四個遊戲任務：“接受邀請”、“卡丁車結構”、“三個電氣系統”和“四個關鍵” 流程，'每個都對映到為學生計劃的學習途徑。 完成一項任務後，學生可以繼續下一步或選擇檢視以前的內容。 進入任務後，學生探索場景以學習相關知識點並透過探索收集知識卡。 他們還需要完成測試問題以實現任務目標。 此外，學生可以在主頁的圖書館和成就庫部分檢視他們獲得的知識卡和遊戲成就，進一步加強他們的學習成果。",
+          "plainZh": "圖 2 描述了 ARG 系統工作流程，學生使用虛擬代理“V”來完成諸如“接受邀請”、“卡丁車結構”、“三個電氣系統”和“四個關鍵過程”等任務，每個任務都連結到一個學習計劃。 學生探索場景以獲得知識和收集卡片，完成問題以完成任務。 圖書館和成就畫廊加強了學習。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:24:25.737Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "afb2e952a4ecbaf7aeb724a3430056d615cbdc8da7fd426e335a02463e52bbb0",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-07-s-4d60846e66a6": {
+          "faithfulZh": "實驗組透過 LLM-ARG 系統獲得實時回饋，包括基於知識的回饋、以任務為導向的回饋和成就驅動的激勵回饋。 基於知識的回饋旨在強化學習內容，以任務為導向的回饋支援構建認知結構，並透過獎勵學生的進步和專案來激勵學生的進步。 相比之下，對照組的 C-Arg 系統採用了傳統的基於規則的電子學習方法。 代理的回饋僅限於由預定義規則觸發的預指令碼響應（例如，確認正確的答案或在錯誤的答案之後提供通用提示）。 至關重要的是，該系統缺乏法學碩士的動態對話互動能力。 它不能用自然語言解釋學生髮起的問題，無法診斷誤解的潛在性質，或提供個性化的後設認知提示。 這種設計允許直接比較基於基本回饋的標準遊戲學習環境，並透過新穎的 LLM 驅動的對話式支架增強，這是我們研究的重點。",
+          "plainZh": "實驗組從 LLM-ARG 系統獲得實時回饋，包括基於知識的、以任務為導向和成就驅動的回饋。 對照組使用具有預先編寫的響應的傳統電子學習系統。 與基於規則的系統相比，LLM-ARG 系統能夠解釋自然語言和提供個性化提示，提供更具動態性的學習體驗。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:24:25.819Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "022e6883deed31124aae0b37a455d81c719edcdf13a3877c1bbd04982cd080d2",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-07-s-54e2f0e1ee3e": {
+          "faithfulZh": "為了更深入地瞭解互動頻率、後設認知技能和學習成績之間的關係，我們進行了 Pearson 相關性分析。 表 9 顯示了關鍵變數之間的 Pearson 相關矩陣，包括互動頻率 (q_count)、成功率、後設認知前測和後測分數，以及學習成績測量（前測和後測分數）。 結果揭示了關鍵變數之間的幾個重要關聯。 值得注意的是，前測和後測分數高度正相關（r = 0.646，p < 0.001），表明初始學習成績更好導致持續的高表現。 同樣，後設認知前測分數與前測分數（r = 0.702，p < 0.001）和後測分數（r = 0.637，p < 0.001）顯著相關，表明後設認知意識 積極影響學業成功。",
+          "plainZh": "Pearson 相關分析顯示互動頻率、後設認知技能和學習成績之間存在顯著關係。 前測和後測分數呈正相關（r = 0.646，p < 0.001），表明持續表現。 後設認知前測分數也與前測（r = 0.702，p < 0.001）和後測分數（r = 0.637，p < 0.001）相關，表明後設認知對學術的積極影響 成功。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:24:25.902Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "9d9684a8ed295b3e9e1260fce191231bdec5531dd09958f1dc4df402d2bc120e",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-07-s-55befeabff99": {
+          "faithfulZh": "本研究採用 ANCOVA 研究實驗組和對照組後設認知意識評分的差異。 教學方法被指定為自變數，後問卷後設認知意識分數作為因變數，問卷前分數作為協變數。 Levene 方差相等的檢驗沒有達到統計學意義（F = 1.932，P = 0.170），證實了方差同質性的假設。 迴歸係數的同質性檢驗表明組和預測試分數之間沒有顯著的相互作用（p = 0.554），表明資料符合 ANCOVA 的基本假設。 表 4 顯示了兩組的描述性統計資料。 在考慮了預測試分數後，ANCOVA 揭示了兩組分數的顯著差異（F = 4.480，P = 0.039）。 根據 Ferguson (2009) 的說法，0.077 的部分 η2 表示效應量小。 這表明使用 LLM-ARG 的學生在後設認知意識方面的表現明顯優於使用 C-arg 的學生，這表明基於 LLM 的虛擬代理 ARG 增強了學生的後設認知意識。",
+          "plainZh": "ANCOVA 揭示了在考慮預測試分數後實驗組和對照組之間後設認知意識分數的顯著差異（F = 4.480，p = 0.039）。 Levene 檢驗證實了方差的同質性（F = 1.932，P = 0.170），迴歸係數的同質性檢驗沒有顯著的相互作用（P = 0.554）。 0.077 的部分 η2 表示效應量小，表明 LLM-ARG 系統增強了學生的後設認知意識。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:24:25.989Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "d4b379e21e694ff37bd9fae7f7793d55890ff27433a4c9696e1a1c83a24c6ff5",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-07-s-668859ba4952": {
+          "faithfulZh": "在科學維度中，學生學習科學探究的基本方法，例如進行知識搜尋和組織資訊，同時應用邏輯推理來分析特定挑戰，包括卡丁車框架的負載分佈和電池的能量傳遞途徑。 技術維度側重於資料收集、工具操作和環境互動技能，鼓勵學生透過資料視覺化和實際應用加深他們的技術理解。 在工程維度中，學生透過原型設計、迭代測試和效能改進來評估和最佳化卡丁車框架的穩質性，磨練他們的系統最佳化技能。 最後，數學維度透過讓學生參與測量元件維度、計算速度重量比和應用幾何原理來提高卡丁車效能等任務來強調量化分析技能的發展。",
+          "plainZh": "在科學維度中，學生應用科學探究、推理和資料分析來解決與卡丁車設計相關的問題。 技術維度側重於資料收集和工具使用。 工程維度強調透過設計和測試最佳化卡丁車穩質性。 數學維度培養了卡丁車效能增強的量化技能。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:24:26.039Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "0762d52e37b1a1142de141980b384b3ad562964483e51b6fad67265d62663e4e",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-07-s-696ec62c53d5": {
+          "faithfulZh": "LLM-ARG 系統採用這種結構化的三階段自適應支援框架來增強學習效果、參與度和自我調節。 在任務執行階段，“V”透過診斷錯誤和提供有針對性的概念性澄清來提供實時答案回饋。 隨著學生的進步，客觀跟蹤階段利用以任務為導向的回饋來幫助學生監控他們的學習軌跡、評估表現並制定個性化的學習計劃。 最後，成就強化階段透過遊戲化機制利用成就回饋，透過視覺化進度和承認學習里程碑來增強參與度。 透過這些相互關聯的階段，LLM-ARG 系統動態適應不同的學習需求，平衡探索性改進與結構化目標的實現，以最佳化認知發展和持續參與。",
+          "plainZh": "LLM-ARG 系統使用三階段自適應支援框架來增強學習能力。 任務執行階段提供實時回饋。 客觀跟蹤階段使用面向任務的回饋來監控學習。 成就強化階段使用遊戲化來加強進步。 該框架動態適應學生的需求，平衡探索和實現目標。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:24:26.082Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "57452416728b9d2b88e960c510747dd86ee0ded30af22af02553d01937276201",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-07-s-83df2fb4775c": {
+          "faithfulZh": "儘管他們有潛力，但學生在 ARGS 的學習過程中遇到了許多挑戰。 args 中謎題的固有不確質性，加上現實世界場景的複雜性，增加了解決問題的難度，經常阻礙學生收集線索和綜合資訊以完成任務的能力（Gilliam et al. 2017）。 在整個 ARG 任務中，學生可能會感到沮喪、沮喪和分心，這可能會阻止他們達到預期的學習成果。 如果挑戰超越他們的能力，有些人可能會完全失去動力（Richey et al. 2019）。 鑑於這些任務的複雜性和多樣性，無效的資訊組織和內化會擾亂學生的認知構建過程（Glazewski 和 Ertmer 2020）。 此外，任務或資訊過載會導致認知超載，破壞其知識構建的效率和有效性（Sewell et al. 2020; Xu and Ouyang 2022）。 成功應對這些挑戰需要學習者擁有強大的後設認知技能來監控他們的理解、管理認知負荷並調整他們的問題解決策略（Seufert 2018）。 然而，學生往往難以在如此複雜的環境中有效地自我調節（Jin et al. 2023）。 這凸顯了對 ARGS 中的適應性個性化回饋的迫切需求，以作為外部支架，從而培養成功基於探究式學習所需的後設認知意識。",
+          "plainZh": "由於謎題和複雜的現實世界場景的不確質性，阻礙瞭解決問題和資訊綜合，學生在 args 中學習困難（Gilliam et al. 2017）。 挫折、沮喪和分心可能會進一步阻礙學習成果，特別是如果挑戰超出能力（Richey et al. 2019）。 無效的組織和認知超負荷也會擾亂認知過程（Glazewski and Ertmer 2020；Sewell et al. 2020; Xu and Ouyang 2022）。 需要強大的後設認知技能來克服這些挑戰，但學生經常在自我調節中掙扎（Jin et al. 2023），強調需要適應性回饋來支援學習。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:24:54.393Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "714484232188fae35787d735e1780149e44459c9a2a3377e3f96a408c97f3e22",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-07-s-8c4817cd01c7": {
+          "faithfulZh": "在學習行為方面，滯後順序分析表明，實驗組從事生產性、迭代學習週期。 重要的行為路徑表明，學生在正確和錯誤的答案（C → F，I1 → F）之後與 LLM 虛擬代理進行互動，這導致了後續的 Q&A 對話（F → Q），導致更高的準確性（Q → C）。 這與對照組形成鮮明對比，對照組的行為更線性，缺乏這些豐富的回饋迴路。 這表明 LLM 虛擬代理充當了 SRL 的關鍵支架。 透過提供及時的解釋性回饋，代理人幫助學生在錯誤後立即監控他們的理解並控制他們的學習策略，促使他們更積極地重新參與學習任務。 儘管 LLM-ARG 鼓勵這些積極行為，但實驗組的學生，就像對照組的學生一樣，仍然表現出跳過一些材料的傾向，這反映了自我指導學習中的持續挑戰。 然而，代理的即時回饋和持續互動促進更系統的參與的發現與對回饋在促進積極學習行為中的作用的研究一致（Duggal et al. 2021; Huang et al. 2023），進一步驗證了 LLM 驅動系統的潛力 支援主動學習過程。",
+          "plainZh": "滯後順序分析表明，實驗組使用迭代學習週期，在正確和錯誤答案後與 LLM 代理互動，透過 Q&A 提高準確性（C → F, I1 → F, F → Q）（Duggal 等人。 2021；黃等人2023）。 這與對照組的線性方法形成鮮明對比，表明 LLM 代理是自我調節學習的關鍵支架。 然而，兩組都表現出跳過材料的傾向，這表明自主學習面臨著持續的挑戰。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:24:54.509Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "9ebc7de333134ef4e5b0c56e85b51da5c9427a79a2377b520d4f2b1defbdc620",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-07-s-a2b37f2f16d1": {
+          "faithfulZh": "在這項研究中，我們開發了一個基於個性化的 LLM 虛擬代理的 ARG 系統，稱為 LLM-ARG。 該系統支援學生在遊戲環境中與虛擬代理的互動，提供三種型別的自適應回饋（答案、任務導向和成就回饋），以促進自主學習和跨學科探究能力。 該研究檢查了 LLM-ARG 方法與 C-ARG 方法在跨學科 STEM 教育活動中的有效性。 結果表明，LLM-ARG 方法提高了學生的學習成就和後設認知意識，同時也促進了積極的行為參與。",
+          "plainZh": "該研究開發了 LLM-ARG，這是一個使用個性化 LLM 虛擬代理的系統，在遊戲環境中提供三種自適應回饋（答案、任務導向和成就回饋），以鼓勵自主學習和跨學科探究。 LLM-ARG 方法與 STEM 教育中的 C-ARG 方法進行了比較，展示了增強的學習成就和後設認知意識，以及積極的行為參與。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:24:54.565Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "f09ae32f314068346e4bbfc648d9ded30e742933444a78468172631be272da47",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-07-s-b52d624e9c80": {
+          "faithfulZh": "實驗組中確定的重要行為序列包括 E → E、E → R、R → S、R → A、S → A、A → C、A → I1、C → F， I1 → F、I2 → F、I3 → F、F → Q、Q → E、Q → R、Q → C、Q → I2 和 Q → I3。 相反，對照組的重要行為序列包括 E → E、E → R、R → S、R → A、S → A、A → C、A → I、C → E， C → R、I → C 和 I → i。",
+          "plainZh": "實驗組中的重要行為序列涉及 E → E、E → R、R → S 和 C → F（以及其他列出的其他）的轉換。 相反，對照組表現出 E → E、E → R、R → S 和 A → C 的序列（以及列出的其他）。 這些序列代表了 ARG 環境中學生互動的模式。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:24:54.626Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "31608ad7e554a1e51d4a45eab5604aede5369ec08e982685d20554df4b0219a1",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-07-s-c15b00e611a1": {
+          "faithfulZh": "使用統計軟體分析所有量化資料。 為了檢查 LLM-ARG 系統的有效性，進行了兩次單獨的協方差分析 (ANCOVA) 以比較實驗組和對照組之間的學習成就和後設認知意識的後測分數，並將它們各自的預測試分數作為協變數。 為了研究行為模式的差異，對來自系統的編碼互動日誌進行了滯後順序分析。 行為轉換的重要性是透過從調整後的殘差中計算 z 分數來確定的，Z 分數大於 1.96 被認為具有統計學意義（p < 0.05）。 最後，為了探索實驗組互動頻率、後設認知技能和學業表現之間的關係，進行了 Pearson 相關性分析。",
+          "plainZh": "量化資料分析利用 ANCOVA 比較實驗組和對照組之間的後測學習成就和後設認知意識，控制前測分數。 滯後順序分析使用 Z 分數確定了行為轉換的重要性（p < 0.05）。 Pearson 相關性分析探討了實驗組中互動頻率、後設認知技能和學業表現之間的關係。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:24:54.682Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "f55874be8180e02097c5db91b1da42fb8380920517007cbf30b246d9d81c8a04",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-07-s-c471d060987a": {
+          "faithfulZh": "後設認知意識，同時促進積極的行為參與。",
+          "plainZh": "研究發現，LLM-ARG 增強了後設認知意識，同時也促進了積極的行為參與。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:24:54.696Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "a5e7ccc82956198e0e1c990d4667668bc9e242f6f2bf99a99412e504b04f28a9",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-07-s-d5ff8f98a8d4": {
+          "faithfulZh": "這些結果表明，LLM-ARG 系統有效地支援大多數學生找到正確的解決方案。 然而，結果的變化，最低成功率為 0.62，表明一些學生仍然面臨挑戰，特別是在遊戲後期呈現的更復雜的任務中。 很大一部分學生 (25%) 能夠使用代理來實現完美的成功率這一事實強調了該系統將學習者掌握基礎內容的潛力。",
+          "plainZh": "LLM-ARG 系統支援大多數學生解決問題，但結果各不相同； 最低成功率為 0.62。 25% 的學生使用代理獲得了完美的成功率，這表明它有可能幫助學生學習基礎內容。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:25:09.426Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "b9713d3481f5014123ae731fadfa393df6525e9c42bbf1fd1f9541849035987b",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-07-s-d61401027f73": {
+          "faithfulZh": "Minkai Wang：概念化、方法論、軟體、資料管理、正式分析、寫作——原稿、寫作——評論和編輯。 朱京東：概念化、方法論。 Gwo-Jen Hwang：概念化、寫作——評論和編輯。 張邵晨：方法論、寫作——評論和編輯。 楊啟凡：方法論、寫作——評論和編輯。 Di Zhang：概念化、方法論、資金獲取、寫作——原稿、寫作——評論和編輯。",
+          "plainZh": "王敏東、朱敏東、黃鎮黃、張邵氏、楊啟凡、張啟凡，透過概念化、方法論、軟體、資料管理、寫作和資金獲取等方式為這項工作做出了貢獻。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:25:09.467Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "4bc8899c4a0ae81843d70165b7c0338392a2f7578dbd40430a775088ad4b2389",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-07-s-e3d5d0b0eb45": {
+          "faithfulZh": "替代現實遊戲 (ARG) 是使用現實世界作為平臺的互動式敘事，通常模糊遊戲與現實之間的界限（Örnebring 2007）。 與僅限於螢幕的典型遊戲不同，ARG 將數字內容與現實世界的位置和任務整合在一起，以創造一種身臨其境的跨媒體體驗（Jagoda 等人，2015 年）。 基於情境學習理論，它們被廣泛用於點燃學生對學習的熱情和促進他們的積極參與（Gilliam et al. 2017; Meekaew and Ketpichainarong 2021）。 透過建立謎題和挑戰，ARGS有效地增強了學生的學習動力（Hou et al. 2023; Sofianidis et al. 2024），並促進他們在混合虛擬和真實環境中解決問題（Stylianidou 等人。 2020）。 儘管 ARG 因其在促進積極探究方面的巨大潛力而廣受認可，但研究表明，許多學生在組織和處理複雜的現實世界資訊方面遇到困難，這會影響他們在 ARG 任務中的表現（Whitton et al. 2014）。 例如，包括視覺、聽覺和文字資料在內的多模態資訊的超載會增加認知負荷，從而降低學生的資訊處理效率（Moon 和 Ryu 2021）。 為了充分發揮 ARG 在 STEM 教育中的潛力，提供量身定製的學習支援，幫助學生駕馭探究過程中遇到的挑戰，從而提高他們的探究技能和教育成果至關重要（Liang et al. 2021）。",
+          "plainZh": "替代現實遊戲 (ARG) 是將數字內容與現實世界融為一體的互動式敘事，以創造身臨其境的學習體驗。 args 通常用於透過呈現謎題和挑戰來增加學生的參與度和動力，但學生可能會在處理複雜的現實世界資訊方面遇到困難，從而增加認知負荷。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:25:09.553Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "5fff15531c319b6624843ac5d17354d26e2972ed93bb8c62083c6ecc4d42bf2b",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-07-s-recovered-18a104ba2bb7": {
+          "faithfulZh": "3. 互動頻率、後設認知技能和學習成績之間的關係是什麼？",
+          "plainZh": "這段話提出了一個問題：學生互動的頻率、後設認知技能和學習成績之間有什麼關係？",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:25:09.569Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "18a104ba2bb778a2ce038aaf1cfe13125de29411aa9f74ee40e14d1345633219",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-07-s-recovered-289e6d5c0051": {
+          "faithfulZh": "2. 使用 LLM-ARG 和使用 C-ARG 的學生的行為參與和互動模式有何不同？",
+          "plainZh": "這段話詢問學生在使用 LLM-ARG 與 C-ARG 時的行為和互動方式的差異。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:25:09.587Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "289e6d5c00512b32db4e5324bf6988fe27ba44a5f9d57f5c980e6f95cb78f0be",
+          "explanationMethod": "isolated-model-clone-v1"
+        }
+      },
+      "appendices": {}
+    },
+    "paper-08": {
+      "segments": {
+        "paper-08-s-0cd5439cc8bb": {
+          "faithfulZh": "4. SE-VML 模型和 C-VML 模型之間的後設認知是否存在顯著差異？",
+          "plainZh": "這段話詢問學生使用 SE-VML 模型與 C-VML 模型相比，學生在內部（後設認知）對事物的理解程度（後設認知）是否存在顯著差異。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:25:27.324Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "c0dcd723f26692fe4fb61e6d5c85f59e906fcb92ea509c6ec8f5795cff460b6d",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-13805fcb960a": {
+          "faithfulZh": "對話階段：學習者與小組成員分享他們的想法，討論和反思他們在不言而喻的任務中完成的內容。 在此過程中，每個學習者都必須與小組分享他們的個人見解，並透過口頭闡述和透過相互提問來檢查他們對內容的理解深度。 社會互動被用來促進個人知識的精煉，讓學習者透過思想的交流和碰撞來協商意義並發展更完整、更詳細的知識體系。 值得注意的是，談話階段並不是從頭開始的。 它基於在施工階段的不言自明任務中產生的書面輸出。 學習者以他們已經有組織的個人理解進入小組討論。 因此，自我解釋的輸出作為認知橋樑，將個人內部結構轉變為社會互動的共同起點。",
+          "plainZh": "在談話階段，學習者分享他們的想法，討論完成的自我解釋任務，並透過相互提問來完善他們的理解。 這種社會互動使用口頭闡述和澄清來發展更完整的理解。 對話建立在施工階段的書面輸出之上。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:25:27.450Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "6bbdf30a18fa5716ee56b438e13c4c35b7ff5ee205bb01a58550b245a8bce255",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-232d39350814": {
+          "faithfulZh": "5. 使用不同學習模型的兩組學生在學習行為模式和感知體驗方面有何不同？",
+          "plainZh": "這篇文章詢問了使用不同學習模型的學生之間的學習行為模式和感知體驗的差異。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:25:27.465Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "21672ddd5928bb3b2f7b51e01fb004bfcdbb90d5ab08d21fca64a214f4b18601",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-263eabd57359": {
+          "faithfulZh": "1. SE-VML 模型與傳統虛擬博物館學習 (C-VML) 模型的學習成績是否有顯著差異？",
+          "plainZh": "這篇文章詢問 SE-VML 模型與傳統虛擬博物館學習 (C-VML) 模型之間的學習成績是否存在顯著差異。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:25:27.484Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "fcc981b2c065613cd647ef26c3ff6f0b6cbc96b18d21a68dd0a7a3196bff82ae",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-5bdf59405328": {
+          "faithfulZh": "在 4C 框架內，自我解釋首先透過幫助學習者將個人理解轉化為書面表示來支援構建階段。 這些書面輸出隨後進入對話和協作階段（Lachner 等人 2021；Lawson 和 Mayer 2021）。 梁等人。 （2021）證明了協作過程，每個學生透過表達他們的個人觀點積極參與學習過程，並被整合到團隊討論和決策中，有助於知識共享和協作趨勢。 此外，Chi 和 Wylie (2014) 提到互動模式的關鍵是協作，以創造新的知識，而不是單向的資訊傳輸。 在訪談結果中，實驗組的學生提到，他們認為他們和他們的小組成員能夠更積極地參與討論，對同行的評論做出積極的回應，並共同完成知識概念圖。 相比之下，對照組的學生提到，組中的一些學生只是被動地傾聽同齡人的聲音，等待任務被分配，甚至沒有主動參與。 在這種情況下，對照組表現出 Chi 和 Wylie (2014) 提到的被動學習模式，因為他們只收到沒有主動參與的資訊。 因此，當學生在協作學習之前透過自我解釋在個人層面組織他們的知識時，可以使他們更多地參與協作過程並增強他們的協作傾向。",
+          "plainZh": "在 4C 框架內，自我解釋幫助學習者將個人理解轉化為書面表示，然後支援對話和協作。 協作促進知識共享並促進學生的積極參與，與單向資訊傳遞形成鮮明對比。 在協作學習之前進行自我解釋會增加學生的參與度和協作傾向。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:25:27.566Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "41da7ac4077465e51530cbfe6deaf9fa76b1eb6697f0fbdfcabbd0ffae3c9cbf",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-622299feae2d": {
+          "faithfulZh": "實驗組的行為轉換圖按照表6繪製，如圖8所示，對照組的行為轉換圖按照表7繪製，如圖9所示。圖中的值表示每個序列的z值。 黑線表示實驗組和對照組中出現的重要序列，而紅線表示僅在實驗組中出現的重要序列。 箭頭表示每個序列的行為轉變方向，箭頭線的厚度反映了行為轉變的重要性和強度。",
+          "plainZh": "實驗組和對照組的行為轉換圖分別如圖 8 和圖 9 所示。 z 值代表序列意義，黑線表示兩組共享的重要序列，紅色線表示僅在實驗組中顯著的序列。 箭頭厚度反映了行為轉變的重要性和強度。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:25:27.608Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "48cf922bb3e2a47053f2e067ee8aa2e6a36904dc0de00abde70d11a552be85e1",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-6a220a39685c": {
+          "faithfulZh": "另一方面，實驗組與對照組共享相同的顯著行為，包括開始體驗 (SE) → 探索物件 (EO) → 讀取材料 (RM) → 正確回答問題 (AC) → 探索物件 (EO)，下一個場景 (NS) → 探索物件 (EO) → 正確回答問題 (AC)，並探索物件 (EO) → 完成體驗 (FE) 行為路徑。 這些共同的行為路徑出現了，因為學習設計以 4C 框架為基礎。 這些路徑表明，學習者在虛擬博物館探索資訊和構建知識時具有相同的基本互動模式。 他們還揭示了虛擬博物館系統設計的結構一致性，可以引導兩組不同學習方法的學生在學習中投入相同的資源。 具體來說，探索和知識構建的迴圈清晰可見：開始體驗 (SE) → 探索物件 (EO) → 閱讀材料 (RM) → 正確回答問題 (AC) → 探索物件 (EO)。 這條路徑從一開始就描述了學習者的體驗，探索物件，然後閱讀材料以獲取資訊並正確回答問題。 正如 Hwang 等人所提到的。 （2023），成功答案的積極回饋激勵學習者繼續探索，創造了探索和理解的良性學習迴圈。 在採訪中，E08 表示他剛剛進入虛擬博物館，透過探索物品找到了相關的教育材料。 在正確回答問題後，他對探索其他物件更感興趣。",
+          "plainZh": "實驗組和對照組在學習虛擬博物館體驗時表現出相似的行為路徑，包括探索、閱讀材料、正確回答問題和重新審視物件，說明了 4C 框架的功效。 探索物件、閱讀材料、回答問題和重新審視物件的迴圈反映了一個清晰的學習過程，可能激勵學習者繼續探索和理解資訊，正如 Hwang 等人的支援。 （2023）。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:25:47.185Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "353bd2db6816b8119c099e0ea63e6001914a01eb7869e0886ff48c037690ee7e",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-87116cc2470a": {
+          "faithfulZh": "博物館學習是一種探索體驗，學習者在其中獲得文物的背景知識並獲得豐富的歷史、科學、藝術、語言和其他跨學科學科的知識（Lin et al. 2023; Zhou et al. 2022）。 在傳統方法中，基於博物館的學習的實施面臨一些侷限性，包括提前預訂、阻礙觀看體驗的過度擁擠問題以及所涉及的大量時間和旅行成本（Islek 和 Danju 2019；Lee 等人。 2020；Ratumbuisang 等人 2024；Tatlı 等人 2023）。 虛擬博物館可以在一定程度上克服這些限制，並提供豐富的內容。 然而，如果沒有有效的支援來促進學習者的認知參與和反思體驗，這些內容通常很難轉化為有意義的學習（Hu 和 Hwang 2024）。 因此，學者們建議在建構主義框架下實施虛擬博物館學習，讓學習者參與 4C（上下文、構造、對話、協作）元素的環境：提供現實世界的環境、促進探索和實踐以促進知識構建、透過對話促進多種觀點和鼓勵 共享和協作（Feyzi Behnagh 和 Yasrebi 2020；Murphy 1997；Rajaonarivo 等人 2019）。 特別是，以前的幾項研究都推薦使用概念對映來促進虛擬學習環境中的知識共建（Jia et al. 2024; Kim and Ju 2023）。",
+          "plainZh": "博物館學習旨在提供文物和跨學科知識的背景知識，但傳統方法有保留、過度擁擠和成本等侷限性。 虛擬博物館可以緩解這些問題，但需要認知參與支援將內容轉化為有意義的學習，從而倡導基於 4C（上下文、結構、對話、協作）的建構主義框架。 建議採用概念對映來進一步促進知識共建。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:25:47.301Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "bfe26c00b4e8a0d9d1a3df2a4456d83365d9e9095b4f2f744f35d13aaa3b913f",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-8a4ba9c3b94e": {
+          "faithfulZh": "在上下文階段，本研究利用臺北故宮博物院提供的文物和影象等開放資料構建了一個虛擬博物館作為學習環境。 這種環境幫助學習者在克服時間、空間和地理限制的同時研究博物館中的實際人工製品。 虛擬博物館的豐富背景化為學習者提供了語境化的學習體驗。 透過反覆探索人工製品的知識和場景的互動式回饋機制，學習者不僅能夠看到人工製品，還能夠更深入地瞭解它們的歷史、藝術和文化背景，從而促進跨學科知識的整合。 總體而言，虛擬博物館的學習環境是現實的、高度互動的和具有教育意義的（見圖 2）。 這個階段確立了學習者對人工製品的初步熟悉和探索體驗，為隨後的施工階段提供了具體的感官和背景基礎。",
+          "plainZh": "這項研究利用國立故宮博物院的開放資料，創造了一個虛擬的博物館學習環境，克服了時間、空間和地理的侷限性。 這種環境提供了一種語境化的學習體驗，學習者在其中探索人工製品和綜合跨學科知識。 現實和互動的性質支援更深入的理解。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:25:47.358Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "a0ab95cf4cd791867c229244adc4ee02318f831a9b0e8dbd0150fd186691bce8",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-8cfb424ede55": {
+          "faithfulZh": "例如，E07 提到，透過回答自我解釋任務中的結構化指導問題，他們可以清楚地識別自己的理解水平，並試圖用自己的語言回答問題，這有助於建立對知識的更深入理解。 E05 報告說，他們最初認為他們已經熟悉場景中的學習內容，但在完成不言自明的任務時，他們意識到仍然有部分資訊他們沒有完全理解。 於是，他們回到現場仔細複習瞭解釋，然後繼續下一個場景，繼續滿足自我解釋任務的要求。 C03 分享說，在建立協作概念對映的小組討論中，他們意識到他們沒有完全理解特定的資訊。 然而，在聽取了小組成員的觀點後，他們能夠完全掌握知識。",
+          "plainZh": "自我解釋任務幫助學習者識別他們的理解水平，並透過表達概念來闡明理解，如 E07 和 E05 所報道的。 概念對映期間的小組討論使學習者能夠在聽到其他成員的觀點後填補知識空白，從而提高整體理解力。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:25:47.411Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "34c9840bea49333987bf416b3ea0547e66741a40f6a1733a54ce95d814d6b764",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-905c814a72d6": {
+          "faithfulZh": "自我解釋的書面輸出透過為社會互動和知識共建提供可共享的材料來支援對話和協作階段（Hsu 等人，2016；Petersen 等人 2023；Schnaubert 和 Bodemer 2022）。 實驗組的學生在學習過程中參與了多層次的認知參與，包括主動模式（透過反覆檢索虛擬博物館資訊來加深理解）、建設性模式（用單詞生成知識概念的解釋和使用概念圖與小組成員組織學習內容）和互動模式 （交換想法並與成員合作進行概念對映）。 特別是，與對照組的學生相比，實驗組的學生透過不言而喻的建設性模式的認知參與程度更高（Lawson 和 Mayer 2021）。 在採訪中，E02報告說，完成自我解釋任務，然後與小組成員一起完成概念圖，可以反覆加深對學習內容的印象。",
+          "plainZh": "自我解釋輸出促進了對話和協作，為知識共同構建提供了可共享的材料。 學生展示了多層次的認知參與，包括主動、建設性和互動模式，與對照組相比，實驗組的學生對建設性模式的參與程度更高。 根據 E02 的說法，完成不言自明和概念對映會反覆加深學習印象。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:25:47.478Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "b5c4ff71b3fb05c54922b963ba7eb0af2ada4677cd4cdba75078821b78fd2177",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-9a65519202b6": {
+          "faithfulZh": "教師管理平臺包括兩個模組。 虛擬博物館教學模組提供場景資源、結構化提示自我解釋和協作概念對映資源管理。 這使教師能夠根據學生的需求設計教學和定製任務難度。 虛擬博物館管理模組管理學生帳戶和協作許可權，使教師能夠監控帳戶使用情況並確保順利學習活動。",
+          "plainZh": "教師管理平臺由資源管理虛擬博物館教學模組和使用者監控虛擬博物館管理模組組成。 這使教師能夠根據學生的需求定製教學和定製任務難度，同時在虛擬博物館環境中管理學生訪問和協作。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:25:47.506Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "8826b524974ef1ac43a9ea8ac5f28610ae0d0b9638815c713dc576f454779dca",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-a2dd28051566": {
+          "faithfulZh": "許多虛擬博物館缺乏明確的學習目標和結構化的指導可能會導致學習者迷失在豐富的資訊中，超載他們的認知負荷，最終成為資訊的被動接收者，甚至失去了學習的動力（胡和黃 2024; Karakuş Yılmaz 等人 2025）。 這凸顯了一個高度身臨其境的體驗與高效學習不同的事實，沒有戰略指導，就很難將豐富的內容轉化為有意義的知識。",
+          "plainZh": "正如 Hu 和 Hwang (2024) 和 Karakuş Yılmaz 等人所指出的，虛擬博物館缺乏明確的學習目標和指導會壓倒學習者，導致被動接收資訊和動機下降。 （2025）。 身臨其境的體驗不是天生有效的學習體驗，戰略指導對於將內容轉化為知識是必要的。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:26:07.879Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "0ba8a7097a12bd130ba1a6bc13bf016e1abe45feb5e5d1bfeb9d1616957df9f8",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-a86cbbbc6b75": {
+          "faithfulZh": "圖 7 顯示了實驗過程。 實驗組和對照組各自參加了200分鐘的學習活動，其中包括教師對虛擬博物館裝置操作的解釋、協作概念對映工具的功能以及整體活動流程的體驗。 實驗組的學生使用 SE-VML 模型學習，對照組的學生使用 C-VML 模型學習。 然後給學生 60 分鐘完成學習成績測試，以及批判性思維傾向問卷、協作傾向問卷和後設認知問卷。 最後，進行了 20 分鐘的訪談，以進一步調查參與者對所提出方法的看法。",
+          "plainZh": "圖 7 詳細說明了實驗過程，實驗組（SE-VML 模型）和對照組（C-VML 模型）的參與者都參與了 200 分鐘的學習活動。 活動結束後，學生完成評估，包括學習成績測試、批判性思維傾向問卷、合作傾向問卷和後設認知問卷，然後進行 20 分鐘的訪談。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:26:07.932Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "c4eb4591d0255868c6c7b5c05c61ff4a1dbc9e073bd38b6409bf9128e9689a7c",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-ccdcf7bb8b13": {
+          "faithfulZh": "對於感知學習體驗，採訪大綱改編自 Hwang 等人。 （2009），幷包括諸如“使用這種學習方式與正常學習方式有什麼區別？您認為它如何幫助您的學習？” 對實驗組的10名學生和對照組的10名學生進行了面對面的半結構化焦點小組訪談。 在 Atlas.ti.22 的支援下進行了分析訪談結果的過程。 正如 Creswell 和 Poth (2016) 所建議的，使用了開放編碼。 程式碼列表中的類似專案被分組為叢集。 這些叢集形成了新的類別，進一步推廣到主題和子主題。 這種方法為分析提供了一個結構化的框架。",
+          "plainZh": "感知學習體驗的訪談結構基於 Hwang 等人。 （2009），促使學生反思這種學習方法與傳統學習之間的差異及其影響。 對每組 10 名學生進行了半結構化的面對面訪談，並按照 Creswell 和 Poth (2016) 的建議使用 Atlas.ti.22 進行分析。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:26:07.988Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "f20b66e94ef4e2dcd61c4a7620b50004746d98fef3095faa160f060754860450",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-d06af10afc99": {
+          "faithfulZh": "從圖 8 和 9 中，我們可以觀察到兩組中相同的顯著行為，包括開始體驗的行為路徑 (SE) > 探索物件 (EO) > 讀取材料 (RM) — 正確回答問題 (AC)— 探索物件 (EO)、下一個場景 (NS) — 探索物件 (EO) — 正確回答問題 (AC)，並探索物件 (EO)-- 完成體驗 (FE)。 這些常見的行為說明了虛擬博物館中學習者的互動模式，並展示了系統設計的完整性，確保兩組學生都參與了相同的學習內容。 具體來說，開始體驗 (SE) → 探索物件 (EO) → 閱讀材料 (RM) → 正確回答問題 (AC) → 探索物件 (EO) 突出了探索物件的過程、獲取詳細資訊、檢查知識和 從體驗開始的成功回饋，重新刺激新的探索。 這個過程展示了系統的內容設計和檢查機制，有效地促進了知識的獲取和鞏固。 下一個場景 (NS) → 探索物件 (EO) → 正確回答問題 (AC) 表示學習者可以在切換到新場景後快速進行物件探索，然後及時完成知識檢查。",
+          "plainZh": "圖 8 和圖 9 顯示了虛擬博物館互動期間兩組的相似行為模式，包括開始體驗 (SE) > 探索物件 (EO) > 閱讀材料 (RM) 等路徑。 這證明了系統設計的完整性，確保兩個組都訪問了相同的學習內容。 透過成功的回饋探索物件、驗證知識和重新探索的過程顯示出有效的知識獲取和鞏固。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:26:08.069Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "c74742de3af27d6107e4107b98b03328b8508914cc42f1f779694312c18b686f",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-dade0b4336b6": {
+          "faithfulZh": "2. SE-VML 模型和 C-VML 模型之間的批判性思維趨勢是否存在顯著差異？",
+          "plainZh": "該段落提出了一個問題，即 SE-VML 模型和 C-VML 模型之間批判性思維趨勢的顯著差異。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:26:08.086Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "7090edb3e97f7cc3bad69a899778059171ffde2c7b4c49476f0af1c25fdfd773",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-f46be40dbda8": {
+          "faithfulZh": "3. SE-VML 模型和 C-VML 模型之間的協作趨勢是否存在顯著差異？",
+          "plainZh": "該段落提出了一個問題，即 SE-VML 模型和 C-VML 模型之間的協作趨勢存在顯著差異。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:26:08.102Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "e575f2dd4e59dad4bdae1438bd23b5c68a18e39276c05823fe51a84e3b73fdf6",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-recovered-219cbafdbcad": {
+          "faithfulZh": "如表2所示，實驗組的平均值和標準差分別為82.86和11.17，對照組分別為75.36和13.19。 實驗組的學習成績明顯優於對照組（t=2.30，p=0.03 <0.05），中等效應量（Cohen's d=0.61）（Cohen 1988）。",
+          "plainZh": "表 2 顯示實驗組（平均值=82.86，SD=11.17）在學習成績測試中表現優於對照組（平均值=75.36，SD=13.19）。 差異具有統計學意義（t=2.30，p=0.03 <0.05），中等效應量（Cohen's d=0.61），表明實驗組的學習得到顯著改善。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:26:29.843Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "219cbafdbcaddb1edc820dde86d1b6873e0af99d5117a461f3b1547f7cefe44c",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-recovered-274783c81bc6": {
+          "faithfulZh": "在 VR 場景中，學習者被引導基於系統的指導問題進行自我解釋，以促進反思和知識組織，從而加深他們對學習內容的理解和構建。 在模型的四個階段中，自我解釋充當了個人意義建立和隨後的社會知識共建之間的橋樑，確保學習者進入具有認知準備和明確表示的協作階段。 該模型由四個階段組成，如圖 1 所示。每個階段都實現了不同的監管功能，逐步指導學習者從非結構化探索到協調的協作知識構建。 以下部分明確強調階段之間的邏輯進展以及在早期階段建立的認知準備如何為後續階段奠定基礎。",
+          "plainZh": "VR 情景引導學習者使用系統問題進行自我解釋，幫助他們反映和組織他們的知識。 SEL 解釋將個人理解與跨四個階段的協作知識構建聯絡起來，確保學習者為具有明確表示的協作活動做好準備。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:26:29.888Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "274783c81bc6d92e9e634896f66b13cdc4b13dc6523657f75ac85f6761280a18",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-recovered-291e01cb36b3": {
+          "faithfulZh": "如表5所示，實驗組的平均值和標準差分別為4.58和0.59，對照組分別為4.18和0.66。 實驗組的後設認知顯著高於對照組（t=2.40，p=0.02 <0.05），中等效應量（Cohen's d=0.64）（Cohen 1988）。 推斷本研究中提出的 SE-VML 模型在幫助學生增強後設認知方面是有效的。",
+          "plainZh": "表 5 表明實驗組（平均值=4.58，SD=0.59）與對照組相比表現出更高的後設認知（平均值=4.18，SD=0.66）（t=2.40，p=0.02 <0.05）。 中等效應大小（Cohen 的 D=0.64）表明 SE-VML 模型在促進後設認知方面是有效的。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:26:29.946Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "8ed81343f3078053c5ba0fe03efce04084e54f880639a5dfb6bbf28c9ec322fe",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-recovered-3bc8d3e8019a": {
+          "faithfulZh": "在增加學習動機方面，學生報告了兩個常見的意願指標：他們願意將該方法應用於其他課程以及他們繼續使用該方法的意願。 此外，實驗組獨家報道了一個額外的方面：進一步探索學習內容的願望（表 8）。 E04 表示，這種學習方法激發了他們對學習的興趣，並讓他們對嵌入人工製品中的跨學科知識感到好奇。 這也促使他們在進入新場景時先主動閱讀學習材料。 C05表示學習方法非常有趣，他們希望繼續使用它並將其應用於不同的課程內容。 此外，E08 提到博物館藏品包含許多人工製品，但這項學習活動只關注一些物品。 在與小組完成協作概念對映後，E08 表示希望有更多機會在未來探索其他人工製品。",
+          "plainZh": "學生表示增加了學習動機，包括將該方法應用於其他課程並繼續使用的願望。 實驗小組還表達了進一步探索學習內容的願望，這激發了對跨學科知識的興趣和對學習材料的積極參與。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:26:29.996Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "3bc8d3e8019a6a20a4aaf59315221563aec1af757993291538c11183b9f0eee6",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-recovered-419520357045": {
+          "faithfulZh": "接下來，為了加深知識構建，本研究採用了自我解釋引導的虛擬博物館學習模型，允許學習者透過線上結構化指導工作表以文字形式完成文字形式的自我解釋任務（圖 4）。 自我解釋策略的核心是激勵學習者將自己對知識的理解外部化，這不僅減輕了他們工作記憶的負擔，而且增強了他們對內容意義構建的參與，為自己生成了清晰和詳細的知識描述。 具體來說，這個過程需要學習者組織和重新組織內容，在新資訊和現有知識之間建立有意義的聯絡。 在這項研究中，“將現有資訊與新概念聯絡起來”是透過人工品鑑賞實現的。 學生們已經從階級和增補中獲得了碎片化的理解，例如，對王朝和社會習俗的瞭解（例如，唐朝對墓葬的強調），習語的象徵意義（例如， 表示許多後代），以及指令碼和銘文的演變（例如，在青銅器皿的內牆上投射的文字）。 在虛擬博物館學習中，學習者處於人工欣賞的環境中。 他們啟用和重組了他們的先驗知識，然後透過自我解釋任務將其與新的、特定於人工製品的資訊整合在一起。 將理解轉化為單詞的過程促進了學習者的知識構建，並增強了知識的保留和隨後的轉移。",
+          "plainZh": "該研究使用了自我解釋的虛擬博物館學習模型，使用線上結構化工作表來促進自我解釋任務。 自我解釋 外化學習者的理解，減少工作記憶負荷，並透過人工鑑賞促進新知識和現有知識之間的有意義的聯絡。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:26:30.072Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "419520357045abc7d903977b6dfe3783609b911b4151283cbebb19794dac9fbd",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-recovered-44072c40617d": {
+          "faithfulZh": "學生報告說，學習過程促進了批判性思維。 這包括促進多樣化思維的能力。 此外，實驗組獨特地報告了兩種能力：評估觀點的準確性和發展獨立的思維技能（表 8）。 實驗組中的大多數學生表示，在參與促進協作之前，他們透過自我解釋的過程建立了對內容的理解和觀點，這涉及發展獨立的思維技能。 這個過程幫助他們更有效地評估小組協作期間觀點的準確性，並提供建設性的回饋。",
+          "plainZh": "學生報告說，學習過程促進了批判性思維，包括促進多樣化思維。 實驗組還專門報告了準確評估觀點和發展獨立思維技能的能力，除了透過自我解釋促進獨立思考，還建立了理解力。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:26:30.114Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "44072c40617d5b240736640dc3e0891df134e55a920328df3b10d84e7e7290bb",
+          "explanationMethod": "isolated-model-clone-v1"
+        },
+        "paper-08-s-recovered-468cb9864233": {
+          "faithfulZh": "4. 增強後設認知",
+          "plainZh": "本節主題：4. 增強後設認知。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:31:32.921Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "468cb9864233134f51db2894c1b2ac7930cac963597a2f4a398f6c478c0eecf9",
+          "explanationMethod": "source-grounded-manual-v1"
+        },
+        "paper-08-s-recovered-4e59236fcb34": {
+          "faithfulZh": "如圖 10 和 11 所示，我們將文字資料區分為應用程式程式碼（綠色和紅色）和抽象程式碼（藍色），並使用“是”的程式碼-程式碼關係來建立它們之間的連結。 此外，五個抽象程式碼透過“相關聯”的程式碼-程式碼關係相互連線，呈現了抽象程式碼之間的相關性。 作為對研究問題 5 的回應，最終確定了五個主題。",
+          "plainZh": "訪談中的具體程式碼進一步歸納為五個主題，圖 10、11 用 is part of 表示包含關係、is associated with 表示主題關聯。這裡的連線不是時間先後，也不是統計上的相關或因果模型。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:31:32.968Z",
+          "generatedBy": "Codex source-grounded explanation with Chrome on-device faithful translation",
+          "sourceTextSha256": "4e59236fcb34be16dac44a4db1523afcc54670a1b5bb06257115150a52007787",
+          "explanationMethod": "source-grounded-manual-v1"
+        },
+        "paper-08-s-recovered-5889a700423e": {
+          "faithfulZh": "如表3所示，實驗組的平均值和標準差分別為4.37和0.54，對照組分別為4.03和0.62。 實驗組的批判性思維趨勢明顯高於對照組（t=2.22，p=0.03 <0.05），中等效應量（Cohen's d=0.58）（Cohen 1988）。 推斷 SE-VML 模型在幫助學生增強批判性思維傾向方面是有效的。",
+          "plainZh": "批判思考傾向的平均數為實驗組 4.37、控制組 4.03，標準差分別為 0.54、0.62；作者報告 t = 2.22、p = 0.03、d = 0.58。它是自陳傾向問卷的差異，不能當作實際批判思考能力測驗的分數。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:31:33.016Z",
+          "generatedBy": "Codex source-grounded explanation with Chrome on-device faithful translation",
+          "sourceTextSha256": "5889a700423eb5b54006bfa30002fb5a3721869e88408577f9978d7061c9c2fe",
+          "explanationMethod": "source-grounded-manual-v1"
+        },
+        "paper-08-s-recovered-59ca5963c289": {
+          "faithfulZh": "本研究中的行為程式碼是參考 Hwang 等人提出的編碼表開發的。 （2023）並根據本研究開發的虛擬博物館的特徵進行調整。 編碼方案總共包括八個行為程式碼，其定義和描述詳見表 1。學習者的學習行為自動記錄在虛擬博物館系統中，並由兩名研究人員根據編碼表進行編碼，kappa 值為 0.80。",
+          "plainZh": "本篇設定八種行為程式碼，並由兩位研究者編碼系統記錄；一致性 Kappa = 0.80。先用表 1 瞭解各程式碼的操作定義，再讀殘差表與轉移圖，不能直接把縮寫當作心理能力。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:31:33.053Z",
+          "generatedBy": "Codex source-grounded explanation with Chrome on-device faithful translation",
+          "sourceTextSha256": "59ca5963c289c4b8108335c9a6ce541345d9370559e7515e226daef9dc00cc7a",
+          "explanationMethod": "source-grounded-manual-v1"
+        },
+        "paper-08-s-recovered-68b6c6187253": {
+          "faithfulZh": "如表4所示，實驗組的平均值和標準差分別為4.49和0.69，對照組分別為4.12和0.63。 實驗組的協作趨勢顯著高於對照組（t=2.11，p=0.03 <0.05），中等效應量（Cohen's d=0.56）（Cohen 1988）。 推斷 SE-VML 模型在幫助學生提高合作傾向方面是有效的。",
+          "plainZh": "合作傾向的平均數為實驗組 4.49、控制組 4.12，標準差分別為 0.69、0.63；作者報告 t = 2.11、p = 0.03、d = 0.56。這說明後測問卷的組間差異，不能據此斷言所有實際合作行為都已改善。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:31:33.091Z",
+          "generatedBy": "Codex source-grounded explanation with Chrome on-device faithful translation",
+          "sourceTextSha256": "68b6c6187253715b12fb9ae524249532a4af2c9df08f6887cc9ff77943f27926",
+          "explanationMethod": "source-grounded-manual-v1"
+        },
+        "paper-08-s-recovered-6cb737e75bda": {
+          "faithfulZh": "5. 增加學習動力",
+          "plainZh": "本節主題：5. 增加學習動力。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:31:33.097Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "6cb737e75bda147f57787870e363e660e26657ac8cb17696b5fdbb1ce6443596",
+          "explanationMethod": "source-grounded-manual-v1"
+        },
+        "paper-08-s-recovered-7d5b19ebab16": {
+          "faithfulZh": "3. 促進合作",
+          "plainZh": "本節主題：3. 促進合作。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:31:33.103Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "7d5b19ebab163253849864d838f0dee9520bb2e002e9a49cb9266f6467fe3439",
+          "explanationMethod": "source-grounded-manual-v1"
+        },
+        "paper-08-s-recovered-8a1e3e0b970b": {
+          "faithfulZh": "協作階段：小組成員透過同步協作構建了知識概念圖，分享了小組討論的結果（圖 5），向全班展示了他們的工作，並收到了同行和老師的回饋和建議。 協作過程不僅要求成員將核心概念組織和連線在一起，而且還透過視覺影象促進了知識的外部化和共享。 透過協作規劃和實踐，小組成員實現了協同知識構建，加深了對內容的系統理解。 在這個階段的協作知識構建受益於對話階段所取得的精細理解和澄清。 透過前面的構建和對話階段提供的腳手架，學習者進入了協作階段，具有足夠的認知準備和共同的理解基礎。 這使最終的協作概念對映能夠有效地進行。",
+          "plainZh": "合作階段由小組同步繪製概念圖，整理與分享討論結果，再接受同儕及教師回饋。作者強調前面的個人建構和對話澄清，為合作共構準備了共同理解基礎。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:31:33.178Z",
+          "generatedBy": "Codex source-grounded explanation with Chrome on-device faithful translation",
+          "sourceTextSha256": "8a1e3e0b970b0d9e1d01e4ee9fb676f5a5c1246497a3b7cbae8adf2d34445c8a",
+          "explanationMethod": "source-grounded-manual-v1"
+        },
+        "paper-08-s-recovered-a1dc6f42b906": {
+          "faithfulZh": "分析結果表明，在殘差表中，實驗組有 10 種學習行為（表 6）和對照組 7 種（表 7）達到顯著水平。 有七種相同的學習行為在兩組和三種不同的重要行為中達到顯著水平。",
+          "plainZh": "實驗組有十條、控制組有七條達到顯著的行為轉移，其中七條共有，三條只在實驗組達到門檻。這裡在計算顯著的轉移序列，不是說實驗組有十種行為程式碼；本篇程式碼共八種。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:31:33.206Z",
+          "generatedBy": "Codex source-grounded explanation with Chrome on-device faithful translation",
+          "sourceTextSha256": "a1dc6f42b906ca8f1a87ff696a22387ca01de51e19579496a6775b1168effe9b",
+          "explanationMethod": "source-grounded-manual-v1"
+        },
+        "paper-08-s-recovered-a28332a0f918": {
+          "faithfulZh": "對於學習行為模式的分析，Hwang 等人提出的學習行為編碼量表。 （2023）被用作參考，並進行了調整以適應本研究的背景。 基於虛擬博物館學習環境的設計，選擇並保留了以下八個行為程式碼：開始體驗 (SE)、探索物件 (EO)、重複物件 (RO)、正確回答 (AC)、錯誤答案 (WA)、閱讀材料 (RM)、下一個場景 (NS) 和完成體驗 (FE)。 這些行為的定義和描述如表 1 所示。這些程式碼主要用於對學生在完成學習任務過程中表現出的行為進行分類。",
+          "plainZh": "研究參考既有行為編碼並依虛擬博物館活動調整，記錄學生在學習任務中的操作。編碼表定義行為，序列分析才用這些程式碼檢驗前後轉移；兩者不是同一類結果。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:31:33.264Z",
+          "generatedBy": "Codex source-grounded explanation with Chrome on-device faithful translation",
+          "sourceTextSha256": "a28332a0f918379b1f418d15c06ae91a206da0fcc8232e4b56973569f1d66a00",
+          "explanationMethod": "source-grounded-manual-v1"
+        },
+        "paper-08-s-recovered-a28526b89b38": {
+          "faithfulZh": "2.培養批判性思維",
+          "plainZh": "本節主題：2.培養批判性思維。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:31:33.271Z",
+          "generatedBy": "Chrome on-device Translator and Prompt APIs; PDF-bound reconstruction",
+          "sourceTextSha256": "a28526b89b384cbf343bb054bed28cccf0f4489b14626d7d34c1f693d43424f7",
+          "explanationMethod": "source-grounded-manual-v1"
+        },
+        "paper-08-s-recovered-a7af06c90785": {
+          "faithfulZh": "在促進協作方面，學生提到了幾個方面。 其中包括溝通和分享意見的能力，以及協作完成任務的能力。 此外，實驗組還報告了一個額外的能力：實現組共識（表 8）。 實驗組中的大多數學生認為，在完成自我解釋任務後，他們可以在進入小組討論時更清楚地表達自己的觀點。 透過交流和分享意見，他們能夠比較和整合不同的想法，幫助他們達成群體共識。 相比之下，對照組的學生經常提到他們要麼省略某些內容或難以清楚地解釋自己的想法的情況。",
+          "plainZh": "合作主題包含溝通分享與共同完成任務，實驗組另提到形成共識。受訪者認為先完成自我解釋較容易表達想法；這補充合作傾向問卷，不能代替對實際合作質量的直接測量。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:31:33.316Z",
+          "generatedBy": "Codex source-grounded explanation with Chrome on-device faithful translation",
+          "sourceTextSha256": "a7af06c90785ba36d928fb7e90d7a0c83207e40353e78c432b8554f555761a01",
+          "explanationMethod": "source-grounded-manual-v1"
+        },
+        "paper-08-s-recovered-cae38c837c08": {
+          "faithfulZh": "在增強後設認知方面，學生提到了發展和完善概念知識的能力。 此外，實驗組僅報告了兩種能力：自我監測理解和適應學習策略（表 8）。 實驗組中的大多數學生表示，在回答不言自明的任務問題時，他們能夠更好地監控他們對學習內容的理解。 他們還更加意識到在探索虛擬博物館場景時容易被忽視的資訊，促使他們調整學習策略並更多地關注關鍵資訊。",
+          "plainZh": "後設認知主題包含修訂概念知識，實驗組另提到檢查理解與調整策略。學生引語說明他們如何注意遺漏資訊，但訪談仍是對經驗的陳述，不能推廣為每位參與者都具備同樣能力。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:31:33.360Z",
+          "generatedBy": "Codex source-grounded explanation with Chrome on-device faithful translation",
+          "sourceTextSha256": "cae38c837c0887cd6a453dd3a1795f6257cc5d33005d6175834ef6b3654342bf",
+          "explanationMethod": "source-grounded-manual-v1"
+        },
+        "paper-08-s-recovered-e10ed0a6ae52": {
+          "faithfulZh": "此外，圖 8 中的紅線顯示了兩組學習行為的主要差異。 實驗組的學生在閱讀材料後重複閱讀材料的可能性非常高（閱讀材料 (RM) - 閱讀材料 (RM)）。 這表明 SE-VML 模式促使學習者在理解內容時進行重複的迭代訊息處理，以滿足對文字表示的自我解釋的需求。 此外，實驗組中的學生移動到下一個場景並繼續閱讀材料（閱讀材料（RM）-下一個場景（NS）>閱讀材料（RM））的可能性很高，這表明SE-VML模型鼓勵學習者在完成後主動和有目的地移動到新場景 當前場景中的自我解釋任務，並優先搜尋相關內容，為下一個解釋性任務做準備。",
+          "plainZh": "實驗組較常出現重複閱讀材料，以及進入下一場景後繼續閱讀的顯著轉移。作者認為自我解釋任務可能促使學生更仔細理解內容；這是對序列的解釋，不能把紅色箭頭直接當成因果證明。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:31:33.418Z",
+          "generatedBy": "Codex source-grounded explanation with Chrome on-device faithful translation",
+          "sourceTextSha256": "e10ed0a6ae522878fd269d702d005e42b18ce25932b6705980c86b562059e5f0",
+          "explanationMethod": "source-grounded-manual-v1"
+        },
+        "paper-08-s-recovered-e4aeec704843": {
+          "faithfulZh": "學生們提到了促進學習效果的幾個優點。 其中包括專注於理解學習內容，審查和反思學習內容，以及增強跨學科知識。 此外，實驗組專門報告了一個好處：加強對知識的深刻理解（表 8）。",
+          "plainZh": "學習成效主題包含理解內容、複習反思與跨領域知識；實驗組另外提到理解更深刻。這裡整理受訪者的經驗，不能把訪談主題直接當成成就測驗的證據或全體學生比例。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:31:33.444Z",
+          "generatedBy": "Codex source-grounded explanation with Chrome on-device faithful translation",
+          "sourceTextSha256": "4589f6500680d2b0106952b1b1a2063c7be745652648da66b061e330edba73bd",
+          "explanationMethod": "source-grounded-manual-v1"
+        },
+        "paper-08-s-recovered-e4de920eb921": {
+          "faithfulZh": "建設階段：涉及虛擬博物館的探索和自我解釋的學習活動。 首先，學習者透過嵌入虛擬博物館每個場景的結構化指導問題積極探索人工製品的背景知識。 該系統提供了實時互動式回饋，以幫助學習者最初檢查他們的理解。 這些指導性問題也促使學習者思考新知識是如何組織的，以及它如何與他們以前的經歷聯絡起來。 透過系統的回饋，學習者能夠回顧知識內容的正確性並主動構建知識，而不是被動地接受資訊（圖 3）。 值得注意的是，結構化的指導性問題提供了實時回饋，以便學習者能夠準確地初步掌握人工製品的事實資訊。 之後，不言自明的任務要求學習者消化、組織和內化這些經過驗證的想法。 學習者用自己的話語構建了連貫的意義。 根據設計，這項任務沒有提供即時系統回饋； 其目的是培養一個個體的生成認知過程。",
+          "plainZh": "個人建構階段先用場景引導問題探索文物，系統提供即時回饋以檢查事實理解；之後用自己的話完成文字自我解釋。後一個任務刻意沒有即時系統回饋，兩種活動的功能不能混為一談。",
+          "status": "ai-draft",
+          "reviewedAt": null,
+          "generatedAt": "2026-09-17T10:31:33.498Z",
+          "generatedBy": "Codex source-grounded explanation with Chrome on-device faithful translation",
+          "sourceTextSha256": "a32b3d8a3928d275b7ed81dc87f2714830b9948e10a936563e10de3d061ec257",
+          "explanationMethod": "source-grounded-manual-v1"
+        }
+      },
+      "appendices": {}
+    }
+  }
+}

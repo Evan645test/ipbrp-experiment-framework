@@ -1,0 +1,658 @@
+{
+  "paper-01-ref-ab144d9eb356": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Observing%20interaction%3A%20An%20introduction%20to%20sequential%20analysis%20%282nd%20ed%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:16.519031+00:00",
+    "sourceTextSha256": "ab144d9eb35609a985285a23d8955463ea722a317fd62aafacf01a640be60a04",
+    "reason": "no-exact-identity"
+  },
+  "10.1207/s15327809jls0703&4_2": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1207%2Fs15327809jls0703%264_2%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1207%2Fs15327809jls0703%264_2%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:16.519127+00:00",
+    "sourceTextSha256": "0eb8239316d77e3ac558f0276b0dcab8694fd9a0f24e0ba8374d3ecb47cc28a8",
+    "reason": "no-exact-identity"
+  },
+  "paper-01-ref-0442113a66e3": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22The%20role%20of%20the%20analysis%20of%20the%20zone%20of%20proximal%20development%20in%20the%20course%20of%20remediation%20of%20executive%20functions%3A%20An%20example%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:16.518837+00:00",
+    "sourceTextSha256": "0442113a66e3f34a96a42bbb3226455920e737c05d5271d53f77365a6d2b055c",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.ecresq.2023.05.015": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1016%2Fj.ecresq.2023.05.015%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1016%2Fj.ecresq.2023.05.015%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:16.868556+00:00",
+    "sourceTextSha256": "85e9e21d793430093608adfb889f549d6f94e9f0fa0a043b941ee23f847cdda6",
+    "reason": "no-exact-identity"
+  },
+  "paper-01-ref-8f038f968804": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22New%20frameworks%20for%20studying%20and%20assessing%20the%20development%20of%20computational%20thinking%2C%201%2C%2025%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:16.924187+00:00",
+    "sourceTextSha256": "8f038f968804c07e40bf18aa35719a025c90e16ef3a53050d43f511e3c60b80b",
+    "reason": "no-exact-identity"
+  },
+  "paper-01-ref-7ff7c453b9d0": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Coding%20as%20a%20playground%3A%20Programming%20and%20computational%20thinking%20in%20the%20early%20childhood%20classroom%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:16.837906+00:00",
+    "sourceTextSha256": "7ff7c453b9d058ed48ba3cb086a08c15ec0a986a72f0af571beb9b7c762fa67f",
+    "reason": "no-exact-identity"
+  },
+  "10.30191/ets.202410_27(4).rp05": {
+    "status": "available",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/article/742b90c33e434c85a027305e49179edb",
+    "checkedAt": "2026-09-17T02:18:17.261949+00:00",
+    "sourceTextSha256": "701d6f0373297ba490d4f25a8f79ad7311cc1847d93c525441d04ab256a262fa",
+    "reason": "no-exact-identity",
+    "metadataTitle": "Young children’s conceptions of robot programming learning: A draw-a-picture and epistemic network analysis",
+    "databaseId": "742b90c33e434c85a027305e49179edb",
+    "acquisitionMethod": "complete deposited bibjson.abstract field; DOI/title or title/author/year checked; no AI summary"
+  },
+  "paper-01-ref-984fd9aab250": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22STEM%20project-based%20learning%20%3A%20An%20integrated%20science%2C%20technology%2C%20engineering%2C%20and%20mathematics%20%28STEM%29%20approach%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:17.241908+00:00",
+    "sourceTextSha256": "984fd9aab250dd2afbf12ebe2b35a8ebc76bf0771699fcb7d101a35c1822722d",
+    "reason": "no-exact-identity"
+  },
+  "paper-01-ref-bf946b4c5db5": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Project-based%20instruction%3A%20A%20review%20of%20the%20literature%20on%20effectiveness%20in%20prekindergarten%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:17.577545+00:00",
+    "sourceTextSha256": "bf946b4c5db55fc3af10d9f8adff88d66a5f0d5a4586b78f996bbfe5d8b6c679",
+    "reason": "no-exact-identity"
+  },
+  "paper-01-ref-ded4fcfc1d15": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Mindstorms%3A%20Children%2C%20computers%2C%20and%20powerful%20ideas%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:17.992730+00:00",
+    "sourceTextSha256": "ded4fcfc1d155f02a43e44d70293a1b9b5e76c0e7032c7bf20d7ff9d5dff99e6",
+    "reason": "no-exact-identity"
+  },
+  "paper-01-ref-a34d74892884": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Developmental%20stages%20and%20developmental%20processes%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:18.394002+00:00",
+    "sourceTextSha256": "a34d74892884e07fa1687026423d36994a8a3abb964226f3bcc50cad1c67ce7a",
+    "reason": "no-exact-identity"
+  },
+  "paper-01-ref-ef29af058192": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Child%20development%20and%20education%20%284th%20ed%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:17.600842+00:00",
+    "sourceTextSha256": "ef29af0581925c10c131ec2c3b644430294bd07c5086704a171614b682d083ff",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.ijcci.2022.100563": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1016%2Fj.ijcci.2022.100563%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1016%2Fj.ijcci.2022.100563%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:18.749653+00:00",
+    "sourceTextSha256": "3fd15e08cf9747d9e72d1e0d76084f9b16a23ecc58135b95acba57295ad44f7b",
+    "reason": "no-exact-identity"
+  },
+  "paper-01-ref-8866cd26642a": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22The%20collected%20works%20of%20L.S.%20vygotsky%3A%20Volume%201%3A%20Problems%20of%20general%20psychology%2C%20including%20the%20volume%20thinking%20and%20speech%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:18.991465+00:00",
+    "sourceTextSha256": "8866cd26642a24d08d4f0b1f9b25bbb45f0bcdbe91fba855cd591611ac54584a",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.tsc.2024.101528": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1016%2Fj.tsc.2024.101528%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1016%2Fj.tsc.2024.101528%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:19.072881+00:00",
+    "sourceTextSha256": "98f0bbb58a49d16505b0be2db700f951fd4791a39168c3694b0a311ddcb5f1df",
+    "reason": "no-exact-identity"
+  },
+  "paper-01-ref-9852a03d8f73": {
+    "status": "not-checked",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22What%20is%20PBL%3F%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:17.184732+00:00",
+    "sourceTextSha256": "9852a03d8f736be4efd25e53752296df45d6603a9181471b4814a1ef2918775c",
+    "reason": "no-exact-identity",
+    "error": "HTTP Error 400: Bad Request"
+  },
+  "10.1016/j.compedu.2024.105039": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1016%2Fj.compedu.2024.105039%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1016%2Fj.compedu.2024.105039%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:19.359619+00:00",
+    "sourceTextSha256": "84602dc4940d7068f644a3862c26a294bc34a13aa8a385aa3c5af4a4ac5c07b1",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-9217a0dfc802": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Observing%20Interaction%3A%20An%20Introduction%20to%20Sequential%20Analysis.%202nd%20ed%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:19.443485+00:00",
+    "sourceTextSha256": "9217a0dfc802489848e77727390619fc45d7b41d79bb59815d7bbe482689a23d",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-9fe98364c3a5": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Teaching%20Software%20Engineering%20Through%20a%20Simulation%20Game%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:19.527119+00:00",
+    "sourceTextSha256": "9fe98364c3a58fd812e12fd782a817d091a1f6feb4351595dc4f750fe164e51e",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-8bcd38d1b3e0": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22A%20Learning%20Diagnostic%20System%20Based%20on%20Concept%20Map%20Theory%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:19.705378+00:00",
+    "sourceTextSha256": "8bcd38d1b3e0f89531b5057c023f6b12fae36fa7bda60fe532c2041a3971ad7c",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-07f439dc3990": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Integrating%20Commercial%20Video%20Games%20in%20Education%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:19.776716+00:00",
+    "sourceTextSha256": "07f439dc3990b74fb4574487a8c127bbd9fa41a941a9a128fa48936079d97131",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-0003e1aaaba2": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Effects%20of%20a%20Concept%20MappingBased%20Flipped%20Classroom%20Approach%20on%20EFL%20Students%27%20English%20Speaking%20Performance%2C%20Learning%20Perceptions%20and%20Speaking%20Anxiety%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:19.828663+00:00",
+    "sourceTextSha256": "0003e1aaaba205053ccb54a7a5cb3f63d65c30cf92d49f44343b30d88a3797da",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-60691bf12349": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Flow%3A%20The%20Psychology%20of%20Optimal%20Experience%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:20.051980+00:00",
+    "sourceTextSha256": "60691bf12349a69bfcb3883e8cb815b69ac78544f9f1df3a1874f22eccf70646",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-dabf2f835aac": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Discovering%20Statistics%20Using%20IBM%20SPSS%20Statistics.%204th%20ed%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:20.072697+00:00",
+    "sourceTextSha256": "dabf2f835aac016962a5b76ec804587c35de2a39292bf14083948b6dcaf179bc",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-c45144df6275": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Exploring%20the%20Role%20of%20Concept%20Mapping%20in%20Science%20Inquiry%20Learning%3A%20A%20Longitudinal%20Analysis%20of%20Motivation%20and%20Participation%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:20.342514+00:00",
+    "sourceTextSha256": "c45144df6275a11d368d3faade858a8b96968b6e3b8cf4578e84f6cc1287d65f",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-02a126be96f9": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Applying%20a%20Knowledge%20Visualization%20Approach%20to%20Develop%20Digital%20Concept%20Maps%20for%20Flipped%20Learning%3A%20An%20Investigation%20of%20Learning%20Achievement%2C%20Motivation%20and%20Behavior%20Patterns%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:20.380129+00:00",
+    "sourceTextSha256": "02a126be96f9a5a6d9b3ecc79bed234abd7e04b73c53aa8345f893d17a12cac2",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-80047b6de6a2": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Principles%20and%20Practice%20in%20Second%20Language%20Acquisition%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:20.424181+00:00",
+    "sourceTextSha256": "80047b6de6a2f10e90345b76ef3108a370b3c7f32c888f3a5d0fb6398fac29f7",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-c58f187fad52": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Game-Based%20Learning%3A%20Considering%20the%20Effectiveness%20of%20Games%20as%20Instructional%20Tools%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:20.668135+00:00",
+    "sourceTextSha256": "c58f187fad52be09c5b95165aa6eb62b7228b45418ea9410d751d8ae41af7cd9",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-5e91cf532b05": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22The%20Theory%20Underlying%20Concept%20Maps%20and%20How%20to%20Construct%20Tem%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:20.824766+00:00",
+    "sourceTextSha256": "5e91cf532b05d11c6136acb01236b5d94d0ed4cbf1c628c2cb425c7bb6064850",
+    "reason": "no-exact-identity"
+  },
+  "10.1037/h0084295": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1037%2Fh0084295%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1037%2Fh0084295%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:20.854302+00:00",
+    "sourceTextSha256": "4e8b51edd81194e7e99047049d736b55e0f51126878afc280544da15030c1b9e",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/s0747-5632(04)00036-6": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1016%2Fs0747-5632%2804%2900036-6%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1016%2Fs0747-5632%2804%2900036-6%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:21.002894+00:00",
+    "sourceTextSha256": "c2f3300b1004646bea8c8268e6b32498f66ab6914803ccda5975fcf560ad5768",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-3ae854777a97": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Digital%20Game-Based%20Learning.%202nd%20ed%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:21.168680+00:00",
+    "sourceTextSha256": "3ae854777a9749ab95d42eaaf1a1137690e27c28260dab5e8508e3b9e8c2a568",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-5b8ea531ead2": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Using%20Multivariate%20Statistics.%207th%20ed%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:21.367787+00:00",
+    "sourceTextSha256": "5b8ea531ead22ae477b0c1ce49c0114406c96704b6441cd08221d24e9a48af02",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-552253a1682e": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22The%20Effects%20of%20Incorporating%20Concept%20Mapping%20Into%20Flipped%20Learning%20on%20EFL%20Learners%27%20Critical%20Thinking%20Performance%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:21.203758+00:00",
+    "sourceTextSha256": "552253a1682e58bb0c3c3fe43730b2322c136d94e273dd836b65595add74aefe",
+    "reason": "no-exact-identity"
+  },
+  "paper-02-ref-8a636a3fac9a": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Mind%20in%20Society%3A%20The%20Development%20of%20Higher%20Psychological%20Processes%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:21.481757+00:00",
+    "sourceTextSha256": "8a636a3fac9a6b452b0ced3dd5ec7d716590d17290c9211e7545ba13dec35960",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.learninstruc.2024.102023": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1016%2Fj.learninstruc.2024.102023%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1016%2Fj.learninstruc.2024.102023%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:21.683090+00:00",
+    "sourceTextSha256": "bfe45c620c1f6879a230dd44588cb924365fc9a37c2d12aa2b49b067bc1e046a",
+    "reason": "no-exact-identity"
+  },
+  "10.30191/ets.202410_27(4).rp06": {
+    "status": "available",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/article/08c4506fef634b91882d8e0e1745d1a3",
+    "checkedAt": "2026-09-17T02:18:21.883595+00:00",
+    "sourceTextSha256": "ac6b7b0a7f27576bed960761d0d24ba021ffe7e87d13d14531dd28b676602364",
+    "reason": "no-exact-identity",
+    "metadataTitle": "The design and evaluation of a multi-scaffolding game-based career education teaching module with mobile technology for high school students with mild intellectual disabilities",
+    "databaseId": "08c4506fef634b91882d8e0e1745d1a3",
+    "acquisitionMethod": "complete deposited bibjson.abstract field; DOI/title or title/author/year checked; no AI summary"
+  },
+  "10.1017/cbo9780511527685": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1017%2Fcbo9780511527685%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1017%2Fcbo9780511527685%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:21.815999+00:00",
+    "sourceTextSha256": "c3870df942770dab6fd1bfba7dcc1724086a94ce5694853aa0678f3197d3ee56",
+    "reason": "no-exact-identity"
+  },
+  "10.6173/cjse.2007.1503.02": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.6173%2Fcjse.2007.1503.02%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.6173%2Fcjse.2007.1503.02%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:22.201292+00:00",
+    "sourceTextSha256": "b9bede01004a74f9494173df896df101cea22e66399216e5994a49cabab541bb",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.compedu.2023.104738": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1016%2Fj.compedu.2023.104738%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1016%2Fj.compedu.2023.104738%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:22.247618+00:00",
+    "sourceTextSha256": "27a6dc96514fc82490d6ef9bb2722222bd5f2e5519de7d22502c3c64a35f027a",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.compedu.2024.105196": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1016%2Fj.compedu.2024.105196%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1016%2Fj.compedu.2024.105196%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:22.511444+00:00",
+    "sourceTextSha256": "a31739aab003f5ae8407626302f29018aba03544d8fa474fc8ebc3c1e3035984",
+    "reason": "no-exact-identity"
+  },
+  "paper-04-ref-977c6dd7da52": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Teaching%20for%20quality%20learning%20at%20university%20%284th%20ed.%29%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:22.565738+00:00",
+    "sourceTextSha256": "977c6dd7da52c26c01c3b284756909472aba7a22fec8b6862fcaa460ea31640a",
+    "reason": "no-exact-identity"
+  },
+  "paper-04-ref-eb17bee572fa": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Change%20by%20design%3A%20How%20design%20thinking%20creates%20new%20alternatives%20for%20business%20and%20society%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:22.857413+00:00",
+    "sourceTextSha256": "eb17bee572fa366a0e714fa7d9175333e8009dbaeeb4a7e65498428a8c942abc",
+    "reason": "no-exact-identity"
+  },
+  "paper-04-ref-66359e1b1a56": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Flow%3A%20The%20psychology%20of%20optimal%20experience%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:22.893651+00:00",
+    "sourceTextSha256": "66359e1b1a5646e0a408c8c9f9699398c816320b9f34dd1b1dde8ebc0f9e4e5d",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.tsc.2025.101990": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1016%2Fj.tsc.2025.101990%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1016%2Fj.tsc.2025.101990%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:23.181835+00:00",
+    "sourceTextSha256": "302a002c930f09e874647ae9e99ca81f4009cff34bc45b5452c20f5291a00000",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.compedu.2024.105212": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1016%2Fj.compedu.2024.105212%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1016%2Fj.compedu.2024.105212%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:22.049660+00:00",
+    "sourceTextSha256": "bb2834356da436ffe20d892423647915e0b54c88b3060cc44f934479b5f92b90",
+    "reason": "no-exact-identity"
+  },
+  "paper-04-ref-92c3f5812432": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Foundations%20for%20health%20promotion%20%284th%20ed.%29%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:23.200749+00:00",
+    "sourceTextSha256": "92c3f581243246f0f71319e6c8b94c96ab8c340c89a2f7f015417070ace458bb",
+    "reason": "no-exact-identity"
+  },
+  "paper-04-ref-519eab6ce12c": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22The%20nature%20of%20creativity%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:23.540511+00:00",
+    "sourceTextSha256": "519eab6ce12c92ed4a3aefaad377449cf187b88608f864271556005fbdf6979f",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.tsc.2023.101415": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1016%2Fj.tsc.2023.101415%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1016%2Fj.tsc.2023.101415%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:23.699256+00:00",
+    "sourceTextSha256": "32bb304ab1cd465d91717d8894cd650b930020a5c56967d10d488fc4dfe7f8e8",
+    "reason": "no-exact-identity"
+  },
+  "paper-04-ref-217720f0c2c9": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Global%20competency%20framework%20for%20universal%20health%20coverage%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:23.848464+00:00",
+    "sourceTextSha256": "217720f0c2c995d60a53a453351d3ecae7d08b74d3f3d0be17f04133be2f50f0",
+    "reason": "no-exact-identity"
+  },
+  "paper-05-ref-11cef1744b82": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Observing%20interaction%3A%20An%20introduction%20to%20sequential%20analysis%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:24.021981+00:00",
+    "sourceTextSha256": "11cef1744b82ccfaefd7cdf15d67df6cf83bc1ce3dc03075bcdc241765bdfc57",
+    "reason": "no-exact-identity"
+  },
+  "paper-05-ref-fa1fbd80a88b": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Social%20foundations%20of%20thought%20and%20action%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:24.185826+00:00",
+    "sourceTextSha256": "fa1fbd80a88b92a48d9a2de029c8d30dbca12ff3d3a46ce91ce8a9a165541a14",
+    "reason": "no-exact-identity"
+  },
+  "paper-05-ref-aa184b3535c0": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Self-efficacy%3A%20The%20exercise%20of%20control%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:24.425362+00:00",
+    "sourceTextSha256": "aa184b3535c0a0ef8726e741458afa22fafe04740ef8a8ebc64575fdce6dd827",
+    "reason": "no-exact-identity"
+  },
+  "paper-05-ref-ec3c61c6dc96": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Taxonomy%20of%20educational%20objectives%3A%20The%20classification%20of%20educational%20goals%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:24.676360+00:00",
+    "sourceTextSha256": "ec3c61c6dc9644e383d11a49cf8f2779c0f49aa1452f97e57d32ef25df8e4275",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.tsc.2022.101173": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1016%2Fj.tsc.2022.101173%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1016%2Fj.tsc.2022.101173%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:24.808155+00:00",
+    "sourceTextSha256": "87be67e0b40b9df791496103987184e4397c320c505774ab385643d758700d92",
+    "reason": "no-exact-identity"
+  },
+  "10.1007/s11251-005-1272-9": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1007%2Fs11251-005-1272-9%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1007%2Fs11251-005-1272-9%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:23.892366+00:00",
+    "sourceTextSha256": "3a34ccb780490db0bcf4b52dd1e00fffc4e1df0223047fb790cbcfc440d52e60",
+    "reason": "no-exact-identity"
+  },
+  "paper-05-ref-f6e8146c3390": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Artificial%20intelligent%20robots%20for%20precision%20education%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:25.081445+00:00",
+    "sourceTextSha256": "f6e8146c33902b084681c84140c827f89d5b6c59db36a58a261666df95665d2b",
+    "reason": "no-exact-identity"
+  },
+  "paper-05-ref-ba6248c6a315": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Verification%20of%20the%20perception%20and%20optimal%20number%20of%20learners%20in%20a%20group%20for%20computer-assisted%20language%20learning%20%28Eds.%29%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:25.181447+00:00",
+    "sourceTextSha256": "ba6248c6a31528e41a510ef06836f9430f3f1716ce03dfa276828f5e969645af",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.compedu.2023.104898": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1016%2Fj.compedu.2023.104898%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1016%2Fj.compedu.2023.104898%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:25.238281+00:00",
+    "sourceTextSha256": "1d52ce987a0eaa3322c76eae99d7a562c03724590862ff52bb0c3c2991406422",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.ijme.2022.100643": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1016%2Fj.ijme.2022.100643%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1016%2Fj.ijme.2022.100643%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:25.422349+00:00",
+    "sourceTextSha256": "da1a058f557ecbff6f7b07fe6428c1b737bdcff3aac32f807ba1b8d7fad247b6",
+    "reason": "no-exact-identity"
+  },
+  "paper-05-ref-80dab7c5f5ad": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Thought%20and%20language%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:25.518749+00:00",
+    "sourceTextSha256": "80dab7c5f5ada48c96d0085860b7ee51ea707145b69a2df2429c2f33f90899f1",
+    "reason": "no-exact-identity"
+  },
+  "paper-06-ref-aada17461844": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Observing%20interaction%3A%20An%20introduction%20to%20sequential%20analysis%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:25.649613+00:00",
+    "sourceTextSha256": "aada17461844c043eb32e3ab5a5af20353f59fd913bb23b526ffceb378698cf9",
+    "reason": "no-exact-identity"
+  },
+  "paper-06-ref-a169c8c64995": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22The%20effect%20of%20using%20board%20games%20in%20reducing%20language%20anxiety%20and%20improving%20oral%20performance%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:25.734935+00:00",
+    "sourceTextSha256": "a169c8c649951dab2411891b9732e776664d329fd5d40eac687cbea44d0a76b9",
+    "reason": "no-exact-identity"
+  },
+  "paper-06-ref-5f78a07638b9": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Reflections%2C%20rationales%20and%20realities%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:25.866656+00:00",
+    "sourceTextSha256": "5f78a07638b9078b5931c7d841205ac9e84ee1f06f9e66491362079651f92909",
+    "reason": "no-exact-identity"
+  },
+  "paper-06-ref-d64ad1c26fdb": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Statistical%20power%20analysis%20for%20the%20behavioral%20Sciences%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:25.993131+00:00",
+    "sourceTextSha256": "d64ad1c26fdb36e49487963db61593927b1f545420b6622cc637a900a99771d0",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.chb.2015.07.045": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1016%2Fj.chb.2015.07.045%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1016%2Fj.chb.2015.07.045%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:26.218959+00:00",
+    "sourceTextSha256": "fb74c42336ab7bac3c943591d671c753c8b3922913e748574e3630ab26ffa21b",
+    "reason": "no-exact-identity"
+  },
+  "paper-06-ref-0590b5ab8ac6": {
+    "status": "not-checked",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Peer-assisted%20learning%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:26.052024+00:00",
+    "sourceTextSha256": "0590b5ab8ac64a65fbc5e01fa344760879fec25b4cffc3b65cf605375e33753a",
+    "reason": "no-exact-identity",
+    "error": "DOAJ query exceeded the record limit; narrower identity query required"
+  },
+  "paper-06-ref-82b8228d5ac8": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Computational%20thinking%3A%20The%20developing%20definition%20%28pp.%206%29%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:26.340134+00:00",
+    "sourceTextSha256": "82b8228d5ac88c805f4d90e348e95d00e49474229242d1541d1f8b0efa979768",
+    "reason": "no-exact-identity"
+  },
+  "paper-06-ref-cd2dd351c962": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Research%20notebook%3A%20Computational%20thinking%20%E2%80%93%20What%20and%20why%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:26.519728+00:00",
+    "sourceTextSha256": "cd2dd351c9626683d8f08955768cdc126c8d7a49e412b3e9446f98689cbf946f",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.compedu.2022.104684": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1016%2Fj.compedu.2022.104684%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1016%2Fj.compedu.2022.104684%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:26.613982+00:00",
+    "sourceTextSha256": "a71b4d4afdd707af6fcd12cef53ba4c45bd2d018ad0799c0047889161062afc2",
+    "reason": "no-exact-identity"
+  },
+  "paper-07-ref-810ab0174d47": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Worlding%20Through%20Play%3A%20Alternate%20Reality%20Games%2C%20Large-Scale%20Learning%2C%20and%20the%20Source%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:26.799041+00:00",
+    "sourceTextSha256": "810ab0174d47e86529bdd0f9d815a6c92d796a814673f3fb360a76989e91fb56",
+    "reason": "no-exact-identity"
+  },
+  "paper-08-ref-b48a36c3fe91": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Statistical%20Power%20Analysis%20for%20the%20Behavioral%20Sciences.%202nd%20ed%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:26.879700+00:00",
+    "sourceTextSha256": "b48a36c3fe91b7b6cadeaa0de239f7e5312d04a91736117479c417f6263ff788",
+    "reason": "no-exact-identity"
+  },
+  "paper-08-ref-cb70a5f22510": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Self-Explanation%20Strategy%3A%20Supporting%20Students%20Critical%20Thinking%20in%20Reading%20Comprehension%20for%20Science%20Class%20in%20Senior%20High%20School%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:26.913807+00:00",
+    "sourceTextSha256": "cb70a5f22510ef935764a76bf41ef7e584ab743c1cdcab53fbf52e3ff33ab7f9",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.compedu.2023.104757": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1016%2Fj.compedu.2023.104757%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1016%2Fj.compedu.2023.104757%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:27.158329+00:00",
+    "sourceTextSha256": "24b7d1c4c310792d2e0802c908405339176561d8b70b07e269429439f7af737a",
+    "reason": "no-exact-identity"
+  },
+  "paper-08-ref-4e049f147733": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Design%20and%20Analysis%3A%20A%20Researcher%27s%20Handbook%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:27.192190+00:00",
+    "sourceTextSha256": "4e049f147733926c08348b0bfe0e6f9896e18a31f1d49f689d971984b65f6343",
+    "reason": "no-exact-identity"
+  },
+  "paper-08-ref-ca5a3c5a7594": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Constructivism%3A%20From%20Philosophy%20to%20Practice%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:27.335332+00:00",
+    "sourceTextSha256": "ca5a3c5a759436f4fb3601274e997b68bf91bef8cfe45c2609e2e57f9aa95809",
+    "reason": "no-exact-identity"
+  },
+  "paper-08-ref-d7a9f15e7564": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22The%20ABCs%20of%20How%20we%20Learn%3A%2026%20Scientifically%20Proven%20Approaches%2C%20How%20They%20Work%2C%20and%20When%20to%20Use%20Them%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:27.480495+00:00",
+    "sourceTextSha256": "d7a9f15e7564cd48f8a10fdb69298b1b38cd1c36e3ad3942d570ae2a3e8e1041",
+    "reason": "no-exact-identity"
+  },
+  "paper-08-ref-956019d36e0f": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.title%3A%22Cognitive%20Load%20Theory%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:27.561234+00:00",
+    "sourceTextSha256": "956019d36e0f200de3d6f5c1bb0641fa784eb63338d7a9e98ce7c6fec82dfe6e",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.compedu.2024.105043": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1016%2Fj.compedu.2024.105043%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1016%2Fj.compedu.2024.105043%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:27.808753+00:00",
+    "sourceTextSha256": "44383487a4d168204210d67653cdb5a5b548635e39e184864993f22f3bc2f528",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.compedu.2022.104723": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1016%2Fj.compedu.2022.104723%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1016%2Fj.compedu.2022.104723%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:27.669306+00:00",
+    "sourceTextSha256": "edfc91aab1ec33b39920c10741e56b25f27cad229938fb4f7f9b103de004a64a",
+    "reason": "no-exact-identity"
+  },
+  "10.1016/j.edurev.2022.100454": {
+    "status": "not-found",
+    "sourceType": "doaj",
+    "sourceUrl": "https://doaj.org/api/search/articles/bibjson.identifier.id%3A%2210.1016%2Fj.edurev.2022.100454%22%20OR%20bibjson.identifier.id%3A%22https%3A%2F%2Fdoi.org%2F10.1016%2Fj.edurev.2022.100454%22?pageSize=100",
+    "checkedAt": "2026-09-17T02:18:28.027193+00:00",
+    "sourceTextSha256": "9fc338954d1963b0285a8e0a5e3e8e78ff917adf5320993baebd416d0b2a2e15",
+    "reason": "no-exact-identity"
+  }
+}

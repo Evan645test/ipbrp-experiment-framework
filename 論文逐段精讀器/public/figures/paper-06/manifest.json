@@ -1,0 +1,278 @@
+{
+  "paperId": "paper-06",
+  "sourceSha256": "87a8f300514340713f35c5835c85937181d46792d71ce7bb87d805f3f88dac8d",
+  "figures": [
+    {
+      "label": "Table 1",
+      "page": 5,
+      "bbox": [
+        70,
+        632,
+        527,
+        737
+      ],
+      "output": "public/figures/paper-06/table1_p05_remaining_companion.png",
+      "dpi": 300,
+      "method": "source-checked-300dpi-complete-companion-crop",
+      "status": "ok",
+      "quality_score": 1.0,
+      "quality_reasons": []
+    },
+    {
+      "label": "Table 2",
+      "page": 6,
+      "bbox": [
+        70,
+        623,
+        527,
+        737
+      ],
+      "output": "public/figures/paper-06/table2_p06_remaining_companion.png",
+      "dpi": 300,
+      "method": "source-checked-300dpi-complete-companion-crop",
+      "status": "ok",
+      "quality_score": 1.0,
+      "quality_reasons": []
+    },
+    {
+      "label": "Table 3",
+      "page": 11,
+      "bbox": [
+        70,
+        660,
+        527,
+        740
+      ],
+      "output": "public/figures/paper-06/table3_p11_remaining_companion.png",
+      "dpi": 300,
+      "method": "source-checked-300dpi-complete-companion-crop",
+      "status": "ok",
+      "quality_score": 1.0,
+      "quality_reasons": []
+    },
+    {
+      "label": "Table 4",
+      "page": 12,
+      "bbox": [
+        70,
+        50,
+        527,
+        239
+      ],
+      "output": "public/figures/paper-06/table4_p12_remaining_companion.png",
+      "dpi": 300,
+      "method": "source-checked-300dpi-complete-companion-crop",
+      "status": "ok",
+      "quality_score": 1.0,
+      "quality_reasons": []
+    },
+    {
+      "label": "Table 5",
+      "page": 12,
+      "bbox": [
+        70,
+        588,
+        527,
+        740
+      ],
+      "output": "public/figures/paper-06/table5_p12_remaining_companion.png",
+      "dpi": 300,
+      "method": "source-checked-300dpi-complete-companion-crop",
+      "status": "ok",
+      "quality_score": 1.0,
+      "quality_reasons": []
+    },
+    {
+      "label": "Table 6",
+      "page": 14,
+      "bbox": [
+        70,
+        408,
+        527,
+        530
+      ],
+      "output": "public/figures/paper-06/table6_p14_remaining_companion.png",
+      "dpi": 300,
+      "method": "source-checked-300dpi-complete-companion-crop",
+      "status": "ok",
+      "quality_score": 1.0,
+      "quality_reasons": []
+    },
+    {
+      "label": "Table 7",
+      "page": 14,
+      "bbox": [
+        70,
+        544,
+        527,
+        675
+      ],
+      "output": "public/figures/paper-06/table7_p14_remaining_companion.png",
+      "dpi": 300,
+      "method": "source-checked-300dpi-complete-companion-crop",
+      "status": "ok",
+      "quality_score": 1.0,
+      "quality_reasons": []
+    },
+    {
+      "label": "Table 8",
+      "page": 15,
+      "bbox": [
+        70,
+        50,
+        527,
+        181
+      ],
+      "output": "public/figures/paper-06/table8_p15_remaining_companion.png",
+      "dpi": 300,
+      "method": "source-checked-300dpi-complete-companion-crop",
+      "status": "ok",
+      "quality_score": 1.0,
+      "quality_reasons": []
+    },
+    {
+      "label": "Figure 1",
+      "page": 7,
+      "bbox": [
+        70,
+        51.29096984863281,
+        527,
+        251
+      ],
+      "output": "public/figures/paper-06/figure1_p07_remaining_companion.png",
+      "dpi": 300,
+      "method": "source-checked-300dpi-complete-companion-crop",
+      "status": "ok",
+      "quality_score": 1.0,
+      "quality_reasons": []
+    },
+    {
+      "label": "Figure 2",
+      "page": 7,
+      "bbox": [
+        70,
+        446.38397216796875,
+        527,
+        742
+      ],
+      "output": "public/figures/paper-06/figure2_p07_remaining_companion.png",
+      "dpi": 300,
+      "method": "source-checked-300dpi-complete-companion-crop",
+      "status": "ok",
+      "quality_score": 1.0,
+      "quality_reasons": []
+    },
+    {
+      "label": "Figure 3",
+      "page": 8,
+      "bbox": [
+        70,
+        447.46197509765625,
+        527,
+        742
+      ],
+      "output": "public/figures/paper-06/figure3_p08_remaining_companion.png",
+      "dpi": 300,
+      "method": "source-checked-300dpi-complete-companion-crop",
+      "status": "ok",
+      "quality_score": 1.0,
+      "quality_reasons": []
+    },
+    {
+      "label": "Figure 4",
+      "page": 10,
+      "bbox": [
+        70,
+        51.2919921875,
+        527,
+        483
+      ],
+      "output": "public/figures/paper-06/figure4_p10_remaining_companion.png",
+      "dpi": 300,
+      "method": "source-checked-300dpi-complete-companion-crop",
+      "status": "ok",
+      "quality_score": 1.0,
+      "quality_reasons": []
+    },
+    {
+      "label": "Figure 5",
+      "page": 10,
+      "bbox": [
+        70,
+        534.7119750976562,
+        527,
+        742
+      ],
+      "output": "public/figures/paper-06/figure5_p10_remaining_companion.png",
+      "dpi": 300,
+      "method": "source-checked-300dpi-complete-companion-crop",
+      "status": "ok",
+      "quality_score": 1.0,
+      "quality_reasons": []
+    },
+    {
+      "label": "Figure 6",
+      "page": 11,
+      "bbox": [
+        70,
+        51.29096984863281,
+        527,
+        259
+      ],
+      "output": "public/figures/paper-06/figure6_p11_remaining_companion.png",
+      "dpi": 300,
+      "method": "source-checked-300dpi-complete-companion-crop",
+      "status": "ok",
+      "quality_score": 1.0,
+      "quality_reasons": []
+    },
+    {
+      "label": "Figure 7",
+      "page": 13,
+      "bbox": [
+        70,
+        51.2919921875,
+        527,
+        353
+      ],
+      "output": "public/figures/paper-06/figure7_p13_remaining_companion.png",
+      "dpi": 300,
+      "method": "source-checked-300dpi-complete-companion-crop",
+      "status": "ok",
+      "quality_score": 1.0,
+      "quality_reasons": []
+    },
+    {
+      "label": "Figure 8",
+      "page": 13,
+      "bbox": [
+        70,
+        384.7029724121094,
+        527,
+        742
+      ],
+      "output": "public/figures/paper-06/figure8_p13_remaining_companion.png",
+      "dpi": 300,
+      "method": "source-checked-300dpi-complete-companion-crop",
+      "status": "ok",
+      "quality_score": 1.0,
+      "quality_reasons": []
+    },
+    {
+      "label": "Figure 9",
+      "page": 14,
+      "bbox": [
+        70,
+        51.290985107421875,
+        527,
+        393
+      ],
+      "output": "public/figures/paper-06/figure9_p14_remaining_companion.png",
+      "dpi": 300,
+      "method": "source-checked-300dpi-complete-companion-crop",
+      "status": "ok",
+      "quality_score": 1.0,
+      "quality_reasons": []
+    }
+  ]
+}

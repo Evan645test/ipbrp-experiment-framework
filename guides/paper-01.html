@@ -1,0 +1,2915 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="I-PBRP互動導讀試作，分開呈現作者明述的研究缺口與可由論文回答的讀者追問。">
+  <title>I-PBRP 論文互動導讀｜研究缺口與讀者追問試作</title>
+  <style>
+    :root {
+      --page: #f4f6fa;
+      --surface: #ffffff;
+      --ink: #172033;
+      --muted: #667085;
+      --border: #cbd5e1;
+      --accent: #315f91;
+      --accent-soft: #eaf2fa;
+      --danger: #a13e46;
+      --danger-soft: #fff0f1;
+      --shadow: 0 14px 38px rgba(24, 36, 56, 0.11);
+      --radius: 18px;
+      --max-width: 1440px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      min-width: 320px;
+      min-height: 100%;
+      background: var(--page);
+    }
+
+    body {
+      min-width: 320px;
+      min-height: 100vh;
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 8% 5%, rgba(217, 119, 6, 0.10), transparent 28rem),
+        radial-gradient(circle at 92% 22%, rgba(22, 134, 91, 0.09), transparent 30rem),
+        var(--page);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "PingFang TC", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    button { font: inherit; }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 60px;
+      padding: 10px max(14px, env(safe-area-inset-left));
+      border-bottom: 1px solid rgba(148, 163, 184, 0.42);
+      background: rgba(244, 246, 250, 0.9);
+      backdrop-filter: blur(15px);
+    }
+
+    .brand {
+      overflow: hidden;
+      font-weight: 850;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .controls {
+      display: flex;
+      flex-shrink: 0;
+      gap: 7px;
+      align-items: center;
+      overflow-x: auto;
+      scrollbar-width: thin;
+    }
+
+    .controls button,
+    .controls a {
+      display: inline-flex;
+      min-width: 40px;
+      min-height: 39px;
+      align-items: center;
+      justify-content: center;
+      padding: 7px 11px;
+      border: 1px solid #c5cfdb;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.96);
+      color: var(--ink);
+      cursor: pointer;
+      font-weight: 650;
+      text-decoration: none;
+    }
+
+    .controls button:hover,
+    .controls button:focus-visible,
+    .controls a:hover,
+    .controls a:focus-visible {
+      border-color: var(--accent);
+      color: var(--accent);
+      outline: none;
+    }
+
+    .zoom-label {
+      min-width: 54px;
+      color: var(--muted);
+      font-size: 13px;
+      font-variant-numeric: tabular-nums;
+      text-align: center;
+    }
+
+    .hero {
+      width: min(100% - 28px, 980px);
+      margin: 0 auto;
+      padding: clamp(30px, 5vw, 58px) 0 24px;
+      text-align: center;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 9px;
+      padding: 5px 11px;
+      border: 1px solid rgba(49, 95, 145, 0.28);
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 0.1em;
+    }
+
+    h1 {
+      margin: 0;
+      font-family: "Noto Serif TC", "Songti TC", serif;
+      font-size: clamp(30px, 5vw, 52px);
+      line-height: 1.18;
+    }
+
+    .hero p {
+      margin: 13px 0 0;
+      color: var(--muted);
+      font-size: clamp(14px, 2vw, 17px);
+      line-height: 1.65;
+    }
+
+    .page {
+      width: min(100% - 24px, var(--max-width));
+      margin: 0 auto;
+      padding-bottom: 70px;
+    }
+
+    .page > *, .content-grid > * { min-width: 0; max-width: 100%; }
+
+    .zone-banner {
+      margin: 8px 0 18px;
+      padding: clamp(19px, 3vw, 28px);
+      border: 1px solid #b8cee2;
+      border-left: 8px solid var(--accent);
+      border-radius: var(--radius);
+      background: linear-gradient(135deg, #f5f9fd, #ffffff);
+      box-shadow: var(--shadow);
+      scroll-margin-top: 78px;
+    }
+
+    .zone-banner .zone-kicker {
+      display: block;
+      margin-bottom: 5px;
+      color: #557087;
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: .12em;
+    }
+
+    .zone-banner h2 { margin: 0; color: #244e75; font-size: clamp(25px, 4vw, 34px); }
+    .zone-banner p { margin: 8px 0 0; color: var(--muted); line-height: 1.7; }
+
+    .assignment-section {
+      margin: 26px 0 18px;
+      padding: clamp(17px, 3vw, 24px);
+      border: 1px solid rgba(191, 122, 32, 0.42);
+      border-radius: var(--radius);
+      background: rgba(255, 252, 246, 0.97);
+      box-shadow: var(--shadow);
+      scroll-margin-top: 78px;
+    }
+
+    .assignment-heading { margin-bottom: 17px; }
+    .assignment-heading .zone-kicker { color: #94601d; }
+    .assignment-heading h2 { margin: 0; color: #845111; font-size: clamp(25px, 4vw, 34px); }
+    .assignment-heading p { margin: 7px 0 0; color: var(--muted); line-height: 1.65; }
+
+    .assignment-band {
+      display: grid;
+      grid-template-columns: minmax(145px, 210px) minmax(0, 1fr);
+      gap: 14px;
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 2px solid #ead6b9;
+    }
+
+    .assignment-band:first-of-type { border-top: 0; padding-top: 0; }
+    .assignment-code { color: #875719; font-size: 17px; font-weight: 850; line-height: 1.45; }
+    .assignment-items { display: grid; gap: 11px; }
+
+    .assignment-card {
+      padding: 15px 16px;
+      border: 1px solid #e5cfad;
+      border-radius: 12px;
+      background: #fff;
+    }
+
+    details.assignment-card { padding: 0; overflow: hidden; }
+    details.assignment-card[open] { border-color: #cfa76a; }
+    .assignment-card > summary {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      padding: 15px 16px;
+      color: #69420f;
+      font-size: 17px;
+      font-weight: 820;
+      line-height: 1.55;
+      cursor: pointer;
+      list-style: none;
+    }
+    .assignment-card > summary::-webkit-details-marker { display: none; }
+    .assignment-card > summary::after { content: "+"; margin-left: auto; color: #9b641d; font-size: 22px; line-height: 1; }
+    .assignment-card[open] > summary::after { content: "−"; }
+    .assignment-card > summary:hover, .assignment-card > summary:focus-visible { background: #fff7e9; outline: none; }
+    .assignment-card-body { padding: 0 16px 16px; border-top: 1px solid #f0e2cd; }
+    .assignment-card h3 { margin: 15px 0 9px; color: #69420f; font-size: 16px; line-height: 1.55; }
+    .assignment-card p, .assignment-card li { color: #3e4650; line-height: 1.72; }
+    .assignment-card p { margin: 7px 0; }
+    .assignment-card ul, .assignment-card ol { margin: 8px 0; padding-left: 1.35em; }
+    .assignment-answer { padding-top: 9px; border-top: 1px dashed #dbc29b; }
+    .assignment-answer strong:first-child { color: #80531b; }
+    .assignment-source { color: var(--muted) !important; font-size: 12px; }
+    .assignment-compact {
+      margin-top: 12px;
+      padding: 12px 14px;
+      border-left: 4px solid #c7832a;
+      border-radius: 0 9px 9px 0;
+      background: #fff7e9;
+    }
+
+    .question-zone-heading {
+      margin: 26px 0 18px;
+      padding: clamp(19px, 3vw, 28px);
+      border: 1px solid #a9d3cd;
+      border-left: 8px solid #0f766e;
+      border-radius: var(--radius);
+      background: linear-gradient(135deg, #effaf8, #ffffff);
+      box-shadow: var(--shadow);
+    }
+
+    .question-zone-heading .zone-kicker { color: #3d7770; }
+    .question-zone-heading h2 { margin: 0; color: #0f665f; font-size: clamp(25px, 4vw, 34px); }
+    .question-zone-heading p { margin: 8px 0 0; color: var(--muted); line-height: 1.7; }
+
+    .glossary-section {
+      margin-bottom: 18px;
+      padding: clamp(17px, 3vw, 24px);
+      border: 1px solid rgba(49, 95, 145, 0.34);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.94);
+      box-shadow: var(--shadow);
+      scroll-margin-top: 78px;
+    }
+
+    .glossary-heading {
+      display: flex;
+      gap: 12px;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 13px;
+    }
+
+    .glossary-heading h2 {
+      margin: 0;
+      color: var(--accent);
+      font-size: clamp(20px, 3vw, 26px);
+    }
+
+    .glossary-heading p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .glossary-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+    }
+
+    .glossary-term {
+      display: inline-flex;
+      min-height: 40px;
+      gap: 7px;
+      align-items: center;
+      padding: 8px 12px;
+      border: 1px solid #b9c9da;
+      border-radius: 999px;
+      background: #f8fbff;
+      color: #294f77;
+      font-weight: 850;
+      cursor: pointer;
+      transition: border-color 150ms ease, background 150ms ease, color 150ms ease, transform 150ms ease;
+    }
+
+    .glossary-term::after {
+      content: "?";
+      display: inline-grid;
+      width: 20px;
+      height: 20px;
+      place-items: center;
+      border-radius: 50%;
+      background: #dceafa;
+      font-size: 12px;
+      line-height: 1;
+    }
+
+    .glossary-term:hover,
+    .glossary-term:focus-visible {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+      color: var(--accent);
+      outline: none;
+      transform: translateY(-1px);
+    }
+
+    .easy-read-section {
+      margin-top: 18px;
+      padding: clamp(18px, 3vw, 30px);
+      border: 1px solid rgba(49, 95, 145, 0.34);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.96);
+      box-shadow: var(--shadow);
+      scroll-margin-top: 78px;
+    }
+
+    .easy-read-header {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 22px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid #dbe3ec;
+    }
+
+    .easy-read-heading h2 {
+      margin: 0;
+      color: var(--accent);
+      font-family: "Noto Serif TC", "Songti TC", serif;
+      font-size: clamp(24px, 4vw, 36px);
+      line-height: 1.35;
+    }
+
+    .easy-read-heading p {
+      margin: 7px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .easy-reader-controls {
+      display: flex;
+      flex-shrink: 0;
+      gap: 7px;
+      align-items: center;
+      padding: 8px;
+      border: 1px solid #cbd5e1;
+      border-radius: 12px;
+      background: #f8fafc;
+    }
+
+    .easy-reader-controls button {
+      min-width: 40px;
+      min-height: 38px;
+      padding: 6px 10px;
+      border: 1px solid #b9c6d5;
+      border-radius: 9px;
+      background: #fff;
+      color: var(--accent);
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .easy-reader-controls button:hover,
+    .easy-reader-controls button:focus-visible,
+    .easy-reader-controls input:focus-visible {
+      border-color: var(--accent);
+      outline: 3px solid rgba(49, 95, 145, 0.16);
+      outline-offset: 2px;
+    }
+
+    .easy-reader-controls input {
+      width: min(18vw, 180px);
+      min-width: 100px;
+      accent-color: var(--accent);
+    }
+
+    .easy-reader-controls output {
+      min-width: 46px;
+      color: var(--muted);
+      font-size: 13px;
+      font-variant-numeric: tabular-nums;
+      text-align: center;
+    }
+
+    .easy-read-content {
+      --easy-reader-size: 18px;
+      width: min(100%, 980px);
+      margin: 0 auto;
+      color: #202124;
+      font-size: var(--easy-reader-size);
+      line-height: 1.9;
+    }
+
+    .easy-read-content h2,
+    .easy-read-content h3 {
+      color: #153d5a;
+      line-height: 1.4;
+      scroll-margin-top: 80px;
+    }
+
+    .easy-read-content h2 {
+      margin: 2.1em 0 0.65em;
+      padding-bottom: 0.3em;
+      border-bottom: 2px solid #d9e4ec;
+      font-size: 1.55em;
+    }
+
+    .easy-read-content h3 {
+      margin: 1.65em 0 0.55em;
+      font-size: 1.25em;
+    }
+
+    .easy-read-content p { margin: 0.9em 0; }
+    .easy-read-content li { margin: 0.38em 0; padding-left: 0.18em; }
+    .easy-read-content ul,
+    .easy-read-content ol { padding-left: 1.6em; }
+    .easy-read-content strong { color: #123d5c; }
+
+    .easy-read-content blockquote {
+      margin: 1.2em 0;
+      padding: 0.75em 1em;
+      border-left: 0.32em solid #4f87ad;
+      background: #eaf2f8;
+      color: #54585f;
+    }
+
+    .easy-read-content blockquote p { margin: 0; }
+    .easy-read-content .table-wrap { max-width: 100%; margin: 1.3em 0; overflow-x: auto; }
+    .easy-read-content table { width: 100%; min-width: 700px; border-collapse: collapse; font-size: 0.88em; line-height: 1.65; }
+    .easy-read-content th,
+    .easy-read-content td { padding: 0.65em 0.75em; border: 1px solid #c9c5bb; vertical-align: top; text-align: left; }
+    .easy-read-content th { background: #e8f0f5; color: #123d5c; }
+    .easy-read-content tbody tr:nth-child(even) { background: #faf8f3; }
+
+    .easy-read-content .table-of-contents {
+      margin: 1.6em 0 2.4em;
+      padding: 1.1em 1.25em;
+      border: 1px solid #b9cbd8;
+      border-radius: 0.7em;
+      background: #f1f6f9;
+    }
+
+    .easy-read-content .table-of-contents__title {
+      margin: 0 0 0.75em;
+      padding: 0 0 0.35em;
+      border-bottom: 2px solid #c9dce8;
+      font-size: 1.3em;
+    }
+
+    .easy-read-content .table-of-contents ol { margin: 0; padding-left: 1.4em; }
+    .easy-read-content .table-of-contents ol ol { margin-top: 0.25em; padding-left: 1.25em; }
+    .easy-read-content .table-of-contents li { margin: 0.2em 0; }
+    .easy-read-content .table-of-contents a { color: #174f78; font-weight: 650; text-underline-offset: 0.12em; }
+
+    .discussion-section {
+      margin-bottom: 18px;
+      padding: clamp(17px, 3vw, 24px);
+      border: 1px solid rgba(121, 86, 168, 0.34);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.94);
+      box-shadow: var(--shadow);
+      scroll-margin-top: 78px;
+    }
+
+    .discussion-heading {
+      display: flex;
+      gap: 14px;
+      align-items: flex-end;
+      justify-content: space-between;
+      margin-bottom: 14px;
+    }
+
+    .discussion-heading h2 {
+      margin: 0;
+      color: #65468d;
+      font-size: clamp(22px, 3vw, 28px);
+    }
+
+    .discussion-heading p {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .discussion-actions {
+      display: flex;
+      flex-shrink: 0;
+      gap: 7px;
+    }
+
+    .discussion-actions button {
+      min-height: 38px;
+      padding: 7px 11px;
+      border: 1px solid #cbbce0;
+      border-radius: 9px;
+      background: #fff;
+      color: #65468d;
+      font-weight: 750;
+      cursor: pointer;
+    }
+
+    .discussion-actions button:hover,
+    .discussion-actions button:focus-visible {
+      border-color: #7956a8;
+      background: #f5f0fb;
+      outline: none;
+    }
+
+    .discussion-list {
+      display: grid;
+      gap: 11px;
+    }
+
+    .discussion-card {
+      margin: 0;
+      overflow: hidden;
+      border: 1px solid #ddd4e9;
+      border-radius: 13px;
+      background: #fcfaff;
+    }
+
+    .discussion-card[open] {
+      border-color: #a98dc8;
+      background: #fff;
+    }
+
+    .discussion-card > summary {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      padding: 14px 16px;
+      color: #44305f;
+      font-size: 16px;
+      font-weight: 850;
+      line-height: 1.45;
+      list-style: none;
+      cursor: pointer;
+    }
+
+    .discussion-card > summary::-webkit-details-marker { display: none; }
+
+    .discussion-card > summary::after {
+      content: "+";
+      flex: 0 0 auto;
+      margin-left: auto;
+      color: #7956a8;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1;
+    }
+
+    .discussion-card[open] > summary::after { content: "−"; }
+
+    .discussion-card > summary:hover,
+    .discussion-card > summary:focus-visible {
+      background: #f5f0fb;
+      outline: none;
+    }
+
+    .discussion-number {
+      display: inline-grid;
+      width: 31px;
+      height: 31px;
+      flex: 0 0 31px;
+      place-items: center;
+      border-radius: 9px;
+      background: #7956a8;
+      color: #fff;
+      font-size: 14px;
+    }
+
+    .discussion-body {
+      padding: 3px clamp(16px, 3vw, 28px) 22px;
+      border-top: 1px solid #eee8f5;
+      color: #364152;
+      font-size: 15px;
+      line-height: 1.78;
+    }
+
+    .discussion-body h3 {
+      margin: 20px 0 7px;
+      color: #44305f;
+      font-size: 17px;
+      line-height: 1.45;
+    }
+
+    .discussion-body p { margin: 9px 0; }
+    .discussion-body ul,
+    .discussion-body ol { margin: 8px 0; padding-left: 1.4em; }
+    .discussion-body li + li { margin-top: 7px; }
+
+    .discussion-question {
+      margin: 16px 0 11px !important;
+      padding: 12px 14px;
+      border-left: 4px solid #7956a8;
+      border-radius: 0 9px 9px 0;
+      background: #f5f0fb;
+      color: #44305f;
+      font-weight: 750;
+      line-height: 1.65;
+    }
+
+    .discussion-columns {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 11px;
+    }
+
+    .discussion-box {
+      padding: 13px 14px;
+      border: 1px solid #e2dbea;
+      border-radius: 10px;
+      background: #fbf9fd;
+    }
+
+    .discussion-box h3 { margin-top: 0; }
+
+    .discussion-chain {
+      margin: 12px 0;
+      padding: 13px 15px;
+      border-radius: 10px;
+      background: #fff7e8;
+      color: #754d0c;
+      font-weight: 850;
+      text-align: center;
+    }
+
+    .discussion-table-wrap {
+      margin: 12px 0;
+      overflow-x: auto;
+      border: 1px solid #d9dfe8;
+      border-radius: 10px;
+    }
+
+    .discussion-table {
+      width: 100%;
+      min-width: 720px;
+      border-collapse: collapse;
+      background: #fff;
+      font-size: 14px;
+      line-height: 1.55;
+    }
+
+    .discussion-table th,
+    .discussion-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid #e4e8ee;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .discussion-table th {
+      background: #eef4fa;
+      color: #294f77;
+      font-weight: 850;
+    }
+
+    .discussion-table tr:last-child td { border-bottom: 0; }
+
+    .discussion-note {
+      margin-top: 14px !important;
+      padding: 12px 14px;
+      border: 1px solid #edc8c1;
+      border-radius: 10px;
+      background: #fff5f2;
+      color: #84483e;
+    }
+
+    .discussion-source {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .research-gap-section {
+      border-color: rgba(161, 62, 70, 0.34);
+    }
+
+    .research-gap-section .discussion-heading h2 { color: #8c3540; }
+
+    .gap-boundary {
+      margin: 0 0 14px;
+      padding: 11px 14px;
+      border-left: 4px solid #a13e46;
+      border-radius: 0 9px 9px 0;
+      background: #fff4f5;
+      color: #74313a;
+      font-size: 14px;
+      line-height: 1.65;
+    }
+
+    .gap-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .gap-card {
+      padding: 16px;
+      border: 1px solid #edc8cd;
+      border-radius: 12px;
+      background: #fffafb;
+      color: #40383a;
+      line-height: 1.72;
+    }
+
+    .gap-card h3 { margin: 0 0 8px; color: #7f303a; font-size: 17px; }
+    .gap-card p { margin: 7px 0; }
+
+    .gap-label {
+      display: inline-flex;
+      margin-bottom: 8px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: #f5dfe2;
+      color: #7f303a;
+      font-size: 11px;
+      font-weight: 850;
+      letter-spacing: .08em;
+    }
+
+    .gap-response {
+      margin-top: 12px;
+      padding: 14px 16px;
+      border: 1px solid #cbd8e6;
+      border-radius: 12px;
+      background: #f4f8fc;
+      color: #294f77;
+      line-height: 1.72;
+    }
+
+    .reader-questions-section {
+      margin-top: 26px;
+      border-color: rgba(15, 118, 110, 0.34);
+      border-left: 8px solid #0f766e;
+    }
+
+    .reader-questions-section .discussion-heading h2 { color: #0f665f; }
+    .reader-questions-section .zone-kicker {
+      display: block;
+      margin-bottom: 5px;
+      color: #3d7770;
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: .12em;
+    }
+    .reader-questions-section .discussion-actions button { border-color: #a9d3cd; color: #0f665f; }
+    .reader-questions-section .discussion-actions button:hover,
+    .reader-questions-section .discussion-actions button:focus-visible { border-color: #0f766e; background: #effaf8; }
+    .reader-question-card { border-color: #cfe5e1; background: #f8fdfc; }
+    .reader-question-card[open] { border-color: #79b9b0; }
+    .reader-question-card > summary { color: #145c56; }
+    .reader-question-card > summary::after { color: #0f766e; }
+    .reader-question-card > summary:hover,
+    .reader-question-card > summary:focus-visible { background: #effaf8; }
+    .reader-question-card .discussion-number { background: #0f766e; }
+    .reader-question-card .discussion-body { border-top-color: #dceeea; }
+    .reader-question-card .discussion-body h3 { color: #145c56; }
+    .reader-question-card .discussion-question { border-left-color: #0f766e; background: #effaf8; color: #145c56; }
+
+    .answer-evidence {
+      margin-top: 13px;
+      padding: 11px 13px;
+      border: 1px solid #cfe5e1;
+      border-radius: 9px;
+      background: #f4fbfa;
+      color: #37645f;
+      font-size: 13px;
+      line-height: 1.65;
+    }
+
+    .content-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 350px;
+      gap: 18px;
+      align-items: start;
+      min-width: 0;
+      width: 100%;
+    }
+
+    .diagram-card {
+      overflow: hidden;
+      border: 1px solid rgba(148, 163, 184, 0.52);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.94);
+      box-shadow: var(--shadow);
+      scroll-margin-top: 78px;
+    }
+
+    .diagram-heading {
+      padding: 19px 20px 16px;
+      border-bottom: 1px solid #e1e6ed;
+      background: rgba(255, 255, 255, .96);
+    }
+
+    .diagram-heading h2 {
+      margin: 0;
+      color: #294f77;
+      font-size: clamp(21px, 3vw, 27px);
+      line-height: 1.35;
+    }
+
+    .diagram-heading p {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .stats-panel {
+      position: sticky;
+      top: 78px;
+      max-height: calc(100vh - 96px);
+      overflow: auto;
+      padding: 18px;
+      border: 1px solid rgba(49, 95, 145, 0.34);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.95);
+      box-shadow: var(--shadow);
+      scrollbar-width: thin;
+    }
+
+    .stats-panel h2 {
+      margin: 0;
+      color: var(--accent);
+      font-size: 22px;
+      line-height: 1.3;
+    }
+
+    .stats-intro {
+      margin: 7px 0 14px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .stats-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .stat-item {
+      padding: 13px;
+      border: 1px solid #d9e1ea;
+      border-left: 4px solid var(--stat-color, var(--accent));
+      border-radius: 11px;
+      background: #f9fbfd;
+    }
+
+    .stat-name {
+      display: flex;
+      gap: 7px;
+      align-items: baseline;
+      margin: 0;
+      font-size: 15px;
+      line-height: 1.35;
+    }
+
+    .stat-name span {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 650;
+    }
+
+    .stat-meaning,
+    .stat-reason,
+    .stat-caution {
+      margin: 6px 0 0;
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .stat-meaning { color: var(--text); }
+    .stat-reason { color: #475569; }
+    .stat-caution { color: #98513f; }
+
+    .stat-label {
+      margin-right: 4px;
+      font-size: 11px;
+      font-weight: 850;
+      letter-spacing: 0.04em;
+    }
+
+    .stats-key {
+      margin-top: 12px;
+      padding: 12px 13px;
+      border-radius: 11px;
+      background: var(--accent-soft);
+      color: #294f77;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .status {
+      display: flex;
+      min-height: 220px;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 24px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .status[hidden] { display: none; }
+
+    .status.error {
+      color: var(--danger);
+      background: var(--danger-soft);
+    }
+
+    .status-action,
+    .status-fallback {
+      min-height: 40px;
+      padding: 8px 12px;
+      border: 1px solid #b7c5d6;
+      border-radius: 10px;
+      background: #fff;
+      color: var(--accent);
+      font-weight: 800;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .status-action:hover,
+    .status-action:focus-visible,
+    .status-fallback:hover,
+    .status-fallback:focus-visible {
+      border-color: var(--accent);
+      outline: 3px solid rgba(49, 95, 145, 0.18);
+      outline-offset: 2px;
+    }
+
+    .spinner {
+      width: 22px;
+      height: 22px;
+      margin-right: 10px;
+      border: 3px solid #d7e0eb;
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .diagram-viewport {
+      display: none;
+      width: 100%;
+      max-height: calc(100vh - 86px);
+      min-height: 420px;
+      overflow: auto;
+      overscroll-behavior: contain;
+      background:
+        linear-gradient(rgba(148, 163, 184, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(148, 163, 184, 0.08) 1px, transparent 1px),
+        #fff;
+      background-size: 28px 28px;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .diagram-viewport.ready { display: block; }
+
+    .diagram-canvas {
+      width: 100%;
+      min-width: 100%;
+      padding: clamp(16px, 3vw, 34px);
+      transform-origin: top left;
+    }
+
+    .diagram-canvas svg {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      overflow: visible;
+    }
+
+    .diagram-canvas svg g.node[data-detail-key] {
+      cursor: pointer;
+      outline: none;
+    }
+
+    .diagram-canvas svg g.node[data-detail-key] > rect,
+    .diagram-canvas svg g.node[data-detail-key] > polygon,
+    .diagram-canvas svg g.node[data-detail-key] > path {
+      transform-box: fill-box;
+      transform-origin: center;
+      transition: filter 150ms ease, transform 150ms ease, stroke-width 150ms ease;
+    }
+
+    .diagram-canvas svg g.node[data-detail-key]:hover > rect,
+    .diagram-canvas svg g.node[data-detail-key]:hover > polygon,
+    .diagram-canvas svg g.node[data-detail-key]:hover > path,
+    .diagram-canvas svg g.node[data-detail-key]:focus-visible > rect,
+    .diagram-canvas svg g.node[data-detail-key]:focus-visible > polygon,
+    .diagram-canvas svg g.node[data-detail-key]:focus-visible > path {
+      stroke-width: 4px !important;
+      filter: drop-shadow(0 7px 7px rgba(31, 45, 68, 0.24));
+      transform: scale(1.025);
+    }
+
+    .diagram-canvas.free-size {
+      width: var(--diagram-width, 1200px);
+      min-width: var(--diagram-width, 1200px);
+    }
+
+    .diagram-canvas.free-size svg { width: 100%; }
+
+    .diagram-text-fallback {
+      width: min(100%, 920px);
+      margin: 0 auto;
+      padding: clamp(4px, 1vw, 12px);
+      color: #364152;
+    }
+
+    .diagram-text-fallback h2 { margin: 0 0 6px; color: #294f77; font-size: 22px; }
+    .diagram-text-fallback > p { margin: 0 0 14px; color: var(--muted); line-height: 1.65; }
+    .diagram-text-fallback ol { display: grid; gap: 8px; margin: 0; padding-left: 1.6em; }
+    .diagram-text-fallback li { padding-left: 2px; }
+
+    .diagram-fallback-item {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid #cbd8e6;
+      border-left: 4px solid var(--fallback-color, #315f91);
+      border-radius: 9px;
+      background: #f8fbfe;
+      color: #294f77;
+      line-height: 1.55;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    .diagram-fallback-item:hover,
+    .diagram-fallback-item:focus-visible { border-color: var(--fallback-color, #315f91); outline: 3px solid rgba(49, 95, 145, .16); }
+
+    .hint {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 14px;
+      border-top: 1px solid #e1e6ed;
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+    }
+
+    details {
+      margin-top: 18px;
+      border: 1px solid rgba(148, 163, 184, 0.52);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.86);
+    }
+
+    summary {
+      padding: 13px 15px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .source-tools {
+      display: flex;
+      justify-content: flex-end;
+      padding: 0 14px 10px;
+    }
+
+    .source-tools button {
+      padding: 6px 10px;
+      border: 1px solid #c5cfdb;
+      border-radius: 9px;
+      background: #fff;
+      color: var(--ink);
+      cursor: pointer;
+    }
+
+    pre {
+      max-height: 430px;
+      margin: 0;
+      overflow: auto;
+      padding: 17px;
+      border-top: 1px solid #e1e6ed;
+      border-radius: 0 0 14px 14px;
+      background: #172033;
+      color: #edf4fb;
+      font: 12px/1.65 ui-monospace, "SFMono-Regular", Consolas, monospace;
+      white-space: pre;
+      tab-size: 2;
+    }
+
+    .offline-note {
+      margin: 13px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+    }
+
+    .detail-overlay {
+      position: fixed;
+      z-index: 200;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      padding: 20px;
+      background: rgba(15, 23, 42, 0.58);
+      backdrop-filter: blur(7px);
+    }
+
+    .detail-overlay[hidden] { display: none; }
+
+    .detail-panel {
+      position: relative;
+      width: min(620px, 100%);
+      max-height: min(720px, calc(100vh - 40px));
+      overflow: auto;
+      border: 1px solid rgba(148, 163, 184, 0.55);
+      border-top: 8px solid var(--detail-color, var(--accent));
+      border-radius: 20px;
+      background: #fff;
+      box-shadow: 0 24px 70px rgba(15, 23, 42, 0.3);
+      animation: panel-in 170ms ease-out;
+    }
+
+    @keyframes panel-in {
+      from { opacity: 0; transform: translateY(12px) scale(0.985); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    .detail-close {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      display: inline-flex;
+      width: 38px;
+      height: 38px;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #d3dae4;
+      border-radius: 50%;
+      background: #fff;
+      color: var(--ink);
+      font-size: 23px;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    .detail-close:hover,
+    .detail-close:focus-visible {
+      border-color: var(--detail-color, var(--accent));
+      color: var(--detail-color, var(--accent));
+      outline: none;
+    }
+
+    .detail-content { padding: 27px 28px 30px; }
+
+    .detail-code {
+      display: inline-flex;
+      min-width: 35px;
+      min-height: 27px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+      padding: 4px 9px;
+      border-radius: 999px;
+      background: var(--detail-color, var(--accent));
+      color: #fff;
+      font: 800 12px/1 ui-monospace, "SFMono-Regular", Consolas, monospace;
+    }
+
+    .detail-content h2 {
+      margin: 0;
+      padding-right: 44px;
+      font-size: clamp(23px, 4vw, 31px);
+      line-height: 1.25;
+    }
+
+    .detail-summary {
+      margin: 14px 0 0;
+      color: var(--ink);
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 1.65;
+    }
+
+    .detail-explanation {
+      margin: 13px 0 0;
+      color: #475569;
+      font-size: 15px;
+      line-height: 1.75;
+    }
+
+    .detail-page {
+      margin: 18px 0 0;
+      padding-top: 12px;
+      border-top: 1px solid #e2e8f0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .fullscreen .diagram-card {
+      position: fixed;
+      z-index: 100;
+      inset: 0;
+      border: 0;
+      border-radius: 0;
+    }
+
+    .fullscreen .diagram-viewport {
+      max-height: calc(100vh - 46px);
+      height: calc(100vh - 46px);
+    }
+
+    .fullscreen .hint { height: 46px; }
+
+    @media (max-width: 760px) {
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .brand { width: 100%; }
+      .controls { width: 100%; }
+      .controls button, .controls a { flex: 0 0 auto; padding-inline: 9px; white-space: nowrap; }
+      .controls .wide-label { display: none; }
+
+      .hero { padding-top: 27px; }
+      h1 { font-size: 31px; }
+      .page { width: min(100% - 14px, var(--max-width)); }
+      .diagram-viewport { min-height: 65vh; max-height: 72vh; }
+      .diagram-canvas { padding: 12px; }
+
+      .detail-overlay {
+        align-items: end;
+        padding: 0;
+      }
+
+      .detail-panel {
+        width: 100%;
+        max-height: 82vh;
+        border-right: 0;
+        border-bottom: 0;
+        border-left: 0;
+        border-radius: 20px 20px 0 0;
+      }
+
+      .detail-content { padding: 24px 19px max(28px, env(safe-area-inset-bottom)); }
+    }
+
+    @media (max-width: 1120px) {
+      .content-grid { grid-template-columns: 1fr; }
+
+      .stats-panel {
+        position: static;
+        max-height: none;
+      }
+
+      .stats-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 680px) {
+      .stats-list { grid-template-columns: 1fr; }
+      .stats-panel { padding: 16px 12px; }
+      .glossary-heading { align-items: flex-start; flex-direction: column; }
+      .discussion-heading { align-items: flex-start; flex-direction: column; }
+      .discussion-actions { width: 100%; }
+      .discussion-actions button { flex: 1; }
+      .discussion-columns { grid-template-columns: 1fr; }
+      .gap-grid { grid-template-columns: 1fr; }
+      .assignment-band { grid-template-columns: 1fr; }
+      .assignment-code { padding-bottom: 4px; border-bottom: 1px solid #ead6b9; }
+      .discussion-card > summary { align-items: flex-start; padding: 13px; }
+      .discussion-body { font-size: 14px; }
+      .easy-read-section { padding: 16px 12px; }
+      .easy-read-header { flex-direction: column; }
+      .easy-reader-controls { width: 100%; overflow-x: auto; }
+      .easy-reader-controls input { flex: 1; width: auto; }
+      .easy-read-content { --easy-reader-size: 17px; }
+    }
+
+    @media (max-width: 420px) {
+      .zoom-label { display: none; }
+      .hero p { font-size: 14px; }
+    }
+
+    @media print {
+      @page { size: A4 landscape; margin: 8mm; }
+      body { background: #fff; }
+      .topbar, .hero p, .hint, .source-details, .offline-note, .detail-overlay { display: none !important; }
+      .hero { padding: 0 0 8px; }
+      .hero h1 { font-size: 20pt; }
+      .page { width: 100%; padding: 0; }
+      .glossary-section { box-shadow: none; break-inside: avoid; }
+      .glossary-term { min-height: 0; padding: 5px 9px; }
+      .glossary-term::after { display: none; }
+      .discussion-section { box-shadow: none; }
+      .discussion-actions { display: none; }
+      .discussion-card { break-inside: avoid; }
+      .discussion-card > summary::after { display: none; }
+      .discussion-card > .discussion-body { display: block !important; }
+      .assignment-section, .zone-banner { box-shadow: none; }
+      .assignment-card { break-inside: avoid; }
+      .assignment-card > summary::after { display: none; }
+      .assignment-card > .assignment-card-body { display: block !important; }
+      .content-grid { display: block; }
+      .diagram-card { border: 0; box-shadow: none; }
+      .diagram-viewport { display: block; max-height: none; min-height: 0; overflow: visible; }
+      .diagram-canvas, .diagram-canvas.free-size { width: 100% !important; min-width: 0; padding: 0; }
+      .diagram-canvas svg { width: 100% !important; max-height: 175mm; }
+      .stats-panel {
+        position: static;
+        max-height: none;
+        margin-top: 8mm;
+        break-before: page;
+        box-shadow: none;
+      }
+      .stats-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+  </style>
+</head>
+<body>
+  <nav class="topbar" aria-label="圖表工具列">
+    <div class="brand">I-PBRP 論文導讀｜三區試作版</div>
+    <div class="controls">
+      <a href="#literatureInterpretationSection" title="前往文獻解讀區">一、文獻解讀</a>
+      <a href="#assignmentSection" title="前往作業題目與參考答案">二、作業</a>
+      <a href="#readerQuestionsSection" title="前往讀者追問區">三、讀者追問</a>
+      <button id="fitButton" type="button" title="符合視窗寬度">符合<span class="wide-label">寬度</span></button>
+      <a href="#diagramSection" title="前往互動實驗架構圖">架構圖</a>
+      <a href="#easyReadSection" title="前往漸進式專題導向機器人程式設計易讀解說">易讀解說</a>
+      <a href="#researchGapSection" title="查看作者明確提出的研究缺口">研究缺口</a>
+      <button id="glossaryJump" type="button" title="查看特殊縮寫與研究名詞">名詞解釋</button>
+      <button id="discussionJump" type="button" title="查看四題論文討論">論文討論</button>
+      <button id="zoomOut" type="button" title="縮小" aria-label="縮小">−</button>
+      <span id="zoomLabel" class="zoom-label">符合</span>
+      <button id="zoomIn" type="button" title="放大" aria-label="放大">＋</button>
+      <button id="fullscreenButton" type="button" title="切換全螢幕">全螢幕</button>
+      <button type="button" onclick="window.print()" title="列印或存成PDF">列印</button>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <span class="eyebrow">INTERACTIVE PAPER STUDY PAGE</span>
+    <h1>I-PBRP 論文解讀、作業與追問</h1>
+    <p>全頁分為文獻解讀、作業與讀者追問三區；作業題下提供可核對論文頁碼的參考答案。</p>
+  </header>
+
+  <main class="page">
+    <section id="literatureInterpretationSection" class="zone-banner" aria-labelledby="literatureInterpretationTitle">
+      <span class="zone-kicker">SECTION 01</span>
+      <h2 id="literatureInterpretationTitle">一、文獻解讀區</h2>
+      <p>先掌握名詞、研究缺口與四項核心討論，再透過實驗架構圖、統計白話解釋與易讀全文完整理解論文。</p>
+    </section>
+    <section id="glossarySection" class="glossary-section" aria-labelledby="glossaryTitle">
+      <div class="glossary-heading">
+        <h2 id="glossaryTitle">特殊縮寫與研究名詞</h2>
+        <p>點擊縮寫，查看完整名稱、白話解釋與論文頁碼。</p>
+      </div>
+      <div class="glossary-list" aria-label="可點擊的特殊縮寫">
+        <button class="glossary-term" type="button" data-glossary-term="I-PBRP" aria-haspopup="dialog">I-PBRP</button>
+        <button class="glossary-term" type="button" data-glossary-term="C-PBRP" aria-haspopup="dialog">C-PBRP</button>
+        <button class="glossary-term" type="button" data-glossary-term="IPBL" aria-haspopup="dialog">IPBL</button>
+        <button class="glossary-term" type="button" data-glossary-term="PBL" aria-haspopup="dialog">PBL</button>
+        <button class="glossary-term" type="button" data-glossary-term="CT" aria-haspopup="dialog">CT</button>
+        <button class="glossary-term" type="button" data-glossary-term="EF" aria-haspopup="dialog">EF</button>
+        <button class="glossary-term" type="button" data-glossary-term="ZPD" aria-haspopup="dialog">ZPD</button>
+        <button class="glossary-term" type="button" data-glossary-term="RQ" aria-haspopup="dialog">RQ</button>
+        <button class="glossary-term" type="button" data-glossary-term="T0-T2" aria-haspopup="dialog">T0／T1／T2</button>
+        <button class="glossary-term" type="button" data-glossary-term="LMM" aria-haspopup="dialog">LMM</button>
+        <button class="glossary-term" type="button" data-glossary-term="GSEQ" aria-haspopup="dialog">GSEQ</button>
+        <button class="glossary-term" type="button" data-glossary-term="beta" aria-haspopup="dialog">β</button>
+        <button class="glossary-term" type="button" data-glossary-term="CI" aria-haspopup="dialog">95% CI</button>
+        <button class="glossary-term" type="button" data-glossary-term="R2" aria-haspopup="dialog">R²</button>
+        <button class="glossary-term" type="button" data-glossary-term="ICC" aria-haspopup="dialog">ICC</button>
+        <button class="glossary-term" type="button" data-glossary-term="KR-20" aria-haspopup="dialog">KR-20</button>
+      </div>
+    </section>
+
+    <section id="researchGapSection" class="discussion-section research-gap-section" aria-labelledby="researchGapTitle">
+      <div class="discussion-heading">
+        <div>
+          <h2 id="researchGapTitle">作者明確提出的研究缺口</h2>
+          <p>只整理作者用來說明本研究必要性的缺口，不混入研究限制或未來研究建議。</p>
+        </div>
+      </div>
+      <p class="gap-boundary"><strong>判讀界線：</strong>以下兩項都能在本文的研究脈絡中找到明確陳述；「樣本是否足夠」「能否推廣」與「未來還能研究什麼」不列在這裡。</p>
+      <div class="gap-grid">
+        <article class="gap-card">
+          <span class="gap-label">教學策略證據</span>
+          <h3>IPBL尚未充分進入幼兒機器人程式設計</h3>
+          <p>作者指出，增量式專題學習過去已被用於較年長學生的電腦程式設計，但它是否適合5～6歲幼兒，以及能否支持幼兒的運算思維與執行功能，仍缺乏充分研究。</p>
+          <p class="discussion-source">本文依據：PDF第2頁。</p>
+        </article>
+        <article class="gap-card">
+          <span class="gap-label">學習歷程證據</span>
+          <h3>既有研究偏重結果，較少解釋學習行為如何演變</h3>
+          <p>作者根據既有回顧指出，幼兒程式設計研究主要蒐集量化學習結果，較少處理學習歷程；而單看行為次數，也無法呈現行為的先後順序與轉換路徑。</p>
+          <p class="discussion-source">本文依據：PDF第2、5頁。</p>
+        </article>
+      </div>
+      <div class="gap-response"><strong>本文如何回應：</strong>作者把IPBL轉化為I-PBRP，與C-PBRP進行12週比較；除CT與EF測驗外，另以課堂影片和漸進序列分析觀察前、中、後期的行為路徑。這兩項設計分別回應「教學策略是否適用」與「學習歷程如何變化」。<span class="discussion-source">本文依據：PDF第1～2、8～11頁。</span></div>
+    </section>
+
+    <section id="discussionSection" class="discussion-section" aria-labelledby="discussionTitle">
+      <div class="discussion-heading">
+        <div>
+          <h2 id="discussionTitle">論文討論</h2>
+          <p>依研究脈絡、方法與結果分成四題；每項關鍵敘述均附PDF頁碼。</p>
+        </div>
+        <div class="discussion-actions" aria-label="論文討論展開控制">
+          <button id="expandDiscussions" type="button">展開全部</button>
+          <button id="collapseDiscussions" type="button">收合全部</button>
+        </div>
+      </div>
+
+      <div class="discussion-list">
+        <details class="discussion-card" open>
+          <summary><span class="discussion-number">1</span><span>研究目的、重要性與過去研究成果</span></summary>
+          <div class="discussion-body">
+            <p class="discussion-question">這篇論文的主要目的（主題）是什麼？這類研究為什麼重要？過去學者曾經做過哪些嘗試？</p>
+
+            <h3>主要目的</h3>
+            <p>這篇研究真正要處理的，不只是「教育機器人能不能幫助幼兒」，而是<strong>機器人程式設計課程中的知識與任務應如何安排，才能更符合幼兒的認知發展</strong>。作者因此提出增量式專題導向機器人程式設計（I-PBRP），並與傳統專題導向機器人程式設計（C-PBRP）比較，觀察兩種安排對5～6歲幼兒的運算思維（CT）、執行功能（EF）及學習行為模式有何影響。</p>
+            <p class="discussion-source">論文依據：PDF第1～2頁。</p>
+
+            <h3>為什麼重要</h3>
+            <div class="discussion-columns">
+              <div class="discussion-box">
+                <h3>運算思維與未來學習</h3>
+                <p>CT已成為K–12 STEM教育的重要能力，與STEM學習、一般認知發展及未來職涯路徑有關。幼兒期開始培養，可讓演算法、分解、表徵與除錯等思考提早扎根。</p>
+              </div>
+              <div class="discussion-box">
+                <h3>執行功能與自我調節</h3>
+                <p>EF包含抑制控制、工作記憶與認知彈性，和學業表現、社會關係及健康發展有關；它與CT共享規劃、監控和問題解決等認知歷程。</p>
+              </div>
+            </div>
+            <p>實體教育機器人能把抽象指令轉成看得見的動作，提供遊戲化、動手操作和即時回饋，對仍依賴具體經驗的幼兒特別合適。</p>
+            <p class="discussion-source">論文依據：PDF第2～4頁。</p>
+
+            <h3>過去學者的嘗試與成果</h3>
+            <ol>
+              <li><strong>程式設計：</strong>讓兒童練習演算法、表徵、控制結構與除錯；過去研究顯示能促進幼兒CT。</li>
+              <li><strong>實體教育機器人：</strong>KIBO、Dodobot與Matatalab等工具提供具體操作；已有研究報告CT，以及抑制控制、工作記憶或認知彈性的改善。</li>
+              <li><strong>PBL融入程式與機器人課程：</strong>讓學習者在真實問題中合作、設計、實作、展示及修正，是機器人程式教學中常見且適合幼兒的方式。</li>
+              <li><strong>IPBL用於較年長學生：</strong>Vega等人與Huang讓後續子專題持續整合先前知識，研究顯示可改善程式表現、動機、學習效率與滿意度。</li>
+              <li><strong>學習行為分析：</strong>部分研究開始觀察行為次數或使用序列分析，嘗試解釋學習者在程式任務中如何規劃、執行與除錯。</li>
+            </ol>
+            <p class="discussion-source">論文依據：PDF第3～5頁。</p>
+          </div>
+        </details>
+
+        <details class="discussion-card">
+          <summary><span class="discussion-number">2</span><span>I-PBRP策略與教育理論</span></summary>
+          <div class="discussion-body">
+            <p class="discussion-question">本研究提出什麼策略？策略內容與背後的教育理論是什麼？</p>
+
+            <h3>I-PBRP的核心策略</h3>
+            <div class="discussion-chain">C-PBRP：A → B → C　｜　I-PBRP：A → A＋B → A＋B＋C</div>
+            <p>I-PBRP並非只是把教材切成小單元，而是讓每一個新子專題都加入少量新知識，同時系統性複習並運用舊知識。研究以「森林趣遊」貫穿12週，知識依序加入前進、後退、左右轉、參數、路障、迴圈、音樂與舞蹈，最後綜合應用全部知識完成森林任務。</p>
+
+            <div class="discussion-columns">
+              <div class="discussion-box">
+                <h3>三項設計原則</h3>
+                <ol>
+                  <li>完整專題拆成彼此相關、難度逐步提高的子專題。</li>
+                  <li>每次同時整合舊知識與當次新知識。</li>
+                  <li>各子專題維持相似、連貫且貼近生活的情境。</li>
+                </ol>
+              </div>
+              <div class="discussion-box">
+                <h3>每個子專題的六階段</h3>
+                <ol>
+                  <li>導入任務情境與問題。</li>
+                  <li>複習舊知識並教授新知識。</li>
+                  <li>同儕討論與方案設計。</li>
+                  <li>程式實作、測試與除錯。</li>
+                  <li>成果展示、評量與反思。</li>
+                  <li>修改作品與延伸任務。</li>
+                </ol>
+              </div>
+            </div>
+            <p class="discussion-source">論文依據：PDF第5～8頁，圖4～6。</p>
+
+            <h3>理論定位</h3>
+            <p>作者以建構論／建造論、認知發展、近側發展區、工作記憶與執行功能訓練，支持「新知少量加入、舊知持續重用、挑戰逐步提高」的設計。這些理論為什麼能支持該設計，集中由下方讀者追問第1題解釋。</p>
+            <p class="discussion-source">論文依據：PDF第3～6、17頁。</p>
+          </div>
+        </details>
+
+        <details class="discussion-card">
+          <summary><span class="discussion-number">3</span><span>研究問題、實驗設計、分組與測量</span></summary>
+          <div class="discussion-body">
+            <p class="discussion-question">作者提出哪些研究問題？為了回答問題，設計了什麼實驗？研究對象及學科為何？如何分組、測量與進行？</p>
+
+            <h3>三個研究問題</h3>
+            <ol>
+              <li><strong>RQ1：</strong>I-PBRP與C-PBRP組幼兒的運算思維有何差異？</li>
+              <li><strong>RQ2：</strong>兩組幼兒的執行功能有何差異？</li>
+              <li><strong>RQ3：</strong>兩組幼兒的學習行為模式有何差異？</li>
+            </ol>
+            <p class="discussion-source">論文依據：PDF第2頁。</p>
+
+            <h3>實驗設計與研究對象</h3>
+            <div class="discussion-table-wrap">
+              <table class="discussion-table">
+                <thead>
+                  <tr><th>項目</th><th>研究安排</th><th>判讀重點</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>研究設計</td><td>12週、前測—中測—後測的準實驗；作者稱採混合方法</td><td>CT與EF是量化測驗，學習行為來自課堂影片編碼與序列分析</td></tr>
+                  <tr><td>研究對象</td><td>中國東部一所幼兒園，95名5～6歲幼兒</td><td>皆無相關程式訓練經驗，且未被通報有認知困難</td></tr>
+                  <tr><td>學習內容</td><td>幼兒機器人程式設計，使用Matatalab</td><td>同時培養CT及抑制控制、工作記憶、認知彈性</td></tr>
+                  <tr><td>I-PBRP組</td><td>48人；平均5.68歲；男女各24人</td><td>舊知識＋新知識，子專題情境前後連貫</td></tr>
+                  <tr><td>C-PBRP組</td><td>47人；平均5.65歲；男24人、女23人</td><td>各子專題主要教授新知識，情境相對獨立</td></tr>
+                  <tr><td>小組活動</td><td>每2～3名幼兒共用一套機器人套件</td><td>兩組使用相同設備、教師、時間、知識及最終成果要求</td></tr>
+                  <tr><td>介入劑量</td><td>12週，每週60分鐘</td><td>第6週進行中測，第12週結束後立即後測</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p>兩組介入前的年齡、性別、CT與EF沒有顯著差異。摘要寫「隨機分派」，但方法章稱為準實驗，只交代便利取樣，沒有說明如何產生隨機序列或執行分派。因此，較嚴謹的說法是：<strong>作者宣稱有隨機分組，但分派程序報告不足</strong>。</p>
+            <p class="discussion-source">論文依據：PDF第1、8～9、11頁。</p>
+
+            <h3>測量與分析速查</h3>
+            <p>T0、T1與T2都以TechCheck-K測量CT，以Early Years Toolbox的Go／No-Go、Mr. Ant與Card Sorting測量三項EF；課堂全程錄影並編碼12類學習行為。能力變化以線性混合效應模型比較，行為歷程則抽取第2、6、10個子專題代表前、中、後期做序列分析。各項選擇理由集中在下方讀者追問第2～6題。</p>
+            <p class="discussion-source">論文依據：PDF第9～11頁，圖10。</p>
+          </div>
+        </details>
+
+        <details class="discussion-card">
+          <summary><span class="discussion-number">4</span><span>實驗結果、作者解釋與合理判讀</span></summary>
+          <div class="discussion-body">
+            <p class="discussion-question">實驗結果為何？依據結果，作者提出了哪些解釋或推論？</p>
+
+            <h3>能力測驗結果</h3>
+            <p>兩組經過12週後都顯著進步，但真正回答教學法比較問題的是<strong>Group × Time（組別×時間）交互作用</strong>。第6週時四項能力的組間變化差異都未達顯著；第12週時，I-PBRP組的進步幅度才全部顯著大於C-PBRP組。</p>
+            <div class="discussion-table-wrap">
+              <table class="discussion-table">
+                <thead>
+                  <tr><th>能力</th><th>I-PBRP：T0→T2</th><th>C-PBRP：T0→T2</th><th>第12週組別×時間結果</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>運算思維CT</td><td>8.77→12.17</td><td>8.79→10.91</td><td>β＝1.27；95% CI [0.34, 2.19]；p＝.008</td></tr>
+                  <tr><td>抑制控制</td><td>0.71→0.81</td><td>0.72→0.78</td><td>β＝0.03；95% CI [0.01, 0.05]；p＝.005</td></tr>
+                  <tr><td>工作記憶</td><td>2.17→2.83</td><td>2.19→2.54</td><td>β＝0.31；95% CI [0.11, 0.52]；p＝.003</td></tr>
+                  <tr><td>認知彈性</td><td>5.58→7.40</td><td>5.57→6.74</td><td>β＝0.64；95% CI [0.06, 1.22]；p＝.032</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="discussion-source">論文依據：PDF第11～15頁，表2～9。</p>
+
+            <h3>學習行為結果</h3>
+            <ul>
+              <li>前期兩組行為模式相近；中、後期才逐漸分化。</li>
+              <li>I-PBRP組較常形成「同儕討論→建立演算法→放置積木→執行程式」的連貫解題路徑，也較常分享及延伸任務。</li>
+              <li>C-PBRP組較常出現「執行→求助→再執行」或「除錯→求助→再除錯」的循環。</li>
+              <li>後期離題行為比例為I-PBRP組5%、C-PBRP組13%；求助行為為1%與7%。</li>
+            </ul>
+            <p class="discussion-source">論文依據：PDF第14～17頁，表10、圖15。</p>
+
+            <h3>作者的解釋</h3>
+            <ul>
+              <li><strong>前6週差異不明顯：</strong>早期知識和任務較簡單，兩種教學法都足以支持基本活動。</li>
+              <li><strong>CT：</strong>後期任務變複雜時，反覆連結新舊知識有助於儲存、提取及整合程式概念。</li>
+              <li><strong>抑制控制：</strong>新規則建立在舊規則上，提供累積性的專注與抑制衝動練習。</li>
+              <li><strong>工作記憶：</strong>幼兒持續保留、更新與操作舊指令及新指令。</li>
+              <li><strong>認知彈性：</strong>幼兒需要在既有規則和新解法之間切換，並依機器人回饋調整策略。</li>
+              <li><strong>行為歷程：</strong>較連貫的規劃、執行、分享與延伸路徑，被作者視為有效知識建構及CT、EF發展的支持證據。</li>
+            </ul>
+            <p class="discussion-source">論文依據：PDF第15～17頁。</p>
+
+            <p class="discussion-note"><strong>合理判讀：</strong>「認知負荷降低」「新舊知識連結」及「ZPD中的適當挑戰」是作者依理論提出的機制推論，研究並未直接測量這些中介變項。此外，行為分析只抽取三堂課，且沒有不接受機器人課程的基準組，因此結果支持I-PBRP優於本研究中的C-PBRP安排，但不宜延伸成所有情境下的普遍因果結論。</p>
+            <p class="discussion-note"><strong>文字勘誤提醒：</strong>PDF第12頁正文把工作記憶第6週寫成p＜.05，但同一句判定不顯著，表7的數值也是p＝.518；應以表7及「未達顯著」的結論為準。</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section id="assignmentSection" class="assignment-section" aria-labelledby="assignmentTitle">
+      <header class="assignment-heading">
+        <span class="zone-kicker">SECTION 02</span>
+        <h2 id="assignmentTitle">二、作業區</h2>
+        <p>題意依原作業整理；每題預設收合，展開後先看詳細參考答案與證據頁碼，最後再看可快速掌握的精簡作答版。</p>
+        <div class="discussion-actions" aria-label="作業參考答案展開控制">
+          <button id="expandAssignments" type="button">展開全部參考答案</button>
+          <button id="collapseAssignments" type="button">收合全部</button>
+        </div>
+      </header>
+
+      <div class="assignment-band">
+        <div class="assignment-code">W觀看及標示重點</div>
+        <div id="assignmentList" class="assignment-items">
+          <details class="assignment-card">
+            <summary>一之1．這篇論文的主要目的（主題）是什麼？</summary>
+            <div class="assignment-card-body">
+              <h3>詳細參考答案</h3>
+              <p>本研究不只是檢驗教育機器人能否幫助幼兒，而是關注機器人程式設計課程中的知識與任務應如何排列。作者提出增量式專題導向機器人程式設計（I-PBRP），並與傳統專題導向機器人程式設計（C-PBRP）比較，觀察兩種安排對5～6歲幼兒運算思維、執行功能及學習行為模式的影響。</p>
+              <p class="assignment-source">論文依據：PDF第1～2頁。</p>
+              <p class="assignment-compact"><strong>精簡作答版：</strong>本研究比較I-PBRP與C-PBRP，探討「累積舊知、逐步加入新知」的課程安排，是否更能促進幼兒的CT、EF與正向學習行為。</p>
+            </div>
+          </details>
+
+          <details class="assignment-card">
+            <summary>一之2．這類研究目的（主題）為什麼很重要？</summary>
+            <div class="assignment-card-body">
+              <h3>詳細參考答案</h3>
+              <p>運算思維是K–12 STEM教育的重要能力，涵蓋問題分解、演算法、表徵、控制結構與除錯等思考。執行功能則包括抑制控制、工作記憶與認知彈性，與學習、自我調節及問題解決有關。幼兒正處於這些能力快速發展的階段，但工作記憶容量仍有限，因此教材如何排序會影響他們是否能理解、保留並整合新舊知識。實體機器人能把抽象指令轉為可觀察的動作，因此是探討幼兒認知與課程設計的合適情境。</p>
+              <p class="assignment-source">論文依據：PDF第2～4頁。</p>
+              <p class="assignment-compact"><strong>精簡作答版：</strong>CT與EF都是幼兒後續STEM學習、問題解決與自我調節的基礎；幼兒的工作記憶尚在發展，所以課程如何逐步安排知識特別重要。</p>
+            </div>
+          </details>
+
+          <details class="assignment-card">
+            <summary>一之3．過去學者曾經有哪些嘗試或研究成果？</summary>
+            <div class="assignment-card-body">
+              <h3>詳細參考答案</h3>
+              <ul>
+                <li>幼兒程式設計研究已用演算法、表徵、控制結構與除錯活動促進CT。</li>
+                <li>KIBO、Dodobot與Matatalab等實體教育機器人，已被用來支持CT與部分EF能力。</li>
+                <li>專題導向學習已透過合作、設計、實作、展示與修正，融入程式與機器人課程。</li>
+                <li>增量式專題學習曾用於較年長學生，研究報告程式表現、動機、學習效率與滿意度改善。</li>
+                <li>部分研究已開始用行為次數或序列分析理解程式解題歷程。</li>
+              </ul>
+              <p class="assignment-source">論文依據：PDF第3～5頁。</p>
+              <p class="assignment-compact"><strong>精簡作答版：</strong>過去已有幼兒程式設計、教育機器人、PBL、較年長學生的IPBL，以及學習行為分析等研究；結果多支持這些方法對CT、EF或程式學習有幫助。</p>
+            </div>
+          </details>
+
+          <details class="assignment-card">
+            <summary>二之1．過去這些研究成果還有什麼不足？</summary>
+            <div class="assignment-card-body">
+              <h3>詳細參考答案</h3>
+              <p>作者指出兩項與本研究必要性直接相關的不足。第一，增量式專題學習過去主要用於較年長學生的電腦程式設計，在5～6歲幼兒機器人程式設計中的適用性與效果尚缺乏充分證據。第二，過去幼兒程式設計研究較常量測學習結果，較少解釋學習行為如何隨課程進展而改變；只看行為頻率也不足以呈現行為的先後順序與解題路徑。</p>
+              <p class="assignment-source">論文依據：PDF第2、5頁。</p>
+              <p class="assignment-compact"><strong>精簡作答版：</strong>主要不足是IPBL尚未充分用於幼兒機器人程式設計，而且過去研究偏重測驗結果，較少說明學習行為的發展與轉換路徑。</p>
+            </div>
+          </details>
+
+          <details class="assignment-card">
+            <summary>二之2．本研究提出什麼策略？內容與背後教育理論是什麼？</summary>
+            <div class="assignment-card-body">
+              <h3>詳細參考答案</h3>
+              <p>本研究提出I-PBRP。它不是只把大專題切成小單元，而是讓每個新子專題都重用先前知識，再加入少量新知，並在相似、連貫的情境中逐步增加難度。「森林趣遊」共12個子專題，每個專題依序經過情境導入、復習與新知、同儕討論、程式實作與除錯、發表評量、修改延伸六階段。</p>
+              <p>作者以建構論／建造論說明幼兒如何透過動手建構知識；以Piaget的認知發展觀點支持由簡至繁；以Vygotsky的近側發展區支持逐步增加但仍可在協助下完成的挑戰；並以工作記憶、認知負荷與執行功能需反覆練習的觀點，支持新舊知識累積安排。這些是作者的理論理由，研究沒有直接測量認知負荷或ZPD。</p>
+              <p class="assignment-source">論文依據：PDF第3～8、17頁，圖4～6。</p>
+              <p class="assignment-compact"><strong>精簡作答版：</strong>I-PBRP讓每次任務持續重用舊知，只加入少量新知，並保持情境連貫與難度漸增。其理論基礎包括建構論／建造論、認知發展、ZPD、工作記憶與執行功能訓練。</p>
+            </div>
+          </details>
+
+          <details class="assignment-card">
+            <summary>二之3．作者提出什麼研究問題？實驗如何設計、分組、測量與進行？</summary>
+            <div class="assignment-card-body">
+              <h3>詳細參考答案</h3>
+              <p>三個研究問題分別比較兩組幼兒的（1）運算思維，（2）執行功能，以及（3）學習行為模式。研究採12週前測—中測—後測準實驗與混合方法，對象為中國東部一所幼兒園的95名5～6歲幼兒。I-PBRP組48人，C-PBRP組47人；兩組使用相同教師、Matatalab設備、每週60分鐘、相同知識與最終作品要求。</p>
+              <p>T0、第6週T1與第12週T2都測量CT與三項EF。CT使用TechCheck-K；EF使用Early Years Toolbox的Go／No-Go、Mr. Ant與Card Sorting。課堂全程錄影並編碼12類學習行為；能力變化用線性混合效應模型比較，行為歷程則抽取第2、6、10個子專題代表前、中、後期做序列分析。摘要寫「隨機分派」，方法章卻稱準實驗且未報告隨機程序，因此只能說作者宣稱隨機分組，但分派細節不足。</p>
+              <p class="assignment-source">論文依據：PDF第1～2、8～11頁，表1、圖10。</p>
+              <p class="assignment-compact"><strong>精簡作答版：</strong>研究用12週準實驗比較48名I-PBRP與47名C-PBRP幼兒，在T0、T1、T2測量CT與EF，並錄影分析前、中、後期行為序列，以回答CT、EF與學習行為的組間差異。</p>
+            </div>
+          </details>
+
+          <details class="assignment-card">
+            <summary>二之4．實驗結果為何？作者提供了什麼解釋或推論？</summary>
+            <div class="assignment-card-body">
+              <h3>詳細參考答案</h3>
+              <p>兩組經過12週後都進步，但第6週時CT與三項EF的組別×時間差異都未達顯著；到第12週，I-PBRP的進步幅度在四項能力都顯著大於C-PBRP：CT β＝1.27、p＝.008；抑制控制 β＝0.03、p＝.005；工作記憶 β＝0.31、p＝.003；認知彈性 β＝0.64、p＝.032。</p>
+              <p>行為資料顯示，兩組前期類似，中後期才分化。I-PBRP較常形成「同儕討論→建立演算法→放置積木→執行」的連貫路徑，也較常分享與延伸；C-PBRP較常反覆執行、求助與除錯。後期離題行為為5%對13%，求助行為為1%對7%。</p>
+              <p>作者解釋，早期任務較簡單，兩種教法都能支持學習；後期知識與任務變複雜時，反覆連結新舊知識才逐漸顯出優勢。作者進一步推論這種安排支持知識提取、規則更新、抑制衝動與策略切換。但認知負荷、ZPD與新舊知連結機制並未被直接測量，應視為作者的理論解釋。</p>
+              <p class="assignment-source">論文依據：PDF第11～17頁，表2～10、圖15。</p>
+              <p class="assignment-compact"><strong>精簡作答版：</strong>兩組都進步，但I-PBRP在第12週的CT、三項EF與學習行為路徑都呈現較有利結果。作者認為優勢來自持續重用舊知、累積新知與逐步增加挑戰，但這些機制未被直接測量。</p>
+            </div>
+          </details>
+        </div>
+      </div>
+
+      <div class="assignment-band">
+        <div class="assignment-code">S總結學習內容並提出感想</div>
+        <div class="assignment-items">
+          <details class="assignment-card">
+            <summary>1．（1）我由這篇論文學習到什麼？（2）未來還可進行什麼延伸研究？為什麼？</summary>
+            <div class="assignment-card-body">
+              <h3>（1）我學習到的內容</h3>
+              <p>我從這篇論文學到，教學效果不只取決於「教了什麼」或「用了什麼器材」，也與知識和任務的排列方式有關。I-PBRP與C-PBRP使用相同機器人、教師、時間與學習內容，但只因新舊知識與任務情境的組織方式不同，就呈現不同的能力成長與學習行為。我也學到，判斷教學法優劣不能只看兩組各自有沒有進步，而應直接比較進步幅度；同時結合能力測驗與行為序列，才能同時理解學習結果與過程。</p>
+
+              <h3>（2）三個有論文依據的延伸方向</h3>
+              <ol>
+                <li><strong>長期追蹤：</strong>在課程結束數月後再測量CT、EF與學習行為，檢查12週所呈現的優勢是否能保留。這回應作者指出「介入時間短，無法判斷效果持續性」的限制。</li>
+                <li><strong>多地點與更清楚的分派設計：</strong>納入不同地區、社經與教育背景的幼兒園，並明確報告隨機序列、分派與實施程序。這可檢驗結果能否跨情境重現，也可減少本文摘要與方法章對分組說明不一致所造成的不確定。</li>
+                <li><strong>完整歷程與機制檢驗：</strong>增加行為抽樣堂數，並直接測量認知負荷、知識連結或學習支架經驗，檢驗這些變項是否真的中介了I-PBRP與CT／EF成長之間的關係。本文的行為分析只抽取三堂課，而這些機制也只是作者推論，尚未直接檢驗。</li>
+              </ol>
+              <p class="assignment-source">論文依據：PDF第15～18頁；分組報告界線參見PDF第1、8～9頁。</p>
+              <p class="assignment-compact"><strong>精簡作答版：</strong>我學到，課程的知識順序與情境連貫性會影響幼兒學習，研究判讀也要分清組內進步與組間變化差異。未來可進行長期追蹤、多地點與更清楚的分派研究，以及加入更完整的行為歷程與機制測量。</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="readerQuestionsSection" class="discussion-section reader-questions-section" aria-labelledby="readerQuestionsTitle">
+      <div class="discussion-heading">
+        <div>
+          <span class="zone-kicker">SECTION 03</span>
+          <h2 id="readerQuestionsTitle">三、讀者追問區</h2>
+          <p>集中提出六個「作者為何這樣設計與分析」的問題；答案以本文可核對的內容為主，不將研究缺口或範圍限制改寫成追問。</p>
+        </div>
+        <div class="discussion-actions" aria-label="讀者追問展開控制">
+          <button id="expandReaderQuestions" type="button">展開全部</button>
+          <button id="collapseReaderQuestions" type="button">收合全部</button>
+        </div>
+      </div>
+
+      <div id="readerQuestionList" class="discussion-list">
+        <details class="discussion-card reader-question-card" open>
+          <summary><span class="discussion-number">1</span><span>為什麼不是把專題切小就好，而要讓每次任務都累積舊知識？</span></summary>
+          <div class="discussion-body">
+            <p class="discussion-question">I-PBRP最關鍵的選擇，是「新任務必須重新使用先前知識」。作者為什麼認為這比單純的小單元安排更適合幼兒？</p>
+            <h3>本文的回答</h3>
+            <p>作者認為，幼兒的能力由簡單逐步發展到複雜，高階能力需要建立在先前基礎上；同時，幼兒工作記憶容量有限，一次加入過多新資訊可能增加認知負荷。因此，每個子專題只增加少量新知識，並反覆提取、連結和應用舊知識，較符合Piaget的階段性發展、Vygotsky的近側發展區，以及記憶需要重複與連結的觀點。相似且連貫的任務情境，則減少孩子每次重新理解問題背景的負擔。</p>
+            <div class="answer-evidence"><strong>本文證據：</strong>IPBL三項設計原則、I-PBRP理論基礎及「Hi, Red Fish」教學流程。<br><strong>頁碼：</strong>PDF第4～8頁。<br><strong>證據界線：</strong>這是作者用理論支持的設計理由；研究沒有直接測量認知負荷或ZPD。</div>
+          </div>
+        </details>
+
+        <details class="discussion-card reader-question-card">
+          <summary><span class="discussion-number">2</span><span>為什麼用C-PBRP當比較組，而不是完全不學機器人程式？</span></summary>
+          <div class="discussion-body">
+            <p class="discussion-question">兩組都使用Matatalab、都做PBL，也都有相同課程時間與最終作品。這樣的比較設計想回答什麼？</p>
+            <h3>本文的回答</h3>
+            <p>本文要比較的不是「有沒有上機器人課」，而是<strong>同樣上機器人專題課時，知識與情境如何安排</strong>。因此兩組使用相同教師、設備、課程長度、子專題數量、知識內容與最終成果要求；主要差異是I-PBRP會累積舊知識並維持連貫情境，C-PBRP則在各子專題主要引入新知識、情境相對獨立。這種主動比較組有助於把觀察到的差異集中到教學安排本身。</p>
+            <div class="answer-evidence"><strong>本文證據：</strong>兩組學習內容差異、實驗程序與實施忠實度安排。<br><strong>頁碼：</strong>PDF第6、9頁。<br><strong>證據界線：</strong>「有助於集中比較教學安排」是依研究控制條件所作的設計判讀。</div>
+          </div>
+        </details>
+
+        <details class="discussion-card reader-question-card">
+          <summary><span class="discussion-number">3</span><span>為什麼除了能力測驗，還要錄影並分析行為順序？</span></summary>
+          <div class="discussion-body">
+            <p class="discussion-question">只比較CT與EF分數不是更直接嗎？作者為什麼還要編碼行為、比較轉換順序，並分成前、中、後期？</p>
+            <h3>本文的回答</h3>
+            <p>CT與EF測驗能回答能力分數是否改變，卻無法呈現孩子如何討論、規劃、執行、除錯或求助。因此，作者以影片編碼補上學習歷程；再用序列分析分辨「出現多少次」與「形成什麼解題路徑」。抽取第2、6、10個子專題，則用來觀察任務由簡到難時，兩組行為路徑是否由相近轉為分化。這使能力測驗提供「學得如何」的結果證據，行為資料則提供「學習過程如何展開」的歷程證據。</p>
+            <div class="answer-evidence"><strong>本文證據：</strong>研究動機、混合方法設計、12類學習行為編碼、三階段抽樣與圖15行為序列。<br><strong>頁碼：</strong>PDF第2、5、8、10～11、14～17頁。<br><strong>證據界線：</strong>序列關聯不能單獨證明前一個行為造成後一個行為或能力改變。</div>
+          </div>
+        </details>
+
+        <details class="discussion-card reader-question-card">
+          <summary><span class="discussion-number">4</span><span>為什麼安排前測、中測、後測三個時間點？</span></summary>
+          <div class="discussion-body">
+            <p class="discussion-question">如果只想知道12週後誰表現較好，為什麼還要在第6週多測一次？</p>
+            <h3>本文的回答</h3>
+            <p>I-PBRP主張效果會隨舊知識不斷累積、任務逐步變難而浮現，因此中測能檢查兩組差異何時開始形成。結果正好顯示：第6週時，CT及三項EF的組別×時間差異都不顯著；到第12週才全部顯著。三個時間點讓讀者看到的不是單一終點，而是「早期相近、後期分化」的變化型態。</p>
+            <div class="answer-evidence"><strong>本文證據：</strong>12週程序、T0／T1／T2設計，以及CT、抑制控制、工作記憶和認知彈性的線性混合模型。<br><strong>頁碼：</strong>PDF第9、11～15頁。<br><strong>證據界線：</strong>本文沒有另外說明為何精確選在第6週；可確認的是中測被用來辨識介入中段的變化。</div>
+          </div>
+        </details>
+
+        <details class="discussion-card reader-question-card">
+          <summary><span class="discussion-number">5</span><span>為什麼主要比較要看線性混合效應模型，而不是各組自己的進步？</span></summary>
+          <div class="discussion-body">
+            <p class="discussion-question">兩組各自從前測進步到後測，都有顯著p值；為什麼這仍不足以證明I-PBRP比較好？</p>
+            <h3>本文的回答</h3>
+            <p>「A組顯著、B組也顯著」只說明兩組各自隨時間改變，沒有直接檢驗兩組的改變幅度是否不同。本文使用線性混合效應模型，把時間、組別及組別×時間交互作用列為固定效果，並以參與者隨機截距處理同一名幼兒被重複測量三次所產生的相關性。要判斷I-PBRP是否比C-PBRP進步更多，關鍵是組別×時間，而不是兩個組內p值的大小。</p>
+            <div class="answer-evidence"><strong>本文證據：</strong>資料分析方法、模型式及表3、5、7、9。<br><strong>頁碼：</strong>PDF第11～15頁。<br><strong>數值例子：</strong>CT在第12週的組別×時間β＝1.27，95% CI [0.34, 2.19]，p＝.008。</div>
+          </div>
+        </details>
+
+        <details class="discussion-card reader-question-card">
+          <summary><span class="discussion-number">6</span><span>為什麼選TechCheck-K與Early Years Toolbox，而不是一般紙筆測驗？</span></summary>
+          <div class="discussion-body">
+            <p class="discussion-question">這兩套工具與研究對象及研究問題如何對應？</p>
+            <h3>本文的回答</h3>
+            <p>TechCheck-K是為幼兒園兒童設計的15題CT測驗，涵蓋本文採用之Bers框架中的軟硬體、演算法、表徵、模組化、控制結構與除錯，且本研究KR-20為.87。Early Years Toolbox則適用3～6歲兒童，分別以Go／No-Go、Mr. Ant與Card Sorting作業測量抑制控制、工作記憶與認知彈性，直接對應本文採用的Miyake三成分EF架構。</p>
+            <div class="answer-evidence"><strong>本文證據：</strong>CT與EF概念架構、測量工具的年齡適用性、構面與信效度說明。<br><strong>頁碼：</strong>PDF第3、10頁。</div>
+          </div>
+        </details>
+
+      </div>
+    </section>
+
+    <div class="content-grid">
+      <section id="diagramSection" class="diagram-card" aria-labelledby="diagramTitle">
+        <header class="diagram-heading">
+          <h2 id="diagramTitle">I-PBRP 與 C-PBRP 實驗架構流程圖</h2>
+          <p>從研究對象、分組、12週介入、三次測量到結果分析；點擊任一節點可查看說明與PDF頁碼。</p>
+        </header>
+        <div id="status" class="status" role="status" aria-live="polite">
+          <span id="statusSpinner" class="spinner" aria-hidden="true"></span>
+          <span id="statusMessage">正在載入架構圖⋯⋯</span>
+          <button id="retryMermaid" class="status-action" type="button" hidden>重新載入圖表</button>
+          <a class="status-fallback" href="#easyReadSection">改讀文字解說</a>
+        </div>
+        <div id="diagramViewport" class="diagram-viewport" tabindex="0">
+          <div id="diagramCanvas" class="diagram-canvas"></div>
+        </div>
+        <div class="hint">點擊任一格可查看說明。手機可在圖內滑動；按「符合寬度」可回到完整圖。</div>
+      </section>
+
+      <aside class="stats-panel" aria-labelledby="statsTitle">
+        <h2 id="statsTitle">統計方法怎麼看？</h2>
+        <p class="stats-intro">這一欄說明每個方法在檢查什麼、為什麼本研究需要它，以及閱讀結果時要注意的地方。</p>
+
+        <div class="stats-list">
+          <article class="stat-item" style="--stat-color:#957215">
+            <h3 class="stat-name">G*Power<span>事前檢定力分析</span></h3>
+            <p class="stat-meaning"><span class="stat-label">意義</span>介入前先估算至少需要多少參與者。</p>
+            <p class="stat-reason"><span class="stat-label">為何使用</span>避免樣本太少，導致真實效果存在卻檢驗不出來。作者設定中等效果量、α＝.05及檢定力.90，估計至少需要36人；實際納入95人。</p>
+          </article>
+
+          <article class="stat-item" style="--stat-color:#315f91">
+            <h3 class="stat-name">分析前檢查<span>Shapiro-Wilk＋t檢定</span></h3>
+            <p class="stat-meaning"><span class="stat-label">意義</span>常態性檢定確認資料沒有明顯偏離模型假設；獨立樣本t檢定則比較兩組T0前測是否已有明顯差異。</p>
+            <p class="stat-caution"><span class="stat-label">注意</span>p＞.05只代表沒有發現明顯偏離或組間差異，不能證明資料完全常態或兩組完全相等。</p>
+          </article>
+
+          <article class="stat-item" style="--stat-color:#315f91">
+            <h3 class="stat-name">兩組進步怎麼比？<span>組內效果＋LMM</span></h3>
+            <p class="stat-meaning"><span class="stat-label">意義</span>組內時間效果回答「各組自己有沒有進步」；線性混合效應模型處理同一名幼兒的三次重複測量，並直接比較兩組的變化幅度。</p>
+            <p class="stat-caution"><span class="stat-label">重點</span>兩組各自顯著進步不代表其中一組較好；教學法比較要看Group × Time。</p>
+          </article>
+
+          <article class="stat-item" style="--stat-color:#4f46e5">
+            <h3 class="stat-name">效果與模型資訊<span>β、CI、p、R²與ICC</span></h3>
+            <p class="stat-meaning"><span class="stat-label">意義</span>β表示差異方向與大小；CI表示估計的不確定範圍；p值表示資料對「沒有差異」的反證程度。</p>
+            <p class="stat-reason"><span class="stat-label">補充</span>R²描述模型解釋了多少變異；ICC描述多少變異來自兒童之間的穩定差異。</p>
+            <p class="stat-caution"><span class="stat-label">注意</span>p＜.05不代表效果一定很大，也不等於具有實際教育價值。</p>
+          </article>
+
+          <article class="stat-item" style="--stat-color:#7956a8">
+            <h3 class="stat-name">行為證據怎麼看？<span>Kappa＋GSEQ</span></h3>
+            <p class="stat-meaning"><span class="stat-label">意義</span>Kappa檢查兩位編碼者的分類是否一致（本研究＝0.83）；GSEQ則檢查某行為之後，另一行為是否特別容易接著出現。</p>
+            <p class="stat-reason"><span class="stat-label">為何使用</span>前者確認編碼可信度；後者讓研究從「行為次數」進一步看到「解題路徑」。</p>
+            <p class="stat-caution"><span class="stat-label">注意</span>Z＞1.96代表轉換達顯著，但不證明前一行為造成後一行為。</p>
+          </article>
+        </div>
+
+        <div class="stats-key"><strong>本研究最重要的判準：</strong>第12週的Group × Time交互作用，因為它直接比較兩組的進步幅度。</div>
+      </aside>
+    </div>
+
+    <section id="easyReadSection" class="easy-read-section" aria-labelledby="easyReadTitle">
+      <header class="easy-read-header">
+        <div class="easy-read-heading">
+          <h2 id="easyReadTitle">漸進式專題導向機器人程式設計：易讀解說</h2>
+          <p>完整解說已整合在本頁；可使用右側控制調整這一區的文字大小。</p>
+        </div>
+        <div class="easy-reader-controls" aria-label="易讀解說字體大小">
+          <button id="easyFontDecrease" type="button" aria-label="縮小易讀解說文字">A−</button>
+          <input id="easyFontControl" type="range" min="16" max="28" step="1" value="18" aria-label="調整易讀解說字體大小">
+          <button id="easyFontIncrease" type="button" aria-label="放大易讀解說文字">A＋</button>
+          <output id="easyFontOutput" for="easyFontControl" aria-live="polite">18px</output>
+          <button id="easyFontReset" type="button">預設</button>
+        </div>
+      </header>
+      <article id="easyReadContent" class="easy-read-content">
+<blockquote><p>原文：Yuchen Chen 等人，〈Incremental project-based robot programming: Effects on young children’s computational thinking, executive function, and learning behavioral patterns〉，《Computers &amp; Education》，241（2026），105471。DOI：10.1016/j.compedu.2025.105471。</p></blockquote><nav class="table-of-contents" aria-labelledby="easyReadTocTitle">
+      <h2 id="easyReadTocTitle" class="table-of-contents__title">目次</h2>
+      <ol id="easyReadTocList">
+        <li>正在建立易讀解說目次⋯⋯</li>
+      </ol>
+    </nav>
+    <h2>先說結論</h2>
+    <p>這篇研究想回答的核心問題是：<strong>教幼兒操作機器人時，如果每一堂課都承接前面學過的內容，再逐步增加一點新挑戰，是否比每堂課各自教授新內容更有效？</strong></p>
+    <p>研究結果支持這個想法。兩種教學方式都能讓5至6歲幼兒進步，但經過12週後，「漸進式專題導向機器人程式設計」組在運算思維、抑制控制、工作記憶與認知彈性上的進步幅度都較大。課堂影片也顯示，漸進式學習組到了中後期，較常出現「討論—規劃—放置程式積木—執行—分享—延伸」的順暢歷程；另一組則較常反覆求助、除錯，後期偏離任務的行為也較多。（PDF 第 11至17 頁）</p>
+    <p>不過，這不能被解讀成「任何漸進式機器人課程都一定有效」。研究只涵蓋中國東部一所幼兒園的95名兒童，時間為12週，也沒有設置完全不接觸機器人程式設計的對照組。因此，較準確的說法是：<strong>在這項研究的條件下，內容會累積、情境連貫的機器人專題課程，比內容較獨立的傳統專題安排呈現更好的結果。</strong></p>
+    <h2>研究為什麼要比較這兩種教法？</h2>
+    <p>幼兒進行機器人程式設計時，不只是記住「向前」「右轉」等指令。他們還必須先理解問題、規劃路線、安排指令順序、觀察機器人是否照預期移動，並在失敗時找出錯誤。這些活動會用到兩類重要能力：</p>
+    <ul>
+    <li><strong>運算思維（CT）</strong>：把問題拆開、安排步驟、使用符號表達指令，以及找出並修正錯誤。</li>
+    <li><strong>執行功能（EF）</strong>：控制衝動、暫時記住並操作資訊，以及在規則或策略改變時切換做法。</li>
+    </ul>
+    <p>教育現場常用「專題式學習」教授機器人程式設計。問題是，傳統專題課程可能把一個大專題拆成多個相對獨立的小任務，每次又加入一批不同的新知。對工作記憶尚在發展的幼兒來說，新內容若和前面所學缺少連結，容易造成負擔，也不利於把知識逐步組織成完整系統。（PDF 第 2至5 頁）</p>
+    <p>作者因此提出一種漸進式安排：後面的任務不把前面所學丟掉，而是要求兒童持續重用舊指令，再加入少量新指令。這個設計呼應兩項發展觀點：</p>
+    <ol>
+    <li>較複雜的能力通常建立在基礎能力之上，不是一次形成。</li>
+    <li>任務如果比兒童目前能力稍難、但在適當協助下仍可完成，就比較可能落在「近側發展區」內，形成有效挑戰。</li>
+    </ol>
+    <h2>兩種教學法到底差在哪裡？</h2>
+    <p>兩組使用相同的Matatalab實體機器人、上課時間相同，也都進行12個子專題。主要差別不是器材，而是<strong>知識如何排列，以及各次任務是否共享同一個脈絡</strong>。（PDF 第 5至9 頁）</p>
+    <div class="table-wrap"><table><thead><tr><th>比較面向</th><th>漸進式 I-PBRP</th><th>傳統式 C-PBRP</th></tr></thead><tbody>
+    <tr><td>舊知識的處理</td><td>每次先複習並使用先前學過的內容</td><td>當次活動主要聚焦新的內容</td></tr>
+    <tr><td>新知識的加入</td><td>在既有能力上逐步增加</td><td>各子專題分別引入不同新知</td></tr>
+    <tr><td>任務情境</td><td>12個子專題都放在連貫的「森林趣味之旅」情境中</td><td>各子專題的情境相對獨立</td></tr>
+    <tr><td>最後成果</td><td>綜合全部所學，設計程式讓機器人穿越森林</td><td>同樣完成整合全部知識的最終任務</td></tr>
+    <tr><td>學習負擔的設計</td><td>讓難度與知識量逐步增加</td><td>新舊內容之間的系統性連結較少</td></tr>
+    </tbody></table></div>
+    <p>例如，當幼兒要學「左轉」時，I-PBRP組不會只介紹新的左轉積木。教師會先帶兒童複習已學過的前進、後退與右轉，再比較左轉和右轉的差別，最後要求他們把新舊指令一起用在路線任務中。換句話說，新知不是獨立的一塊，而是接到原有的知識網絡上。（PDF 第 7至8 頁）</p>
+    <p>每個I-PBRP子專題都依循六個階段：</p>
+    <ol>
+    <li><strong>導入任務情境</strong>：用與生活經驗相關的故事或問題引起興趣。</li>
+    <li><strong>建立知識與技能</strong>：先複習舊知，再加入當次的新知。</li>
+    <li><strong>同儕討論與設計方案</strong>：小組討論路線、步驟與分工。</li>
+    <li><strong>進行機器人任務探究</strong>：實際排列積木、執行程式並除錯。</li>
+    <li><strong>發表與評量</strong>：說明作品、解法、遇到的問題與修正方式。</li>
+    <li><strong>修訂與延伸</strong>：改善原有程式，再嘗試其他路線或更進一步的任務。</li>
+    </ol>
+    <p>完成一個子專題後，下一個子專題會保留上述流程，但知識和任務難度會繼續增加。（PDF 第 7至8 頁）</p>
+    <h2>研究怎麼進行？</h2>
+    <p>研究來自中國東部一所幼兒園，共95名5至6歲、無相關訓練經驗的兒童：I-PBRP組48人，C-PBRP組47人。兩組年齡、性別與前測未出現顯著差異；事前檢定力分析估計至少需36人，實際納入95人。（PDF 第 8至9 頁）</p>
+    <p>研究流程如下：</p>
+    <div class="table-wrap"><table><thead><tr><th>時間</th><th>進行內容</th></tr></thead><tbody>
+    <tr><td>介入前（T0）</td><td>30分鐘運算思維與執行功能前測</td></tr>
+    <tr><td>第1至6週</td><td>每週60分鐘機器人程式設計課程</td></tr>
+    <tr><td>第6週後（T1）</td><td>30分鐘中測</td></tr>
+    <tr><td>第7至12週</td><td>繼續每週60分鐘課程</td></tr>
+    <tr><td>第12週後（T2）</td><td>立即進行30分鐘後測</td></tr>
+    <tr><td>全部課程期間</td><td>錄影兒童的學習行為</td></tr>
+    </tbody></table></div>
+    <p>為減少教學條件不同造成的干擾，兩組由同一位教師授課、總時數相同，所有課程都有錄影供研究者檢查；測驗則由受訓研究助理在安靜空間中，以一對一方式進行。（PDF 第 9 頁）</p>
+    <h2>研究測量了什麼？</h2>
+    <h3>1. 運算思維</h3>
+    <p>研究使用15題的TechCheck-K測驗，滿分15分，涵蓋軟體／硬體、演算法、表徵、模組化、控制結構與除錯。本研究的KR-20信度為0.87，代表各題作為整體測驗時具有良好的一致性。（PDF 第 10 頁）</p>
+    <h3>2. 執行功能</h3>
+    <p>研究使用適合3至6歲兒童的Early Years Toolbox：</p>
+    <ul>
+    <li><strong>Go/No-Go任務</strong>測量抑制控制：看到常出現的刺激要反應，看到少數特定刺激則要忍住不反應。</li>
+    <li><strong>Mr. Ant任務</strong>測量視覺空間工作記憶：記住螞蟻身上貼紙的位置。</li>
+    <li><strong>Card Sorting任務</strong>測量認知彈性：先依一種規則分類，再切換到另一種規則。</li>
+    </ul>
+    <p>原工具研究報告的Cronbach’s α大於0.80，並具有聚合效度。（PDF 第 10、19 頁）</p>
+    <h3>3. 課堂學習行為</h3>
+    <p>研究者把影片中的行為編成12類，包括聆聽教師、與教師互動、同儕討論、建立演算法、放置積木、執行程式、尋求協助、演算法除錯、積木除錯、延伸任務、分享，以及偏離任務的行為。兩位研究者的編碼一致性Kappa值為0.83，屬良好水準。（PDF 第 10至11 頁，表1）</p>
+    <p>研究不只計算各種行為出現幾次，還分析一個行為之後較常接著出現什麼行為。這種「序列分析」可以看出學習流程是否順暢，例如兒童是否能從討論自然進入規劃與執行，或是不斷在執行、失敗與求助之間循環。（PDF 第 11 頁）</p>
+    <h2>統計分析在做什麼？</h2>
+    <p>作者先檢查兩組前測，再以線性混合效應模型處理每名兒童的三次測量。閱讀結果時要分清：「各組自己有沒有進步」是組內變化；「I-PBRP是否進步更多」則要看Group × Time。兩組都顯著進步，不足以單獨證明其中一組較好。（PDF 第 11 頁）</p>
+    <h2>主要結果</h2>
+    <h3>先看最重要的整體趨勢</h3>
+    <p>兩組在12週後都進步，表示傳統專題式機器人課程並不是沒有效果。不過，I-PBRP組的上升幅度較大，而且四項能力的組間差異都是到第12週才達到統計顯著；第6週時尚未出現顯著差異。這代表漸進設計的優勢可能需要時間累積，而不是幾堂課後立即顯現。（PDF 第 11至16 頁）</p>
+    <div class="table-wrap"><table><thead><tr><th>測量項目</th><th>I-PBRP：T0→T2</th><th>C-PBRP：T0→T2</th><th>12週後的組間變化差異</th></tr></thead><tbody>
+    <tr><td>運算思維（滿分15）</td><td>8.77→12.17，增加3.40</td><td>8.79→10.91，增加2.12</td><td>β = 1.27，p = 0.008</td></tr>
+    <tr><td>抑制控制（0至1）</td><td>0.71→0.81，增加0.10</td><td>0.72→0.78，增加0.06</td><td>β = 0.03，p = 0.005</td></tr>
+    <tr><td>工作記憶</td><td>2.17→2.83，增加0.66</td><td>2.19→2.54，增加0.35</td><td>β = 0.31，p = 0.003</td></tr>
+    <tr><td>認知彈性</td><td>5.58→7.40，增加1.82</td><td>5.57→6.74，增加1.17</td><td>β = 0.64，p = 0.032</td></tr>
+    </tbody></table></div>
+    <p>表中的β不是單純把兩組後測平均數相減，而是線性混合效果模型估計的「兩組從前測到後測的變化差異」。因此，它比直接比較T2分數更能對應研究問題。（PDF 第 11至15 頁，表2至表9）</p>
+    <h3>運算思維</h3>
+    <p>I-PBRP組從8.77分提高到12.17分，C-PBRP組從8.79分提高到10.91分。第6週兩組的變化差異不顯著（p = 0.231），第12週則達顯著（β = 1.27，p = 0.008）。作者認為，初期任務簡單，兩種教法都能應付；後期知識變多、任務變複雜時，能不斷連結舊知與新知的I-PBRP才逐漸顯出優勢。（PDF 第 11至12、14至15 頁）</p>
+    <h3>執行功能</h3>
+    <p>抑制控制、工作記憶與認知彈性也呈現相似模式：第6週沒有顯著組間差異，第12週I-PBRP組的進步較大。作者提出的解釋是：</p>
+    <ul>
+    <li>持續在舊規則上加入新規則，讓幼兒反覆練習維持目標與抑制不適當反應。</li>
+    <li>每次都要記住舊指令並加入新指令，提供較持續的工作記憶練習。</li>
+    <li>任務難度增加時，兒童需要在不同規則與策略之間切換，因而練習認知彈性。</li>
+    </ul>
+    <p>這些是作者根據理論與結果提出的可能機制，不是研究直接量到的腦內歷程，因此應理解為合理解釋，而不是已被單獨驗證的因果機制。（PDF 第 11至17 頁）</p>
+    <h3>一處需要特別注意的統計文字</h3>
+    <p>工作記憶的正文寫道，第6週兩組「沒有顯著差異」，但同一句卻印成p &lt; 0.05；表7列出的實際數值是p = 0.518，與「沒有顯著差異」一致。這應是原文的不等號誤植。解讀時應以表7的p = 0.518為準。（PDF 第 12至13 頁，表7）</p>
+    <h2>從課堂行為看出了什麼？</h2>
+    <p>研究共記錄2,872筆行為，並選取前期第2個、中期第6個、後期第10個子專題做序列分析。（PDF 第 11、14 頁）</p>
+    <h3>前期</h3>
+    <p>兩組行為很相似，都會在聽教師說明、與教師互動、同儕討論、安排積木、執行與除錯之間移動。這與量化結果一致：課程初期任務較簡單，兩種設計尚未拉開明顯差距。（PDF 第 14 頁）</p>
+    <h3>中期</h3>
+    <p>I-PBRP組開始出現較完整的流程：<strong>同儕討論→建立演算法→放置積木→執行程式</strong>，完成後也較常分享並延伸任務。C-PBRP組的流程較不連貫，較常在建立程式後回頭討論，或出現<strong>執行→求助→再執行</strong>的循環。（PDF 第 14 頁）</p>
+    <h3>後期</h3>
+    <p>差異變得更明顯。I-PBRP組仍呈現由討論、規劃到執行的清楚路徑，也較常分享及延伸。C-PBRP組則較常反覆求助與除錯，而且偏離任務行為占13%，高於I-PBRP組的5%；C-PBRP組尋求協助占7%，I-PBRP組為1%。（PDF 第 14至16 頁，表10、圖15）</p>
+    <p>這些行為資料讓研究者不只知道「誰的測驗分數較高」，也能看到差異可能在課堂中如何形成。不過，序列分析只能呈現行為之間的連接規律，不能單靠它證明某個行為必然造成後面的能力提升。</p>
+    <h2>這篇研究對教學的實際啟示</h2>
+    <p>真正值得帶回教室的重點不是「買一套機器人」，而是<strong>如何安排學習順序</strong>：</p>
+    <ol>
+    <li>先規劃最後希望兒童完成的整體任務，再把它拆成彼此相關的子專題。</li>
+    <li>每次上課先讓兒童實際使用舊知識，而不只是口頭問「還記得嗎」。</li>
+    <li>每個子專題只增加適量的新規則或新指令，並立刻和舊內容結合。</li>
+    <li>讓各次任務共享一致情境，使幼兒把注意力放在解題與知識累積，而不是每次重新理解故事背景。</li>
+    <li>保留討論、實作、除錯、發表與延伸的完整循環，不能把課程縮成教師示範後照做。</li>
+    <li>觀察求助、反覆除錯與偏離任務的頻率；這些行為可能是在提醒教師，任務與先備能力的落差過大。</li>
+    </ol>
+    <p>換言之，I-PBRP不是單純把內容切得更小，而是讓後續任務<strong>持續重用先前知識、逐步增加複雜度，並保持問題情境連貫</strong>。</p>
+    <h2>研究限制與閱讀時的保留</h2>
+    <p>作者列出五項限制：（PDF 第 17至18 頁）</p>
+    <ol>
+    <li>參與者來自中國的一個幼兒樣本，樣本數與多樣性有限。</li>
+    <li>介入只有12週，無法判斷效果能維持多久。</li>
+    <li>行為分析只抽取前、中、後期各一堂課，可能沒有涵蓋所有行為。</li>
+    <li>執行功能測驗雖適合幼兒，但只測到執行功能的部分面向。</li>
+    <li>研究未把空間能力、數學能力等可能影響運算思維的變項納入分析。</li>
+    </ol>
+    <p>此外，閱讀時還要注意三點：</p>
+    <ul>
+    <li>方法章將研究稱為「準實驗」，摘要則寫參與者被「隨機分派」。論文沒有在方法章交代隨機化的具體程序，兩處表述並不完全一致。（PDF 第 1、8至9 頁）</li>
+    <li>研究採便利取樣，且只有一所幼兒園，因此結果不宜直接推廣到不同國家、年齡或社經背景的所有幼兒。</li>
+    <li>兩組都接受機器人程式設計與專題式教學，研究比較的是兩種課程安排，不能用來回答「機器人課程是否優於完全沒有機器人的課程」。</li>
+    </ul>
+    <h2>一句話帶走</h2>
+    <p><strong>對幼兒而言，好的進階學習不是每次換一套全新的內容，而是讓新任務踩在舊能力上前進；這篇研究顯示，這種累積式、連貫且逐步增加挑戰的機器人程式設計課程，可能更有利於運算思維、執行功能與正向學習行為的發展。</strong></p>
+      </article>
+    </section>
+
+
+    <details class="source-details">
+      <summary>查看原始Mermaid語法</summary>
+      <div class="source-tools">
+        <button id="copyButton" type="button">複製原始碼</button>
+      </div>
+      <pre id="sourceDisplay"></pre>
+    </details>
+
+    <p class="offline-note">互動圖會自動載入固定版本的Mermaid；若網路受限，本頁會顯示可點擊的研究流程文字大綱。</p>
+  </main>
+
+  <div id="detailOverlay" class="detail-overlay" hidden>
+    <section id="detailPanel" class="detail-panel" role="dialog" aria-modal="true" aria-labelledby="detailTitle" aria-describedby="detailExplanation">
+      <button id="detailClose" class="detail-close" type="button" aria-label="關閉說明">×</button>
+      <div class="detail-content">
+        <span id="detailCode" class="detail-code"></span>
+        <h2 id="detailTitle"></h2>
+        <p id="detailSummary" class="detail-summary"></p>
+        <p id="detailExplanation" class="detail-explanation"></p>
+        <p id="detailPage" class="detail-page"></p>
+      </div>
+    </section>
+  </div>
+
+  <script id="diagramSource" type="text/plain">
+flowchart TD
+    A["研究目的<br/>比較 I-PBRP 與 C-PBRP<br/>對幼兒 CT、EF 與學習行為的影響"]
+
+    A --> B["研究對象<br/>中國東部一所幼兒園<br/>95名5～6歲幼兒<br/>無相關訓練經驗"]
+
+    B --> C["T0 前測，約30分鐘<br/>CT：TechCheck-K<br/>EF：Early Years Toolbox"]
+
+    C --> D{"分組<br/>摘要稱隨機分派<br/>方法章定義為準實驗"}
+
+    D --> E["I-PBRP實驗組<br/>48人"]
+    D --> F["C-PBRP對照組<br/>47人"]
+
+    subgraph G1["第1～6週：每週60分鐘"]
+        E --> E1["增量式專題導向<br/>機器人程式設計"]
+        F --> F1["傳統專題導向<br/>機器人程式設計"]
+    end
+
+    E1 --> H1["T1 中測，約30分鐘<br/>CT與EF"]
+    F1 --> H2["T1 中測，約30分鐘<br/>CT與EF"]
+
+    subgraph G2["第7～12週：每週60分鐘"]
+        H1 --> I1["延續I-PBRP課程<br/>舊知識＋新知識<br/>情境前後連貫"]
+        H2 --> I2["延續C-PBRP課程<br/>各子專題主要教授新知識<br/>情境相對獨立"]
+    end
+
+    I1 --> J1["T2 後測<br/>CT與EF"]
+    I2 --> J2["T2 後測<br/>CT與EF"]
+
+    E1 -.全程錄影.-> K["課堂行為資料"]
+    I1 -.全程錄影.-> K
+    F1 -.全程錄影.-> K
+    I2 -.全程錄影.-> K
+
+    J1 --> L["量化資料分析"]
+    J2 --> L
+
+    L --> L1["組內時間效果<br/>各組是否隨時間進步"]
+    L --> L2["線性混合效應模型<br/>Group × Time<br/>兩組進步幅度是否不同"]
+
+    K --> M["選取第2、6、10個子專題<br/>代表前期、中期、後期"]
+    M --> M1["行為編碼<br/>Kappa＝0.83"]
+    M1 --> M2["漸進序列分析<br/>GSEQ，Z＞1.96"]
+
+    L2 --> N["研究結果"]
+    M2 --> N
+
+    N --> N1["第6週<br/>兩組差異均未達顯著"]
+    N --> N2["第12週<br/>I-PBRP組進步幅度較大"]
+    N --> N3["後期行為<br/>I-PBRP解題流程較順暢<br/>C-PBRP求助、除錯與離題較多"]
+
+    classDef common fill:#EAF2FA,stroke:#315F91,color:#172033,stroke-width:2px;
+    classDef warning fill:#FFF2EE,stroke:#A14A3C,color:#172033,stroke-width:2px;
+    classDef groupA fill:#FFE4B5,stroke:#D97706,color:#172033,stroke-width:2px;
+    classDef groupB fill:#D5F5E3,stroke:#16865B,color:#172033,stroke-width:2px;
+    classDef behavior fill:#F1EAFB,stroke:#7956A8,color:#172033,stroke-width:2px;
+    classDef result fill:#E8EAFD,stroke:#4F46E5,color:#172033,stroke-width:2px;
+
+    class A,B,C common;
+    class D warning;
+    class E,E1,H1,I1,J1 groupA;
+    class F,F1,H2,I2,J2 groupB;
+    class L,L1,L2 common;
+    class K,M,M1,M2 behavior;
+    class N,N1,N2,N3 result;
+
+    style G1 fill:#F8FAFC,stroke:#94A3B8,stroke-width:1.5px,color:#172033;
+    style G2 fill:#F8FAFC,stroke:#94A3B8,stroke-width:1.5px,color:#172033;
+    linkStyle default stroke:#8190A5,stroke-width:2px;
+  </script>
+
+  <script type="module">
+    const pageRoot = document.querySelector("main.page");
+    const assignmentSectionElement = document.getElementById("assignmentSection");
+    const readerQuestionsSectionElement = document.getElementById("readerQuestionsSection");
+    const sourceDetailsElement = document.querySelector(".source-details");
+    if (pageRoot && assignmentSectionElement && readerQuestionsSectionElement && sourceDetailsElement) {
+      pageRoot.insertBefore(assignmentSectionElement, sourceDetailsElement);
+      pageRoot.insertBefore(readerQuestionsSectionElement, sourceDetailsElement);
+    }
+    let initialHashId = window.location.hash.slice(1);
+    try {
+      initialHashId = decodeURIComponent(initialHashId);
+    } catch {
+      // Keep the literal fragment when it is not valid percent-encoded text.
+    }
+    if (initialHashId) {
+      const restoreInitialAnchor = () => {
+        document.getElementById(initialHashId)?.scrollIntoView({ block: "start" });
+      };
+      window.requestAnimationFrame(restoreInitialAnchor);
+      window.addEventListener("load", () => window.setTimeout(restoreInitialAnchor, 80), { once: true });
+    }
+
+    const MERMAID_MODULE_URLS = [
+      "https://cdn.jsdelivr.net/npm/mermaid@11.17.2/dist/mermaid.esm.min.mjs",
+      "https://unpkg.com/mermaid@11.17.2/dist/mermaid.esm.min.mjs"
+    ];
+    const MERMAID_LOAD_TIMEOUT_MS = 8000;
+    const source = document.getElementById("diagramSource").textContent.trim();
+    const status = document.getElementById("status");
+    const statusSpinner = document.getElementById("statusSpinner");
+    const statusMessage = document.getElementById("statusMessage");
+    const retryMermaid = document.getElementById("retryMermaid");
+    const viewport = document.getElementById("diagramViewport");
+    const canvas = document.getElementById("diagramCanvas");
+    const zoomLabel = document.getElementById("zoomLabel");
+    const sourceDisplay = document.getElementById("sourceDisplay");
+    const copyButton = document.getElementById("copyButton");
+    const detailOverlay = document.getElementById("detailOverlay");
+    const detailPanel = document.getElementById("detailPanel");
+    const detailClose = document.getElementById("detailClose");
+    const detailCode = document.getElementById("detailCode");
+    const detailTitle = document.getElementById("detailTitle");
+    const detailSummary = document.getElementById("detailSummary");
+    const detailExplanation = document.getElementById("detailExplanation");
+    const detailPage = document.getElementById("detailPage");
+    const glossaryJump = document.getElementById("glossaryJump");
+    const glossarySection = document.getElementById("glossarySection");
+    const glossaryButtons = [...document.querySelectorAll("[data-glossary-term]")];
+    const discussionJump = document.getElementById("discussionJump");
+    const discussionSection = document.getElementById("discussionSection");
+    const discussionCards = [...discussionSection.querySelectorAll(".discussion-card")];
+    const expandDiscussions = document.getElementById("expandDiscussions");
+    const collapseDiscussions = document.getElementById("collapseDiscussions");
+    const assignmentCards = [...document.querySelectorAll("#assignmentSection .assignment-card")];
+    const expandAssignments = document.getElementById("expandAssignments");
+    const collapseAssignments = document.getElementById("collapseAssignments");
+    const readerQuestionsSection = document.getElementById("readerQuestionsSection");
+    const readerQuestionCards = [...readerQuestionsSection.querySelectorAll(".reader-question-card")];
+    const expandReaderQuestions = document.getElementById("expandReaderQuestions");
+    const collapseReaderQuestions = document.getElementById("collapseReaderQuestions");
+    const easyReadContent = document.getElementById("easyReadContent");
+    const easyReadTocList = document.getElementById("easyReadTocList");
+    const easyFontControl = document.getElementById("easyFontControl");
+    const easyFontOutput = document.getElementById("easyFontOutput");
+    const easyFontDecrease = document.getElementById("easyFontDecrease");
+    const easyFontIncrease = document.getElementById("easyFontIncrease");
+    const easyFontReset = document.getElementById("easyFontReset");
+    let naturalWidth = 1200;
+    let zoom = null;
+    let lastFocusedNode = null;
+    let mermaidModule = null;
+    let renderAttempt = 0;
+
+    const glossaryTerms = {
+      "I-PBRP": {
+        title: "增量式專題導向機器人程式設計",
+        summary: "Incremental Project-Based Robot Programming",
+        explanation: "本研究的實驗組教學法。每個新子專題都會重新運用先前知識，再加入少量新知識，並維持前後連貫的森林任務情境。",
+        page: "論文依據：PDF第2、5～8頁",
+        color: "#D97706"
+      },
+      "C-PBRP": {
+        title: "傳統專題導向機器人程式設計",
+        summary: "Conventional Project-Based Robot Programming",
+        explanation: "本研究的對照組教學法。各子專題主要教授當次的新知識，較少系統性整合先前內容，任務情境也相對獨立。",
+        page: "論文依據：PDF第2、6～9頁",
+        color: "#16865B"
+      },
+      IPBL: {
+        title: "增量式專題導向學習",
+        summary: "Incremental Project-Based Learning",
+        explanation: "PBL的調整版本。完整專題被拆成相互連結、難度漸增的子專題；後續任務同時包含舊知識和新知識。",
+        page: "論文依據：PDF第2、4～5頁",
+        color: "#D97706"
+      },
+      PBL: {
+        title: "專題導向學習",
+        summary: "Project-Based Learning",
+        explanation: "以學生為中心的教學方式。學生在有意義的專題中，透過溝通、設計、探究、製作、展示和修正來學習。",
+        page: "論文依據：PDF第4頁",
+        color: "#315F91"
+      },
+      CT: {
+        title: "運算思維",
+        summary: "Computational Thinking",
+        explanation: "運用電腦科學原則解決問題的一組思考能力。本研究涵蓋演算法、表徵、模組化、控制結構與除錯等面向。",
+        page: "論文依據：PDF第2～3、6頁",
+        color: "#315F91"
+      },
+      EF: {
+        title: "執行功能",
+        summary: "Executive Function",
+        explanation: "為了完成目標而調節想法與行為的高階認知能力。本研究測量抑制控制、工作記憶及認知彈性。",
+        page: "論文依據：PDF第2～3、10頁",
+        color: "#315F91"
+      },
+      ZPD: {
+        title: "近側發展區",
+        summary: "Zone of Proximal Development",
+        explanation: "孩子目前能獨立完成的程度，與在教師或同儕適當協助下可以達到的潛在程度之間的區域。I-PBRP以逐步增加難度來維持適當挑戰。",
+        page: "論文依據：PDF第2、5頁",
+        color: "#7956A8"
+      },
+      RQ: {
+        title: "研究問題",
+        summary: "Research Question",
+        explanation: "研究希望以資料回答的明確問題。本研究的RQ1、RQ2、RQ3分別比較兩組的運算思維、執行功能與學習行為模式。",
+        page: "論文依據：PDF第2頁",
+        color: "#7956A8"
+      },
+      "T0-T2": {
+        title: "三個測量時間點",
+        summary: "Time 0 / Time 1 / Time 2",
+        explanation: "T0是課程前測，T1是第6週中測，T2是第12週後測。三個時間點用來呈現兩組能力變化的軌跡。",
+        page: "論文依據：PDF第9～10頁，圖10",
+        color: "#315F91"
+      },
+      LMM: {
+        title: "線性混合效應模型",
+        summary: "Linear Mixed-Effects Model",
+        explanation: "適合分析重複測量資料的統計模型。本研究用參與者隨機截距處理個別差異，再以Group × Time比較兩組的進步幅度。",
+        page: "論文依據：PDF第11～15頁，表3、5、7、9",
+        color: "#315F91"
+      },
+      GSEQ: {
+        title: "行為序列分析軟體",
+        summary: "Generalized Sequential Querier",
+        explanation: "用來分析行為發生順序與轉換關係的工具。本研究以它計算調整後殘差，Z大於1.96的行為轉換視為顯著序列。",
+        page: "論文依據：PDF第11、14～16頁",
+        color: "#7956A8"
+      },
+      beta: {
+        title: "迴歸係數",
+        summary: "Beta coefficient（β）",
+        explanation: "表示模型估計的差異方向與大小。本研究的Group × Time係數用來表示I-PBRP相對於C-PBRP多出的進步幅度。",
+        page: "論文依據：PDF第12～15頁，表3、5、7、9",
+        color: "#4F46E5"
+      },
+      CI: {
+        title: "信賴區間",
+        summary: "Confidence Interval",
+        explanation: "呈現效果估計的不確定範圍。本頁報告95%信賴區間；區間越窄，代表估計通常越精確。",
+        page: "論文依據：PDF第12～15頁，表3、5、7、9",
+        color: "#4F46E5"
+      },
+      R2: {
+        title: "模型解釋力",
+        summary: "Coefficient of Determination（R²）",
+        explanation: "表示模型能解釋多少結果變異。Marginal R²只計固定效果；Conditional R²還包含參與者隨機效果。",
+        page: "論文依據：PDF第11～15頁",
+        color: "#4F46E5"
+      },
+      ICC: {
+        title: "組內相關係數",
+        summary: "Intraclass Correlation Coefficient",
+        explanation: "本研究用來表示總變異中，有多少來自幼兒之間相對穩定的個別差異。數值越高，代表同一名幼兒的重複測量越相似。",
+        page: "論文依據：PDF第12～15頁，表3、5、7、9",
+        color: "#4F46E5"
+      },
+      "KR-20": {
+        title: "二分題目內部一致性信度",
+        summary: "Kuder–Richardson Formula 20",
+        explanation: "適用於答對／答錯等二分計分題目的信度指標。TechCheck-K在本研究中的KR-20為0.87，表示內部一致性良好。",
+        page: "論文依據：PDF第10頁",
+        color: "#957215"
+      }
+    };
+
+    const nodeDetails = {
+      A: {
+        title: "研究目的",
+        summary: "比較I-PBRP與C-PBRP對幼兒運算思維、執行功能及學習行為的影響。",
+        explanation: "這項研究不只問孩子的測驗分數有沒有提高，也想知道不同的知識安排，是否會改變孩子在課堂中討論、規劃、執行、求助和除錯的方式。",
+        page: "論文依據：PDF第1～2頁",
+        color: "#315F91"
+      },
+      B: {
+        title: "研究對象",
+        summary: "樣本是中國東部一所幼兒園的95名5～6歲幼兒。",
+        explanation: "參與者先前沒有相關程式設計訓練，也沒有被通報有認知困難。樣本來自單一幼兒園，方便控制教學條件，但研究結果不一定能直接推廣到其他地區、年齡或教育環境。",
+        page: "論文依據：PDF第8～9、17頁",
+        color: "#315F91"
+      },
+      C: {
+        title: "T0前測",
+        summary: "介入開始前，所有幼兒先接受約30分鐘的CT與EF測驗。",
+        explanation: "前測用來掌握兩組原本的能力狀況。CT使用TechCheck-K；EF使用Early Years Toolbox，分別測量抑制控制、工作記憶和認知彈性。",
+        page: "論文依據：PDF第9～10頁",
+        color: "#315F91"
+      },
+      D: {
+        title: "分組方式",
+        summary: "I-PBRP組48人，C-PBRP組47人。",
+        explanation: "論文摘要稱參與者是隨機分派，但方法章把研究稱為準實驗，只交代便利取樣，沒有說明產生隨機序列、分派隱蔽等程序。因此，較穩妥的解讀是：作者聲稱有隨機分組，但報告不夠完整。",
+        page: "論文依據：PDF第1、8～9頁",
+        color: "#A14A3C"
+      },
+      E: {
+        title: "I-PBRP實驗組",
+        summary: "48名幼兒接受增量式專題導向機器人程式設計。",
+        explanation: "這組的平均年齡為5.68歲，男女各24人。課程的特色是後面的任務會重新使用前面學過的知識，並加入新的程式概念。",
+        page: "論文依據：PDF第8～9頁",
+        color: "#D97706"
+      },
+      F: {
+        title: "C-PBRP對照組",
+        summary: "47名幼兒接受傳統專題導向機器人程式設計。",
+        explanation: "這組的平均年齡為5.65歲，包括24名男童和23名女童。各子專題主要教授不同的新知識，較少固定要求孩子整合前面學過的內容。",
+        page: "論文依據：PDF第8～9頁",
+        color: "#16865B"
+      },
+      E1: {
+        title: "前6週I-PBRP課程",
+        summary: "以增量方式安排知識，讓每個新任務建立在先前任務上。",
+        explanation: "教師會先複習舊知識，再介紹新積木或新規則。任務都放在連貫的森林情境中，孩子會經過情境導入、知識建立、同儕討論、程式實作、成果展示、修改與延伸等階段。",
+        page: "論文依據：PDF第5～9頁",
+        color: "#D97706"
+      },
+      F1: {
+        title: "前6週C-PBRP課程",
+        summary: "使用傳統專題安排，各子專題主要介紹新的程式知識。",
+        explanation: "這組使用相同的Matatalab設備、相同上課時間與相同最終任務，但子專題情境較獨立，也沒有固定要求孩子在每次任務中回頭整合全部舊知識。",
+        page: "論文依據：PDF第5～9頁",
+        color: "#16865B"
+      },
+      H1: {
+        title: "I-PBRP組T1中測",
+        summary: "完成前6週課程後，實驗組再次接受CT與EF測驗。",
+        explanation: "中測用來判斷增量式課程是否在介入前半段就出現效果。研究結果顯示，第6週時兩組的進步幅度尚未達到顯著差異。",
+        page: "論文依據：PDF第9、11～15頁",
+        color: "#D97706"
+      },
+      H2: {
+        title: "C-PBRP組T1中測",
+        summary: "完成前6週課程後，對照組接受相同的CT與EF測驗。",
+        explanation: "兩組使用同一套中測工具。這個時間點的比較顯示，課程進行6週後，I-PBRP尚未在四項能力上顯著拉開差距。",
+        page: "論文依據：PDF第9、11～15頁",
+        color: "#16865B"
+      },
+      I1: {
+        title: "後6週I-PBRP課程",
+        summary: "繼續把舊知識、新知識和連貫情境放在同一個任務中。",
+        explanation: "隨著任務難度提高，孩子必須反覆提取先前學過的規則，再加入新的指令。作者認為，這種累積過程可能幫助記憶，也讓孩子持續練習抑制衝動與切換策略。",
+        page: "論文依據：PDF第6～9、15～17頁",
+        color: "#D97706"
+      },
+      I2: {
+        title: "後6週C-PBRP課程",
+        summary: "繼續進行傳統專題課程，各子專題的知識和情境相對獨立。",
+        explanation: "孩子仍會接觸新的程式概念，也可能因此進步；差別在於，課程較少安排新舊知識的系統性連結。作者認為，任務變複雜後，這項差異會逐漸影響解題表現。",
+        page: "論文依據：PDF第6～9、15～17頁",
+        color: "#16865B"
+      },
+      J1: {
+        title: "I-PBRP組T2後測",
+        summary: "12週課程結束後，實驗組立即接受CT與EF後測。",
+        explanation: "後測分數會和T0前測、T1中測一起放進線性混合效應模型，用來估計實驗組隨時間的變化，以及它和對照組的進步幅度是否不同。",
+        page: "論文依據：PDF第9、11～15頁",
+        color: "#D97706"
+      },
+      J2: {
+        title: "C-PBRP組T2後測",
+        summary: "12週課程結束後，對照組接受相同的CT與EF後測。",
+        explanation: "兩組在相同時間點使用相同測驗，因此可以比較從T0到T2的改變幅度。這裡的重點不是只看哪一組自己有進步，而是兩組進步多少是否不同。",
+        page: "論文依據：PDF第9、11～15頁",
+        color: "#16865B"
+      },
+      K: {
+        title: "課堂行為資料",
+        summary: "兩組12週的課堂活動都被錄影。",
+        explanation: "影片資料用來補充測驗分數，觀察孩子在學習過程中如何討論、規劃、放置積木、執行程式、求助、除錯、分享、延伸任務或出現離題行為。",
+        page: "論文依據：PDF第9～11頁",
+        color: "#7956A8"
+      },
+      L: {
+        title: "量化資料分析",
+        summary: "分析CT與三項EF在T0、T1、T2的分數變化。",
+        explanation: "作者先檢查常態性和兩組前測差異，再分析各組是否隨時間進步，最後用線性混合效應模型比較兩組的變化幅度。",
+        page: "論文依據：PDF第11頁",
+        color: "#315F91"
+      },
+      L1: {
+        title: "組內時間效果",
+        summary: "檢查同一組幼兒從前測到後測是否有進步。",
+        explanation: "結果顯示兩組在12週後都進步。不過，某組自己達到顯著，不能直接證明它優於另一組；真正的組間比較還要看Group × Time交互作用。",
+        page: "論文依據：PDF第11～14頁，表2、4、6、8",
+        color: "#315F91"
+      },
+      L2: {
+        title: "線性混合效應模型",
+        summary: "比較I-PBRP與C-PBRP隨時間的進步幅度。",
+        explanation: "同一名幼兒被測量三次，三筆分數不是互相獨立的。混合模型透過參與者隨機截距處理個別差異，再用Group × Time檢驗兩組從T0到T1、T2的變化是否不同。",
+        page: "論文依據：PDF第11～15頁，表3、5、7、9",
+        color: "#315F91"
+      },
+      M: {
+        title: "選取三個子專題",
+        summary: "研究選取第2、6、10個子專題，代表介入前期、中期與後期。",
+        explanation: "這樣可以比較任務逐漸變難時，兩組的行為路徑如何改變。但只分析三堂課，可能無法涵蓋整個12週期間出現的所有行為。",
+        page: "論文依據：PDF第11、17頁",
+        color: "#7956A8"
+      },
+      M1: {
+        title: "行為編碼",
+        summary: "研究者依時間順序，把影片中的行為轉成一連串代碼。",
+        explanation: "編碼包括聽講、教師互動、同儕討論、建立演算法、放置積木、執行、求助、兩種除錯、延伸、分享和離題行為。兩位編碼者的Kappa為0.83，表示一致性良好。",
+        page: "論文依據：PDF第10～11頁，表1",
+        color: "#7956A8"
+      },
+      M2: {
+        title: "漸進序列分析",
+        summary: "檢查某項行為之後，哪些行為特別容易接著出現。",
+        explanation: "作者使用GSEQ計算行為轉換的調整後殘差，Z大於1.96就列為顯著序列。再把前期、中期、後期的結果放在一起，觀察兩組解題路徑如何逐漸分化。",
+        page: "論文依據：PDF第11、14～16頁，圖15",
+        color: "#7956A8"
+      },
+      N: {
+        title: "研究結果",
+        summary: "第6週差距尚未顯著；第12週時，I-PBRP組在四項能力上的進步幅度較大。",
+        explanation: "行為資料也顯示，兩組在前期相似，中後期才逐漸出現不同路徑。量化結果與行為觀察指向相同方向，但研究仍受樣本、研究時間與行為取樣範圍限制。",
+        page: "論文依據：PDF第11～17頁",
+        color: "#4F46E5"
+      },
+      N1: {
+        title: "第6週結果",
+        summary: "CT、抑制控制、工作記憶和認知彈性的組間差異都未達顯著。",
+        explanation: "作者認為，前6週的知識和任務仍較簡單，兩種課程都能讓孩子完成基本活動，因此增量式安排的累積優勢還沒有明顯出現。",
+        page: "論文依據：PDF第11～16頁",
+        color: "#4F46E5"
+      },
+      N2: {
+        title: "第12週結果",
+        summary: "I-PBRP組在CT與三項EF上的進步幅度都顯著大於C-PBRP組。",
+        explanation: "CT的Group × Time為β＝1.27、p＝.008；抑制控制β＝0.03、p＝.005；工作記憶β＝0.31、p＝.003；認知彈性β＝0.64、p＝.032。這些數字比較的是兩組進步幅度，不只是後測平均數。",
+        page: "論文依據：PDF第11～15頁，表3、5、7、9",
+        color: "#4F46E5"
+      },
+      N3: {
+        title: "後期行為結果",
+        summary: "I-PBRP組解題流程較連貫；C-PBRP組較常反覆求助、除錯及出現離題行為。",
+        explanation: "I-PBRP組較常出現「同儕討論→建立演算法→放置積木→執行程式」，也較常分享和延伸任務。這些結果提供學習歷程證據，但只來自三堂被選取的課，不能代表每一堂課。",
+        page: "論文依據：PDF第14～17頁，表10、圖15",
+        color: "#4F46E5"
+      }
+    };
+
+    const nodeKeys = Object.keys(nodeDetails).sort((left, right) => right.length - left.length);
+
+    function escapeRegExp(value) {
+      return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    }
+
+    function findNodeKey(element) {
+      const id = element.id || "";
+      for (const key of nodeKeys) {
+        const pattern = new RegExp(`(?:^|-)${escapeRegExp(key)}(?:-|$)`);
+        if (pattern.test(id)) return key;
+      }
+
+      const compactText = (element.textContent || "").replace(/\s+/g, "");
+      const textFallbacks = [
+        ["研究目的", "A"], ["研究對象", "B"], ["T0前測", "C"], ["分組", "D"],
+        ["I-PBRP實驗組", "E"], ["C-PBRP對照組", "F"],
+        ["增量式專題導向機器人程式設計", "E1"], ["傳統專題導向機器人程式設計", "F1"],
+        ["延續I-PBRP課程", "I1"], ["延續C-PBRP課程", "I2"],
+        ["課堂行為資料", "K"], ["量化資料分析", "L"], ["組內時間效果", "L1"],
+        ["線性混合效應模型", "L2"], ["選取第2、6、10個子專題", "M"],
+        ["行為編碼", "M1"], ["漸進序列分析", "M2"], ["研究結果", "N"],
+        ["第6週", "N1"], ["第12週", "N2"], ["後期行為", "N3"]
+      ];
+      const fallback = textFallbacks.find(([needle]) => compactText.includes(needle));
+      return fallback ? fallback[1] : null;
+    }
+
+    function openDetail(code, detail, triggerElement) {
+      if (!detail) return;
+
+      lastFocusedNode = triggerElement || document.activeElement;
+      detailCode.textContent = code;
+      detailTitle.textContent = detail.title;
+      detailSummary.textContent = detail.summary;
+      detailExplanation.textContent = detail.explanation;
+      detailPage.textContent = detail.page;
+      detailPanel.style.setProperty("--detail-color", detail.color);
+      detailOverlay.hidden = false;
+      document.body.style.overflow = "hidden";
+      detailClose.focus({ preventScroll: true });
+    }
+
+    function openNodeDetail(key, triggerElement) {
+      openDetail(key, nodeDetails[key], triggerElement);
+    }
+
+    function openGlossaryDetail(term, triggerElement) {
+      const visibleLabel = triggerElement?.textContent.trim() || term;
+      openDetail(visibleLabel, glossaryTerms[term], triggerElement);
+    }
+
+    function closeNodeDetail() {
+      if (detailOverlay.hidden) return;
+      detailOverlay.hidden = true;
+      if (!document.body.classList.contains("fullscreen")) document.body.style.overflow = "";
+      if (lastFocusedNode && typeof lastFocusedNode.focus === "function") {
+        lastFocusedNode.focus({ preventScroll: true });
+      }
+    }
+
+    function bindNodeDetails(svgElement) {
+      const svgNodes = [...svgElement.querySelectorAll("g.node")];
+      svgNodes.forEach((node) => {
+        const key = findNodeKey(node);
+        if (!key || !nodeDetails[key]) return;
+
+        node.dataset.detailKey = key;
+        node.setAttribute("role", "button");
+        node.setAttribute("tabindex", "0");
+        node.setAttribute("aria-label", `${nodeDetails[key].title}，點擊查看說明`);
+
+        const title = document.createElementNS("http://www.w3.org/2000/svg", "title");
+        title.textContent = `點擊查看：${nodeDetails[key].title}`;
+        node.prepend(title);
+
+        node.addEventListener("click", (event) => {
+          event.stopPropagation();
+          openNodeDetail(key, node);
+        });
+        node.addEventListener("keydown", (event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            openNodeDetail(key, node);
+          }
+        });
+      });
+    }
+
+    function buildEasyReadToc() {
+      const headings = [...easyReadContent.querySelectorAll("h2:not(#easyReadTocTitle), h3")];
+      easyReadTocList.replaceChildren();
+      let sectionNumber = 0;
+      let subsectionNumber = 0;
+      let currentSectionItem = null;
+      let currentSublist = null;
+
+      headings.forEach((heading) => {
+        const isSection = heading.tagName === "H2";
+        if (isSection) {
+          sectionNumber += 1;
+          subsectionNumber = 0;
+          heading.id = `easy-read-section-${sectionNumber}`;
+        } else {
+          subsectionNumber += 1;
+          heading.id = `easy-read-section-${sectionNumber}-${subsectionNumber}`;
+        }
+
+        const item = document.createElement("li");
+        const link = document.createElement("a");
+        link.href = `#${heading.id}`;
+        link.textContent = heading.textContent;
+        item.appendChild(link);
+
+        if (isSection) {
+          easyReadTocList.appendChild(item);
+          currentSectionItem = item;
+          currentSublist = null;
+        } else if (currentSectionItem) {
+          if (!currentSublist) {
+            currentSublist = document.createElement("ol");
+            currentSectionItem.appendChild(currentSublist);
+          }
+          currentSublist.appendChild(item);
+        } else {
+          easyReadTocList.appendChild(item);
+        }
+      });
+    }
+
+    function initializeEasyReadControls() {
+      const minimum = Number.parseInt(easyFontControl.min, 10);
+      const maximum = Number.parseInt(easyFontControl.max, 10);
+      const storageKey = "i-pbrp-integrated-reader-font-size-v1";
+      const clamp = (value) => Math.min(maximum, Math.max(minimum, value));
+
+      const sync = (size) => {
+        easyFontControl.value = String(size);
+        easyFontControl.setAttribute("aria-valuetext", `${size}像素`);
+        easyFontOutput.value = `${size}px`;
+        easyFontDecrease.disabled = size <= minimum;
+        easyFontIncrease.disabled = size >= maximum;
+      };
+
+      const apply = (value, persist = true) => {
+        const size = clamp(Number.parseInt(value, 10) || 18);
+        easyReadContent.style.setProperty("--easy-reader-size", `${size}px`);
+        sync(size);
+        if (persist) {
+          try { localStorage.setItem(storageKey, String(size)); } catch { /* 儲存受限時仍可在本次瀏覽調整。 */ }
+        }
+      };
+
+      const readStored = () => {
+        try {
+          const stored = Number.parseInt(localStorage.getItem(storageKey), 10);
+          return Number.isFinite(stored) && stored >= minimum && stored <= maximum ? stored : null;
+        } catch {
+          return null;
+        }
+      };
+
+      easyFontControl.addEventListener("input", () => apply(easyFontControl.value));
+      easyFontDecrease.addEventListener("click", () => apply(Number.parseInt(easyFontControl.value, 10) - 1));
+      easyFontIncrease.addEventListener("click", () => apply(Number.parseInt(easyFontControl.value, 10) + 1));
+      easyFontReset.addEventListener("click", () => {
+        try { localStorage.removeItem(storageKey); } catch { /* 無可用儲存空間時直接恢復本次預設。 */ }
+        easyReadContent.style.removeProperty("--easy-reader-size");
+        const defaultSize = Math.round(Number.parseFloat(getComputedStyle(easyReadContent).fontSize)) || 18;
+        sync(defaultSize);
+      });
+
+      const stored = readStored();
+      if (stored === null) {
+        const defaultSize = Math.round(Number.parseFloat(getComputedStyle(easyReadContent).fontSize)) || 18;
+        sync(defaultSize);
+      } else {
+        apply(stored, false);
+      }
+    }
+
+    buildEasyReadToc();
+    initializeEasyReadControls();
+
+    glossaryJump.addEventListener("click", () => {
+      glossarySection.scrollIntoView({ behavior: "smooth", block: "start" });
+      window.setTimeout(() => glossaryButtons[0]?.focus({ preventScroll: true }), 350);
+    });
+
+    discussionJump.addEventListener("click", () => {
+      discussionSection.scrollIntoView({ behavior: "smooth", block: "start" });
+      window.setTimeout(() => discussionCards[0]?.querySelector("summary")?.focus({ preventScroll: true }), 350);
+    });
+
+    expandDiscussions.addEventListener("click", () => {
+      discussionCards.forEach((card) => { card.open = true; });
+    });
+
+    collapseDiscussions.addEventListener("click", () => {
+      discussionCards.forEach((card) => { card.open = false; });
+    });
+
+    expandAssignments.addEventListener("click", () => {
+      assignmentCards.forEach((card) => { card.open = true; });
+    });
+
+    collapseAssignments.addEventListener("click", () => {
+      assignmentCards.forEach((card) => { card.open = false; });
+    });
+
+    expandReaderQuestions.addEventListener("click", () => {
+      readerQuestionCards.forEach((card) => { card.open = true; });
+    });
+
+    collapseReaderQuestions.addEventListener("click", () => {
+      readerQuestionCards.forEach((card) => { card.open = false; });
+    });
+
+    glossaryButtons.forEach((button) => {
+      const term = button.dataset.glossaryTerm;
+      const detail = glossaryTerms[term];
+      if (!detail) {
+        button.disabled = true;
+        return;
+      }
+
+      button.setAttribute("aria-label", `${button.textContent}：${detail.title}，點擊查看解釋`);
+      button.addEventListener("click", () => openGlossaryDetail(term, button));
+    });
+
+    detailClose.addEventListener("click", closeNodeDetail);
+    detailOverlay.addEventListener("click", (event) => {
+      if (event.target === detailOverlay) closeNodeDetail();
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && !detailOverlay.hidden) closeNodeDetail();
+      if (event.key === "Tab" && !detailOverlay.hidden) {
+        event.preventDefault();
+        detailClose.focus({ preventScroll: true });
+      }
+    });
+
+    sourceDisplay.textContent = source;
+
+    function withTimeout(promise, timeoutMs, label) {
+      return Promise.race([
+        promise,
+        new Promise((_, reject) => {
+          window.setTimeout(() => reject(new Error(`${label}逾時`)), timeoutMs);
+        })
+      ]);
+    }
+
+    async function loadMermaidModule() {
+      if (mermaidModule) return mermaidModule;
+
+      const attempts = MERMAID_MODULE_URLS.map(async (moduleUrl) => {
+        try {
+          return await withTimeout(
+            import(`${moduleUrl}${moduleUrl.includes("?") ? "&" : "?"}study_retry=${renderAttempt}`),
+            MERMAID_LOAD_TIMEOUT_MS,
+            "Mermaid模組載入"
+          );
+        } catch (error) {
+          throw new Error(`${moduleUrl}: ${error instanceof Error ? error.message : String(error)}`);
+        }
+      });
+
+      try {
+        const loaded = await Promise.any(attempts);
+        mermaidModule = loaded.default ?? loaded;
+        return mermaidModule;
+      } catch (error) {
+        const failures = error instanceof AggregateError
+          ? error.errors.map((failure) => failure instanceof Error ? failure.message : String(failure))
+          : [error instanceof Error ? error.message : String(error)];
+        throw new Error(`所有Mermaid來源均載入失敗。${failures.join("；")}`);
+      }
+    }
+
+    function initializeMermaid(mermaid) {
+      mermaid.initialize({
+        startOnLoad: false,
+        securityLevel: "strict",
+        theme: "base",
+        htmlLabels: true,
+        fontFamily: "-apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans TC, PingFang TC, sans-serif",
+        themeVariables: {
+          primaryColor: "#ffffff",
+          primaryTextColor: "#172033",
+          primaryBorderColor: "#315f91",
+          lineColor: "#8190a5",
+          secondaryColor: "#eaf2fa",
+          tertiaryColor: "#f5f7fb",
+          clusterBkg: "#f8fafc",
+          clusterBorder: "#94a3b8",
+          edgeLabelBackground: "#ffffff",
+          fontSize: "16px"
+        },
+        flowchart: {
+          useMaxWidth: false,
+          htmlLabels: true,
+          curve: "basis",
+          nodeSpacing: 34,
+          rankSpacing: 54,
+          padding: 14
+        }
+      });
+    }
+
+    function setFit() {
+      zoom = null;
+      canvas.classList.remove("free-size");
+      canvas.style.removeProperty("--diagram-width");
+      zoomLabel.textContent = "符合";
+      viewport.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    }
+
+    function setZoom(nextZoom) {
+      zoom = Math.min(2, Math.max(0.5, nextZoom));
+      const targetWidth = Math.round(naturalWidth * zoom);
+      canvas.classList.add("free-size");
+      canvas.style.setProperty("--diagram-width", `${targetWidth}px`);
+      zoomLabel.textContent = `${Math.round(zoom * 100)}%`;
+    }
+
+    function currentZoom() {
+      if (zoom !== null) return zoom;
+      const available = Math.max(320, viewport.clientWidth - 32);
+      return Math.min(1, available / naturalWidth);
+    }
+
+    document.getElementById("fitButton").addEventListener("click", setFit);
+    document.getElementById("zoomIn").addEventListener("click", () => setZoom(currentZoom() + 0.15));
+    document.getElementById("zoomOut").addEventListener("click", () => setZoom(currentZoom() - 0.15));
+
+    document.getElementById("fullscreenButton").addEventListener("click", () => {
+      document.body.classList.toggle("fullscreen");
+      document.body.style.overflow = document.body.classList.contains("fullscreen") ? "hidden" : "";
+      setFit();
+    });
+
+    copyButton.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(source);
+      } catch (error) {
+        const helper = document.createElement("textarea");
+        helper.value = source;
+        helper.style.position = "fixed";
+        helper.style.opacity = "0";
+        document.body.appendChild(helper);
+        helper.select();
+        document.execCommand("copy");
+        helper.remove();
+      }
+      copyButton.textContent = "已複製";
+      window.setTimeout(() => { copyButton.textContent = "複製原始碼"; }, 1600);
+    });
+
+    function renderDiagramTextFallback() {
+      const wrapper = document.createElement("section");
+      wrapper.className = "diagram-text-fallback";
+      wrapper.setAttribute("aria-labelledby", "diagramFallbackTitle");
+      const title = document.createElement("h2");
+      title.id = "diagramFallbackTitle";
+      title.textContent = "研究流程文字大綱";
+      const intro = document.createElement("p");
+      intro.textContent = "Mermaid圖表目前無法載入；以下保留全部研究節點，點擊可查看完整說明與PDF頁碼。";
+      const list = document.createElement("ol");
+      Object.entries(nodeDetails).forEach(([key, detail]) => {
+        const item = document.createElement("li");
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "diagram-fallback-item";
+        button.dataset.fallbackKey = key;
+        button.style.setProperty("--fallback-color", detail.color);
+        button.textContent = `${detail.title}：${detail.summary}`;
+        button.setAttribute("aria-label", `${detail.title}，點擊查看說明`);
+        button.addEventListener("click", () => openNodeDetail(key, button));
+        item.appendChild(button);
+        list.appendChild(item);
+      });
+      wrapper.append(title, intro, list);
+      canvas.classList.remove("free-size");
+      canvas.style.removeProperty("--diagram-width");
+      canvas.replaceChildren(wrapper);
+      viewport.classList.add("ready");
+    }
+
+    async function renderDiagram() {
+      const attempt = ++renderAttempt;
+      status.hidden = false;
+      status.classList.remove("error");
+      statusSpinner.hidden = false;
+      statusMessage.textContent = "正在載入架構圖⋯⋯";
+      retryMermaid.hidden = true;
+      viewport.classList.remove("ready");
+      canvas.replaceChildren();
+
+      try {
+        const mermaid = await loadMermaidModule();
+        if (attempt !== renderAttempt) return;
+        initializeMermaid(mermaid);
+        const { svg, bindFunctions } = await withTimeout(
+          mermaid.render(`ipbrpExperimentDiagram-${attempt}`, source),
+          MERMAID_LOAD_TIMEOUT_MS,
+          "架構圖繪製"
+        );
+        if (attempt !== renderAttempt) return;
+        canvas.innerHTML = svg;
+        if (typeof bindFunctions === "function") bindFunctions(canvas);
+
+        const svgElement = canvas.querySelector("svg");
+        if (!svgElement) throw new Error("Mermaid未傳回SVG圖形。 ");
+        const viewBox = svgElement.viewBox.baseVal;
+        naturalWidth = viewBox && viewBox.width ? viewBox.width : 1200;
+        svgElement.removeAttribute("width");
+        svgElement.removeAttribute("height");
+        svgElement.setAttribute("role", "img");
+        svgElement.setAttribute("aria-label", "I-PBRP與C-PBRP實驗架構流程圖");
+        bindNodeDetails(svgElement);
+
+        status.hidden = true;
+        viewport.classList.add("ready");
+        setFit();
+      } catch (error) {
+        if (attempt !== renderAttempt) return;
+        status.classList.add("error");
+        statusSpinner.hidden = true;
+        statusMessage.textContent = "圖表暫時無法載入；已在下方顯示完整研究流程文字大綱。";
+        retryMermaid.hidden = false;
+        mermaidModule = null;
+        renderDiagramTextFallback();
+        console.error(error);
+      }
+    }
+
+    retryMermaid.addEventListener("click", renderDiagram);
+    renderDiagram();
+  </script>
+</body>
+</html>

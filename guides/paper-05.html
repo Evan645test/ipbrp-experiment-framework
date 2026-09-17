@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="互動式論文導讀：研究架構、名詞、討論、統計與易讀解說">
+  <title>概念圖支援生成式 AI 協作學習｜互動導讀</title>
+  <style>
+    :root {
+      --page:#f4f6fa; --surface:#fff; --ink:#172033; --muted:#667085; --line:#cbd5e1;
+      --blue:#315f91; --blue-soft:#eaf2fa; --purple:#7956a8; --purple-soft:#f1eafb;
+      --danger:#a13e46; --danger-soft:#fff0f1; --shadow:0 14px 38px rgba(24,36,56,.11);
+      --radius:18px; --max:1440px;
+    }
+    * { box-sizing:border-box; }
+    html { min-width:320px; min-height:100%; scroll-behavior:smooth; background:var(--page); }
+    body {
+      min-width:320px; min-height:100vh; margin:0; color:var(--ink);
+      background:radial-gradient(circle at 8% 5%,rgba(217,119,6,.10),transparent 28rem),
+        radial-gradient(circle at 92% 22%,rgba(22,134,91,.09),transparent 30rem),var(--page);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","PingFang TC",sans-serif;
+      -webkit-font-smoothing:antialiased;
+    }
+    button, input, output, summary { font:inherit; }
+    a { color:var(--blue); text-underline-offset:.14em; }
+    button:focus-visible, a:focus-visible, summary:focus-visible, input:focus-visible, [role="button"]:focus-visible {
+      outline:3px solid rgba(49,95,145,.35); outline-offset:3px;
+    }
+    .topbar {
+      position:sticky; z-index:50; top:0; display:flex; gap:12px; align-items:center;
+      justify-content:space-between; min-height:60px; padding:10px max(14px,env(safe-area-inset-left));
+      border-bottom:1px solid rgba(148,163,184,.42); background:rgba(244,246,250,.92);
+      backdrop-filter:blur(15px);
+    }
+    .brand { overflow:hidden; font-weight:850; white-space:nowrap; text-overflow:ellipsis; }
+    .nav-links { display:flex; flex-shrink:0; gap:7px; overflow-x:auto; scrollbar-width:thin; }
+    .nav-links a, .nav-links button, .button {
+      display:inline-flex; min-height:40px; align-items:center; justify-content:center; padding:7px 11px;
+      border:1px solid #c5cfdb; border-radius:10px; background:#fff; color:var(--ink);
+      font-weight:750; text-decoration:none; white-space:nowrap; cursor:pointer;
+    }
+    .nav-links a:hover, .nav-links button:hover, .button:hover { border-color:var(--blue); color:var(--blue); }
+    .hero { width:min(100% - 28px,980px); margin:0 auto; padding:clamp(30px,5vw,58px) 0 24px; text-align:center; }
+    .eyebrow { display:inline-block; margin-bottom:9px; color:var(--blue); font-size:12px; font-weight:850; letter-spacing:.12em; }
+    h1 { margin:0; font-family:"Noto Serif TC","Songti TC",serif; font-size:clamp(30px,5vw,52px); line-height:1.18; }
+    .hero p { margin:13px 0 0; color:var(--muted); font-size:clamp(14px,2vw,17px); line-height:1.65; }
+    .page { width:min(100% - 24px,var(--max)); margin:0 auto; padding-bottom:70px; }
+    .section {
+      margin-bottom:18px; padding:clamp(17px,3vw,25px); border:1px solid rgba(49,95,145,.3);
+      border-radius:var(--radius); background:rgba(255,255,255,.95); box-shadow:var(--shadow); scroll-margin-top:78px;
+    }
+    .section-head { display:flex; gap:14px; align-items:flex-end; justify-content:space-between; margin-bottom:15px; }
+    .section-head h2 { margin:0; color:var(--blue); font-size:clamp(22px,3vw,29px); }
+    .section-head p { margin:6px 0 0; color:var(--muted); font-size:13px; line-height:1.55; }
+    .map-layout { display:grid; grid-template-columns:minmax(0,1fr) 350px; gap:18px; align-items:start; }
+    .map-card { min-width:0; overflow:hidden; border:1px solid var(--line); border-radius:var(--radius); background:#fff; }
+    .map-tools { display:flex; flex-wrap:wrap; gap:7px; align-items:center; padding:11px; border-bottom:1px solid var(--line); }
+    .map-tools .hint { margin-left:auto; color:var(--muted); font-size:12px; }
+    .zoom-label { min-width:52px; color:var(--muted); font-size:13px; text-align:center; }
+    .canvas { min-height:520px; max-height:75vh; padding:16px; overflow:auto; background:#fff; overscroll-behavior:contain; }
+    #diagram { width:100%; transform-origin:top left; }
+    #diagram svg { display:block; width:100%; height:auto; margin:auto; }
+    #diagram g.node[data-detail-key] { cursor:pointer; }
+    #diagram g.node[data-detail-key]:hover > rect, #diagram g.node[data-detail-key]:focus-visible > rect,
+    #diagram g.node[data-detail-key]:hover > polygon, #diagram g.node[data-detail-key]:focus-visible > polygon,
+    #diagram g.node[data-detail-key]:hover > path, #diagram g.node[data-detail-key]:focus-visible > path {
+      stroke-width:4px !important; filter:drop-shadow(0 7px 7px rgba(31,45,68,.24));
+    }
+    .render-state { display:grid; min-height:480px; place-items:center; padding:24px; color:var(--muted); text-align:center; }
+    .render-error { color:var(--danger); background:var(--danger-soft); }
+    .fallback-box { width:min(100%,680px); text-align:left; }
+    .fallback-box h3 { margin:0 0 8px; }
+    .fallback-box ol { max-height:320px; overflow:auto; padding-left:1.5rem; }
+    .fallback-box button { border:0; background:transparent; color:var(--blue); text-align:left; cursor:pointer; }
+    .stats-panel { position:sticky; top:78px; max-height:calc(100vh - 96px); overflow:auto; padding:18px; border:1px solid var(--line); border-radius:var(--radius); background:#fff; }
+    .stats-panel h2 { margin:0; color:var(--blue); font-size:22px; }
+    .stats-intro { margin:7px 0 14px; color:var(--muted); font-size:13px; }
+    .stats-list { display:grid; gap:10px; }
+    .stat-card { border:1px solid #d9e1ea; border-left:5px solid var(--accent,var(--blue)); border-radius:11px; background:#f9fbfd; }
+    .stat-card summary { display:flex; gap:7px; align-items:baseline; padding:13px; font-weight:820; cursor:pointer; list-style:none; }
+    .stat-card summary::-webkit-details-marker { display:none; }
+    .stat-card summary::after { margin-left:auto; color:var(--accent,var(--blue)); content:"+"; }
+    .stat-card[open] summary::after { content:"−"; }
+    .stat-label { color:var(--muted); font-size:11px; }
+    .stat-body { display:grid; gap:8px; padding:0 13px 13px; color:#475569; font-size:13px; line-height:1.55; }
+    .stat-field strong { display:block; color:var(--ink); font-size:11px; letter-spacing:.03em; }
+    .empty { padding:13px; border:1px dashed #b9c3d2; border-radius:11px; color:var(--muted); background:#f8fafc; }
+    .glossary-list { display:flex; flex-wrap:wrap; gap:9px; }
+    .glossary-term { min-height:40px; padding:8px 12px; border:1px solid #b9c9da; border-radius:999px; background:#f8fbff; color:#294f77; font-weight:850; cursor:pointer; }
+    .glossary-term::after { content:" ?"; color:var(--blue); }
+    .discussion-actions { display:flex; gap:7px; }
+    .discussion-list { display:grid; gap:11px; }
+    .discussion-card { margin:0; border:1px solid #ddd6e8; border-radius:13px; background:#fff; overflow:clip; }
+    .discussion-card[open] { border-color:rgba(121,86,168,.62); box-shadow:0 8px 22px rgba(77,55,108,.08); }
+    .discussion-card > summary { display:flex; gap:12px; align-items:center; padding:15px; color:#493363; font-weight:850; line-height:1.5; cursor:pointer; list-style:none; }
+    .discussion-card > summary::-webkit-details-marker { display:none; }
+    .discussion-card > summary::after { margin-left:auto; color:var(--purple); content:"+"; font-size:21px; }
+    .discussion-card[open] > summary::after { content:"−"; }
+    .question-number { display:grid; width:31px; height:31px; flex:0 0 31px; place-items:center; border-radius:50%; background:var(--purple-soft); color:var(--purple); }
+    .discussion-body { padding:0 18px 18px 61px; color:#344054; font-size:15px; line-height:1.75; }
+    .discussion-question { margin:0 0 14px; padding:12px; border-left:4px solid var(--purple); background:#f8f5fc; color:#493363; font-weight:700; }
+    .content-block h3 { margin:1.25em 0 .4em; color:#29364c; }
+    .content-block p { margin:.75em 0; }
+    .content-block li { margin:.35em 0; }
+    .note { padding:12px 13px; border-left:4px solid var(--danger); background:var(--danger-soft); color:#7d343c; }
+    .table-wrap { max-width:100%; margin:14px 0; overflow-x:auto; }
+    .data-table { width:100%; min-width:640px; border-collapse:collapse; font-size:.92em; }
+    .data-table th, .data-table td { padding:10px 11px; border:1px solid var(--line); vertical-align:top; text-align:left; }
+    .data-table th { background:var(--blue-soft); color:#294f77; }
+    .page-ref { margin:15px 0 0; color:var(--muted); font-size:13px; }
+    .reader-controls { display:flex; flex-shrink:0; gap:7px; align-items:center; padding:8px; border:1px solid var(--line); border-radius:12px; background:#f8fafc; }
+    .reader-controls input { width:min(18vw,180px); min-width:100px; accent-color:var(--blue); }
+    .reader-controls output { min-width:45px; color:var(--muted); font-size:13px; text-align:center; }
+    .reader { --reader-size:18px; width:min(100%,980px); margin:auto; color:#202124; font-size:var(--reader-size); line-height:1.9; }
+    .reader-intro { margin:0 0 1.4em; padding:.8em 1em; border-left:.3em solid #4f87ad; background:#eaf2f8; color:#455363; }
+    .toc { margin:1.2em 0 2em; padding:1em 1.2em; border:1px solid #b9cbd8; border-radius:.7em; background:#f1f6f9; }
+    .toc h3 { margin:0 0 .6em; color:#153d5a; }
+    .toc ol { margin:0; }
+    .reader-section h2 { margin:2em 0 .65em; padding-bottom:.3em; border-bottom:2px solid #d9e4ec; color:#153d5a; font-size:1.5em; scroll-margin-top:78px; }
+    .reader-section h3 { color:#153d5a; font-size:1.2em; }
+    .reader-section p { margin:.85em 0; }
+    .source-details { margin-top:18px; border:1px solid var(--line); border-radius:14px; background:#fff; }
+    .source-details summary { padding:13px 15px; font-weight:800; cursor:pointer; }
+    .source-details pre { max-height:430px; margin:0; overflow:auto; padding:17px; border-top:1px solid var(--line); background:#172033; color:#edf4fb; font:12px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace; white-space:pre; }
+    .source-note { margin:16px 0 0; color:var(--muted); font-size:12px; text-align:center; }
+    dialog { width:min(620px,calc(100vw - 28px)); max-height:min(78vh,760px); padding:0; border:0; border-top:8px solid var(--dialog-color,var(--blue)); border-radius:18px; box-shadow:0 28px 80px rgba(12,22,40,.34); }
+    dialog::backdrop { background:rgba(12,22,40,.58); backdrop-filter:blur(4px); }
+    .dialog-head { display:flex; gap:12px; align-items:flex-start; padding:18px 20px 12px; border-bottom:1px solid var(--line); }
+    .dialog-head div { flex:1; }
+    .dialog-kicker { margin:0 0 3px; color:var(--dialog-color,var(--blue)); font-size:12px; font-weight:850; letter-spacing:.08em; }
+    .dialog-head h2 { margin:0; font-size:clamp(22px,4vw,30px); }
+    .dialog-close { width:40px; height:40px; border:1px solid var(--line); border-radius:50%; background:#fff; cursor:pointer; font-size:22px; }
+    .dialog-body { padding:18px 20px 22px; }
+    .dialog-summary { margin:0; font-size:17px; font-weight:750; line-height:1.6; }
+    .dialog-explanation { margin:13px 0 0; color:#475569; line-height:1.75; }
+    .dialog-page { margin:17px 0 0; padding-top:11px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
+    @media (max-width:1120px) { .map-layout{grid-template-columns:1fr}.stats-panel{position:static;max-height:none}.stats-list{grid-template-columns:repeat(2,minmax(0,1fr))} }
+    @media (max-width:760px) { .topbar{align-items:flex-start;flex-direction:column}.brand,.nav-links{width:100%}.nav-links a,.nav-links button{flex:1}.hero{padding-top:27px}.canvas{min-height:64vh;max-height:72vh}.map-tools .hint{width:100%;margin-left:0} }
+    @media (max-width:680px) { .page{width:min(100% - 14px,var(--max))}.section{padding:16px 12px}.section-head{align-items:flex-start;flex-direction:column}.stats-list{grid-template-columns:1fr}.discussion-actions,.reader-controls{width:100%}.discussion-actions button{flex:1}.discussion-body{padding:0 13px 15px;font-size:14px}.reader-controls{overflow-x:auto}.reader-controls input{flex:1;width:auto}.reader{--reader-size:17px}.data-table{min-width:680px} }
+    @media print { @page{size:A4 landscape;margin:8mm} body{background:#fff}.topbar,.map-tools,.source-details,dialog{display:none!important}.page{width:100%;padding:0}.section{box-shadow:none;break-inside:auto}.canvas{min-height:0;max-height:none;overflow:visible}.stats-panel{position:static;max-height:none}.discussion-card{break-inside:avoid}.discussion-card>.discussion-body{display:block!important}.reader-section{break-inside:avoid} }
+    @media (prefers-reduced-motion:reduce) { *,*::before,*::after{scroll-behavior:auto!important;transition:none!important} }
+  </style>
+</head>
+<body>
+  <nav class="topbar" aria-label="頁面導覽">
+    <div class="brand">概念圖支援生成式 AI 協作學習：互動導讀</div>
+    <div class="nav-links">
+      <a href="#mapSection">架構圖</a><a href="#glossarySection">名詞</a><a href="#discussionSection">討論</a><a href="#easyReadSection">易讀解說</a>
+      <button type="button" onclick="window.print()">列印</button>
+    </div>
+  </nav>
+  <header class="hero"><span class="eyebrow">INTERACTIVE PAPER STUDY PAGE</span><h1>概念圖支援生成式 AI 協作學習：互動導讀</h1><p>三班準實驗中的學習成就、集體效能、批判思考與問題解決</p></header>
+  <main class="page">
+    <section id="mapSection" class="section" aria-labelledby="mapTitle">
+      <div class="section-head"><div><h2 id="mapTitle">研究架構圖</h2><p>點擊或用鍵盤開啟節點，查看白話說明與PDF頁碼。</p></div></div>
+      <div class="map-layout">
+        <div class="map-card">
+          <nav class="map-tools" aria-label="圖表工具">
+            <button id="zoomOut" class="button" type="button" aria-label="縮小圖表">−</button><output id="zoomLabel" class="zoom-label">符合</output>
+            <button id="zoomIn" class="button" type="button" aria-label="放大圖表">＋</button><button id="fit" class="button" type="button">符合寬度</button>
+            <button id="fullscreen" class="button" type="button">全螢幕</button><span class="hint">圖內可水平與垂直捲動</span>
+          </nav>
+          <div id="canvas" class="canvas" tabindex="0"><div id="diagram" class="render-state" aria-live="polite">正在載入架構圖⋯⋯</div></div>
+        </div>
+        <aside class="stats-panel" aria-labelledby="statsTitle"><h2 id="statsTitle">統計方法怎麼看？</h2><p class="stats-intro">先理解方法回答的問題，再解讀數字。</p><div id="statsList" class="stats-list"></div></aside>
+      </div>
+    </section>
+
+    <section id="glossarySection" class="section" aria-labelledby="glossaryTitle">
+      <div class="section-head"><div><h2 id="glossaryTitle">特殊縮寫與研究名詞</h2><p>點擊名詞查看完整名稱、本文用法與PDF頁碼。</p></div></div><div id="glossaryList" class="glossary-list"></div>
+    </section>
+
+    <section id="discussionSection" class="section" aria-labelledby="discussionTitle">
+      <div class="section-head"><div><h2 id="discussionTitle">論文核心討論</h2><p>依研究問題脈絡整理，並區分結果、作者解釋與合理推論。</p></div><div class="discussion-actions"><button id="expandDiscussions" class="button" type="button">全部展開</button><button id="collapseDiscussions" class="button" type="button">全部收合</button></div></div>
+      <div id="discussionList" class="discussion-list"></div>
+    </section>
+
+    <section id="easyReadSection" class="section" aria-labelledby="easyReadTitle">
+      <div class="section-head"><div><h2 id="easyReadTitle">易讀解說</h2><p>以完整敘事理解研究，不需要來回拼湊流程節點。</p></div><div class="reader-controls" aria-label="易讀解說字體大小">
+        <button id="fontDecrease" class="button" type="button" aria-label="縮小易讀解說文字">A−</button><input id="fontControl" type="range" min="16" max="28" step="1" value="18" aria-label="調整易讀解說字體大小"><button id="fontIncrease" class="button" type="button" aria-label="放大易讀解說文字">A＋</button><output id="fontOutput" for="fontControl">18px</output><button id="fontReset" class="button" type="button">預設</button>
+      </div></div>
+      <article id="reader" class="reader"><p id="readerIntro" class="reader-intro"></p><nav class="toc" aria-labelledby="tocTitle"><h3 id="tocTitle">目次</h3><ol id="tocList"></ol></nav><div id="readerSections"></div></article>
+    </section>
+
+    <details class="source-details"><summary>查看原始 Mermaid 語法</summary><pre id="sourceDisplay"></pre></details>
+    <p class="source-note">內容依據 Chu、Hwang 與 Tu（2026）原始論文整理；頁碼為 PDF 檢視器頁碼。</p>
+  </main>
+
+  <dialog id="detailDialog" aria-labelledby="dialogTitle"><div class="dialog-head"><div><p id="dialogKicker" class="dialog-kicker"></p><h2 id="dialogTitle"></h2></div><button id="dialogClose" class="dialog-close" type="button" aria-label="關閉說明">×</button></div><div class="dialog-body"><p id="dialogSummary" class="dialog-summary"></p><p id="dialogExplanation" class="dialog-explanation"></p><p id="dialogPage" class="dialog-page"></p></div></dialog>
+
+  <script type="module">
+    const mermaidSource="flowchart TD\nA[\"問題：GAI 資訊豐富，也可能過載與幻覺\"] --\u003e B[\"概念圖作為認知與後設認知支架\"]\nB --\u003e C[\"三班 88 名高二學生\"]\nC --\u003e D[\"班級準實驗\"]\nD --\u003e E[\"E 33：概念圖＋ChatGPT＋協作\"]\nD --\u003e F[\"C1 26：ChatGPT＋協作\"]\nD --\u003e G[\"C2 29：搜尋＋協作\"]\nE --\u003e H[\"共同 PBL：夕陽產業議題\"]\nF --\u003e H\nG --\u003e H\nH --\u003e I[\"前測與三份前問卷 60 分鐘\"]\nI --\u003e J[\"三週，每週 100 分鐘\"]\nJ --\u003e K[\"後測、後問卷與訪談\"]\nK --\u003e L[\"ANCOVA 控制前測\"]\nK --\u003e M[\"作品內容分析與訪談編碼\"]\nL --\u003e N[\"E：總成就、集體效能、批判傾向、問題解決較高\"]\nM --\u003e O[\"E：更多整合、驗證與提問經驗\"]\nN --\u003e P[\"限制與報告矛盾\"]\nO --\u003e P";
+    const nodeDetails={"A":{"title":"研究問題","summary":"生成式 AI 能即時提供多元資訊，也會帶來幻覺、無關內容與認知過載。","explanation":"學生若只與 ChatGPT 對話，可能被大量流暢資訊牽著走，沒有整理關係、驗證正確性或保留自己的推理。作者因此尋找能把 AI 內容外化、組織與共同檢查的支架。","page":"PDF第1至4頁","color":"#315F91"},"B":{"title":"概念圖支架","summary":"以共享概念圖組織 AI 回覆、顯示關係與促進監控。","explanation":"概念圖把資訊變成可見、可修改的共同表徵，讓學生規劃要放什麼、監控連結是否合理、評估缺漏與證據；降低認知負荷是理論推論，研究未直接測量。","page":"PDF第2至6頁","color":"#D97706"},"C":{"title":"研究對象","summary":"臺灣中部某校三班 88 名高二學生，平均 17 歲。","explanation":"三班自願參與，皆未學過該永續發展單元；性別、招募比例、退出與缺失資料未報告。","page":"PDF第5頁","color":"#315F91"},"D":{"title":"班級準實驗","summary":"三個既有班級分別接受一種模式，沒有個別隨機分派。","explanation":"學生在班內自由組隊，原則上每組三人；班級人數 26 與 29 無法全數整除為三人組，例外組別大小未說明。班級特質可能與處理條件混合。","page":"PDF第5頁","color":"#A14A3C"},"E":{"title":"CM-GAI-CL 實驗組","summary":"33 人使用 ChatGPT 3.5、MindMaster 概念圖與協作學習。","explanation":"五階段為挑戰與目標、GAI 探索、知識組織、合作驗證、文章創作；概念圖是與 C1 的核心差異。","page":"PDF第5至8頁","color":"#D97706"},"F":{"title":"GAI-CL 控制組 1","summary":"26 人使用 ChatGPT 3.5 與協作學習，但沒有概念圖。","explanation":"學生接受 GAI 使用訓練與相同標準初始提示，可共同追問並完成夕陽產業文章。","page":"PDF第5、7至8頁","color":"#16865B"},"G":{"title":"C-CL 控制組 2","summary":"29 人使用一般網路搜尋與協作學習。","explanation":"學生接受搜尋引擎、來源紀錄、資訊整理與正確性檢查指導，不使用 ChatGPT 或概念圖。","page":"PDF第5、7至8頁","color":"#16865B"},"H":{"title":"共同 PBL 任務","summary":"三組都探究夕陽產業並合作完成文章。","explanation":"共同遵循問題導向學習框架，分析產業衰退的科技、經濟、勞權、環境與政策關係；內容、材料、教師與評量程序相同，文章需記錄分工。","page":"PDF第2、5至8頁","color":"#315F91"},"I":{"title":"前測","summary":"第一週用 60 分鐘完成成就前測與三份前問卷。","explanation":"問卷測量集體效能、批判思考傾向與問題解決；前測用於檢查基線並作後續 ANCOVA 共變量。","page":"PDF第7至9頁","color":"#315F91"},"J":{"title":"三週介入","summary":"三週、每週 100 分鐘，共 300 分鐘。","explanation":"同一教師依標準流程教學並監控；實驗組用 ChatGPT 與概念圖反覆探索、組織和驗證，C1 只用 ChatGPT，C2 用搜尋。介入忠實度未量化報告。","page":"PDF第7至8頁","color":"#315F91"},"K":{"title":"後測與訪談","summary":"介入後完成 60 分鐘後測、後問卷與八題訪談。","explanation":"論文未清楚交代訪談參與人數、形式、每場時間與飽和判定細節；兩位研究者編碼逐字稿，κ＝.81。","page":"PDF第8至9、12至13頁","color":"#7956A8"},"L":{"title":"量化分析","summary":"以一因子 ANCOVA 控制各結果的前測分數，再做 LSD 事後比較。","explanation":"成就總分、三種認知層次與三份自陳問卷分別分析。論文報常態、Levene 與迴歸斜率同質性檢查，但未報自由度與信賴區間。","page":"PDF第9至12頁","color":"#4F46E5"},"M":{"title":"內容與訪談分析","summary":"分析應用／分析題答案及 11 類訪談主題。","explanation":"作品內容計數理由、改善措施與新觀點；訪談表列各主題被提及次數，但正文有時把次數稱為學生人數，對一人能否多次計數交代不清。","page":"PDF第10至13、17頁","color":"#7956A8"},"N":{"title":"主要量化結果","summary":"實驗組在四個整體結果的調整後表現皆高於兩個控制組。","explanation":"總成就 F＝9.47、η²＝.18；集體效能 F＝6.56、η²＝.14；批判思考傾向 F＝4.44、η²＝.10；問題解決 F＝5.18、η²＝.10。各表與正文的部分 p 值及調整平均數互相矛盾。","page":"PDF第9至12頁","color":"#A14A3C"},"O":{"title":"學習經驗結果","summary":"實驗組較常提到深化內容、提升效率與整合／驗證資訊。","explanation":"表 8 顯示實驗組在深化內容 24、效率 21、整合驗證 15、提問 12 次等類別高於控制組；這是描述性編碼，未做組間推論檢定。","page":"PDF第12至15頁","color":"#7956A8"},"P":{"title":"結論邊界","summary":"結果支持概念圖＋GAI 的短期優勢，但不能證明作者提出的完整心理機制。","explanation":"只有三班、三週與立即後測；自由組隊與班級分派可能混淆結果，認知負荷、AI 依賴、提示品質、概念圖品質和實際合作歷程未直接測量，且原文多處表文不一致。","page":"PDF第13至17頁","color":"#A14A3C"}};
+    const statistics=[{"name":"一因子共變數分析","label":"One-way ANCOVA","meaning":"控制前測後比較三種教學模式的後測平均。","reason":"三班可能有初始差異，尤其批判思考前測 F＝5.3、p＜.05，ANCOVA 用前測作校正。","caution":"班級只有每條件一班，學生又在三人小組內合作；一般 ANCOVA 未處理班級／小組巢狀依賴。","color":"#4F46E5"},{"name":"LSD 事後比較","label":"Least Significant Difference","meaning":"在整體 ANCOVA 後比較 E、C1、C2 的兩兩差異。","reason":"用來判定哪些組別形成整體差異。","caution":"LSD 對多重比較控制較寬鬆；本文又分析多個結果與認知層次，第一類錯誤風險需留意。","color":"#A14A3C"},{"name":"學習成就","label":"F＝9.47，η²＝.18","meaning":"總成就的組別差異達顯著；E 調整均數 64.56，高於 C1 52.41 與 C2 56.89。","reason":"前測分數已納入校正，LSD 顯示 E＞C1、E＞C2。","caution":"作者以 p＝.00／p＜.001 表示，不應報成真正等於零；未提供組間差的信賴區間。","color":"#4F46E5"},{"name":"認知層次分析","label":"Remember／Understand／Apply-Analyze","meaning":"記憶題 E 與 C2 高於 C1；理解題無顯著差異；應用分析題 E 高於兩組。","reason":"用 Bloom 層次拆解總成就來源。","caution":"分層後題數較少，且同一測驗進行多次分析；結果應與總分一起解讀。","color":"#4F46E5"},{"name":"集體效能","label":"F＝6.56，η²＝.14","meaning":"表 5 的調整均數為 E 4.06、C1 3.75、C2 3.60，E 高於兩組。","reason":"檢查小組對共同完成困難任務的信心。","caution":"正文寫 p＝.002，表格寫 p＜.001；正文列的調整平均數也與表格不同，應保留兩者並以原表數值為主要展示。","color":"#A14A3C"},{"name":"批判思考傾向","label":"F＝4.44，η²＝.10","meaning":"表 6 調整均數 E 4.32、C1 4.06、C2 3.98，E 高於兩組。","reason":"評估學生願意檢查新證據與判斷資訊價值的自陳傾向。","caution":"正文 p＝.015，表格 p＜.001，兩者矛盾；這也不是直接批判 AI 回覆的表現測驗。","color":"#A14A3C"},{"name":"問題解決技能","label":"F＝5.18，η²＝.10","meaning":"表 7 調整均數 E 4.21、C1 3.82、C2 3.82，E 高於兩組。","reason":"測量處理學習問題的策略與信心。","caution":"正文 p＝.008，表格 p＜.001；正文的調整均數 4.34、4.08、3.93 與表格不符，疑似複製前段數值。","color":"#A14A3C"},{"name":"內部一致性","label":"KR-20／Cronbach's α","meaning":"成就前後測 KR-20＝.74／.79；問卷 α＝.86–.93。","reason":"評估同一測量內各題反應的一致程度。","caution":"可靠度不等於效度；批判思考與問題解決仍是自陳傾向。","color":"#7956A8"},{"name":"訪談編碼一致性","label":"Cohen's κ＝.81","meaning":"兩位研究者獨立初編後，分類一致程度高。","reason":"為主題編碼提供基本可信度證據。","caution":"研究未清楚報告受訪人數、訪談形式、飽和與每人可否重複計數。","color":"#7956A8"}];
+    const glossary=[{"term":"CM-GAI-CL","full_name":"Concept Mapping-enhanced GAI-supported Collaborative Learning","explanation":"本文實驗模式：概念圖＋ChatGPT 3.5＋協作 PBL。","page":"PDF第1至8頁","color":"#D97706"},{"term":"GAI-CL","full_name":"Generative AI-supported Collaborative Learning","explanation":"控制組1模式：ChatGPT 3.5＋協作 PBL，不使用概念圖。","page":"PDF第2、5、7至8頁","color":"#16865B"},{"term":"C-CL","full_name":"Conventional Collaborative Learning","explanation":"控制組2模式：一般網路搜尋＋協作 PBL，不使用 ChatGPT 或概念圖。","page":"PDF第2、5、7至8頁","color":"#16865B"},{"term":"GAI","full_name":"Generative Artificial Intelligence／生成式人工智慧","explanation":"可依提示產生文字等新內容；本文使用 ChatGPT 3.5 提供資訊與文章規劃建議。","page":"PDF第1至3、7頁","color":"#315F91"},{"term":"LLM","full_name":"Large Language Model／大型語言模型","explanation":"GAI 的自然語言技術基礎，能依大量語料生成連貫回覆，但不保證內容真實。","page":"PDF第3頁","color":"#315F91"},{"term":"概念圖","full_name":"Concept mapping","explanation":"用節點與連線顯示概念及關係；本文以 MindMaster 讓小組共同組織和驗證 AI 資訊。","page":"PDF第2、4至7頁","color":"#D97706"},{"term":"PBL","full_name":"Problem-Based Learning／問題導向學習","explanation":"以真實複雜問題驅動目標、實作、協作、科技工具與成果創作。","page":"PDF第2至3、5、7頁","color":"#315F91"},{"term":"ESD","full_name":"Education for Sustainable Development／永續發展教育","explanation":"本文以夕陽產業的勞權、經濟、科技與環境關係作為跨領域永續議題。","page":"PDF第5、13頁","color":"#315F91"},{"term":"社會認知理論","full_name":"Social Cognitive Theory","explanation":"用社會互動、效能信念與策略投入解釋合作學習；作者把集體效能視為動機驅力。","page":"PDF第2至3、13至15頁","color":"#315F91"},{"term":"社會建構論","full_name":"Social constructivism","explanation":"知識透過語言、互動與共同活動建構；支持小組以概念圖協商理解。","page":"PDF第3、6頁","color":"#315F91"},{"term":"集體效能","full_name":"Collective efficacy","explanation":"成員相信團隊能共同完成學習任務的程度；本文用8題五點量尺自陳。","page":"PDF第2、8、11頁","color":"#315F91"},{"term":"批判思考傾向","full_name":"Critical thinking tendencies","explanation":"願意評估新資訊或證據價值的傾向；本文用6題自陳，不是實際查核 AI 的表現分數。","page":"PDF第2、8至9、11至12頁","color":"#315F91"},{"term":"認知負荷","full_name":"Cognitive load","explanation":"工作記憶在處理資訊時的負擔；作者主張概念圖可降低負荷，但本研究沒有直接量測。","page":"PDF第2至4、14至16頁","color":"#A14A3C"},{"term":"AI 幻覺","full_name":"Hallucination","explanation":"AI 產生語句流暢卻不符合事實的內容，因此學生必須查核與修正。","page":"PDF第3、14、16頁","color":"#A14A3C"},{"term":"Bloom 認知層次","full_name":"Remembering, Understanding, Applying and Analyzing","explanation":"成就測驗以記憶、理解、應用與分析區分題型；文章創作另被作者連結到創造層次。","page":"PDF第7至10頁","color":"#315F91"},{"term":"ANCOVA","full_name":"Analysis of Covariance／共變數分析","explanation":"用前測校正後再比較三組後測。","page":"PDF第9至12頁","color":"#4F46E5"},{"term":"LSD","full_name":"Least Significant Difference／最小顯著差異法","explanation":"本文 ANCOVA 後的兩兩組別比較方法，對多重比較的保護較寬鬆。","page":"PDF第9至12頁","color":"#A14A3C"}];
+    const discussions=[{"title":"研究目的、重要性與過去嘗試","question":"為什麼只把 ChatGPT 放進小組合作還不夠？","blocks":[{"type":"paragraph","text":"GAI 可以即時回答各小組、提供多元觀點並減少教師負擔，但也可能產生幻覺、無關內容與大量資訊。缺乏結構時，學生可能只收集答案，沒有組織、驗證或轉化。"},{"type":"bullets","items":["傳統協作與 PBL 能促進高層次思考，但小組仍需要適時支架。","GAI 提供資訊擴張與即時回饋，卻也可能增加負荷與依賴。","概念圖能外化概念關係、支援共同監控，因而被提出作為人主導的認知支架。"]}],"page":"PDF第1至4頁"},{"title":"研究不足、策略與理論","question":"CM-GAI-CL 的五階段如何防止學生被 AI 資訊淹沒？","blocks":[{"type":"table","headers":["階段","主要活動","支架角色"],"rows":[["挑戰與目標","釐清夕陽產業問題與學習目標","設定方向和分工"],["GAI探索","標準提示、追問、初步查核","擴展觀點"],["知識組織","共同建構MindMaster概念圖","外化關係與缺口"],["合作驗證","比較、查核、修正概念圖","協商與監控"],["文章創作","整合概念圖與對話完成文章","形成可評量成果"]]},{"type":"note","text":"作者以社會認知理論、社會建構論與認知負荷理論解釋作用，但沒有直接測量認知負荷、概念圖品質、AI 查核正確率或集體效能的中介效果。"}],"page":"PDF第2至7、13至16頁"},{"title":"研究問題與研究設計","question":"三個班級如何區分概念圖、GAI 與一般搜尋的效果？","blocks":[{"type":"numbered","items":["CM-GAI-CL 是否提高學習成就？","是否提高集體效能？","是否提高批判思考傾向？","是否提高問題解決技能？","三種模式的學習經驗與觀感有何不同？"]},{"type":"table","headers":["組別","人數","工具"],"rows":[["E","33","概念圖＋ChatGPT 3.5＋協作"],["C1","26","ChatGPT 3.5＋協作"],["C2","29","網路搜尋＋協作"]]},{"type":"paragraph","text":"三週共300分鐘，前後各有60分鐘測驗與問卷；同一教師、內容、材料與評量。三班各對應一種條件，因此這不是個別隨機試驗。"}],"page":"PDF第2、5、7至9頁"},{"title":"研究結果與作者解釋","question":"概念圖＋GAI 組較好，但原始報告有哪些數字不能直接照抄？","blocks":[{"type":"table","headers":["結果","表格調整均數 E／C1／C2","F／效果量","表文狀況"],"rows":[["總成就","64.56／52.41／56.89","9.47／η²=.18","E＞C1、C2"],["集體效能","4.06／3.75／3.60","6.56／η²=.14","正文p=.002；表p\u003c.001"],["批判思考傾向","4.32／4.06／3.98","4.44／η²=.10","正文p=.015；表p\u003c.001"],["問題解決","4.21／3.82／3.82","5.18／η²=.10","正文p=.008；表p\u003c.001，且正文均數誤植"]]},{"type":"paragraph","text":"成就分層後，E 與 C2 的記憶題高於 C1，理解題無差異，只有應用／分析題是 E 高於兩組。這比只說『所有方面都較好』更精確。"},{"type":"note","text":"本頁以表格的調整均數為主要展示，同時保留正文 p 值；在期刊發布勘誤前，不能自行選一組數字當作唯一真值。"}],"page":"PDF第9至13頁"},{"title":"批判反思與後續研究","question":"哪些未測機制與設計限制最影響解讀？","blocks":[{"type":"bullets","items":["每種條件只有一個班級，班級差異與介入無法完全分離。","三人自由組隊形成選擇與小組巢狀依賴，分析未建模。","三週與立即後測不足以判斷保留與遷移。","LSD 與多個結果／分層分析增加偶然顯著風險。","批判思考與問題解決是自陳量尺，不是實際 AI 查核表現。","需直接評分概念圖、提示、來源查核、文章品質與合作貢獻。","訪談次數與學生人數的敘述需釐清，表文統計矛盾需勘誤。"]}],"page":"PDF第5、9至17頁"}];
+    const easyRead={"intro":"這篇研究不是問『ChatGPT 能不能幫忙』，而是問『學生用 ChatGPT 合作時，再加一張共同概念圖，能不能把大量 AI 資訊整理成真正可檢查、可應用的知識』。","sections":[{"title":"先說結論","blocks":[{"type":"paragraph","text":"三個高二班級共 88 人，用三週完成夕陽產業探究。概念圖＋ChatGPT 組在總成就、集體效能、批判思考傾向與問題解決自陳上，控制前測後都高於 ChatGPT-only 與一般搜尋組。"},{"type":"note","text":"這是每條件只有一班的準實驗；原文數個表格和正文互相矛盾，頁面已逐項標示。"}]},{"title":"三組到底差在哪裡","blocks":[{"type":"table","headers":["條件","共同任務","資訊工具","組織工具"],"rows":[["E","合作完成夕陽產業文章","ChatGPT 3.5","共同概念圖"],["C1","合作完成夕陽產業文章","ChatGPT 3.5","無"],["C2","合作完成夕陽產業文章","一般搜尋","無"]]},{"type":"paragraph","text":"E 對 C1 的差異最能反映概念圖加值；E 對 C2 同時包含 GAI 與概念圖差異。"}]},{"title":"五階段學習流程","blocks":[{"type":"numbered","items":["先把夕陽產業問題與小組目標說清楚。","用標準提示向 ChatGPT 提問，再共同追問。","把資訊放進概念圖，標出概念關係與缺口。","共同查核與修正，加入現實案例、改善策略和經濟影響。","依概念圖與對話反覆修訂最後文章。"]},{"type":"note","text":"概念圖被設定為人主導的支架，而不是要求 AI 自動產圖；這是避免把知識組織工作再次外包給 AI 的關鍵。"}]},{"title":"研究怎麼測","blocks":[{"type":"paragraph","text":"成就前後測各36題、滿分100，包含記憶20題、理解10題、應用／分析6題。另有集體效能8題、批判思考傾向6題、問題解決6題的五點量尺。"},{"type":"paragraph","text":"成就測驗 KR-20 為 .74 與 .79；問卷 α 為 .86–.93。介入後另做八題訪談，兩位研究者編碼一致性 κ＝.81。"}]},{"title":"成就結果不是每個層次都一樣","blocks":[{"type":"table","headers":["層次","結果"],"rows":[["總分","E高於C1與C2"],["記憶","E與C2高於C1"],["理解","三組無顯著差異"],["應用／分析","E高於C1與C2"]]},{"type":"paragraph","text":"概念圖＋GAI 的優勢主要出現在總分與需要應用、分析的題型；不能說每個認知層次都較高。"}]},{"title":"三份問卷結果","blocks":[{"type":"paragraph","text":"依結果表，集體效能調整平均數是 4.06／3.75／3.60，批判思考傾向是 4.32／4.06／3.98，問題解決是 4.21／3.82／3.82；三者都是 E 高於兩個控制組。"},{"type":"note","text":"這些是學生對團隊能力、思考傾向與解題能力的自我評估，不等於直接觀察到的查核或解題行為。"}]},{"title":"原文數字為何要小心","blocks":[{"type":"bullets","items":["集體效能：正文 p＝.002，表格 p＜.001；調整平均數也不同。","批判思考：正文 p＝.015，表格 p＜.001；調整平均數也不同。","問題解決：正文 p＝.008，表格 p＜.001；正文調整平均數疑似複製了批判思考數字。","因此本頁並列差異，沒有擅自把任何一方改成『正確答案』。"]}]},{"title":"作品與訪談透露什麼","blocks":[{"type":"paragraph","text":"E 組在作品中列出更多產業消失原因、改善方法與討論後的新觀點；訪談也較常出現深化內容、提升效率、整合驗證與提問。"},{"type":"note","text":"這些主要是描述性次數。表8標題說『被提及次數』，正文卻常說『多少學生』，無法確定一人是否可重複計數。"}]},{"title":"最重要的限制","blocks":[{"type":"bullets","items":["三個既有班級各接受一種條件，沒有個別隨機分派。","自由組隊造成選擇與同組相依，分析未處理。","三週太短，也沒有延宕後測。","未直接測認知負荷、AI依賴、概念圖品質、提示品質與查核正確率。","多個 ANCOVA、分層結果與 LSD 比較提高偶然發現風險。","訪談參與人數、形式與飽和資訊不足。"]}]},{"title":"教學上可帶走的原則","blocks":[{"type":"paragraph","text":"把 AI 加進合作並不夠；還要給學生一個共同、可修訂、必須說明關係的外部表徵。概念圖的價值不是畫得漂亮，而是迫使小組指出『這兩個觀點為何相連、證據在哪裡、還缺什麼』。"}]}]};
+    const MERMAID_URLS=["https://cdn.jsdelivr.net/npm/mermaid@11.17.2/dist/mermaid.esm.min.mjs","https://unpkg.com/mermaid@11.17.2/dist/mermaid.esm.min.mjs"];
+    const LOAD_TIMEOUT=8000;
+    const $=(selector,root=document)=>root.querySelector(selector);
+    const make=(tag,className,text)=>{const node=document.createElement(tag);if(className)node.className=className;if(text!==undefined)node.textContent=text;return node};
+    let lastFocus=null,mermaidModule=null,renderAttempt=0,naturalWidth=1200,zoom=null;
+
+    const dialog=$("#detailDialog");
+    function openDetail(kicker,title,summary,explanation,page,color,trigger){lastFocus=trigger||document.activeElement;$("#dialogKicker").textContent=kicker;$("#dialogTitle").textContent=title;$("#dialogSummary").textContent=summary;$("#dialogExplanation").textContent=explanation;$("#dialogPage").textContent=page;dialog.style.setProperty("--dialog-color",color);dialog.showModal();$("#dialogClose").focus()}
+    function closeDetail(){if(dialog.open)dialog.close();lastFocus?.focus?.({preventScroll:true})}
+    $("#dialogClose").addEventListener("click",closeDetail);
+    dialog.addEventListener("click",event=>{if(event.target===dialog)closeDetail()});
+
+    function addField(parent,label,value){if(!value)return;const box=make("div","stat-field");box.append(make("strong",null,label),make("span",null,value));parent.append(box)}
+    function renderStatistics(){const target=$("#statsList");if(!statistics.length){target.append(make("div","empty","本文未報告可整理的量化統計方法。"));return}statistics.forEach((item,index)=>{const card=make("details","stat-card");card.style.setProperty("--accent",item.color);if(index===0)card.open=true;const summary=make("summary");summary.append(make("span",null,item.name));if(item.label)summary.append(make("span","stat-label",item.label));const body=make("div","stat-body");addField(body,"回答什麼？",item.meaning);addField(body,"為何適用？",item.reason);addField(body,"解讀注意",item.caution);card.append(summary,body);target.append(card)})}
+    function renderGlossary(){const target=$("#glossaryList");if(!glossary.length){target.append(make("div","empty","本文沒有需要另外解釋的特殊縮寫或專門名詞。"));return}glossary.forEach(item=>{const button=make("button","glossary-term",item.term);button.type="button";button.setAttribute("aria-haspopup","dialog");button.setAttribute("aria-label",`${item.term}：${item.full_name}，點擊查看解釋`);button.addEventListener("click",()=>openDetail("名詞解釋",item.term,item.full_name,item.explanation,item.page,item.color,button));target.append(button)})}
+
+    function renderBlocks(blocks,target){blocks.forEach(block=>{const wrap=make("div","content-block");if(block.type==="paragraph")wrap.append(make("p",null,block.text));else if(block.type==="subheading")wrap.append(make("h3",null,block.text));else if(block.type==="note")wrap.append(make("p","note",block.text));else if(block.type==="bullets"||block.type==="numbered"){const list=make(block.type==="bullets"?"ul":"ol");block.items.forEach(item=>list.append(make("li",null,item)));wrap.append(list)}else if(block.type==="table"){const outer=make("div","table-wrap");const table=make("table","data-table");const head=make("thead"),headRow=make("tr");block.headers.forEach(value=>headRow.append(make("th",null,value)));head.append(headRow);const body=make("tbody");block.rows.forEach(row=>{const tr=make("tr");row.forEach(value=>tr.append(make("td",null,value)));body.append(tr)});table.append(head,body);outer.append(table);wrap.append(outer)}target.append(wrap)})}
+    function renderDiscussions(){const target=$("#discussionList");discussions.forEach((item,index)=>{const card=make("details","discussion-card");if(index===0)card.open=true;const summary=make("summary");summary.append(make("span","question-number",String(index+1)),make("span",null,item.title));const body=make("div","discussion-body");body.append(make("p","discussion-question",item.question));renderBlocks(item.blocks,body);body.append(make("p","page-ref",item.page));card.append(summary,body);target.append(card)});$("#expandDiscussions").addEventListener("click",()=>target.querySelectorAll("details").forEach(card=>card.open=true));$("#collapseDiscussions").addEventListener("click",()=>target.querySelectorAll("details").forEach(card=>card.open=false))}
+    function renderEasyRead(){$("#readerIntro").textContent=easyRead.intro;const sections=$("#readerSections"),toc=$("#tocList");easyRead.sections.forEach((item,index)=>{const section=make("section","reader-section");const heading=make("h2",null,item.title);heading.id=`easy-read-${index+1}`;section.append(heading);renderBlocks(item.blocks,section);sections.append(section);const link=make("a",null,item.title);link.href=`#${heading.id}`;const li=make("li");li.append(link);toc.append(li)})}
+
+    function initFontControls(){const control=$("#fontControl"),reader=$("#reader"),output=$("#fontOutput"),down=$("#fontDecrease"),up=$("#fontIncrease"),reset=$("#fontReset");const min=Number(control.min),max=Number(control.max),key="paper-study-reader-size-v1";const clamp=value=>Math.min(max,Math.max(min,value));const sync=size=>{control.value=String(size);output.value=`${size}px`;output.textContent=output.value;down.disabled=size<=min;up.disabled=size>=max};const apply=(value,persist=true)=>{const size=clamp(Number.parseInt(value,10)||18);reader.style.setProperty("--reader-size",`${size}px`);sync(size);if(persist)try{localStorage.setItem(key,String(size))}catch{}};control.addEventListener("input",()=>apply(control.value));down.addEventListener("click",()=>apply(Number(control.value)-1));up.addEventListener("click",()=>apply(Number(control.value)+1));reset.addEventListener("click",()=>{try{localStorage.removeItem(key)}catch{}reader.style.removeProperty("--reader-size");sync(Math.round(Number.parseFloat(getComputedStyle(reader).fontSize))||18)});let stored=null;try{stored=Number.parseInt(localStorage.getItem(key),10)}catch{};Number.isFinite(stored)&&stored>=min&&stored<=max?apply(stored,false):sync(Math.round(Number.parseFloat(getComputedStyle(reader).fontSize))||18)}
+
+    function nodeId(element){const own=element.id||"";for(const key of Object.keys(nodeDetails).sort((a,b)=>b.length-a.length)){if(new RegExp(`(?:^|-)${key.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")}(?:-|$)`).test(own))return key}const data=element.getAttribute("data-id");return data&&Object.hasOwn(nodeDetails,data)?data:null}
+    function bindNodes(){let count=0;$("#diagram").querySelectorAll("g.node").forEach(element=>{const key=nodeId(element);if(!key)return;const detail=nodeDetails[key];element.dataset.detailKey=key;element.setAttribute("role","button");element.setAttribute("tabindex","0");element.setAttribute("aria-label",`${detail.title}，點擊查看說明`);const open=()=>openDetail("節點說明",detail.title,detail.summary,detail.explanation,detail.page,detail.color,element);element.addEventListener("click",open);element.addEventListener("keydown",event=>{if(event.key==="Enter"||event.key===" "){event.preventDefault();open()}});count++});if(count!==Object.keys(nodeDetails).length)console.warn(`綁定${count}/${Object.keys(nodeDetails).length}個節點`)}
+    function timeout(promise,label){return Promise.race([promise,new Promise((_,reject)=>setTimeout(()=>reject(new Error(`${label}逾時`)),LOAD_TIMEOUT))])}
+    async function loadMermaid(){if(mermaidModule)return mermaidModule;const attempts=MERMAID_URLS.map(url=>timeout(import(`${url}?attempt=${renderAttempt}`),"Mermaid載入"));const loaded=await Promise.any(attempts);mermaidModule=loaded.default??loaded;return mermaidModule}
+    function fit(){zoom=null;const diagram=$("#diagram");diagram.style.width="100%";diagram.style.minWidth="0";$("#zoomLabel").value="符合";$("#zoomLabel").textContent="符合";$("#canvas").scrollTo({top:0,left:0,behavior:"smooth"})}
+    function setZoom(next){zoom=Math.min(2,Math.max(.5,next));const width=Math.round(naturalWidth*zoom),diagram=$("#diagram");diagram.style.width=`${width}px`;diagram.style.minWidth=`${width}px`;$("#zoomLabel").value=`${Math.round(zoom*100)}%`;$("#zoomLabel").textContent=$("#zoomLabel").value}
+    function fallback(error){const diagram=$("#diagram");diagram.className="render-state render-error";diagram.replaceChildren();const box=make("div","fallback-box");box.append(make("h3",null,"互動圖暫時無法載入"),make("p",null,"所有文字分析仍可閱讀。你可以重新載入圖表，或使用下列文字流程。"));const retry=make("button","button","重新載入圖表");retry.type="button";retry.addEventListener("click",renderDiagram);box.append(retry);const list=make("ol");Object.entries(nodeDetails).forEach(([key,detail])=>{const li=make("li");const button=make("button",null,`${detail.title}（${detail.page}）`);button.type="button";button.addEventListener("click",()=>openDetail("文字流程",detail.title,detail.summary,detail.explanation,detail.page,detail.color,button));li.append(button);list.append(li)});box.append(list);diagram.append(box);console.error(error)}
+    async function renderDiagram(){const attempt=++renderAttempt,diagram=$("#diagram");diagram.className="render-state";diagram.textContent="正在載入架構圖⋯⋯";try{const mermaid=await loadMermaid();if(attempt!==renderAttempt)return;mermaid.initialize({startOnLoad:false,securityLevel:"strict",theme:"base",htmlLabels:true,flowchart:{useMaxWidth:false,htmlLabels:true,curve:"basis",nodeSpacing:34,rankSpacing:54,padding:14},themeVariables:{fontFamily:'-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC",sans-serif',primaryColor:"#EAF2FA",primaryTextColor:"#172033",primaryBorderColor:"#315F91",lineColor:"#8190A5",clusterBkg:"#F8FAFC",clusterBorder:"#94A3B8"}});const result=await timeout(mermaid.render(`studyMap-${attempt}`,mermaidSource),"圖表繪製");if(attempt!==renderAttempt)return;diagram.className="";diagram.innerHTML=result.svg;result.bindFunctions?.(diagram);const svg=$("svg",diagram);if(!svg)throw new Error("Mermaid未回傳SVG");const viewBox=svg.viewBox.baseVal;naturalWidth=viewBox?.width||1200;svg.removeAttribute("width");svg.removeAttribute("height");svg.setAttribute("role","img");svg.setAttribute("aria-label","論文研究架構圖");bindNodes();fit()}catch(error){if(attempt!==renderAttempt)return;mermaidModule=null;fallback(error)}}
+
+    $("#sourceDisplay").textContent=mermaidSource;
+    $("#zoomOut").addEventListener("click",()=>setZoom((zoom??1)-.15));$("#zoomIn").addEventListener("click",()=>setZoom((zoom??1)+.15));$("#fit").addEventListener("click",fit);
+    $("#fullscreen").addEventListener("click",async()=>{const panel=$("#mapSection");try{document.fullscreenElement?await document.exitFullscreen():await panel.requestFullscreen()}catch(error){console.error(error)}});
+    renderStatistics();renderGlossary();renderDiscussions();renderEasyRead();initFontControls();renderDiagram();
+  </script>
+</body>
+</html>

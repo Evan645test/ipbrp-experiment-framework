@@ -1,0 +1,119 @@
+{
+  "checkedAt": "2026-09-17T11:34:03.727738+00:00",
+  "scope": "本機導讀首頁、八篇獨立導讀與統一閱讀入口；不以修改時間單獨判定。",
+  "paper01Change": "首頁舊版更新為 2026-09-15 本機最新的讀者追問試作版，保留試作身分與原內容。",
+  "originalPaper01Backup": "content/paper-01-guide-before-version-sync.html",
+  "papers": [
+    {
+      "id": "paper-01",
+      "sourceFile": "1. Incremental project-based robot programming - 讀者追問試作.html",
+      "sourceModifiedAt": "2026-09-14T16:14:54.214679+00:00",
+      "sha256": "e677752ab5c88238d63d37d5bf3fc87ef6c9a7692bcf8638fd25927bfa6b52fd",
+      "homepageMatchesSource": true,
+      "unifiedEntryMatchesSource": true
+    },
+    {
+      "id": "paper-02",
+      "sourceFile": "2. Concept Maps as a Content and Language Integrated Learning Facilitator - 互動導讀.html",
+      "sourceModifiedAt": "2026-09-13T07:45:46.805290+00:00",
+      "sha256": "d7a1f7d4867637081b50f859ecd841fcb406a6cb671d8905714c74a57717af4a",
+      "homepageMatchesSource": true,
+      "unifiedEntryMatchesSource": true
+    },
+    {
+      "id": "paper-03",
+      "sourceFile": "3. A gamified AI movement assessment and feedback approach - 互動導讀.html",
+      "sourceModifiedAt": "2026-09-14T02:24:12.581160+00:00",
+      "sha256": "3e26a871545e2f5046c225c7c20407d44b00f993c0b47dc74c09301858c48614",
+      "homepageMatchesSource": true,
+      "unifiedEntryMatchesSource": true
+    },
+    {
+      "id": "paper-04",
+      "sourceFile": "4. Enhancing engagement and collaborative creativity in health promotion education - 互動導讀.html",
+      "sourceModifiedAt": "2026-09-14T02:24:12.677834+00:00",
+      "sha256": "29f4ab90f21cc86a6869447da8a4dd958ea2216c2c3c1b4844cc45503868713b",
+      "homepageMatchesSource": true,
+      "unifiedEntryMatchesSource": true
+    },
+    {
+      "id": "paper-05",
+      "sourceFile": "5. Concept mapping as a critical thinking facilitator for generative AI-supported collaborative learning - 互動導讀.html",
+      "sourceModifiedAt": "2026-09-14T02:24:12.779162+00:00",
+      "sha256": "42a630845a29c39aebb7b58e3e07f8929909c4879fffd370f00cc7b4d968d878",
+      "homepageMatchesSource": true,
+      "unifiedEntryMatchesSource": true
+    },
+    {
+      "id": "paper-06",
+      "sourceFile": "6. Effects of integrating peer assessment with electromechanical game-based learning - 互動導讀.html",
+      "sourceModifiedAt": "2026-09-14T02:24:12.900198+00:00",
+      "sha256": "be4f0999d5be4227a0d5381fb09474889f07f938314f92f0aeb75db528c09e1c",
+      "homepageMatchesSource": true,
+      "unifiedEntryMatchesSource": true
+    },
+    {
+      "id": "paper-07",
+      "sourceFile": "7. Boosting Student Engagement in STEM - 互動導讀.html",
+      "sourceModifiedAt": "2026-09-13T11:44:02.365944+00:00",
+      "sha256": "cb18af8cb28e42f93edcb57169be92ff63fed701f284129e2090751e9fbfd063",
+      "homepageMatchesSource": true,
+      "unifiedEntryMatchesSource": true
+    },
+    {
+      "id": "paper-08",
+      "sourceFile": "8. Self-Explanation-Guided Virtual Museum Learning - 互動導讀.html",
+      "sourceModifiedAt": "2026-09-13T12:46:25.936186+00:00",
+      "sha256": "1d6a92e9acf869841174634333dbfbce8de461c258e6905ba52114a43a141e6e",
+      "homepageMatchesSource": true,
+      "unifiedEntryMatchesSource": true
+    }
+  ],
+  "publicCheck": {
+    "url": "https://evan645test.github.io/ipbrp-experiment-framework/",
+    "paperCount": 8,
+    "papers": [
+      {
+        "id": "paper-01",
+        "sha256": "c1cc08d5a8b444e0718716d15205f569ad67b9d6014bd8f1bd2315ea5c2e088f",
+        "matchesLatestLocal": false,
+        "matchesPreviousHomepageVersion": true
+      },
+      {
+        "id": "paper-02",
+        "sha256": "d7a1f7d4867637081b50f859ecd841fcb406a6cb671d8905714c74a57717af4a",
+        "matchesLatestLocal": true
+      },
+      {
+        "id": "paper-03",
+        "sha256": "3e26a871545e2f5046c225c7c20407d44b00f993c0b47dc74c09301858c48614",
+        "matchesLatestLocal": true
+      },
+      {
+        "id": "paper-04",
+        "sha256": "29f4ab90f21cc86a6869447da8a4dd958ea2216c2c3c1b4844cc45503868713b",
+        "matchesLatestLocal": true
+      },
+      {
+        "id": "paper-05",
+        "sha256": "42a630845a29c39aebb7b58e3e07f8929909c4879fffd370f00cc7b4d968d878",
+        "matchesLatestLocal": true
+      },
+      {
+        "id": "paper-06",
+        "sha256": "be4f0999d5be4227a0d5381fb09474889f07f938314f92f0aeb75db528c09e1c",
+        "matchesLatestLocal": true
+      },
+      {
+        "id": "paper-07",
+        "sha256": "cb18af8cb28e42f93edcb57169be92ff63fed701f284129e2090751e9fbfd063",
+        "matchesLatestLocal": true
+      },
+      {
+        "id": "paper-08",
+        "sha256": "1d6a92e9acf869841174634333dbfbce8de461c258e6905ba52114a43a141e6e",
+        "matchesLatestLocal": true
+      }
+    ]
+  }
+}
