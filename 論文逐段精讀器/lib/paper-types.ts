@@ -117,6 +117,7 @@ export interface PaperDocument {
   generatedAt: string;
   segments: PaperSegment[];
   readingOrderRepair?: { revision: string; previousSegmentIds: string[] };
+  sectionRepairs?: { segmentId: string; sourceText: string; sourceTextSha256: string; previousSection: string; section: string; heading: { text: string; page: number; bbox: number[]; pageSize: number[] } }[];
   inlineExhibitsEnabled?: boolean;
   readingUnitRepairs?: { revision: string; targetId: string; absorbedIds: string[]; previousSegments: PaperSegment[] }[];
   pendingReadingUnitRepairs?: string[];

@@ -146,13 +146,19 @@ export function loadCuratorDraft(source: PaperDocument): PaperDocument {
       exhibitCompanion: source.exhibitCompanion,
       readingQuality: quality,
       readingUnitRepairs: source.readingUnitRepairs,
+      sectionRepairs: source.sectionRepairs,
       pendingReadingUnitRepairs: pendingRepairs,
       segments: renumberSegments(segments.map((segment) => {
         const current = sourceSegments.get(segment.id);
         const plainRepair = source.readingQuality?.explanationRepairs.find(r => r.segmentId === segment.id);
+        const sectionRepair = source.sectionRepairs?.find(r => r.segmentId === segment.id);
         return {
           ...segment,
           ...(!Object.hasOwn(segment, "readingRole") && current?.sourceText === segment.sourceText ? { readingRole: current.readingRole, section: current.readingRole ? current.section : segment.section } : {}),
+          ...(sectionRepair && segment.sourceText === sectionRepair.sourceText && current?.section === sectionRepair.section
+            && segment.section === sectionRepair.previousSection && JSON.stringify(segment.fragments) === JSON.stringify(current.fragments)
+            && !["reviewed", "published"].includes(segment.reviewStatus) && segment.translation.status !== "reviewed"
+            ? { section: sectionRepair.section } : {}),
           ...(plainRepair && segment.sourceText === plainRepair.sourceText && JSON.stringify(segment.translation) === JSON.stringify(plainRepair.previousTranslation)
             && !["reviewed", "published"].includes(segment.reviewStatus) ? { translation: current!.translation } : {}),
           // Inherit new cleanup flags only for unchanged, unedited inclusion state.

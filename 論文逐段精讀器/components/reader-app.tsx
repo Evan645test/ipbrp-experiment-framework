@@ -828,7 +828,7 @@ function ReaderScreen({
   const relatedExhibits = (segment.exhibitIds ?? [])
     .map((id) => readingPaper.exhibits?.find((exhibit) => exhibit.id === id))
     .filter((exhibit): exhibit is PaperExhibit => Boolean(exhibit));
-  const focusFragments = relatedExhibits.length && !(paper.inlineExhibitsEnabled && segment.kind === "body")
+  const focusFragments = relatedExhibits.length && !paper.exhibitCompanion && !(paper.inlineExhibitsEnabled && segment.kind === "body")
     ? relatedExhibits.map((exhibit) => ({
         page: exhibit.page,
         bbox: exhibit.bbox,

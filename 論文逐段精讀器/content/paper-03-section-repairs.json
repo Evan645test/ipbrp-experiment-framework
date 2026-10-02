@@ -1,0 +1,366 @@
+{
+  "revision": "paper-03-pdf-section-repair-v1",
+  "paperId": "paper-03",
+  "sourceSha256": "31bb89a6483cbbd8d4e00a9df39fdfee0eb3bd036b17187a6effef2a4df46833",
+  "evidenceDate": "2026-10-02",
+  "reason": "同頁正文誤歸到後面的章節；依正文第一個 PDF 片段前最近的實際標題，修正章節名稱。保留全部段落 ID、原文、翻譯、順序、納入旗標與圖表關聯。",
+  "repairs": [
+    {
+      "segmentId": "paper-03-s-recovered-0b0f62df911e",
+      "sourceText": "In physical education (PE), students’ movement skills performance serves as a key indicator for assessing teaching effectiveness. Enhancing students’ movement skills requires fostering their understanding of relevant theoretical knowledge and ensuring their proper execution of movements. Additionally, it is imperative to minimize incorrect practice to prevent potential sports injuries and declines in performance, ultimately achieving the educational goal of skill improvement. However, providing personalized guidance tailored to each student’s individual needs presents significant challenges for teachers (Chao et al., 2021; Yan & Cardinal, 2013; Yan & FitzPatrick, 2016). As a consequence, scholars have introduced technology-assisted learning, which has successfully demonstrated its effectiveness in terms of supporting PE courses (Almusawi et al., 2021; Moon et al., 2023). In particular, the application of artificial intelligence (AI) has opened up more opportunities for technology-assisted learning and personalized guidance (Chen et al., 2022; Lai & Tu, 2024; Tu & Lu, 2025). For example, AI speech recognition technology can instantly translate and assist students in learning languages (Darvishi et al., 2022; Wang et al., 2023). Motion capture technology can analyze students’ movement skills performance and provide personalized guidance based on individual learning progress and challenges (Hsia et al., 2024, 2025; Li et al., 2024; Song, 2024). These studies have indicated that the personalized feedback provided by AI can indeed help most students learn more efficiently. However, some students have reported difficulties in understanding the learning performance analysis provided by AI, suggesting that they require additional support to fully comprehend their issues (Liu et al., 2024; Song, 2024; Wang et al., 2023). To address this issue, some scholars have suggested providing a visualized learning analytics dashboard that presents key indicators through simple charts, helping students understand and reflect on their learning process (Lee & Kim, 2024). In line with this recommendation, this study presented assessment results in a visualized format to assist students in overcoming language barriers and in understanding movement skills guidance.",
+      "sourceTextSha256": "0b0f62df911e070654f83a30ef613a555237114cd19ba7b7a1bcb7b624cd4022",
+      "previousSection": "Introduction",
+      "section": "1 Introduction",
+      "heading": {
+        "text": "1 Introduction",
+        "page": 2,
+        "bbox": [
+          51.02,
+          54.98,
+          124.63,
+          68.61
+        ],
+        "pageSize": [
+          439.3699951171875,
+          666.1420288085938
+        ]
+      }
+    },
+    {
+      "segmentId": "paper-03-s-55fe0af9497d",
+      "sourceText": "The application of digital technology offers a potential solution, demonstrating its ability to enhance instructional effectiveness. For example, Moon et al. (2023) developed a real-time virtual PE class observation system to support the quality of instruction in remote teaching settings. The integration of wearable technology has also been shown to improve students’ movement skills performance and health behaviors (Almusawi et al., 2021). Additionally, Chen (2024) indicated that new media teaching models incorporating big data analytics could significantly enhance students’ teamwork skills. Furthermore, digital teaching approaches have been shown to significantly influence students’ motivation for sports participation (Botagariyev et al., 2024). These studies highlight the important role of technology-assisted instruction in improving the effectiveness of PE courses and enhancing students’ overall learning experiences.",
+      "sourceTextSha256": "0172f3e64828f45a2401b21de3daedd9c520d80b887747152b3463cfb60977fb",
+      "previousSection": "2.2 AI-Assisted learning",
+      "section": "2.1 Learning challenges of students and the support provided by digital technologies in PE courses",
+      "heading": {
+        "text": "2.1 Learning challenges of students and the support provided by digital technologies in PE courses",
+        "page": 4,
+        "bbox": [
+          51.02,
+          80.92,
+          352.33,
+          104.36
+        ],
+        "pageSize": [
+          439.3699951171875,
+          666.1420288085938
+        ]
+      }
+    },
+    {
+      "segmentId": "paper-03-s-1cc97bdfb79c",
+      "sourceText": "In this regard, AI-assisted learning has emerged as a potential solution. AI can provide instant and personalized feedback based on individual students’ practicing performance (Guo & Li, 2021; Hsia et al., 2024; Song, 2024). As a result, designing intelligent and personalized AI learning tools is a critical issue for achieving more effective cross-cultural PE education and fostering students’ skills development.",
+      "sourceTextSha256": "59fbb56fa68f608c3651669493716031b0c06829345f3dfb8caeaa4ca67fa615",
+      "previousSection": "2.2 AI-Assisted learning",
+      "section": "2.1 Learning challenges of students and the support provided by digital technologies in PE courses",
+      "heading": {
+        "text": "2.1 Learning challenges of students and the support provided by digital technologies in PE courses",
+        "page": 4,
+        "bbox": [
+          51.02,
+          80.92,
+          352.33,
+          104.36
+        ],
+        "pageSize": [
+          439.3699951171875,
+          666.1420288085938
+        ]
+      }
+    },
+    {
+      "segmentId": "paper-03-s-bda3a4e83eb9",
+      "sourceText": "However, insufficient student engagement remains a significant challenge in PE courses, making it critical to find effective ways to enhance participation. Scholars have suggested that incorporating gamification strategies can significantly improve student engagement (Feng et al., 2024). For example, designing engaging interactive experiences and competitive mechanisms can promote active learning.",
+      "sourceTextSha256": "fc52b19505020dee667643b16f0ed4f41b252c320b2b79d5727d603b39307eaf",
+      "previousSection": "2.3 Gamified learning mechanisms",
+      "section": "2.2 AI-Assisted learning",
+      "heading": {
+        "text": "2.2 AI-Assisted learning",
+        "page": 4,
+        "bbox": [
+          51.02,
+          404.92,
+          151.94,
+          416.36
+        ],
+        "pageSize": [
+          439.3699951171875,
+          666.1420288085938
+        ]
+      }
+    },
+    {
+      "segmentId": "paper-03-s-d3e080dd0f00",
+      "sourceText": "For this study, we employed C + + to develop a G-AI-MAF approach aimed at enhancing student engagement through novel and engaging gamification mechanisms. Additionally, the approach sought to support students in understanding AI-generated personalized feedback via a visualized learning analytics dashboard. As shown in Fig. 1, the system consists of two primary modules: the gamified visual interactive module and the AI recognition and analysis module.",
+      "sourceTextSha256": "c5639e7baad1fad5e7cdbab900b1a932a0d3ed9fba515e39de9dbd89d2a3c608",
+      "previousSection": "2.3 Gamified learning mechanisms",
+      "section": "3 The G-AI-MAF approach",
+      "heading": {
+        "text": "3 The G-AI-MAF approach",
+        "page": 7,
+        "bbox": [
+          51.02,
+          102.98,
+          178.58,
+          116.61
+        ],
+        "pageSize": [
+          439.3699951171875,
+          666.1420288085938
+        ]
+      }
+    },
+    {
+      "segmentId": "paper-03-s-3d80198491e5",
+      "sourceText": "To attract students’ attention, the system featured a clear and intuitive user interface along with gamified interactive competition elements to sustain their engagement. Additionally, it incorporated personalized virtual avatars, allowing students to customize their character’s appearance, background, and nickname. Based on their scores, students could earn titles, achievements, and badges (see Fig. 2). These gamification mechanisms provided visual stimuli and real-time interactive feedback, effectively capturing students’ attention and fostering a stimulating, curiosity-driven learning experience.",
+      "sourceTextSha256": "d69e26501b65ce9806b81642f7b18542f77c94d397125608ec47994cb57183ed",
+      "previousSection": "3.2 Relevance model",
+      "section": "3.1 Attention model",
+      "heading": {
+        "text": "3.1 Attention model",
+        "page": 8,
+        "bbox": [
+          51.02,
+          176.92,
+          137.22,
+          188.36
+        ],
+        "pageSize": [
+          439.3699951171875,
+          666.1420288085938
+        ]
+      }
+    },
+    {
+      "segmentId": "paper-03-s-24d9506c73b4",
+      "sourceText": "The system provided a personalized learning environment to help students gradually build their self-confidence. For instance, students could review learning resources and practice at their own pace. After each assessment, the system offered real-time feedback, allowing students to intuitively understand their progress in mastering the skills. Moreover, the system provided students with a learning record to review feedback from previous assessments (see Fig. 4). By viewing their learning records, students could connect their efforts with their progress, have more opportunities to practice based on their needs, and gradually improve their performance, thereby boosting their learning confidence.",
+      "sourceTextSha256": "6dcc717fd847c27346ca8cc57a5f33bfab7c63ccd41cd4ee6ed8170d05f847c9",
+      "previousSection": "3.4 Satisfaction model",
+      "section": "3.3 Confidence model",
+      "heading": {
+        "text": "3.3 Confidence model",
+        "page": 9,
+        "bbox": [
+          51.02,
+          296.92,
+          143.7,
+          308.36
+        ],
+        "pageSize": [
+          439.3699951171875,
+          666.1420288085938
+        ]
+      }
+    },
+    {
+      "segmentId": "paper-03-s-8a22436ce801",
+      "sourceText": "This study aimed to verify the impact of the G-AI-MAF approach on learners’ movement skills performance. It was applied in a yogism course to collect relevant data. Students were divided into an experimental group and a control group. After completing the learning activities, we compared the effects of the different learning approaches on students’ learning outcomes, and explored the underlying reasons for any differences.",
+      "sourceTextSha256": "e2b84aea6aa1c7aa09b10a507a1bcdcd213cf3d96151dcb6c090984f9a4096cd",
+      "previousSection": "3.4 Satisfaction model",
+      "section": "4 Research design",
+      "heading": {
+        "text": "4 Research design",
+        "page": 11,
+        "bbox": [
+          51.02,
+          54.98,
+          142.1,
+          68.61
+        ],
+        "pageSize": [
+          439.3699951171875,
+          666.1420288085938
+        ]
+      }
+    },
+    {
+      "segmentId": "paper-03-s-cc9f86268771",
+      "sourceText": "This study adopted a quasi-experimental design. The participants were two classes of university students from a university of science and technology in central Taiwan. All of then were from non-sport-related academic discipline, and their ages ranged from 19 to 20 years. Most were beginners who had never been exposed to yogism before.",
+      "sourceTextSha256": "1b8a723ddb044a22d991812b58dee473654f9b2a8b3784b3fda797350849db1a",
+      "previousSection": "4.2 Experimental procedure",
+      "section": "4.1 Participants",
+      "heading": {
+        "text": "4.1 Participants",
+        "page": 11,
+        "bbox": [
+          51.02,
+          164.92,
+          119.04,
+          176.36
+        ],
+        "pageSize": [
+          439.3699951171875,
+          666.1420288085938
+        ]
+      }
+    },
+    {
+      "segmentId": "paper-03-s-3c5e4b5cb416",
+      "sourceText": "One class (n = 40) was assigned as the experimental group using the G-AI-MAF approach, and the other (n = 40) served as the control group using the C-AI-MAF approach. To mitigate potential selection bias associated with this class-level assignment, a pretest was conducted. The homogeneity test (Sect. 5.1) indicated no significant differences in the two groups’ initial skill levels. Moreover, all of the students were taught by the same teacher with over 10 years of yogism teaching experience.",
+      "sourceTextSha256": "d5684c72f99d11ba350ff95d334c18015bb79723e24c5dd930ed1762468dd694",
+      "previousSection": "4.2 Experimental procedure",
+      "section": "4.1 Participants",
+      "heading": {
+        "text": "4.1 Participants",
+        "page": 11,
+        "bbox": [
+          51.02,
+          164.92,
+          119.04,
+          176.36
+        ],
+        "pageSize": [
+          439.3699951171875,
+          666.1420288085938
+        ]
+      }
+    },
+    {
+      "segmentId": "paper-03-s-7f389dc781c7",
+      "sourceText": "This study adapted the learning engagement formula proposed by Hwang et al. (2007) to fit its context. The formula for calculating learning engagement is LE(Si) = (T(Si)/MaxT + R(Si)/MaxR)/2, where LE(Si) represents the learning engagement score of a student Si, T(Si) is the number of times student Si logs into the system, and MaxT is the highest login frequency among peers. R(Si) is the number of photos uploaded by student Si, and MaxR is the highest number of photo uploads among peers. The learning engagement score ranges from 0 to 1, with higher values indicating greater student engagement. This formula was used in this study to evaluate students’ engagement in the learning activities.",
+      "sourceTextSha256": "5f86da15fc6fe6a9b8b52ce47105b14833fc322818ff1ded53fe208f4898f4e5",
+      "previousSection": "4.4 Data analysis",
+      "section": "4.3.2 Learning engagement",
+      "heading": {
+        "text": "4.3.2 Learning engagement",
+        "page": 13,
+        "bbox": [
+          51.02,
+          165.0,
+          164.5,
+          176.36
+        ],
+        "pageSize": [
+          439.3699951171875,
+          666.1420288085938
+        ]
+      }
+    },
+    {
+      "segmentId": "paper-03-s-66cf3e9ae338",
+      "sourceText": "This study adopted the game-based learning behavior coding scheme proposed by Yang et al. (2018) and applied it to its learning context. The revised coding scheme is outlined in Table 1.",
+      "sourceTextSha256": "28ed8ffe14123c0a3757f83b4c9bfe4aad9a6d321cb3196dc63d563c26d12956",
+      "previousSection": "4.4 Data analysis",
+      "section": "4.3.3 Behavioral patterns",
+      "heading": {
+        "text": "4.3.3 Behavioral patterns",
+        "page": 13,
+        "bbox": [
+          51.02,
+          309.0,
+          154.17,
+          320.36
+        ],
+        "pageSize": [
+          439.3699951171875,
+          666.1420288085938
+        ]
+      }
+    },
+    {
+      "segmentId": "paper-03-s-82cc779f671f",
+      "sourceText": "Z-score greater than 1.96 (Bakeman & Gottman, 1997) was considered significant for identifying meaningful behavioral patterns.",
+      "sourceTextSha256": "ff96f634324f2e7387e1adc24633434214b2da74a6e35fa4004865aff2ffca1b",
+      "previousSection": "5.2 Learning engagement",
+      "section": "4.4 Data analysis",
+      "heading": {
+        "text": "4.4 Data analysis",
+        "page": 13,
+        "bbox": [
+          51.02,
+          380.92,
+          123.74,
+          392.36
+        ],
+        "pageSize": [
+          439.3699951171875,
+          666.1420288085938
+        ]
+      }
+    },
+    {
+      "segmentId": "paper-03-s-ecc98bcf8485",
+      "sourceText": "To exclude the impact of pretest scores on the results, the homogeneity of regression coefficients was first tested. The results indicated that the F-value did not reach significance (F = 3.09, p =.08 >.05), suggesting that the pretest scores of the two groups were homogeneous. Therefore, ANCOVA could be performed.",
+      "sourceTextSha256": "e28a3ab416e0880530f75be32fc1e9832fbf4ea86b338b7de07a8c34b4cae0a0",
+      "previousSection": "5.2 Learning engagement",
+      "section": "5.1 Yogism movement skills performance",
+      "heading": {
+        "text": "5.1 Yogism movement skills performance",
+        "page": 14,
+        "bbox": [
+          51.02,
+          380.92,
+          223.8,
+          392.36
+        ],
+        "pageSize": [
+          439.3699951171875,
+          666.1420288085938
+        ]
+      }
+    },
+    {
+      "segmentId": "paper-03-s-baa03a55d5fb",
+      "sourceText": "Table 2 shows that the experimental group demonstrated significantly better learning performance than the control group (F = 19.93, p =.000 <.001), with a large effect size (η² = 0.21). The adjusted mean for the experimental group was 2.47, while that for the control group was 2.18. This indicated that the G-AI-MAF approach led to superior yogism movement skills performance.",
+      "sourceTextSha256": "8b3b9c32f9b486995831e9f2cbcb13165fc36d8172b305ce2d26a30b78d16103",
+      "previousSection": "5.2 Learning engagement",
+      "section": "5.1 Yogism movement skills performance",
+      "heading": {
+        "text": "5.1 Yogism movement skills performance",
+        "page": 14,
+        "bbox": [
+          51.02,
+          380.92,
+          223.8,
+          392.36
+        ],
+        "pageSize": [
+          439.3699951171875,
+          666.1420288085938
+        ]
+      }
+    },
+    {
+      "segmentId": "paper-03-s-e5df3ed8e86f",
+      "sourceText": "As for the Z-scores, the experimental group had the highest Z-score for the behavior W→R (32.82), demonstrating their strong focus on receiving immediate feedback after taking the weekly test. Similarly, for the behaviors T↔R and P↔D, the experimental group significantly outperformed the control group, demonstrating that students more frequently switched between test results and learning data. In contrast, the control group’s behavioral patterns were more simplified, with less frequent utilization of feedback from test results.",
+      "sourceTextSha256": "481dba02f1d2343177ada72d0eca2ff0dfc467ef7c96b74f771097e5546e4b20",
+      "previousSection": "6 Discussion and conclusions",
+      "section": "5.3 Analysis of behavioral patterns",
+      "heading": {
+        "text": "5.3 Analysis of behavioral patterns",
+        "page": 15,
+        "bbox": [
+          51.02,
+          344.92,
+          197.3,
+          356.36
+        ],
+        "pageSize": [
+          439.3699951171875,
+          666.1420288085938
+        ]
+      }
+    },
+    {
+      "segmentId": "paper-03-s-654da86fc1f2",
+      "sourceText": "These differences were primarily reflected in more frequent transitions related to test-taking and result review in the experimental group. The experimental group demonstrated higher learning efficiency and more diverse behavioral patterns, particularly in terms of viewing test results and utilizing system functions more actively. In contrast, the control group had more simplified behaviors and limited use of system functions, leading to relatively lower learning engagement.",
+      "sourceTextSha256": "0a1951a1ba744282fe890e912baeb608e30e79a8705bf3878c26ee9ab1e0f331",
+      "previousSection": "6 Discussion and conclusions",
+      "section": "5.3 Analysis of behavioral patterns",
+      "heading": {
+        "text": "5.3 Analysis of behavioral patterns",
+        "page": 15,
+        "bbox": [
+          51.02,
+          344.92,
+          197.3,
+          356.36
+        ],
+        "pageSize": [
+          439.3699951171875,
+          666.1420288085938
+        ]
+      }
+    }
+  ]
+}

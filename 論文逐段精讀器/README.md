@@ -55,6 +55,18 @@ npm run dev
 
 預設網址為 `http://localhost:5173/`。本機閱讀進度、書籤、筆記與校編草稿都存在瀏覽器 `localStorage`，不會上傳。
 
+## 第三篇正文聚焦與章節名稱修正
+
+第三篇部分正文曾被歸到同頁後面的章節，造成「3.1 Attention model」與「3.3 Confidence model」等名稱缺失。現依原 PDF 標題位置修正 17 段的章節歸屬，保留原段落 ID、原文、翻譯、閱讀順序與圖表關聯。圖表伴讀視窗開啟時，左側 PDF 維持聚焦目前正文，避免引用圖表取代正文焦點、使段落被遮暗。證據保存在 `content/paper-03-section-repairs.json`，舊本機校編稿只在原文、位置、舊章節名稱一致且未人工校訂時更新章節，保留使用者自訂名稱與納入／排除決定。
+
+```bash
+python3 scripts/repair_paper03_sections.py
+node scripts/test_paper03_sections.mjs
+node scripts/browser_paper03_sections.mjs
+```
+
+重建七篇伴讀資料時會自動套用這份修正。單獨重新擷取原始資料後，需先完成原有伴讀資料處理，再執行章節修正。Python 指向已安裝 PyMuPDF 的環境才可執行 PDF 證據檢查。
+
 ## 導讀內容對齊與驗證
 
 新增答案與原文證據保存在 `content/guide-alignment/paper-02.json` 至 `paper-08.json`，研究缺口保留來源段落 ID、英文原文與 SHA-256；原導讀備份在同目錄 `originals/`。建置器先核對 PDF 與原文雜湊，才建立完整頁面。需 Python 3.11 以上與 Beautiful Soup 4：

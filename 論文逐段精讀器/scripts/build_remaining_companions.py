@@ -16,6 +16,7 @@ from build_paper01_companion import tokens
 from link_exhibits import reference_keys
 from validate_phase_a import validate_paper
 from prepare_remaining_papers import ROOT, PLAN
+from repair_paper03_sections import apply_section_repairs
 
 REVISION='remaining-papers-companion-v1'
 STAGED=ROOT/'content/remaining-papers-staged.json'
@@ -207,6 +208,7 @@ def main():
             existing=overrides['papers'][pid]['segments'].get(s['id'])
             if existing and existing.get('status')=='reviewed' and existing!=s['translation']:raise ValueError('Reviewed cache cannot be replaced')
             overrides['papers'][pid]['segments'][s['id']]=copy.deepcopy(s['translation'])
+        p=apply_section_repairs(p)
         validate_paper(p,ROOT/'public')
         entry=next(e for e in library['papers'] if e['id']==pid)
         entry.update(segmentCount=len(p['segments']),includedSegmentCount=sum(not s.get('excluded') for s in p['segments']),bodySegmentCount=len(core(p)),exhibitCount=len(p['exhibits']))
