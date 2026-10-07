@@ -14,10 +14,10 @@
 
 ## 安裝到 Codex
 
-在 Codex 對話中貼上：
+在 Codex 對話中貼上以下要求。這個儲存庫也保存網站素材；指定 Git 模式可只取 skill 目錄，避免下載整個網站封存檔：
 
 ```text
-請安裝這個 skill：
+請使用 skill-installer 的 Git 模式（--method git），只安裝這個 skill：
 https://github.com/Evan645test/ipbrp-experiment-framework/tree/main/skills/paper-to-interactive-study-page
 ```
 
