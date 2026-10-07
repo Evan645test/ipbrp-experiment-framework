@@ -1,0 +1,4 @@
+interface:
+  display_name: "論文互動導讀單頁"
+  short_description: "把學術PDF轉成含架構圖、名詞、討論與易讀解說的單頁網站"
+  default_prompt: "Use $paper-to-interactive-study-page to turn this academic PDF into one integrated interactive reading webpage."

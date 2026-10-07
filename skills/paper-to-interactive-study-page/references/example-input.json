@@ -1,0 +1,117 @@
+{
+  "page_title": "示例研究｜互動導讀",
+  "title": "示例研究：互動導讀",
+  "subtitle": "研究架構、名詞、核心討論與易讀解說",
+  "source_note": "這是格式測試資料，不代表任何真實研究；實際使用時必須全部替換。",
+  "mermaid": "flowchart TD\nA[\"研究目的\"] --> B[\"研究對象\"]\nB --> C[\"資料分析\"]\nC --> D[\"研究結果\"]\nclassDef common fill:#EAF2FA,stroke:#315F91,color:#172033,stroke-width:2px;\nclassDef result fill:#E8EAFD,stroke:#4F46E5,color:#172033,stroke-width:2px;\nclass A,B,C common;\nclass D result;",
+  "node_details": {
+    "A": {
+      "title": "研究目的",
+      "summary": "示例研究提出一個待檢驗問題。",
+      "explanation": "這是建置器測試文字。實際內容必須依據目標論文改寫。",
+      "page": "PDF第1頁",
+      "color": "#315F91"
+    },
+    "B": {
+      "title": "研究對象",
+      "summary": "示例資料描述參與者。",
+      "explanation": "實際使用時填入樣本、場域、招募與限制。",
+      "page": "PDF第2頁",
+      "color": "#315F91"
+    },
+    "C": {
+      "title": "資料分析",
+      "summary": "示例資料使用一項分析方法。",
+      "explanation": "實際使用時說明分析如何對應研究問題。",
+      "page": "PDF第3頁",
+      "color": "#315F91"
+    },
+    "D": {
+      "title": "研究結果",
+      "summary": "示例資料呈現一項發現。",
+      "explanation": "實際使用時保留方向、數值、不確定性與比較基準。",
+      "page": "PDF第4頁",
+      "color": "#4F46E5"
+    }
+  },
+  "statistics": [
+    {
+      "name": "示例統計方法",
+      "label": "TEST",
+      "meaning": "示範方法說明欄位。",
+      "reason": "示範方法與設計的對應欄位。",
+      "caution": "這不是任何真實論文的統計結論。",
+      "color": "#4F46E5"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "TERM",
+      "full_name": "示例名詞",
+      "explanation": "示範名詞解釋欄位。",
+      "page": "PDF第1頁",
+      "color": "#315F91"
+    }
+  ],
+  "discussions": [
+    {
+      "title": "研究目的、重要性與過去嘗試",
+      "question": "研究目的為何，為什麼重要，過去有哪些嘗試？",
+      "blocks": [
+        {"type": "subheading", "text": "研究目的"},
+        {"type": "paragraph", "text": "這是格式測試，實際內容必須以論文證據取代。"},
+        {"type": "bullets", "items": ["重要性測試項目", "過去研究測試項目"]}
+      ],
+      "page": "PDF第1頁"
+    },
+    {
+      "title": "研究不足、策略與理論",
+      "question": "既有研究有何不足，本文如何處理？",
+      "blocks": [
+        {"type": "paragraph", "text": "示範研究缺口、方法與理論說明。"},
+        {"type": "note", "text": "示例資料不是可引用的研究結論。"}
+      ],
+      "page": "PDF第1至2頁"
+    },
+    {
+      "title": "研究問題與研究設計",
+      "question": "作者如何設計研究來回答問題？",
+      "blocks": [
+        {"type": "table", "headers": ["面向", "示例內容"], "rows": [["對象", "格式測試樣本"], ["測量", "格式測試工具"]]}
+      ],
+      "page": "PDF第2至3頁"
+    },
+    {
+      "title": "研究結果與作者解釋",
+      "question": "結果為何，作者如何解釋？",
+      "blocks": [
+        {"type": "paragraph", "text": "示範直接結果欄位。"},
+        {"type": "paragraph", "text": "示範作者解釋欄位。"},
+        {"type": "note", "text": "示範推論限制欄位。"}
+      ],
+      "page": "PDF第4頁"
+    }
+  ],
+  "easy_read": {
+    "intro": "這是建置器的格式測試資料，不代表任何真實論文。",
+    "sections": [
+      {
+        "title": "先說結論",
+        "blocks": [{"type": "paragraph", "text": "用白話先回答研究核心問題。"}]
+      },
+      {
+        "title": "研究怎麼進行",
+        "blocks": [
+          {"type": "numbered", "items": ["整理研究對象", "說明資料蒐集", "交代分析方法"]}
+        ]
+      },
+      {
+        "title": "結果與限制",
+        "blocks": [
+          {"type": "paragraph", "text": "保留結果的方向、數值與適用範圍。"},
+          {"type": "note", "text": "清楚標示研究限制與未報告資訊。"}
+        ]
+      }
+    ]
+  }
+}

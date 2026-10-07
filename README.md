@@ -28,3 +28,7 @@ cp -R dist-static/. ..
 ```
 
 根目錄為 GitHub Pages 可直接使用的靜態輸出；完整程式與建置設定保存在 `論文逐段精讀器/`。原框架的本機啟動與建置方式保持可用，不需要雲端 API 金鑰或資料庫。根目錄的 `.nojekyll` 確保靜態檔案能直接使用。
+
+## 可重用的論文導讀 Skill
+
+如果要把另一篇學術 PDF 製成可點擊研究架構、名詞解釋、統計白話說明與易讀解說，可安裝本儲存庫的 [paper-to-interactive-study-page skill](skills/paper-to-interactive-study-page/README.md)。它產生單篇導讀 HTML；本站的多篇首頁、逐段精讀與筆記功能另由網站程式提供。
